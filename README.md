@@ -11,6 +11,9 @@
 
 ## 构建
 
+参考 [Fyne Getting Started](https://docs.fyne.io/started/)，需要安装 C 编译器，可以使用
+[Fyne Cross Compiling](https://docs.fyne.io/started/cross-compiling) 交叉编译。
+
 ```
 go build
 ```
@@ -19,7 +22,6 @@ go build
 
 ```
 ./typer --help
-
 
 exort FYNE_FONT=/path/to/some-chinese-font.ttf
 ./typer
