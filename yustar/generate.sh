@@ -6,6 +6,9 @@ set -euo pipefail
 
 ./analyze-roots-of-yustar-input-method.pl "$1"/yustar_chaifen*.dict.yaml | cut -f2,3 | sort -u -k2 -k1 > roots.tsv
 
+curl -s 'https://521github.com/extdomains/raw.githubusercontent.com/forFudan/yu/main/src/public/zigen-star.csv' |
+    perl -CSDA -lnE 'next if $. == 1; s/,/\t/; print' | sort -k2 -k1 > zigen-star.tsv
+
 perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) && /^\s*-\s+(.\S+)/' "$1/yustar.dict.yaml" |
     sed -e "s|^|$1|" |
     xargs perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' > mabiao.tsv
