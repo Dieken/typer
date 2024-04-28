@@ -23,7 +23,8 @@ go build
 ```
 ./typer --help
 
-exort FYNE_FONT=/path/to/some-chinese-font.ttf
+#export FONT_SCALE=2.0                          # 字体放大
+exort FYNE_FONT=/path/to/TH-Tshyn-P0.ttf        # http://cheonhyeong.com/Simplified/download.html
 ./typer
 ```
 
