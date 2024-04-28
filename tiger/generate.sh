@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-./analyze-roots-of-tiger-input-method.pl "$1/opencc/hu_cf.txt" "$1/tiger.dict.yaml" | cut -f2,3 | sort -u -k2 -k1 > roots.tsv
+./analyze-roots-of-tiger-input-method.pl "$1/opencc/hu_cf.txt" | cut -f2,3 | sort -u -k2 -k1 > roots.tsv
 
 perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' "$1/tiger.dict.yaml" > mabiao.tsv
 
