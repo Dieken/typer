@@ -30,6 +30,7 @@ exort FYNE_FONT=/path/to/TH-Tshyn-P0.ttf        # http://cheonhyeong.com/Simplif
 
 ## 预制文件
 
+* sbfd/: [声笔飞单](https://sbxlm.github.io/sbfd/)字根表、拆分表、码表；
 * sky/:  [天码](https://yuhao.forfudan.com/docs/tianma.html)字根表、拆分表、码表；
 * yustar/: [宇浩星陈](https://yuhao.forfudan.com/learn/)字根表、拆分表、码表；
 * tiger/: [虎码](https://tiger-code.com)字根表、拆分表、码表；
