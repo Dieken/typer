@@ -53,6 +53,7 @@ sub analyze($fh) {
             $unknown_roots{$a[1]} = "--";
         } elsif (@a == 3) {
             say "$char\t", $a[2], "\t", ucfirst(substr($code, 2, 2));
+            $unknown_roots{$a[2]} = "--";
 
             for (0 .. 1) {
                 $unknown_roots{$a[$_]} = uc(substr($code, $_, 1)) . "?" unless $unknown_roots{$a[$_]};
