@@ -85,6 +85,7 @@ function charinfo(s) {
         j -= chars[i];
         let a = [c];
         let b = chars[i + 1][j];
+        if (! b) { r.push([c, null]); break; }
         a.push(b[0]);
         for (let k = 1; k < b.length; ++k) {
           a.push(roots[2 * b[k]], roots[2 * b[k] + 1]);
