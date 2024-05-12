@@ -4,7 +4,10 @@
 #
 # Usage:
 #   ./add-sbfx-error-resilient-codes.pl path/to/github.com/sbsrf/sbsrf/sbxlm [声笔字.tsv]
+#   cp path/to/github.com/sbsrf/sbsrf/sbxlm/sbfd.dict.yaml.resilient ~/Library/Rime/sbfd.dict.yaml
 #   cp path/to/github.com/sbsrf/sbsrf/sbxlm/sbfm.extended.dict.yaml.resilient ~/Library/Rime/sbfm.extended.dict.yaml
+#   cd ~/Library/Rime
+#   "/Library/Input Methods/Squirrel.app/Contents/MacOS/rime_deployer" --compile sbfd.schema.yaml
 #   "/Library/Input Methods/Squirrel.app/Contents/MacOS/rime_deployer" --compile build/sbfm2.schema.yaml
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
@@ -17,11 +20,11 @@ use Encode   qw(decode);
 use autodie;
 
 my $sbfm_extended_dict_file = ($ARGV[0] // ".") . "/sbfm.extended.dict.yaml";
-#my $sbfd_dict_file = ($ARGV[0] // ".") . "/sbfd.dict.yaml";
+my $sbfd_dict_file = ($ARGV[0] // ".") . "/sbfd.dict.yaml";
 my $sb_char_file = $ARGV[1] // "声笔字.tsv";
 
 my %sb_chars;
-#my %sp_chars;
+my %sp_chars;
 my ($fh, $fh2);
 
 open $fh, "<", $sb_char_file;
@@ -30,7 +33,12 @@ while (<$fh>) {
     my @a = split;
     if ($a[0] =~ /^\p{Han}$/ && $a[3] =~ /^[a-z]$/) {
         $sb_chars{$a[0]} = $a[3];
-        #$sp_chars{substr($a[1], 0, 1) . $a[3]} = $a[0];
+
+        my $strokes = substr($a[4], 0, 3);
+        if (length($strokes) < 3) {
+            $strokes .= substr($strokes, -1, 1) x (3 - length($strokes));
+        }
+        $sp_chars{substr($a[1], 0, 1) . $a[3]}{$a[0]} = $strokes;
     }
 }
 close $fh;
@@ -67,27 +75,29 @@ while (<$fh>) {
 close $fh; undef $fh;
 close $fh2; undef $fh2;
 
-#print "writing to $sbfd_dict_file.resilient ...\n";
-#open $fh2, ">", "$sbfd_dict_file.resilient";
-#open $fh, "<", "$sbfd_dict_file";
-#while (<$fh>) {
-#    print $fh2 $_;
-#
-#    # 增加声笔字的声偏字容错码，权重低于已有的声偏字
-#    my ($char, $sep1, $code1, $sep2, $weight, $sep3, $code2, $extra) =
-#        $_ =~ /^(\p{Han})(\s+)([a-z][^aeuio])(\s+)(\d+)(\s+)([a-z]+)(.*)$/;
-#
-#    next unless $code1 && $code2 && exists $sp_chars{$code1};
-#
-#    print $fh2 $sp_chars{$code1},
-#        $sep1,
-#        $code1,
-#        $sep2,
-#        $weight > 1 ? $weight - 1 : 0,
-#        $sep3,
-#        $code1,
-#        $extra,
-#        "\n";
-#}
-#close $fh;
-#close $fh2;
+print "writing to $sbfd_dict_file.resilient ...\n";
+open $fh2, ">", "$sbfd_dict_file.resilient";
+open $fh, "<", "$sbfd_dict_file";
+while (<$fh>) {
+    print $fh2 $_;
+
+    # 增加声笔字的声偏字容错码，权重低于已有的声偏字
+    my ($char, $sep1, $code1, $sep2, $weight, $sep3, $code2, $extra) =
+        $_ =~ /^(\p{Han})(\s+)([a-z][^aeuio])(\s+)(\d+)(\s+)([a-z]+)(.*)$/;
+
+    next unless $code1 && $code2 && exists $sp_chars{$code1};
+
+    for (sort keys %{ $sp_chars{$code1} }) {
+        print $fh2 $_,
+            $sep1,
+            $code1,
+            $sep2,
+            $weight > 1 ? $weight - 1 : 0,
+            $sep3,
+            $code1 . $sp_chars{$code1}{$_},
+            $extra,
+            "\n";
+    }
+}
+close $fh;
+close $fh2;
