@@ -22,7 +22,7 @@ import (
 )
 
 func main() {
-	radicalTableFile := flag.String("radical-table", "roots.tsv", "radical table file, radical to code")
+	rootTableFile := flag.String("root-table", "roots.tsv", "root table file, root to code")
 	codeTableFile := flag.String("code-table", "mabiao.tsv", "code table file, character or word to code")
 	chaifenTableFile := flag.String("chaifen-table", "chaifen.tsv", "chaifen table file, character to roots")
 	wordTableFile := flag.String("word-table", "", "word table file, one word per line, default to code table")
@@ -31,12 +31,12 @@ func main() {
 
 	flag.Parse()
 
-	radicalTable, err := readKVTable(*radicalTableFile)
+	rootTable, err := readKVTable(*rootTableFile)
 	if err != nil {
-		fmt.Printf("Failed to read radical table `%s`: %s\n", *radicalTableFile, err)
+		fmt.Printf("Failed to read root table `%s`: %s\n", *rootTableFile, err)
 		return
 	}
-	normalizeRadicalTable(radicalTable)
+	normalizeRootTable(rootTable)
 
 	codeTable, err := readKVTable(*codeTableFile)
 	if err != nil {
@@ -61,8 +61,8 @@ func main() {
 		return
 	}
 
-	fmt.Printf("%d radicals, %d codes, %d chaifens, %d words\n",
-		len(radicalTable), len(codeTable), len(chaifenTable), len(wordTable))
+	fmt.Printf("%d roots, %d codes, %d chaifens, %d words\n",
+		len(rootTable), len(codeTable), len(chaifenTable), len(wordTable))
 
 	if len(wordTable) == 0 {
 		fmt.Println("Empty word table!")
@@ -94,7 +94,7 @@ func main() {
 	chaifenLabel := widget.NewLabel("")
 
 	updateUI(counterLabel, wordLabel, codeLabel, chaifenLabel,
-		radicalTable, codeTable, chaifenTable, wordTable, typerState)
+		rootTable, codeTable, chaifenTable, wordTable, typerState)
 
 	counterLabel.Alignment = fyne.TextAlignTrailing
 	wordLabel.Alignment = fyne.TextAlignCenter
@@ -108,7 +108,7 @@ func main() {
 		}
 
 		updateUI(counterLabel, wordLabel, codeLabel, chaifenLabel,
-			radicalTable, codeTable, chaifenTable, wordTable, typerState)
+			rootTable, codeTable, chaifenTable, wordTable, typerState)
 
 		inputEntry.SetText("")
 	}
@@ -206,11 +206,11 @@ func readWordTable(wordTableFile string, codeTable map[string][]string) ([]strin
 	return table, err
 }
 
-func normalizeRadicalTable(radicalTable map[string][]string) {
-	for _, radicals := range radicalTable {
-		for i, _ := range radicals {
-			radical := radicals[i]
-			radicals[i] = strings.ToUpper(string(radical[0])) + strings.ToLower(radical[1:])
+func normalizeRootTable(rootTable map[string][]string) {
+	for _, roots := range rootTable {
+		for i, _ := range roots {
+			root := roots[i]
+			roots[i] = strings.ToUpper(string(root[0])) + strings.ToLower(root[1:])
 		}
 	}
 }
@@ -312,7 +312,7 @@ func saveState(stateFile string, state *TyperState) error {
 
 func updateUI(counterLabel *widget.Label, wordLabel *canvas.Text,
 	codeLabel, chaifenLabel *widget.Label,
-	radicalTable, codeTable, chaifenTable map[string][]string,
+	rootTable, codeTable, chaifenTable map[string][]string,
 	wordTable []string, typerState *TyperState) {
 	counterLabel.SetText(fmt.Sprintf("%d/%d", typerState.Next+1, len(wordTable)))
 
@@ -346,17 +346,17 @@ func updateUI(counterLabel *widget.Label, wordLabel *canvas.Text,
 				b.WriteString(" / ")
 			}
 
-			radicals := r.FindAllString(chaifen, -1)
+			roots := r.FindAllString(chaifen, -1)
 
-			for j, radical := range radicals {
+			for j, root := range roots {
 				if j > 0 {
 					b.WriteString("    ")
 				}
 
-				b.WriteString(radical)
+				b.WriteString(root)
 				b.WriteByte(' ')
-				if radicalTable[radical] != nil {
-					b.WriteString(strings.Join(radicalTable[radical], ","))
+				if rootTable[root] != nil {
+					b.WriteString(strings.Join(rootTable[root], ","))
 				}
 			}
 		}
