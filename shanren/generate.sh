@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-perl -CSDA -Mutf8 -F'\t' -lanE 'next if $. == 1; $F[0] = $F[4] || $F[5] if $F[3] eq "私用区"; print "$F[0]\t$F[1]\t$F[2]"' $1/src/data/字根码表.csv| sort -u > roots.tsv
+perl -CSDA -Mutf8 -F'\t' -lanE 'next if $. == 1; $F[0] = $F[4] || $F[5] if $F[3] eq "私用区"; print "$F[0]\t$F[1]\t$F[2]"' "$1/src/data/字根码表.csv" | sort -u > roots.tsv
 
 perl -CSDA -Mutf8 -F'\t' -lanE '
     BEGIN {

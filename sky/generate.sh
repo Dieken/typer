@@ -4,8 +4,10 @@
 
 set -euo pipefail
 
-perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' $1/sky.dict.yaml > mabiao.tsv
+perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' "$1/sky.dict.yaml" > mabiao.tsv
 
-cp $2/字根表.txt roots.tsv
+perl -CSDA -lanE 'print "$F[0]\t$F[1]"' "$2/字根表.txt" > roots.tsv
 
-perl -CSDA -lpE 's/^\S+\s+//' $2/拆分表.txt > chaifen.tsv
+perl -CSDA -lnE 's/^\S+\s+//; @a = split; for (@a[1..$#a]) { print "$a[0]\t$_" }' "$2/拆分表.txt" > chaifen.tsv
+
+../scripts/generate-roots-chart.pl -u ../sbfd/ roots.tsv chaifen.tsv ../top6000.txt > sky.html

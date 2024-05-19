@@ -23,7 +23,7 @@ perl -CSDA -lE 'use autodie;
 
 cp "$1/sbxlm/lua/sbxlm/radicals.txt" chaifen.tsv
 
-perl -CSDA -lnE "print if /^\S\s+[a-z0-9']+\$/" $1/sbxlm/sbf.dict.yaml > mabiao.tsv
+perl -CSDA -lnE "print if /^\S\s+[a-z0-9']+\$/" "$1/sbxlm/sbf.dict.yaml" > mabiao.tsv
 
 perl -CSDA -lnE 'next unless /^(\S)\s++(\S++)\s++\d++\s++(\S+)/; say "$1\t$2"' "$1/sbxlm/sbfd.dict.yaml" >> mabiao.tsv
 
