@@ -197,10 +197,10 @@ sub template() {
     //font-family: "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", "sans-serif";
     font-family: "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2", "KaiXinSongA", "KaiXinSongB", "SimSun", "SimSun-ExtB", "SimSun-ExtG",
                  "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd", "serif";
-    font-size: x-large;
   }
 
   table {
+    font-size: x-large;
     margin: 0 auto;
     overflow-x: auto;
   }
@@ -229,19 +229,40 @@ sub template() {
 Your browser does not support JavaScript or JavaScript has been disabled.
 Please enable JavaScript to experience the full functionality of our site.
 </noscript>
-<div id="tbl_listing"></div>
+<div>
+  <label for="freq">字集： </label><span id="s_freq"></span>
+</div>
+<div id="keyboard"></div>
+<div id="listing"></div>
 <script type="text/javascript">
 //<![CDATA[
+"use strict";
+
 %s
 
 var page = 0;
 
+function createFreqSelectBox() {
+    let select = "<select id='freq' onchange='onChangeFreq(this.value)'>";
+    select += `<option value="0">全部</option>`;
+    for (let i = 1; i <= max_pages; ++i) {
+        select += `<option value="\${i}">前 \${i * page_size} 字</option>`;
+    }
+    select += "</select>";
+    return select;
+}
+
+function onChangeFreq(p) {
+    page = parseInt(p);
+    document.getElementById("listing").innerHTML = createTable();
+}
+
 function createTable() {
   let table = `
-  <table id="listing">
+  <table>
   <caption>字根表</caption>
   <thead>
-    <tr><th>序号</th><th>键名</th><th>编码</th><th>字根</th><th>频率</th><th>例字</th><th>备注</th></tr>
+    <tr><th>序号</th><th>键名</th><th>编码</th><th>字根</th><th>字频</th><th>例字</th><th>备注</th></tr>
   </thead>
   <tbody>`;
 
@@ -252,12 +273,12 @@ function createTable() {
     let codes = Object.keys(chart_json[l]).sort();
     let letter_rowspan = 0;
     for (let c of codes) {
-        letter_rowspan += Object.keys(chart_json[l][c]).length;
+        letter_rowspan += Object.keys(chart_json[l][c]).filter(r => chart_json[l][c][r].freq[page] > 0).length;
     }
     let td_l = `<td rowspan="\${letter_rowspan}" class="letter">\${l}</td>`;
 
     for (let c of codes) {
-      let roots = Object.keys(chart_json[l][c]).sort(
+      let roots = Object.keys(chart_json[l][c]).filter(r => chart_json[l][c][r].freq[page] > 0).sort(
                    (a, b) => chart_json[l][c][b].freq[page] - chart_json[l][c][a].freq[page]);
 
       let code_rowspan = roots.length;
@@ -268,8 +289,6 @@ function createTable() {
 
         let d = chart_json[l][c][r];
         let clz = d.traditional ? "traditional" : "simplified";
-        if (d.freq[page] == 0) clz += " freq0";
-
 
         table += `
     <tr>
@@ -296,8 +315,8 @@ function createTable() {
 }
 
 window.onload = function() {
-    var content = document.getElementById("tbl_listing");
-    content.innerHTML = createTable();
+  document.getElementById("s_freq").innerHTML = createFreqSelectBox();
+  onChangeFreq(0);
 }
 //]]>
 </script>
