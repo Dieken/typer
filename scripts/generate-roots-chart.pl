@@ -200,9 +200,7 @@ sub template() {
   }
 
   table {
-    font-size: x-large;
-    margin: 0 auto;
-    overflow-x: auto;
+    margin: 20px auto;
   }
 
   table, th, td {
@@ -215,12 +213,52 @@ sub template() {
     background-color: lightgrey;
   }
 
-  .freq {
+  #listing table {
+    font-size: x-large;
+    overflow-x: auto;
+  }
+
+  #listing .freq {
     text-align: right;
   }
 
-  .seq,.letter, .code, .root {
+  #listing .seq,
+  #listing .letter,
+  #listing .code,
+  #listing .root {
     text-align: center;
+  }
+
+  .row_key th {
+    font-family: sans-serif;
+    font-size: large;
+    text-align: left;
+    color: red;
+    border-bottom: none;
+    padding-bottom: 0px;
+  }
+
+  .row_root td {
+    width: 140px;
+    height: 140px;
+    border-top: none;
+    word-break: keep-all;
+    vertical-align: top;
+  }
+
+  .row_root .code {
+    font-family: sans-serif;
+    color: blue;
+  }
+
+  .hot_root {
+    color: red;
+  }
+
+  #toolbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   </style>
 </head>
@@ -229,8 +267,8 @@ sub template() {
 Your browser does not support JavaScript or JavaScript has been disabled.
 Please enable JavaScript to experience the full functionality of our site.
 </noscript>
-<div>
-  <label for="freq">字集： </label><span id="s_freq"></span>
+<div id="toolbar">
+  <label for="freq">字集： </label><span id="freq"></span>
 </div>
 <div id="keyboard"></div>
 <div id="listing"></div>
@@ -241,9 +279,10 @@ Please enable JavaScript to experience the full functionality of our site.
 %s
 
 var page = 0;
+var hotRoots = new Map();
 
 function createFreqSelectBox() {
-    let select = "<select id='freq' onchange='onChangeFreq(this.value)'>";
+    let select = "<select onchange='onChangeFreq(this.value)'>";
     select += `<option value="0">全部</option>`;
     for (let i = 1; i <= max_pages; ++i) {
         select += `<option value="\${i}">前 \${i * page_size} 字</option>`;
@@ -254,7 +293,85 @@ function createFreqSelectBox() {
 
 function onChangeFreq(p) {
     page = parseInt(p);
+    updateHotRoots();
     document.getElementById("listing").innerHTML = createTable();
+    document.getElementById("keyboard").innerHTML = createKeyboard();
+}
+
+function updateHotRoots() {
+  hotRoots.clear();
+
+  let freqs = new Map();
+
+  for (let l in chart_json) {
+    for (let c in chart_json[l]) {
+      for (let r in chart_json[l][c]) {
+        freqs.set(r, chart_json[l][c][r].freq[page]);
+      }
+    }
+  }
+
+  let roots = [...freqs.keys()].sort((a, b) => freqs.get(b) - freqs.get(a));
+  let n = Math.round(roots.length / 4);
+  let lastFreq = -1;
+
+  for (let i = 0; i < roots.length; ++i) {
+      if (i >= n - 1 && freqs.get(roots[i]) < lastFreq) break;
+      hotRoots.set(roots[i], 1);
+      lastFreq = freqs.get(roots[i]);
+  }
+}
+
+function createKeyboard() {
+  let keyboard = "";
+  let rows = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"];
+
+  for (let i = 0; i < rows.length; ++i) {
+    keyboard += `<table><thead><tr id="th_\${i + 1}" class="row_key">`
+
+    for (let l of rows[i]) {
+      keyboard += `<th id="key_\${l}">`;
+      keyboard += `<span id="letter_\${l}" class="letter">\${l}</span>`;
+      keyboard += '</th>';
+    }
+    keyboard += `</tr></thead><tbody><tr id="tr_\${i + 1}" class="row_root">`;
+
+    for (let l of rows[i]) {
+      keyboard += "<td>";
+
+      if (chart_json[l]) {
+        let codes = Object.keys(chart_json[l]).sort();
+
+        for (let c of codes) {
+          let roots = Object.keys(chart_json[l][c]).filter(r => chart_json[l][c][r].freq[page] > 0).sort(
+                          (a, b) => chart_json[l][c][b].freq[page] - chart_json[l][c][a].freq[page]);
+
+          keyboard += `<span id="code_\${c}">`;
+
+          for (let r of roots) {
+            let d = chart_json[l][c][r];
+            let clz = "root";
+            if (d.traditional) clz += " traditional";
+            if (hotRoots.has(r)) clz += " hot_root";
+            keyboard +=`<span class="\${clz}">\${r}</span>`;
+          }
+          keyboard += '</span>';
+
+          if (c.length > 1 && roots.length > 0) {
+            keyboard += `<span class="code">\${c.substring(1)}</span>`;
+          }
+
+          keyboard += " ";
+        }
+      }
+
+      keyboard += '</td>';
+    }
+
+    keyboard += '</tr></tbody></table>';
+  }
+
+  return keyboard;
 }
 
 function createTable() {
@@ -289,14 +406,16 @@ function createTable() {
 
         let d = chart_json[l][c][r];
         let clz = d.traditional ? "traditional" : "simplified";
+        let clz2 = "";
+        if (hotRoots.has(r)) clz2 = "hot_root";
 
         table += `
     <tr>
-      <td class="seq \${clz}">\${i}</td>
+      <td class="seq \${clz} \${clz2}">\${i}</td>
       \${td_l}
       \${td_c}
-      <td class="root \${clz}"><ruby>\${r}<rp>(</rp><rt>\${d.pinyin}</rt><rp>)</rp></ruby></td>
-      <td class="freq \${clz}">\${d.freq[page]}</td>
+      <td class="root \${clz} \${clz2}"><ruby>\${r}<rp>(</rp><rt>\${d.pinyin}</rt><rp>)</rp></ruby></td>
+      <td class="freq \${clz} \${clz2}">\${d.freq[page]}</td>
       <td class="examples \${clz}">\${d.examples.join("")}</td>
       <td class="comment \${clz}">\${d.comment}</td>
     </tr>`;
@@ -315,7 +434,7 @@ function createTable() {
 }
 
 window.onload = function() {
-  document.getElementById("s_freq").innerHTML = createFreqSelectBox();
+  document.getElementById("freq").innerHTML = createFreqSelectBox();
   onChangeFreq(0);
 }
 //]]>
