@@ -16,6 +16,8 @@ use Encode   qw(decode);
 use autodie;
 use File::Spec;
 use Getopt::Long;
+use HTTP::Tiny;
+use IO::Uncompress::Unzip qw/unzip $UnzipError/;
 use JSON::PP;
 use List::Util qw/max uniqstr/;
 use Unicode::UCD qw/charblock/;
@@ -154,8 +156,20 @@ sub max4(@a) {
 }
 
 sub load_unihan($dir) {
-    my $unihan_variants = File::Spec->catfile($dir, "Unihan_Variants.txt");
     my $unihan_readings = File::Spec->catfile($dir, "Unihan_Readings.txt");
+    my $unihan_variants = File::Spec->catfile($dir, "Unihan_Variants.txt");
+
+    unless (-f $unihan_readings && -f $unihan_variants) {
+        my $url = "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip";
+        my $zip = File::Spec->catfile($dir, "Unihan.zip");
+
+        my $response = HTTP::Tiny->new->mirror($url, $zip);
+        die "Failed to download $url\n" unless $response->{success};
+
+        unzip $zip, $unihan_readings, Name => "Unihan_Readings.txt" or die "unzip failed: $UnzipError\n";
+        unzip $zip, $unihan_variants, Name => "Unihan_Variants.txt" or die "unzip failed: $UnzipError\n";
+    }
+
     my %h;
 
     open my $fh, "<", $unihan_variants;
@@ -218,7 +232,8 @@ sub template() {
     overflow-x: auto;
   }
 
-  #listing .freq {
+  #listing .freq,
+  #listing .rank {
     text-align: right;
   }
 
@@ -244,6 +259,10 @@ sub template() {
     border-top: none;
     word-break: keep-all;
     vertical-align: top;
+  }
+
+  .row_root .root {
+    cursor: pointer;
   }
 
   .row_root .code {
@@ -279,7 +298,8 @@ Please enable JavaScript to experience the full functionality of our site.
 %s
 
 var page = 0;
-var hotRoots = new Map();
+var rootsRank = new Map();
+var hotRootLastRank = 0;
 
 function createFreqSelectBox() {
     let select = "<select onchange='onChangeFreq(this.value)'>";
@@ -299,7 +319,8 @@ function onChangeFreq(p) {
 }
 
 function updateHotRoots() {
-  hotRoots.clear();
+  rootsRank.clear();
+  hotRootLastRank = 0;
 
   let freqs = new Map();
 
@@ -313,13 +334,25 @@ function updateHotRoots() {
 
   let roots = [...freqs.keys()].sort((a, b) => freqs.get(b) - freqs.get(a));
   let n = Math.round(roots.length / 4);
-  let lastFreq = -1;
+  let lastFreq = freqs.get(roots[0]);
+  let lastRank = 1;
 
   for (let i = 0; i < roots.length; ++i) {
-      if (i >= n - 1 && freqs.get(roots[i]) < lastFreq) break;
-      hotRoots.set(roots[i], 1);
-      lastFreq = freqs.get(roots[i]);
+      let r = roots[i];
+      if (freqs.get(r) < lastFreq) {
+        ++lastRank;
+      }
+      lastFreq = freqs.get(r);
+      rootsRank.set(r, lastRank);
+
+      if (i < n) {
+        hotRootLastRank = lastRank;
+      }
   }
+}
+
+function isHotRoot(r) {
+  return rootsRank.get(r) <= hotRootLastRank;
 }
 
 function createKeyboard() {
@@ -352,7 +385,7 @@ function createKeyboard() {
             let d = chart_json[l][c][r];
             let clz = "root";
             if (d.traditional) clz += " traditional";
-            if (hotRoots.has(r)) clz += " hot_root";
+            if (isHotRoot(r)) clz += " hot_root";
             keyboard +=`<span class="\${clz}">\${r}</span>`;
           }
           keyboard += '</span>';
@@ -379,7 +412,7 @@ function createTable() {
   <table>
   <caption>字根表</caption>
   <thead>
-    <tr><th>序号</th><th>键名</th><th>编码</th><th>字根</th><th>字频</th><th>例字</th><th>备注</th></tr>
+    <tr><th>序号</th><th>键名</th><th>编码</th><th>字根</th><th>排名</th><th>字频</th><th>例字</th><th>备注</th></tr>
   </thead>
   <tbody>`;
 
@@ -407,7 +440,7 @@ function createTable() {
         let d = chart_json[l][c][r];
         let clz = d.traditional ? "traditional" : "simplified";
         let clz2 = "";
-        if (hotRoots.has(r)) clz2 = "hot_root";
+        if (isHotRoot(r)) clz2 = "hot_root";
 
         table += `
     <tr>
@@ -415,6 +448,7 @@ function createTable() {
       \${td_l}
       \${td_c}
       <td class="root \${clz} \${clz2}"><ruby>\${r}<rp>(</rp><rt>\${d.pinyin}</rt><rp>)</rp></ruby></td>
+      <td class="rank \${clz} \${clz2}">\${rootsRank.get(r)}</td>
       <td class="freq \${clz} \${clz2}">\${d.freq[page]}</td>
       <td class="examples \${clz}">\${d.examples.join("")}</td>
       <td class="comment \${clz}">\${d.comment}</td>
