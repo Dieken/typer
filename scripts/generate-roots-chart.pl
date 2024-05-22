@@ -279,6 +279,17 @@ sub template() {
     justify-content: center;
     align-items: center;
   }
+
+  #detail {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #detail table {
+    font-size: x-large;
+    text-align: center;
+  }
   </style>
 </head>
 <body>
@@ -288,6 +299,10 @@ Please enable JavaScript to experience the full functionality of our site.
 </noscript>
 <div id="toolbar">
   <label for="freq">字集： </label><span id="freq"></span>
+</div>
+<div id="detail">
+  <div id="detail_content"></div>
+  <button style="margin-left: 20px" onclick="hideDetail()">隐藏</button>
 </div>
 <div id="keyboard"></div>
 <div id="listing"></div>
@@ -355,6 +370,35 @@ function isHotRoot(r) {
   return rootsRank.get(r) <= hotRootLastRank;
 }
 
+function showDetail(tag) {
+  let l = tag.dataset.letter;
+  let c = tag.dataset.code;
+  let r = tag.dataset.root;
+  let d = chart_json[l][c][r];
+
+  let type = d.traditional ? "(繁)" : "";
+  let hot = isHotRoot(r) ? "(前25%%)" : "";
+
+  let table = `<table><thead><tr>
+    <th>编码</th><th>字根</th><th>拼音</th><th>排名</th><th>字频</th><th>例字</th><th>备注</th>
+    </tr></thead><tbody><tr>
+    <td>\${c}</td>
+    <td>\${r} \${type}</td>
+    <td>\${d.pinyin}</td>
+    <td>\${rootsRank.get(r)} \${hot}</td>
+    <td>\${d.freq[page]}</td>
+    <td>\${d.examples.join("")}</td>
+    <td>\${d.comment}</td>
+    </tr></tbody></table>`;
+
+  document.getElementById("detail_content").innerHTML = table;
+  document.getElementById("detail").style.display = "flex";
+}
+
+function hideDetail() {
+  document.getElementById("detail").style.display = "none";
+}
+
 function createKeyboard() {
   let keyboard = "";
   let rows = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"];
@@ -386,7 +430,7 @@ function createKeyboard() {
             let clz = "root";
             if (d.traditional) clz += " traditional";
             if (isHotRoot(r)) clz += " hot_root";
-            keyboard +=`<span class="\${clz}">\${r}</span>`;
+            keyboard +=`<span class="\${clz}" data-letter="\${l}" data-code="\${c}" data-root="\${r}" onclick="showDetail(this)">\${r}</span>`;
           }
           keyboard += '</span>';
 
