@@ -210,7 +210,7 @@ sub template() {
   body {
     //font-family: "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", "sans-serif";
     font-family: "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2", "KaiXinSongA", "KaiXinSongB", "SimSun", "SimSun-ExtB", "SimSun-ExtG",
-                 "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd", "serif";
+                 "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd", "YuhaoSongti", "serif";
   }
 
   table {
