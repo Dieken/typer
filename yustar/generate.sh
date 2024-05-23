@@ -15,10 +15,15 @@ perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) &&
     sed -e "s|^|$1|" |
     xargs perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' > mabiao.tsv
 
+perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) && /^\s*-\s+(.\S+)/' "$1/yustar_sc.dict.yaml" |
+    sed -e "s|^|$1|" |
+    xargs perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' > mabiao_sc.tsv
+
 perl -CSDA -lne 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "$1"/yustar_chaifen*.dict.yaml |
     sort -u > chaifen.tsv
 
 perl -CSDA -lne 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "$1/yustar_chaifen.dict.yaml" |
     sort -u > chaifen_sc.tsv
 
-../scripts/generate-roots-chart.pl -u ../sbfd/ roots.tsv chaifen_sc.tsv ../top6000.txt > yustar.html
+../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yustar_sc.js
+../scripts/generate-roots-chart.pl -u ../sbfd/ roots.tsv chaifen_sc.tsv ../top6000.txt > yustar_sc.html
