@@ -28,6 +28,7 @@ my $unihan_dir = $ENV{UNIHAN_DIR} || ".";
 my $indent_json = 0;
 my $only_json = 0;
 my $title = "字根图";
+my @extra_js;
 
 GetOptions(
     "max-examples=i"    => \$max_examples,
@@ -36,6 +37,7 @@ GetOptions(
     "indent-json!"      => \$indent_json,
     "only-json!"        => \$only_json,
     "title=s"           => \$title,
+    "extra-js=s"        => \@extra_js,
 );
 
 my $uh = load_unihan($unihan_dir);
@@ -126,7 +128,7 @@ if ($only_json) {
     my $script = "var page_size = $page_size;\n" .
         "var max_pages = $max_pages;\n" .
         "var chart_json = $chart_json;\n";
-    printf template(), $script;
+    printf template(), read_files(@extra_js), $script;
 }
 
 
@@ -138,7 +140,7 @@ sub read_tsv($file) {
     while (<$fh>) {
         chomp;
         my @a = split;
-        next unless @a;
+        next unless @a && substr($a[0], 0, 1) ne "#";
 
         if (exists $h{$a[0]}) {
             push @{ $h{$a[0]} }, @a[1..$#a];
@@ -194,6 +196,19 @@ sub load_unihan($dir) {
     close $fh;
 
     return \%h;
+}
+
+sub read_files(@files) {
+    my $s = "";
+
+    for (@files) {
+        local $/;
+        open my $fh, "<", $_;
+        $s .= <$fh>;
+        close $fh;
+    }
+
+    return $s;
 }
 
 sub template() {
@@ -278,6 +293,8 @@ sub template() {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   #detail {
@@ -290,22 +307,85 @@ sub template() {
     font-size: x-large;
     text-align: center;
   }
+
+  #chaifen_result {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #chaifen_result > div {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+
+  #chaifen_result > div > div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #chaifen_result a {
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .chaifen .char {
+    font-size: xxx-large;
+  }
+
+  .chaifen .unicode {
+    margin: 10px;
+  }
+
+  .chaifen .code {
+    font-size: large;
+    font-family: monospace;
+  }
+
+  .chaifen .root {
+    font-size: x-large;
+    margin: 10px;
+  }
   </style>
 </head>
 <body>
+
 <noscript>
 Your browser does not support JavaScript or JavaScript has been disabled.
 Please enable JavaScript to experience the full functionality of our site.
 </noscript>
+
 <div id="toolbar">
-  <label for="freq">字集： </label><span id="freq"></span>
+  <label for="freq">字集： </label><span id="s_freq"></span>
+  <label for="chaifen">拆分： </label><input type="text" id="chaifen" placeholder="输入文本查询拆分" size="30" autofocus oninput="onChangeChaifen(this.value)"/>
+  <label for="practice">练习： </label><input type="text" id="practice"/>
+  <label for="progress">进度： </label><progress id="progress" value="10" max="100"></progress>
 </div>
+
+<div id="chaifen_result"></div>
+
 <div id="detail">
   <div id="detail_content"></div>
   <button style="margin-left: 20px" onclick="hideDetail()">隐藏</button>
 </div>
+
 <div id="keyboard"></div>
+
 <div id="listing"></div>
+
+<script type="text/javascript">
+//<![CDATA[
+"use strict";
+
+%s
+
+//]]>
+</script>
+
 <script type="text/javascript">
 //<![CDATA[
 "use strict";
@@ -317,7 +397,7 @@ var rootsRank = new Map();
 var hotRootLastRank = 0;
 
 function createFreqSelectBox() {
-    let select = "<select onchange='onChangeFreq(this.value)'>";
+    let select = "<select id='freq' onchange='onChangeFreq(this.value)'>";
     select += `<option value="0">全部</option>`;
     for (let i = 1; i <= max_pages; ++i) {
         select += `<option value="\${i}">前 \${i * page_size} 字</option>`;
@@ -331,6 +411,44 @@ function onChangeFreq(p) {
     updateHotRoots();
     document.getElementById("listing").innerHTML = createTable();
     document.getElementById("keyboard").innerHTML = createKeyboard();
+}
+
+function onChangeChaifen(text) {
+  let infos = charinfo(text).filter(i => i.info != null);
+  if (infos.length > 0) {
+    let html = "";
+
+    for (let info of infos) {
+      let unicode = info.char.codePointAt(0).toString(16).toUpperCase();
+      let fmt_chaifen = (cf) => cf.map(f => `<ruby>\${f.root}<rt>\${f.code}</rt></ruby>`).join("");
+
+      html += `
+        <div class="chaifen">
+          <div class="char">\${info.char}</div>
+          <div class="unicode"><a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=\${info.char}" target="_blank" rel="noreferer" title="Unihan Database">U+\${unicode}</a></div>
+          <div class="code">\${info.info.codes.join(" ")}</div>
+          <div class="root">\${info.info.chaifens.map(fmt_chaifen).join("<br/>")}</div>
+          <div class="links">
+            <a href="https://zi.tools/zi/\${info.char}" target="_blank" rel="noreferrer" title="字统网查询">字</a>
+            <a href="http://www.yedict.com/zscontent.asp?uni=\${unicode}" target="_blank" rel="noreferrer" title="叶典网查询">叶</a>
+            <a href="https://www.zdic.net/hans/\${info.char}" target="_blank" rel="noreferrer" title="汉典查询">汉</a>
+            <a href="https://ctext.org/dictionary.pl?if=gb&amp;char=\${info.char}" target="_blank" rel="noreferrer" title="中國哲學書電子化計劃查询">哲</a>
+            <a href="https://hanyu.baidu.com/zici/s?wd=\${info.char}" target="_blank" rel="noreferrer" title="百度汉语">百</a>
+          </div>
+        </div>`;
+    }
+
+    html += '<button onclick="hideChaifen()">隐藏</button>';
+    document.getElementById("chaifen_result").innerHTML = html;
+    document.getElementById("chaifen_result").style.display = "flex";
+  } else {
+    document.getElementById("chaifen_result").style.display = "none";
+    document.getElementById("chaifen_result").innerHTML = "";
+  }
+}
+
+function hideChaifen() {
+    document.getElementById("chaifen_result").style.display = "none";
 }
 
 function updateHotRoots() {
@@ -404,7 +522,7 @@ function createKeyboard() {
   let rows = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"];
 
   for (let i = 0; i < rows.length; ++i) {
-    keyboard += `<table><thead><tr id="th_\${i + 1}" class="row_key">`
+    keyboard += `<table><thead><tr id="th_\${i + 1}" class="row_key">`;
 
     for (let l of rows[i]) {
       keyboard += `<th id="key_\${l}">`;
@@ -512,9 +630,10 @@ function createTable() {
 }
 
 window.onload = function() {
-  document.getElementById("freq").innerHTML = createFreqSelectBox();
+  document.getElementById("s_freq").innerHTML = createFreqSelectBox();
   onChangeFreq(0);
 }
+
 //]]>
 </script>
 </body>
