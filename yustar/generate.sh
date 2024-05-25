@@ -8,8 +8,12 @@ set -euo pipefail
 
 perl -CSDA -Mutf8 -i -pE 's/^({烏上}\s+D)\?/\1w/' roots.tsv
 
-curl -s 'https://521github.com/extdomains/raw.githubusercontent.com/forFudan/yu/main/src/public/zigen-star.csv' |
-    perl -CSDA -lnE 'next if $. == 1; s/,/\t/; print' | sort -k2 -k1 > zigen-star.tsv
+curl -s -O 'https://yuhao.forfudan.com/zigen-star.csv'
+
+curl -s -o yuhao-chaifen.csv 'https://yuhao.forfudan.com/chaifen.csv'
+
+./analyze-yuhao-root-mapping.pl "$1"/yustar_chaifen.dict.yaml "$1"/yustar_chaifen_tw.dict.yaml yuhao-chaifen.csv > roots-mapping.tsv 2>roots-mapping-error.txt ||
+    { cat roots-mapping-error.txt; exit 1; }
 
 perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) && /^\s*-\s+(.\S+)/' "$1/yustar.dict.yaml" |
     sed -e "s|^|$1|" |
