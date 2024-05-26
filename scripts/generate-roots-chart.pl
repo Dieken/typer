@@ -29,6 +29,8 @@ my $indent_json = 0;
 my $only_json = 0;
 my $title = "字根图";
 my @extra_js;
+my $roots_mapping;
+my $roots_font;
 
 GetOptions(
     "max-examples=i"    => \$max_examples,
@@ -38,6 +40,8 @@ GetOptions(
     "only-json!"        => \$only_json,
     "title=s"           => \$title,
     "extra-js=s"        => \@extra_js,
+    "roots-mapping=s"   => \$roots_mapping,
+    "font=s"            => \$roots_font,
 );
 
 my $uh = load_unihan($unihan_dir);
@@ -49,6 +53,7 @@ my $topchars_file = $ARGV[2] || "top6000.txt";
 my $roots = read_tsv($roots_file);
 my $chaifen = read_tsv($chaifen_file);
 my $topchars = read_tsv($topchars_file);
+$roots_mapping = read_roots_mapping($roots_mapping) if $roots_mapping;
 
 my $max_pages = int((keys(%$topchars) - 1) / $page_size) + 1;
 
@@ -121,18 +126,32 @@ while (my ($k, $v) = each %$roots) {
 }
 
 my $chart_json = JSON::PP->new->utf8(0)->pretty($indent_json)->canonical->encode(\%chart);
-chomp $chart_json;
+my $roots_mapping_json = $roots_mapping ?
+    JSON::PP->new->utf8(0)->pretty($indent_json)->canonical->encode($roots_mapping) : "null";
+chomp($chart_json, $roots_mapping_json);
 if ($only_json) {
     say $chart_json;
 } else {
     my $script = "var page_size = $page_size;\n" .
         "var max_pages = $max_pages;\n" .
-        "var chart_json = $chart_json;\n";
+        "var chart_json = $chart_json;\n" .
+        "var roots_mapping = $roots_mapping_json;\n";
     printf template(), read_files(@extra_js), $script;
 }
 
 
 #######################################################################
+sub read_roots_mapping($file) {
+    my $mapping = read_tsv($file);
+
+    while (my ($k, $v) = each %$mapping) {
+        die "Multiple mappings found for $k: @$v\n" if @$v > 3;
+        $mapping->{$k} = $v->[2];
+    }
+
+    return $mapping;
+}
+
 sub read_tsv($file) {
     my %h;
 
@@ -212,6 +231,8 @@ sub read_files(@files) {
 }
 
 sub template() {
+    my $extra_font = $roots_font ? "\"$roots_font\"," : "";
+
     return <<"END";
 <!DOCTYPE html>
 <html lang="zh" dir="ltr">
@@ -224,8 +245,8 @@ sub template() {
   <style type="text/css">
   body {
     //font-family: "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", "sans-serif";
-    font-family: "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2", "KaiXinSongA", "KaiXinSongB", "SimSun", "SimSun-ExtB", "SimSun-ExtG",
-                 "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd", "YuhaoSongti", "serif";
+    font-family: $extra_font "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2", "KaiXinSongA", "KaiXinSongB", "SimSun", "SimSun-ExtB", "SimSun-ExtG",
+                 "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd", "serif";
   }
 
   table {
@@ -270,7 +291,7 @@ sub template() {
 
   .row_root td {
     width: 140px;
-    height: 140px;
+    height: 120px;
     border-top: none;
     word-break: keep-all;
     vertical-align: top;
@@ -295,6 +316,11 @@ sub template() {
     align-items: center;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  #toolbar > div {
+    margin-left: 20px;
+    margin-right: 20px;
   }
 
   #detail {
@@ -368,10 +394,11 @@ Please enable JavaScript to experience the full functionality of our site.
 </noscript>
 
 <div id="toolbar">
-  <label for="freq">字集： </label><span id="s_freq"></span>
-  <label for="chaifen">拆分： </label><input type="text" id="chaifen" placeholder="输入文本查询拆分" size="30" autofocus oninput="onChangeChaifen(this.value)"/>
-  <label for="practice">练习： </label><input type="text" id="practice"/>
-  <label for="progress">进度： </label><progress id="progress" value="10" max="100"></progress>
+  <div><label for="freq">字集： </label><span id="s_freq"></span></div>
+  <div><label for="chaifen">拆分： </label><input type="text" id="chaifen" placeholder="输入文本查询拆分" size="30" autofocus oninput="onChangeChaifen(this.value)"/></div>
+  <div><label for="practice">练习： </label><input type="text" id="practice"/></div>
+  <div><label for="progress">进度： </label><progress id="progress" value="10" max="100"></progress></div>
+  <div id="d_font"><input type="checkbox" id="enable_font" checked onchange="onUpdateFont(this.checked)"/><label for="enable_font">启用字根字体</label></div>
 </div>
 
 <div id="chaifen_result"></div>
@@ -403,6 +430,16 @@ Please enable JavaScript to experience the full functionality of our site.
 var page = 0;
 var rootsRank = new Map();
 var hotRootLastRank = 0;
+var clickedRoot = null;
+var enable_font = roots_mapping ? true : false;
+
+function mr(r) {    // map root
+  if (enable_font && r in roots_mapping) {
+    return roots_mapping[r];
+  } else {
+    return r;
+  }
+}
 
 function createFreqSelectBox() {
     let select = "<select id='freq' onchange='onChangeFreq(this.value)'>";
@@ -428,7 +465,7 @@ function onChangeChaifen(text) {
 
     for (let info of infos) {
       let unicode = info.char.codePointAt(0).toString(16).toUpperCase();
-      let fmt_chaifen = (cf) => cf.map(f => `<ruby>\${f.root}<rt>\${f.code}</rt></ruby>`).join("");
+      let fmt_chaifen = (cf) => cf.map(f => `<ruby>\${mr(f.root)}<rt>\${f.code}</rt></ruby>`).join("");
 
       html += `
         <div class="chaifen">
@@ -457,6 +494,22 @@ function onChangeChaifen(text) {
 
 function hideChaifen() {
     document.getElementById("chaifen_result").style.display = "none";
+}
+
+function onUpdateFont(checked) {
+  enable_font = checked;
+  onChangeFreq(page);
+
+  let chaifen_result = document.getElementById("chaifen_result");
+  if (chaifen_result.style.display != "none") {
+    let chaifen = document.getElementById("chaifen");
+    onChangeChaifen(chaifen.value);
+  }
+
+  let detail = document.getElementById("detail");
+  if (detail.style.display != "none") {
+    showDetail(clickedRoot);
+  }
 }
 
 function updateHotRoots() {
@@ -497,6 +550,8 @@ function isHotRoot(r) {
 }
 
 function showDetail(tag) {
+  clickedRoot = tag;
+
   let l = tag.dataset.letter;
   let c = tag.dataset.code;
   let r = tag.dataset.root;
@@ -509,7 +564,7 @@ function showDetail(tag) {
     <th>编码</th><th>字根</th><th>拼音</th><th>排名</th><th>字频</th><th>例字</th><th>备注</th>
     </tr></thead><tbody><tr>
     <td>\${c}</td>
-    <td>\${r} \${type}</td>
+    <td>\${mr(r)} \${type}</td>
     <td>\${d.pinyin}</td>
     <td>\${rootsRank.get(r)} \${hot}</td>
     <td>\${d.freq[page]}</td>
@@ -556,7 +611,7 @@ function createKeyboard() {
             let clz = "root";
             if (d.traditional) clz += " traditional";
             if (isHotRoot(r)) clz += " hot_root";
-            keyboard +=`<span class="\${clz}" data-letter="\${l}" data-code="\${c}" data-root="\${r}" onclick="showDetail(this)">\${r}</span>`;
+            keyboard +=`<span class="\${clz}" data-letter="\${l}" data-code="\${c}" data-root="\${r}" onclick="showDetail(this)">\${mr(r)}</span>`;
           }
           keyboard += '</span>';
 
@@ -617,7 +672,7 @@ function createTable() {
       <td class="seq \${clz} \${clz2}">\${i}</td>
       \${td_l}
       \${td_c}
-      <td class="root \${clz} \${clz2}"><ruby>\${r}<rp>(</rp><rt>\${d.pinyin}</rt><rp>)</rp></ruby></td>
+      <td class="root \${clz} \${clz2}"><ruby>\${mr(r)}<rp>(</rp><rt>\${d.pinyin}</rt><rp>)</rp></ruby></td>
       <td class="rank \${clz} \${clz2}">\${rootsRank.get(r)}</td>
       <td class="freq \${clz} \${clz2}">\${d.freq[page]}</td>
       <td class="examples \${clz}">\${d.examples.join("")}</td>
@@ -638,6 +693,9 @@ function createTable() {
 }
 
 window.onload = function() {
+  if (!roots_mapping) {
+    document.getElementById("d_font").style.display = "none";
+  }
   document.getElementById("s_freq").innerHTML = createFreqSelectBox();
   onChangeFreq(0);
 }
