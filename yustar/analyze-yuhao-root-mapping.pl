@@ -14,7 +14,7 @@ use Encode   qw(decode);
 @ARGV = map { decode('UTF-8', $_, Encode::FB_CROAK) } @ARGV;
 
 use autodie;
-use Unicode::UCD qw/charblock/;
+use Unicode::UCD qw/charblock prop_value_aliases/;
 
 my $chaifen_file = shift || "yustar_chaifen.dict.yaml";
 my $chaifen_tw_file = shift || "yustar_chaifen_tw.dict.yaml";
@@ -63,27 +63,41 @@ sub analyze_chaifen_dict($file, $is_tw) {
         die "$msg\n" if scalar(@a) != scalar(@b);
 
         for (my $i = 0; $i < @a; ++$i) {
+            my $blockb = sprintf("U+%X ", ord($b[$i])) . block($b[$i]);
+
             if ($a[$i] =~ /{/) {
                 if (exists $mapping{$a[$i]}) {
                     if ($mapping{$a[$i]} ne $b[$i]) {
-                        if (charblock(ord($b[$i])) eq "Private Use Area") {
-                            die "$msg -> $a[$i]($mapping{$a[$i]}) vs $b[$i]\n";
+                        my $blockm = sprintf("U+%X ", ord($mapping{$a[$i]})) . block($mapping{$a[$i]});
+                        if (block($b[$i]) eq "Private_Use_Area") {
+                            die "$msg -> $a[$i]($mapping{$a[$i]} $blockm) vs $b[$i]($blockb)\n";
                         } else {
-                            warn "$msg -> $a[$i]($mapping{$a[$i]}) vs $b[$i]\n";
+                            warn "$msg -> $a[$i]($mapping{$a[$i]} $blockm) vs $b[$i]($blockb)\n";
                         }
                     }
                 } else {
-                    if (charblock(ord($b[$i])) eq "Private Use Area") {
+                    if (block($b[$i]) eq "Private_Use_Area") {
                         $mapping{$a[$i]} = $b[$i];
                     } else {
-                        warn "$msg -> $a[$i] vs $b[$i]\n";
+                        warn "$msg -> $a[$i] vs $b[$i]($blockb)\n";
                     }
                 }
             } else {
-                warn "$msg -> $a[$i] vs $b[$i]\n" if $a[$i] ne $b[$i];
+                warn "$msg -> $a[$i] vs $b[$i]($blockb)\n" if $a[$i] ne $b[$i];
             }
         }
     }
 
     close $fh;
+}
+
+my %block_cache;
+sub block($c) {
+    return $block_cache{$c} if exists $block_cache{$c};
+
+    my $block = charblock(ord($c));
+    my $alias = prop_value_aliases("block", $block);
+    $alias ||= $block;
+    $block_cache{$c} = $alias;
+    return $alias;
 }

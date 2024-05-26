@@ -31,7 +31,7 @@ my $chaifen = read_tsv($chaifen_file);
 my $mabiao = read_tsv($mabiao_file);
 
 while (my ($k, $v) = each %$roots) {
-    die "ERROR: multiple codes \"@$v\"found for root \"$k\"\n" if @$v > 1;
+    die "ERROR: multiple codes \"@$v\" found for root \"$k\"\n" if @$v > 1;
     $roots->{$k} = $v->[0];
 }
 

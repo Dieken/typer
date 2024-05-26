@@ -2,7 +2,8 @@
 #
 # 分析宇浩星陈输入法的拆分表，反推字根的编码
 #
-# Usage: analyze-roots-of-yustar-input-method.pl [yustar_chaifen*.dict.yaml] | cut -f 2,3 | sort -u -k2 -k1
+# Usage:
+#   analyze-roots-of-yustar-input-method.pl [yustar_chaifen*.dict.yaml] | cut -f 2,3 | sort -u -k2 -k1
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
 use utf8;                               # so literals and identifiers can be in UTF-8
@@ -17,17 +18,24 @@ use autodie;
 my $chaifen_file = shift || "yustar_chaifen.dict.yaml";
 my $chaifen_tw_file = shift || "yustar_chaifen_tw.dict.yaml";
 
+my %unknown_roots;
+
 my $fh;
 open $fh, $chaifen_file;
 analyze($fh);
 close $fh;
 undef $fh;
 
-open $fh, $chaifen_file;
+open $fh, $chaifen_tw_file;
 analyze($fh);
 close $fh;
 
-my %unknown_roots;
+for (sort { $unknown_roots{$a} cmp $unknown_roots{$b} } keys %unknown_roots) {
+    say "?\t$_\t", $unknown_roots{$_} unless $unknown_roots{$_} eq "--";
+}
+
+#######################################################################
+
 sub analyze($fh) {
     while (<$fh>) { last if /^\.\.\./;  }
 
@@ -65,8 +73,4 @@ sub analyze($fh) {
             $unknown_roots{$a[-1]} = uc(substr($code, 3, 1)) . "?" unless $unknown_roots{$a[-1]};
         }
     }
-}
-
-for (sort { $unknown_roots{$a} cmp $unknown_roots{$b} } keys %unknown_roots) {
-    say "?\t$_\t", $unknown_roots{$_} unless $unknown_roots{$_} eq "--";
 }
