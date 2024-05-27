@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Usage: ./generate.sh path/to/宇浩星陳_v3.4.5-beta.1/schema
+# Usage: ./generate.sh path/to/宇浩星陳_v3.4.5/schema
 
 set -euo pipefail
 
