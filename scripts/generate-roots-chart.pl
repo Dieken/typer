@@ -633,16 +633,25 @@ function createKeyboard() {
 }
 
 function createTable() {
+  let isSingleCharRoot = true;
+  let letters = Object.keys(chart_json).sort();
+
+  for (let l of letters) {
+    if (l.length > 1) {
+      isSingleCharRoot = false;
+      break;
+    }
+  }
+
   let table = `
   <table>
   <caption>字根表</caption>
   <thead>
-    <tr><th>序号</th><th>键名</th><th>编码</th><th>字根</th><th>排名</th><th>字频</th><th>例字</th><th>备注</th></tr>
+    <tr><th>序号</th>\${isSingleCharRoot ? "" : "<th>键名</th>"}<th>编码</th><th>字根</th><th>排名</th><th>字频</th><th>例字</th><th>备注</th></tr>
   </thead>
   <tbody>`;
 
   let i = 0;
-  let letters = Object.keys(chart_json).sort();
 
   for (let l of letters) {
     let codes = Object.keys(chart_json[l]).sort();
@@ -670,7 +679,7 @@ function createTable() {
         table += `
     <tr>
       <td class="seq \${clz} \${clz2}">\${i}</td>
-      \${td_l}
+      \${isSingleCharRoot ? "" : td_l}
       \${td_c}
       <td class="root \${clz} \${clz2}"><ruby>\${mr(r)}<rp>(</rp><rt>\${d.pinyin}</rt><rp>)</rp></ruby></td>
       <td class="rank \${clz} \${clz2}">\${rootsRank.get(r)}</td>
