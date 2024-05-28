@@ -4,8 +4,8 @@
 
 set -euo pipefail
 
-curl -s -O 'https://yuhao.forfudan.com/zigen-star.csv'
-curl -s -o yuhao-chaifen.csv 'https://yuhao.forfudan.com/chaifen.csv'
+[ -e zigen-star.csv ] || curl -O 'https://yuhao.forfudan.com/zigen-star.csv'
+[ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://yuhao.forfudan.com/chaifen.csv'
 
 ./fix-yuhao-chaifen-dict.pl "$1"/yustar_chaifen{,_tw}.dict.yaml yuhao-chaifen.csv
 
