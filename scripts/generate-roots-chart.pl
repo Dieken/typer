@@ -103,6 +103,7 @@ for my $k (sort {
 }
 
 my %chart;
+my $isSingleCharRoot = 1;
 while (my ($k, $v) = each %$roots) {
     my @a = @$v;
     my ($code, $pinyin, $comment) = ($a[2], $a[3], join(" ", @a[4..$#a]));
@@ -123,6 +124,8 @@ while (my ($k, $v) = each %$roots) {
         traditional => $roots_is_traditional{$k} ? 1 : 0,
         examples => $roots_examples{$k},
     };
+
+    $isSingleCharRoot = 0 if length($code) > 1;
 }
 
 my $chart_json = JSON::PP->new->utf8(0)->pretty($indent_json)->canonical->encode(\%chart);
@@ -136,7 +139,7 @@ if ($only_json) {
         "var max_pages = $max_pages;\n" .
         "var chart_json = $chart_json;\n" .
         "var roots_mapping = $roots_mapping_json;\n";
-    printf template(), read_files(@extra_js), $script;
+    print template(read_files(@extra_js), $script);
 }
 
 
@@ -230,8 +233,9 @@ sub read_files(@files) {
     return $s;
 }
 
-sub template() {
+sub template($charinfo_js, $chart_js) {
     my $extra_font = $roots_font ? "\"$roots_font\"," : "";
+    my $word_break = $isSingleCharRoot ? "normal" : "keep-all";
 
     return <<"END";
 <!DOCTYPE html>
@@ -244,9 +248,13 @@ sub template() {
   <title>$title</title>
   <style type="text/css">
   body {
-    //font-family: "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", "sans-serif";
-    font-family: $extra_font "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2", "KaiXinSongA", "KaiXinSongB", "SimSun", "SimSun-ExtB", "SimSun-ExtG",
-                 "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd", "serif";
+    //font-family: $extra_font "Alibaba PuHuiTi 3.0", "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", "sans-serif";
+    font-family: $extra_font "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2",
+                 "KaiXinSongA", "KaiXinSongB",
+                 "SimSun", "SimSun-ExtB", "SimSun-ExtG",
+                 "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd",
+                 "FSung-m", "FSung-1", "FSung-2", "FSung-3", "FSung-F", "FSung-X",
+                 "Jigmo", "Jigmo2", "Jigmo3", "serif";
   }
 
   table {
@@ -293,7 +301,7 @@ sub template() {
     width: 140px;
     height: 120px;
     border-top: none;
-    word-break: keep-all;
+    word-break: $word_break;
     vertical-align: top;
   }
 
@@ -416,7 +424,7 @@ Please enable JavaScript to experience the full functionality of our site.
 //<![CDATA[
 "use strict";
 
-%s
+$charinfo_js
 
 //]]>
 </script>
@@ -425,16 +433,17 @@ Please enable JavaScript to experience the full functionality of our site.
 //<![CDATA[
 "use strict";
 
-%s
+$chart_js
 
 var page = 0;
 var rootsRank = new Map();
 var hotRootLastRank = 0;
 var clickedRoot = null;
-var enable_font = roots_mapping ? true : false;
+var enableFont = roots_mapping ? true : false;
+var isSingleCharRoot = $isSingleCharRoot;
 
 function mr(r) {    // map root
-  if (enable_font && r in roots_mapping) {
+  if (enableFont && r in roots_mapping) {
     return roots_mapping[r];
   } else {
     return r;
@@ -472,7 +481,7 @@ function onChangeChaifen(text) {
           <div class="char">\${info.char}</div>
           <div class="unicode"><a href="https://www.unicode.org/cgi-bin/GetUnihanData.pl?codepoint=\${info.char}" target="_blank" rel="noreferer" title="Unihan Database">U+\${unicode}</a></div>
           <div class="code">\${info.info.codes.join(" ")}</div>
-          <div class="root">\${info.info.chaifens.map(fmt_chaifen).join("<br/>")}</div>
+          <div class="root">\${info.info.chaifens.map(fmt_chaifen).join("·")}</div>
           <div class="links">
             <a href="https://zi.tools/zi/\${info.char}" target="_blank" rel="noreferrer" title="字统网查询">字</a>
             <a href="http://www.yedict.com/zscontent.asp?uni=\${unicode}" target="_blank" rel="noreferrer" title="叶典网查询">叶</a>
@@ -497,7 +506,7 @@ function hideChaifen() {
 }
 
 function onUpdateFont(checked) {
-  enable_font = checked;
+  enableFont = checked;
   onChangeFreq(page);
 
   let chaifen_result = document.getElementById("chaifen_result");
@@ -558,7 +567,7 @@ function showDetail(tag) {
   let d = chart_json[l][c][r];
 
   let type = d.traditional ? "(繁)" : "";
-  let hot = isHotRoot(r) ? "(前25%%)" : "";
+  let hot = isHotRoot(r) ? "(前25%)" : "";
 
   let table = `<table><thead><tr>
     <th>编码</th><th>字根</th><th>拼音</th><th>排名</th><th>字频</th><th>例字</th><th>备注</th>
@@ -633,16 +642,6 @@ function createKeyboard() {
 }
 
 function createTable() {
-  let isSingleCharRoot = true;
-  let letters = Object.keys(chart_json).sort();
-
-  for (let l of letters) {
-    if (l.length > 1) {
-      isSingleCharRoot = false;
-      break;
-    }
-  }
-
   let table = `
   <table>
   <caption>字根表</caption>
@@ -652,6 +651,7 @@ function createTable() {
   <tbody>`;
 
   let i = 0;
+  let letters = Object.keys(chart_json).sort();
 
   for (let l of letters) {
     let codes = Object.keys(chart_json[l]).sort();
