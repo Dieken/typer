@@ -24,8 +24,10 @@ my $chaifen = parse_chaifen($chaifen_file);
 
 my $mapping = analyze($pua_chaifen, $chaifen);
 
-for (sort { $mapping->{$a} cmp $mapping->{$b} } keys %$mapping) {
-    say "$mapping->{$_}\t$_";
+for (sort { ord($mapping->{$a}[0]) <=> ord($mapping->{$b}[0]) or
+            $mapping->{$b}[1] <=> $mapping->{$a}[1] or
+            ord($a) <=> ord($b) } keys %$mapping) {
+    say "$mapping->{$_}[0]\t$_";
 }
 
 sub parse_pua_chaifen($file) {
@@ -73,6 +75,12 @@ sub analyze($pua_chaifen, $chaifen) {
         }
 
         my $v2 = $chaifen->{$k};
+
+        # XXX: 形近归并后的拆分少一个
+        if (@$v == 2 && @$v2 == 1) {
+            $v2->[1] = $v2->[0];
+        }
+
         if (@$v != @$v2) {
             warn "$k has different division: [@$v] vs [@$v2]\n";
             next;
@@ -96,12 +104,14 @@ sub analyze($pua_chaifen, $chaifen) {
                 next if $a eq $b;
 
                 if (exists $h{$a}) {
-                    if ($h{$a} ne $b) {
-                        warn "$k has suspicious division: $a -> $h{$a} vs $b\n";
+                    if ($h{$a}[0] ne $b) {
+                        warn "$k has suspicious division: $a -> $h{$a}[0] vs $b\n";
                         next;
+                    } else {
+                        $h{$a}[1]++;
                     }
                 } else {
-                    $h{$a} = $b;
+                    $h{$a} = [$b, 0];
                 }
             }
         }

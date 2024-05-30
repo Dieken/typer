@@ -5,15 +5,18 @@
 set -euo pipefail
 
 # http://soongsky.com/sky/root.php
-curl -O http://soongsky.com/sky/java/root.js
+[ -e root.js ] || curl -O http://soongsky.com/sky/java/root.js
 perl -i -CSDA -lnE 'print unless /^\s*\/\*/ .. /^\s*\*\//' root.js
 
 # http://soongsky.com/sky/lookup.php
-curl -O http://soongsky.com/sky/java/div.js
-curl -O http://soongsky.com/sky/java/code.js
+[ -e div.js ] || curl -O http://soongsky.com/sky/java/div.js
+[ -e code.js ] || curl -O http://soongsky.com/sky/java/code.js
 
 ./analyze-sky-root-mapping.pl div.js "$2/拆分表.txt" > roots-mapping-0.tsv 2> roots-mapping-error.txt
 perl -CSDA -lanE 'next unless /^{/; if (! exists $h{$F[0]}) { print; $h{$F[0]} = $F[1]; }' roots-mapping-0.tsv > roots-mapping.tsv
+
+# dirty fix:
+perl -Mutf8 -CSDA -i -lpE 'if (/^\{邦左\}\s+(\S+)/) { print "{寿上}\t$1"; } if (/^\{寿上\}\s+(\S+)/) { print "{邦左}\t$1"; }' roots-mapping.tsv
 
 perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' "$1/sky.dict.yaml" > mabiao.tsv
 
