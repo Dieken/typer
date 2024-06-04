@@ -363,8 +363,8 @@ sub template($charinfo_js, $chart_js) {
 
   #chaifen_result a {
     text-decoration: none;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .chaifen .char {
@@ -487,6 +487,7 @@ function onChangeChaifen(text) {
             <a href="http://www.yedict.com/zscontent.asp?uni=\${unicode}" target="_blank" rel="noreferrer" title="叶典网查询">叶</a>
             <a href="https://www.zdic.net/hans/\${info.char}" target="_blank" rel="noreferrer" title="汉典查询">汉</a>
             <a href="https://ctext.org/dictionary.pl?if=gb&amp;char=\${info.char}" target="_blank" rel="noreferrer" title="中國哲學書電子化計劃查询">哲</a>
+            <a href="https://www.guoxuedashi.net/zidian/\${unicode}.html" target="_blank" rel="noreferer" title="国学大师">国</a>
             <a href="https://hanyu.baidu.com/zici/s?wd=\${info.char}" target="_blank" rel="noreferrer" title="百度汉语">百</a>
           </div>
         </div>`;
