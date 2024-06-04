@@ -20,6 +20,7 @@ use HTTP::Tiny;
 use IO::Uncompress::Unzip qw/unzip $UnzipError/;
 use JSON::PP;
 use List::Util qw/max uniqstr/;
+use MIME::Base64;
 use Unicode::UCD qw/charblock/;
 
 my $page_size = $ENV{PAGE_SIZE} || 500;
@@ -234,7 +235,28 @@ sub read_files(@files) {
 }
 
 sub template($charinfo_js, $chart_js) {
-    my $extra_font = $roots_font ? "\"$roots_font\"," : "";
+    my $extra_font = "";
+    my $font_face = "";
+    if ($roots_font) {
+        if (-f $roots_font) {
+            $extra_font = "\"rootfont\",";
+
+            my ($mime_type) = $roots_font =~ /\.([^\.]+)/i;
+            die "Unknown font type: $roots_font\n" unless $mime_type;
+            $mime_type = "font/" . lc($mime_type);
+
+            open my $fh, "<", $roots_font;
+            binmode $fh;
+            my $data = do { local $/; <$fh> };
+            close $fh;
+
+            $font_face = "  \@font-face {\n    font-family: rootfont;\n    src: url(data:$mime_type;base64," .
+                encode_base64($data, "") . ")\n  }\n";
+        } else {
+            $extra_font = "\"$roots_font\",";
+        }
+    }
+
     my $word_break = $isSingleCharRoot ? "normal" : "keep-all";
 
     return <<"END";
@@ -247,6 +269,7 @@ sub template($charinfo_js, $chart_js) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>$title</title>
   <style type="text/css">
+$font_face
   body {
     //font-family: $extra_font "Alibaba PuHuiTi 3.0", "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", "sans-serif";
     font-family: $extra_font "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2",

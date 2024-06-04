@@ -25,5 +25,5 @@ perl -CSDA -lanE 'print "$F[0]\t$F[1]"' "$2/字根表.txt" > roots.tsv
 perl -CSDA -lnE 's/^\S+\s+//; @a = split; for (@a[1..$#a]) { print "$a[0]\t$_" }' "$2/拆分表.txt" > chaifen.tsv
 
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > sky.js
-../scripts/generate-roots-chart.pl -u ../sbfd/ -e sky.js -r roots-mapping.tsv -f Sky \
+../scripts/generate-roots-chart.pl -u ../sbfd/ -e sky.js -r roots-mapping.tsv -f sky.ttf \
     roots.tsv chaifen.tsv ../top6000.txt > sky.html
