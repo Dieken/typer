@@ -33,4 +33,5 @@ perl -CSDA -lne 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "
 
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yustar_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yustar_sc.js -r roots-mapping.tsv -f YuhaoSongti.ttf \
+    -t "宇浩星陳字根表 v3.4.5" \
     roots.tsv chaifen_sc.tsv ../top6000.txt > yustar_sc.html

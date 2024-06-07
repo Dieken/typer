@@ -271,13 +271,13 @@ sub template($charinfo_js, $chart_js) {
   <style type="text/css">
 $font_face
   body {
-    //font-family: $extra_font "Alibaba PuHuiTi 3.0", "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", "sans-serif";
+    //font-family: $extra_font "Alibaba PuHuiTi 3.0", "MiSans", "MiSans L3", "Plangothic P1", "Plangothic P2", "Monu Hani", "Monu Han2", "Monu Han3", sans-serif;
     font-family: $extra_font "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2",
                  "KaiXinSongA", "KaiXinSongB",
                  "SimSun", "SimSun-ExtB", "SimSun-ExtG",
                  "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd",
                  "FSung-m", "FSung-1", "FSung-2", "FSung-3", "FSung-F", "FSung-X",
-                 "Jigmo", "Jigmo2", "Jigmo3", "serif";
+                 "Jigmo", "Jigmo2", "Jigmo3", serif;
   }
 
   table {
@@ -288,6 +288,10 @@ $font_face
     border: 1px solid black;
     border-collapse: collapse;
     padding: 10px;
+  }
+
+  caption {
+    margin-bottom: 10px;
   }
 
   .traditional {
@@ -352,6 +356,12 @@ $font_face
   #toolbar > div {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  #help_msg {
+    display: none;
+    justify-content: center;
+    align-items: center;
   }
 
   #detail {
@@ -430,6 +440,24 @@ Please enable JavaScript to experience the full functionality of our site.
   <div><label for="practice">练习： </label><input type="text" id="practice"/></div>
   <div><label for="progress">进度： </label><progress id="progress" value="10" max="100"></progress></div>
   <div id="d_font"><input type="checkbox" id="enable_font" checked onchange="onUpdateFont(this.checked)"/><label for="enable_font">启用字根字体</label></div>
+  <div><button onclick="showHelp()">帮助</button></div>
+</div>
+
+
+<div id="help_msg">
+  <ol>
+    <li>Safari 浏览器<a href="https://dev.to/masakudamatsu/don-t-locally-host-google-fonts-for-the-sake-of-safari-bkg">不支持用户本地安装的字体</a>，所以只支持 Chrome 和 Firefox 浏览器。</li>
+    <li>需要本地安装以下任意一款大字集字体：</li>
+    <ul>
+      <li><a href="http://cheonhyeong.com/Simplified/download.html">天珩全字库(TH-Tshyn)</a></li>
+      <li><a href="https://www.guoxuedashi.net/zidian/bujian/KaiXinSong.php">开心宋体</a></li>
+      <li><a href="http://soongsky.com/sky/download.php">超集宋体</a></li>
+      <li><a href="https://github.com/takushun-wu/SuperHan">SuperHan 字库</a></li>
+      <li><a href="https://fgwang.blogspot.com/2023/10/unicode-151.html">全宋体</a></li>
+      <li><a href="https://kamichikoichi.github.io/jigmo/">Jigmo(字云)</a></li>
+    </ul>
+  </ol>
+  <button style="margin-left: 20px" onclick="hideHelp()">隐藏</button>
 </div>
 
 <div id="chaifen_result"></div>
@@ -516,7 +544,7 @@ function onChangeChaifen(text) {
         </div>`;
     }
 
-    html += '<button onclick="hideChaifen()">隐藏</button>';
+    html += '<button style="margin-left: 10px" onclick="hideChaifen()">隐藏</button>';
     document.getElementById("chaifen_result").innerHTML = html;
     document.getElementById("chaifen_result").style.display = "flex";
   } else {
@@ -540,7 +568,7 @@ function onUpdateFont(checked) {
   }
 
   let detail = document.getElementById("detail");
-  if (detail.style.display != "none") {
+  if (detail.style.display != "none" && clickedRoot) {
     showDetail(clickedRoot);
   }
 }
@@ -613,6 +641,14 @@ function hideDetail() {
   document.getElementById("detail").style.display = "none";
 }
 
+function showHelp() {
+  document.getElementById("help_msg").style.display = "flex";
+}
+
+function hideHelp() {
+  document.getElementById("help_msg").style.display = "none";
+}
+
 function createKeyboard() {
   let keyboard = "";
   let rows = ["QWERTYUIOP", "ASDFGHJKL", "ZXCVBNM"];
@@ -668,7 +704,7 @@ function createKeyboard() {
 function createTable() {
   let table = `
   <table>
-  <caption>字根表</caption>
+  <caption>$title</caption>
   <thead>
     <tr><th>序号</th>\${isSingleCharRoot ? "" : "<th>键名</th>"}<th>编码</th><th>字根</th><th>排名</th><th>字频</th><th>例字</th><th>备注</th></tr>
   </thead>

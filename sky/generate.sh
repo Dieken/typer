@@ -26,4 +26,5 @@ perl -CSDA -lnE 's/^\S+\s+//; @a = split; for (@a[1..$#a]) { print "$a[0]\t$_" }
 
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > sky.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e sky.js -r roots-mapping.tsv -f sky.ttf \
+    -t "天码字根表 v20240528" \
     roots.tsv chaifen.tsv ../top6000.txt > sky.html
