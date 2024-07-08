@@ -26,40 +26,37 @@ my $yuhao_chaifen_file = shift || "yuhao-chaifen.csv";
 my $yuhao_chaifen = parse_yuhao_chaifen($yuhao_chaifen_file);
 my %override_chaifen;
 
+# yuhao-chaifen.csv     => expected-chaifen.dict.yaml,   # current-chaifen.dict.yaml
 my %roots_mapping = (
-    '' => '{虍头}',     # not {虎头}
+    '' => '{虍头}',    # not {虎头}
     '虍' => '虍',        # not {虎头}
     '爫' => '爫',        # not 爪
     '⺈' => '⺈',        # not 冖
     '廾' => '廾',        # not 卄
-    '' => '𰀁',       # not キ
-    '' => '{飞右}',    # not 二
+    '' => '𠂇',        # not ナ
+    '' => '𰀁',       # not キ
+    '乙' => '乙',        # not 乛
     '㇆' => '㇆',        # not 乛
     '覀' => '覀',        # not 西
-    '' => '𫩏',       # not 日
+    '' => '𫩏',       # not 日
     'ユ' => 'ユ',        # not コ
-    '' => '𧰨',        # not 豕
-    '乙' => '乙',        # not 乛
-    '' => '{丄丶}',    # not 丄
-    '' => '{𠬞左}',    # not 丩
-    '' => '高',        # not {高頭}
-    '' => '⺆',        # no PUA
-    '' => '𰀪',       # not {两撇}
-    '' => '𬺰',       # not {于下}
-    '' => '𫝀',       # not {五下}
-    '' => '𠀎',        # not {冓上}
-    '' => '𠂎',        # not {卯左}
-    '' => '𰀄',       # not {反彐}
-    '' => '𰃦',       # not {向框}
-    '' => '𠂇',        # not {左上}
-    '' => '𠃜',       # not {眉上}
-    '' => '𫶧',      # not {荒下}
-    '' => '𣎆',       # not {贏頭}
-    '' => '𱍸',      # not {齊右}
-    '' => '𪚴',      # not {龜下}
-    '' => '{𠇊右}',   # not 𧘇
-    '牜' => '牜',       # not 牛
-    '⻊' => '⻊',       # not 足
+    '高' => '高',        # not {膏頭}
+
+# Find CJK chars mapping to {xxx}:
+#   join -1 1 -2 2 <(sort roots-mapping.tsv) <(perl -CSDA -lnE 'print if /^\P{PUA}\s+\{[^\}]+\}$/' chaifen.tsv | sort -k2,2) | perl -CSDA -lanE "print \"    '\$F[1]' => '\$F[2]',        # not \$F[0]\""
+
+    '' => '𰀪',        # not {两撇}
+    '' => '𬺰',        # not {于下}
+    '' => '𫝀',        # not {五下}
+    '' => '𠀎',         # not {冓上}
+    '' => '𠂎',         # not {卯左}
+    '' => '𰀄',        # not {反彐}
+    '' => '𰃦',        # not {向框}
+    '' => '𠃜',         # not {眉上}
+    '' => '𫶧',        # not {荒下}
+    '' => '𣎆',         # not {贏頭}
+    '' => '𱍸',        # not {齊右}
+    '' => '𪚴',        # not {龜下}
 );
 
 # https://github.com/forFudan/yuhao/issues/44

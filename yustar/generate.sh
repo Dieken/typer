@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Usage: ./generate.sh path/to/宇浩星陳_v3.4.5/schema
+# Usage: ./generate.sh path/to/yuhao_star_v3.5.0/schema
 
 set -euo pipefail
 
@@ -31,7 +31,10 @@ perl -CSDA -lne 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "
 perl -CSDA -lne 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "$1/yustar_chaifen.dict.yaml" |
     sort -u > chaifen_sc.tsv
 
+cp -f "$1/../font/Yuniversus.ttf" .
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yustar_sc.js
-../scripts/generate-roots-chart.pl -u ../sbfd/ -e yustar_sc.js -r roots-mapping.tsv -f YuhaoSongti.ttf \
-    -t "宇浩星陳字根表 v3.4.5" \
+../scripts/generate-roots-chart.pl -u ../sbfd/ -e yustar_sc.js -r roots-mapping.tsv -f Yuniversus.ttf \
+    -t "宇浩星陳字根表 v3.5.0" \
     roots.tsv chaifen_sc.tsv ../top6000.txt > yustar_sc.html
+
+perl -CSDA -i -pE 's/\r//' *.tsv *.csv
