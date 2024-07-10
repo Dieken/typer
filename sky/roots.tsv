@@ -41,7 +41,7 @@
 {反臣}	cv
 {反𦣝}	cv
 氵	cs
-ミ	cs
+ミ	cv
 日	dr
 {衰中}	dv
 曰	dy
@@ -49,7 +49,7 @@
 毌	dg
 母	dm
 毋	dw
-{毎下}	dw
+{毋}	dw
 {毌}	dv
 女	dn
 攵	dp
@@ -60,12 +60,12 @@
 ㅌ	ev
 {㒫上}	ev
 {镸上}	ev
-{ㅌ}	ev
 長	ec
 镸	ec
 馬	em
 {馬上}	ev
 隹	ev
+{隹}	ev
 彐	ex
 ⺕	ex
 ⼹	ej
@@ -74,10 +74,11 @@
 王	ew
 ⺩	ew
 壬	er
-{壬}	er
+𡈼	er
 巾	ej
 爫	ez
 ⺤	ez
+⺥	ez
 爪	ez
 瓜	eg
 {瓜}	ev
@@ -133,8 +134,10 @@
 一	hv
 ㇀	hv
 艹	hc
+⺾	hc
 ⺿	hc
 廾	hc
+サ	hc
 卄	hv
 卅	hs
 {带上}	hv
@@ -241,6 +244,7 @@
 {巜巜}	mv
 {鼠下}	mv
 ⺍	mv
+ツ	mv
 灬	mh
 ∴	mv
 {四点}	mv
@@ -253,6 +257,7 @@
 月	my
 ⺝	my
 ⺼	mr
+{月}	mv
 {⺝}	mv
 冉	mr
 {禺下}	mv
@@ -273,6 +278,7 @@
 门	nm
 〇	ov
 口	ok
+◇	ov
 {斉下}	ov
 ㅒ	ov
 亞	oy
@@ -303,6 +309,7 @@
 {⻞下}	pv
 丶	qv
 ㇏	qv
+乀	qv
 囗	qw
 {囟框}	qv
 {横日}	qq
@@ -356,6 +363,7 @@
 {兼下}	sv
 西	sx
 覀	sx
+襾	sx
 丅	tv
 丁	td
 下	tx
@@ -417,6 +425,7 @@
 尤	wy
 尢	wv
 兀	ww
+兀	ww
 龙	wl
 {纟上}	wv
 纟	ws
@@ -426,6 +435,7 @@
 乡	wx
 㐅	xv
 乂	xv
+乄	xv
 力	xl
 九	xj
 丸	xw
@@ -434,6 +444,7 @@
 {〃⺀}	xv
 ⚏	xv
 {⺀⺀}	xv
+{⺀〃}	xv
 氺	xs
 水	xs
 {乑下}	xv

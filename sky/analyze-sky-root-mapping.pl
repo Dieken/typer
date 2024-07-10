@@ -3,8 +3,8 @@
 # 分析天码输入法的拆分表，反推 {xxx} 字根到 PUA 字符的映射
 #
 # Usage:
-#   curl -O http://soongsky.com/sky/java/div.js
-#   analyze-sky-root-mapping.pl div.js path/to/天码拆分表/拆分表.txt
+#   curl -O http://soongsky.com/sky/java/code.js
+#   analyze-sky-root-mapping.pl code.js path/to/天码拆分表/拆分表.txt
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
 use utf8;                               # so literals and identifiers can be in UTF-8
@@ -16,7 +16,7 @@ use Encode   qw(decode);
 use autodie;
 use Unicode::UCD qw/charblock prop_value_aliases/;
 
-my $pua_chaifen_file = shift || "div.js";
+my $pua_chaifen_file = shift || "code.js";
 my $chaifen_file = shift || "拆分表.txt";
 
 my $pua_chaifen = parse_pua_chaifen($pua_chaifen_file);
@@ -35,7 +35,7 @@ sub parse_pua_chaifen($file) {
 
     open my $fh, "<", $file;
     while (<$fh>) {
-        my ($char, $chaifens) = $_ =~ /"([^"]+)"[^"]+"([^"]+)"/;
+        my ($char, $chaifens) = $_ =~ /"([^"]+)"[^\[]+\[([^\]]+)\]/;
         next unless $chaifens;
 
         my @a = split /·/, $chaifens;
