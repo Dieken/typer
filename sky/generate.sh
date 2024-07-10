@@ -29,4 +29,4 @@ perl -CSDA -lnE 's/^\S+\s+//; @a = split; for (@a[1..$#a]) { print "$a[0]\t$_" }
     -t "天码字根表 v20240710" \
     roots.tsv chaifen.tsv ../top6000.txt > sky.html
 
-perl -CSDA -i -pE 's/\r//' *.tsv
+perl -CSDA -i -pE 's/\r//' *.tsv *.js

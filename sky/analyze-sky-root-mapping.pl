@@ -35,10 +35,12 @@ sub parse_pua_chaifen($file) {
 
     open my $fh, "<", $file;
     while (<$fh>) {
-        my ($char, $chaifens) = $_ =~ /"([^"]+)"[^\[]+\[([^\]]+)\]/;
-        next unless $chaifens;
+        s/^\s*\[//;
+        my ($char) = $_ =~ /"([^"]+)/;
+        my @chaifens = $_ =~ /\[([^\]]+)\]/g;
+        next unless $char && @chaifens;
 
-        my @a = split /·/, $chaifens;
+        my @a = map { split /·/ } @chaifens;
         $h{$char} = \@a;
     }
     close $fh;
