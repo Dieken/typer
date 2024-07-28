@@ -28,8 +28,6 @@ my %override_chaifen;
 
 # yuhao-chaifen.csv     => expected-chaifen.dict.yaml,   # current-chaifen.dict.yaml
 my %roots_mapping = (
-    '' => '{虍头}',    # not {虎头}
-    '虍' => '虍',        # not {虎头}
     '爫' => '爫',        # not 爪
     '⺈' => '⺈',        # not 冖
     '廾' => '廾',        # not 卄
@@ -41,7 +39,6 @@ my %roots_mapping = (
     '' => '𫩏',       # not 日
     '' => '{曾中}',     # not 日
     'ユ' => 'ユ',        # not コ
-    '高' => '高',        # not {膏頭}
 
 # Find CJK chars mapping to {xxx}:
 #   join -1 1 -2 2 <(sort roots-mapping.tsv) <(perl -CSDA -lnE 'print if /^\P{PUA}\s+\{[^\}]+\}$/' chaifen.tsv | sort -k2,2) | perl -CSDA -lanE "print \"    '\$F[1]' => '\$F[2]',        # not \$F[0]\""
