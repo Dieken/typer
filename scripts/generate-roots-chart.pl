@@ -211,8 +211,9 @@ sub load_unihan($dir) {
     open $fh, "<", $unihan_readings;
     while (<$fh>) {
         next unless /^U\+/;
+        chomp;
 
-        my @a = split;
+        my @a = split /\s+/, $_, 3;
         next unless $a[1] eq "kMandarin";
         $h{hex(substr($a[0], 2))}{$a[1]} = $a[2];
     }
@@ -437,8 +438,8 @@ Please enable JavaScript to experience the full functionality of our site.
 <div id="toolbar">
   <div><label for="freq">字集： </label><span id="s_freq"></span></div>
   <div><label for="chaifen">拆分： </label><input type="text" id="chaifen" placeholder="输入文本查询拆分" size="30" autofocus oninput="onChangeChaifen(this.value)"/></div>
-  <div><label for="practice">练习： </label><input type="text" id="practice"/></div>
-  <div><label for="progress">进度： </label><progress id="progress" value="10" max="100"></progress></div>
+  <!--div><label for="practice">练习： </label><input type="text" id="practice"/></div>
+  <div><label for="progress">进度： </label><progress id="progress" value="10" max="100"></progress></div-->
   <div id="d_font"><input type="checkbox" id="enable_font" checked onchange="onUpdateFont(this.checked)"/><label for="enable_font">启用字根字体</label></div>
   <div><button onclick="showHelp()">帮助</button></div>
 </div>
@@ -459,6 +460,11 @@ Please enable JavaScript to experience the full functionality of our site.
   </ol>
   <button style="margin-left: 20px" onclick="hideHelp()">隐藏</button>
 </div>
+
+<!--div id="practice">
+  xxx
+</div-->
+
 
 <div id="chaifen_result"></div>
 
