@@ -51,7 +51,7 @@ for my $word (@$new_words) {
     }
 }
 
-@added_words = sort { $a->[1] cmp $b->[1] || $a->[0] cmp $a->[0] } @added_words;
+@added_words = sort { $a->[1] cmp $b->[1] } @added_words;
 
 say STDERR "added words: ", scalar @added_words;
 for (@added_words) {
