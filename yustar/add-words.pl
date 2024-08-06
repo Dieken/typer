@@ -24,10 +24,12 @@ use List::Util qw/uniqstr/;
 
 my @old_dicts;
 my @new_dicts;
+my $min_weight = 10;
 
 GetOptions(
-    'old-dict=s' => \@old_dicts,
-    'new-dict=s' => \@new_dicts,
+    'old-dict=s'    => \@old_dicts,
+    'new-dict=s'    => \@new_dicts,
+    'min-weight=i'  => \$min_weight,
 );
 
 my ($chars, $words) = read_old_dicts(@old_dicts);
@@ -155,7 +157,8 @@ sub read_new_dicts(@dicts) {
             }
             next unless $a[0] && $a[0] =~ /^\p{Han}/ && length($a[0]) >= 2;
 
-            $words{$a[0]} = ($is_rime_dict ? $a[2] : $a[1]) // 0;     # word => weight
+            my $weight = ($is_rime_dict ? $a[2] : $a[1]) // 0;
+            $words{$a[0]} = $weight if $weight >= $min_weight;
         }
 
         close $fh;
