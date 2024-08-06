@@ -6,7 +6,8 @@
 # Usage:
 #   export R=$HOME/Library/Rime
 #   a=$(grep '^\s*-\s\+yuhao/' $R/yustar_sc.dict.yaml | perl -lpE 's/\r//; s/^\s*\-\s*/-o $ENV{R}\//; s/$/.dict.yaml/')
-#   ./add-words.pl $a -n cn_dicts/base.dict.yaml > yuhao.extended.tsv
+#   #./add-words.pl $a -n cn_dicts/base.dict.yaml > yuhao.extended.tsv
+#   ./add-words.pl $a -n others/知频.txt > yuhao.extended.tsv
 #   echo >> $R/yuhao/yuhao.extended.dict.yaml
 #   cat yuhao.extended.tsv >> $R/yuhao/yuhao.extended.dict.yaml
 
@@ -133,19 +134,28 @@ sub read_new_dicts(@dicts) {
     my %words;
 
     for (@dicts) {
+        my $is_rime_dict = /\.dict\.yaml$/;
+
         open my $fh, '<', $_;
 
-        while (<$fh>) {
-            last if /^\.\.\./;
+        if ($is_rime_dict) {
+            while (<$fh>) {
+                last if /^\.\.\./;
+            }
         }
 
         while (<$fh>) {
             chomp;
 
-            my @a = split /\t/, $_, 3;
+            my @a;
+            if ($is_rime_dict) {
+                @a = split /\t/, $_, 3;
+            } else {
+                @a = split;
+            }
             next unless $a[0] && $a[0] =~ /^\p{Han}/ && length($a[0]) >= 2;
 
-            $words{$a[0]} = $a[2] // 0;     # word => weight
+            $words{$a[0]} = ($is_rime_dict ? $a[2] : $a[1]) // 0;     # word => weight
         }
 
         close $fh;
