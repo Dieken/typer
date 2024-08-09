@@ -43,6 +43,7 @@ my %chaifen;
             !exists $chaifen{$a[0]} &&
             #charblock(ord($a[0])) ne "Private Use Area";
             #charblock(ord($a[0])) =~ /^CJK/;
+            #charblock(ord($a[0])) =~ /^(?:CJK Unified Ideographs|CJK Compatibility Ideographs|CJK Radicals Supplement|Tangut)/;    # for sky-20240710
             charblock(ord($a[0])) =~ /^CJK Unified Ideographs/;
     }
     close $fh;
