@@ -38,13 +38,15 @@ my %chaifen;
     while (<$fh>) {
         chomp;
         my @a = split /\s+/, $_, 2;
-        $chaifen{$a[0]} = [ $a[1] =~ /{[^}]+}|\S/g ] if
-            $a[0] && $a[0] !~ /^#/ &&
+        next unless $a[0] && $a[0] !~ /^#/ &&
             !exists $chaifen{$a[0]} &&
             #charblock(ord($a[0])) ne "Private Use Area";
             #charblock(ord($a[0])) =~ /^CJK/;
             #charblock(ord($a[0])) =~ /^(?:CJK Unified Ideographs|CJK Compatibility Ideographs|CJK Radicals Supplement|Tangut)/;    # for sky-20240710
             charblock(ord($a[0])) =~ /^CJK Unified Ideographs/;
+
+        my @b = $a[1] =~ /{[^}]+}|\S/g;
+        $chaifen{$a[0]} = @b > 4 ? [ @b[0..2, -1] ] : \@b;
     }
     close $fh;
 }
