@@ -36,6 +36,10 @@ my %roots_mapping = (
     '覀' => '覀',        # not 西
     '' => '𫩏',       # not {横日}
     'ユ' => 'ユ',        # not コ
+    '𧘇' => '𧘇',        # not {衣下}
+    '' => '{𠇊右}',    # not 𧘇
+    '高' => '高',        # not {膏上}
+    '⺥' => '爪',        # not ⺥,  avoid single usage
 
 # Find CJK chars mapping to {xxx}:
 #   join -1 1 -2 2 <(sort roots-mapping.tsv) <(perl -CSDA -lnE 'print if /^\P{PUA}\s+\{[^\}]+\}$/' chaifen.tsv | sort -k2,2) | perl -CSDA -lanE "print \"    '\$F[1]' => '\$F[2]',        # not \$F[0]\""
