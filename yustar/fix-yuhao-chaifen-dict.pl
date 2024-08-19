@@ -29,32 +29,38 @@ my %override_chaifen;
 # yuhao-chaifen.csv     => expected-chaifen.dict.yaml,   # current-chaifen.dict.yaml
 my %roots_mapping = (
     '爫' => '爫',        # not 爪
-    '⺈' => '⺈',        # not 冖
     '廾' => '廾',        # not 卄
     '' => '𠂇',        # not ナ
-    '' => '𰀁',       # not キ
-    '乙' => '乙',        # not 乛
+    '' => '𰀁',       # not {奉下}
     '㇆' => '㇆',        # not 乛
     '覀' => '覀',        # not 西
-    '' => '𫩏',       # not 日
-    '' => '{曾中}',     # not 日
+    '' => '𫩏',       # not {横日}
     'ユ' => 'ユ',        # not コ
 
 # Find CJK chars mapping to {xxx}:
 #   join -1 1 -2 2 <(sort roots-mapping.tsv) <(perl -CSDA -lnE 'print if /^\P{PUA}\s+\{[^\}]+\}$/' chaifen.tsv | sort -k2,2) | perl -CSDA -lanE "print \"    '\$F[1]' => '\$F[2]',        # not \$F[0]\""
 
-    '' => '𰀪',        # not {两撇}
+    '' => '𰀪',        # not {二撇}
     '' => '𬺰',        # not {于下}
     '' => '𫝀',        # not {五下}
-    '' => '𠀎',         # not {冓上}
-    '' => '𠂎',         # not {卯左}
+    '' => '𠀎',        # not {冓上}
+    '' => '𢆉',        # not {南心}
+    '' => '𠂎',        # not {卯左}
+    '' => '𬼖',        # not {反彐}
+    '' => '𰀂',        # not {反彐}
     '' => '𰀄',        # not {反彐}
     '' => '𰃦',        # not {向框}
-    '' => '𠃜',         # not {眉上}
+    '' => '𦣞',        # not {姬右}
+    '' => '𦣝',        # not {弬右}
+    '' => '𣥂',        # not {步下}
+    '' => '𱼀',        # not {炙上}
+    '' => '𠃜',        # not {眉上}
+    '' => '𦥑',        # not {臼分}
+    '' => '𰆊',        # not {节下}
     '' => '𫶧',        # not {荒下}
-    '' => '𣎆',         # not {贏頭}
+    '' => '𧰨',        # not {豕下}
+    '' => '𣎆',        # not {贏框}
     '' => '𱍸',        # not {齊右}
-    '' => '𪚴',        # not {龜下}
 );
 
 # https://github.com/forFudan/yuhao/issues/44

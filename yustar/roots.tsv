@@ -1,9 +1,11 @@
-{京頭}	Ag
-{亮頭}	Ag
-{襄頭}	Ag
+{京上}	Ag
+{亮上}	Ag
+{膏上}	Ag
+{襄上}	Ag
 高	Ag
 㔾	Aj
 卩	Aj
+𰆊	Aj
 ヰ	Ak
 𰀁	Ak
 來	Al
@@ -12,6 +14,7 @@
 丑	Bc
 隶	Bd
 弓	Bg
+⺕	Bj
 彐	Bj
 肀	Bj
 𰀄	Bj
@@ -25,7 +28,6 @@
 皮	Bp
 尸	Bs
 𠃜	Bs
-韋	Bw
 𫝀	Bw
 言	By
 贝	Cb
@@ -41,6 +43,7 @@
 𰀪	Cp
 {曹上}	Cv
 雨	Cv
+页	Cy
 白	Db
 {專上}	Dc
 叀	Dc
@@ -54,11 +57,10 @@
 鬼	Dg
 戶	Dh
 臼	Di
+𦥑	Di
 ⺁	Dj
 斤	Dj
 門	Dm
-黽	Dm
-𪚴	Dm
 {鳥上}	Dn
 鳥	Dn
 由	Do
@@ -102,6 +104,7 @@
 丿	Gp
 气	Gq
 {爲下}	Gw
+{衣下}	Gy
 廴	Gy
 𧘇	Gy
 {⺮右}	Gz
@@ -110,13 +113,15 @@
 𠂉	Gz
 牙	Ha
 臣	Hc
+𦣝	Hc
+𦣞	Hc
 匚	Hf
 户	Hh
 戸	Hh
 丂	Hk
 犬	Hq
 犭	Hq
-{穀頭}	Hs
+{穀框}	Hs
 士	Hs
 龶	Hs
 土	Ht
@@ -133,10 +138,13 @@
 冫	Ir
 尚	Is
 龸	Is
+⺌	Iv
 小	Iv
+𣥂	Iv
 穴	Ix
 貝	Jb
 丁	Jd
+頁	Je
 缶	Jf
 古	Jg
 矢	Ji
@@ -149,6 +157,7 @@
 𫩏	Jr
 示	Js
 {丄丶}	Jv
+{黽中}	Jv
 丄	Jv
 上	Jv
 王	Jw
@@ -222,6 +231,7 @@
 水	Ns
 氵	Ns
 巴	Ob
+⻍	Oc
 辶	Oc
 大	Od
 𡗗	Od
@@ -258,8 +268,10 @@
 ⺶	Qy
 ⺷	Qy
 羊	Qy
+𢆉	Qy
 人	Re
 骨	Rg
+{僉上}	Rh
 {龠上}	Rh
 合	Rh
 心	Ri
@@ -299,6 +311,7 @@
 𣎆	Tw
 {乍下}	Ub
 {龍右}	Ub
+⺊	Ub
 卜	Ub
 髟	Ub
 長	Uc
@@ -319,6 +332,7 @@
 丨	Us
 山	Us
 罒	Uw
+⺥	Uz
 爪	Uz
 爫	Uz
 丆	Vh
@@ -334,6 +348,7 @@
 ⺆	Wb
 勹	Wb
 屮	Wc
+{发左}	Wj
 丩	Wj
 丱	Wj
 凵	Wk
@@ -343,7 +358,9 @@
 𫶧	Wr
 囗	Ww
 {祭上}	Wy
+⺼	Wy
 月	Wy
+𱼀	Wy
 七	Xi
 车	Xj
 ⺈	Xm
@@ -356,6 +373,7 @@
 衤	Xy
 阝	Yf
 飛	Yf
+⺄	Yi
 ㇆	Yi
 乁	Yi
 乙	Yi
