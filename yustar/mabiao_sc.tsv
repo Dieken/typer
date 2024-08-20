@@ -212,7 +212,7 @@
 招	fm
 指	fn
 天	fo
-正	fp
+扯	fp
 来	fq
 势	fr
 手	fs
@@ -370,12 +370,13 @@
 虽	lq
 哈	lr
 别	ls
-敌	lt
+政	lt
 忠	lu
 口	lv
 叫	lw
 吹	lx
 啊	ly
+正	lz
 床	ma
 痛	mb
 委	mc
@@ -830,7 +831,6 @@
 招标	fm
 指出	fn
 天下	fo
-正在	fp
 来说	fq
 势头	fr
 手机	fs
@@ -969,11 +969,12 @@
 虽然	lq
 哈哈	lr
 别人	ls
-敌人	lt
+政策	lt
 忠实	lu
 口袋	lv
 叫做	lw
 吹嘘	lx
+正在	lz
 床位	ma
 痛苦	mb
 委托	mc
@@ -1346,7 +1347,6 @@
 招聘	fm
 指数	fn
 天津	fo
-正式	fp
 来自	fq
 势力	fr
 手段	fs
@@ -1472,11 +1472,12 @@
 嘴唇	lp
 虽说	lq
 别墅	ls
-敌军	lt
+政府	lt
 忠诚	lu
 口碑	lv
 叫卖	lw
 吹风	lx
+正式	lz
 床单	ma
 痛哭	mb
 委员	mc
@@ -1808,7 +1809,6 @@
 凹	cfi
 赋	cfk
 徑	cfl
-征	cfp
 姊	cge
 奶	cgn
 妒	chh
@@ -1824,6 +1824,8 @@
 赐	cjw
 贼	cke
 赔	ckl
+惩	clr
+征	clz
 震	cmc
 嫉	cmj
 妖	cmy
@@ -1855,7 +1857,6 @@
 讥	dej
 丘	dfi
 逅	dfl
-证	dfp
 輛	dfu
 魅	dfw
 质	dgc
@@ -1876,6 +1877,7 @@
 谙	dkj
 诚	dky
 识	dlk
+证	dlz
 诿	dmc
 讱	dmk
 诏	dml
@@ -2375,7 +2377,6 @@
 秃	mej
 疫	mes
 稽	mfn
-症	mfp
 摩	mfs
 秀	mgn
 痔	mhk
@@ -2387,6 +2388,7 @@
 麈	mkj
 序	mkv
 唇	mlv
+症	mlz
 丢	mna
 瘆	mno
 疤	mob
@@ -2608,7 +2610,6 @@
 恢	rei
 怖	reu
 斜	rfa
-怔	rfp
 俞	rfw
 慎	rgj
 愤	rgs
@@ -2621,6 +2622,7 @@
 愔	rkj
 贪	rky
 愕	rll
+怔	rlz
 仑	rnb
 慌	rst
 骼	rtl
@@ -2763,7 +2765,6 @@
 畴	vdk
 硬	vfj
 厨	vfl
-歪	vfp
 励	vfw
 砟	vgu
 碥	vhc
@@ -3360,7 +3361,6 @@
 𣑭	acfi
 𮲶	acfk
 桐	acfl
-𣔥	acfp
 𪴊	acfq
 𱹌	acfq
 𣛲	acgk
@@ -3405,6 +3405,7 @@
 䯧	aclv
 𣐒	aclv
 𩫌	aclv
+𣔥	aclz
 刺	acmd
 𱣐	acmd
 刺	acmd
@@ -3446,7 +3447,7 @@
 𣙡	acss
 欛	acsw
 𧜌	actg
-𢿋	actp
+𢿋	actl
 敇	actu
 𭣯	acub
 𱣈	acub
@@ -3893,9 +3894,6 @@
 㮇	afok
 𭪇	afol
 𣏞	afom
-柾	afpi
-㯊	afpi
-𪴺	afpi
 梾	afqm
 亵	afrg
 𣗂	afsa
@@ -3996,7 +3994,6 @@
 𪲘	agfk
 𣞬	agfo
 𩫔	agfp
-𭪉	agfp
 高	agg
 ⾼	agg
 	agg
@@ -4072,6 +4069,7 @@
 楀	aglj
 𣝄	aglk
 𰘧	aglm
+𭪉	aglz
 𠜆	agmd
 𣙭	agml
 𣏈	agna
@@ -5113,11 +5111,11 @@
 墪	akth
 𰘌	aktj
 𩞤	aktk
+𣦤	aktl
 𰘅	aktl
 𣞗	aktm
 𬸫	aktm
 𭁛	akto
-𣦤	aktp
 𮕁	aktq
 憝	aktr
 鐜	aktt
@@ -5231,6 +5229,7 @@
 櫢	algt
 𭫡	algy
 桺	alhb
+㯊	alhi
 枵	alhk
 𪴋	alhl
 𭸋	alhq
@@ -5352,13 +5351,13 @@
 𣝮	alsk
 柺	alsl
 勅	alsl
+𠢦	alsl
 柺	alsl
 栝	alsm
 㭭	alsm
 𫛶	alsm
 𬄥	alsm
 𠆆	alsn
-𠢦	alsp
 𪬈	alsr
 𧫣	altb
 𡠼	altc
@@ -5367,8 +5366,8 @@
 𩐎	altf
 𡏴	alth
 𩞕	altk
+整	altl
 遫	alto
-整	altp
 𮔳	altq
 慗	altr
 𭄺	alts
@@ -5381,8 +5380,8 @@
 𢂋	aluj
 𣑐	aluj
 𬅇	aluj
+𢿫	alul
 𨘱	aluo
-𢿫	alup
 𢣬	alur
 𣐄	alus
 𪳱	aluu
@@ -5428,6 +5427,8 @@
 𨛢	alyf
 𬼥	alyi
 𤴚	alyp
+𪴺	alzl
+柾	alzm
 𣙪	amam
 𪲝	amam
 槺	ambd
@@ -6124,6 +6125,7 @@
 𢋠	aqxk
 𱚭	aqxk
 啻	aqxl
+𰙪	aqxl
 𣯟	aqxm
 𰄺	aqxm
 𱊕	aqxm
@@ -6138,7 +6140,6 @@
 𣄬	aqxp
 𤙺	aqxp
 𬌟	aqxp
-𰙪	aqxp
 𰙲	aqxp
 𢝃	aqxr
 𪪶	aqxs
@@ -6910,7 +6911,6 @@
 𠟼	aufm
 𣖩	aufn
 𣟳	aufo
-𣗵	aufp
 榿	aufq
 𣛼	aufq
 𪲬	aufq
@@ -6984,6 +6984,7 @@
 桴	aukz
 樐	aulm
 枮	aulv
+𣗵	aulz
 𣠍	aumg
 㭗	aumm
 𣓆	aumr
@@ -7078,7 +7079,6 @@
 柸	avfi
 橱	avfk
 𭕓	avfo
-𣖍	avfp
 𬅗	avge
 𪒁	avgh
 𤱔	avgn
@@ -7112,6 +7112,7 @@
 𪲲	avlo
 𫟯	avlt
 桮	avlv
+𣖍	avlz
 椳	avmc
 櫯	avmh
 𣙽	avmm
@@ -8000,7 +8001,6 @@
 詷	bcfl
 𢏕	bcfl
 𩧲	bcfl
-𧨋	bcfp
 𫵩	bcfq
 屐	bcgb
 𧩺	bcgg
@@ -8025,6 +8025,7 @@
 屨	bclc
 詗	bclv
 𬳶	bclv
+𧨋	bclz
 㞜	bcmc
 𱚻	bcmh
 𪨗	bcmk
@@ -8442,7 +8443,6 @@
 訧	bfoy
 鄈	bfoy
 𧥩	bfoy
-証	bfpi
 𱅕	bfqm
 𭚶	bfqu
 𧥭	bfrj
@@ -9774,6 +9774,7 @@
 𧕱	blxq
 𨚨	blyf
 𪾉	blyf
+証	blzy
 𡳝	bmag
 𭕧	bmag
 𰎄	bmal
@@ -12250,12 +12251,6 @@
 婖	cfok
 㚭	cfon
 徽	cfos
-征	cfpi
-嫣	cfpi
-姃	cfpi
-𧗪	cfpi
-徰	cfpp
-惩	cfpr
 徕	cfqm
 𫝫	cfqm
 𢘖	cfra
@@ -12868,7 +12863,6 @@
 𡜊	cjfn
 媞	cjfp
 徥	cjfp
-𩄕	cjfp
 𪦳	cjfs
 𮦠	cjfw
 𢔠	cjgb
@@ -12935,6 +12929,7 @@
 妸	cjlv
 𢔊	cjlv
 𲂿	cjlv
+𩄕	cjlz
 𮱗	cjmc
 𭑰	cjmn
 𮦋	cjmv
@@ -13236,7 +13231,6 @@
 娛	cleo
 𡜏	clfe
 娱	clfo
-𰃪	clfp
 挐	clfs
 㜢	clgc
 𡡎	clgc
@@ -13244,9 +13238,11 @@
 𭒫	clgt
 㢠	clgy
 𡟽	clhh
+嫣	clhi
 𤮷	clhr
 𢔲	clhv
 𩅸	clhv
+𧗪	clic
 𲉸	clig
 𤈟	clih
 𡡊	clja
@@ -13339,6 +13335,8 @@
 酃	clly
 𨟯	clly
 𰼂	clly
+徰	cllz
+𰃪	cllz
 𠕕	clmd
 𣭠	clmm
 𫛪	clmn
@@ -13355,6 +13353,7 @@
 𩄁	clqc
 𥹡	clqm
 恕	clri
+惩	clri
 䞌	clsb
 𩂝	clsi
 𭁦	clsk
@@ -13393,6 +13392,8 @@
 𮟱	clyf
 𲉻	clyf
 𬼤	clyi
+征	clzc
+姃	clzn
 𪎓	cmac
 𮱒	cmag
 嫲	cman
@@ -14236,6 +14237,7 @@
 𦖴	crrl
 𦛃	crrl
 𦧘	crrl
+𰮖	crrl
 𰮜	crrl
 𠛧	crrm
 𠝴	crrm
@@ -14254,7 +14256,6 @@
 㹐	crrp
 𨄦	crrp
 𫰽	crrp
-𰮖	crrp
 𰮛	crrp
 𦡇	crrq
 𧐱	crrq
@@ -16220,10 +16221,6 @@
 𦀥	dfos
 𦓝	dfos
 𰵎	dfoy
-证	dfpi
-𤑠	dfpi
-𤽢	dfpi
-𮝆	dfpi
 𧋰	dfqc
 𤾑	dfqi
 𫍧	dfqm
@@ -16307,7 +16304,6 @@
 𨺔	dgbu
 质	dgcb
 𨋦	dgcb
-𤽪	dgcf
 谳	dgch
 𫌪	dgcj
 𨵴	dgcq
@@ -16405,6 +16401,7 @@
 𪇳	dgkl
 𱀂	dgkz
 𨎾	dglj
+𤽪	dglw
 𠜱	dgmd
 鹎	dgmn
 𱀁	dgmq
@@ -17587,6 +17584,7 @@
 𪖀	dlie
 𲍢	dlig
 鼵	dlih
+𤑠	dlii
 𪕓	dlil
 鼧	dlin
 𪕏	dlix
@@ -17754,6 +17752,9 @@
 𱌍	dlxx
 𱌏	dlxx
 𪔸	dlyf
+𤽢	dlzb
+𮝆	dlzc
+证	dlzy
 𤾝	dmab
 栔	dmam
 𨌟	dmam
@@ -19780,7 +19781,6 @@
 𠝊	ebfm
 𠊾	ebfo
 𢑣	ebfo
-𠭅	ebfp
 僜	ebfq
 𩘼	ebfq
 儘	ebfu
@@ -19860,6 +19860,7 @@
 僻	eblk
 𠋋	eblo
 𠎦	eblq
+𠭅	eblz
 𠉜	ebmm
 𩗘	ebmm
 𲎂	ebmn
@@ -20326,8 +20327,6 @@
 𠍴	efor
 𢞋	efor
 㒎	efou
-傿	efpi
-佂	efpi
 俫	efqm
 𦇚	efqo
 𠆮	efsl
@@ -20692,7 +20691,6 @@
 俒	eifl
 𫖼	eifm
 𠉵	eifp
-𣦛	eifp
 𰂱	eifs
 𫣡	eifv
 儻	eigh
@@ -20771,6 +20769,7 @@
 𠉇	eilv
 𨿞	eilv
 侊	eilw
+𣦛	eilz
 劁	eimd
 㲬	eimm
 鹪	eimn
@@ -21222,6 +21221,7 @@
 𠊦	elgp
 𠐍	elgt
 𠋿	elhh
+傿	elhi
 𩖸	elhk
 𬽱	elhk
 飅	elhv
@@ -21316,6 +21316,7 @@
 倻	elyf
 𨚞	elyf
 𬩹	elyf
+佂	elzr
 𧙨	emag
 栠	emam
 𠍨	emar
@@ -21477,11 +21478,11 @@
 𫤕	enjj
 𮨰	enjk
 𱝡	enjk
+𫤎	enjl
 彘	enjn
 𫤏	enjo
 𫤓	enjo
 儗	enjp
-𫤎	enjp
 𠉤	enjr
 𪜵	enjr
 𰧲	enjs
@@ -22421,7 +22422,6 @@
 傆	evdi
 𭀈	evdn
 伾	evfi
-𫣀	evfp
 𠊎	evhh
 𬽻	evih
 𠍛	evjc
@@ -22440,6 +22440,7 @@
 㑭	evlj
 俚	evlr
 俖	evlv
+𫣀	evlz
 偎	evmc
 儮	evmp
 𩙖	evmp
@@ -23554,8 +23555,6 @@
 扰	ffos
 㩑	ffou
 𢬀	ffpg
-𢳃	ffpi
-𪭤	ffpi
 𱿛	ffqc
 𰺦	ffqi
 𫼲	ffqm
@@ -23639,7 +23638,6 @@
 㧴	fgfk
 䶮	fgfo
 𢭉	fgfp
-𪭻	fgfp
 㩶	fgfs
 𢭡	fgfv
 𢷩	fggg
@@ -23706,6 +23704,7 @@
 𱠫	fgll
 𪮝	fglu
 𰓌	fglv
+𪭻	fglz
 𢳓	fgmb
 𫽳	fgmm
 𫛟	fgmn
@@ -24164,7 +24163,6 @@
 𬨤	fjfo
 提	fjfp
 𡯻	fjfp
-𫠱	fjfp
 𢵊	fjfq
 𢵦	fjfq
 𭜩	fjfr
@@ -24220,6 +24218,7 @@
 抲	fjlv
 𢯙	fjlv
 𰓎	fjlv
+𫠱	fjlz
 𢯩	fjmd
 𭡤	fjmd
 𢹣	fjml
@@ -24678,6 +24677,7 @@
 擻	flgt
 𭡿	flgy
 𢲖	flhh
+𢳃	flhi
 𭶌	flhi
 𢪶	flhk
 坖	flht
@@ -24932,6 +24932,7 @@
 𭀞	flxx
 揶	flyf
 邧	flyf
+𪭤	flzs
 𫽲	fmag
 𢭩	fmam
 𪮾	fmam
@@ -25403,66 +25404,32 @@
 𢵴	fpbu
 𫼱	fpcb
 𢮓	fpcm
-𡛵	fpcn
 𢰳	fpcn
 𢸡	fpcs
 𢺁	fpct
 𫽙	fpcy
-𲊺	fpcy
 𢹧	fpdg
-鴊	fpdn
-𩿳	fpdn
-𨾖	fpeh
-𬆈	fpei
-𭭘	fpei
-𠙁	fpej
 𭭣	fpek
 𰓘	fpek
-𣪅	fpes
-𩒞	fpfj
-𰙤	fpfp
-𱥂	fpfp
-𮲿	fpfp
-𨪱	fpft
 扛	fpgs
 𢱼	fpgs
-𢌛	fpgy
-焉	fphi
-𧶷	fphj
 𢫚	fphk
-𭆱	fphk
-𣦥	fphl
-𪤶	fpht
-靕	fphw
-鄢	fphy
-𱪲	fpib
 𢱾	fpih
 𰟇	fpih
-正	fpii
-𣥄	fpii
 𤴓	fpii
-𬆄	fpij
 𢳴	fpik
 扯	fpis
-𣦎	fpis
 捗	fpiv
 摃	fpjb
 𭢤	fpjb
-𰙛	fpjd
-頙	fpje
 𢴦	fpje
-𢌫	fpjg
 𢶁	fpjg
 𢷋	fpjk
 𢶏	fpjm
-䢥	fpjo
 摽	fpjs
 撢	fpjz
 㧣	fpka
 𭢴	fpki
-𰙸	fpkj
-𥩠	fpkl
-𱅸	fpkl
 𢳥	fplo
 𱡇	fplu
 捁	fplv
@@ -25471,50 +25438,30 @@
 𠀢	fpnb
 𤘔	fpni
 𰓿	fpni
-𱩤	fpnj
-𪴹	fpnn
 𢪧	fpns
-𬆃	fpnu
-𨒌	fpoc
 𪮸	fpog
 𱫆	fpoi
 𢲭	fpoj
 𢳍	fpoo
 𫾔	fpoo
 𫽉	fppi
-𣥵	fppk
 𢵜	fppp
 𨁘	fppz
 𱹅	fpqm
-𢘫	fpri
 𤯔	fpsi
-𫿮	fpte
-𭤖	fpte
-𥪛	fptk
 𢷅	fptl
-𢾘	fpto
-政	fptu
-𭐠	fptu
 𢹡	fpud
-𣦓	fpuj
-𬱐	fpuj
 𢵏	fpum
-𦟆	fpuw
 攒	fpwc
 𢰫	fpwi
 攢	fpwj
 𰀐	fpwn
-𨕆	fpwo
 㧥	fpwr
 𠀡	fpwr
 掯	fpwy
-𠝙	fpxm
 𬡸	fpxo
 拪	fpxs
 𢬣	fpxs
-𣥛	fpxx
-𰁔	fpxy
-𨚣	fpyf
 𢪞	fpyi
 𢭳	fpys
 𧾸	fpzi
@@ -25618,11 +25565,11 @@
 𠢷	fqsa
 𢮪	fqsk
 𠡠	fqsl
+𠢫	fqsl
 拼	fqso
 𢷥	fqso
 𨔤	fqso
 拼	fqso
-𠢫	fqsp
 𱌠	fqsp
 㧶	fqss
 𭆉	fqsv
@@ -26176,7 +26123,6 @@
 𢯉	fufo
 𭣌	fufo
 𢀰	fufp
-𢱫	fufp
 𢳵	fufp
 㨟	fufq
 𢶐	fufq
@@ -26277,6 +26223,7 @@
 𫼜	fulv
 𰏛	fulv
 𱒭	fuly
+𢱫	fulz
 𢂛	fumb
 𠚷	fumd
 𫥼	fumd
@@ -26404,7 +26351,6 @@
 抷	fvfi
 𭻨	fvfi
 𱰥	fvfi
-𢱉	fvfp
 𢫳	fvgg
 𢮆	fvgg
 捱	fvhh
@@ -26434,6 +26380,7 @@
 𢮧	fvlj
 捚	fvls
 㧵	fvlv
+𢱉	fvlz
 揋	fvmc
 㞇	fvmc
 𰘉	fvmc
@@ -26722,7 +26669,6 @@
 𭮉	fxff
 𣧨	fxfg
 𣧁	fxfh
-𣩙	fxfi
 𭮟	fxfi
 𣍌	fxfj
 残	fxfk
@@ -26861,6 +26807,7 @@
 𭮝	fxle
 殫	fxlg
 搀	fxli
+𣩙	fxli
 殞	fxlj
 殨	fxlj
 攙	fxlk
@@ -27211,7 +27158,6 @@
 𥡞	gafj
 𥲐	gafl
 𰪇	gafm
-𫂊	gafp
 𥱓	gafr
 𥵰	gafu
 𬕣	gafu
@@ -27287,6 +27233,7 @@
 𣏮	galv
 簌	galx
 箂	galz
+𫂊	galz
 𥴟	gamc
 刴	gamd
 𣐻	gamg
@@ -27535,7 +27482,6 @@
 𥬺	gcfk
 𥭿	gcfk
 筒	gcfl
-𭀠	gcfo
 𱞜	gcfr
 𦥺	gcfs
 𮅗	gcfx
@@ -27605,7 +27551,6 @@
 南	gcqy
 氝	gcre
 笍	gcre
-𪒣	gcrf
 𥶫	gcrj
 𥯣	gcrk
 𥰒	gcrk
@@ -27615,6 +27560,7 @@
 篵	gcrp
 𥭊	gcrr
 𥴎	gcrt
+𪒣	gcrw
 𥮣	gcsa
 𥴘	gcsa
 𡴓	gcse
@@ -28024,10 +27970,7 @@
 𮇀	gfoq
 卸	gfpa
 𦥲	gfpd
-𮆶	gfpd
 𦉋	gfpf
-篶	gfpi
-䇥	gfpi
 𦈢	gfpi
 𬼉	gfpi
 𤧧	gfpk
@@ -28037,11 +27980,9 @@
 𠛺	gfpm
 𦉡	gfpn
 𨓴	gfpo
-𮟆	gfpo
 𲅕	gfpo
 𤮬	gfpr
 𬎩	gfpr
-䈣	gfpt
 欫	gfpx
 䣃	gfpy
 𬹗	gfqm
@@ -28066,7 +28007,7 @@
 𮗟	gfsy
 𥬄	gfsz
 𥰏	gfta
-𢿄	gftp
+𢿄	gftl
 𢼡	gftu
 𥲪	gftv
 𬕯	gfub
@@ -28522,7 +28463,6 @@
 䈕	gjfp
 𫂩	gjfp
 𫡝	gjfp
-𱲿	gjfp
 𥐉	gjfq
 𩏑	gjga
 𬢺	gjgb
@@ -28604,6 +28544,7 @@
 𪑜	gjlv
 𪵤	gjlv
 𥴋	gjlx
+𱲿	gjlz
 䈟	gjmd
 𠟬	gjmd
 𰪚	gjmf
@@ -28978,6 +28919,7 @@
 𥲀	glda
 𫜙	gldd
 𬕴	gldh
+𮆶	gldn
 𥭙	glei
 𥰀	glej
 𭀡	glel
@@ -28991,6 +28933,7 @@
 簍	glgc
 𮆃	glgo
 籔	glgt
+篶	glhi
 𥷢	glhm
 𰩾	glhq
 𥭤	glhs
@@ -29037,6 +28980,7 @@
 𬪊	glly
 𦘏	glmr
 䇼	glob
+𮟆	gloc
 𰅷	glpi
 𥱠	glpl
 䉁	glrb
@@ -29048,6 +28992,7 @@
 䇷	glsm
 𠢂	glss
 筈	glsz
+䈣	gltu
 𮕵	glug
 𱷹	gluj
 𬐚	glum
@@ -29068,6 +29013,7 @@
 䉭	glwl
 𥶢	glwn
 𭀥	glwn
+𭀠	glwr
 𰃋	glwr
 𰩴	glwr
 𡈋	glwu
@@ -29113,6 +29059,7 @@
 𥗤	glxv
 𥯘	glyf
 𬼟	glyi
+䇥	glzz
 𬕌	gmam
 𫂟	gmaz
 𫂞	gmbd
@@ -30295,7 +30242,6 @@
 𥶺	guxa
 𫂖	guxb
 䘓	guxd
-𧖵	guxf
 𲀘	guxg
 𱲻	guxi
 𥴸	guxk
@@ -30307,6 +30253,7 @@
 䉚	guxr
 𥴨	guxt
 𪒱	guxt
+𧖵	guxw
 箩	guxx
 𣱞	guxx
 𥶂	guxx
@@ -30784,9 +30731,9 @@
 獺	halj
 𡓒	halj
 獺	halj
+𡓟	hall
 𤟰	halm
 𱗌	halm
-𡓟	halp
 猍	halq
 𱖹	halt
 趚	halv
@@ -30939,12 +30886,12 @@
 㲈	hbel
 𡄈	hbel
 𡄒	hbel
+𣫆	hbel
 𪡹	hbel
 𭮾	hbel
 𱕞	hbel
 䅽	hbem
 漀	hben
-𣫆	hbep
 𣫒	hbep
 𣫝	hbep
 𤛗	hbep
@@ -31860,12 +31807,9 @@
 縠	hfos
 𡐥	hfou
 𧾁	hfou
-墕	hfpi
 𡊕	hfpi
-𧽞	hfpi
 𤚲	hfpn
 𤚼	hfpn
-𪣴	hfpt
 𨢋	hfpy
 螜	hfqc
 𧏚	hfqc
@@ -33440,7 +33384,9 @@
 𮟧	hlgo
 袁	hlgy
 𢩝	hlhh
+墕	hlhi
 𤎿	hlhi
+𧽞	hlhi
 𤝐	hlhk
 𭷐	hlhk
 喆	hlhl
@@ -33602,6 +33548,7 @@
 𱔐	hltl
 𮳓	hltn
 啟	hltu
+𪣴	hltu
 𫾪	hltu
 𱭽	hltu
 敼	hlub
@@ -34875,7 +34822,6 @@
 房	htfh
 𢨲	htfh
 𱋊	htfm
-𭣼	htfp
 𪎌	htfq
 𱋭	htfq
 𱋉	htfs
@@ -34941,6 +34887,7 @@
 𪣠	htlv
 啓	htlv
 𫜓	htlw
+𭣼	htlz
 𪣫	htmd
 𱋈	htmg
 𱋌	htmh
@@ -35119,7 +35066,6 @@
 㺣	hufk
 𫝔	hufl
 𠟜	hufm
-堽	hufp
 塏	hufq
 猅	hufq
 𤘑	hufq
@@ -35212,6 +35158,7 @@
 𤘇	hulv
 𤝓	hulv
 𦒻	hulv
+堽	hulz
 𥁆	huma
 𱲋	humq
 𡍛	humr
@@ -35324,7 +35271,6 @@
 𭸔	hvfc
 坯	hvfi
 狉	hvfi
-𤟷	hvfp
 𭎅	hvfw
 壥	hvgh
 堐	hvhh
@@ -35364,6 +35310,7 @@
 𧻳	hvlv
 𭎟	hvlv
 𧻲	hvlz
+𤟷	hvlz
 𡑬	hvma
 猥	hvmc
 㙗	hvmc
@@ -37148,18 +37095,9 @@
 𮱞	ifom
 𱐈	ifoq
 𬱫	ifpc
-𰩓	ifpc
 定	ifpi
-炡	ifpi
-䆙	ifpi
-𡧡	ifpi
-𤎄	ifpi
-𬆅	ifpi
-𱐋	ifpi
-竀	ifpj
 顁	ifpj
 𫐲	ifpo
-𰞺	ifpt
 𡩵	ifqt
 𡩅	ifqu
 𩓍	ifsj
@@ -37909,6 +37847,7 @@
 𤏞	iixl
 𦖽	iixl
 𪹽	iixl
+𭭱	iixl
 𤇾	iixm
 𠠜	iixm
 𤌡	iixm
@@ -37923,7 +37862,6 @@
 犖	iixp
 醟	iixp
 𤯵	iixp
-𭭱	iixp
 螢	iixq
 欻	iixq
 䝁	iixq
@@ -38031,9 +37969,7 @@
 𰞮	ijfo
 寔	ijfp
 煶	ijfp
-𣦍	ijfp
 𥦽	ijfp
-𪹈	ijfp
 𦈹	ijfs
 𠡱	ijfs
 𤎲	ijfv
@@ -38136,6 +38072,8 @@
 𫳥	ijlp
 𡧲	ijlu
 炣	ijlv
+𣦍	ijlz
+𪹈	ijlz
 𤍴	ijmc
 𫳳	ijmc
 𠗧	ijmd
@@ -38486,6 +38424,7 @@
 𱫐	ilcb
 𰃕	ilcd
 𤆑	ilch
+𰩓	ilcj
 𥦮	ilcl
 𠗢	ilcm
 𰌳	ilcm
@@ -38522,6 +38461,8 @@
 䆛	ilgx
 𮃽	ilha
 𥥹	ilhb
+𤎄	ilhi
+𱐋	ilhi
 𭴒	ilhk
 𫤦	ilhl
 𥨌	ilhv
@@ -38546,6 +38487,7 @@
 𩒚	ilje
 𫤥	ilje
 𫤨	iljg
+竀	iljj
 𡪲	iljj
 𤏳	iljj
 𭂟	iljj
@@ -38641,6 +38583,7 @@
 𠓚	ilsq
 㓉	ilsr
 𢼴	iltu
+𰞺	iltu
 𱷏	iltu
 𮬈	iltv
 𠓓	iltw
@@ -38699,6 +38642,10 @@
 辉	ilxx
 𡪬	ilxy
 𲋓	ilyn
+炡	ilzh
+𡧡	ilzm
+𬆅	ilzs
+䆙	ilzx
 𤎎	imah
 𱬉	imak
 𠘡	imam
@@ -38860,7 +38807,6 @@
 𭴱	ines
 烳	infh
 窏	infk
-𡩞	infp
 𠗒	infr
 𮄇	infw
 𤍃	inge
@@ -38914,6 +38860,7 @@
 冶	inlv
 炲	inlv
 𠯺	inlv
+𡩞	inlz
 𰄠	inmd
 𪉂	inmn
 𡧏	innb
@@ -39284,9 +39231,9 @@
 宩	iqmm
 𥥪	iqmx
 𰞃	iqnb
-𭔑	iqnf
 𤍏	iqnn
 𤊷	iqnw
+𭔑	iqnw
 𤉼	iqoa
 烪	iqod
 𪹏	iqod
@@ -39699,13 +39646,13 @@
 𠹟	iskl
 𪧱	iskl
 𭵋	iskl
+𰙶	iskl
 𬸣	iskm
 𤊈	iskm
 𪧦	iskn
 𬈡	iskn
 𨙇	isko
 蹇	iskp
-𰙶	iskp
 䗙	iskq
 㥶	iskr
 𡫶	isks
@@ -39949,7 +39896,6 @@
 𪺉	iufh
 㸍	iufk
 𡨰	iufm
-𤌗	iufp
 凒	iufq
 𤍈	iufq
 𪹖	iuft
@@ -39998,6 +39944,7 @@
 𫥄	iulv
 𭓥	iulv
 𤈡	iulw
+𤌗	iulz
 𥦧	iumd
 𠗝	iumr
 𭵂	iumr
@@ -40387,7 +40334,6 @@
 𪹎	ixfc
 𡪀	ixff
 宐	ixfi
-𥦰	ixfp
 𢫴	ixfs
 𬹟	ixgb
 烧	ixgl
@@ -40445,6 +40391,7 @@
 𥦙	ixlw
 𬊕	ixlw
 𠃻	ixly
+𥦰	ixlz
 窃	ixmd
 𤆻	ixmd
 秶	ixmh
@@ -41145,7 +41092,6 @@
 眮	jcfl
 𪻛	jcfl
 𫀈	jcfl
-𱳂	jcfp
 𣊗	jcga
 𣇠	jcgb
 𭦶	jcgg
@@ -41209,6 +41155,7 @@
 𬍣	jclv
 𭥤	jclv
 𰧹	jclv
+𱳂	jclz
 𠞋	jcmd
 𠟔	jcmd
 𮵛	jcmd
@@ -41881,7 +41828,6 @@
 𱳄	jffd
 𤤞	jffo
 𱲦	jffo
-𣆞	jffp
 𢄾	jffu
 𦈪	jfgi
 𣅬	jfgn
@@ -42002,6 +41948,7 @@
 𪰈	jflw
 𭥖	jflw
 𰦛	jfly
+𣆞	jflz
 𠛣	jfmd
 眜	jfmm
 𪰬	jfmm
@@ -42046,20 +41993,11 @@
 𣌎	jfpe
 𣊰	jfpf
 尟	jfpg
-𢌪	jfpg
 是	jfpi
-眐	jfpi
-昰	jfpi
 𤓐	jfpi
-𥘺	jfpi
-𭿖	jfpi
-𰕸	jfpi
-𰡴	jfpi
-𲊪	jfpi
 題	jfpj
 𣆽	jfpj
 𧡨	jfpj
-𧡰	jfpj
 𧸯	jfpj
 𪰾	jfpj
 𣈡	jfpk
@@ -42078,13 +42016,10 @@
 𬁔	jfpn
 遈	jfpo
 𢁈	jfpo
-𨕒	jfpo
 𫃆	jfpq
 𲋭	jfpq
 㼵	jfpr
 𧤘	jfps
-晸	jfpt
-𪰱	jfpt
 𡺔	jfpu
 𢅨	jfpu
 𦑡	jfpv
@@ -43182,7 +43117,6 @@
 睼	jjfp
 𣉆	jjfp
 𦉁	jjfp
-𧡭	jjfp
 𥈪	jjfs
 𬒴	jjfs
 𭡣	jjfs
@@ -43337,6 +43271,7 @@
 𪰏	jjlv
 𭾨	jjlv
 㫯	jjlw
+𧡭	jjlz
 𣊐	jjmc
 𮴭	jjmc
 𠟻	jjmd
@@ -43905,6 +43840,7 @@
 𧷡	jlgc
 𭧖	jlgc
 𣆉	jlgi
+𢌪	jlgy
 𤥗	jlhb
 𤩩	jlhf
 𥉢	jlhh
@@ -43948,6 +43884,7 @@
 璝	jljj
 䚐	jljj
 𧡐	jljj
+𧡰	jljj
 𧸃	jljj
 𫎥	jljj
 𭧫	jljj
@@ -44045,6 +43982,7 @@
 𱯈	jlnw
 𰻧	jlob
 𨔓	jloc
+𨕒	jloc
 𡘀	jlod
 𱘯	jlod
 𨢰	jlph
@@ -44068,7 +44006,9 @@
 䄆	jlss
 𠶱	jltl
 𢦀	jltr
+晸	jltu
 𢼔	jltu
+𪰱	jltu
 㪃	jlub
 𥙙	jluj
 𪾌	jlum
@@ -44089,6 +44029,7 @@
 𠮳	jlvv
 𠮴	jlvx
 𡎺	jlwh
+𭿖	jlwi
 㼃	jlwl
 䁽	jlwl
 𣋲	jlwl
@@ -44119,6 +44060,12 @@
 𰁆	jlyi
 𧵐	jlyk
 𰦙	jlyl
+𲊪	jlze
+眐	jlzm
+昰	jlzr
+𰕸	jlzr
+𥘺	jlzs
+𰡴	jlzw
 𥊚	jmam
 𣕰	jmam
 𣊍	jmar
@@ -45780,7 +45727,6 @@
 𦉄	jufk
 𥇪	jufm
 𤫐	jufo
-𤧏	jufp
 暟	jufq
 䁗	jufq
 𤧸	jufq
@@ -45897,6 +45843,7 @@
 䍄	julv
 𫀅	julv
 𫧵	july
+𤧏	julz
 𠛯	jumd
 𭃏	jumd
 𭃐	jumd
@@ -47448,7 +47395,6 @@
 𮵥	kfol
 𢦰	kfpi
 𦈍	kfpi
-𩚫	kfpi
 𱺜	kfqm
 𱄌	kfqq
 𢗥	kfri
@@ -48064,10 +48010,10 @@
 𪱞	kiwy
 𰌨	kiwy
 𩜌	kixa
-𩝜	kixf
 𩜴	kixl
 𰬒	kixq
 𬼏	kixu
+𩝜	kixw
 𩟻	kjag
 䭘	kjai
 𤰆	kjak
@@ -48735,6 +48681,7 @@
 𲀇	klyq
 𣣱	klyx
 𥪼	klyy
+𩚫	klzs
 𠔢	kmab
 𰄱	kmaf
 𮕮	kmag
@@ -49994,7 +49941,6 @@
 𩚗	kxej
 𰓅	kxfs
 𩝬	kxft
-𥫇	kxfu
 𫲮	kxfv
 氒	kxgi
 绕	kxgl
@@ -50056,7 +50002,6 @@
 𬱤	kxlc
 𪁝	kxld
 𦕌	kxle
-𭓛	kxlf
 𫮻	kxlh
 𩝎	kxli
 𩒲	kxlj
@@ -50067,10 +50012,12 @@
 𱺨	kxls
 豫	kxlt
 𩞧	kxlt
+𥫇	kxlu
 𠯑	kxlv
 㝃	kxlw
 𩛟	kxlw
 𩟖	kxlw
+𭓛	kxlw
 𰬜	kxlw
 𠛊	kxmd
 𩚦	kxmd
@@ -50269,11 +50216,11 @@
 𦧺	lalj
 𰈹	lalk
 𡀞	lall
+𱕠	lall
 喇	lalm
 䏀	lalm
 喇	lalm
 𠻣	lalo
-𱕠	lalp
 𠻳	lalt
 唻	lalv
 𠲿	lalv
@@ -50679,6 +50626,7 @@
 𠞤	lcnm
 𠷴	lcnt
 𠯆	lcnv
+𡛵	lcnz
 咉	lcod
 𠹃	lcou
 𡀏	lcpg
@@ -50727,6 +50675,7 @@
 嗣	lcyl
 𬱠	lcys
 𭉺	lcyy
+𲊺	lcyz
 𡀮	ldag
 嘄	ldam
 𠟾	ldam
@@ -50857,6 +50806,8 @@
 鳴	ldnv
 䲫	ldnw
 𡅭	ldnw
+鴊	ldnz
+𩿳	ldnz
 𫶷	ldob
 嗹	ldoc
 㗓	ldoc
@@ -51005,6 +50956,7 @@
 𠱊	lehs
 𫕛	lehs
 唯	lehv
+𨾖	lehz
 噍	leib
 𦗠	leib
 𫪢	leic
@@ -51015,7 +50967,9 @@
 𰈭	leih
 𱒊	leir
 乱	leis
+𬆈	leis
 𠮜	leiv
+𭭘	leiz
 𱓹	leja
 𠯼	lejd
 𭈂	lejf
@@ -51024,6 +50978,7 @@
 𫇔	lejs
 𠼏	lejt
 叽	lejv
+𠙁	lejz
 𱒟	leka
 𪓕	lekb
 咐	lekc
@@ -51081,6 +51036,7 @@
 𱻾	lesr
 𡀠	less
 吺	lesv
+𣪅	lesz
 𭋕	lete
 𠿔	letr
 喙	lets
@@ -51181,6 +51137,7 @@
 𫪶	lfiy
 𪢚	lfjb
 咑	lfjd
+𩒞	lfje
 𭊪	lfje
 咺	lfjf
 𠵆	lfjf
@@ -51253,11 +51210,7 @@
 㕱	lfov
 𫝘	lfov
 𠲞	lfpg
-嘕	lfpi
-聇	lfpi
-𠰪	lfpi
 𠳏	lfpi
-𭍓	lfpk
 𪡺	lfqc
 𫪁	lfqm
 𫪷	lfqm
@@ -51365,7 +51318,6 @@
 𠷢	lgfi
 哦	lgfk
 𬚚	lgfk
-𡆅	lgft
 𦕨	lgge
 𭈍	lggg
 吘	lggi
@@ -51446,6 +51398,7 @@
 甊	lglr
 𡢺	lglr
 數	lglt
+𡆅	lglt
 𢿙	lglt
 數	lglt
 𤬏	lglu
@@ -51534,6 +51487,7 @@
 廵	lgyc
 吃	lgyi
 𮍵	lgyi
+𢌛	lgyz
 𪠿	lgzv
 𦕆	lhae
 𠱍	lhaj
@@ -51547,6 +51501,7 @@
 𧶝	lhbj
 𡄔	lhbl
 𪕢	lhbl
+𭌏	lhbl
 𠞐	lhbm
 𭄘	lhbm
 丣	lhbo
@@ -51554,7 +51509,6 @@
 𡁵	lhbo
 𨖻	lhbo
 𠶊	lhbp
-𭌏	lhbp
 𢥍	lhbr
 𰇧	lhbr
 𠴢	lhbs
@@ -51586,6 +51540,7 @@
 𭈷	lhgg
 囕	lhgj
 𫬠	lhgj
+𭆱	lhgk
 𡄦	lhgl
 𫭀	lhgt
 嚂	lhgu
@@ -51596,6 +51551,7 @@
 𱔢	lhhj
 𠱼	lhhk
 嘵	lhhl
+𣦥	lhhl
 𡃺	lhho
 唳	lhhq
 𠹤	lhhr
@@ -51605,13 +51561,16 @@
 𠯖	lhhv
 𫫜	lhhw
 𱓪	lhhw
+焉	lhib
 唙	lhih
 𠵗	lhil
 𢣉	lhir
 𡁻	lhiw
+鄢	lhiy
 𭋱	lhja
 嘖	lhjb
 㘑	lhjb
+𧶷	lhjb
 𭌱	lhjb
 𠸯	lhjc
 𦖧	lhjc
@@ -51733,8 +51692,10 @@
 𠯕	lhwr
 𢙸	lhwr
 嗷	lhwt
+𪤶	lhwt
 啨	lhwy
 聙	lhwy
+靕	lhwy
 𭈞	lhwy
 𠳗	lhxe
 𡀄	lhxk
@@ -51757,6 +51718,7 @@
 𤆗	libv
 𡀙	libw
 𠾘	liby
+𱪲	libz
 唢	licb
 咹	licn
 𫫏	licy
@@ -51851,6 +51813,7 @@
 𠽰	lijp
 𠵌	lijq
 𦖑	lijq
+𬆄	lijq
 𠵻	lijs
 𡄼	liju
 䎴	lika
@@ -51919,6 +51882,7 @@
 𭍗	lisq
 𠶤	lisv
 𡅶	lisw
+𣦎	lisz
 𠾰	litd
 𡅅	litj
 喀	litl
@@ -51995,6 +51959,7 @@
 鶰	ljdn
 𡅏	ljdq
 叮	ljdv
+𰙛	ljdz
 順	ljec
 𦖦	ljee
 𠲥	ljei
@@ -52005,6 +51970,7 @@
 㖽	ljev
 䪲	ljew
 䪲	ljew
+頙	ljez
 啺	ljfc
 𠰁	ljfe
 𰭵	ljfe
@@ -52014,7 +51980,6 @@
 𠶃	ljfl
 𠸵	ljfl
 㖷	ljfp
-𠷚	ljfp
 𦧧	ljfp
 𭌹	ljfs
 𠾝	ljft
@@ -52026,6 +51991,7 @@
 𦧒	ljgs
 咕	ljgv
 𢌥	ljgy
+𢌫	ljgy
 𡁩	ljhb
 𠺮	ljhk
 𭌙	ljhk
@@ -52096,6 +52062,7 @@
 𭇎	ljlv
 𠳟	ljlw
 𠺷	ljlw
+𠷚	ljlz
 𠷌	ljmd
 𬜊	ljmd
 𱔾	ljmf
@@ -52110,6 +52077,7 @@
 𡆘	ljnj
 𪡓	ljnn
 逞	ljoc
+䢥	ljoc
 𰉊	ljpj
 𠺾	ljpk
 𦖤	ljps
@@ -52277,6 +52245,7 @@
 噷	lkjx
 𠯴	lkjx
 𠼀	lkjz
+𰙸	lkjz
 𠮼	lkkd
 𠲌	lkkd
 咝	lkkf
@@ -52294,6 +52263,7 @@
 㖪	lklf
 𭈫	lklf
 𫪉	lklk
+𱅸	lkll
 𰇨	lkln
 𰈪	lklr
 㕸	lklv
@@ -52301,6 +52271,7 @@
 𱕳	lklw
 𫫀	lkly
 𭊘	lkly
+𥩠	lklz
 吩	lkmd
 聁	lkmd
 𭇞	lkmd
@@ -52439,7 +52410,6 @@
 亜	llfi
 顎	llfj
 覨	llfj
-𭍖	llfk
 鹗	llfm
 㓵	llfm
 遌	llfo
@@ -52468,6 +52438,7 @@
 𫬣	llhg
 𡓶	llhh
 𰊪	llhh
+嘕	llhi
 𪹬	llhi
 呺	llhk
 㕺	llhk
@@ -52549,6 +52520,7 @@
 戢	llkg
 𠺵	llkg
 𢦸	llkg
+𭍓	llkk
 㗦	llkm
 𨔂	llko
 噪	llla
@@ -52594,6 +52566,7 @@
 𠿠	lllk
 𡃹	lllk
 𩜻	lllk
+𭍖	lllk
 𭍙	lllk
 囁	llll
 㗊	llll
@@ -52652,6 +52625,7 @@
 𣣦	lllx
 鄵	llly
 𱔜	llly
+𮲿	lllz
 𠵯	llmd
 𡀈	llmg
 𢆔	llng
@@ -52727,6 +52701,7 @@
 𤕧	llss
 咶	llsv
 𠳵	llte
+𨪱	lltj
 𧱄	llts
 𰈐	lltw
 𱒛	lltw
@@ -52801,6 +52776,10 @@
 𭋧	llyk
 𭊎	llyl
 𭋃	llyr
+聇	llze
+𠰪	llzv
+𰙤	llzz
+𱥂	llzz
 𠳹	lmam
 𡄁	lmam
 𫪧	lmam
@@ -52981,6 +52960,7 @@
 𠻹	lnfk
 𭈟	lnfk
 𭉕	lnfq
+𬆃	lnfu
 哺	lnfv
 𭈣	lnfw
 嗨	lnge
@@ -52992,6 +52972,7 @@
 𠹱	lnha
 𠹲	lnhj
 𠵽	lnhn
+𪴹	lnhn
 𰇹	lnhn
 唦	lnig
 𠻪	lnii
@@ -53003,6 +52984,7 @@
 𱒓	lnjd
 𠼴	lnje
 𩒁	lnje
+𱩤	lnje
 唉	lnji
 𫆆	lnji
 𭌑	lnjj
@@ -53129,6 +53111,7 @@
 𭋮	loct
 𨑕	locv
 𰺰	locw
+𨒌	locz
 唵	lodd
 𦖈	lodd
 𱕯	lodd
@@ -53289,6 +53272,7 @@
 𦗡	lpjz
 咮	lpka
 䎷	lpka
+𣥵	lpka
 𦧙	lpka
 𠷻	lpkc
 𡂥	lpkh
@@ -53514,6 +53498,7 @@
 吣	lriv
 𢗀	lriv
 𠰒	lriv
+𢘫	lriz
 𧵞	lrjb
 𠶒	lrjf
 㕤	lrjv
@@ -53844,6 +53829,8 @@
 𡄎	ltdu
 𱔪	lteh
 呅	ltev
+𫿮	ltez
+𭤖	ltez
 𠷶	ltfp
 㕫	ltfv
 𡆈	ltgd
@@ -53871,6 +53858,7 @@
 𠲝	ltkc
 啄	ltkd
 𡏔	ltkh
+𥪛	ltkl
 𱔷	ltko
 𡄘	ltky
 𠻎	ltle
@@ -53885,6 +53873,7 @@
 𫩖	ltmv
 𪢜	ltnf
 𠽖	ltoc
+𢾘	ltoz
 𱔭	ltqc
 𮰖	ltqc
 𱓥	ltqo
@@ -53907,6 +53896,8 @@
 𠴰	ltul
 敌	ltus
 呚	ltuv
+政	ltuz
+𭐠	ltuz
 𠻿	ltvp
 𭈜	ltvt
 囄	ltwe
@@ -53976,7 +53967,6 @@
 嚱	lufk
 𠵄	lufk
 𡄤	lufo
-𱓳	lufp
 𠹛	lufq
 啡	lufv
 𰈆	lugc
@@ -54002,6 +53992,7 @@
 𠮺	luir
 嘪	lujb
 𠸩	lujb
+𣦓	lujb
 𬻸	lujc
 𬻳	lujd
 𠾩	luje
@@ -54039,6 +54030,7 @@
 𦕒	lulv
 𬜅	lulv
 𭋊	lulv
+𱓳	lulz
 𠜏	lumd
 𠶪	lumd
 𱓈	lumr
@@ -54047,6 +54039,7 @@
 喛	lunb
 𦖵	lunb
 𭌲	lune
+𬱐	lunj
 𠁯	lunl
 㗀	lunn
 𫬘	lunn
@@ -54128,6 +54121,7 @@
 噣	luwq
 𠳱	luws
 嘣	luww
+𦟆	luwy
 𭊫	luwy
 𫫰	luxa
 嗳	luxb
@@ -54161,7 +54155,6 @@
 呸	lvfi
 𠾇	lvfk
 疀	lvfp
-㗏	lvfp
 𠰨	lvgn
 𤳊	lvgn
 𠻅	lvgo
@@ -54200,6 +54193,7 @@
 哩	lvlv
 𠳝	lvlv
 𫪞	lvlv
+㗏	lvlz
 喂	lvmc
 㓯	lvmd
 𫬥	lvmh
@@ -54359,6 +54353,7 @@
 𠯜	lwna
 𠸕	lwnw
 𭈙	lwob
+𨕆	lwoc
 𮞈	lwoc
 咽	lwod
 𡗽	lwod
@@ -54451,6 +54446,7 @@
 喼	lxbr
 𦕔	lxbs
 𠲜	lxby
+𰁔	lxby
 唤	lxco
 𠻍	lxdb
 喗	lxdc
@@ -54482,6 +54478,7 @@
 𠶀	lxka
 𦧢	lxka
 𠮻	lxkd
+𠝙	lxkm
 𠳾	lxkn
 𪠻	lxkw
 𧷝	lxlj
@@ -54539,6 +54536,7 @@
 𪡶	lxxk
 哆	lxxx
 𭊶	lxxx
+𣥛	lxxz
 𠲄	lxyf
 𦕬	lxyf
 𠼂	lyaj
@@ -54560,6 +54558,7 @@
 𮍷	lyfl
 𨙫	lyfv
 𫫁	lyfv
+𨚣	lyfz
 𭉑	lygg
 𠴻	lygo
 𰇽	lygq
@@ -54598,6 +54597,8 @@
 𠲫	lyww
 𠽏	lyxd
 𱤷	lyxq
+正	lzz
+𣥄	lzz
 麻	maa
 ⿇	maa
 麻	maa
@@ -55041,7 +55042,6 @@
 秱	mcfl
 𢈉	mcfl
 𧳆	mcfl
-𱱗	mcfp
 𪪖	mcgb
 𢉟	mcgg
 癁	mcgt
@@ -55051,12 +55051,12 @@
 𲂤	mcht
 𤸭	mchz
 𥞧	mcic
-𮃦	mcif
 𣯀	mcij
 𱱨	mcik
 𥢚	mcin
 𤴿	mcir
 𪋳	mciu
+𮃦	mciw
 䫋	mcje
 𢊼	mcje
 𠜦	mcjg
@@ -55075,6 +55075,7 @@
 㾒	mclv
 𢇺	mclv
 𥞚	mclv
+𱱗	mclz
 𩡊	mcmj
 𡡉	mcna
 𡝌	mcnc
@@ -55661,8 +55662,6 @@
 𭙓	mfog
 𮂱	mfoh
 𤶕	mfol
-症	mfpi
-𪪎	mfpi
 𥟂	mfqm
 𧳕	mfqm
 𫷬	mfqm
@@ -57037,6 +57036,8 @@
 綤	mlyo
 𬥃	mlyt
 𢇊	mlyu
+症	mlzb
+𪪎	mlzg
 𪅌	mmad
 㿆	mmag
 𩫉	mmag
@@ -59645,7 +59646,6 @@
 𣲹	ncht
 𣺺	nchz
 洐	ncic
-𭲀	ncif
 𪶋	ncig
 𣶹	ncii
 㴘	ncij
@@ -59654,6 +59654,7 @@
 𣲕	ncir
 𭯸	ncir
 𣶀	nciw
+𭲀	nciw
 𣽷	ncjc
 㴌	ncjg
 𬈫	ncjk
@@ -60210,9 +60211,6 @@
 𪶍	nfop
 沋	nfos
 𣢸	nfox
-𬇵	nfpf
-漹	nfpi
-泟	nfpi
 𤁡	nfpj
 涞	nfqm
 𱩣	nfqq
@@ -60805,7 +60803,7 @@
 汫	nika
 𪪁	nika
 𣲡	nikd
-𬈈	nikp
+𬈈	nikl
 𱦿	niks
 𣺑	niku
 𥂆	niku
@@ -60993,7 +60991,6 @@
 𢡂	njfr
 𣳬	njfs
 𮧒	njfs
-𭲮	njft
 𮣋	njft
 盪	njfu
 𣺯	njfu
@@ -61074,6 +61071,7 @@
 滒	njll
 𱩽	njll
 𦧥	njls
+𭲮	njlt
 河	njlv
 𣶱	njlv
 𣻩	njly
@@ -61372,7 +61370,6 @@
 鵕	nktd
 𡕬	nkte
 𨿓	nkte
-𠬍	nktf
 𩓀	nktj
 㕙	nktk
 𭘁	nktl
@@ -61385,6 +61382,7 @@
 夋	nktu
 𢾭	nktu
 𦑂	nktv
+𠬍	nktw
 𨛐	nkty
 𤃠	nkuc
 𬉃	nkud
@@ -61488,6 +61486,8 @@
 𱔖	nlgl
 𭄪	nlgs
 𱩵	nlgt
+𬇵	nlhf
+漹	nlhi
 𣹽	nlhj
 𣾻	nlhj
 𤄉	nlhm
@@ -61632,6 +61632,7 @@
 𫩞	nlyf
 𬔟	nlyk
 𱦍	nlyk
+泟	nlzs
 𣓮	nmam
 𣵄	nmam
 𤃢	nmam
@@ -61846,7 +61847,6 @@
 𱦘	nnes
 㴢	nneu
 斷	nnfd
-𣂾	nnfd
 𣃔	nnfd
 㡭	nnfe
 𠙃	nnfe
@@ -61920,12 +61920,12 @@
 𩴪	nnkd
 㡮	nnkg
 𪪋	nnkg
+𢨂	nnkl
 𠟣	nnkm
 𣬄	nnkm
 𣬇	nnkm
 𩴆	nnkn
 𨗂	nnko
-𢨂	nnkp
 𧎶	nnkq
 幾	nnkr
 浚	nnkt
@@ -61942,6 +61942,7 @@
 𭱠	nnla
 洲	nnlc
 㫁	nnld
+𣂾	nnld
 𧷩	nnlj
 𪶩	nnlr
 治	nnlv
@@ -62775,8 +62776,8 @@
 𤄠	nsij
 𣻻	nsil
 𤁇	nsil
+𰜦	nsil
 𣶽	nsin
-𰜦	nsip
 𭳰	nsiq
 泔	nsir
 漌	nsir
@@ -63006,7 +63007,6 @@
 𪵐	ntes
 旉	ntff
 湰	ntfp
-𭰸	ntfp
 汸	ntfs
 𱦭	ntfs
 𣻒	ntgb
@@ -63056,6 +63056,7 @@
 𣵰	ntlv
 洛	ntlv
 𤅘	ntlw
+𭰸	ntlz
 浏	ntmd
 𰛉	ntms
 𱨸	ntnl
@@ -64250,7 +64251,6 @@
 𮥽	odeh
 𡘹	odei
 𥾭	odek
-𦦜	odff
 𡘄	odfi
 𥿤	odfi
 𮷷	odfj
@@ -64296,6 +64296,7 @@
 𥿊	odkd
 㦼	odkg
 𦄓	odkw
+𦦜	odlf
 𦂢	odlj
 𨜀	odlo
 𬘍	odlo
@@ -64584,10 +64585,6 @@
 𰾇	ofol
 𦁔	ofor
 紌	ofos
-钲	ofpi
-䋊	ofpi
-𰋞	ofpi
-𮈤	ofpt
 𦂲	ofqk
 铼	ofqm
 𱹴	ofqm
@@ -64635,7 +64632,6 @@
 䋦	ogem
 𰾄	ogem
 锇	ogfk
-𦄙	ogfp
 𮉌	oggg
 𡗧	oggi
 𥾿	oggi
@@ -64676,6 +64672,7 @@
 𦁨	ogli
 𦇅	oglj
 𦅇	oglm
+𦄙	oglz
 𠛘	ogmd
 𫶵	ognb
 𥾋	ogns
@@ -65060,12 +65057,12 @@
 𩕦	ojjj
 𩖀	ojjj
 𥫅	ojjk
+𤫒	ojjl
 𠟰	ojjm
 𣰋	ojjm
 𣰠	ojjm
 𥇛	ojjm
 𥈜	ojjm
-𤫒	ojjp
 锠	ojjr
 𢥤	ojjr
 𬗡	ojjr
@@ -65171,7 +65168,7 @@
 𦁠	ojwy
 𲈋	ojwy
 𦅿	ojxd
-𱺂	ojxf
+𱺂	ojxw
 𮈎	ojzs
 𰃟	okab
 夰	okad
@@ -65410,6 +65407,7 @@
 铦	olsj
 𦄶	olsk
 絬	olss
+𮈤	oltu
 铞	oluj
 𬗏	oluj
 𲈅	olur
@@ -65436,6 +65434,9 @@
 𫓶	olwy
 𦂫	olyf
 𲈍	olyf
+𰋞	olzd
+钲	olzj
+䋊	olzs
 𦀾	omam
 䌕	omas
 䌅	ombl
@@ -65459,7 +65460,6 @@
 𠛩	omds
 𬭿	omfj
 𦆍	omfp
-𮈞	omfp
 𦇑	omfs
 纁	omgh
 𰽚	omgj
@@ -65499,6 +65499,7 @@
 紹	omlv
 𬬿	omlv
 𫓼	omlv
+𮈞	omlz
 乜	omm
 𣬷	ommb
 𥾞	ommd
@@ -66353,7 +66354,6 @@
 𰾐	oufj
 𫃿	oufk
 𫃭	oufo
-䌉	oufp
 𮸛	oufq
 緋	oufs
 𦅣	ouft
@@ -66389,6 +66389,7 @@
 綒	oukz
 钻	oulv
 𥿕	oulv
+䌉	oulz
 𡘃	oumd
 𦁍	oumr
 緩	ounb
@@ -66465,7 +66466,6 @@
 䋔	ovfi
 𰽧	ovfi
 𬗱	ovfm
-𮈥	ovfp
 𮉐	ovgh
 𬭃	ovgi
 𫄖	ovgu
@@ -66490,6 +66490,7 @@
 锂	ovlj
 綥	ovlj
 䋥	ovls
+𮈥	ovlz
 䋿	ovmc
 𰾚	ovmc
 𦇟	ovmg
@@ -67529,8 +67530,6 @@
 𮇬	pfoq
 𨠄	pfoy
 𲃘	pfoz
-𨠣	pfpi
-𮛐	pfpi
 𫏁	pfqk
 𫏌	pfqm
 𮠮	pfrh
@@ -67883,7 +67882,6 @@
 𪙻	piek
 𠭓	pifb
 𤚗	piff
-𨢃	piff
 𬧂	piff
 𣥩	pifi
 𮜞	pifj
@@ -67969,6 +67967,7 @@
 牸	pikz
 𨄒	pilb
 𱌣	pile
+𨢃	pilf
 蹿	pilu
 𨠵	pilw
 𫏈	pilw
@@ -68545,6 +68544,8 @@
 𨀨	plxx
 郜	plyf
 𭼁	plyp
+𨠣	plzy
+𮛐	plzz
 𨁤	pmam
 𨄗	pmbd
 醣	pmbl
@@ -69682,7 +69683,6 @@
 𨆈	pufg
 𪚋	pufh
 𰼒	pufk
-𣦐	pufp
 䶣	pufq
 𨢉	pufq
 䤏	pufs
@@ -69738,6 +69738,7 @@
 酟	pulv
 𪗦	pulv
 𮠾	puly
+𣦐	pulz
 𠝣	pumd
 𣦃	pumd
 𥁁	pumg
@@ -69828,7 +69829,6 @@
 𨠙	pvfi
 蹰	pvfk
 𮜔	pvfk
-𨂿	pvfp
 𬪮	pvfs
 𨂉	pvhh
 𪘬	pvhh
@@ -69847,6 +69847,7 @@
 𤜎	pvku
 踎	pvlv
 𨁫	pvlz
+𨂿	pvlz
 𨃄	pvmc
 𨣺	pvmh
 𨇗	pvmp
@@ -71039,9 +71040,6 @@
 𧌀	qfol
 𮇆	qfom
 𨈣	qfos
-䗡	qfpi
-𫅏	qfpi
-𬟿	qfpi
 𨉠	qfqa
 𱿰	qfrh
 兿	qfrn
@@ -71971,6 +71969,7 @@
 𲊝	qlgr
 𮕍	qlgt
 𬙳	qlgx
+䗡	qlhi
 𭔸	qlhk
 𠢄	qlhs
 𭎙	qlht
@@ -72057,6 +72056,8 @@
 𬅬	qlxq
 𧏰	qlxw
 𰇈	qlyi
+𬟿	qlzc
+𫅏	qlzy
 䗫	qmac
 𫃎	qmam
 𫋇	qmam
@@ -72072,7 +72073,6 @@
 䗤	qmbw
 𫃍	qmbw
 蜄	qmcc
-𮔔	qmcf
 蜲	qmcn
 躷	qmcn
 䍴	qmcn
@@ -72127,6 +72127,7 @@
 蛁	qmlv
 𥹙	qmlv
 𫋏	qmlv
+𮔔	qmlw
 米	qmm
 ⽶	qmm
 蟍	qmma
@@ -73333,7 +73334,6 @@
 𧕆	qufk
 𥺘	qufm
 𧐪	qufp
-𱿽	qufp
 螘	qufq
 䠽	qufq
 𥻶	qufq
@@ -73454,6 +73454,7 @@
 粘	qulv
 蛅	qulv
 𪉤	quly
+𱿽	qulz
 蛊	qumc
 𭄀	qumk
 𣮧	qumm
@@ -73557,8 +73558,6 @@
 𰗀	qvfj
 蟵	qvfk
 兽	qvfl
-𰹁	qvfp
-𱿯	qvfp
 蛎	qvfw
 粝	qvfw
 𮮴	qvgg
@@ -73677,6 +73676,8 @@
 𪗀	qvlx
 𦎐	qvly
 𨞳	qvly
+𰹁	qvlz
+𱿯	qvlz
 𧍥	qvmc
 𦏩	qvmj
 𦏈	qvmm
@@ -74756,10 +74757,6 @@
 𢚺	rfol
 𢡊	rfor
 忧	rfox
-怔	rfpi
-㥼	rfpi
-𢠟	rfpt
-𢝒	rfpw
 𫤆	rfqb
 𰖗	rfqj
 𢞹	rfqo
@@ -75670,6 +75667,7 @@
 慺	rlgc
 慺	rlgc
 𩪵	rlgt
+㥼	rlhi
 𩨴	rlhk
 𡌫	rlht
 舘	rlib
@@ -75719,6 +75717,7 @@
 𫇙	rlsu
 𢚰	rlsw
 恬	rlsx
+𢠟	rlts
 𫿄	rltu
 𬜍	rlui
 𰁻	rluj
@@ -75735,11 +75734,13 @@
 怳	rlwr
 𫻠	rlww
 悁	rlwy
+𢝒	rlwy
 𩩐	rlwy
 悁	rlwy
 𬅠	rlxq
 𢝞	rlyf
 𨛭	rlyf
+怔	rlzx
 髍	rmag
 𢤭	rmam
 𢠩	rmax
@@ -77445,7 +77446,6 @@
 茼	scfl
 𩊗	scfl
 𧃸	scfo
-𦲵	scfp
 𦳀	scfw
 蓹	scga
 䓳	scgg
@@ -77517,6 +77517,7 @@
 𫉅	sclr
 茹	sclv
 苘	sclv
+𦲵	sclz
 𦵢	scmc
 荝	scmd
 𫈂	scmh
@@ -78434,10 +78435,6 @@
 𦬍	sfoo
 𦬓	sfoo
 𦻅	sfou
-𬝸	sfpc
-蔫	sfpi
-𦭒	sfpi
-𰱞	sfpt
 𮎿	sfqe
 莱	sfqm
 𧀃	sfqq
@@ -79012,8 +79009,6 @@
 莞	sifl
 𦮚	sifn
 萣	sifp
-𤯅	sifp
-𰱨	sifp
 𦷳	sifq
 𦳼	sifr
 𦺡	sifs
@@ -79105,6 +79100,8 @@
 茪	silw
 𤮿	silw
 𩊠	silw
+𤯅	silz
+𰱨	silz
 𠞱	simd
 𦵒	simh
 𤯋	simi
@@ -79212,7 +79209,6 @@
 䑓	sixd
 𦽛	sixe
 𬝩	sixf
-𭐅	sixf
 薋	sixj
 𮐵	sixk
 𮏑	sixn
@@ -79223,6 +79219,7 @@
 𣢟	sixq
 𭺭	sixq
 𲊟	sixr
+𭐅	sixw
 𦲎	sixx
 𦴌	sixx
 𱿅	sixx
@@ -79854,6 +79851,7 @@
 荿	skyi
 𦼦	skyu
 芓	skzo
+𬝸	slac
 袈	slag
 𭫹	slal
 架	slam
@@ -79924,6 +79922,7 @@
 𧁾	slgu
 𮒢	slgu
 𦯄	slhb
+蔫	slhi
 𠡐	slhk
 𨕸	slho
 𦰌	slhs
@@ -80084,6 +80083,7 @@
 𭺺	slsy
 𬜰	slte
 𭐢	sltu
+𰱞	sltu
 𰅏	slub
 𦸈	slug
 𭄱	slug
@@ -80123,6 +80123,7 @@
 𨚧	slyf
 乫	slyi
 㔖	slyi
+𦭒	slzo
 𰱧	smae
 𧅼	smag
 䕲	smaj
@@ -82951,7 +82952,6 @@
 𮡱	tcfi
 銅	tcfl
 𧱁	tcfl
-𨨨	tcfp
 𥖹	tcfv
 𨨓	tcfw
 䥏	tcga
@@ -82960,9 +82960,9 @@
 䤡	tcht
 𬫑	tcic
 𭤷	tcic
-𨬋	tcif
 𨩩	tcij
 𪦍	tcil
+𨬋	tciw
 𨬗	tcje
 𲈶	tcjm
 鏪	tcjr
@@ -82975,6 +82975,7 @@
 𰶰	tclr
 銣	tclv
 𨥽	tclv
+𨨨	tclz
 𨯂	tcmc
 𨯊	tcmg
 𣭫	tcmm
@@ -83336,14 +83337,7 @@
 䤞	tfoj
 𨧐	tfol
 𧰰	tfos
-鉦	tfpi
-𣁇	tfpi
-𭤗	tfpi
-𣄩	tfpj
-𣄫	tfpj
-𮣟	tfpp
 㚅	tfps
-𮢙	tfpt
 𮤴	tfsb
 䤯	tfsc
 𰓉	tfse
@@ -83424,12 +83418,9 @@
 𧲗	tgew
 𨨶	tgfa
 𨫝	tgfe
-𭤻	tgff
 鋨	tgfk
 𪯶	tgfo
-㫌	tgfp
 𧲌	tgfp
-𰼯	tgfp
 𪰀	tgfs
 旆	tgfu
 𬀂	tgfu
@@ -83533,6 +83524,7 @@
 𭥃	tgky
 斿	tgkz
 𣄨	tgld
+𭤻	tglf
 𬀚	tglg
 𬬥	tglg
 𫒳	tglj
@@ -83543,6 +83535,8 @@
 𬀈	tgls
 𨫙	tglt
 𱡳	tglu
+㫌	tglz
+𰼯	tglz
 𣄦	tgmi
 旄	tgmm
 𣄓	tgmm
@@ -84133,7 +84127,6 @@
 𨩆	tkfc
 銊	tkfi
 𨥃	tkfi
-𨭟	tkfi
 𨮃	tkfk
 鍼	tkfl
 𫓏	tkfr
@@ -84201,6 +84194,7 @@
 𬥂	tklf
 𬫡	tklf
 𭤳	tklf
+𨭟	tkli
 鉝	tklj
 𨫓	tklj
 錇	tklv
@@ -84324,6 +84318,8 @@
 𮣍	tlje
 鐀	tljj
 𣄜	tljj
+𣄩	tljj
+𣄫	tljj
 𧲆	tljj
 鑓	tljo
 𨯯	tljo
@@ -84348,6 +84344,7 @@
 𨭳	tlll
 𬬤	tlll
 𬮳	tlll
+𮣟	tlll
 𮣦	tlll
 𨫰	tllo
 𨫑	tllr
@@ -84381,6 +84378,7 @@
 𨧢	tlsm
 𬬉	tlsm
 敋	tltu
+𮢙	tltu
 𠧨	tlub
 𢼛	tlub
 銱	tluj
@@ -84419,6 +84417,9 @@
 鎁	tlyf
 𨚳	tlyf
 𮟼	tlyf
+𣁇	tlze
+𭤗	tlze
+鉦	tlzj
 𨬈	tmaj
 𨧖	tmam
 鏮	tmbd
@@ -85267,10 +85268,7 @@
 齑	tufk
 𧲘	tufk
 𨩜	tufk
-𮣒	tufk
-𮣓	tufk
 𨰄	tufo
-鎠	tufp
 鎧	tufq
 𲉄	tufq
 鎼	tufs
@@ -85325,6 +85323,8 @@
 𨫴	tulh
 鏀	tulj
 𨬷	tulk
+𮣒	tulk
+𮣓	tulk
 𭈃	tuln
 𢛃	tulr
 咎	tulv
@@ -85332,6 +85332,7 @@
 𪯴	tulv
 𨦸	tulw
 㰶	tulx
+鎠	tulz
 𨦝	tumd
 𫒏	tumj
 䀃	tums
@@ -86907,8 +86908,8 @@
 𧆪	ufkh
 𥈠	ufkj
 𧸾	ufkj
+𰎻	ufkl
 𧇭	ufkp
-𰎻	ufkp
 镾	ufks
 𩯨	ufks
 敱	uflb
@@ -87006,15 +87007,6 @@
 𡵔	ufos
 𢾰	ufot
 𱺷	ufow
-罡	ufpi
-𢁿	ufpi
-𩬧	ufpi
-𰿓	ufpj
-𡬺	ufpk
-㓻	ufpm
-𬨶	ufpo
-𤭺	ufpr
-𭶷	ufpw
 崃	ufqm
 𤔳	ufqo
 𱜦	ufqu
@@ -88365,6 +88357,7 @@
 𩭚	ulam
 𰠀	ulam
 𭖁	ulas
+𭶷	ulaw
 梷	ulba
 𫧴	ulbb
 𡽨	ulbi
@@ -88456,8 +88449,10 @@
 帜	ulka
 𩬫	ulka
 𬋦	ulka
+𡬺	ulkc
 战	ulkg
 𰞿	ulki
+𰿓	ulkj
 𢧗	ulkk
 㟹	ulkm
 𡼅	ulkm
@@ -88493,6 +88488,7 @@
 𰎵	ullw
 𰎶	ullw
 㓠	ulmd
+㓻	ulmd
 𠛤	ulmd
 𪟂	ulmd
 𥟃	ulmh
@@ -88503,11 +88499,13 @@
 𨛬	ulob
 𨛸	ulob
 迠	uloc
+𬨶	uloc
 奌	ulod
 𧆲	ulqk
 𥃓	ulqu
 㤐	ulri
 𰒬	ulrk
+𤭺	ulrw
 𡷧	ulry
 髺	ulsb
 𮫈	ulsb
@@ -88558,6 +88556,9 @@
 𡖡	ulxx
 𬩷	ulyf
 𱛹	ulyf
+𩬧	ulzb
+𢁿	ulzj
+罡	ulzw
 𡾭	umam
 𢃅	umam
 𡻥	umas
@@ -89976,8 +89977,6 @@
 𦩋	uufo
 𡰐	uufo
 𡷪	uufo
-㟵	uufp
-𦋳	uufp
 嵦	uufq
 𦩴	uufq
 𩮖	uufq
@@ -90064,6 +90063,8 @@
 𩬑	uulv
 𪉜	uulv
 𱜆	uulv
+㟵	uulz
+𦋳	uulz
 𡿌	uuma
 盀	uumb
 𡻌	uumc
@@ -90662,12 +90663,12 @@
 辤	uxbk
 𠭘	uxbk
 𠹾	uxbl
+𬋮	uxbl
 𠠋	uxbm
 受	uxbo
 𣦼	uxbo
 𤓶	uxbo
 𰻃	uxbo
-𬋮	uxbp
 𭘴	uxbp
 𮠯	uxbp
 粲	uxbq
@@ -91074,10 +91075,10 @@
 䲚	valj
 𥗓	valj
 𩼱	valj
+𰀟	vall
 鯻	valm
 䲇	valo
 𮀼	valo
-𰀟	valp
 䂾	vals
 𥓜	vals
 𤲓	valt
@@ -91303,7 +91304,6 @@
 硐	vcfl
 鮦	vcfl
 𩽚	vcfo
-𩸵	vcfp
 𮬑	vcgt
 𤲵	vchk
 畘	vcht
@@ -91330,6 +91330,7 @@
 𱇉	vcll
 𥘃	vclr
 𥑎	vclv
+𩸵	vclz
 厕	vcmd
 𮀽	vcng
 㚻	vcnt
@@ -91782,18 +91783,8 @@
 𭻡	vfom
 𥐶	vfos
 魷	vfov
-𪴽	vfpg
-𰀜	vfpg
-𱝓	vfpg
-歪	vfpi
-𩶝	vfpi
-𭭪	vfpi
 𮀗	vfpi
-𬆆	vfpk
-𪴻	vfpl
 𥒑	vfps
-𰀚	vfpt
-𦝽	vfpw
 𭻔	vfqm
 𰆙	vfqm
 𱴄	vfqm
@@ -92770,7 +92761,9 @@
 鯫	vlbo
 𦕪	vlbo
 𱒕	vlbo
+𭭪	vlbu
 𬒍	vlcb
+𪴽	vlcg
 𫚅	vlci
 𰦿	vlcr
 𥐣	vlcs
@@ -92789,7 +92782,6 @@
 𮡓	vlfe
 𮡔	vlfh
 𩶭	vlfo
-𥓱	vlfp
 䱾	vlgc
 𥕍	vlgc
 𱳵	vlgi
@@ -92797,6 +92789,7 @@
 𠫇	vlgr
 𥖻	vlgt
 𩽋	vlgt
+𱝓	vlgy
 𱳺	vlgy
 䱖	vlhb
 𱆩	vlhk
@@ -92817,6 +92810,7 @@
 𩷣	vljw
 𱴇	vljw
 𥕡	vlkm
+𬆆	vlkm
 里	vll
 ⾥	vll
 里	vll
@@ -92847,17 +92841,21 @@
 𬵓	vllu
 𰧁	vllu
 𩻙	vllw
+𥓱	vllz
+𪴻	vlml
 厑	vlnb
 𰇤	vlnb
 䱒	vlob
 𥒵	vlob
 𱑠	vlqi
+𰀜	vlrg
 𥑏	vlsi
 𥖊	vlsm
 𮵍	vlss
 𬵏	vlsv
 𱴊	vlsw
 𠪒	vltj
+𰀚	vltu
 𱡜	vltu
 𩶍	vluh
 𠁨	vlus
@@ -92876,6 +92874,7 @@
 𩷤	vlwm
 矹	vlws
 𥔥	vlwt
+𦝽	vlwy
 𩷫	vlwy
 𪿠	vlwy
 𠁌	vlyf
@@ -92883,6 +92882,8 @@
 𩸾	vlyf
 𭆊	vlyf
 𭆁	vlyi
+歪	vlzu
+𩶝	vlzv
 𪿳	vmas
 䲈	vmav
 鱇	vmbd
@@ -94233,7 +94234,6 @@
 𣯰	vvfm
 𦑈	vvfp
 𦑯	vvfp
-𮀬	vvfp
 𢬙	vvfs
 𦐧	vvfs
 𦒤	vvfs
@@ -94326,6 +94326,7 @@
 𥗃	vvlv
 𱴁	vvlv
 𪴲	vvlx
+𮀬	vvlz
 碨	vvmc
 鰃	vvmc
 𱰸	vvmc
@@ -95594,8 +95595,6 @@
 駀	wfom
 𰯁	wfoq
 肬	wfoy
-囸	wfpi
-𦙫	wfpi
 𢾫	wfqb
 蚩	wfqc
 𧌌	wfqc
@@ -96595,6 +96594,8 @@
 欨	wlxq
 够	wlxx
 邭	wlyf
+囸	wlzw
+𦙫	wlzy
 𦢵	wmam
 𦟟	wmay
 𰯑	wmbd
@@ -97015,7 +97016,6 @@
 𨿥	wqeh
 𬁿	wqei
 𰪨	wqei
-𡇬	wqfp
 𡇏	wqfw
 𦡫	wqgk
 𲌃	wqgk
@@ -97042,6 +97042,7 @@
 脱	wqlw
 駾	wqlw
 駾	wqlw
+𡇬	wqlz
 匊	wqmb
 𣎮	wqmh
 𣮕	wqmm
@@ -98797,7 +98798,6 @@
 𮖂	xfol
 䙣	xfou
 鱿	xfov
-𧘿	xfpi
 𩠄	xfqm
 𱇭	xfqm
 𧟜	xfqq
@@ -99581,6 +99581,7 @@
 𭭊	xlxq
 𭄧	xlxs
 𨚷	xlyf
+𧘿	xlzy
 袃	xmag
 𩾌	xmbd
 𬳍	xmbl
@@ -100065,7 +100066,6 @@
 𧥗	xsfm
 𧣎	xsfn
 𠖉	xsfo
-𧣠	xsfp
 𧟚	xsfq
 𰴤	xsfq
 𬳏	xsfr
@@ -100165,6 +100165,7 @@
 𰳷	xslv
 𧤉	xslw
 𧜩	xslx
+𧣠	xslz
 𧣨	xsmc
 㓩	xsmd
 𧥁	xsmd
@@ -101213,8 +101214,6 @@
 𨹢	yfnp
 𰀳	yfoi
 𨹙	yfol
-阷	yfpi
-𨻳	yfpi
 𢩦	yfsi
 𫼓	yfsi
 𨸦	yfso
@@ -101436,7 +101435,6 @@
 𭔽	yjfk
 𰢒	yjfk
 隄	yjfp
-𱀣	yjfp
 𨻥	yjfu
 𫶖	yjfu
 𱀆	yjgf
@@ -101471,6 +101469,7 @@
 𲉦	yjlv
 𫕖	yjly
 𲉢	yjly
+𱀣	yjlz
 𲉘	yjmd
 𨹎	yjnb
 𨹨	yjnb
@@ -101550,6 +101549,7 @@
 𫔾	ylef
 𨻻	ylgc
 聼	ylgr
+𨻳	ylhi
 𤆨	ylib
 隟	ylja
 隕	yljb
@@ -101577,6 +101577,7 @@
 阢	ylwf
 䧎	ylwy
 𱎉	ylyf
+阷	ylzf
 𨻷	ymbd
 𫕏	ymbi
 𨽔	ymbj
@@ -101891,9 +101892,7 @@
 𨹠	yten
 𪔳	ytfb
 防	ytff
-𨺼	ytff
 隆	ytfp
-𨺛	ytfp
 𨻦	ytfq
 鿧	ytfs
 䃧	ytfv
@@ -101907,9 +101906,11 @@
 𬯀	ytka
 𫕅	ytki
 𨻕	ytle
+𨺼	ytlf
 𨹿	ytli
 䧄	ytlv
 𱎅	ytlv
+𨺛	ytlz
 𨸻	ytna
 𨺚	ytnw
 𨺓	ytps
@@ -101940,7 +101941,6 @@
 𮥲	yufh
 𱎇	yufi
 隵	yufk
-𨺾	yufp
 隑	yufq
 卍	yufu
 𨽚	yufu
@@ -101960,6 +101960,7 @@
 𨺑	yujz
 𨹴	yukz
 阽	yulv
+𨺾	yulz
 𨺄	yumr
 𫕉	yunb
 𫕊	yunb
@@ -102494,6 +102495,8 @@
 兀	lw
 兀	lw
 ⺎	lw
+正	lz
+𣥄	lz
 麻	ma
 ⿇	ma
 麻	ma
@@ -103449,6 +103452,8 @@
 兀	lw
 兀	lw
 ⺎	lw
+正	lz
+𣥄	lz
 麻	ma
 ⿇	ma
 麻	ma
@@ -103887,7 +103892,7 @@
 看	fjm
 于	fkc
 天	fod
-正	fpi
+捉	fpz
 来	fqm
 年	gak
 每	gem
@@ -103944,7 +103949,7 @@
 吧	lob
 虽	lqc
 哈	lrh
-敌	ltu
+政	ltu
 叫	lwj
 吹	lxq
 床	mam
@@ -104066,6 +104071,7 @@
 妒	chh
 徒	chz
 曹	cjr
+征	clz
 震	cmc
 妖	cmy
 账	cnc
@@ -104084,6 +104090,7 @@
 让	djv
 皇	djw
 寿	dkc
+证	dlz
 泉	dns
 记	doj
 集	eam
@@ -104120,7 +104127,6 @@
 把	fob
 扶	fof
 扛	fpg
-捉	fpz
 开	fso
 扑	fub
 亚	fue
@@ -104227,6 +104233,7 @@
 辱	mkc
 疗	mke
 序	mkv
+症	mlz
 丢	mna
 疤	mob
 迁	moc
@@ -104285,6 +104292,7 @@
 介	rka
 忖	rkc
 舍	rls
+怔	rlz
 鸽	rmn
 仑	rnb
 盒	rum
@@ -104361,6 +104369,7 @@
 圣	bht
 追	doc
 凤	ebo
+扯	fpi
 万	fwb
 狈	hcb
 雅	heh
@@ -104595,6 +104604,7 @@
 嵐	uef
 帷	ueh
 貞	ujb
+罡	ulz
 蜚	uqc
 帳	uuc
 舺	uvj
@@ -104784,7 +104794,6 @@
 拉	fkl
 括	fls
 元	flw
-扯	fpi
 拾	frh
 拥	fsy
 押	fvj
@@ -104955,6 +104964,7 @@
 恥	lri
 史	lsi
 咳	lth
+敌	ltu
 唬	luh
 吊	luj
 呷	lvj
@@ -105151,6 +105161,7 @@
 厌	vhq
 厅	vjd
 硯	vjj
+歪	vlz
 穌	vmh
 泵	vns
 鮮	vqy
@@ -105489,7 +105500,7 @@
 允许	nwdg
 风格	esat
 群众	bgrr
-证明	dfjw
+证明	dljw
 出来	wwfq
 简单	gtqj
 毕竟	nnkj
@@ -105738,7 +105749,7 @@
 外面	xusm
 果然	jawh
 凡是	ekjf
-反正	dbfp
+反正	dblz
 地球	hojf
 命令	rark
 微笑	cfgm
@@ -105882,7 +105893,7 @@
 由于	dofk
 预计	kcdg
 相关	ajqo
-政策	fpga
+政策	ltga
 基金	uhtj
 资金	ixtj
 也是	oejf
@@ -105911,9 +105922,9 @@
 球员	jflc
 关注	qonk
 发布	wbeu
-正在	fpeu
+正在	lzeu
 最终	jlkt
-政府	fpme
+政府	ltme
 使用	efsy
 或者	klhj
 以上	ekjv
@@ -106027,7 +106038,7 @@
 只是	lkjf
 带来	sxfq
 事件	klep
-正式	fpkp
+正式	lzkp
 随后	yedf
 今日	rkjr
 不仅	vueb
@@ -106089,7 +106100,7 @@
 完善	ifqq
 作用	egsy
 黄金	sdtj
-保证	eldf
+保证	eldl
 短期	jfuw
 如今	clrk
 扩大	fmod
@@ -106227,7 +106238,7 @@
 试点	dkul
 视频	jcpi
 回应	wlmn
-证券	dfqo
+证券	dlqo
 助攻	jspt
 男子	vskz
 开放	fstt
@@ -106269,7 +106280,7 @@
 材料	akqi
 成立	kykl
 判断	qaqe
-真正	gjfp
+真正	gjlz
 平方米	ntqm
 下午	jxgg
 动力	insl
@@ -106312,7 +106323,7 @@
 专业	ieue
 进口	iklv
 学校	nxaa
-正是	fpjf
+正是	lzjf
 进攻	ikpt
 鼓励	hgvf
 中央	luco
@@ -106548,7 +106559,7 @@
 无论	ffdr
 专项	iepc
 授权	fuab
-正常	fpiu
+正常	lziu
 医生	hjps
 身份	qsek
 形象	fsxl
@@ -106796,10 +106807,10 @@
 住宅	ekig
 由此	dopn
 停止	eapi
-证实	dfii
+证实	dlii
 队伍	yref
 重视	mvjc
-政治	fpnn
+政治	ltnn
 层面	bism
 变成	tbky
 期货	uwen
@@ -106856,7 +106867,7 @@
 即便	bnef
 白银	dbog
 英镑	scoa
-财政	ckfp
+财政	cklt
 演员	nilc
 理由	jvdo
 缩减	kiik
@@ -106959,7 +106970,7 @@
 举措	nkfs
 夺得	okcj
 人才	rekg
-特征	phcf
+特征	phcl
 人口	relv
 一致	fidt
 部队	klyr
@@ -107151,7 +107162,7 @@
 安装	icqh
 电视剧	djbj
 底线	mkkf
-证据	dffb
+证据	dlfb
 失败	goct
 出行	wwci
 潜力	nosl
@@ -107224,7 +107235,7 @@
 高速	agal
 决策	ibga
 作战	egul
-认证	drdf
+认证	drdl
 自从	qirr
 指引	fnbu
 龙头	fgio
@@ -107270,7 +107281,7 @@
 选举	pwnk
 西方	pxtf
 生意	pskj
-征收	cfwt
+征收	clwt
 组建	kjba
 坚决	ubib
 相同	ajcf
@@ -107454,7 +107465,7 @@
 看法	fjnh
 今晚	rkjx
 取胜	lbwp
-修正	eufp
+修正	eulz
 因而	wosr
 授予	fukv
 热门	frtm
@@ -107465,7 +107476,7 @@
 力争	slxb
 同步	cfpi
 缓慢	kurj
-验证	brdf
+验证	brdl
 筹划	gdkm
 回复	wlgj
 魅力	dfsl
@@ -107520,7 +107531,7 @@
 主导	kjok
 饮食	xxks
 归属	qbbg
-正如	fpcl
+正如	lzcl
 玉米	jkqm
 济南	ntgc
 重返	mvdb
@@ -107738,7 +107749,7 @@
 下属	jxbg
 入股	krwe
 属性	bgrp
-正面	fpsm
+正面	lzsm
 获胜	shwp
 报警	fasw
 国债	wjeh
@@ -107812,7 +107823,7 @@
 立法	klnh
 百姓	vjcp
 敌人	ltre
-签证	grdf
+签证	grdl
 弹性	bqrp
 登录	bfbn
 时机	jkae
@@ -107936,7 +107947,7 @@
 告别	plls
 脂肪	wnwt
 河北省	nqig
-身份证	qedf
+身份证	qedl
 墨西哥	gpjl
 爆炸	ijig
 充足	anpz
@@ -107955,7 +107966,7 @@
 开车	fsxj
 低调	ekdw
 线索	kfgx
-行政	cifp
+行政	cilt
 发言	wbby
 大批	odfn
 左侧	epec
@@ -108033,7 +108044,7 @@
 两者	fchj
 青少年	higa
 生日	psjr
-见证	cjdf
+见证	cjdl
 司法	yfnh
 便宜	efij
 物品	pwll
@@ -108177,7 +108188,7 @@
 车队	xjyr
 有序	ewmk
 投向	fedx
-症状	mfqh
+症状	mlqh
 抛售	frel
 适度	loms
 吸引力	lbsl
@@ -108326,7 +108337,7 @@
 签名	grxl
 巡视	lojc
 科学家	mnit
-正规	fpoc
+正规	lzoc
 赋予	cfkv
 市长	aunc
 明白	jwdb
@@ -108389,7 +108400,7 @@
 大幅度	oums
 宣告	ifpl
 年会	gari
-证书	dfyy
+证书	dlyy
 差别	qpls
 碰撞	vqfk
 编剧	khbj
@@ -108565,8 +108576,8 @@
 震惊	cmra
 精英	qhsc
 长远	ncfl
-癌症	mlmf
-正确	fpvx
+癌症	mlml
+正确	lzvx
 合力	rhsl
 只不过	lvko
 数额	qcit
@@ -108707,7 +108718,7 @@
 倡导	ejok
 报销	faoi
 开会	fsri
-正好	fpck
+正好	lzck
 追踪	dopi
 目录	jmbn
 读书	dgyy
@@ -108745,17 +108756,17 @@
 可靠	jlpl
 上任	jvem
 手感	fskf
-更正	fjfp
+更正	fjlz
 交割	akid
 这点	toul
 谋求	dsfn
-许可证	djdf
+许可证	djdl
 专业化	iuen
 姿态	ixok
 附件	yeep
 激动	ndin
 劳动力	sisl
-论证	drdf
+论证	drdl
 加以	slek
 悲观	urbc
 衔接	cofk
@@ -108862,14 +108873,14 @@
 专辑	iexl
 称号	mxlh
 乳房	ukht
-印证	kfdf
+印证	kfdl
 诊断	drqe
 既是	bnjf
 海关	ngqo
 行列	cifx
 模仿	aset
 责令	hcrk
-纠正	kwfp
+纠正	kwlz
 变相	tbaj
 形容	fsir
 白天	dbfo
@@ -108893,7 +108904,7 @@
 格外	atxu
 展览	bsug
 引爆	buij
-政权	fpab
+政权	ltab
 照明	jmjw
 众人	rrre
 机票	aepj
@@ -108923,11 +108934,11 @@
 其间	uqtj
 滞后	nsdf
 发票	wbpj
-征集	cfea
+征集	clea
 出租	wwmj
 隐私	yxmn
 会见	ricj
-省政府	ifme
+省政府	ilme
 撤离	fatw
 同年	cfga
 节省	saig
@@ -108964,7 +108975,7 @@
 立足	klpz
 一带	fisx
 边缘	soke
-公正	knfp
+公正	knlz
 二者	irhj
 坚守	ubik
 一身	fiqs
@@ -108987,7 +108998,7 @@
 留学生	knps
 客流	itna
 各界	tlvr
-凭证	emdf
+凭证	emdl
 杜绝	ahkx
 自行车	qcxj
 有力	ewsl
@@ -109146,14 +109157,14 @@
 转身	xiqs
 代替	ekoo
 外长	xunc
-证件	dfep
+证件	dlep
 奥运	dqin
 禁令	aark
 一手	fifs
 伟大	eaod
 新房	kaht
 循环	cdjv
-人民政府	rofm
+人民政府	rolm
 切换	xmfx
 贯彻	egcx
 火灾	ihii
@@ -109427,7 +109438,7 @@
 隧道	yqqq
 气候	gqeu
 产值	kgeg
-象征	xlcf
+象征	xlcl
 备注	tvnk
 北大	qnod
 果断	jaqe
@@ -109608,7 +109619,7 @@
 陷阱	yxyi
 春天	ojfo
 新秀	kamg
-惩罚	cfud
+惩罚	clud
 会计	ridg
 歌迷	jlqo
 花钱	seof
@@ -109783,7 +109794,7 @@
 岛屿	muuh
 抛弃	fran
 内幕	crsj
-出征	wwcf
+出征	wwcl
 越发	hkwb
 纳税人	kmre
 细腻	kvwk
@@ -109852,7 +109863,7 @@
 注射	nkqk
 称之为	moks
 如期	cluw
-市政	aufp
+市政	ault
 抢劫	frhn
 空白	ipdb
 普通人	qbre
@@ -109872,7 +109883,7 @@
 水域	nshk
 曼谷	jukr
 眼神	jgjd
-求证	fndf
+求证	fndl
 肉类	crqo
 数据库	qfmx
 便于	effk
@@ -109891,7 +109902,7 @@
 游资	ntix
 制止	pcpi
 舰队	ucyr
-征求	cffn
+征求	clfn
 均匀	hwwi
 新生	kaps
 强国	blwj
@@ -109903,12 +109914,12 @@
 按时	fijk
 民航	oxua
 食堂	ksih
-正文	fpte
+正文	lzte
 链条	oxta
 稍稍	mimi
 借口	eslv
 就医	aihj
-执政	frfp
+执政	frlt
 尾部	bmkl
 牢牢	ipip
 差价	qper
@@ -109947,7 +109958,7 @@
 壁垒	blnn
 收复	wtgj
 尽力	bksl
-正当	fpib
+正当	lzib
 车祸	xjjl
 破裂	vbfx
 胡萝卜	jsub
@@ -110003,7 +110014,7 @@
 特权	phab
 倒闭	edtk
 骗子	bhkz
-政协	fpgs
+政协	ltgs
 价值观	eebc
 密度	irms
 净化	ixen
@@ -110091,7 +110102,7 @@
 误解	dlxs
 疫情	merh
 推销	feoi
-从政	rrfp
+从政	rrlt
 不住	vuek
 服役	wace
 幽默	ungh
@@ -110482,7 +110493,7 @@
 有无	ewff
 变形	tbfs
 友谊	ebdi
-惩戒	cfks
+惩戒	clks
 臀部	bskl
 重创	mvra
 总和	qlml
@@ -110535,7 +110546,7 @@
 屡次	bqix
 北京大学	qaon
 急救	xbfn
-取证	lbdf
+取证	lbdl
 党内	iwcr
 歧视	pgjc
 税务	mqts
@@ -110728,7 +110739,7 @@
 等候	gheu
 加班	sljq
 船员	uelc
-征税	cfmq
+征税	clmq
 邓小平	binq
 周转	whxi
 年间	gatj
@@ -110793,7 +110804,7 @@
 内衣	crag
 停工	eapg
 滋润	nqnt
-征服	cfwa
+征服	clwa
 下令	jxrk
 亲友	kaeb
 查出	ajww
@@ -111168,7 +111179,7 @@
 动人	inre
 多媒体	xcea
 不肯	vupw
-严惩	fucf
+严惩	fucl
 涂抹	nrff
 附属	yebg
 幸好	hqck
@@ -111209,7 +111220,7 @@
 地带	hosx
 课堂	djih
 如火如荼	cics
-政党	fpiw
+政党	ltiw
 失效	goak
 现今	jcrk
 如愿	clvd
@@ -111445,7 +111456,7 @@
 纽带	kbsx
 价钱	erof
 吻合	lwrh
-政务	fpts
+政务	ltts
 农作物	xepw
 无独有偶	fhee
 水面	nssm
@@ -111458,7 +111469,7 @@
 雕塑	whqw
 轮流	xrna
 热水	frns
-民政	oxfp
+民政	oxlt
 友人	ebre
 友情	ebrh
 免除	xlyr
@@ -111741,7 +111752,7 @@
 触摸	xsfs
 同性恋	crtr
 诊所	drdd
-正视	fpjc
+正视	lzjc
 致死	dtfx
 毛巾	mmuj
 汇集	nhea
@@ -111868,7 +111879,7 @@
 调味品	dlll
 客轮	itxr
 排斥	fudk
-后遗症	dlmf
+后遗症	dlml
 怀抱	rvfw
 调理	dwjv
 为生	ksps
@@ -111896,7 +111907,7 @@
 口气	lvgq
 滑坡	nrhb
 消防车	nyxj
-惩处	cftu
+惩处	cltu
 国庆节	wmsa
 男朋友	vweb
 沙滩	ninb
@@ -111949,7 +111960,7 @@
 近况	doil
 航空母舰	uieu
 阻挠	yjfx
-正义	fpks
+正义	lzks
 元首	flqq
 徒步	chpi
 酷似	ppee
@@ -112027,7 +112038,7 @@
 错综复杂	okgr
 泪水	njns
 谨防	dsyt
-证词	dfdy
+证词	dldy
 考场	hhhy
 说说	dqdq
 海底	ngmk
@@ -112037,7 +112048,7 @@
 积聚	mllb
 脱落	wqsn
 演奏	niof
-征兆	cfwi
+征兆	clwi
 席卷	msqo
 国手	wjfs
 智商	jlaq
@@ -112061,7 +112072,7 @@
 主人公	krkn
 盈亏	gbfh
 初级	xmkg
-政委	fpmc
+政委	ltmc
 街上	chjv
 谎言	dsby
 学业	nxue
@@ -112187,7 +112198,7 @@
 热心	frri
 共性	skrp
 装载	qhgk
-证人	dfre
+证人	dlre
 摩洛哥	mnjl
 深层	nxbi
 办好	skck
@@ -112222,7 +112233,7 @@
 老鼠	hndl
 打乱	fjle
 一蹴而就	fpsa
-廉政	mqfp
+廉政	mqlt
 煎熬	qwhw
 油门	ndtm
 翅膀	gbwa
@@ -112265,7 +112276,7 @@
 身旁	qsaq
 前线	qwkf
 无条件	ftep
-改正	otfp
+改正	otlz
 直属	gjbg
 蘑菇	smsc
 对开	bkfs
@@ -112322,7 +112333,7 @@
 烟花	iwse
 绵阳	kdyj
 击穿	awih
-邮政	dyfp
+邮政	dylt
 丰富多彩	dixu
 屏障	bqyk
 速率	alan
@@ -112430,7 +112441,7 @@
 和声	mlhb
 活性	nlrp
 接班	fkjq
-政客	fpit
+政客	ltit
 调味	dwlf
 运动会	iiri
 逆差	qwqp
@@ -112449,7 +112460,7 @@
 防水	ytns
 大本营	oasx
 编造	khpl
-查证	ajdf
+查证	ajdl
 退休金	getj
 僵持	effh
 违章	aykj
@@ -112533,7 +112544,7 @@
 混凝土	niht
 强弱	blbi
 沙发	niwb
-政变	fptb
+政变	lttb
 乐团	kiwk
 好运	ckin
 贫血	kmgu
@@ -112578,7 +112589,7 @@
 海燕	ngsf
 日记	jrdo
 比基尼	nubn
-炎症	iimf
+炎症	iiml
 染料	nrqi
 七月	xiwy
 素养	hoqo
@@ -112778,7 +112789,7 @@
 冰糖	inqm
 生活费	pnbk
 工期	pguw
-矫正	jmfp
+矫正	jmlz
 平和	nqml
 儿媳	wrcq
 黄山	sdus
@@ -112914,7 +112925,7 @@
 居委会	bmri
 弄虚作假	juee
 杀伤	saeg
-政治家	fnit
+政治家	lnit
 交友	akeb
 饭菜	xdsu
 半径	qacb
@@ -112967,7 +112978,7 @@
 画家	fvit
 端倪	kued
 彩虹	uaqp
-病症	mfmf
+病症	mfml
 睫毛	jfmm
 惋惜	rirs
 商贩	aqcd
@@ -113071,7 +113082,7 @@
 职称	llmx
 跃跃欲试	ppkd
 狮子	hqkz
-党政	iwfp
+党政	iwlt
 语气	dfgq
 推举	fenk
 采矿	uavm
@@ -113098,7 +113109,7 @@
 东欧	xihs
 纪念品	krll
 村子	akkz
-远征	flcf
+远征	flcl
 调料	dwqi
 潜质	nodg
 心声	rihb
@@ -113361,7 +113372,7 @@
 麦克风	hjes
 埋伏	hveh
 追查	doaj
-内政	crfp
+内政	crlt
 钻戒	ouks
 粉尘	qkih
 修补	euxu
@@ -113471,7 +113482,7 @@
 校友	aaeb
 刻画	tmfv
 单车	qjxj
-政坛	fphi
+政坛	lthi
 成败	kyct
 有如	ewcl
 骨子里	rkvl
@@ -113566,7 +113577,7 @@
 麻将	maqx
 刊载	nmgk
 雪山	cbus
-不正之风	vfoe
+不正之风	vloe
 家门	ittm
 毅然	ktwh
 面条	smta
@@ -113893,7 +113904,7 @@
 恰到好处	rdct
 亏本	fhaf
 大头	odio
-正经	fpkb
+正经	lzkb
 贫穷	kmis
 高尚	agis
 抗拒	fafh
@@ -114091,7 +114102,7 @@
 无异	ffos
 荷尔蒙	sxsx
 警觉	swnx
-纯正	kxfp
+纯正	kxlz
 攻读	ptdg
 搬运	fuin
 心头	riio
@@ -114258,7 +114269,7 @@
 行之有效	coea
 埋怨	hvxa
 搀扶	fxfo
-征询	cfdw
+征询	cldw
 流浪	nank
 料理	qijv
 字母	ikem
@@ -114534,7 +114545,7 @@
 琐事	jikl
 受累	uxvo
 字眼	ikjg
-正品	fpll
+正品	lzll
 厌恶	vhfu
 生怕	psrd
 衰竭	afkj
@@ -114543,7 +114554,7 @@
 咄咄逼人	llfr
 胆子	wjkz
 补课	xudj
-通行证	bcdf
+通行证	bcdl
 罪魁祸首	udjq
 切记	xmdo
 企鹅	rpgf
@@ -114717,7 +114728,7 @@
 纸张	kkbn
 制冷	pcir
 画画	fvfv
-征途	cfrf
+征途	clrf
 迷惑	qokl
 劳累	sxvo
 伤残	egfx
@@ -114750,7 +114761,7 @@
 变态	tbok
 毅力	ktsl
 近在咫尺	debb
-奖惩	qxcf
+奖惩	qxcl
 耕耘	dkdk
 坚韧	ubay
 谱写	dqxh
@@ -114764,7 +114775,7 @@
 条文	tate
 沉迷	nxqo
 内分泌	cknr
-考证	hhdf
+考证	hhdl
 日用品	jsll
 阔别	tnls
 高产	agkg
@@ -114777,7 +114788,7 @@
 溶解	nixs
 体贴	eacu
 择优	fbef
-长征	nccf
+长征	nccl
 通宵	bsii
 咸阳	kfyj
 嚣张	llbn
@@ -114880,7 +114891,7 @@
 学分	nxkm
 明火	jwih
 猎人	hsre
-正中	fplu
+正中	lzlu
 花瓶	seqs
 流淌	nani
 辜负	jkxc
@@ -115198,7 +115209,7 @@
 单薄	qjsn
 热能	frnw
 盘旋	uutg
-例证	efdf
+例证	efdl
 成因	kywo
 强人	blre
 隔膜	yfws
@@ -115487,7 +115498,7 @@
 凌厉	ihvf
 太极拳	oaqo
 先声夺人	phor
-征用	cfsy
+征用	clsy
 名师	xlqf
 山林	usaa
 有条不紊	etvt
@@ -116342,7 +116353,7 @@
 混入	njkr
 水池	nsno
 胸围	wwwa
-正要	fppc
+正要	lzpc
 从头到尾	ridb
 良知	kgjl
 雕琢	whjt
@@ -116548,7 +116559,7 @@
 吝啬	tlgq
 轻便	xbef
 庄严	mhfu
-歪曲	vfdq
+歪曲	vldq
 远航	flua
 安危	icxv
 哑铃	lfor
@@ -116715,7 +116726,7 @@
 队列	yrfx
 改头换面	oifs
 乏味	golf
-正统	fpka
+正统	lzka
 打碎	fjva
 华山	enus
 关头	qoio
@@ -116841,7 +116852,7 @@
 姗姗来迟	ccfb
 润滑	ntnr
 雨伞	cvrq
-征兵	cfdf
+征兵	cldf
 俯卧撑	ehfi
 劝告	bspl
 厚道	vjqq
@@ -116849,7 +116860,7 @@
 家财	itck
 败局	ctby
 请客	dhit
-端正	kufp
+端正	kulz
 参半	noqa
 喷射	lgqk
 水落石出	nsvw
@@ -116882,7 +116893,7 @@
 迫不得已	dvco
 跳蚤	pwbk
 明察暗访	jijd
-各自为政	tqkf
+各自为政	tqkl
 西边	pxso
 拔地而起	fhsh
 物理学	pjnx
@@ -117131,7 +117142,7 @@
 无所不能	fdvn
 起立	hokl
 活血	nlgu
-征婚	cfck
+征婚	clck
 跳动	pwin
 斜坡	rfhb
 民情	oxrh
@@ -117273,7 +117284,7 @@
 戒备	kstv
 埋葬	hvsf
 节制	sapc
-行政区	cfhs
+行政区	clhs
 得胜	cjwp
 风流	esna
 雷声	cvhb
@@ -117318,7 +117329,7 @@
 奋起直追	ohgd
 花心	seri
 自给自足	qkqp
-正直	fpgj
+正直	lzgj
 置之不理	uovj
 深思熟虑	nvau
 别处	lstu
@@ -117343,7 +117354,7 @@
 体罚	eaud
 惊奇	raoj
 遭殃	cjfx
-正气	fpgq
+正气	lzgq
 众望所归	rtdq
 碰壁	vqbl
 对局	bkby
@@ -117649,7 +117660,7 @@
 各有千秋	temm
 后路	dfpt
 偃旗息鼓	etqh
-名正言顺	xfbl
+名正言顺	xlbl
 无微不至	fcvd
 滔滔不绝	nnvk
 风平浪静	ennh
@@ -117659,7 +117670,7 @@
 无愧	ffrd
 抗美援朝	fqfg
 凭空	emip
-不务正业	vtfu
+不务正业	vtlu
 交相辉映	aaij
 放火	ttih
 猝不及防	hvgy
@@ -117786,7 +117797,7 @@
 托盘	fguu
 绳之以法	koen
 成才	kykg
-军政	xxfp
+军政	xxlt
 娘娘	ckck
 出类拔萃	wqfs
 洞口	nclv
@@ -118002,7 +118013,7 @@
 暗暗	jkjk
 局促	byep
 危机四伏	xawe
-明证	jwdf
+明证	jwdl
 用武之地	sfoh
 回转	wlxi
 左右为难	eekb
@@ -118043,7 +118054,7 @@
 神经衰弱	jkab
 罢休	uhea
 茂密	skir
-正道	fpqq
+正道	lzqq
 受制于人	upfr
 欺凌	uxih
 急匆匆	xwwc
@@ -118445,7 +118456,7 @@
 跋涉	penp
 敬而远之	ssfo
 锲而不舍	osvr
-政体	fpea
+政体	ltea
 惦记	rmdo
 寒潮	isng
 剧痛	bjmb
@@ -118453,7 +118464,7 @@
 粉刷	qkbu
 医务	hjts
 风雪	escb
-辩证	kddf
+辩证	kddl
 真菌	gjsw
 匪徒	huch
 尔后	xidf
@@ -118703,7 +118714,7 @@
 欢腾	bxwq
 当头一棒	iifa
 断然	qewh
-正比	fpnn
+正比	lznn
 罹难	urbe
 死里逃生	fvwp
 竹林	gzaa
@@ -118786,7 +118797,7 @@
 显微镜	jcok
 债台高筑	enag
 哗众取宠	lrli
-光明正大	ijfo
+光明正大	ijlo
 贵重	ljmv
 懒散	rasw
 阿司匹林	yyha
@@ -119077,7 +119088,7 @@
 假若	ebse
 鬼魂	dgin
 亡灵	twbi
-工作证	pedf
+工作证	pedl
 亲王	kajw
 磁带	vqsx
 竹竿	gzgn
@@ -119216,7 +119227,7 @@
 顾此失彼	vpgc
 窝囊	ilgl
 定做	ifej
-铁证	ogdf
+铁证	ogdl
 一拥而上	ffsj
 无可争辩	fjxk
 营房	sxht
@@ -119288,7 +119299,7 @@
 虾米	qjqm
 隔热	yffr
 冲天	ilfo
-表征	hgcf
+表征	hgcl
 反革命	dsra
 草帽	sjuc
 吝惜	tlrs
@@ -119505,7 +119516,7 @@
 草场	sjhy
 先入为主	pkkk
 震耳欲聋	clkf
-正月	fpwy
+正月	lzwy
 心平气和	rngm
 完事	ifkl
 灰心	eiri
@@ -119665,7 +119676,7 @@
 估量	ejjf
 气概	gqab
 产假	kgeb
-绝症	kxmf
+绝症	kxml
 牢房	ipht
 钢轨	ocxr
 支支吾吾	ggff
@@ -119715,7 +119726,7 @@
 低沉	eknx
 稀薄	mssn
 把柄	foaf
-议政	dkfp
+议政	dklt
 王宫	jwil
 发疯	wbme
 筋疲力尽	gmsb
@@ -119772,7 +119783,7 @@
 随口	yelv
 手足	fspz
 古今中外	jrlx
-语焉不详	dfvd
+语焉不详	dlvd
 群策群力	bgbs
 联欢	lqbx
 爪子	uzkz
@@ -120130,7 +120141,7 @@
 道教	qqhk
 战鼓	ulhg
 不可告人	vjpr
-心不在焉	rvef
+心不在焉	rvel
 大抵	odfk
 凉快	iarb
 孤立无援	kkff
@@ -120175,14 +120186,14 @@
 顺路	lcpt
 责难	hcbe
 阉割	toid
-堂堂正正	iiff
+堂堂正正	iill
 仆人	eure
 指名道姓	fxqc
-一本正经	fafk
+一本正经	falk
 忘我	trgf
 瞒天过海	jfkn
 放任自流	teqn
-正本清源	fann
+正本清源	lann
 手电	fsdd
 不拘一格	vffa
 网开一面	cffs
@@ -120465,7 +120476,7 @@
 伯伯	eded
 森严	aafu
 夜以继日	aekj
-矫枉过正	jakf
+矫枉过正	jakl
 赤膊	hkwn
 名胜古迹	xwjt
 愚弄	vrjs
@@ -120580,7 +120591,7 @@
 探查	fxaj
 勤工俭学	spen
 松手	akfs
-罪证	uudf
+罪证	uudl
 羞耻	qblp
 螳螂	qiqk
 捷足先登	fppb
@@ -120602,7 +120613,7 @@
 刻薄	tmsn
 异口同声	olch
 落落大方	ssot
-寿终正寝	dkfi
+寿终正寝	dkli
 粗俗	qjek
 洋娃娃	ncch
 票子	pjkz
@@ -120621,7 +120632,7 @@
 白眼	dbjg
 虎口	uhlv
 鬼门关	dtqo
-参政	nofp
+参政	nolt
 以防万一	eyff
 操劳	flsx
 吞吐	folh
@@ -120882,7 +120893,7 @@
 边关	soqo
 坏话	hvdl
 白细胞	dkww
-正派	fpnd
+正派	lznd
 儿歌	wrjl
 飘散	pjsw
 呕心沥血	lrng
@@ -120905,11 +120916,11 @@
 眼珠	jgjp
 声嘶力竭	hlsk
 老当益壮	hiqq
-拨乱反正	fldf
+拨乱反正	fldl
 夸大其词	ooud
 无可奉告	fjop
 反戈一击	dkfa
-风华正茂	eefs
+风华正茂	eels
 小脚	ivwh
 黄连	sdxo
 波涛	nbnd
@@ -121285,7 +121296,7 @@
 一家之言	fiob
 繁盛	geky
 试管	dkgi
-言归正传	bqfe
+言归正传	bqle
 飘浮	pjnu
 万年历	fgvs
 忧患	rfll
@@ -121403,7 +121414,7 @@
 不外	vuxu
 半路出家	qpwi
 野花	vkse
-正方形	ftfs
+正方形	ltfs
 深不可测	nvjn
 师范	qfsn
 煞有介事	xerk
@@ -122110,7 +122121,7 @@
 赞颂	pwkn
 冷暖自知	ijqj
 缝纫	ktkm
-急症	xbmf
+急症	xbml
 丝丝入扣	kkkf
 糟粕	qcqd
 别称	lsmx
@@ -122447,7 +122458,7 @@
 妙手回春	cfwo
 由浅入深	dnkn
 堤岸	hjuv
-正襟危坐	fxxr
+正襟危坐	lxxr
 节外生枝	sxpa
 失魂落魄	gisd
 谜语	dqdf
@@ -122544,7 +122555,7 @@
 宰割	ikid
 轻车简从	xxgr
 连绵不断	xkvq
-正大光明	foij
+正大光明	loij
 贻笑大方	cgot
 七上八下	xjkj
 儿女情长	wcrn
@@ -122586,7 +122597,7 @@
 怯懦	rhrc
 海誓山盟	nfuj
 倾盆大雨	ekoc
-歪打正着	vffq
+歪打正着	vflq
 好吃懒做	clre
 山穷水尽	uinb
 布告	eupl
@@ -122662,7 +122673,7 @@
 聪明伶俐	ljee
 盛气凌人	kgir
 引经据典	bkfc
-专政	iefp
+专政	ielt
 毒辣	heka
 远走高飞	fhay
 分秒必争	kmrx
@@ -122713,14 +122724,14 @@
 半死不活	qfvn
 地头蛇	hiqi
 动人心魄	irrd
-精兵简政	qdgf
+精兵简政	qdgl
 老骥伏枥	hbea
 分秒	kmmi
 巡抚	loff
 临危不惧	uxvr
 婚配	ckpo
 长篇大论	ngod
-改邪归正	ohqf
+改邪归正	ohql
 漫谈	njdi
 好大喜功	cohp
 杀气腾腾	sgww
@@ -122911,7 +122922,7 @@
 姹紫嫣红	cpck
 装聋作哑	qfel
 天旋地转	fthx
-刚正不阿	cfvy
+刚正不阿	clvy
 大庭广众	ommr
 惊异	raos
 家徒四壁	icwb
@@ -123274,7 +123285,7 @@
 血淋淋	gnna
 繁荣富强	gsib
 穷乡僻壤	ikeh
-垂帘听政	milf
+垂帘听政	mill
 痛快淋漓	mrnn
 怜香惜玉	rmrj
 来者不善	fhvq
@@ -123571,7 +123582,7 @@
 有始有终	ecek
 旁观者清	abhn
 误人子弟	drkq
-正色	fpxo
+正色	lzxo
 尸位素餐	behu
 抓耳挠腮	flfw
 唯物主义	lpkk
@@ -123680,7 +123691,7 @@
 象形	xlfs
 珍禽	jrrt
 弄假成真	jekg
-正人君子	frbk
+正人君子	lrbk
 思绪万千	vkfm
 由表及里	dhgv
 饭来张口	xfbl
@@ -124086,7 +124097,7 @@
 少不更事	ivfk
 罪孽深重	usnm
 短见	jfcj
-正中下怀	fljr
+正中下怀	lljr
 三从四德	lrwc
 数典忘祖	qctj
 芒刺在背	saeq
@@ -124181,7 +124192,7 @@
 呆头呆脑	lilw
 魑魅魍魉	dddd
 忽地	wcho
-政通人和	fbrm
+政通人和	lbrm
 呜呼哀哉	llag
 悬崖绝壁	jukb
 心神不定	rjvi
@@ -124224,7 +124235,7 @@
 瓮中之鳖	kloq
 朝秦暮楚	gosa
 立锥之地	kooh
-明媒正娶	jcfl
+明媒正娶	jcll
 死得其所	fcud
 妖言惑众	cbkr
 格杀勿论	aswd
@@ -124815,7 +124826,7 @@
 巨头	hbio
 回调	wldw
 地块	hohb
-财政部	cfkl
+财政部	clkl
 锁定	oiif
 固定资产	wiik
 仍是	egjf
@@ -125152,12 +125163,12 @@
 参股	nowe
 财税	ckmq
 汇丰	nhdf
-征战	cful
+征战	clul
 链接	oxfk
 新款	kahj
 兑付	qlek
 税费	mqbk
-新政	kafp
+新政	kalt
 打电话	fddl
 无人	ffre
 丰田	dfvt
@@ -125301,7 +125312,7 @@
 进场	ikhy
 志愿者	hvhj
 制造商	ppaq
-市政府	afme
+市政府	alme
 周日	whjr
 美方	qotf
 创出	raww
@@ -125660,7 +125671,7 @@
 博客	gnit
 落马	snbm
 既要	bnpc
-权证	abdf
+权证	abdl
 户型	hhfs
 拍戏	fdbk
 备忘录	ttbn
@@ -125697,7 +125708,7 @@
 来源于	fnfk
 扭亏	fbfh
 选项	pwpc
-正值	fpeg
+正值	lzeg
 不像	vuex
 互联	felq
 即时	bnjk
@@ -126069,7 +126080,7 @@
 乘车	mqxj
 一家人	fire
 与否	hfvl
-征地	cfho
+征地	clho
 个案	ruic
 领导者	rohj
 弱化	bien
@@ -126364,7 +126375,7 @@
 总队	qlyr
 汉堡	nbel
 要不	pcvu
-征程	cfml
+征程	clml
 又称	bomx
 重量级	mjkg
 跨国公司	pwky
@@ -126426,7 +126437,7 @@
 问鼎	tljd
 白皮书	dbyy
 游戏机	nbae
-政绩	fpkh
+政绩	ltkh
 早有	jzew
 那段	yael
 评为	dnks
@@ -126489,7 +126500,7 @@
 长虹	ncqp
 训练场	dkhy
 办公厅	skvj
-转正	xifp
+转正	xilz
 基石	uhvs
 监制	ugpc
 封装	hhqh
@@ -126550,7 +126561,7 @@
 佳绩	ehkh
 驾照	sljm
 比尔	nnxi
-党政机关	ifaq
+党政机关	ilaq
 高新	agka
 核电站	adku
 版图	ddwt
@@ -126644,7 +126655,7 @@
 外包	xuwo
 续航	kgua
 花旗	setg
-财政局	cfby
+财政局	clby
 实录	iibn
 窃取	ixlb
 副教授	fhfu
@@ -126907,7 +126918,7 @@
 出彩	wwua
 喊话	lkdl
 违约金	aktj
-公证	kndf
+公证	kndl
 菜油	sund
 护栏	fhaq
 太久	okxk
@@ -126916,7 +126927,7 @@
 器件	llep
 送去	qohn
 抑或	fkkl
-方正	tffp
+方正	tflz
 性爱	rpux
 随处可见	ytjc
 换代	fxek
@@ -126925,7 +126936,7 @@
 高估	agej
 防晒	ytjp
 炒股	iiwe
-免征	xlcf
+免征	xlcl
 之心	ozri
 异议	osdk
 动画片	ifdp
@@ -126945,7 +126956,7 @@
 每晚	gejx
 谁也	deoe
 怎么会	ggri
-佐证	eedf
+佐证	eedl
 公共场所	kshd
 换乘	fxmq
 停火	eaih
@@ -126967,7 +126978,7 @@
 低速	ekal
 全称	rjmx
 出新	wwka
-执政党	ffiw
+执政党	fliw
 若有	seew
 寓意	ivkj
 存有	euew
@@ -127092,7 +127103,7 @@
 帅哥	qujl
 技术性	farp
 连任	xoem
-民政局	ofby
+民政局	olby
 平仓	nqra
 平壤	nqha
 接送	fkqo
@@ -127100,7 +127111,7 @@
 供大于求	eoff
 污染源	nnnv
 开球	fsjf
-办证	skdf
+办证	skdl
 自由泳	qdnk
 杀伤力	sesl
 收场	wthy
@@ -127111,7 +127122,7 @@
 厅长	vjnc
 机长	aenc
 暴雪	jscb
-家政	itfp
+家政	itlt
 以西	ekpx
 弃婴	ancc
 支架	gbsl
@@ -127147,7 +127158,7 @@
 玩转	jfxi
 高难度	abms
 大喊	odlk
-县政府	jfme
+县政府	jlme
 指挥官	ffib
 光是	iljf
 法兰克福	nqjj
@@ -127299,7 +127310,7 @@
 老外	hnxu
 无缝	ffkt
 跃升	pmgs
-正版	fpdd
+正版	lzdd
 片酬	dppn
 堵车	hhxj
 致力	dtsl
@@ -127324,7 +127335,7 @@
 爱上	uxjv
 泳池	nkno
 新锐	kaoq
-驾驶证	sbdf
+驾驶证	sbdl
 巴格达	oaoo
 废止	mwpi
 报导	faok
@@ -127398,7 +127409,7 @@
 据传	fbei
 说完	dqif
 异味	oslf
-听证	lddf
+听证	lddl
 关机	qoae
 辈子	uxkz
 鸟巢	mnlj
@@ -127560,14 +127571,14 @@
 腹地	wgho
 只看	lkfj
 蹊跷	pupx
-对证	bkdf
+对证	bkdl
 仅限	ebyg
 公用	knsy
 走人	hzre
 计委	dgmc
 喝茶	ljsr
 传动	eiin
-区政府	hfme
+区政府	hlme
 约旦	kwjf
 更应	fjmn
 空姐	ipcj
@@ -127606,8 +127617,8 @@
 调任	dwem
 爸爸妈妈	kkcc
 瑜伽	jres
-并发症	qwmf
-无证	ffdf
+并发症	qwml
+无证	ffdl
 入场券	khqo
 欧亚	hsfu
 网速	csal
@@ -127632,7 +127643,7 @@
 功耗	psdk
 十佳	gieh
 上相	jvaj
-举证	nkdf
+举证	nkdl
 经由	kbdo
 粘性	qurp
 主动性	kirp
@@ -127654,7 +127665,7 @@
 杀手锏	sfot
 交集	akea
 缘何	keej
-政法	fpnh
+政法	ltnh
 箱体	gaea
 乐坛	kihi
 年检	gaar
@@ -127791,7 +127802,7 @@
 勇夺	bsok
 食糖	ksqm
 租户	mjhh
-政局	fpby
+政局	ltby
 埋单	hvqj
 从商	rraq
 自嘲	qilg
@@ -127842,7 +127853,7 @@
 苗头	svio
 真皮	gjbp
 感恩节	kwsa
-正常化	fien
+正常化	lien
 就职	aill
 机箱	aega
 赠与	cqhf
@@ -127892,7 +127903,7 @@
 按此	fipn
 空门	iptm
 小店	ivmu
-作证	egdf
+作证	egdl
 紧邻	ubrk
 百分百	vkvj
 孕期	gkuw
@@ -128020,7 +128031,7 @@
 意料	kjqi
 银行家	ocit
 买账	yicn
-惩治	cfnn
+惩治	clnn
 腹痛	wgmb
 如一	clfi
 夹击	oqaw
@@ -128297,7 +128308,7 @@
 巨无霸	hfcs
 本想	afaj
 复审	gjid
-正宗	fpij
+正宗	lzij
 频段	piel
 胜算	wpgj
 彩妆	uaqc
@@ -128309,7 +128320,7 @@
 打赢	fjtc
 复赛	gjis
 维和	keml
-正轨	fpxr
+正轨	lzxr
 多高	xxag
 船厂	uevh
 锦州	odnl
@@ -128360,7 +128371,7 @@
 单子	qjkz
 输电	xrdd
 年关	gaqo
-正名	fpxl
+正名	lzxl
 外墙	xuhg
 评议	dndk
 影坛	jahi
@@ -128436,7 +128447,7 @@
 盖上	qujv
 纪检	koar
 航空器	uill
-鉴证	ugdf
+鉴证	ugdl
 驻守	bkik
 反派	dbnd
 有失	ewgo
@@ -128616,7 +128627,7 @@
 要不是	pvjf
 民房	oxht
 要得	pccj
-证照	dfjm
+证照	dljm
 区位	hsek
 显眼	jujg
 待定	chif
@@ -128840,7 +128851,7 @@
 爱妻	uxgb
 进阶	ikyr
 金发	tjwb
-政要	fppc
+政要	ltpc
 外滩	xunb
 并立	qskl
 跨入	pokr
@@ -128849,7 +128860,7 @@
 我方	gftf
 执委	frmc
 避税	blmq
-症结	mfkh
+症结	mlkh
 升起	gsho
 实景	iija
 共度	skms
@@ -128926,7 +128937,7 @@
 怀揣	rvfu
 移居	mxbj
 暂定	xdif
-政治局	fnby
+政治局	lnby
 手袋	fsek
 反华	dben
 首任	qqem
@@ -128969,7 +128980,7 @@
 遐想	biaj
 有生	ewps
 扶植	foag
-严正	fufp
+严正	fulz
 名酒	xlnp
 高效率	aaan
 挺好	fmck
@@ -129103,7 +129114,7 @@
 省油	ignd
 警务	swts
 艺术节	sasa
-施政	tgfp
+施政	tglt
 家底	itmk
 燕麦	sfht
 提货	fjen
@@ -129358,7 +129369,7 @@
 没想	neaj
 屡遭	bqcj
 可得	jlcj
-财政厅	cfvj
+财政厅	clvj
 限速	ygal
 不干	vung
 煮沸	hjnb
@@ -129391,7 +129402,7 @@
 海牙	ngha
 掩埋	fohv
 踩踏	pupn
-征召	cfml
+征召	clml
 有钱人	eore
 同伙	cfei
 隐匿	yxhs
@@ -129404,13 +129415,13 @@
 树上	abjv
 救世主	fskj
 期中	uwlu
-准考证	ihdf
+准考证	ihdl
 凶悍	swrj
 女优	cnef
 起舞	hogs
 清代	nhek
 凌乱	ihle
-嫣然	cfwh
+嫣然	clwh
 红海	kpng
 乏善可陈	gqjy
 某天	sifo
@@ -129668,7 +129679,7 @@
 将帅	qxqu
 转嫁	xici
 中雨	lucv
-合格证	radf
+合格证	radl
 无碍	ffvj
 可人	jlre
 直白	gjdb
@@ -129710,7 +129721,7 @@
 巴拉圭	ofhh
 溯源	nqnv
 潜水员	nnlc
-政审	fpid
+政审	ltid
 萨尔瓦多	sxrx
 原班人马	vjrb
 体形	eafs
@@ -129785,7 +129796,7 @@
 双料	bbqi
 喷雾	lgct
 利尿	mmbn
-政界	fpvr
+政界	ltvr
 芳心	stri
 铁岭	ogur
 走失	hzgo
@@ -129849,7 +129860,7 @@
 安全套	irou
 忍者	mkhj
 贺卡	slju
-正本	fpaf
+正本	lzaf
 开篇	fsgh
 自流	qina
 火化	ihen
@@ -129902,7 +129913,7 @@
 老路	hnpt
 腹肌	wgwe
 呈报	ljfa
-正大	fpod
+正大	lzod
 小费	ivbk
 越级	hkkg
 我俩	gfef
@@ -130114,7 +130125,7 @@
 大龄	odpr
 扣分	flkm
 难保	beel
-非正式	ufkp
+非正式	ulkp
 作答	eggr
 东东	xixi
 顶棚	jcaw
@@ -130542,7 +130553,7 @@
 换季	fxmk
 改选	otpw
 车组	xjkj
-正门	fptm
+正门	lztm
 寄语	iodf
 攀枝花	aase
 头版	iodd
@@ -131071,7 +131082,7 @@
 挺直	fmgj
 工时	pgjk
 河里	njvl
-时政	jkfp
+时政	jklt
 越界	hkvr
 受制	uxpc
 约好	kwck
@@ -131128,7 +131139,7 @@
 毕加索	nsgx
 拒收	fhwt
 防暴	ytjs
-歪风	vfes
+歪风	vles
 挨个	fnru
 新居	kabj
 行销	cioi
@@ -131405,7 +131416,7 @@
 方向性	tdrp
 奶瓶	cgqs
 摆平	funq
-尿毒症	bhmf
+尿毒症	bhml
 寄给	iokr
 合二为一	rikf
 油井	ndik
@@ -131583,7 +131594,7 @@
 刺伤	aceg
 光热	ilfr
 撞见	fkcj
-实证	iidf
+实证	iidl
 部级	klkg
 禁不住	avek
 弧形	bufs
@@ -131641,7 +131652,7 @@
 近战	doul
 宫颈	ilbp
 编者	khhj
-正职	fpll
+正职	lzll
 适龄	lopr
 奇人	ojre
 防尘	ytih
@@ -131882,7 +131893,7 @@
 猜中	hhlu
 酒泉	npdn
 闯出	tbww
-正像	fpex
+正像	lzex
 成倍	kyek
 大搞	odfa
 摄影机	fjae
@@ -131905,7 +131916,7 @@
 亲和	kaml
 挑动	fwin
 小手	ivfs
-正餐	fpux
+正餐	lzux
 监视器	ujll
 卷心菜	qrsu
 做活	ejnl
@@ -131931,7 +131942,7 @@
 远门	fltm
 不孕	vugk
 小燕子	iskz
-正牌	fpdd
+正牌	lzdd
 转接	xifk
 金枪鱼	taxv
 义诊	ksdr
@@ -132039,7 +132050,7 @@
 味蕾	lfsc
 坐落	rrsn
 劝退	bsgo
-应征	mncf
+应征	mncl
 挺举	fmnk
 销售点	oeul
 板栗	adpa
@@ -132139,7 +132150,7 @@
 同心	cfri
 响彻	ldcx
 涵洞	nync
-正规军	foxx
+正规军	loxx
 舞姿	gsix
 清真寺	nghk
 金石	tjvs
@@ -132241,7 +132252,7 @@
 音像	kjex
 貂蝉	mmqq
 教给	hkkr
-扶正	fofp
+扶正	folz
 提纲	fjkc
 有说有笑	edeg
 金三角	tlxs
@@ -132256,7 +132267,7 @@
 致残	dtfx
 活性炭	nrue
 扶梯	foaq
-邮政局	dfby
+邮政局	dlby
 行商	ciaq
 暂别	xdls
 上古	jvjg
@@ -132301,11 +132312,11 @@
 无所	ffdd
 钻头	ouio
 品相	llaj
-行政院	cfyi
+行政院	clyi
 不值	vueg
 一块儿	fhwr
 分权	kmab
-参政议政	nfdf
+参政议政	nldl
 国别	wjls
 要死	pcfx
 毫秒	ammi
@@ -132359,7 +132370,7 @@
 低等	ekgh
 划界	kmvr
 现形	jcfs
-摆正	fufp
+摆正	fulz
 仰仗	ekee
 本校	afaa
 伙食费	ekbk
@@ -132416,7 +132427,7 @@
 前言	qwby
 握拳	fbqo
 泳衣	nkag
-物证	pwdf
+物证	pwdl
 付账	ekcn
 烘烤	isih
 项羽	pcvv
@@ -132633,7 +132644,7 @@
 进价	iker
 滩涂	nbnr
 靶场	sohy
-宪政	ipfp
+宪政	iplt
 中空	luip
 对错	bkos
 鸭蛋	vmyp
@@ -132848,7 +132859,7 @@
 虚荣心	usri
 妓院	cgyi
 路旁	ptaq
-政令	fprk
+政令	ltrk
 批转	fnxi
 依稀	eams
 听歌	ldjl
@@ -132870,7 +132881,7 @@
 江泽民	nnox
 西非	pxuf
 次子	ixkz
-当政	ibfp
+当政	iblt
 博大	gnod
 续建	kgba
 干啥	nglr
@@ -133017,7 +133028,7 @@
 均势	hwfr
 素雅	hohe
 街面	chsm
-综合症	krmf
+综合症	krml
 关东	qoxi
 跑鞋	pwsh
 整风	ales
@@ -133150,7 +133161,7 @@
 译文	dbte
 重地	mvho
 撕扯	fufp
-校正	aafp
+校正	aalz
 奥斯陆	duya
 下人	jxre
 华贵	enlj
@@ -133193,7 +133204,7 @@
 初七	xmxi
 推土机	fhae
 阴蒂	ywsa
-正巧	fpph
+正巧	lzph
 跌宕	pgiv
 雨林	cvaa
 截击	gkaw
@@ -133219,7 +133230,7 @@
 信守	ebik
 坑道	haqq
 慢速	rjal
-雍正	akfp
+雍正	aklz
 取用	lbsy
 质数	dgqc
 主治医师	knhq
@@ -133238,7 +133249,7 @@
 月刊	wynm
 逼问	fltl
 雪球	cbjf
-票证	pjdf
+票证	pjdl
 半边天	qsfo
 私了	mnke
 离退休	tgea
@@ -133356,7 +133367,7 @@
 违禁品	aall
 工矿	pgvm
 右倾	elen
-学生证	npdf
+学生证	npdl
 高潮迭起	angh
 师大	qfod
 上心	jvri
@@ -133384,7 +133395,7 @@
 严严实实	ffii
 记分	dokm
 以点带面	euss
-对症	bkmf
+对症	bkml
 三流	lana
 粗口	qjlv
 有缘	ewke
@@ -133651,7 +133662,7 @@
 华盖	enqu
 抗震	facm
 来去	fqhn
-政工	fppg
+政工	ltpg
 划时代	kjek
 史书	lsyy
 一盘棋	fuau
@@ -133818,7 +133829,7 @@
 归口	qblv
 厚厚	vjvj
 混血儿	ngwr
-大政	odfp
+大政	odlt
 加温	slnj
 小院	ivyi
 招租	fmmj
@@ -133881,7 +133892,7 @@
 患处	lltu
 款待	hjch
 水星	nsjp
-正反	fpdb
+正反	lzdb
 利大于弊	mofq
 南宋	gcia
 石刻	vstm
@@ -133980,7 +133991,7 @@
 调回	dwwl
 磷矿	vqvm
 流汗	nann
-清正廉洁	nfmn
+清正廉洁	nlmn
 提纯	fjkx
 学成	nxky
 新派	kand
@@ -134257,7 +134268,7 @@
 印刷厂	kbvh
 留校	kvaa
 迷彩服	quwa
-正负	fpxc
+正负	lzxc
 后周	dfwh
 同房	cfht
 飘飘	pjpj
@@ -134511,7 +134522,7 @@
 箴言	gkby
 催泪弹	enbq
 相依	ajea
-征调	cfdw
+征调	cldw
 海平面	nnsm
 换汤不换药	fnvs
 向心力	drsl
@@ -135064,7 +135075,7 @@
 大做文章	oetk
 因特网	wpcs
 做作	ejeg
-顽症	flmf
+顽症	flml
 敢做	ylej
 知根知底	jajm
 义举	ksnk
@@ -135077,7 +135088,7 @@
 未决	fwib
 单说	qjdq
 悲喜	urhl
-征文	cfte
+征文	clte
 砥砺	vkvv
 余数	rfqc
 扩编	fmkh
@@ -135107,7 +135118,7 @@
 水陆	nsya
 光驱	ilbh
 与世隔绝	hsyk
-正剧	fpbj
+正剧	lzbj
 过当	koib
 血肿	guwl
 泥巴	nbob
@@ -135203,7 +135214,7 @@
 长生	ncps
 卖钱	gyof
 积弊	mlqu
-政治权利	fnam
+政治权利	lnam
 暗地	jkho
 棺木	aiam
 下端	jxku
@@ -135358,7 +135369,7 @@
 献计献策	gdgg
 市井	auik
 简章	gtkj
-人证	redf
+人证	redl
 甚或	uekl
 幼师	nsqf
 底板	mkad
@@ -135512,7 +135523,7 @@
 木讷	amdc
 说不上	dvjv
 相左	ajep
-正步	fppi
+正步	lzpi
 打盹	fjjx
 信义	ebks
 春雷	ojcv
@@ -135721,7 +135732,7 @@
 弄错	jsos
 一见倾心	fcer
 挑食	fwks
-正体	fpea
+正体	lzea
 小工	ivpg
 烧结	ixkh
 注塑	nkqw
@@ -136037,7 +136048,7 @@
 会话	ridl
 熔炼	iiix
 坠地	yrho
-正确性	fvrp
+正确性	lvrp
 爬树	uoab
 只当	lkib
 仿古	etjg
@@ -136154,7 +136165,7 @@
 法拉	nhfk
 气枪	gqar
 免冠	xlxf
-周正	whfp
+周正	whlz
 刀剑	mdrf
 不失时机	vgja
 后援	dffu
@@ -136265,7 +136276,7 @@
 罗汉	uxnb
 河豚	njwt
 壮士	qhhs
-正题	fpjf
+正题	lzjf
 小说家	idit
 性器官	rlib
 波恩	nbwo
@@ -136725,7 +136736,7 @@
 风马牛不相及	ebpg
 辉映	iljc
 招安	fmic
-政事	fpkl
+政事	ltkl
 石料	vsqi
 纸牌	kkdd
 胜似	wpee
@@ -136776,7 +136787,7 @@
 加急	slxb
 不自在	vqeu
 回教	wlhk
-大政方针	ofto
+大政方针	olto
 闪躲	trqe
 油光	ndil
 肩并肩	hqhw
@@ -136966,7 +136977,7 @@
 基隆	uhyt
 鸭梨	vmmm
 雪碧	cbjd
-正方	fptf
+正方	lztf
 心连心	rxri
 想哭	ajll
 靠边	plso
@@ -137000,7 +137011,7 @@
 近于	dofk
 满怀信心	nrer
 大吉	odhl
-指正	fnfp
+指正	fnlz
 奇闻	ojtl
 今儿	rkwr
 复课	gjdj
@@ -137138,9 +137149,9 @@
 求战	fnul
 青衣	hwag
 真经	gjkb
-政治犯	fnha
+政治犯	lnha
 绒毛	kkmm
-正点	fpul
+正点	lzul
 刚要	cspc
 儒学	ecnx
 哪边	lyso
@@ -137163,7 +137174,7 @@
 肿大	wlod
 心火	riih
 法文	nhte
-补正	xufp
+补正	xulz
 束腰	alwp
 黄脸婆	swnb
 快板	rbad
@@ -137250,7 +137261,7 @@
 灯管	ijgi
 互派	fend
 珠子	jpkz
-正路	fppt
+正路	lzpt
 庇佑	mnee
 移栽	mxgk
 家丑	itbc
@@ -137490,7 +137501,7 @@
 窘况	ibil
 转世	xisi
 漆皮	nabp
-正儿八经	fwkk
+正儿八经	lwkk
 条理	tajv
 对话框	bdah
 功过	psko
@@ -137611,7 +137622,7 @@
 抽打	fdfj
 发信	wbeb
 晚婚	jxck
-正当防卫	fiya
+正当防卫	liya
 抽泣	fdnk
 活动家	niit
 腰疼	wpmt
@@ -137649,7 +137660,7 @@
 活埋	nlhv
 阳春	yjoj
 耗损	dkfl
-正数	fpqc
+正数	lzqc
 款额	hjit
 教改	hkot
 恩仇	woer
@@ -137671,7 +137682,7 @@
 线粒体	kqea
 来势	fqfr
 赤身裸体	hqxe
-歪斜	vfrf
+歪斜	vlrf
 至宝	dzij
 牌位	ddek
 遣散	ljsw
@@ -137719,7 +137730,7 @@
 将官	qxib
 刻字	tmik
 一场空	fhip
-朝政	gjfp
+朝政	gjlt
 少男少女	ivic
 山门	ustm
 天鹅绒	fgkk
@@ -137742,7 +137753,7 @@
 函告	ynpl
 坑蒙拐骗	hsfb
 诱奸	dmcn
-清正	nhfp
+清正	nhlz
 花市	seau
 本来面目	afsj
 应承	mnyn
@@ -137774,7 +137785,7 @@
 册封	wwhh
 花样翻新	sagk
 英年早逝	sgjf
-败血症	cgmf
+败血症	cgml
 情话	rhdl
 欲求	krfn
 酣战	psul
@@ -137871,7 +137882,7 @@
 扇形	hvfs
 方框	tfah
 墨鱼	ghxv
-立正	klfp
+立正	kllz
 陈独秀	yhmg
 介绍信	rkeb
 招摇	fmfu
@@ -137890,7 +137901,7 @@
 国事	wjkl
 再版	fcdd
 力战	slul
-确证	vxdf
+确证	vxdl
 看相	fjaj
 展播	bsfg
 五岳	fbdf
@@ -137910,7 +137921,7 @@
 横线	askf
 怀表	rvhg
 尼日尔	bjxi
-正午	fpgg
+正午	lzgg
 祥瑞	jqju
 毛躁	mmpl
 误用	dlsy
@@ -138007,7 +138018,7 @@
 雪松	cbak
 验血	brgu
 飘飘然	ppwh
-正身	fpqs
+正身	lzqs
 花环	sejv
 薄板	snad
 臣服	hcwa
@@ -138100,7 +138111,7 @@
 喷嘴	lglp
 顿感	xwkf
 酣睡	psjm
-征订	cfdj
+征订	cldj
 缺德	jbcg
 经文	kbte
 真棒	gjao
@@ -138182,7 +138193,7 @@
 陪葬	yksf
 势利	frmm
 象牙塔	xhhs
-勤政	sifp
+勤政	silt
 千里眼	mvjg
 记事本	dkaf
 烟煤	iwis
@@ -138396,7 +138407,7 @@
 干渠	ngnh
 门边	tmso
 拉帮结派	fdkn
-方方正正	ttff
+方方正正	ttll
 挑夫	fwof
 装货	qhen
 育秧	anmc
@@ -138488,7 +138499,7 @@
 蒜苗	sjsv
 搜刮	fdlm
 宗族	ijtg
-正极	fpag
+正极	lzag
 马列	bmfx
 假条	ebta
 金丝猴	tkhe
@@ -138588,7 +138599,7 @@
 小寒	ivis
 侏罗纪	euko
 前导	qwok
-多动症	ximf
+多动症	ximl
 威吓	kflj
 锯齿	obpr
 托词	fgdy
@@ -138625,7 +138636,7 @@
 南宫	gcil
 转录	xibn
 歇脚	jwwh
-证物	dfpw
+证物	dlpw
 早班	jzjq
 收押	wtfv
 球状	jfqh
@@ -138645,7 +138656,7 @@
 球面	jfsm
 一口咬定	flli
 搪瓷	fmix
-修正主义	efkk
+修正主义	elkk
 临战	ugul
 王权	jwab
 锅碗瓢盆	ovpk
@@ -138704,7 +138715,7 @@
 如来	clfq
 同治	cfnn
 狂笑	hjgm
-正事	fpkl
+正事	lzkl
 私有制	mepc
 独孤	hqku
 蠕虫	qcqc
@@ -139045,7 +139056,7 @@
 双人床	brma
 激扬	ndfy
 皇朝	djgj
-政见	fpcj
+政见	ltcj
 悲怆	urrr
 身怀六甲	qrav
 上供	jves
@@ -139103,7 +139114,7 @@
 杀身之祸	sqoj
 圣水	bhns
 结节	khsa
-焉能	fpnw
+焉能	lhnw
 用字	syik
 交通线	abkf
 肾上腺	ujwd
@@ -139316,7 +139327,7 @@
 群英会	bsri
 地形图	hfwt
 多姿	xxix
-正南	fpgc
+正南	lzgc
 佛塔	ebhs
 警讯	swdy
 圆滚滚	wnna
@@ -139616,7 +139627,7 @@
 炮手	iwfs
 宿营	iesx
 公物	knpw
-反证	dbdf
+反证	dbdl
 夺眶而出	ojsw
 隋朝	yegj
 尼罗河	bunj
@@ -139727,7 +139738,7 @@
 群芳	bgst
 险阻	yryj
 投石问路	fvtp
-征象	cfxl
+征象	clxl
 退下	gojx
 选举权	pnab
 大西北	opqn
@@ -139883,7 +139894,7 @@
 杉木	acam
 遮羞	msqb
 孔明	kejw
-政敌	fplt
+政敌	ltlt
 迪斯科	dumi
 浓眉大眼	nboj
 骄子	bmkz
@@ -139915,7 +139926,7 @@
 师门	qftm
 根雕	agwh
 蜂窝煤	qiis
-暴政	jsfp
+暴政	jslt
 镇子	ogkz
 英名	scxl
 仰天	ekfo
@@ -140010,7 +140021,7 @@
 粟米	pqqm
 咯噔	ltlb
 歪歪扭扭	vvff
-正北	fpqn
+正北	lzqn
 漂白粉	ndqk
 牙缝	hakt
 童声	kvhb
@@ -140115,7 +140126,7 @@
 散居	swbj
 完人	ifre
 淬火	naih
-正业	fpue
+正业	lzue
 军威	xxkf
 甘苦	sisj
 岂非	uouf
@@ -140585,7 +140596,7 @@
 献殷勤	gdsi
 先验	pwbr
 工农业	pxue
-征稿	cfma
+征稿	clma
 幽幽	unun
 蛇皮	qibp
 点醒	ulpj
@@ -140726,7 +140737,7 @@
 超低温	henj
 乐善好施	kqct
 老妪	hnch
-正果	fpja
+正果	lzja
 干渴	ngnj
 短袜	jfxf
 春花	ojse
@@ -140971,11 +140982,11 @@
 倦意	eqkj
 耻骨	lprg
 臭氧层	qgbi
-征讨	cfdk
+征讨	cldk
 筑路	gppt
 田径赛	vcis
 不尽然	vbwh
-正史	fpls
+正史	lzls
 皮鞭	bpse
 喷雾器	lcll
 印痕	kfmg
@@ -141034,7 +141045,7 @@
 劝诱	bsdm
 旧案	ujic
 夫婿	ofcy
-天罡	fouf
+天罡	foul
 吸盘	lguu
 头尾	iobm
 复明	gjjw
@@ -141050,7 +141061,7 @@
 独生	hqps
 潦倒	noed
 再嫁	fcci
-征伐	cfek
+征伐	clek
 硬木	vfam
 望月	twwy
 令人神往	rrjc
@@ -141214,7 +141225,7 @@
 一问三不知	ftlj
 娇惯	cmre
 招引	fmbu
-正房	fpht
+正房	lzht
 闯劲	tbbp
 透顶	mgjc
 规约	ockw
@@ -141270,7 +141281,7 @@
 春寒料峭	oiqu
 干草	ngsj
 官气	ibgq
-正理	fpjv
+正理	lzjv
 仰角	ekxs
 竖直	ubgj
 脾性	wdrp
@@ -141312,7 +141323,7 @@
 理解力	jxsl
 永驻	knbk
 濒死	npfx
-正传	fpei
+正传	lzei
 白旗	dbtg
 放哨	ttli
 拔腿	fewg
@@ -141611,7 +141622,7 @@
 白垩纪	dfko
 幽香	unmj
 灭口	filv
-伪证	ekdf
+伪证	ekdl
 妥帖	ucuu
 顽劣	flig
 虚汗	uunn
@@ -141666,7 +141677,7 @@
 子民	kzox
 泥人	nbre
 没出息	nwqr
-东征	xicf
+东征	xicl
 包青天	whfo
 山民	usox
 自修	qieu
@@ -141696,7 +141707,7 @@
 汉白玉	ndjk
 幽雅	unhe
 银锭	ogoi
-字正腔圆	ifww
+字正腔圆	ilww
 大展宏图	obiw
 病体	mfea
 货单	enqj
@@ -141919,7 +141930,7 @@
 残垣断壁	fhqb
 男丁	vsjd
 外勤	xusi
-旁证	aqdf
+旁证	aqdl
 老死	hnfx
 军粮	xxqk
 荼毒	srhe
@@ -142039,7 +142050,7 @@
 粒状	qkqh
 斜纹	rfkt
 单行线	qckf
-正楷	fpan
+正楷	lzan
 忠孝	luhk
 抚摩	ffmf
 筒子楼	gkaq
@@ -142383,7 +142394,7 @@
 说大话	dodl
 烦忧	icrf
 破落	vbsn
-订正	djfp
+订正	djlz
 改日	otjr
 转台	xinl
 处治	tunn
@@ -142577,13 +142588,13 @@
 稻子	mukz
 盐类	huqo
 出操	wwfl
-正厅	fpvj
+正厅	lzvj
 二十四史	igwl
 偏废	ehmw
 架式	slkp
 知书达理	jyoj
 赋有	cfew
-正眼	fpjg
+正眼	lzjg
 新诗	kadh
 济世	ntsi
 前所未闻	qdft
@@ -142594,7 +142605,7 @@
 点阵	ulyx
 落花	snse
 养老送终	qhqk
-出入证	wkdf
+出入证	wkdl
 奔逃	ogwi
 抖落	fisn
 药农	skxg
@@ -142750,7 +142761,7 @@
 火炕	ihia
 心向往之	rdco
 插班	fmjq
-刚正	csfp
+刚正	cslz
 尖刻	iotm
 太医	okhj
 鱼饵	xvxl
@@ -142792,7 +142803,7 @@
 性腺	rpwd
 冤情	xxrh
 甘美	siqo
-正殿	fpbs
+正殿	lzbs
 义薄云天	ksif
 射电	qkdd
 高锰酸钾	aopo
@@ -142842,7 +142853,7 @@
 沉住气	negq
 亲事	kakl
 勇武	bsfk
-惩办	cfsk
+惩办	clsk
 家史	itls
 归附	qbye
 触发器	xwll
@@ -142855,7 +142866,7 @@
 尾鳍	bmxh
 积德	mlcg
 蒙语	sxdf
-扶正祛邪	ffjh
+扶正祛邪	fljh
 于心不忍	frvm
 颤栗	awpa
 学社	nxjh
@@ -142939,7 +142950,7 @@
 夏侯	vjeb
 光火	ilih
 内径	crcb
-症候	mfeu
+症候	mleu
 澡盆	nlkm
 立论	kldr
 介怀	rkrv
@@ -143486,7 +143497,7 @@
 报捷	faff
 稍胜一筹	mwfg
 田鸡	vtbm
-义正词严	kfdf
+义正词严	kldf
 现眼	jcjg
 互斥	fedk
 乐师	kiqf
@@ -143534,7 +143545,7 @@
 质料	dgqi
 劳神	sxjd
 知趣	jlhl
-匡正	hjfp
+匡正	hjlz
 反帝	dbaq
 钢化	ocen
 良师	kgqf
@@ -143670,7 +143681,7 @@
 产床	kgma
 日夜兼程	jaqm
 绰约	kukw
-歪理	vfjv
+歪理	vljv
 记功	dops
 晶亮	jjae
 等闲	ghta
@@ -143683,7 +143694,7 @@
 探病	fxmf
 糕饼	qqxq
 稀泥	msnb
-引证	budf
+引证	budl
 狐媚	hucb
 岔口	kmlv
 梵文	aate
@@ -143907,7 +143918,7 @@
 无关大局	fqob
 银杯	ogav
 无所不知	fdvj
-毛将焉附	mqfy
+毛将焉附	mqly
 阡陌	ymyv
 芳菲	stsu
 东宫	xiil
@@ -144090,7 +144101,7 @@
 犯上	hajv
 檀木	aaam
 报界	favr
-怔怔	rfrf
+怔怔	rlrl
 形势逼人	fffr
 春风满面	oens
 姑爷	cjks
@@ -144265,7 +144276,7 @@
 速决	alib
 水天一色	nffx
 干校	ngaa
-政论	fpdr
+政论	ltdr
 媚态	cbok
 论理	drjv
 知难而进	jbsi
@@ -144389,7 +144400,7 @@
 例规	efoc
 开颅	fsub
 韵致	kjdt
-政纲	fpkc
+政纲	ltkc
 光杆司令	iayr
 牵累	oxvo
 烟丝	iwkk
@@ -144569,7 +144580,7 @@
 色子	xokz
 油松	ndak
 归总	qbql
-嫣红	cfkp
+嫣红	clkp
 灭族	fitg
 枪眼	arjg
 夕照	xxjm
@@ -144712,7 +144723,7 @@
 煌煌	idid
 老一套	hfou
 投考	fehh
-正气凛然	fgiw
+正气凛然	lgiw
 枕巾	axuj
 企望	rptw
 屁话	bndl
@@ -144724,7 +144735,7 @@
 狐狸尾巴	hhbo
 昏沉	kxnx
 圭臬	hhqa
-正法	fpnh
+正法	lznh
 座钟	mrol
 街垒	chnn
 滥交	nuak
@@ -144988,7 +144999,7 @@
 各尽所能	tbdn
 明儿	jwwr
 闲扯	tafp
-征购	cfcw
+征购	clcw
 纤弱	kmbi
 衷肠	auwy
 七律	xicb
@@ -145161,7 +145172,7 @@
 淳厚	navj
 史迹	lsto
 烈女	fxcn
-心术不正	ravf
+心术不正	ravl
 麦浪	htnk
 绕弯	kxtb
 白热	dbfr
@@ -145264,7 +145275,7 @@
 化冻	enix
 祭台	wjnl
 奴性	cbrp
-正切	fpxm
+正切	lzxm
 书皮	yybp
 雄健	eneb
 显明	jujw
@@ -145462,7 +145473,7 @@
 闭口不言	tlvb
 雪线	cbkf
 法场	nhhy
-仁政	eifp
+仁政	eilt
 杀戒	saks
 相离	ajtw
 曲径	dqcb
@@ -145875,7 +145886,7 @@
 放浪形骸	tnfr
 钦差	oxqp
 金无足赤	tfph
-义正辞严	kflf
+义正辞严	kllf
 兵符	dfge
 庸碌	mbvb
 凸透镜	umok
@@ -146168,7 +146179,7 @@
 雨披	cvfb
 焊枪	ijar
 拂尘	fbih
-摄政	flfp
+摄政	fllt
 玉盘	jkuu
 词性	dyrp
 宗谱	ijdq
@@ -146332,7 +146343,7 @@
 佃农	evxg
 守节	iksa
 裹脚	ajwh
-邪不压正	hvvf
+邪不压正	hvvl
 行距	ciph
 闻过则喜	tkch
 糖纸	qmkk
@@ -146408,7 +146419,7 @@
 文治武功	tnfp
 蝗灾	qdii
 安家立业	iiku
-正经八百	fkkv
+正经八百	lkkv
 谓语	dvdf
 告饶	plxx
 花红柳绿	skak
@@ -146459,7 +146470,7 @@
 清汤寡水	nnin
 有胆有识	ewed
 甜水	lsns
-端端正正	kkff
+端端正正	kkll
 以身殉职	eqfl
 偷生	erps
 尊长	qpnc
@@ -146623,7 +146634,7 @@
 水蛇	nsqi
 天葬	fosf
 门阀	tmte
-不谋其政	vduf
+不谋其政	vdul
 语料	dfqi
 晨钟暮鼓	josh
 丹砂	wavi
@@ -146881,7 +146892,7 @@
 丢丑	mnbc
 鸿鹄之志	npoh
 奴化	cben
-征尘	cfih
+征尘	clih
 工料	pgqi
 电钮	ddob
 白头翁	dikn
@@ -146942,7 +146953,7 @@
 垂手可得	mfjc
 丧服	gqwa
 声母	hbem
-就地正法	ahfn
+就地正法	ahln
 茶盘	sruu
 干笑	nggm
 叨扰	lmff
@@ -147128,7 +147139,7 @@
 诗圣	dhbh
 印本	kfaf
 青面獠牙	hshh
-正电	fpdd
+正电	lzdd
 黄花闺女	sstc
 连锅端	xoku
 怒容	cbir
@@ -147316,7 +147327,7 @@
 横队	asyr
 纤尘	kmih
 性灵	rpbi
-怔忡	rfrl
+怔忡	rlrl
 同气相求	cgaf
 急公好义	xkck
 民富国强	oiwb
@@ -147498,7 +147509,7 @@
 不平则鸣	vncl
 恻隐	rcyx
 婶娘	cick
-焉得虎子	fcuk
+焉得虎子	lcuk
 九曲回肠	rdww
 以文会友	etre
 故知	jtjl
@@ -147644,7 +147655,7 @@
 衬裤	xkxm
 虫牙	qcha
 慑服	rlwa
-正比例	fnef
+正比例	lnef
 俯首听命	eqlr
 盖世无双	qsfb
 惠而不费	dsvb
@@ -147812,7 +147823,7 @@
 耳鼓	lehg
 无风起浪	fehn
 七擒七纵	xfxk
-苛政	sjfp
+苛政	sjlt
 席卷天下	mqfj
 硬笔	vfgm
 悲愁	urmi
@@ -147821,7 +147832,7 @@
 媚骨	cbrg
 温柔敦厚	nkav
 过目成诵	kjkd
-正字	fpik
+正字	lzik
 瘟病	mjmf
 柴门	pntm
 负电	xcdd
@@ -149496,7 +149507,7 @@
 前几年	qega
 达人	oore
 餐饮业	uxue
-上证	jvdf
+上证	jvdl
 也比	oenn
 让它	djin
 仅占	ebul
@@ -149663,7 +149674,7 @@
 力荐	slse
 戏份	bkek
 水务	nsts
-政协委员	fgml
+政协委员	lgml
 米勒	qmss
 之道	ozqq
 招商引资	fabi
@@ -150019,7 +150030,7 @@
 维度	kems
 笑着	gmqj
 男星	vsjp
-开征	fscf
+开征	fscl
 不放	vutt
 本书	afyy
 之意	ozkj
@@ -150045,7 +150056,7 @@
 上架	jvsl
 支招	gbfm
 经理人	kjre
-政府军	fmxx
+政府军	lmxx
 要回	pcwl
 加装	slqh
 厘清	vvnh
@@ -150242,7 +150253,7 @@
 下个月	jrwy
 男队	vsyr
 除以	yrek
-邮政编码	dfkv
+邮政编码	dlkv
 赚得	cqcj
 查尔斯	axud
 胶管	wagi
@@ -150541,7 +150552,7 @@
 再好	fcck
 过招	kofm
 小花	ivse
-正对	fpbk
+正对	lzbk
 说白了	ddke
 海天	ngfo
 勾手	wnfs
@@ -150647,7 +150658,7 @@
 吉姆	hlce
 零售店	cemu
 决不能	ivnw
-发证	wbdf
+发证	wbdl
 保税	elmq
 周润发	wnwb
 做着	ejqj
@@ -150836,7 +150847,7 @@
 忠诚度	ldms
 取自	lbqi
 拉出	fkww
-廉政建设	mfbd
+廉政建设	mlbd
 物价局	peby
 搅局	fnby
 基板	uhad
@@ -150873,13 +150884,13 @@
 不老	vuhn
 猛料	hkqi
 更胜一筹	fwfg
-结婚证	kcdf
-正常人	fire
+结婚证	kcdl
+正常人	lire
 抛投	frfe
 接报	fkfa
 替代品	oell
 毁了	dpke
-为证	ksdf
+为证	ksdl
 同月	cfwy
 笑说	gmdq
 冰上	injv
@@ -151009,7 +151020,7 @@
 不带	vusx
 摘帽	fauc
 单靠	qjpl
-信用证	esdf
+信用证	esdl
 皮特	bpph
 未予	fwkv
 育儿	anwr
@@ -151269,7 +151280,7 @@
 名不见经传	xvce
 产学研	knvf
 表演赛	hnis
-正被	fpxb
+正被	lzxb
 碾压	vbvh
 红遍	kphc
 半裸	qaxj
@@ -151324,7 +151335,7 @@
 这桩	toam
 系上	gojv
 打麻将	fmqx
-征管	cfgi
+征管	clgi
 魅惑	dfkl
 井盖	ikqu
 为官	ksib
@@ -151414,7 +151425,7 @@
 急了	xbke
 基本法	uanh
 住宅楼	eiaq
-行政村	cfak
+行政村	clak
 做些	ejpn
 可当	jlib
 养胃	qovw
@@ -151445,7 +151456,7 @@
 往届	ckbd
 柯达	ajoo
 求胜	fnwp
-重症	mvmf
+重症	mvml
 洗发水	nwns
 中文名	ltxl
 分站	kmku
@@ -151499,13 +151510,13 @@
 致胜	dtwp
 名嘴	xllp
 阿姆斯特丹	ycuw
-综合征	krcf
+综合征	krcl
 蛇年	qiga
 十强	gibl
 绝美	kxqo
 多给	xxkr
 可循	jlcd
-党和政府	imfm
+党和政府	imlm
 甚微	uecf
 白沙	dbni
 张国荣	bwsx
@@ -151524,10 +151535,10 @@
 秋装	miqh
 日新	jrka
 爱家	uxit
-自闭症	qtmf
+自闭症	qtml
 那头	yaio
 约瑟夫	kjof
-正式版	fkdd
+正式版	lkdd
 档位	aiek
 城中	hklu
 篮球队	gjyr
@@ -151585,7 +151596,7 @@
 商都	aqhj
 胃部	vwkl
 小强	ivbl
-不正	vufp
+不正	vulz
 版型	ddfs
 共创	skra
 交上	akjv
@@ -151731,7 +151742,7 @@
 藉此	sdpn
 系主任	gkem
 代偿	ekei
-政法委	fnmc
+政法委	lnmc
 以作	ekeg
 看得见	fccj
 千岛湖	mmnj
@@ -151795,7 +151806,7 @@
 本区	afhs
 巨龙	hbfg
 延庆	gpmo
-政企	fprp
+政企	ltrp
 武汉大学	fnon
 罢赛	uhis
 泡泡	nwnw
@@ -151869,7 +151880,7 @@
 机关干部	aqnk
 海西	ngpx
 釜山	ksus
-路政	ptfp
+路政	ptlt
 学学	nxnx
 总会计师	qrdq
 省直	iggj
@@ -152015,7 +152026,7 @@
 分社	kmjh
 保鲜膜	exws
 神迹	jdto
-乡政府	kfme
+乡政府	klme
 新家	kait
 胡锦涛	jond
 气得	gqcj
@@ -152124,7 +152135,7 @@
 套上	oujv
 皆因	nnwo
 摸到	fsdm
-正手	fpfs
+正手	lzfs
 无价	ffer
 布控	eufi
 走稳	hzmx
@@ -152158,7 +152169,7 @@
 都行	hjci
 荣光	sxil
 扔了	fgke
-征缴	cfkd
+征缴	clkd
 更甚	fjue
 南大	gcod
 卡号	julh
@@ -152478,7 +152489,7 @@
 看懂	fjrs
 为人民服务	krot
 弹幕	bqsj
-毕业证	nudf
+毕业证	nudl
 戏水	bkns
 冀东	qnxi
 出险	wwyr
@@ -152730,14 +152741,14 @@
 乳癌	ukml
 今明	rkjw
 大门口	otlv
-暂住证	xedf
+暂住证	xedl
 坦陈	hjyx
 爷们	kset
 上不去	jvhn
 攻城略地	phvh
 感光度	kims
 外经贸	xkkc
-假证	ebdf
+假证	ebdl
 摸不着头脑	fvqw
 飞虎	yiuh
 继承者	kyhj
@@ -152745,7 +152756,7 @@
 优惠价	eder
 喝得	ljcj
 雄起	enho
-恐惧症	prmf
+恐惧症	prml
 争锋	xbot
 行数	ciqc
 雨燕	cvsf
@@ -152811,7 +152822,7 @@
 力主	slkj
 收银员	wolc
 栖息地	aqho
-总政	qlfp
+总政	qllt
 划痕	kmmg
 坐过	rrko
 药师	skqf
@@ -152860,7 +152871,7 @@
 纽曼	kbju
 风云榜	eiaa
 摩托艇	mfum
-力证	sldf
+力证	sldl
 直发	gjwb
 追债	doeh
 重头	mvio
@@ -152876,7 +152887,7 @@
 烟熏	iwmg
 苏珊	ssjw
 大年三十	oglg
-政治部	fnkl
+政治部	lnkl
 只手	lkfs
 海神	ngjd
 补货	xuen
@@ -152946,7 +152957,7 @@
 宁夏回族自治区	ivwh
 尚须	iscc
 除此	yrpn
-政改	fpot
+政改	ltot
 外海	xung
 气势如虹	gfcq
 台资	nlix
@@ -153088,7 +153099,7 @@
 出尽	wwbk
 艳遇	dxvo
 在册	euww
-政区	fphs
+政区	lths
 修理厂	ejvh
 迎难而上	kbsj
 等身	ghqs
@@ -153115,7 +153126,7 @@
 周庄	whmh
 进口税	ilmq
 心结	rikh
-强迫症	bdmf
+强迫症	bdml
 看去	fjhn
 力强	slbl
 观者	bchj
@@ -153313,7 +153324,7 @@
 常青树	ihab
 我等	gfgh
 那股	yawe
-肥胖症	wwmf
+肥胖症	wwml
 清缴	nhkd
 盖住	quek
 警署	swuh
@@ -153339,7 +153350,7 @@
 撤掉	fafu
 实务	iits
 怪病	rbmf
-政治性	fnrp
+政治性	lnrp
 猪舍	hhrl
 抛下	frjx
 警匪	swhu
@@ -153402,7 +153413,7 @@
 过气	kogq
 浮出	nuww
 外网	xucs
-持证	fhdf
+持证	fhdl
 包好	wock
 一截	figk
 计税	dgmq
@@ -153561,7 +153572,7 @@
 私车	mnxj
 百事	vjkl
 育肥	anwo
-正副	fpfl
+正副	lzfl
 散了	swke
 文学作品	tnel
 作好	egck
@@ -153824,7 +153835,7 @@
 整晚	aljx
 芳烃	stib
 砸伤	vheg
-体征	eacf
+体征	eacl
 穿好	ihck
 太古	okjg
 名相	xlaj
@@ -153850,12 +153861,12 @@
 金昌	tjjj
 通辽	bsko
 算算	gjgj
-指证	fndf
+指证	fndl
 本会	afri
 如画	clfv
 弗吉尼亚	bhbf
 高悬	agjn
-正片	fpdp
+正片	lzdp
 私服	mnwa
 为谁	ksde
 北街	qnch
@@ -154518,7 +154529,7 @@
 小件	ivep
 试镜	dkok
 没空	neip
-正想	fpaj
+正想	lzaj
 弹钢琴	bojj
 驾龄	slpr
 刨除	woyr
@@ -154999,7 +155010,7 @@
 脱帽	wquc
 预交	kcak
 田纳西州	vkpn
-党政军	ifxx
+党政军	ilxx
 湘军	naxx
 上铺	jvon
 亚东	fuxi
@@ -155054,7 +155065,7 @@
 陷在	yxeu
 老四	hnww
 窜入	ilkr
-正解	fpxs
+正解	lzxs
 哈工大	lpod
 别无	lsff
 苏中	sslu
@@ -155127,10 +155138,10 @@
 界外	vrxu
 观光客	biit
 进学	iknx
-忧郁症	remf
+忧郁症	reml
 专题片	ijdp
 邻村	rkak
-总政治部	qfnk
+总政治部	qlnk
 送上门	qjtm
 漏了	nbke
 拍砖	fdvi
@@ -155263,10 +155274,10 @@
 勾选	wnpw
 法条	nhta
 评卷	dnqo
-正邪	fphy
+正邪	lzhy
 反身	dbqs
 沉疴	nxmj
-政制	fppc
+政制	ltpc
 路易	ptjw
 马仔	bmek
 方家	tfit
@@ -155288,7 +155299,7 @@
 池中	nolu
 见证人	cdre
 不识	vudl
-正反面	fdsm
+正反面	ldsm
 韩信	gjeb
 异构	osaw
 四色	wwxo
@@ -155379,7 +155390,7 @@
 车贴	xjcu
 洗菜	npsu
 感召力	kmsl
-务正	tsfp
+务正	tslz
 维基	keuh
 争艳	xbdx
 骗税	bhmq
@@ -155479,7 +155490,7 @@
 天长	fonc
 市制	aupc
 雏鹰	xbme
-正火	fpih
+正火	lzih
 往左	ckep
 炙烤	wiih
 心法	rinh
@@ -155688,7 +155699,7 @@
 开光	fsil
 院外	yixu
 强档	blai
-正东	fpxi
+正东	lzxi
 河上	njjv
 真气	gjgq
 庆阳	moyj
@@ -155760,7 +155771,7 @@
 陇南	yfgc
 互连	fexo
 立碑	klvd
-居留证	bkdf
+居留证	bkdl
 援外	fuxu
 工作台	penl
 报文	fate
@@ -155896,7 +155907,7 @@
 某事	sikl
 负气	xcgq
 兴安	nkic
-不孕症	vgmf
+不孕症	vgml
 错漏	osnb
 素色	hoxo
 市斤	audj
@@ -156285,7 +156296,7 @@
 本尊	afqp
 主办者	kshj
 篇名	ghxl
-厌食症	vkmf
+厌食症	vkml
 甲类	vjqo
 油藏	ndsk
 天差地别	fqhl
@@ -156379,7 +156390,7 @@
 题外话	jxdl
 自考	qihh
 际会	yjri
-正途	fprf
+正途	lzrf
 牙周炎	hwii
 腌渍	wonh
 投怀送抱	frqf
@@ -156514,7 +156525,7 @@
 脱缰	wqkf
 铁笼	oggf
 火中	ihlu
-正告	fppl
+正告	lzpl
 伪科学	emnx
 压库	vhmx
 日薪	jrsk
@@ -156802,7 +156813,7 @@
 婚外	ckxu
 站名	kuxl
 怡和	rnml
-辨证	kqdf
+辨证	kqdl
 空瓶	ipqs
 舆论界	ddvr
 一闪	fitr
@@ -157213,7 +157224,7 @@
 冻雨	ixcv
 审改	idot
 氧吧	gqlo
-伸张正义	ebfk
+伸张正义	eblk
 观后感	bdkf
 损友	fleb
 丰乳	dfuk
@@ -157317,7 +157328,7 @@
 地力	hosl
 内膜	crws
 部优	klef
-平正	nqfp
+平正	nqlz
 闭目养神	tjqj
 滚到	nadm
 高参	agno
@@ -157582,7 +157593,7 @@
 卡巴	juob
 长住	ncek
 魂牵梦绕	ioak
-验明正身	bjfq
+验明正身	bjlq
 挖地	fiho
 伞降	rqyt
 关连	qoxo
@@ -157742,7 +157753,7 @@
 课间操	dtfl
 几何级数	eekq
 盼到	jkdm
-正确率	fvan
+正确率	lvan
 调速	dwal
 双管	bbgi
 隐隐作痛	yyem
@@ -157843,7 +157854,7 @@
 瞅瞅	jmjm
 达达	oooo
 狸猫	hvhs
-东正教	xfhk
+东正教	xlhk
 庄股	mhwe
 新年好	kgck
 干架	ngsl
@@ -157989,7 +158000,7 @@
 看腻	fjwk
 催债	eueh
 荥阳	sxyj
-政纪	fpko
+政纪	ltko
 内家	crit
 成块	kyhb
 考级	hhkg
@@ -158139,7 +158150,7 @@
 变价	tber
 反调	dbdw
 赶鸭子上架	hvks
-政出多门	fwxt
+政出多门	lwxt
 绕圈	kxwq
 骨癌	rgml
 前舱	qwur
@@ -158151,7 +158162,7 @@
 克难	jwbe
 洗胃	npvw
 炉渣	ihna
-西征	pxcf
+西征	pxcl
 载誉归来	gnqf
 监委	ugmc
 列宁格勒	fias
@@ -158269,7 +158280,7 @@
 后影	dfja
 务要	tspc
 蒙眼	sxjg
-正忙	fprt
+正忙	lzrt
 伪作	ekeg
 并口	qslv
 繁冗	gexe
@@ -158667,7 +158678,7 @@
 煞车	xbxj
 特教	phhk
 救驾	fnsl
-干政	ngfp
+干政	nglt
 前浪	qwnk
 团团圆圆	wwww
 轻敲	xbau
@@ -158827,7 +158838,7 @@
 血肉之躯	gcoq
 内门	crtm
 伊甸	ebwv
-德政	cgfp
+德政	cglt
 趣谈	hldi
 车马费	xbbk
 板着脸	aqwr
@@ -159201,7 +159212,7 @@
 触痛	xsmb
 好远	ckfl
 锁眼	oijg
-浩然正气	nwfg
+浩然正气	nwlg
 侧影	ecja
 谦称	dqmx
 讨钱	dkof
@@ -159211,7 +159222,7 @@
 铜镜	ocok
 胸腺	wwwd
 心存芥蒂	ress
-证婚	dfck
+证婚	dlck
 激赏	ndic
 国母	wjem
 梭罗	anux
@@ -159376,7 +159387,7 @@
 学有所成	nedk
 尝新	iika
 妄为	tcks
-魏征	mccf
+魏征	mccl
 磨刀石	mmvs
 伸冤	edxx
 盘结	uukh
@@ -159505,8 +159516,8 @@
 温暖如春	njco
 少管	iggi
 粒度	qkms
-无政府主义	ffmk
-资政	ixfp
+无政府主义	flmk
+资政	ixlt
 哪门子	ltkz
 私相授受	mafu
 徒有其表	ceuh
@@ -159676,7 +159687,7 @@
 民女	oxcn
 芫荽	sfsu
 太宗	okij
-腻歪	wkvf
+腻歪	wkvl
 马到功成	bdpk
 色心	xori
 盆浴	kmnk
@@ -159695,7 +159706,7 @@
 轻缓	xbku
 望日	twjr
 爱美之心	uqor
-正交	fpak
+正交	lzak
 外来语	xfdf
 铺地	onho
 祭典	wjcs
@@ -159754,7 +159765,7 @@
 小语	ivdf
 凛凛	iaia
 田边	vtso
-法政	nhfp
+法政	nhlt
 十传百	gevj
 下诏	jxdm
 由始至终	dcdk
@@ -159814,7 +159825,7 @@
 鸣冤	lmxx
 女用	cnsy
 听得见	lccj
-正宫	fpil
+正宫	lzil
 线虫	kfqc
 土库曼	hmju
 行行出状元	ccwf
@@ -159824,7 +159835,7 @@
 寝宫	iqil
 硬功夫	vpof
 难于登天	bfbf
-嬴政	tcfp
+嬴政	tclt
 首日封	qjhh
 光栅	ilaw
 拜占庭	fumm
@@ -159997,7 +160008,7 @@
 遗尿	ljbn
 大牢	odip
 秋山	mius
-政教	fphk
+政教	lthk
 弄破	jsvb
 唇边	mlso
 各户	tlhh
@@ -160006,7 +160017,7 @@
 园外	wfxu
 细述	kvak
 宋玉	iajk
-政治课	fndj
+政治课	lndj
 有容乃大	eigo
 钉上	ojjv
 暗盘	jkuu
@@ -160138,7 +160149,7 @@
 喜怒	hlcb
 冷雨	ircv
 蜂腰	qtwp
-焉知非福	fjuj
+焉知非福	ljuj
 三寸不烂之舌	lkvl
 火烫	ihny
 竖排	ubfu
@@ -160228,7 +160239,7 @@
 三缺一	ljfi
 分节	kmsa
 加菜	slsu
-爽歪歪	ovvf
+爽歪歪	ovvl
 楚汉	aanb
 党龄	iwpr
 魔道	mdqq
@@ -161320,7 +161331,7 @@
 赫哲族	hftg
 前蹄	qwpa
 刷地	buho
-拥政爱民	ffuo
+拥政爱民	fluo
 升位	gsek
 累月	vowy
 奖罚分明	qukj
@@ -161591,7 +161602,7 @@
 敬语	swdf
 西元	pxfl
 宫墙	ilhg
-板正	adfp
+板正	adlz
 雅静	hehw
 腰花	wpse
 万用表	fshg
@@ -161659,19 +161670,19 @@
 粉皮	qkbp
 曲度	dqms
 休兵	eadf
-参政党	nfiw
+参政党	nliw
 天晓得	fjcj
 寒武纪	ifko
 红袖	kpxd
 私仇	mner
 奔出	ogww
 菜田	suvt
-亲征	kacf
+亲征	kacl
 余留	rfkv
 热机	frae
 云影	inja
 矫捷	jmff
-虚症	uumf
+虚症	uuml
 闻风而至	tesd
 悖逆	rgqw
 木屐	ambc
@@ -162064,7 +162075,7 @@
 削成	iwky
 渔区	nxhs
 拦河坝	fnhc
-听政	ldfp
+听政	ldlt
 胶乳	wauk
 磷光	vqil
 宫苑	ilsx
@@ -162128,7 +162139,7 @@
 忽见	wccj
 刊用	nmsy
 接生婆	fpnb
-证章	dfkj
+证章	dlkj
 印模	kfas
 渔人	nxre
 意乱	kjle
@@ -162211,7 +162222,7 @@
 哀莫大于心死	asof
 左移	epmx
 立轴	klxd
-正则	fpcm
+正则	lzcm
 冰锥	inoe
 御前	cgqw
 巴甫洛夫	onno
@@ -162289,7 +162300,7 @@
 肥嫩	woca
 便盆	efkm
 扭断	fbqe
-缓征	kucf
+缓征	kucl
 请坐	dhrr
 底版	mkdd
 吹开	lxfs
@@ -162441,7 +162452,7 @@
 钱权	ofab
 禅定	jqif
 肥婆	wonb
-结症	khmf
+结症	khml
 滤过	nuko
 防黑	ytgh
 朝花夕拾	gsxf
@@ -162458,7 +162469,7 @@
 贤士	ubhs
 自戕	qidk
 官长	ibnc
-正骨	fprg
+正骨	lzrg
 来料	fqqi
 竹板	gzad
 鸭掌	vmif
@@ -162677,7 +162688,7 @@
 药疹	skmr
 通连	bsxo
 何年何月	egew
-醇正	pafp
+醇正	palz
 文字狱	tihd
 不瞒	vujs
 照准	jmie
@@ -163743,8 +163754,8 @@
 款识	hjdl
 史论	lsdr
 家常话	iidl
-正误	fpdl
-人亡政息	rtfq
+正误	lzdl
+人亡政息	rtlq
 展宽	bsis
 淫贼	nuck
 轻如鸿毛	xcnm
@@ -164008,7 +164019,7 @@
 盘库	uumx
 庆寿	modk
 犁田	mmvt
-歪道	vfqq
+歪道	vlqq
 运道	inqq
 练笔	kxgm
 罩衣	uuag
@@ -164042,7 +164053,7 @@
 回见	wlcj
 别恋	lstr
 大端	odku
-公正无私	kffm
+公正无私	klfm
 脚轮	whxr
 畜养	anqo
 晤面	jfsm
@@ -164087,7 +164098,7 @@
 冷霜	irca
 皮筏	bpge
 抬爱	fnux
-魔怔	mdrf
+魔怔	mdrl
 硬脂	vfwn
 书脊	yyii
 暗弱	jkbi
@@ -164128,7 +164139,7 @@
 溶合	nirh
 褡裢	xsxx
 私访	mndt
-斧正	ksfp
+斧正	kslz
 阴文	ywte
 请降	dhyt
 字码	ikvb
@@ -164190,7 +164201,7 @@
 欠安	xqic
 灯语	ijdf
 修明	eujw
-诚征	dkcf
+诚征	dkcl
 不胜感激	vwkn
 拉祜族	fjtg
 嘴笨	lpga
@@ -164509,7 +164520,7 @@
 独幕剧	hsbj
 哼唧	lalb
 哄劝	lsbs
-杂症	ramf
+杂症	raml
 云散	insw
 季候	mkeu
 喜闻	hltl
@@ -164685,7 +164696,7 @@
 涤棉	ntad
 茜草	spsj
 递降	qbyt
-梦游症	anmf
+梦游症	anml
 堆笑	hegm
 返归	dbqb
 倒挂金钟	efto
@@ -164696,7 +164707,7 @@
 气焊	gqij
 气割	gqid
 花酒	senp
-正弦	fpba
+正弦	lzba
 乌亮	mwae
 确然	vxwh
 秋霜	mica
@@ -164781,7 +164792,7 @@
 薪饷	skxd
 帮闲	dyta
 守活寡	iniv
-稽征	mfcf
+稽征	mfcl
 法旨	nhnj
 平声	nqhb
 神不知	jvjl
@@ -164792,7 +164803,7 @@
 乡思	kgvr
 反间	dbtj
 画符	fvge
-杀鸡焉用牛刀	sbfm
+杀鸡焉用牛刀	sblm
 意下如何	kjce
 斧凿	ksuq
 峭拔	uife
@@ -164860,7 +164871,7 @@
 功到自然成	pdqk
 跳越	pwhk
 左道	epqq
-征聘	cfld
+征聘	clld
 勾股定理	wwij
 淫贱	nucf
 负约	xckw
@@ -164976,7 +164987,7 @@
 声誉鹊起	hnsh
 轻贱	xbcf
 旦夕之间	jxot
-征引	cfbu
+征引	clbu
 湮没无闻	nnft
 香脂	mjwn
 棉绒	adkk
@@ -165225,7 +165236,7 @@
 萧墙	sbhg
 牵念	oxrk
 安枕	icax
-雅正	hefp
+雅正	helz
 淡入	nikr
 死力	fxsl
 绮罗	koux
@@ -165482,7 +165493,7 @@
 乳齿	ukpr
 树墩	abha
 邪魔外道	hmxq
-习焉不察	vfvi
+习焉不察	vlvi
 惯窃	reix
 拾零	frcr
 怨尤	xafo
@@ -165558,7 +165569,7 @@
 电料	ddqi
 平畴	nqvd
 字元	ikfl
-焉得	fpcj
+焉得	lhcj
 凹透镜	cmok
 虚文	uute
 吃劲	lgbp
@@ -165659,7 +165670,7 @@
 近体诗	dedh
 阴笑	ywgm
 坚苦卓绝	usuk
-愣怔	rurf
+愣怔	rurl
 迁怒于人	mcfr
 印油	kfnd
 道路以目	qpej
@@ -165788,7 +165799,7 @@
 问心有愧	trer
 口沫	lvnf
 不揣冒昧	vfcj
-公正廉明	kfmj
+公正廉明	klmj
 脉息	wkqr
 帝号	aqlh
 俯就	emai
@@ -165955,7 +165966,7 @@
 黄蜡	sdqs
 乱离	letw
 凄艳	igdx
-苛政猛于虎	sfhu
+苛政猛于虎	slhu
 灯心绒	irkk
 不即不离	vbvt
 叠韵	bbkj
@@ -166504,7 +166515,7 @@
 螟蛉	qxqr
 骨肉团圆	rcww
 水清无鱼	nnfx
-明正典刑	jfcf
+明正典刑	jlcf
 慨当以慷	rier
 音码	kjvb
 心慈面软	rqsx
@@ -166673,7 +166684,7 @@
 达人知命	orjr
 千人所指	mrdf
 平炉	nqih
-正言厉色	fbvx
+正言厉色	lbvx
 磨杵成针	mako
 余切	rfxm
 老牛舐犊	hplp
@@ -167515,7 +167526,7 @@
 螺纹钢	qkoc
 美欧	qohs
 接盘	fkuu
-正因为	fwks
+正因为	lwks
 里约热内卢	vkfu
 吸脂	lgwn
 踢了	pjke
@@ -167535,7 +167546,7 @@
 限量版	yjdd
 看房	fjht
 为的	ksdw
-征信	cfeb
+征信	cleb
 亚太区	fohs
 骑行	boci
 主城	kjhk
@@ -167704,7 +167715,7 @@
 救援队	ffyr
 试玩	dkjf
 与你	hfex
-镇政府	ofme
+镇政府	olme
 留队	kvyr
 年增	gahq
 张靓颖	bhnm
@@ -167790,7 +167801,7 @@
 眼前一亮	jqfa
 奉化	oaen
 亟须	klcc
-领证	rkdf
+领证	rkdl
 补偿金	xetj
 识到	dldm
 适配	lopo
@@ -167908,7 +167919,7 @@
 大明星	ojjp
 穿了	ihke
 韩式	gjkp
-对正	bkfp
+对正	bklz
 去到	hndm
 张震	bncm
 那不	yavu
@@ -167976,7 +167987,7 @@
 其名	uqxl
 大而	odsr
 冲销	iloi
-证伪	dfek
+证伪	dlek
 地量	hojf
 雪纺	cbkt
 欧宝	hsij
@@ -168051,7 +168062,7 @@
 对照表	bjhg
 小王子	ijkz
 范伟	snea
-颁证	kmdf
+颁证	kmdl
 有得	ewcj
 索尔	gxxi
 挖矿	fivm
@@ -168212,7 +168223,7 @@
 虐恋	ubtr
 博鳌	gnhw
 出票	wwpj
-政风	fpes
+政风	ltes
 华能	ennw
 新都	kahj
 玩到	jfdm
@@ -168250,9 +168261,9 @@
 那些人	ypre
 世界贸易组织	svkk
 过好	kock
-正装	fpqh
+正装	lzqh
 人流量	rnjf
-正处	fptu
+正处	lztu
 三文鱼	ltxv
 本部门	aktm
 已退	oigo
@@ -168302,7 +168313,7 @@
 被骂	xbll
 寄递	ioqb
 减幅	ikuf
-换证	fxdf
+换证	fxdl
 张敏	bnge
 美肤	qowo
 手办	fssk
@@ -168399,7 +168410,7 @@
 没去	nehn
 小女生	icps
 连拍	xofd
-证号	dflh
+证号	dllh
 张静	bnhw
 名誉权	xnab
 欧版	hsdd
@@ -168592,7 +168603,7 @@
 看那	fjya
 白冰	dbin
 狗不理	hvjv
-天正	fofp
+天正	folz
 捞到	fsdm
 塞纳	iskc
 两相	fcaj
@@ -168658,7 +168669,7 @@
 资阳	ixyj
 小风	ives
 数据包	qfwo
-行政法	cfnh
+行政法	clnh
 蓟县	sxjn
 界别	vrls
 限流	ygna
@@ -168691,7 +168702,7 @@
 电业	ddue
 香港特别行政区	mnph
 哈利	lrmm
-政经	fpkb
+政经	ltkb
 扬子	fykz
 非洲人	unre
 用之	syoz
@@ -168862,7 +168873,7 @@
 以史为鉴	elku
 前戏	qwbk
 准定	ieif
-仪征	ekcf
+仪征	ekcl
 贴片	cudp
 纸杯	kkav
 雷达站	coku
@@ -168887,7 +168898,7 @@
 海康	ngmb
 滨崎步	nupi
 且要	jqpc
-正太	fpok
+正太	lzok
 聚氨酯	lgpn
 巨兽	hbqv
 独显	hqju
@@ -169237,7 +169248,7 @@
 共话	skdl
 唐门	mbtm
 应给	mnkr
-呈正	ljfp
+呈正	ljlz
 金山毒霸	tuhc
 地外	hoxu
 各负其责	txuh
@@ -169897,7 +169908,7 @@
 开叉	fsbk
 胚子	wvkz
 难搞	befa
-正位	fpek
+正位	lzek
 东胜	xiwp
 华航	enua
 恨得	rgcj
@@ -169998,7 +170009,7 @@
 宁和	ijml
 原纸	vdkk
 新郑	kaqo
-归正	qbfp
+归正	qblz
 定产	ifkg
 期约	uwkw
 高倍	agek
@@ -170312,7 +170323,7 @@
 江湾	npnt
 宏业	ieue
 挺像	fmex
-银证	ogdf
+银证	ogdl
 咳咳	ltlt
 方城	tfhk
 沾到	nudm
@@ -170356,7 +170367,7 @@
 订出	djww
 洗洁精	nnqh
 有案	ewic
-歪歪	vfvf
+歪歪	vlvl
 春生	ojps
 藤县	swjn
 连唱	xolj
@@ -170953,7 +170964,7 @@
 破烂不堪	vivh
 增创	hqra
 圣衣	bhag
-建政	bafp
+建政	balt
 大邑	odlo
 辩护权	kfab
 国定	wjif
@@ -171030,7 +171041,7 @@
 禹州	glnl
 从轮	rrxr
 筋道	gwqq
-恐高症	pamf
+恐高症	paml
 保家	elit
 集体舞	eegs
 提子	fjkz
@@ -171438,7 +171449,7 @@
 港九	nsrj
 陈放	yxtt
 汉武	nbfk
-政务院	ftyi
+政务院	ltyi
 二副	irfl
 掉血	fugu
 四叔	wwji
@@ -171481,7 +171492,7 @@
 民治	oxnn
 肌注	wenk
 太平门	ontm
-病征	mfcf
+病征	mfcl
 色织	xokl
 勤王	sijw
 吴淞	lfna
@@ -171590,7 +171601,7 @@
 南雄	gcen
 靓车	hwxj
 比干	nnng
-索证	gxdf
+索证	gxdl
 福晋	jffu
 靠左	plep
 欣荣	dxsx
@@ -171623,7 +171634,7 @@
 为情所困	krdw
 捉鬼	fpdg
 共渡	sknm
-存证	eudf
+存证	eudl
 急火	xbih
 下刀	jxmd
 磁电	vqdd
@@ -171824,7 +171835,7 @@
 称冠	mxxf
 加亮	slae
 饿狼	xghk
-正畸	fpvo
+正畸	lzvo
 受领	uxrk
 阿米巴	yqob
 重话	mvdl
@@ -172460,7 +172471,7 @@
 耳洞	lenc
 康安	mbic
 电脑报	dwfa
-政治协商会议	fngd
+政治协商会议	lngd
 小妖精	icqh
 洞眼	ncjg
 环形山	jfus
@@ -172571,7 +172582,7 @@
 甜饼	lsxq
 哪般	lyue
 苦乐不均	skvh
-征友	cfeb
+征友	cleb
 中上层	ljbi
 孤烟	kuiw
 胞姐	wwcj
@@ -172836,7 +172847,7 @@
 旧话重提	udmf
 叔祖	jijj
 尘粒	ihqk
-焉有	fpew
+焉有	lhew
 虚灵	uubi
 伞具	rqjk
 倒账	edcn
@@ -173246,7 +173257,7 @@
 伉俪情深	eern
 斜塔	rfhs
 弱质	bidg
-华政	enfp
+华政	enlt
 批购	fncw
 刊名	nmxl
 书费	yybk
@@ -173942,7 +173953,7 @@
 兵船	dfue
 透绿	mgkb
 为虎添翼	kunv
-正堂	fpih
+正堂	lzih
 阻援	yjfu
 弯眉	tbbj
 称述	mxak
@@ -174492,7 +174503,7 @@
 腔道	wiqq
 电刷	ddbu
 明讲	jwdi
-正凶	fpsw
+正凶	lzsw
 退信	goeb
 暗盒	jkru
 肉红	crkp
@@ -174589,7 +174600,7 @@
 旋舞	tggs
 始业	cnue
 靓妆	hwqc
-正音	fpkj
+正音	lzkj
 当牛做马	ipeb
 铁法	ognh
 打叉	fjbk
@@ -174922,7 +174933,7 @@
 翻眼	gqjg
 画苑	fvsx
 搭桥牵线	faok
-正合我意	frgk
+正合我意	lrgk
 叫劲	lwbp
 出自内心	wqcr
 朱墨	pkgh
@@ -174981,7 +174992,7 @@
 教导有方	hoet
 绞缠	kakm
 雅皮士	hbhs
-血证	gudf
+血证	gudl
 忽变	wctb
 托勒密	fsir
 基诺族	udtg
@@ -175605,7 +175616,7 @@
 醒木	pjam
 麦酒	htnp
 浮皮	nubp
-教正	hkfp
+教正	hklz
 思如泉涌	vcdn
 带累	sxvo
 节妇	sacb
@@ -175996,7 +176007,7 @@
 目无尊长	jfqn
 老境	hnhk
 数珠	qcjp
-上梁不正	jnvf
+上梁不正	jnvl
 百衲衣	vxag
 挂火	fhih
 粤绣	dqkm
@@ -176128,7 +176139,7 @@
 铙钹	oxoe
 挽诗	fxdh
 妗子	crkz
-虐政	ubfp
+虐政	ublt
 泥腿	nbwg
 刁滑	yfnr
 公举	knnk
@@ -176455,7 +176466,7 @@
 清夜	nhae
 断种	qeml
 引例	buef
-赃证	cmdf
+赃证	cmdl
 排律	fucb
 怨悔	xarg
 戎机	keae
@@ -176506,7 +176517,7 @@
 训勉	dlxl
 周角	whxs
 毁害	dpid
-征辟	cfbl
+征辟	clbl
 谦顺	dqlc
 狗胆包天	hwwf
 厩肥	vbwo
@@ -177135,7 +177146,7 @@
 以蠡测海	eenn
 鹅行鸭步	gcvp
 七青八黄	xhks
-人存政举	refn
+人存政举	reln
 谗佞	dxei
 攒三聚五	fllf
 嗾使	ltef
@@ -177204,7 +177215,7 @@
 疑团满腹	nwnw
 文君新寡	tbki
 蹑足潜踪	ppnp
-歪缠	vfkm
+歪缠	vlkm
 奉命唯谨	orld
 爽然若失	owsg
 鄙称	lgmx
@@ -177515,7 +177526,7 @@
 经审	kbid
 风电	esdd
 他能	eonw
-正处于	ftfk
+正处于	ltfk
 温格	njat
 前海	qwng
 月的	wydw
@@ -177577,7 +177588,7 @@
 营商	sxaq
 在给	eukr
 受让方	udtf
-行政拘留	cffk
+行政拘留	clfk
 快递员	rqlc
 还记得	vdcj
 退赛	gois
@@ -177928,7 +177939,7 @@
 顶格	jcat
 凯西	uopx
 飞鹤	yixe
-风头正劲	eifb
+风头正劲	eilb
 杜克	ahjw
 穿越火线	ihik
 敖德萨	hcsy
@@ -177982,7 +177993,7 @@
 至终	dzkt
 中国工程院	lwpy
 从动	rrin
-登记证	bddf
+登记证	bddl
 力助	sljs
 公交卡	kaju
 挺着	fmqj
@@ -178216,7 +178227,7 @@
 当次	ibix
 赛迪	isdo
 李春	akoj
-正价	fper
+正价	lzer
 李维	akke
 男人装	vrqh
 姜末	qcfm
@@ -178713,7 +178724,7 @@
 宾阳	idyj
 陪吃	yklg
 大箱	odga
-正取	fplb
+正取	lzlb
 蝶阀	qste
 西固	pxwj
 塔里	hsvl
@@ -178743,7 +178754,7 @@
 案号	iclh
 江桥	npam
 沂南	ndgc
-正脸	fpwr
+正脸	lzwr
 头生	iops
 别着	lsqj
 郏县	oqjn
@@ -178853,7 +178864,7 @@
 汕头大学	nion
 跟打	pgfj
 游过	ntko
-正元	fpfl
+正元	lzfl
 美妞	qocb
 额发	itwb
 帮同	dycf
@@ -179337,7 +179348,7 @@
 马绍尔群岛	bkxm
 隆回	ytwl
 苹果机	sjae
-正席	fpms
+正席	lzms
 案源	icnv
 傻根	edag
 殿前	bsqw
@@ -179497,7 +179508,7 @@
 人界	revr
 惜力	rssl
 剿共	ljsk
-名不正言不顺	xvfl
+名不正言不顺	xvll
 珍兽	jrqv
 大酱	odqx
 振国	fmwj
@@ -179605,7 +179616,7 @@
 文县	tejn
 林昭	aajm
 厚黑	vjgh
-正视图	fjwt
+正视图	ljwt
 杨门女将	atcq
 光导纤维	iokk
 鸡内金	bctj
@@ -179717,7 +179728,7 @@
 卷云	qoin
 魔君	mdbg
 复验	gjbr
-受惩	uxcf
+受惩	uxcl
 宋教仁	ihei
 嗅闻	lqtl
 大檐帽	oauc
@@ -179806,7 +179817,7 @@
 泰勒斯	osud
 辩题	kdjf
 断无	qeff
-鄢陵	fpyh
+鄢陵	lhyh
 小潮	ivng
 除妖	yrcm
 滦南	ntgc
@@ -180041,7 +180052,7 @@
 宇瞻	ifjx
 小辫儿	ikwr
 车台	xjnl
-打蔫	fjsf
+打蔫	fjsl
 马萨诸塞	bsdi
 一心为公	frkk
 金闪闪	tttr
@@ -180181,7 +180192,7 @@
 发腻	wbwk
 海妖	ngcm
 选留	pwkv
-思政	vrfp
+思政	vrlt
 榆木	aram
 挂壁	fhbl
 赤龙	hkfg
@@ -180259,7 +180270,7 @@
 外亲	xuka
 强庄	blmh
 勾缝	wnkt
-痹症	mvmf
+痹症	mvml
 妇女病	ccmf
 扬长补短	fnxj
 梦系	aago
@@ -180422,12 +180433,12 @@
 奇作	ojeg
 跳帧	pwuu
 刮胡	lmjw
-培正	hkfp
+培正	hklz
 增砖添瓦	hvnr
 危象	xvxl
 评功摆好	dpfc
 步测	pinc
-邪不胜正	hvwf
+邪不胜正	hvwl
 彩盒	uaru
 收卷	wtqo
 幸运草	hisj
@@ -180445,7 +180456,7 @@
 黑仔	ghek
 吐絮	lhcl
 眼不见心不烦	jvci
-征夫	cfof
+征夫	clof
 锦秀	odmg
 骊歌	bfjl
 烂仔	iqek
@@ -180555,7 +180566,7 @@
 德里达	cvoo
 宽让	isdj
 该欠	dtxq
-叽歪	levf
+叽歪	levl
 虾条	qjta
 混球	njjf
 专兼	ieqb
@@ -180703,7 +180714,7 @@
 切纸	xmkk
 敢做敢为	yeyk
 玉蜀黍	jumr
-征衣	cfag
+征衣	clag
 克罗齐	jutk
 匿报	hsfa
 下劲	jxbp
@@ -180735,7 +180746,7 @@
 妙喻	cilr
 烧焊	ixij
 返照	dbjm
-名不正则言不顺	xvfl
+名不正则言不顺	xvll
 候温	eunj
 不慌不乱	vrvl
 夜火	aeih
@@ -180749,7 +180760,7 @@
 商妥	aquc
 水鞋	nssh
 拥军爱民	fxuo
-林正英	afsc
+林正英	alsc
 搭脉	fswk
 学有所长	nedn
 胆壮	wjqh
@@ -180828,7 +180839,7 @@
 禀承	awyn
 替工	oopg
 命里注定	rvni
-显证	judf
+显证	judl
 教范	hksn
 淳美	naqo
 印纹	kfkt
@@ -181544,7 +181555,7 @@
 帝喾	aqnx
 吊嗓	lulb
 幸不辱命	hvmr
-正座	fpmr
+正座	lzmr
 骶椎	rkae
 掌鞭	ifse
 过堂风	kies
@@ -181750,7 +181761,7 @@
 宅心	igri
 济急	ntxb
 砂箱	viga
-歪才	vfkg
+歪才	vlkg
 上方宝剑	jtir
 花繁叶茂	sgls
 笨嘴笨舌	glgl
@@ -181808,7 +181819,7 @@
 欺罔	uxcq
 庸夫	mbof
 铁杠	ogap
-难症	bemf
+难症	beml
 决别	ibls
 热滚滚	fnna
 炼句	ixwl
@@ -182012,7 +182023,7 @@
 妖雾	cmct
 博洽	gnnr
 姣丽	cafc
-厘正	vvfp
+厘正	vvlz
 独出机杼	hwaa
 串亲访友	lkde
 好生生	cpps
@@ -182056,7 +182067,7 @@
 走头无路	hifp
 怨望	xatw
 相辅而行	axsc
-荒政	stfp
+荒政	stlt
 砻糠	fgqm
 盘弄	uujs
 便壶	efhx
@@ -182170,7 +182181,7 @@
 贫化铀	keod
 萨克管	sjgi
 入寐	krid
-正割	fpid
+正割	lzid
 灰垢	eihd
 冰光	inil
 沉勇	nxbs
@@ -182255,7 +182266,7 @@
 坐而待毙	rscn
 私淑	mnnj
 鉴谅	ugda
-勘正	uefp
+勘正	uelz
 四近	wwdo
 浚河	nnnj
 熟道	akqq
@@ -182603,7 +182614,7 @@
 措置裕如	fuxc
 欠伸	xqed
 结绳而治	kksn
-政以贿成	feck
+政以贿成	leck
 愚懦	vrrc
 上漏下湿	jnjn
 取大优先	loep
@@ -182636,7 +182647,7 @@
 涯际	nvyj
 絮说	cldq
 渔阳鼙鼓	nyhh
-政由己出	fdow
+政由己出	ldow
 经文纬武	ktkf
 优游卒岁	enau
 白翳	dbhj
@@ -183148,7 +183159,7 @@
 原片	vddp
 文化路	tept
 输局	xrby
-治政	nnfp
+治政	nnlt
 彩市	uaau
 北科	qnmi
 操作工	fepg
@@ -183186,7 +183197,7 @@
 三鑫	latt
 业务费	utbk
 田东	vtxi
-正式工	fkpg
+正式工	lkpg
 跑跑卡丁车	ppjx
 交通卡	abju
 搅黄	fnsd
@@ -183268,7 +183279,7 @@
 刘君	tmbg
 德莱尼	csbn
 艺术系	sago
-李正	akfp
+李正	aklz
 网申	csds
 字牌	ikdd
 团结湖	wknj
@@ -183280,7 +183291,7 @@
 六里桥	avam
 配电室	pdid
 吃不吃	lvlg
-正街	fpch
+正街	lzch
 里格	vlat
 拴着	frqj
 百特	vjph
@@ -183569,7 +183580,7 @@
 军友	xxeb
 航天桥	ufam
 软解	xxxs
-伪政府	efme
+伪政府	elme
 己所不欲勿施于人	odvr
 劲乐团	bkwk
 七海	xing
@@ -183671,7 +183682,7 @@
 蚁力神	qsjd
 碎梦	vaaa
 落标	snaj
-罡气	ufgq
+罡气	ulgq
 起雷	hocv
 系统图	gkwt
 名籍	xlgd
@@ -183874,7 +183885,7 @@
 李慎之	aroz
 唯妙唯肖	lcli
 将尉	qxbj
-不在其位不谋其政	veuf
+不在其位不谋其政	veul
 资粮	ixqk
 耕翻	dkgq
 击响	awld
@@ -184044,7 +184055,7 @@
 炽情	ilrh
 缺词	jbdy
 鸡蛋里找骨头	byvi
-扶正压邪	ffvh
+扶正压邪	flvh
 焦国标	ewaj
 桃汛	awny
 斥革	dksg
@@ -184118,7 +184129,7 @@
 茁实	swii
 辱国殃民	mwfo
 急公近利	xkdm
-匡谬正俗	hdfe
+匡谬正俗	hdle
 舌尖口快	lilr
 乌头白马生角	midx
 进禄加官	ijsi
@@ -184205,7 +184216,7 @@
 黑白配	gdpo
 星辰变	jmtb
 张志东	bhxi
-导游证	ondf
+导游证	ondl
 通讯费	bdbk
 凯立德	ukcg
 赛尔号	ixlh
@@ -184230,7 +184241,7 @@
 赵孟頫	hkwi
 不成功便成仁	vkpe
 爱爱爱	uuux
-身分证	qkdf
+身分证	qkdl
 电话号	ddlh
 乐此不彼	kpvc
 安全码	irvb
@@ -184240,7 +184251,7 @@
 魔高一尺道高一丈	mafe
 心手相连	rfax
 工欲善其事必先利其器	pkql
-下必甚焉	jruf
+下必甚焉	jrul
 五庄观	fmbc
 大蜘蛛	oqqp
 坐台女	rncn
@@ -184448,7 +184459,7 @@
 中核	luat
 执飞	fryi
 潍柴	nkpn
-正佳	fpeh
+正佳	lzeh
 北京师范大学	qaqn
 封基	hhuh
 收红	wtkp
@@ -184457,7 +184468,7 @@
 萝岗	suuc
 李忠	aklu
 魏晨	mcjm
-正股	fpwe
+正股	lzwe
 洋山	nqus
 速推	alfe
 组人	kjre
@@ -184526,7 +184537,7 @@
 特典	phcs
 平煤	nqis
 乾元	gjfl
-函证	yndf
+函证	yndl
 景程	jaml
 核字	atik
 浙北	nfqn
@@ -184754,7 +184765,7 @@
 曾远	qjfl
 麦麦	htht
 撤柜	faah
-语嫣	dfcf
+语嫣	dfcl
 阿娜	yjcy
 尼莫	bnsj
 煤泥	isnb
@@ -185093,7 +185104,7 @@
 车兜	xjdk
 浸提	nbfj
 策画	gafv
-发蔫	wbsf
+发蔫	wbsl
 鼻癌	qvml
 键能	obnw
 桃叶	awlg
@@ -185284,7 +185295,7 @@
 熊势	nwfr
 鱼腮	xvwv
 河殇	njfx
-扩征	fmcf
+扩征	fmcl
 狼骑	hkbo
 药叉	skbk
 照遍	jmhc
@@ -185378,7 +185389,7 @@
 驾幸	slhq
 子猪	kzhh
 杂市	raau
-闰正月	tfwy
+闰正月	tlwy
 凉宫	iail
 喜车	hlxj
 佰易	evjw
@@ -185525,7 +185536,7 @@
 轱轳	xjxu
 灭寂	fiij
 姻弟	cwqb
-唧歪	lbvf
+唧歪	lbvl
 舶位	udek
 兽窟	qvib
 锄暴	ojjs
@@ -185640,7 +185651,7 @@
 闰四月	twwy
 闰六月	tawy
 闰八月	tkwy
-閏正月	dfwy
+閏正月	dlwy
 閏二月	diwy
 閏三月	dlwy
 閏四月	dwwy
@@ -185927,7 +185938,7 @@
 病魔缠身	mmkq
 早知今日	jjrj
 所见略同	dcvc
-正正经经	ffkk
+正正经经	llkk
 下回分解	jwkx
 海内存知己	nceo
 山重水复	umng
@@ -186123,7 +186134,7 @@
 大动肝火	oiwi
 依葫芦画瓢	essp
 三十年河东	lggx
-政教合一	fhrf
+政教合一	lhrf
 精神错乱	qjol
 有鼻子有眼	eqkj
 以战养战	euqu
@@ -186396,7 +186407,7 @@
 婆娑起舞	nnhg
 东游西逛	xnph
 女流之辈	cnou
-正直无私	fgfm
+正直无私	lgfm
 乐而不淫	ksvn
 秀才不出门	mkvt
 五里雾中	fvcl
@@ -186531,7 +186542,7 @@
 各显其能	tjun
 无心插柳柳成荫	frfs
 路漫漫其修远兮	pnnk
-人间正道是沧桑	rtfb
+人间正道是沧桑	rtlb
 四面出击	wswa
 有百害而无一利	evim
 小桥流水人家	iani
@@ -186542,7 +186553,7 @@
 丈二和尚摸不着头脑	eimw
 相煎何太急	aqex
 难以名状	bexq
-公正廉洁	kfmn
+公正廉洁	klmn
 出师未捷身先死	wqff
 本是同根生	ajcp
 回眸一笑百媚生	wjfp
@@ -186618,7 +186629,7 @@
 气数已尽	gqob
 烈火烹油	fian
 兵无常势	dfif
-身正不怕影子斜	qfvr
+身正不怕影子斜	qlvr
 本固邦宁	awdi
 千里共婵娟	mvsc
 人老心不老	rhrh
@@ -186966,7 +186977,7 @@
 丁丁当当	jjii
 道德文章	qctk
 朴素无华	ahfe
-清廉正直	nmfg
+清廉正直	nmlg
 牛之一毛	pofm
 小惩大诫	icod
 交口赞誉	alpn
@@ -186977,7 +186988,7 @@
 足不出门	pvwt
 霞光万道	cifq
 七步成诗	xpkd
-正心诚意	frdk
+正心诚意	lrdk
 长江天堑	nnfx
 个中三昧	rllj
 是非之心	juor
@@ -187016,7 +187027,7 @@
 杳无人迹	afrt
 桃花流水	asnn
 要而言之	psbo
-大中至正	oldf
+大中至正	oldl
 冷水浇头	inni
 深山幽谷	nuuk
 李广难封	ambh
@@ -187100,7 +187111,7 @@
 反哺之情	dlor
 一物不知	fpvj
 现世现报	jsjf
-公平正直	knfg
+公平正直	knlg
 仁民爱物	eoup
 清新俊逸	nkex
 脸红耳热	wklf
@@ -187211,7 +187222,7 @@
 日丽风和	jfem
 不甘后人	vsdr
 治丝益棼	nkqa
-诚心正意	drfk
+诚心正意	drlk
 观者云集	bhie
 装潢门面	qnts
 铮铮有声	ooeh
@@ -187254,7 +187265,7 @@
 永矢弗谖	kjbd
 神号鬼哭	jldl
 里勾外连	vwxx
-方正不阿	tfvy
+方正不阿	tlvy
 明目达聪	jjol
 德薄能鲜	csnx
 高阳酒徒	aync
@@ -187537,7 +187548,7 @@
 白手兴家	dfni
 莫待无花空折枝	scfa
 对影成三人	bjkr
-必有我师焉	regf
+必有我师焉	regl
 清泉石上流	ndvn
 独钓寒江雪	hoic
 以子之矛攻子之盾	ekod
@@ -188026,7 +188037,7 @@
 往者不可谏	chvd
 淡妆浓抹总相宜	nqni
 一顾倾人城	fveh
-风正一帆悬	effj
+风正一帆悬	elfj
 民无信不立	ofek
 能不忆江南	nvrg
 取其精华去其糟粕	luqq
@@ -188087,7 +188098,7 @@
 敢叫日月换新天	yljf
 广征博引	mcgb
 居高声自远	bahf
-可远观而不可亵玩焉	jfbf
+可远观而不可亵玩焉	jfbl
 花市灯如昼	saib
 春风拂槛露华浓	oefn
 生于忧患死于安乐	pfrk
@@ -188442,7 +188453,7 @@
 皎皎河汉女	ddnc
 晋代衣冠成古丘	fead
 零落成泥碾作尘	cski
-见贤思齐焉	cuvf
+见贤思齐焉	cuvl
 卷地风来忽吹散	qhes
 吴宫花草埋幽径	lisc
 十年辛苦不寻常	ggki
@@ -188667,7 +188678,7 @@
 十年窗下无人问	ggit
 独学而无友	hnse
 开轩面场圃	fxsw
-花月正春风	swfe
+花月正春风	swle
 一洗万古凡马空	fnfi
 两山排闼送青来	fuff
 飞鸟相与还	ymav
@@ -188710,7 +188721,7 @@
 明月何时照我还	jwev
 大弦嘈嘈如急雨	oblc
 长恨春归无觅处	nrot
-正是河豚欲上时	fjnj
+正是河豚欲上时	ljnj
 与尔同销万古愁	hxcm
 孤灯不明思欲绝	kivk
 不与秦塞通人烟	vhoi
@@ -189006,7 +189017,7 @@
 一曲新词酒一杯	fdka
 不见长安见尘雾	vcnc
 马鸣风萧萧	bles
-中儿正织鸡笼	lwfg
+中儿正织鸡笼	lwlg
 随风直到夜郎西	yegp
 羞颜未尝开	qkff
 大儿锄豆溪东	owox
@@ -189082,7 +189093,7 @@
 罢如江海凝清光	ucni
 应是绿肥红瘦	mjkm
 言师采药去	bquh
-正是江南好风景	fjnj
+正是江南好风景	ljnj
 来如雷霆收震怒	fccc
 出山泉水浊	wudn
 千载琵琶作胡语	mgjd
@@ -189411,7 +189422,7 @@
 谪居卧病浔阳城	dbhh
 请君试问东流水	dbdn
 观海则意溢于海	bncn
-江晚正愁余	njfr
+江晚正愁余	njlr
 未解忆长安	fxri
 胡琴琵琶与羌笛	jjjg
 忍能对面为盗贼	mnbc
@@ -190011,7 +190022,7 @@
 谁敢横刀立马	dyab
 而伯乐不常有	seke
 拣了芝麻丢了西瓜	fksu
-可以正衣冠	jefx
+可以正衣冠	jelx
 问苍茫大地	tssh
 惊诧莫名	rdsx
 翩翩佳公子	hhek
@@ -190037,7 +190048,7 @@
 假戏成真	ebkg
 风流总被雨打风吹去	enqh
 自信人生二百年	qerg
-郑伯克段于鄢	qejf
+郑伯克段于鄢	qejl
 黑夜给了我黑色的眼睛	gakj
 重上井冈山	mjiu
 门前冷落鞍马稀	tqim
@@ -190115,7 +190126,7 @@
 两只黄鹂鸣翠柳	flsa
 小饼如嚼月	ixcw
 春有百花秋有月	oevw
-徒善不足以为政	cqvf
+徒善不足以为政	cqvl
 交杯换盏	aaff
 轻轻的我走了	xxdk
 青春不再来	hovf
@@ -190133,7 +190144,7 @@
 君子之德风	bkoe
 上品功能甘露味	jlpl
 幻想和现实	nami
-正如我轻轻的来	fcgf
+正如我轻轻的来	lcgf
 岂独善一身	uhqq
 近之则不逊	dock
 不知其几千里也	vjuo
@@ -190179,7 +190190,7 @@
 他人亦已歌	ertj
 曾益其所不能	qqun
 亲戚或余悲	kkku
-必也正名乎	rofg
+必也正名乎	rolg
 五音令人耳聋	fkrf
 安知鱼之乐	ijxk
 木受绳则直	aukg
@@ -190225,7 +190236,7 @@
 若无闲事挂心头	sfti
 从此天涯孤旅	rpft
 朝菌不知晦朔	gsvq
-而人之所罕至焉	srof
+而人之所罕至焉	srol
 则其负大舟也无力	cuxs
 汽笛一声肠已断	ngfq
 千门万户瞳瞳日	mtfj
@@ -190323,7 +190334,7 @@
 离天三尺三	tfll
 无羞恶之心	fqfr
 死而不亡者寿	fsvd
-吾未尝无诲焉	ffif
+吾未尝无诲焉	ffil
 文胜质则史	twdl
 三军过后尽开颜	lxkk
 早春呈水部张十八员外	jolx
@@ -190349,7 +190360,7 @@
 质胜文则野	dwtv
 冬至阳生春又来	tdyf
 威加海内兮归故乡	ksnk
-正如我悄悄的来	fcgf
+正如我悄悄的来	lcgf
 谨庠序之教	dmmh
 包羞忍耻是男儿	wqmw
 飒沓如流星	kncj
@@ -190373,7 +190384,7 @@
 拂堤杨柳醉春烟	fhai
 桑田碧海须臾改	bvjo
 万里长城今犹在	fvne
-夫子焉不学	okfn
+夫子焉不学	okln
 天时人事日相催	fjre
 建安十九年	bigg
 节物风光不相待	spec
@@ -190545,7 +190556,7 @@
 海上有仙山	njeu
 桃花源里人家	asni
 人生乐在相知心	rpkr
-正得秋而万宝成	fcmk
+正得秋而万宝成	lcmk
 谏太宗十思疏	doiy
 又有清流激湍	benn
 零乱不堪	clvh
@@ -190664,7 +190675,7 @@
 虎兕出于柙	ucwa
 帝高阳之苗裔兮	aayk
 与天地兮比寿	hfhd
-而人居其一焉	srbf
+而人居其一焉	srbl
 共赏一轮明月	sifw
 更立西江石壁	fkpb
 时见疏星渡河汉	jcyn
@@ -190837,7 +190848,7 @@
 竹下忘言对紫茶	gjts
 小麦覆陇黄	ihps
 月出于东山之上	wwfj
-有神人居焉	ejrf
+有神人居焉	ejrl
 更无豪杰怕熊罴	ffau
 三十二莲峰	lgiu
 月到柳梢头	wdai
@@ -190918,7 +190929,7 @@
 明月明年何处看	jwjf
 世上英雄本无主	sjsk
 必不得已而去	rvch
-不能正其身	vnfq
+不能正其身	vnlq
 我不欲人之加诸我也	gvko
 交结五都雄	akfe
 渺万里层云	nfvi
@@ -191074,7 +191085,7 @@
 此恨何时已	preo
 种树郭橐驼传	maae
 快走踏清秋	rhpm
-天下归仁焉	fjqf
+天下归仁焉	fjql
 乐亦在其中矣	kten
 种桃道士归何处	maqt
 撑一支长篙	ffgg
@@ -191112,7 +191123,7 @@
 而乐亦无穷也	skto
 吊古战场文	ljut
 不忍食其肉	vmkc
-就有道而正焉	aeqf
+就有道而正焉	aeql
 不敢叹风尘	vyli
 溪云初起日沉阁	nixt
 秘密事之载心兮	mikk
@@ -191234,7 +191245,7 @@
 痛饮狂歌空度日	mxhj
 故有之以为利	jeom
 寒食内人长白打	ikcf
-信则人任焉	ecrf
+信则人任焉	ecrl
 此水几时休	pnee
 霁光浮瓦碧参差	cinq
 必也使无讼乎	roeg
@@ -191373,7 +191384,7 @@
 不教而杀谓之虐	vhsu
 保安人物一时新	eirk
 拔剑起蒿莱	frhs
-如日月之食焉	cjwf
+如日月之食焉	cjwl
 夏虫也为我沉默	vqog
 更加郁郁葱葱	fses
 雨送黄昏花易落	cqss
@@ -191862,8 +191873,8 @@
 雪尽马蹄轻	cbbx
 我们都互相致意	gehk
 台州地阔海冥冥	nnhx
-正是橙黄橘绿时	fjaj
-正是浴兰时节动	fjni
+正是橙黄橘绿时	ljaj
+正是浴兰时节动	ljni
 四时佳兴与人同	wjec
 大隐住朝市	oyea
 求仁而得仁	fese
@@ -192269,7 +192280,7 @@
 赢粮而景从	tqsr
 贼义者谓之残	ckhf
 何谓宠辱若惊	edir
-正西风落叶下长安	fpei
+正西风落叶下长安	lpei
 北山尽仇怨	qubx
 不得其言则去	vcuh
 富而好礼者也	isco
@@ -192422,7 +192433,7 @@
 吾不欲观之矣	fvkn
 中心悦而诚服也	lrro
 山晓望晴空	ujti
-正月十六夜	fwga
+正月十六夜	lwga
 貂裘换酒也堪豪	mffa
 谁谓天地宽	ddfi
 以小事大者	eikh
@@ -192449,7 +192460,7 @@
 书任村马铺	yeao
 寄与陇头人	ihyr
 金与火交争	thix
-则眸子了焉	cjkf
+则眸子了焉	cjkl
 七月中气后	xwld
 四月江南黄鸟肥	wwnw
 诗画本一律	dfac
@@ -192472,12 +192483,12 @@
 丁香空结雨中愁	jmim
 瓮牖绳枢之子	kdkk
 吾党之直者异于是	fioj
-苟正其身矣	sfun
-唯倜傥非常之人称焉	leef
+苟正其身矣	slun
+唯倜傥非常之人称焉	leel
 汝体吾此心	nefr
 天地本无心	fhar
 杀人如不能举	srcn
-为民父母行政	kokf
+为民父母行政	kokl
 兄嫂当知之	lcio
 面脆油香新出炉	swni
 若入前为寿	skqd
@@ -192636,7 +192647,7 @@
 翼若垂天之云	vsmi
 色与春庭暮	xhos
 项羽季父也	pvmo
-于从政乎何有	frfe
+于从政乎何有	frle
 以大事小者	eokh
 无日不悠悠	fjve
 夜夜不得息	aavq
@@ -192740,7 +192751,7 @@
 相与枕藉乎舟中	ahal
 饮马长城窟	xbni
 犹缘木而求鱼也	hkao
-必有忠信如丘者焉	relf
+必有忠信如丘者焉	rell
 诗是吾家事	djfk
 何须浅碧深红色	ecnx
 于啼泣之余	flnr
@@ -192774,7 +192785,7 @@
 乐天者保天下	kfhj
 嘉孺子而哀妇人	hkkr
 圣人之心静乎	brog
-行不忍人之政	cvmf
+行不忍人之政	cvml
 请看石上藤萝月	dfvw
 不堪幽梦太匆匆	vhuw
 老去新诗谁与传	hhke
@@ -193006,7 +193017,7 @@
 汉恩自浅胡恩深	nwqn
 风飘万点正愁人	epfr
 月移花影上栏杆	wmsa
-君子疾没世而名不称焉	bkmf
+君子疾没世而名不称焉	bkml
 多少长安名利客	xini
 自向庭中种荔枝	qdma
 不与我言兮	vhgk
@@ -193026,7 +193037,7 @@
 人乞祭余骄妾妇	rgwc
 江流宛转绕芳甸	nniw
 望之不似人君	tovb
-推心辅王政	frxf
+推心辅王政	frxl
 先破秦入咸阳者王之	pvoo
 青旗沽酒趁梨花	htns
 夏虫不可以语于冰者	vqvh
@@ -193066,7 +193077,7 @@
 丁壮在南冈	jqec
 遍海角天涯	hnxn
 口脂面药随恩泽	lwsn
-天下之恶皆归焉	fjof
+天下之恶皆归焉	fjol
 杏花消息雨声中	asnl
 云归而岩穴暝	iqsj
 罗浮山下梅花村	unua
@@ -193132,7 +193143,7 @@
 相思不相见	avvc
 周监于二代	wufe
 已映洲前芦荻花	ojns
-一正君而国定矣	ffbn
+一正君而国定矣	flbn
 多识于鸟兽草木之名	xdfx
 兴酣落笔摇五岳	npsd
 照在绿波中	jekl
@@ -193464,7 +193475,7 @@
 中适一念无	llff
 二龙争战决雌雄	ifxe
 最是一年秋好处	jjft
-长而无述焉	nsff
+长而无述焉	nsfl
 落日绣帘卷	sjkq
 认得醉翁语	dcpd
 知君为我新作	jbke
@@ -193626,7 +193637,7 @@
 出入无完裙	wkfx
 德固不小识	cwvd
 大禹理百川	ogjl
-焉得人人而济之	fcro
+焉得人人而济之	lcro
 珍宝尽有之	jibo
 陌上看花人	yjfr
 阮籍哭路岐	yglu
@@ -193635,7 +193646,7 @@
 万古青蒙蒙	fjhs
 负命者上钩	xrho
 关西杨伯起	qpah
-惠而不知为政	dsvf
+惠而不知为政	dsvl
 楚王疑忠臣	ajnh
 吉日兮辰良	hjkk
 卞庄子之勇	kmkb
@@ -193649,7 +193660,7 @@
 虢州岑二十七长史参三十韵	unuk
 男耕女桑不相失	vdcg
 上无道揆也	jfqo
-殷有三仁焉	delf
+殷有三仁焉	dell
 鱼鳞屋兮龙堂	xxbi
 清浅白石滩	nndn
 千叶绿云委	mlkm
@@ -193728,7 +193739,7 @@
 建德非吾土	bcuh
 问客何为来	tief
 相见语依依	acde
-那堪正飘泊	yhfn
+那堪正飘泊	yhln
 从来幽并客	rfui
 说尽平生意	dbnk
 还将两行泪	vqfn
@@ -193761,7 +193772,7 @@
 少壮能几时	iqnj
 阳骄叶更阴	ybly
 日暮倚修竹	jseg
-焉知二十载	fjig
+焉知二十载	ljig
 梦随风万里	ayev
 乡心新岁切	krkx
 共此灯烛光	spii
@@ -193847,7 +193858,7 @@
 逐客无消息	tifq
 乳燕飞华屋	usyb
 江畔洲如月	nvnw
-岂不如贼焉	uvcf
+岂不如贼焉	uvcl
 念武陵人远	rfyf
 独自倚阑干	hqen
 何事入罗帏	ekku
@@ -193940,7 +193951,7 @@
 望断归来路	tqqp
 长歌怀采薇	njrs
 长亭酒一瓢	nanp
-正故国晚秋	fjwm
+正故国晚秋	ljwm
 忠愤气填膺	lrgm
 心随雁飞灭	ryvf
 闻风坐相悦	terr
@@ -194666,7 +194677,7 @@
 是时青裙女	jjhc
 大火复西流	oign
 唾弃如粪丸	lacr
-南国正芳春	gwfo
+南国正芳春	gwlo
 三春车马客	loxi
 临不测之渊	uvnn
 父老空哽咽	khil
@@ -194698,14 +194709,14 @@
 化则无常也	ecfo
 随山望菌阁	yutt
 何况到如今	eidr
-子奚不为政	kuvf
+子奚不为政	kuvl
 学非探其花	nufs
 我生不有命	gpvr
 使子婴为相	ekca
 渴饮月窟冰	nxwi
 令人饮不足	rrxp
 结束多红粉	kaxq
-正己而已矣	fosn
+正己而已矣	losn
 小语辄响答	idxg
 长安在日边	nies
 不过三十日	vklj
@@ -194724,7 +194735,7 @@
 已自感流年	oqkg
 君子多乎哉	bkxg
 冷碧新秋水	ijkn
-宗族称孝焉	itmf
+宗族称孝焉	itml
 不悲口无食	vulk
 借问新安吏	etkf
 夜雨做成秋	acem
@@ -194747,7 +194758,7 @@
 聊寄法王家	lini
 金骨既不毁	trbd
 守节情不移	isrm
-君子平其政	bknf
+君子平其政	bknl
 东皋薄暮望	xdst
 再续汉阳游	fknn
 落日对春华	sjbe
@@ -194798,7 +194809,7 @@
 桃叶一枝开	alff
 又鼓盆而歌	bhkj
 物心不可知	prvj
-安得而至焉	icsf
+安得而至焉	icsl
 儿童尽东征	wkbc
 王氏井依然	jkiw
 多为将相官	xkqi
@@ -194874,7 +194885,7 @@
 词气浩纵横	dgna
 竹楼缘岸上	gakj
 引领望金扉	brth
-正月端门夜	fwka
+正月端门夜	lwka
 杨柳可藏乌	aajm
 笑整香云缕	gamk
 芜然蕙草暮	swss
@@ -195234,7 +195245,7 @@
 知死不可让	jfvd
 自到青冥里	qdhv
 孔子辞以疾	kklm
-因以为号焉	wekf
+因以为号焉	wekl
 粽香筒竹嫩	qmgc
 审权势之宜	iafi
 垂老不得安	mhvi
@@ -195578,11 +195589,11 @@
 岂知关山苦	ujqs
 独酌板桥浦	hpan
 心恬内无忧	rrcr
-大舜有大焉	ouef
+大舜有大焉	ouel
 传觞三鼓罢	exlu
 彼美玉山果	cqjj
 尽日此桥头	bjpi
-不近人情焉	vdrf
+不近人情焉	vdrl
 道芷阳间行	qsyc
 嘈嘈天乐鸣	llfl
 船下广陵去	ujmh
@@ -195850,7 +195861,7 @@
 徐妃久已嫁	ccxc
 吾问无为谓	ftfd
 高低顺过风	aele
-正声易漂沦	fhjn
+正声易漂沦	lhjn
 四代三公族	welt
 杯中酒不空	alni
 汝安则为之	nico
@@ -195906,7 +195917,7 @@
 风景触乡愁	ejxm
 平铺湘水流	nonn
 也知塞垣苦	ojis
-南方有鸟焉	gtef
+南方有鸟焉	gtel
 回心反初役	wrdc
 幽州胡马客	unji
 天地无终极	fhfa
@@ -196046,7 +196057,7 @@
 绿翠如芙蓉	kvcs
 小树枣花春	iaao
 倒被紫绮裘	expf
-夫焉取九子	oflk
+夫焉取九子	ollk
 担囊行取薪	fgcs
 捐弹而反走	fbsh
 灼灼芙蓉姿	iisi
@@ -196140,7 +196151,7 @@
 庭树巢鹦鹉	malf
 与子路之妻	hkpg
 偷声木兰花	ehas
-雉兔者往焉	jxhf
+雉兔者往焉	jxhl
 回观村闾间	wbat
 寻一首好诗	bfqd
 非死者难也	ufho
@@ -196200,7 +196211,7 @@
 竹斋烧药灶	gtii
 去者日以疏	hhjy
 雨势来不已	cffo
-风雨正苍苍	ecfs
+风雨正苍苍	ecls
 古戍依重险	jkey
 琼枝曲不折	jadf
 试问池台主	dtnk
@@ -196257,7 +196268,7 @@
 暮雨向三峡	scdu
 何必怀此都	errh
 古之贤人也	jouo
-刍荛者往焉	xshf
+刍荛者往焉	xshl
 衰年关鬲冷	agqi
 尊罍溢九酝	qvnp
 不念携手好	vrfc
@@ -196318,7 +196329,7 @@
 以黄金注者	esth
 还期那可寻	vuyb
 是役人之役	jcrc
-不期精粗焉	vuqf
+不期精粗焉	vuql
 明月生南浦	jwpn
 日月同光华	jwce
 于身色有用	fqxs
@@ -196371,7 +196382,7 @@
 惟有一堪赏	refi
 见底何如此	cmep
 君臣尚论兵	bhid
-奚其为为政	uukf
+奚其为为政	uukl
 甘棠忆召公	sirk
 揽裙脱丝履	fxwb
 曳屐出东冈	dbwc
@@ -196543,8 +196554,8 @@
 天凉景物清	fijn
 君子道者三	bkql
 花不知人瘦	svjm
-池水观为政	nnbf
-物孰不资焉	pavf
+池水观为政	nnbl
+物孰不资焉	pavl
 新贴绣罗襦	kckx
 烂若金照碧	istj
 大笑向文士	ogdh
@@ -196701,7 +196712,7 @@
 无泥未有尘	fnfi
 素发干垂领	hwnr
 微之炼秋石	coiv
-焉能守旧丘	fnid
+焉能守旧丘	lnid
 能伴老夫否	nehv
 凉忆岘山巅	iruu
 一别旧游尽	flub
@@ -196780,7 +196791,7 @@
 夭矫转空碧	mjxj
 五日画一石	fjfv
 雄笔映千古	egjj
-乡党称悌焉	kimf
+乡党称悌焉	kiml
 此情不可道	prvq
 春早见花枝	ojca
 语来江色暮	dfns
@@ -196798,7 +196809,7 @@
 城非不高也	huvo
 士大夫之族	hoot
 猿声碎客心	hhvr
-焉用身独完	fsqi
+焉用身独完	lsqi
 乱石通人过	lvbk
 北望五陵间	qtft
 寒暑忽流易	ijwj
@@ -197030,7 +197041,7 @@
 下悯万民疮	jrfm
 经纶世务者	kksh
 清风吹枕席	nelm
-冰霜正惨凄	icfi
+冰霜正惨凄	icli
 减米散同舟	iqsu
 彼美君家菜	cqbs
 散发弄扁舟	swju
@@ -197089,7 +197100,7 @@
 村边杏花白	asad
 子路无宿诺	kpfd
 驱车上东门	bxjt
-终岁常端正	kuif
+终岁常端正	kuil
 眼枯即见骨	jabr
 马之千里者	bomh
 事业无穷年	kufg
@@ -197109,7 +197120,7 @@
 令人发深省	rrwi
 秦烹惟羊羹	oarq
 荷动知鱼散	sijs
-正当白下门	fidt
+正当白下门	lidt
 不如饮美酒	vcxn
 舜亦以命禹	uteg
 欲觉闻晨钟	knto
@@ -197182,7 +197193,7 @@
 劝君少求利	bbim
 物性固莫夺	prwo
 予之不仁也	kovo
-信则民任焉	ecof
+信则民任焉	ecol
 以相如功大	eaco
 寄与爱茶人	ihur
 如杀人之罪	csru
@@ -197259,7 +197270,7 @@
 一病讫不痊	fmdm
 因念远戍卒	wrfa
 结妾独守志	kkhh
-正枕当星剑	fair
+正枕当星剑	lair
 盛时不可再	kjvf
 阴霞生远岫	ycpu
 罢官亦由人	uitr
@@ -197273,7 +197284,7 @@
 何事阴阳工	ekyp
 明日又逢春	jjbo
 国家定两税	wiim
-君正莫不正	bfsf
+君正莫不正	blsl
 一字偕华星	fiej
 涂山来去熟	nufa
 新雁过妆楼	kvka
@@ -197363,7 +197374,7 @@
 死为同穴尘	fkci
 积疴谢生虑	mmdu
 江泥轻燕斜	nnxr
-不能正五音	vnfk
+不能正五音	vnlk
 万姓疮痍合	fcmr
 其次剔毛发	uijw
 结君早归意	kbjk
@@ -197567,7 +197578,7 @@
 登赫曦台上	bhjj
 生死不相离	pfvt
 妾愿随君行	kvyc
-教者必以正	hhrf
+教者必以正	hhrl
 江汉春风起	nnoh
 樱桃千万枝	aama
 故园今夜里	jwrv
@@ -197638,7 +197649,7 @@
 谁识卧龙客	ddhi
 今日重阳节	rjms
 盖棺事则已	qako
-正是江南好	fjnc
+正是江南好	ljnc
 黑质而白章	gdsk
 每欲到荆州	gkdn
 富贵本无根	ilaa
@@ -197774,7 +197785,7 @@
 沾余襟之浪浪	nrxn
 人相忘乎道术	rata
 眄庭柯以怡颜	jmak
-尔焉能浼我哉	xfng
+尔焉能浼我哉	xlng
 一枕小窗浓睡	faij
 拔剑撞而破之	frfo
 呈集贤诸学士	leuh
@@ -197815,12 +197826,12 @@
 丽桂树之冬荣	faas
 四海遏密八音	wnjk
 吾无以为质矣	ffen
-焉能系而不食	fngk
+焉能系而不食	lngk
 行军用兵之道	cxsq
 谓之倒置之民	doeo
 而唯蜩翼之知	slqj
 时不可兮再得	jvjc
-正是登高时节	fjbs
+正是登高时节	ljbs
 鹅湖归病起作	gnqe
 麋何食兮庭中	mekl
 万物皆出于机	fpna
@@ -197834,7 +197845,7 @@
 与物相刃相靡	hpam
 连无用之肉也	xfso
 而天下始疑矣	sfjn
-四方之政行焉	wtof
+四方之政行焉	wtol
 宅边有五柳树	isea
 隐思君兮陫侧	yvbe
 必能裨补阙漏	rnxn
@@ -197889,7 +197900,7 @@
 沛公则置车骑	nkcb
 捐余玦兮江中	frjl
 不可以言传也	vjeo
-正是人间佳节	fjrs
+正是人间佳节	ljrs
 是故骈于足者	jjbh
 合百草兮实庭	rvsm
 蛟何为兮水裔	qeka
@@ -197992,7 +198003,7 @@
 未必知其道也	frjo
 瞻前而顾后兮	jqsk
 采薜荔兮水中	ussl
-必正席先尝之	rfmo
+必正席先尝之	rlmo
 或百步而后止	kvpp
 庄子持竿不顾	mkfv
 使乐乘代廉颇	ekmb
@@ -198004,7 +198015,7 @@
 并吞八荒之心	qfkr
 算只君与长江	glbn
 好事者为之也	ckho
-正是去年时节	fjhs
+正是去年时节	ljhs
 孝子不谀其亲	hkvk
 因缟素而哭之	wkho
 近乎卜祝之间	dgut
@@ -198021,7 +198032,7 @@
 名利不将心挂	xmvf
 结客少年场行	kiic
 春日暄甚戏作	ojje
-使子路问津焉	ekpf
+使子路问津焉	ekpl
 予口张而不能	klbn
 驾着一叶孤舟	sqfu
 洗妆不褪唇红	nqvk
@@ -198040,7 +198051,7 @@
 门人欲厚葬之	trko
 今之矜也忿戾	rokh
 夏礼吾能言之	vjfo
-正是维摩境界	fjkv
+正是维摩境界	ljkv
 语之而不惰者	dosh
 请奉盆缶秦王	dokj
 内热溲膏是也	cfno
@@ -198056,7 +198067,7 @@
 又尚论古之人	bidr
 柳绿更带朝烟	akfi
 大马之捶钩者	oboh
-民无得而称焉	ofcf
+民无得而称焉	ofcl
 而天下始分矣	sfjn
 是同为淫僻也	jcko
 吾无与言之矣	ffhn
@@ -198288,7 +198299,7 @@
 夫子喟然叹曰	oklj
 常有高猿长啸	ieal
 其真不知马也	ugvo
-必有可观者焉	rejf
+必有可观者焉	rejl
 齐彭殇为妄作	thfe
 颠连直接东溟	gxgn
 娇痴不怕人猜	cmvh
@@ -198407,7 +198418,7 @@
 却愿天日恒炎曦	hvfj
 故闻伯夷之风者	jteh
 虚负东阳酒担来	uxxf
-纵横正有凌云笔	kafg
+纵横正有凌云笔	kalg
 纷纷红紫已成尘	kkki
 幽闲元不为人芳	utfs
 曾有惊天动地文	qert
@@ -198418,7 +198429,7 @@
 眼中战国成争鹿	jlum
 云横九派浮黄鹤	iarx
 知君仙骨无寒暑	jbej
-正怜日破浪花出	frjw
+正怜日破浪花出	lrjw
 父老相逢鼻欲辛	khak
 落蕊犹收蜜露香	sshm
 襄王云雨今安在	ajie
@@ -198635,7 +198646,7 @@
 三春已暮花从风	looe
 蓝田丘壑漫寒藤	svds
 合为一诏渐强大	rkfo
-圣人既竭目力焉	brbf
+圣人既竭目力焉	brbl
 洛阳堰上新晴日	nyhj
 莺嫌枝嫩不胜吟	scal
 宦游直送江入海	ingn
@@ -198663,7 +198674,7 @@
 午窗睡起莺声巧	gijp
 玄晏舞狂乌帽落	ajgs
 朱雀航南绕香陌	piuy
-摘来正带凌晨露	fffc
+摘来正带凌晨露	fflc
 矛头淅米剑头炊	kini
 风光和暖胜三秦	eimo
 人歌人哭水声中	rjrl
@@ -198823,7 +198834,7 @@
 寄语红桥桥下水	idkn
 灵心圆映三江月	brww
 金谷风前舞柳枝	tkea
-万钟于我何加焉	foff
+万钟于我何加焉	fofl
 已见松柏摧为薪	ocas
 一样悲欢逐逝波	faun
 箜篌所悲竟不还	ggdv
@@ -198834,7 +198845,7 @@
 迟迟春日弄轻柔	bbok
 心同野鹤与尘远	rcvf
 未尝举箸忘吾蜀	finu
-焉得思如陶谢手	fcvf
+焉得思如陶谢手	lcvf
 长江不见鱼书至	nnvd
 种柳成行夹流水	makn
 求人可使报秦者	frjh
@@ -198946,7 +198957,7 @@
 吾方高驰而不顾	ftav
 破尽青衫尘满帽	vbhu
 五里一堠兵火催	fvfe
-卫君待子而为政	abcf
+卫君待子而为政	abcl
 跳丸相趁走不住	prae
 稚孙渐长解烧汤	mknn
 故士有画地为牢	jhei
@@ -199150,7 +199161,7 @@
 寄去须凭下水船	ihcu
 别时留解赠佳人	ljkr
 苏晋长斋绣佛前	sfnq
-年四十而见恶焉	gwgf
+年四十而见恶焉	gwgl
 二十年前曾去路	iggp
 小鼎煎茶面曲池	ijqn
 雪白河豚不药人	cdnr
@@ -199383,7 +199394,7 @@
 弟子堂上分两厢	qkiv
 年年喜见山长在	gghe
 肉芝石耳不足数	csvq
-虽鸡狗不得宁焉	lbhf
+虽鸡狗不得宁焉	lbhl
 任人采弄尽人看	eruf
 平台为客忧思多	nnkx
 此日此时人共得	pjpc
@@ -199456,7 +199467,7 @@
 崔李题名王白诗	uajd
 故有斯人慰寂寥	jeui
 桂花成实向秋荣	asks
-愁人正在书窗下	mrfj
+愁人正在书窗下	mrlj
 池台竹树三亩馀	nngx
 覆水再收岂满杯	pnfa
 揭竿命爵分雄雌	fgrp
@@ -199617,7 +199628,7 @@
 不应墩姓尚随公	vmhk
 莫愁留滞太史公	smkk
 谁挥鞭策驱四运	dfsi
-正见盛时犹怅望	fckt
+正见盛时犹怅望	lckt
 不信君看弈棋者	vebh
 天涯海角信音稀	fnnm
 再拜献大王足下	ffgj
@@ -199695,7 +199706,7 @@
 槐树层层新绿生	aabp
 闻道梅花坼晓风	tqae
 人道是清光更多	rqjx
-使子贡往侍事焉	ekpf
+使子贡往侍事焉	ekpl
 白发永无怀橘日	dwkj
 已报生擒吐谷浑	ofpn
 边城暮雨雁飞低	shse
@@ -199943,7 +199954,7 @@
 好将沈醉酬佳节	cqns
 则深根宁极而待	cnac
 深闭朱门伴细腰	ntpw
-焉得并州快剪刀	fcqm
+焉得并州快剪刀	lcqm
 鸭头春水浓如染	vion
 邺侯藏书手不触	uesx
 小子鸣鼓而攻之	iklo
@@ -199998,7 +200009,7 @@
 满堂共话中兴事	nisk
 输赢须待局终头	xtci
 若耶溪上踏莓苔	slns
-子产听郑国之政	kklf
+子产听郑国之政	kkll
 绕郭荷花三十里	kasv
 一语天然万古新	fdfk
 落向人间取次生	sdrp
@@ -200528,7 +200539,7 @@
 天台一万八千丈	fnfe
 我未见力不足者	gfch
 弟兄姐妹舞翩跹	qlcp
-天下之民归心焉	fjof
+天下之民归心焉	fjol
 清诗句句尽堪传	ndwe
 割慈忍爱还租庸	iqmm
 郁郁葱葱佳气浮	eesn
@@ -200553,7 +200564,7 @@
 近来时世轻先辈	dfju
 时时只见龙蛇走	jjlh
 白发东坡又到来	dwxf
-焉得铸甲作农器	fcol
+焉得铸甲作农器	lcol
 白马湖平秋日光	dbni
 仙风道骨今谁有	eeqe
 酒旗相望大堤头	ntai
@@ -200662,7 +200673,7 @@
 春江浩荡暂徘徊	onnc
 市南门外泥中歇	agtj
 岂如春色嗾人狂	ucoh
-耿吾既得此中正	lfbf
+耿吾既得此中正	lfbl
 自三峡七百里中	qlul
 长安大道横九天	niof
 长看天西万叠青	nffh
@@ -200910,7 +200921,7 @@
 勉远逝而无狐疑兮	xffk
 自吾氏三世居是乡	qfkk
 鲁有兀者叔山无趾	xelp
-正旦蒙赵王赉酒诗	fjsd
+正旦蒙赵王赉酒诗	ljsd
 小人学道则易使也	irno
 斯有不忍人之政矣	uevn
 而不敢怀庆赏爵禄	svyj
@@ -200933,7 +200944,7 @@
 先生不知何许人也	ppvo
 则君使人导之出疆	cbeb
 马之死者十二三矣	bofn
-我叩其两端而竭焉	gluf
+我叩其两端而竭焉	glul
 不知何时已而不虚	vjeu
 昔者庄周梦为胡蝶	shmq
 太阳虽不为之回光	oyli
@@ -200955,11 +200966,11 @@
 敢昭告于皇皇后帝	yjpa
 不乃为大盗积者也	vgko
 其闻道也固先乎吾	utqf
-梦之中又占其梦焉	aolf
+梦之中又占其梦焉	aoll
 百姓闻王车马之音	vctk
 未有不嗜杀人者也	fevo
 执敲扑而鞭笞天下	fafj
-莫不有文武之道焉	svef
+莫不有文武之道焉	svel
 如不善而莫之违也	cvqo
 天下大悦而将归己	fjoo
 今吾嗣为之十二年	rflg
@@ -201078,7 +201089,7 @@
 吾长见笑于大方之家	fnci
 宁其死为留骨而贵乎	iufg
 三代之得天下也以仁	leoe
-从水之道而不为私焉	rnof
+从水之道而不为私焉	rnol
 臣与将军戮力而攻秦	hhqo
 何不餔其糟而歠其酾	evkp
 哪里去辨什么真共假	lvhe
@@ -201122,7 +201133,7 @@
 有亭翼然临于泉上者	eavh
 君子何患乎无兄弟也	bkeo
 今吾朝受命而夕饮冰	rfgi
-于是焉河伯欣然自喜	fjfh
+于是焉河伯欣然自喜	fjlh
 已是十年踪迹十年心	ojgr
 王顾谓其友颜不疑曰	jvdj
 女闻人籁而未闻地籁	ctrg
@@ -201132,11 +201143,11 @@
 礼乐不兴则刑罚不中	jkvl
 邦无道则可卷而怀之	dfqo
 百里奚爵禄不入于心	vvur
-焉知来者之不如今也	fjfo
+焉知来者之不如今也	ljfo
 改西乡隆盛诗赠父亲	opkk
 不如乡人之善者好之	vcko
 季康子问政于孔子曰	mmkj
-以俟夫观人风者得焉	eeof
+以俟夫观人风者得焉	eeol
 五六月累丸二而不坠	fawy
 君子有勇而无义为乱	bkel
 代徐敬业传檄天下文	ecst
@@ -201155,14 +201166,14 @@
 四者孰知天下之正色哉	whag
 仁者老吾老以及人之老	ehhh
 则未尝见舟而便操之也	cfio
-于是焉河伯始旋其面目	fjfj
+于是焉河伯始旋其面目	fjlj
 此所谓率土地而食人肉	pddc
 若其义则不可须臾舍也	suko
 寡人非能好先王之乐也	iruo
 因宾客至蔺相如门谢罪	wiiu
 故旷日长久而社稷安矣	jjjn
 纪信等四人持剑盾步走	kegh
-楚王使大夫二人往先焉	ajef
+楚王使大夫二人往先焉	ajel
 郢人垩慢其鼻端若蝇翼	lrfv
 和答钱穆父咏猩猩毛笔	mgog
 陵与卫律之罪上通于天	yhaf
@@ -201189,7 +201200,7 @@
 止可以一宿而不可久处	pjet
 予恶乎知说生之非惑邪	kfgh
 赵王窃闻秦王善为秦声	hjih
-正初奉酬歙州刺史邢群	fxob
+正初奉酬歙州刺史邢群	lxob
 苟余情其信姱以练要兮	srrk
 金光菊和女贞子的洪流	tisn
 宁其生而曳尾于涂中乎	iupg
@@ -201220,7 +201231,7 @@
 送王十八归山寄题仙游寺	qjgh
 以先国家之急而后私仇也	epwo
 人不间于其父母昆弟之言	rvtb
-有不任其声而趋举其诗焉	evef
+有不任其声而趋举其诗焉	evel
 曾不如早索我于枯鱼之肆	qvcu
 将赴宣州留题扬州禅智寺	qhih
 国之所以废兴存亡者亦然	wodw
