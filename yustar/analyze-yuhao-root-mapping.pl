@@ -55,6 +55,7 @@ sub analyze_chaifen_dict($file, $is_tw) {
     while (<$fh>) {
         my ($char, $chaifen, $code) = $_ =~ /^(\S+)\s+\[([^,]+),([^,]+)/;
         next unless $code && $chaifen =~ /{/;
+        next unless exists $yuhao_chaifen->{$char};
 
         my @a = $chaifen =~ /{[^}]+}|\S/g;
         my @b = (($is_tw ? $yuhao_chaifen->{$char}[1] : "") || $yuhao_chaifen->{$char}[0]) =~ /\S/g;

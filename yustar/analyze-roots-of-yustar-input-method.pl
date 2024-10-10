@@ -41,7 +41,7 @@ sub analyze($fh) {
 
     while (<$fh>) {
         my ($char, $chaifen, $code) = $_ =~ /^(\S+)\s+\[([^,]+),([^,]+)/;
-        next unless $code;
+        next unless $code && $chaifen !~ /~/;   # skip special root "~" which stands for picking little code
 
         my @a = $chaifen =~ /((?:{[^}]+})|.)/g;
 
