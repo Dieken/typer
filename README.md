@@ -33,5 +33,6 @@ exort FYNE_FONT=/path/to/TH-Tshyn-P0.ttf        # http://cheonhyeong.com/Simplif
 * sbfd/: [声笔飞单](https://sbxlm.github.io/sbfd/)字根表、拆分表、码表；
 * sky/:  [天码](https://yuhao.forfudan.com/docs/tianma.html)字根表、拆分表、码表；
 * yustar/: [宇浩星陈](https://yuhao.forfudan.com/learn/)字根表、拆分表、码表；
+* yujoy/: [卿云](https://shurufa.app/docs/joy.html)字根表；
 * tiger/: [虎码](https://tiger-code.com)字根表、拆分表、码表；
 * top6000.txt: 高频单字表，由 `tiger/generate.sh` 生成；
