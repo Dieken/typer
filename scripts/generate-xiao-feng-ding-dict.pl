@@ -1,8 +1,8 @@
 #!/usr/bin/env perl
 #
-# 根据正常码表生成赵小锋的二三顶码表
+# 根据正常码表生成赵小锋的二三四顶码表
 #
-# Usage: ./generate-two-three-ding-dict.pl --top-chars=top-chars.txt PATH/TO/RIME/DICT.yaml...
+# Usage: ./generate-xiao-feng-ding-dict.pl --top-chars=top-chars.txt --use-end --length-order PATH/TO/RIME/DICT.yaml...
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
 use utf8;                               # so literals and identifiers can be in UTF-8
@@ -15,13 +15,17 @@ use autodie;
 use Getopt::Long;
 
 my $top_chars = "top-chars.txt";
-my $top_n = 3000;
-my $use_end = 0;
+my $top_n = 3000;       # 取前多少个高频字，不建议超过 3000
+my $use_end = 0;        # 使用第三码还是末码，0 为第三码，1 为末码，使用末码的重码较少
+my $length_order = 0;   # 按字频分配简码时是否优先按全码长度分配，0 为仅按字频，1 为按长度和字频，推荐用 1 以减少记忆简码
+my $max_length = 4;     # 最大码长，不超过 4
 
 GetOptions(
     'top-chars=s' => \$top_chars,
     'top-n=i'    => \$top_n,
     'use-end'    => \$use_end,
+    'length-order' => \$length_order,
+    'max-length=i' => \$max_length,
 );
 
 my %dict;
@@ -34,20 +38,28 @@ while (<>) {
     $dict{$a[0]} = $a[1] unless exists $dict{$a[0]} && length($dict{$a[0]}) >= length($a[1]);
 }
 
-my @new_dict = ({}, {}, {});
+my @new_dict;
 
+my %top_chars;
 open my $fh, '<', $top_chars;
 while (<$fh>) {
     chomp;
 
     last if $. > $top_n;
+    $top_chars{$_}{sequence} = $.;
+    $top_chars{$_}{length} = length($dict{$_});
+}
+close $fh;
 
-    for my $i (0 .. 2) {
+for (sort { ($length_order ? $top_chars{$a}{length} <=> $top_chars{$b}{length} : 0) ||
+            $top_chars{$a}{sequence} <=> $top_chars{$b}{sequence} }
+        keys %top_chars) {
+    for my $i (0 .. $max_length - 1) {
         my $code = $dict{$_};
         die "Unknown char $_" unless defined $code;
 
-        if ($use_end && $i == 2 && length($code) > 3) {
-            $code = substr($code, 0, 2) . substr($code, -1);
+        if ($use_end && $i == ($max_length - 1) && length($code) > $max_length) {
+            $code = substr($code, 0, $max_length - 1) . substr($code, -1);
         } else {
             $code = substr($code, 0, $i + 1);
         }
@@ -56,10 +68,9 @@ while (<$fh>) {
             $new_dict[$i]{$code} = 1;
             print "$_\t$code\n";
             last;
-        } elsif ($i == 2) {
+        } elsif ($i == ($max_length - 1)) {
             warn "Duplicated code $code ($_)\n";
             print "$_\t$code\n";
         }
     }
 }
-close $fh;
