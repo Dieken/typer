@@ -20,7 +20,7 @@ use Encode   qw(decode);
 
 use autodie;
 use Getopt::Long;
-use List::Util qw/uniqstr/;
+use List::Util qw/any/;
 use Time::Piece;
 
 my @dict_files;
@@ -54,13 +54,18 @@ for my $char (@chars_by_weight) {
 
     for my $code (@char_codes) {
         for my $n (1 .. 3) {
-            next if length($code) < $n;
+            last if length($code) <= $n;
 
             my $quick = substr($code, 0, $n);
 
+            # whether duplicate shorter quick code
+            #last if $n > 1 && exists $codes->{substr($code, 0, $n - 1)}{$char};
+
             unless (exists $quick_num{$quick}) {
                 if (exists $codes->{$quick}) {
-                    $quick_num{$quick} = scalar grep { length($_) == 1 } keys %{ $codes->{$quick} };
+                    $quick_num{$quick} = scalar grep {
+                        length($_) == 1 && any { length($_) > $n } keys %{ $chars->{$_} }
+                    } keys %{ $codes->{$quick} };
                 } else {
                     $quick_num{$quick} = 0;
                 }
@@ -128,7 +133,8 @@ sub read_dicts(@dict) {
 
             my @a = split;
             next unless @a >= 2;
-            next unless length($a[1]) != 2;     # throw away 2-quick codes
+
+            next unless length($a[1]) > 2;      # throw away 1-quick and 2-quick codes
             next if length($a[1]) < 4 && $a[0] =~ /^\p{Han}{2,}$/;  # throw away quick words
 
             $codes{$a[1]}{$a[0]} = 1;
