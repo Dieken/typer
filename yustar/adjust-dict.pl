@@ -7,6 +7,7 @@
 #   export R=path/to/宇浩星陳_v3.6.1-beta.20241009/schema
 #   a=$(grep '^\s*-\s\+yuhao/' $R/yustar_sc.dict.yaml | perl -lpE 's/\r//; s/^\s*\-\s*/-d $ENV{R}\//; s/$/.dict.yaml/')
 #   ./adjust-dict.pl $a -c ../简体字频表-2.5b.txt -w ../词频数据.txt > yustar_sc.all.dict.yaml
+#   #./adjust-dict.pl $a -c $R/yuhao.essay.txt -w $R/yuhao.essay.txt > yustar_sc.all.dict.yaml
 #
 # 简体字频表-2.5b: 北语刑红兵，https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm
 # 词频数据： QQ 092五笔正规闲聊群㊣ 6592557 文件区 【词频】-> 【词频数据.txt】
@@ -26,16 +27,19 @@ use Time::Piece;
 my @dict_files;
 my @char_files;
 my @word_files;
+my $unihan_dir = "../sbfd";
 
 GetOptions(
     'dict=s'        => \@dict_files,
     'char-freq=s'   => \@char_files,
     'word-freq=s'   => \@word_files,
+    'unihan-dir=s'  => \$unihan_dir,
 );
 
 my ($chars, $codes) = read_dicts(@dict_files);
 my $char_weights = read_freqs(1, @char_files);
 my $word_weights = read_freqs(0, @word_files);
+my $variants = parse_unihan_variants("$unihan_dir/Unihan_Variants.txt");
 
 say STDERR "chars: ", scalar keys %$chars;
 say STDERR "codes: ", scalar keys %$codes;
@@ -47,8 +51,9 @@ my @chars_by_weight = sort { $char_weights->{$b} <=>  $char_weights->{$a} or $a 
 my %quick_num;      # quick_code => num
 
 # add quick codes
-for my $char (@chars_by_weight) {
+for my $char (@chars_by_weight[0 .. 8200]) {
     next unless exists $chars->{$char};
+    next if exists $variants->{$char};
 
     my @char_codes = keys %{ $chars->{$char} };
 
@@ -110,6 +115,7 @@ for my $code (sort { length($a) <=> length($b) or $a cmp $b } keys %$codes) {
     }
 
     for (@words) {
+        #say "$_\t$code\t", (length($_) < 4 ? $char_weights->{$_} : $word_weights->{$_}) // -1;
         say "$_\t$code";
     }
 }
@@ -145,6 +151,15 @@ sub read_dicts(@dict) {
         }
 
         close $fh;
+    }
+
+    # remove 3-quick codes
+    while (my ($char, $codes) = each %chars)  {
+        my @a = sort { length($b) <=> length($a) } keys %$codes;
+        my $n = length($a[0]);
+        for (@a[1 .. $#a]) {
+            delete $codes->{$_} if length($_) < $n;
+        }
     }
 
     return (\%chars, \%codes);
@@ -187,4 +202,29 @@ sub read_freqs($is_char, @dicts) {
     }
 
     return \%weights;
+}
+
+sub parse_unihan_variants($path) {
+    my %variants;
+
+    open my $fh, '<', $path;
+    while (<$fh>) {
+        chomp;
+
+        my @a = split;
+        next unless $a[2] && $a[0] =~ /^U\+/;
+
+        if ($a[1] eq 'kTraditionalVariant') {
+            map { $variants{to_char($_)}{to_char($a[0])} = 1 if $_ ne $a[0] } @a[2..$#a];
+        } elsif ($a[1] eq 'kSimplifiedVariant') {
+            map { $variants{to_char($a[0])}{to_char($_)} = 1 if $_ ne $a[0] } @a[2..$#a];
+        }
+    }
+    close $fh;
+
+    return \%variants;
+}
+
+sub to_char($codepoint) {
+    return chr(hex(substr($codepoint, 2)));
 }
