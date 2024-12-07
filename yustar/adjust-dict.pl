@@ -6,7 +6,7 @@
 # Usage:
 #   export R=path/to/宇浩星陳_v3.6.1-beta.20241009/schema
 #   a=$(grep '^\s*-\s\+yuhao/' $R/yustar_sc.dict.yaml | perl -lpE 's/\r//; s/^\s*\-\s*/-d $ENV{R}\//; s/$/.dict.yaml/')
-#   ./adjust-dict.pl $a -c ../简体字频表-2.5b.txt -w ../词频数据.txt > yustar_sc.all.dict.yaml
+#   ./adjust-dict.pl $a -c ../简体字频表-2.5b.txt -w ../词频数据.txt -c override_weight.txt -w override_weight.txt > yustar_sc.all.dict.yaml
 #   #./adjust-dict.pl $a -c $R/yuhao.essay.txt -w $R/yuhao.essay.txt > yustar_sc.all.dict.yaml
 #
 # 简体字频表-2.5b: 北语刑红兵，https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm
@@ -115,7 +115,8 @@ for my $code (sort { length($a) <=> length($b) or $a cmp $b } keys %$codes) {
     }
 
     for (@words) {
-        #say "$_\t$code\t", (length($_) < 4 ? $char_weights->{$_} : $word_weights->{$_}) // -1;
+        #say "$_\t$code\t", (length($_) == 1 ? $char_weights->{$_} : $word_weights->{$_}) // -1;
+        next if exists $word_weights->{$_} && $word_weights->{$_} < 0;
         say "$_\t$code";
     }
 }
@@ -154,11 +155,11 @@ sub read_dicts(@dict) {
     }
 
     # remove 3-quick codes
-    while (my ($char, $codes) = each %chars)  {
-        my @a = sort { length($b) <=> length($a) } keys %$codes;
+    while (my ($char, $char_codes) = each %chars)  {
+        my @a = sort { length($b) <=> length($a) } keys %$char_codes;
         my $n = length($a[0]);
         for (@a[1 .. $#a]) {
-            delete $codes->{$_} if length($_) < $n;
+            delete $codes{$_}{$char} if length($_) < $n;
         }
     }
 
