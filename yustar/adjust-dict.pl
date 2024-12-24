@@ -28,12 +28,14 @@ my @dict_files;
 my @char_files;
 my @word_files;
 my $unihan_dir = "../sbfd";
+my $min_weight = 10;
 
 GetOptions(
     'dict=s'        => \@dict_files,
     'char-freq=s'   => \@char_files,
     'word-freq=s'   => \@word_files,
     'unihan-dir=s'  => \$unihan_dir,
+    'min-weight=i'  => \$min_weight,
 );
 
 my ($chars, $codes) = read_dicts(@dict_files);
@@ -116,7 +118,7 @@ for my $code (sort { length($a) <=> length($b) or $a cmp $b } keys %$codes) {
 
     for (@words) {
         #say "$_\t$code\t", (length($_) == 1 ? $char_weights->{$_} : $word_weights->{$_}) // -1;
-        next if exists $word_weights->{$_} && $word_weights->{$_} < 0;
+        next if exists $word_weights->{$_} && $word_weights->{$_} < $min_weight;
         say "$_\t$code";
     }
 }
