@@ -56,8 +56,8 @@ my %mabiao;
     open my $fh, "<", $mabiao_file;
     while (<$fh>) {
         chomp;
-        my @a = split;
-        next unless $a[0] && $a[0] !~ /^#/;
+        my @a = split /\t/;
+        next unless @a > 1 && $a[0] !~ /^#/;
         next if exists $mabiao{$a[0]} && length($a[1]) <= length($mabiao{$a[0]});
         $mabiao{$a[0]} = $a[1];
     }
