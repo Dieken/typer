@@ -3,7 +3,7 @@
 # 根据宇浩官网的拆分表，修正宇浩星陈输入法的拆分表。
 #
 # Usage:
-#   curl -s -o yuhao-chaifen.csv 'https://yuhao.forfudan.com/chaifen.csv'
+#   curl -s -o yuhao-chaifen.csv 'https://shurufa.app/chaifen.csv'
 #   fix-yuhao-chaifen-dict.pl [yustar_chaifen*.dict.yaml] yuhao-chaifen.csv
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings

@@ -3,7 +3,7 @@
 # 分析宇浩卿雲输入法的拆分表，反推 {xxx} 字根到 PUA 字符的映射
 #
 # Usage:
-#   curl -s -o yuhao-chaifen.csv 'https://yuhao.forfudan.com/chaifen.csv'
+#   curl -s -o yuhao-chaifen.csv 'https://shurufa.app/chaifen.csv'
 #   analyze-yuhao-root-mapping.pl yujoy_chaifen.dict.yaml yujoy_chaifen_tw.dict.yaml yuhao-chaifen.csv
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings

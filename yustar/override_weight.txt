@@ -24,6 +24,8 @@
 
 一双双  -10000
 
+实在是  -10000
+
 
 #  # Enable outputing weight in adjust-dict.pl, then run:
 #  perl -CSDA -lanE 'print if /^\p{Han}{2,}/ && ++$h{$F[1]} > 2 && ($F[2] < 0 || $h{$F[1]} > 4)' yustar_sc.all.dict.yaml | perl -CSDA -lanE 'print "$F[0]\t-10000"' >> override_weight.txt

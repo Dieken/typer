@@ -1,13 +1,14 @@
 #!/usr/bin/env bash
 #
-# Usage: ./generate.sh path/to/yuhao_star_v3.6.1-beta.20241009/schema
+# Usage: ./generate.sh path/to/yuhao_star_v3.8.0-beta.20250210/schema
 
 set -euo pipefail
 
-[ -e zigen-star.csv ] || curl -O 'https://yuhao.forfudan.com/zigen-star.csv'
-[ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://yuhao.forfudan.com/chaifen.csv'
+[ -e zigen-star.csv ] || curl -O 'https://shurufa.app/zigen-star.csv'
+[ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://shurufa.app/chaifen.csv'
 
 ./fix-yuhao-chaifen-dict.pl "$1"/yustar_chaifen{,_tw}.dict.yaml yuhao-chaifen.csv
+perl -CSDA -Mutf8 -i -pE 's/\{眉上\}/𠃜/g; s/\{乞上\}/𠂉/g; s/\{周框\}/⺆/g' "$1"/yustar_chaifen{,_tw}.dict.yaml yuhao-chaifen.csv
 
 ./analyze-roots-of-yustar-input-method.pl "$1"/yustar_chaifen{,_tw}.dict.yaml |
     fgrep -v '～' |
@@ -39,7 +40,7 @@ perl -CSDA -lne 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "
 cp -f "$1/../font/Yuniversus.ttf" .
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yustar_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yustar_sc.js -r roots-mapping.tsv -f Yuniversus.ttf \
-    -t "宇浩星陳字根表 v3.6.1-beta.20241009" \
+    -t "宇浩星陳字根表 v3.8.0-beta.20250210" \
     roots.tsv chaifen_sc.tsv ../top6000.txt > yustar_sc.html
 
 perl -CSDA -i -pE 's/\r//' *.tsv *.csv

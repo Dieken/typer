@@ -4,8 +4,8 @@
 
 set -euo pipefail
 
-[ -e zigen-joy.csv ] || curl -O 'https://yuhao.forfudan.com/zigen-joy.csv'
-[ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://yuhao.forfudan.com/chaifen.csv'
+[ -e zigen-joy.csv ] || curl -O 'https://shurufa.app/zigen-joy.csv'
+[ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://shurufa.app/chaifen.csv'
 
 # ---> temporary fix, 2024-10-29
 sed -i.bak -e 's/^𭁣,一丷冂丨,/𭁣,一丷冂,/' yuhao-chaifen.csv
