@@ -4,7 +4,7 @@
 #   adjust RIME dict according to frequencies of characters and words
 #
 # Usage:
-#   export R=path/to/宇浩星陳_v3.8.0-beta.20250210/schema
+#   export R=path/to/宇浩星陳_v3.8.0/schema
 #   a=$(grep '^\s*-\s\+yuhao/' $R/yustar_sc.dict.yaml | perl -lpE 's/\r//; s/^\s*\-\s*/-d $ENV{R}\//; s/$/.dict.yaml/')
 #   ./adjust-dict.pl $a -c ../简体字频表-2.5b.txt -w ../词频数据.txt -c override_weight.txt -w override_weight.txt > yustar_sc.all.dict.yaml
 #   #./adjust-dict.pl $a -c $R/yuhao.essay.txt -w $R/yuhao.essay.txt > yustar_sc.all.dict.yaml
@@ -38,15 +38,17 @@ GetOptions(
     'min-weight=i'  => \$min_weight,
 );
 
-my ($chars, $codes) = read_dicts(@dict_files);
 my $char_weights = read_freqs(1, @char_files);
 my $word_weights = read_freqs(0, @word_files);
-my $variants = parse_unihan_variants("$unihan_dir/Unihan_Variants.txt");
-
-say STDERR "chars: ", scalar keys %$chars;
-say STDERR "codes: ", scalar keys %$codes;
 say STDERR "char weights: ", scalar keys %$char_weights;
 say STDERR "word weights: ", scalar keys %$word_weights;
+
+my ($chars, $codes) = read_dicts($char_weights, $word_weights, @dict_files);
+say STDERR "chars: ", scalar keys %$chars;
+say STDERR "codes: ", scalar keys %$codes;
+
+my $variants = parse_unihan_variants("$unihan_dir/Unihan_Variants.txt");
+
 
 my @chars_by_weight = sort { $char_weights->{$b} <=>  $char_weights->{$a} or $a cmp $b } keys %$char_weights;
 
@@ -66,12 +68,14 @@ for my $char (@chars_by_weight[0 .. 8200]) {
             my $quick = substr($code, 0, $n);
 
             # whether duplicate shorter quick code
-            #last if $n > 1 && exists $codes->{substr($code, 0, $n - 1)}{$char};
+            #last if $n > 1 && exists $codes->{substr($code, 0, $n - 1)}{$char};    # 简码字只出现一次
+            #last if $n > 1 && 1 == ($codes->{substr($code, 0, 1)}{$char} // -1);   # 首选一简字只出现一次
+            last if $n > 1 && 1 == ($codes->{substr($code, 0, $n - 1)}{$char} // -1);   # 首选简码字只出现一次
 
             unless (exists $quick_num{$quick}) {
                 if (exists $codes->{$quick}) {
                     $quick_num{$quick} = scalar grep {
-                        length($_) == 1 && any { length($_) > $n } keys %{ $chars->{$_} }
+                        /^\p{Han}$/ && any { length($_) > $n } keys %{ $chars->{$_} }
                     } keys %{ $codes->{$quick} };
                 } else {
                     $quick_num{$quick} = 0;
@@ -82,7 +86,7 @@ for my $char (@chars_by_weight[0 .. 8200]) {
 
             unless (exists $codes->{$quick}{$char}) {
                 $quick_num{$quick}++;
-                $codes->{$quick}{$char} = 1;
+                $codes->{$quick}{$char} = $quick_num{$quick};
             }
         }
     }
@@ -118,17 +122,19 @@ for my $code (sort { length($a) <=> length($b) or $a cmp $b } keys %$codes) {
 
     for (@words) {
         #say "$_\t$code\t", (length($_) == 1 ? $char_weights->{$_} : $word_weights->{$_}) // -1;
-        next if exists $word_weights->{$_} && $word_weights->{$_} < $min_weight;
+        next if exists $word_weights->{$_} && $word_weights->{$_} >= 1 && $word_weights->{$_} < $min_weight;
         say "$_\t$code";
     }
 }
 
 #######################################################################
-sub read_dicts(@dict) {
+sub read_dicts($char_weights, $word_weights, @dicts) {
     my %chars;      # char => code => 1
     my %codes;      # code => char/word => 1
+    my $weight_delta = 1e-8;
+    my $weight_default = 1.0 - $weight_delta;
 
-    for my $dict (@dict) {
+    for my $dict (@dicts) {
         open my $fh, '<', $dict;
 
         while (<$fh>) {
@@ -140,17 +146,22 @@ sub read_dicts(@dict) {
 
             chomp;
 
-            my @a = split;
+            my @a = split /\t/;
             next unless @a >= 2;
 
-            next unless length($a[1]) > 2;      # throw away 1-quick and 2-quick codes
-            next if length($a[1]) < 4 && $a[0] =~ /^\p{Han}{2,}$/;  # throw away quick words
+            next if $a[1] =~ /^[a-z]{1,2}$/i;       # throw away 1-quick and 2-quick codes
+            next if $a[1] =~ /^[a-z]{1,3}$/i && $a[0] =~ /^\p{Han}{2,}$/;  # throw away quick words
 
-            $codes{$a[1]}{$a[0]} = 1;
+            $codes{$a[1]}{$a[0]} = 0;
 
             if (length($a[0]) == 1) {
                 $chars{$a[0]}{$a[1]} = 1;
+                $char_weights->{$a[0]} = $weight_default unless exists $char_weights->{$a[0]};
+            } else {
+                $word_weights->{$a[0]} = $weight_default unless exists $word_weights->{$a[0]};
             }
+
+            $weight_default -= $weight_delta;
         }
 
         close $fh;
@@ -158,7 +169,7 @@ sub read_dicts(@dict) {
 
     # remove 3-quick codes
     while (my ($char, $char_codes) = each %chars)  {
-        my @a = sort { length($b) <=> length($a) } keys %$char_codes;
+        my @a = sort { length($b) <=> length($a) } grep { /^[a-z]+$/i } keys %$char_codes;
         my $n = length($a[0]);
         for (@a[1 .. $#a]) {
             delete $codes{$_}{$char} if length($_) < $n;
