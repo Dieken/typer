@@ -1,0 +1,259 @@
+口	di
+4	pf
+1	uh
+人 全字头 亼	nr
+日 临下角 曰 冒字头	fo
+八 丷 䒑 横两点 祭字头 癶	mf
+辶	ak
+十 左字框 于无横	ks
+月 青字底 丽下角	bi
+亻	ar
+手 扌 夫三 举字底 龵	ts
+土 里无日 卖字头 壳字头	wh
+大 大框 大变	sd
+小 尚字头 少三 步字底 拣字边无七	jk
+心 忄	gi
+又 经右角	qy
+候右角 勹 匚 叚右角 卬字旁 乐二	uk
+也	sy
+木 朩 木框	rl
+白	gb
+2	as
+3	tp
+女	yb
+寸	kd
+定字底 疋	ao
+刂 乔字底 临字旁 师字旁 刀中	od
+阝 卩 节字底	qk
+不	ub
+匕 以字旁 化字边 比字旁	ib
+厶 龴 虫无口	rs
+水 氵 率字腰 氺 永无点 水字框 乑 益字头 鳏下角	is
+戈 尧字头 彧字框	tg
+了	al
+刀 负字头 万无横	md
+艹 廾 龷 带字头 丌 贲字腰	jc
+目	lm
+子	ho
+王 斜玉 噩字框	lw
+宀 冖	pg
+儿	hd
+5	ot
+力 为字框	jl
+卜 卢字头	fb
+冂 凵 见二 周字框 凹无横	yk
+乂	hq
+火 灬 恭字底	nf
+讠	zy
+夕 然左角 久二	vk
+可	gk
+攵	ld
+纟 糸	ms
+工	jg
+冫 冬字底	vl
+门	wm
+己 㔾	ij
+艮 即字旁	zg
+云 充字头	ry
+自	go
+立 立无横	sl
+斤 丘无横	zj
+见	wj
+里	bl
+羊 差字头 南字心 美字头	ay
+止 延字心无撇 卸字旁 龰	vw
+同字心	iw
+高 享字头 高头	gg
+贝	zb
+衣 衣省 衤 畏字底 旅下角 衣省变	py
+巾	oj
+文	jw
+彳	fc
+几 风省	cj
+尸 眉字框 叚字旁无二	ls
+殳	ls
+尤 尢	wy
+厂 反字框	hc
+巴	ab
+田	vt
+丰 龶 寿字头 段字旁	cf
+且 具字头	kq
+未	vw
+二	or
+方	if
+生	ms
+囗 囱字框	ok
+禾 余字底 禾框	ch
+学无子 应字心	hd
+犬 犭	cq
+用 甬字底	gy
+车 车旁	hc
+彐 聿三 彑 录字头 虐字底	cl
+示 礻	cs
+聿 隶字框 争字底 肀 妻字头无横	nv
+牛 告字头 牜	sn
+竹 竹头 临右角	ou
+至	ai
+卧人	ip
+页	ay
+各	kg
+西 覀	dk
+欠	lq
+古	hg
+业 变字头无亠 亦字底	oy
+横两撇 彡	wl
+马	gm
+和	dh
+夂	lt
+舌 舍字底	ps
+走	uw
+者	uq
+广	bg
+之	si
+豕 豕省	ys
+而	jr
+矢	us
+戊 戉 臧字框	rw
+米	vm
+亠	zf
+乍	na
+长 镸	uc
+耳	pr
+虫 贵字头	nc
+其	nq
+无 旡	uu
+今	aj
+老 耂	kl
+片 丬 北字旁 鼎右角	fp
+两	dl
+屮 屯无横 䶹	fc
+母 贯字头	cm
+身	hs
+夫	pf
+皮	gp
+山	fs
+㐄 年字底	tn
+隹	qi
+士	ws
+丁	ud
+爪 爫	ha
+户 戶	kh
+音	yy
+皿	dm
+足 足旁	su
+亍	lc
+面	sm
+四 罒	js
+已	ii
+干	ng
+弗 弟省	of
+专	ca
+早	jz
+言	ly
+由	dy
+钅	hj
+石	us
+川 荒字底 横三点 巛 学字头	oc
+非	yf
+巳	is
+穴 㓁	bk
+亥	sh
+及	pj
+三	ys
+与 与无横	ny
+七 东二	qq
+弓	ig
+亡 亾	ww
+勿 黎右角	ju
+6	oi
+气	sq
+廴	tj
+尚 尚头 龸	ss
+象	tk
+弋	ti
+雨 雨头	sv
+千	lq
+㠯	bi
+发无又	jc
+黑 曾字头无丷	vh
+六	fl
+共	og
+民	zm
+丩	bj
+廿	in
+井	nj
+乃 凸无横	on
+五	gu
+歹 歺	wd
+光	lg
+牙	sy
+谷	yg
+支	ci
+难	rn
+壬	lr
+句	nj
+九	vj
+金	zj
+氏	ys
+入	nu
+酉	ky
+予	pv
+龙	hl
+疒	cb
+齐	gq
+鬼	yg
+辛 辛变	jk
+幺	fy
+毛	rm
+鸟 鸟省	dn
+丸	nw
+禸 禺下	nn
+韦	kw
+册 扁字心 冊	lc
+束	gs
+飞	of
+羽	hv
+麻	qm
+谁	ns
+缶	yf
+傻下角	os
+卯 留字头	am
+壴	pu
+舟	vo
+臼 臼裂	kj
+辰	gc
+甫	vf
+革	og
+垂	yc
+龹 养字头	bc
+春字头	kc
+鱼 衡字心	qv
+虎 虍	qh
+饣	ks
+臣 颐字旁	jc
+甘	ig
+食 飠	ps
+微字框	kw
+寒字腰带八	ss
+瓜	wg
+习	ck
+兼	dj
+曲	lq
+骨	ug
+维	kw
+瓦	ww
+乡	nk
+乌	du
+鬲	mg
+甲	qj
+兔	kt
+豸	vm
+齿	uc
+舞字头	hw
+鹿 鹿旁	vl
+耒	vl
+㡀	wb
+鼠	ss
+赢字框	ni
+爿 鼎左角	jp
+毋	cu

@@ -24,6 +24,9 @@ curl -s 'https://flauver.github.io/jdh/lutai/zigen.json' | perl -CO -lE '
         }
     }' | LC_ALL=C sort -k2,2 -k1,1 > roots.tsv
 
+# XXX: zigen.json isn't latest on 2025-04-07
+perl -CSDA -Mutf8 -lanE '@a = map { tr/123456/一丨丿丶乛乙/; length > 1 ? "{$_}" : $_ } @F[0..$#F-1]; for (@a) { print "$_\t", ucfirst($F[$#F])}' beneficialelementsmap.txt | LC_ALL=C sort -k2,2 -k1,1 > roots.tsv
+
 perl -CSDA -Mutf8 -F'\t' -lanE '$F[1] =~ tr/123456/一丨丿丶乛乙/; $F[1] = join("", map { length > 1 ? "{$_}" : $_ } split /\s+/, $F[1]); print "$F[0]\t$F[1]"' beneficialcf.txt > chaifen.tsv
 
 perl -CSDA -lnE '$ok = 1 if !$ok && /^\.\.\./; print if $ok' "$D/lutai.dict.yaml" > mabiao.tsv
