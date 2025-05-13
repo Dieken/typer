@@ -3,6 +3,8 @@
 # 生成简繁字对照表
 #
 # Usage: ./generate-traditional-chars.pl --unihan-dir=../sbfd | tabulate -f plain
+#
+# 参考「简繁转换一对多列表」： https://zh.wikipedia.org/wiki/%E7%B0%A1%E7%B9%81%E8%BD%89%E6%8F%9B%E4%B8%80%E5%B0%8D%E5%A4%9A%E5%88%97%E8%A1%A8
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
 use utf8;                               # so literals and identifiers can be in UTF-8

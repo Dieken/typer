@@ -30,7 +30,7 @@ undef $fh;
 #analyze($fh);
 #close $fh;
 
-for (sort { $roots{$a} cmp $roots{$b} } keys %roots) {
+for (sort { $roots{$a} cmp $roots{$b} || $a cmp $b } keys %roots) {
     say "$_\t", $roots{$_};
 }
 
