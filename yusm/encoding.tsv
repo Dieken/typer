@@ -1,12 +1,14 @@
-a	ie
+a	an
+a	ia
+a	ian
+a	ua
 e	ai
-e	an
 e	ang
 e	en
 e	eng
+e	ie
 e	ou
 e	ru
-e	ua
 e	ü
 e	üe
 i	ao
@@ -14,7 +16,6 @@ i	iao
 i	ing
 i	iong
 i	ong
-i	ren
 i	ri
 i	uan
 i	uen
@@ -25,6 +26,7 @@ o	ei
 o	er
 o	iang
 o	in
+o	ren
 o	uang
 o	uei
 o	ui
@@ -32,8 +34,6 @@ o	uo
 o	∅
 r	ch
 s	zh
-u	ia
-u	ian
 u	iou
 u	iu
 ∅	r
