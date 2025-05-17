@@ -43,4 +43,7 @@ cp -f "$1/../font/Yuniversus.ttf" .
     -t "宇浩星陳字根表 v3.8.0" \
     roots.tsv chaifen_sc.tsv ../top6000.txt > yustar_sc.html
 
+perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if $F[1] && length($F[0]) == 1 && length($F[1]) == 1' "$1"/yuhao/yustar_sc.quick.dict.yaml > dazhu.txt
+perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if $F[1]' "$1"/yuhao/yustar.full.dict.yaml | grep -v '^/' >> dazhu.txt
+
 perl -CSDA -i -pE 's/\r//' *.tsv *.csv
