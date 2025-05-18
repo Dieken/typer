@@ -165,10 +165,6 @@ for my $k (sort keys %encodings) {
 }
 
 for (sort { $roots{$a}{code} cmp $roots{$b}{code} || $a cmp $b } keys %roots) {
-    my $py = $pinyin{$_};
-    if ($py) {
-        say STDERR "$_\t", $roots{$_}{code}, "\t$py";
-    } else {
-        say STDERR "$_\t", $roots{$_}{code};
-    }
+    my $py = $pinyin{$_} // '';
+    say STDERR "$_\t", $roots{$_}{code}, "\t$py";
 }
