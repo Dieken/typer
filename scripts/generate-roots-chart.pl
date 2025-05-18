@@ -276,6 +276,7 @@ $font_face
     font-family: $extra_font "TH-Tshyn-P0", "TH-Tshyn-P1", "TH-Tshyn-P2",
                  "KaiXinSongA", "KaiXinSongB",
                  "SimSun", "SimSun-ExtB", "SimSun-ExtG",
+                 "WenJin Mincho Plane 0", "WenJin Mincho Plane 2", "WenJin Mincho Plane 3",
                  "SuperHan0ivd", "SuperHan2ivd", "SuperHan3ivd",
                  "FSung-m", "FSung-1", "FSung-2", "FSung-3", "FSung-F", "FSung-X",
                  "Jigmo", "Jigmo2", "Jigmo3", serif;
@@ -453,6 +454,7 @@ Please enable JavaScript to experience the full functionality of our site.
       <li><a href="http://cheonhyeong.com/Simplified/download.html">天珩全字库(TH-Tshyn)</a></li>
       <li><a href="https://www.guoxuedashi.net/zidian/bujian/KaiXinSong.php">开心宋体</a></li>
       <li><a href="http://soongsky.com/sky/download.php">超集宋体</a></li>
+      <li><a href="https://github.com/takushun-wu/WenJinMincho">文津宋体</a></li>
       <li><a href="https://github.com/takushun-wu/SuperHan">SuperHan 字库</a></li>
       <li><a href="https://fgwang.blogspot.com/2023/10/unicode-151.html">全宋体</a></li>
       <li><a href="https://kamichikoichi.github.io/jigmo/">Jigmo(字云)</a></li>
