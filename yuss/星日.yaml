@@ -1320,8 +1320,8 @@ optimization:
     report_after: 0.1
     parameters:
       t_max: 1
-      t_min: 1.e-9
-      steps: 100000000
+      t_min: 0.000001
+      steps: 10000
   constraints:
     indices:
       - {index: 0, keys: [q, w, r, t, 'y', p, s, d, f, g, h, j, k, l, x, c, v, b, 'n', m]}
