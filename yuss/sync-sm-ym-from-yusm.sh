@@ -10,7 +10,7 @@ perl -CSDA -lE '
      my $h = $a[0]->{form}{mapping};
      for (sort { $h->{$a} cmp $h->{$b} || $a cmp $b } keys %$h) {
         print "$_\t", ucfirst($h->{$_});
-     }' 星日.yaml > roots.tmp
+     }' 星日.yaml | LC_ALL=C sort > roots.tmp
 
 perl -CSDA -lanE '
      use Unicode::Normalize;
@@ -25,6 +25,10 @@ perl -CSDA -lanE '
      }
      if (exists $h{$F[0]}) {
           print "$_\t", substr($h{$F[0]}, 1);
+     } elsif (length($F[1]) > 2) {
+          my $sy = substr($F[1], 1);
+          $sy =~ s/@//;
+          print "$_\t", $sy;
      } else {
           print;
      }' roots.tmp > roots2.tmp
