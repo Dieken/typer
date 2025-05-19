@@ -1,13 +1,10 @@
 version: '0.2'
 source: yustar
 info:
-  name: 宇浩·星陈
-  author: 朱宇浩
+  name: 星日
+  author: qq3qq
   version: 3.7.0
-  description: |
-    十万汉字字形输入・繁简通打。
-    相似字根分九十九大类排布于二十五键。
-    方案名取自《尚书大传》之「明明上天"\uff0c"烂然星陈」。
+  description: 模仿「宇浩·日月」"\uff0c"从星陈配置起步"\uff0c"试试前缀码。
 analysis:
   classifier:
     竖钩: 5
