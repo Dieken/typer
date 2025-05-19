@@ -34,10 +34,10 @@ perl -CSDA -lanE '
 echo "!!! Double check roots.tsv for missing sm and ym"
 
 perl -CSDA -lanE '
-     print "      - {element: \"$F[0]\", index: 1, keys: [\"", length($F[2]) > 1 ? substr($F[2], 0, 1) : "@", "\"]}";
-     print "      - {element: \"$F[0]\", index: 2, keys: [\"", substr($F[2], -1, 1), "\"]}"' roots.tsv > element_constraints.txt
+     print "      - {element: \"$F[0]\", index: 1}";
+     print "      - {element: \"$F[0]\", index: 2}"' roots.tsv > element_constraints.txt
 
 perl -CSDA -lanE '
-     print "    \"$F[0]\": \"", lc(substr($F[1], 0, 1)), length($F[2]) == 1 ? "@" : "", $F[2], "\""' roots.tsv > mapping.txt
+     print "    \"$F[0]\": \"", lc(substr($F[1], 0, 1))  =~ tr/aeuio/sdjkl/r, length($F[2]) == 1 ? "@" : "", $F[2], "\""' roots.tsv > mapping.txt
 
 echo "!!! Merge mapping.txt and element_constraints.txt to 星日.yaml"

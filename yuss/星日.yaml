@@ -146,7 +146,7 @@ analysis:
     - "\ue039"
     - "\ue042"
 form:
-  alphabet: qwertyuiopasdfghjklzxcvbnm@
+  alphabet: '@abcdefghijklmnopqrstuvwxyz'
   grouping:
     "\ue089": 丷
     䒑: 丷
@@ -343,18 +343,18 @@ form:
     "\ue189": 冂
   mapping:
     '1': f@i
-    '2': ugi
+    '2': jgi
     '3': gpe
     '4': kda
     '5': y@i
-    '6': e@i
-    高: agi
-    㔾: aje
-    卩: aje
-    㐄: a@o
-    來: ale
-    木: amu
-    亠: ate
+    '6': d@i
+    高: sgi
+    㔾: sje
+    卩: sje
+    㐄: s@o
+    來: sle
+    木: smu
+    亠: ste
     丑: bre
     隶: bli
     弓: bgi
@@ -402,14 +402,14 @@ form:
     向: dxo
     讠: d@a
     至: dsi
-    風: efe
-    隹: eco
-    几: eji
-    彑: eji
-    母: emu
-    亻: e@o
-    殳: eku
-    "\ue068": ezo
+    風: dfe
+    隹: dco
+    几: dji
+    彑: dji
+    母: dmu
+    亻: d@o
+    殳: dku
+    "\ue068": dzo
     末: fmo
     尢: f@o
     尤: f@u
@@ -440,16 +440,16 @@ form:
     耂: hli
     壴: hsu
     走: hze
-    灬: ibi
-    亍: iru
-    火: iho
-    宀: ima
-    二: i@o
-    冫: i@o
-    尚: ike
-    龸: i@o
-    小: ixi
-    穴: ixe
+    灬: kbi
+    亍: kru
+    火: kho
+    宀: kma
+    二: k@o
+    冫: k@o
+    尚: kke
+    龸: k@o
+    小: kxi
+    穴: kxe
     貝: jbo
     丁: jdi
     頁: j@e
@@ -517,20 +517,20 @@ form:
     干: nga
     水: nko
     氵: nko
-    巴: oba
-    辶: oro
-    大: oda
-    "\ue064": odi
-    也: o@e
-    夫: ofu
-    已: o@i
-    己: oji
-    钅: ojo
-    乜: ome
-    巳: osi
-    糸: osi
-    糹: osi
-    之: osi
+    巴: lba
+    辶: lro
+    大: lda
+    "\ue064": ldi
+    也: l@e
+    夫: lfu
+    已: l@i
+    己: lji
+    钅: ljo
+    乜: lme
+    巳: lsi
+    糸: lsi
+    糹: lsi
+    之: lsi
     齒: pri
     工: pgi
     止: psi
@@ -574,24 +574,24 @@ form:
     豕: tki
     夊: tpu
     亡: t@o
-    卜: ubu
-    髟: ubi
-    長: ure
-    镸: ure
-    业: u@e
-    非: ufo
-    瓜: uga
-    虎: uhu
-    巾: ujo
-    鹵: ulu
-    皿: umo
-    舟: use
-    其: uqi
-    山: uka
-    "\ue001": ugi
-    罒: u@o
-    爪: usa
-    "\ue14f": usa
+    卜: jbu
+    髟: jbi
+    長: jre
+    镸: jre
+    业: j@e
+    非: jfo
+    瓜: jga
+    虎: jhu
+    巾: jjo
+    鹵: jlu
+    皿: jmo
+    舟: jse
+    其: jqi
+    山: jka
+    "\ue001": jgi
+    罒: j@o
+    爪: jsa
+    "\ue14f": jsa
     丆: vre
     厂: vre
     甲: vja
@@ -1310,577 +1310,579 @@ data:
 optimization:
   objective:
     characters_full:
-      fingering: [800, 300, 100, 800, 1000, 500, null, null]
-      tiers: [{duplication: 2000, top: 500, levels: [{length: 2, frequency: 300}, {length: 3, frequency: 200}, {length: 4, frequency: 100}]}, {duplication: 1000, top: 1500, levels: [{length: 2, frequency: 300}, {length: 3, frequency: 200}, {length: 4, frequency: 100}]}, {duplication: 500, top: 3000, levels: [{length: 2, frequency: 300}, {length: 3, frequency: 200}, {length: 4, frequency: 100}]}, {duplication: 300, top: 6000, levels: [{length: 2, frequency: 300}, {length: 3, frequency: 200}, {length: 4, frequency: 100}]}]
+      tiers: [{duplication: 1, top: 6000}]
       levels: []
+      duplication: 1428
+      key_distribution: 0.06
+      pair_equivalence: 0.75
   metaheuristic:
     algorithm: SimulatedAnnealing
     report_after: 0.1
     parameters:
       t_max: 1
-      t_min: 0.000001
-      steps: 10000
+      t_min: 1.e-9
+      steps: 100000000
   constraints:
     indices:
       - {index: 0, keys: [q, w, r, t, 'y', p, s, d, f, g, h, j, k, l, x, c, v, b, 'n', m]}
       - {index: 1, keys: [q, w, r, t, 'y', p, s, d, f, g, h, j, k, l, z, x, c, v, b, 'n', m, '@']}
       - {index: 2, keys: [a, e, i, o, u]}
     element_indices:
-      - {element: 高, index: 1, keys: [g]}
-      - {element: 高, index: 2, keys: [i]}
-      - {element: 㔾, index: 1, keys: [j]}
-      - {element: 㔾, index: 2, keys: [e]}
-      - {element: 卩, index: 1, keys: [j]}
-      - {element: 卩, index: 2, keys: [e]}
-      - {element: 㐄, index: 1, keys: ['@']}
-      - {element: 㐄, index: 2, keys: [o]}
-      - {element: 來, index: 1, keys: [l]}
-      - {element: 來, index: 2, keys: [e]}
-      - {element: 木, index: 1, keys: [m]}
-      - {element: 木, index: 2, keys: [u]}
-      - {element: 亠, index: 1, keys: [t]}
-      - {element: 亠, index: 2, keys: [e]}
-      - {element: 丑, index: 1, keys: [r]}
-      - {element: 丑, index: 2, keys: [e]}
-      - {element: 隶, index: 1, keys: [l]}
-      - {element: 隶, index: 2, keys: [i]}
-      - {element: 弓, index: 1, keys: [g]}
-      - {element: 弓, index: 2, keys: [i]}
-      - {element: 彐, index: 1, keys: [j]}
-      - {element: 彐, index: 2, keys: [i]}
-      - {element: 肀, index: 1, keys: ['@']}
-      - {element: 肀, index: 2, keys: [e]}
-      - {element: 马, index: 1, keys: [m]}
-      - {element: 马, index: 2, keys: [a]}
-      - {element: 又, index: 1, keys: ['@']}
-      - {element: 又, index: 2, keys: [u]}
-      - {element: 癶, index: 1, keys: [b]}
-      - {element: 癶, index: 2, keys: [o]}
-      - {element: "\ue007", index: 1, keys: [k]}
-      - {element: "\ue007", index: 2, keys: [o]}
-      - {element: "\ue009", index: 1, keys: [k]}
-      - {element: "\ue009", index: 2, keys: [o]}
-      - {element: 皮, index: 1, keys: [p]}
-      - {element: 皮, index: 2, keys: [i]}
-      - {element: 尸, index: 1, keys: [k]}
-      - {element: 尸, index: 2, keys: [i]}
-      - {element: "\ue0e8", index: 1, keys: ['@']}
-      - {element: "\ue0e8", index: 2, keys: [u]}
-      - {element: 言, index: 1, keys: ['@']}
-      - {element: 言, index: 2, keys: [a]}
-      - {element: 贝, index: 1, keys: [b]}
-      - {element: 贝, index: 2, keys: [o]}
-      - {element: 彳, index: 1, keys: [r]}
-      - {element: 彳, index: 2, keys: [i]}
-      - {element: "\ue055", index: 1, keys: [c]}
-      - {element: "\ue055", index: 2, keys: [e]}
-      - {element: 见, index: 1, keys: [j]}
-      - {element: 见, index: 2, keys: [a]}
-      - {element: 冂, index: 1, keys: [j]}
-      - {element: 冂, index: 2, keys: [i]}
-      - {element: 女, index: 1, keys: ['n']}
-      - {element: 女, index: 2, keys: [e]}
-      - {element: 彡, index: 1, keys: [k]}
-      - {element: 彡, index: 2, keys: [a]}
-      - {element: 雨, index: 1, keys: ['@']}
-      - {element: 雨, index: 2, keys: [e]}
-      - {element: "\ue066", index: 1, keys: ['@']}
-      - {element: "\ue066", index: 2, keys: [o]}
-      - {element: 页, index: 1, keys: ['@']}
-      - {element: 页, index: 2, keys: [e]}
-      - {element: 白, index: 1, keys: [b]}
-      - {element: 白, index: 2, keys: [e]}
-      - {element: 叀, index: 1, keys: [r]}
-      - {element: 叀, index: 2, keys: [e]}
-      - {element: 車, index: 1, keys: [r]}
-      - {element: 車, index: 2, keys: [e]}
-      - {element: 电, index: 1, keys: [d]}
-      - {element: 电, index: 2, keys: [a]}
-      - {element: "\ue0cb", index: 1, keys: [d]}
-      - {element: "\ue0cb", index: 2, keys: [o]}
-      - {element: 丰, index: 1, keys: [f]}
-      - {element: 丰, index: 2, keys: [e]}
-      - {element: 甶, index: 1, keys: [f]}
-      - {element: 甶, index: 2, keys: [u]}
-      - {element: 鬼, index: 1, keys: [g]}
-      - {element: 鬼, index: 2, keys: [o]}
-      - {element: 戶, index: 1, keys: [h]}
-      - {element: 戶, index: 2, keys: [u]}
-      - {element: 臼, index: 1, keys: [j]}
-      - {element: 臼, index: 2, keys: [u]}
-      - {element: 斤, index: 1, keys: [j]}
-      - {element: 斤, index: 2, keys: [o]}
-      - {element: 門, index: 1, keys: [m]}
-      - {element: 門, index: 2, keys: [e]}
-      - {element: 鳥, index: 1, keys: ['n']}
-      - {element: 鳥, index: 2, keys: [i]}
-      - {element: 由, index: 1, keys: ['@']}
-      - {element: 由, index: 2, keys: [u]}
-      - {element: 片, index: 1, keys: [p]}
-      - {element: 片, index: 2, keys: [a]}
-      - {element: 曲, index: 1, keys: [q]}
-      - {element: 曲, index: 2, keys: [e]}
-      - {element: 爿, index: 1, keys: [p]}
-      - {element: 爿, index: 2, keys: [a]}
-      - {element: 申, index: 1, keys: [k]}
-      - {element: 申, index: 2, keys: [e]}
-      - {element: 鬥, index: 1, keys: [d]}
-      - {element: 鬥, index: 2, keys: [e]}
-      - {element: 烏, index: 1, keys: ['@']}
-      - {element: 烏, index: 2, keys: [u]}
-      - {element: 向, index: 1, keys: [x]}
-      - {element: 向, index: 2, keys: [o]}
-      - {element: 讠, index: 1, keys: ['@']}
-      - {element: 讠, index: 2, keys: [a]}
-      - {element: 至, index: 1, keys: [s]}
-      - {element: 至, index: 2, keys: [i]}
-      - {element: 風, index: 1, keys: [f]}
-      - {element: 風, index: 2, keys: [e]}
-      - {element: 隹, index: 1, keys: [c]}
-      - {element: 隹, index: 2, keys: [o]}
-      - {element: '6', index: 1, keys: ['@']}
-      - {element: '6', index: 2, keys: [i]}
-      - {element: 几, index: 1, keys: [j]}
-      - {element: 几, index: 2, keys: [i]}
-      - {element: 彑, index: 1, keys: [j]}
-      - {element: 彑, index: 2, keys: [i]}
-      - {element: 母, index: 1, keys: [m]}
-      - {element: 母, index: 2, keys: [u]}
-      - {element: 亻, index: 1, keys: ['@']}
-      - {element: 亻, index: 2, keys: [o]}
-      - {element: 殳, index: 1, keys: [k]}
-      - {element: 殳, index: 2, keys: [u]}
-      - {element: "\ue068", index: 1, keys: [z]}
-      - {element: "\ue068", index: 2, keys: [o]}
-      - {element: '1', index: 1, keys: ['@']}
-      - {element: '1', index: 2, keys: [i]}
-      - {element: 末, index: 1, keys: [m]}
-      - {element: 末, index: 2, keys: [o]}
-      - {element: 尢, index: 1, keys: ['@']}
-      - {element: 尢, index: 2, keys: [o]}
-      - {element: 尤, index: 1, keys: ['@']}
-      - {element: 尤, index: 2, keys: [u]}
-      - {element: 手, index: 1, keys: [k]}
-      - {element: 手, index: 2, keys: [e]}
-      - {element: 扌, index: 1, keys: [k]}
-      - {element: 扌, index: 2, keys: [e]}
-      - {element: 龵, index: 1, keys: [k]}
-      - {element: 龵, index: 2, keys: [e]}
-      - {element: 未, index: 1, keys: ['@']}
-      - {element: 未, index: 2, keys: [o]}
-      - {element: 艮, index: 1, keys: [g]}
-      - {element: 艮, index: 2, keys: [e]}
-      - {element: 黑, index: 1, keys: [h]}
-      - {element: 黑, index: 2, keys: [o]}
-      - {element: 十, index: 1, keys: [k]}
-      - {element: 十, index: 2, keys: [i]}
-      - {element: 乃, index: 1, keys: ['n']}
-      - {element: 乃, index: 2, keys: [e]}
-      - {element: '3', index: 1, keys: [p]}
-      - {element: '3', index: 2, keys: [e]}
-      - {element: 气, index: 1, keys: [q]}
-      - {element: 气, index: 2, keys: [i]}
-      - {element: "\ue831", index: 1, keys: ['@']}
-      - {element: "\ue831", index: 2, keys: [o]}
-      - {element: 廴, index: 1, keys: ['@']}
-      - {element: 廴, index: 2, keys: [o]}
-      - {element: "\ue0b7", index: 1, keys: ['@']}
-      - {element: "\ue0b7", index: 2, keys: [o]}
-      - {element: 竹, index: 1, keys: [s]}
-      - {element: 竹, index: 2, keys: [u]}
-      - {element: 牙, index: 1, keys: ['@']}
-      - {element: 牙, index: 2, keys: [a]}
-      - {element: 臣, index: 1, keys: [r]}
-      - {element: 臣, index: 2, keys: [e]}
-      - {element: 匚, index: 1, keys: [f]}
-      - {element: 匚, index: 2, keys: [e]}
-      - {element: 户, index: 1, keys: [h]}
-      - {element: 户, index: 2, keys: [u]}
-      - {element: 戸, index: 1, keys: [h]}
-      - {element: 戸, index: 2, keys: [u]}
-      - {element: 丂, index: 1, keys: [k]}
-      - {element: 丂, index: 2, keys: [i]}
-      - {element: 犬, index: 1, keys: [q]}
-      - {element: 犬, index: 2, keys: [i]}
-      - {element: 犭, index: 1, keys: [q]}
-      - {element: 犭, index: 2, keys: [i]}
-      - {element: 士, index: 1, keys: [k]}
-      - {element: 士, index: 2, keys: [i]}
-      - {element: 龶, index: 1, keys: [k]}
-      - {element: 龶, index: 2, keys: [e]}
-      - {element: 土, index: 1, keys: [d]}
-      - {element: 土, index: 2, keys: [u]}
-      - {element: 耂, index: 1, keys: [l]}
-      - {element: 耂, index: 2, keys: [i]}
-      - {element: 壴, index: 1, keys: [s]}
-      - {element: 壴, index: 2, keys: [u]}
-      - {element: 走, index: 1, keys: [z]}
-      - {element: 走, index: 2, keys: [e]}
-      - {element: 灬, index: 1, keys: [b]}
-      - {element: 灬, index: 2, keys: [i]}
-      - {element: 亍, index: 1, keys: [r]}
-      - {element: 亍, index: 2, keys: [u]}
-      - {element: 火, index: 1, keys: [h]}
-      - {element: 火, index: 2, keys: [o]}
-      - {element: 宀, index: 1, keys: [m]}
-      - {element: 宀, index: 2, keys: [a]}
-      - {element: 二, index: 1, keys: ['@']}
-      - {element: 二, index: 2, keys: [o]}
-      - {element: 冫, index: 1, keys: ['@']}
-      - {element: 冫, index: 2, keys: [o]}
-      - {element: 尚, index: 1, keys: [k]}
-      - {element: 尚, index: 2, keys: [e]}
-      - {element: 龸, index: 1, keys: ['@']}
-      - {element: 龸, index: 2, keys: [o]}
-      - {element: 小, index: 1, keys: [x]}
-      - {element: 小, index: 2, keys: [i]}
-      - {element: 穴, index: 1, keys: [x]}
-      - {element: 穴, index: 2, keys: [e]}
-      - {element: 貝, index: 1, keys: [b]}
-      - {element: 貝, index: 2, keys: [o]}
-      - {element: 丁, index: 1, keys: [d]}
-      - {element: 丁, index: 2, keys: [i]}
-      - {element: 頁, index: 1, keys: ['@']}
-      - {element: 頁, index: 2, keys: [e]}
-      - {element: 缶, index: 1, keys: [f]}
-      - {element: 缶, index: 2, keys: [e]}
-      - {element: 古, index: 1, keys: [g]}
-      - {element: 古, index: 2, keys: [u]}
-      - {element: 矢, index: 1, keys: [k]}
-      - {element: 矢, index: 2, keys: [i]}
-      - {element: 見, index: 1, keys: [j]}
-      - {element: 見, index: 2, keys: [a]}
-      - {element: 目, index: 1, keys: [m]}
-      - {element: 目, index: 2, keys: [u]}
-      - {element: 且, index: 1, keys: [q]}
-      - {element: 且, index: 2, keys: [e]}
-      - {element: 日, index: 1, keys: ['@']}
-      - {element: 日, index: 2, keys: [i]}
-      - {element: 示, index: 1, keys: [k]}
-      - {element: 示, index: 2, keys: [i]}
-      - {element: 丄, index: 1, keys: [k]}
-      - {element: 丄, index: 2, keys: [e]}
-      - {element: 上, index: 1, keys: [k]}
-      - {element: 上, index: 2, keys: [e]}
-      - {element: "\ue16a", index: 1, keys: ['@']}
-      - {element: "\ue16a", index: 2, keys: [o]}
-      - {element: 王, index: 1, keys: ['@']}
-      - {element: 王, index: 2, keys: [o]}
-      - {element: 丅, index: 1, keys: [x]}
-      - {element: 丅, index: 2, keys: [a]}
-      - {element: 下, index: 1, keys: [x]}
-      - {element: 下, index: 2, keys: [a]}
-      - {element: 曰, index: 1, keys: ['@']}
-      - {element: 曰, index: 2, keys: [e]}
-      - {element: 早, index: 1, keys: [z]}
-      - {element: 早, index: 2, keys: [i]}
-      - {element: 八, index: 1, keys: [b]}
-      - {element: 八, index: 2, keys: [a]}
-      - {element: 寸, index: 1, keys: [c]}
-      - {element: 寸, index: 2, keys: [i]}
-      - {element: '4', index: 1, keys: [d]}
-      - {element: '4', index: 2, keys: [a]}
-      - {element: 了, index: 1, keys: [l]}
-      - {element: 了, index: 2, keys: [e]}
-      - {element: 戈, index: 1, keys: [g]}
-      - {element: 戈, index: 2, keys: [e]}
-      - {element: 弋, index: 1, keys: ['@']}
-      - {element: 弋, index: 2, keys: [i]}
-      - {element: 纟, index: 1, keys: [s]}
-      - {element: 纟, index: 2, keys: [i]}
-      - {element: 立, index: 1, keys: [l]}
-      - {element: 立, index: 2, keys: [i]}
-      - {element: 卯, index: 1, keys: [m]}
-      - {element: 卯, index: 2, keys: [i]}
-      - {element: 入, index: 1, keys: ['@']}
-      - {element: 入, index: 2, keys: [e]}
-      - {element: 食, index: 1, keys: [k]}
-      - {element: 食, index: 2, keys: [i]}
-      - {element: 予, index: 1, keys: ['@']}
-      - {element: 予, index: 2, keys: [e]}
-      - {element: 戊, index: 1, keys: ['@']}
-      - {element: 戊, index: 2, keys: [u]}
-      - {element: 辛, index: 1, keys: [x]}
-      - {element: 辛, index: 2, keys: [o]}
-      - {element: 子, index: 1, keys: [z]}
-      - {element: 子, index: 2, keys: [i]}
-      - {element: 三, index: 1, keys: [s]}
-      - {element: 三, index: 2, keys: [a]}
-      - {element: 巛, index: 1, keys: [r]}
-      - {element: 巛, index: 2, keys: [i]}
-      - {element: 巜, index: 1, keys: [r]}
-      - {element: 巜, index: 2, keys: [i]}
-      - {element: 川, index: 1, keys: [r]}
-      - {element: 川, index: 2, keys: [i]}
-      - {element: 耳, index: 1, keys: ['@']}
-      - {element: 耳, index: 2, keys: [o]}
-      - {element: 丌, index: 1, keys: [j]}
-      - {element: 丌, index: 2, keys: [i]}
-      - {element: 舌, index: 1, keys: [k]}
-      - {element: 舌, index: 2, keys: [e]}
-      - {element: "\ue0e2", index: 1, keys: ['@']}
-      - {element: "\ue0e2", index: 2, keys: [o]}
-      - {element: 口, index: 1, keys: [k]}
-      - {element: 口, index: 2, keys: [e]}
-      - {element: 兀, index: 1, keys: ['@']}
-      - {element: 兀, index: 2, keys: [u]}
-      - {element: 正, index: 1, keys: [s]}
-      - {element: 正, index: 2, keys: [e]}
-      - {element: 麻, index: 1, keys: [m]}
-      - {element: 麻, index: 2, keys: [a]}
-      - {element: 疒, index: 1, keys: [b]}
-      - {element: 疒, index: 2, keys: [i]}
-      - {element: 辰, index: 1, keys: [r]}
-      - {element: 辰, index: 2, keys: [e]}
-      - {element: 刀, index: 1, keys: [d]}
-      - {element: 刀, index: 2, keys: [i]}
-      - {element: 刂, index: 1, keys: [d]}
-      - {element: 刂, index: 2, keys: [i]}
-      - {element: 广, index: 1, keys: [g]}
-      - {element: 广, index: 2, keys: [o]}
-      - {element: 禾, index: 1, keys: [h]}
-      - {element: 禾, index: 2, keys: [e]}
-      - {element: 鹿, index: 1, keys: [l]}
-      - {element: 鹿, index: 2, keys: [u]}
-      - {element: 毛, index: 1, keys: [m]}
-      - {element: 毛, index: 2, keys: [i]}
-      - {element: 鸟, index: 1, keys: ['n']}
-      - {element: 鸟, index: 2, keys: [i]}
-      - {element: 千, index: 1, keys: [q]}
-      - {element: 千, index: 2, keys: [a]}
-      - {element: 壬, index: 1, keys: ['@']}
-      - {element: 壬, index: 2, keys: [o]}
-      - {element: 乌, index: 1, keys: ['@']}
-      - {element: 乌, index: 2, keys: [u]}
-      - {element: 夭, index: 1, keys: ['@']}
-      - {element: 夭, index: 2, keys: [i]}
-      - {element: 豸, index: 1, keys: [s]}
-      - {element: 豸, index: 2, keys: [i]}
-      - {element: 厶, index: 1, keys: [s]}
-      - {element: 厶, index: 2, keys: [i]}
-      - {element: 幺, index: 1, keys: ['@']}
-      - {element: 幺, index: 2, keys: [i]}
-      - {element: 匕, index: 1, keys: [b]}
-      - {element: 匕, index: 2, keys: [i]}
-      - {element: 长, index: 1, keys: [r]}
-      - {element: 长, index: 2, keys: [e]}
-      - {element: 甫, index: 1, keys: [f]}
-      - {element: 甫, index: 2, keys: [u]}
-      - {element: 干, index: 1, keys: [g]}
-      - {element: 干, index: 2, keys: [a]}
-      - {element: 水, index: 1, keys: [k]}
-      - {element: 水, index: 2, keys: [o]}
-      - {element: 氵, index: 1, keys: [k]}
-      - {element: 氵, index: 2, keys: [o]}
-      - {element: 巴, index: 1, keys: [b]}
-      - {element: 巴, index: 2, keys: [a]}
-      - {element: 辶, index: 1, keys: [r]}
-      - {element: 辶, index: 2, keys: [o]}
-      - {element: 大, index: 1, keys: [d]}
-      - {element: 大, index: 2, keys: [a]}
-      - {element: "\ue064", index: 1, keys: [d]}
-      - {element: "\ue064", index: 2, keys: [i]}
-      - {element: 也, index: 1, keys: ['@']}
-      - {element: 也, index: 2, keys: [e]}
-      - {element: 夫, index: 1, keys: [f]}
-      - {element: 夫, index: 2, keys: [u]}
-      - {element: 已, index: 1, keys: ['@']}
-      - {element: 已, index: 2, keys: [i]}
-      - {element: 己, index: 1, keys: [j]}
-      - {element: 己, index: 2, keys: [i]}
-      - {element: 钅, index: 1, keys: [j]}
-      - {element: 钅, index: 2, keys: [o]}
-      - {element: 乜, index: 1, keys: [m]}
-      - {element: 乜, index: 2, keys: [e]}
-      - {element: 巳, index: 1, keys: [s]}
-      - {element: 巳, index: 2, keys: [i]}
-      - {element: 糸, index: 1, keys: [s]}
-      - {element: 糸, index: 2, keys: [i]}
-      - {element: 糹, index: 1, keys: [s]}
-      - {element: 糹, index: 2, keys: [i]}
-      - {element: 之, index: 1, keys: [s]}
-      - {element: 之, index: 2, keys: [i]}
-      - {element: 齒, index: 1, keys: [r]}
-      - {element: 齒, index: 2, keys: [i]}
-      - {element: 工, index: 1, keys: [g]}
-      - {element: 工, index: 2, keys: [i]}
-      - {element: 止, index: 1, keys: [s]}
-      - {element: 止, index: 2, keys: [i]}
-      - {element: 牛, index: 1, keys: ['n']}
-      - {element: 牛, index: 2, keys: [u]}
-      - {element: 生, index: 1, keys: [k]}
-      - {element: 生, index: 2, keys: [e]}
-      - {element: 西, index: 1, keys: [x]}
-      - {element: 西, index: 2, keys: [i]}
-      - {element: 酉, index: 1, keys: ['@']}
-      - {element: 酉, index: 2, keys: [u]}
-      - {element: 足, index: 1, keys: [z]}
-      - {element: 足, index: 2, keys: [u]}
-      - {element: 虫, index: 1, keys: [r]}
-      - {element: 虫, index: 2, keys: [i]}
-      - {element: 自, index: 1, keys: [z]}
-      - {element: 自, index: 2, keys: [i]}
-      - {element: 丷, index: 1, keys: [b]}
-      - {element: 丷, index: 2, keys: [a]}
-      - {element: 米, index: 1, keys: [m]}
-      - {element: 米, index: 2, keys: [i]}
-      - {element: 丬, index: 1, keys: [q]}
-      - {element: 丬, index: 2, keys: [o]}
-      - {element: 身, index: 1, keys: [k]}
-      - {element: 身, index: 2, keys: [e]}
-      - {element: 羊, index: 1, keys: ['@']}
-      - {element: 羊, index: 2, keys: [o]}
-      - {element: 人, index: 1, keys: ['@']}
-      - {element: 人, index: 2, keys: [o]}
-      - {element: 骨, index: 1, keys: [g]}
-      - {element: 骨, index: 2, keys: [u]}
-      - {element: 合, index: 1, keys: [h]}
-      - {element: 合, index: 2, keys: [e]}
-      - {element: 心, index: 1, keys: [x]}
-      - {element: 心, index: 2, keys: [o]}
-      - {element: 九, index: 1, keys: [j]}
-      - {element: 九, index: 2, keys: [u]}
-      - {element: 冎, index: 1, keys: [g]}
-      - {element: 冎, index: 2, keys: [a]}
-      - {element: 咼, index: 1, keys: [g]}
-      - {element: 咼, index: 2, keys: [a]}
-      - {element: 僉, index: 1, keys: [q]}
-      - {element: 僉, index: 2, keys: [a]}
-      - {element: 瓦, index: 1, keys: ['@']}
-      - {element: 瓦, index: 2, keys: [a]}
-      - {element: 忄, index: 1, keys: [x]}
-      - {element: 忄, index: 2, keys: [o]}
-      - {element: 革, index: 1, keys: [g]}
-      - {element: 革, index: 2, keys: [e]}
-      - {element: 世, index: 1, keys: [k]}
-      - {element: 世, index: 2, keys: [i]}
-      - {element: 乂, index: 1, keys: ['@']}
-      - {element: 乂, index: 2, keys: [i]}
-      - {element: 力, index: 1, keys: [l]}
-      - {element: 力, index: 2, keys: [i]}
-      - {element: 面, index: 1, keys: [m]}
-      - {element: 面, index: 2, keys: [a]}
-      - {element: 艹, index: 1, keys: [c]}
-      - {element: 艹, index: 2, keys: [i]}
-      - {element: 而, index: 1, keys: ['@']}
-      - {element: 而, index: 2, keys: [o]}
-      - {element: 卅, index: 1, keys: [s]}
-      - {element: 卅, index: 2, keys: [a]}
-      - {element: 用, index: 1, keys: ['@']}
-      - {element: 用, index: 2, keys: [i]}
-      - {element: 文, index: 1, keys: ['@']}
-      - {element: 文, index: 2, keys: [i]}
-      - {element: 方, index: 1, keys: [f]}
-      - {element: 方, index: 2, keys: [e]}
-      - {element: 亥, index: 1, keys: [h]}
-      - {element: 亥, index: 2, keys: [e]}
-      - {element: 亦, index: 1, keys: ['@']}
-      - {element: 亦, index: 2, keys: [i]}
-      - {element: 金, index: 1, keys: [j]}
-      - {element: 金, index: 2, keys: [o]}
-      - {element: 门, index: 1, keys: [m]}
-      - {element: 门, index: 2, keys: [e]}
-      - {element: 豕, index: 1, keys: [k]}
-      - {element: 豕, index: 2, keys: [i]}
-      - {element: 夊, index: 1, keys: [p]}
-      - {element: 夊, index: 2, keys: [u]}
-      - {element: 亡, index: 1, keys: ['@']}
-      - {element: 亡, index: 2, keys: [o]}
-      - {element: 卜, index: 1, keys: [b]}
-      - {element: 卜, index: 2, keys: [u]}
-      - {element: 髟, index: 1, keys: [b]}
-      - {element: 髟, index: 2, keys: [i]}
-      - {element: 長, index: 1, keys: [r]}
-      - {element: 長, index: 2, keys: [e]}
-      - {element: 镸, index: 1, keys: [r]}
-      - {element: 镸, index: 2, keys: [e]}
-      - {element: 业, index: 1, keys: ['@']}
-      - {element: 业, index: 2, keys: [e]}
-      - {element: 非, index: 1, keys: [f]}
-      - {element: 非, index: 2, keys: [o]}
-      - {element: 瓜, index: 1, keys: [g]}
-      - {element: 瓜, index: 2, keys: [a]}
-      - {element: 虎, index: 1, keys: [h]}
-      - {element: 虎, index: 2, keys: [u]}
-      - {element: 巾, index: 1, keys: [j]}
-      - {element: 巾, index: 2, keys: [o]}
-      - {element: 鹵, index: 1, keys: [l]}
-      - {element: 鹵, index: 2, keys: [u]}
-      - {element: 皿, index: 1, keys: [m]}
-      - {element: 皿, index: 2, keys: [o]}
-      - {element: 舟, index: 1, keys: [s]}
-      - {element: 舟, index: 2, keys: [e]}
-      - {element: 其, index: 1, keys: [q]}
-      - {element: 其, index: 2, keys: [i]}
-      - {element: '2', index: 1, keys: [g]}
-      - {element: '2', index: 2, keys: [i]}
-      - {element: 山, index: 1, keys: [k]}
-      - {element: 山, index: 2, keys: [a]}
-      - {element: "\ue001", index: 1, keys: [g]}
-      - {element: "\ue001", index: 2, keys: [i]}
-      - {element: 罒, index: 1, keys: ['@']}
-      - {element: 罒, index: 2, keys: [o]}
-      - {element: 爪, index: 1, keys: [s]}
-      - {element: 爪, index: 2, keys: [a]}
-      - {element: "\ue14f", index: 1, keys: [s]}
-      - {element: "\ue14f", index: 2, keys: [a]}
-      - {element: 丆, index: 1, keys: [r]}
-      - {element: 丆, index: 2, keys: [e]}
-      - {element: 厂, index: 1, keys: [r]}
-      - {element: 厂, index: 2, keys: [e]}
-      - {element: 甲, index: 1, keys: [j]}
-      - {element: 甲, index: 2, keys: [a]}
-      - {element: 里, index: 1, keys: [l]}
-      - {element: 里, index: 2, keys: [i]}
-      - {element: 石, index: 1, keys: [k]}
-      - {element: 石, index: 2, keys: [i]}
-      - {element: 田, index: 1, keys: [t]}
-      - {element: 田, index: 2, keys: [a]}
-      - {element: 不, index: 1, keys: [b]}
-      - {element: 不, index: 2, keys: [u]}
-      - {element: 禺, index: 1, keys: ['@']}
-      - {element: 禺, index: 2, keys: [e]}
-      - {element: 魚, index: 1, keys: ['@']}
-      - {element: 魚, index: 2, keys: [e]}
-      - {element: 习, index: 1, keys: [x]}
-      - {element: 习, index: 2, keys: [i]}
-      - {element: 勹, index: 1, keys: [b]}
-      - {element: 勹, index: 2, keys: [i]}
-      - {element: 屮, index: 1, keys: [c]}
-      - {element: 屮, index: 2, keys: [i]}
-      - {element: 丩, index: 1, keys: [j]}
-      - {element: 丩, index: 2, keys: [u]}
-      - {element: 凵, index: 1, keys: [k]}
-      - {element: 凵, index: 2, keys: [a]}
-      - {element: 馬, index: 1, keys: [m]}
-      - {element: 馬, index: 2, keys: [a]}
-      - {element: 儿, index: 1, keys: ['@']}
-      - {element: 儿, index: 2, keys: [o]}
-      - {element: 囗, index: 1, keys: ['@']}
-      - {element: 囗, index: 2, keys: [o]}
-      - {element: 月, index: 1, keys: ['@']}
-      - {element: 月, index: 2, keys: [e]}
-      - {element: 七, index: 1, keys: [q]}
-      - {element: 七, index: 2, keys: [i]}
-      - {element: 车, index: 1, keys: [r]}
-      - {element: 车, index: 2, keys: [e]}
-      - {element: 冖, index: 1, keys: [m]}
-      - {element: 冖, index: 2, keys: [i]}
-      - {element: 欠, index: 1, keys: [q]}
-      - {element: 欠, index: 2, keys: [a]}
-      - {element: 饣, index: 1, keys: [k]}
-      - {element: 饣, index: 2, keys: [i]}
-      - {element: 鱼, index: 1, keys: ['@']}
-      - {element: 鱼, index: 2, keys: [e]}
-      - {element: "\ue895", index: 1, keys: ['@']}
-      - {element: "\ue895", index: 2, keys: [o]}
-      - {element: 夕, index: 1, keys: [x]}
-      - {element: 夕, index: 2, keys: [i]}
-      - {element: 衤, index: 1, keys: ['@']}
-      - {element: 衤, index: 2, keys: [i]}
-      - {element: 阝, index: 1, keys: [f]}
-      - {element: 阝, index: 2, keys: [u]}
-      - {element: 飛, index: 1, keys: [f]}
-      - {element: 飛, index: 2, keys: [o]}
-      - {element: '5', index: 1, keys: ['@']}
-      - {element: '5', index: 2, keys: [i]}
+      - {element: 高, index: 1}
+      - {element: 高, index: 2}
+      - {element: 㔾, index: 1}
+      - {element: 㔾, index: 2}
+      - {element: 卩, index: 1}
+      - {element: 卩, index: 2}
+      - {element: 㐄, index: 1}
+      - {element: 㐄, index: 2}
+      - {element: 來, index: 1}
+      - {element: 來, index: 2}
+      - {element: 木, index: 1}
+      - {element: 木, index: 2}
+      - {element: 亠, index: 1}
+      - {element: 亠, index: 2}
+      - {element: 丑, index: 1}
+      - {element: 丑, index: 2}
+      - {element: 隶, index: 1}
+      - {element: 隶, index: 2}
+      - {element: 弓, index: 1}
+      - {element: 弓, index: 2}
+      - {element: 彐, index: 1}
+      - {element: 彐, index: 2}
+      - {element: 肀, index: 1}
+      - {element: 肀, index: 2}
+      - {element: 马, index: 1}
+      - {element: 马, index: 2}
+      - {element: 又, index: 1}
+      - {element: 又, index: 2}
+      - {element: 癶, index: 1}
+      - {element: 癶, index: 2}
+      - {element: "\ue007", index: 1}
+      - {element: "\ue007", index: 2}
+      - {element: "\ue009", index: 1}
+      - {element: "\ue009", index: 2}
+      - {element: 皮, index: 1}
+      - {element: 皮, index: 2}
+      - {element: 尸, index: 1}
+      - {element: 尸, index: 2}
+      - {element: "\ue0e8", index: 1}
+      - {element: "\ue0e8", index: 2}
+      - {element: 言, index: 1}
+      - {element: 言, index: 2}
+      - {element: 贝, index: 1}
+      - {element: 贝, index: 2}
+      - {element: 彳, index: 1}
+      - {element: 彳, index: 2}
+      - {element: "\ue055", index: 1}
+      - {element: "\ue055", index: 2}
+      - {element: 见, index: 1}
+      - {element: 见, index: 2}
+      - {element: 冂, index: 1}
+      - {element: 冂, index: 2}
+      - {element: 女, index: 1}
+      - {element: 女, index: 2}
+      - {element: 彡, index: 1}
+      - {element: 彡, index: 2}
+      - {element: 雨, index: 1}
+      - {element: 雨, index: 2}
+      - {element: "\ue066", index: 1}
+      - {element: "\ue066", index: 2}
+      - {element: 页, index: 1}
+      - {element: 页, index: 2}
+      - {element: 白, index: 1}
+      - {element: 白, index: 2}
+      - {element: 叀, index: 1}
+      - {element: 叀, index: 2}
+      - {element: 車, index: 1}
+      - {element: 車, index: 2}
+      - {element: 电, index: 1}
+      - {element: 电, index: 2}
+      - {element: "\ue0cb", index: 1}
+      - {element: "\ue0cb", index: 2}
+      - {element: 丰, index: 1}
+      - {element: 丰, index: 2}
+      - {element: 甶, index: 1}
+      - {element: 甶, index: 2}
+      - {element: 鬼, index: 1}
+      - {element: 鬼, index: 2}
+      - {element: 戶, index: 1}
+      - {element: 戶, index: 2}
+      - {element: 臼, index: 1}
+      - {element: 臼, index: 2}
+      - {element: 斤, index: 1}
+      - {element: 斤, index: 2}
+      - {element: 門, index: 1}
+      - {element: 門, index: 2}
+      - {element: 鳥, index: 1}
+      - {element: 鳥, index: 2}
+      - {element: 由, index: 1}
+      - {element: 由, index: 2}
+      - {element: 片, index: 1}
+      - {element: 片, index: 2}
+      - {element: 曲, index: 1}
+      - {element: 曲, index: 2}
+      - {element: 爿, index: 1}
+      - {element: 爿, index: 2}
+      - {element: 申, index: 1}
+      - {element: 申, index: 2}
+      - {element: 鬥, index: 1}
+      - {element: 鬥, index: 2}
+      - {element: 烏, index: 1}
+      - {element: 烏, index: 2}
+      - {element: 向, index: 1}
+      - {element: 向, index: 2}
+      - {element: 讠, index: 1}
+      - {element: 讠, index: 2}
+      - {element: 至, index: 1}
+      - {element: 至, index: 2}
+      - {element: 風, index: 1}
+      - {element: 風, index: 2}
+      - {element: 隹, index: 1}
+      - {element: 隹, index: 2}
+      - {element: '6', index: 1}
+      - {element: '6', index: 2}
+      - {element: 几, index: 1}
+      - {element: 几, index: 2}
+      - {element: 彑, index: 1}
+      - {element: 彑, index: 2}
+      - {element: 母, index: 1}
+      - {element: 母, index: 2}
+      - {element: 亻, index: 1}
+      - {element: 亻, index: 2}
+      - {element: 殳, index: 1}
+      - {element: 殳, index: 2}
+      - {element: "\ue068", index: 1}
+      - {element: "\ue068", index: 2}
+      - {element: '1', index: 1}
+      - {element: '1', index: 2}
+      - {element: 末, index: 1}
+      - {element: 末, index: 2}
+      - {element: 尢, index: 1}
+      - {element: 尢, index: 2}
+      - {element: 尤, index: 1}
+      - {element: 尤, index: 2}
+      - {element: 手, index: 1}
+      - {element: 手, index: 2}
+      - {element: 扌, index: 1}
+      - {element: 扌, index: 2}
+      - {element: 龵, index: 1}
+      - {element: 龵, index: 2}
+      - {element: 未, index: 1}
+      - {element: 未, index: 2}
+      - {element: 艮, index: 1}
+      - {element: 艮, index: 2}
+      - {element: 黑, index: 1}
+      - {element: 黑, index: 2}
+      - {element: 十, index: 1}
+      - {element: 十, index: 2}
+      - {element: 乃, index: 1}
+      - {element: 乃, index: 2}
+      - {element: '3', index: 1}
+      - {element: '3', index: 2}
+      - {element: 气, index: 1}
+      - {element: 气, index: 2}
+      - {element: "\ue831", index: 1}
+      - {element: "\ue831", index: 2}
+      - {element: 廴, index: 1}
+      - {element: 廴, index: 2}
+      - {element: "\ue0b7", index: 1}
+      - {element: "\ue0b7", index: 2}
+      - {element: 竹, index: 1}
+      - {element: 竹, index: 2}
+      - {element: 牙, index: 1}
+      - {element: 牙, index: 2}
+      - {element: 臣, index: 1}
+      - {element: 臣, index: 2}
+      - {element: 匚, index: 1}
+      - {element: 匚, index: 2}
+      - {element: 户, index: 1}
+      - {element: 户, index: 2}
+      - {element: 戸, index: 1}
+      - {element: 戸, index: 2}
+      - {element: 丂, index: 1}
+      - {element: 丂, index: 2}
+      - {element: 犬, index: 1}
+      - {element: 犬, index: 2}
+      - {element: 犭, index: 1}
+      - {element: 犭, index: 2}
+      - {element: 士, index: 1}
+      - {element: 士, index: 2}
+      - {element: 龶, index: 1}
+      - {element: 龶, index: 2}
+      - {element: 土, index: 1}
+      - {element: 土, index: 2}
+      - {element: 耂, index: 1}
+      - {element: 耂, index: 2}
+      - {element: 壴, index: 1}
+      - {element: 壴, index: 2}
+      - {element: 走, index: 1}
+      - {element: 走, index: 2}
+      - {element: 灬, index: 1}
+      - {element: 灬, index: 2}
+      - {element: 亍, index: 1}
+      - {element: 亍, index: 2}
+      - {element: 火, index: 1}
+      - {element: 火, index: 2}
+      - {element: 宀, index: 1}
+      - {element: 宀, index: 2}
+      - {element: 二, index: 1}
+      - {element: 二, index: 2}
+      - {element: 冫, index: 1}
+      - {element: 冫, index: 2}
+      - {element: 尚, index: 1}
+      - {element: 尚, index: 2}
+      - {element: 龸, index: 1}
+      - {element: 龸, index: 2}
+      - {element: 小, index: 1}
+      - {element: 小, index: 2}
+      - {element: 穴, index: 1}
+      - {element: 穴, index: 2}
+      - {element: 貝, index: 1}
+      - {element: 貝, index: 2}
+      - {element: 丁, index: 1}
+      - {element: 丁, index: 2}
+      - {element: 頁, index: 1}
+      - {element: 頁, index: 2}
+      - {element: 缶, index: 1}
+      - {element: 缶, index: 2}
+      - {element: 古, index: 1}
+      - {element: 古, index: 2}
+      - {element: 矢, index: 1}
+      - {element: 矢, index: 2}
+      - {element: 見, index: 1}
+      - {element: 見, index: 2}
+      - {element: 目, index: 1}
+      - {element: 目, index: 2}
+      - {element: 且, index: 1}
+      - {element: 且, index: 2}
+      - {element: 日, index: 1}
+      - {element: 日, index: 2}
+      - {element: 示, index: 1}
+      - {element: 示, index: 2}
+      - {element: 丄, index: 1}
+      - {element: 丄, index: 2}
+      - {element: 上, index: 1}
+      - {element: 上, index: 2}
+      - {element: "\ue16a", index: 1}
+      - {element: "\ue16a", index: 2}
+      - {element: 王, index: 1}
+      - {element: 王, index: 2}
+      - {element: 丅, index: 1}
+      - {element: 丅, index: 2}
+      - {element: 下, index: 1}
+      - {element: 下, index: 2}
+      - {element: 曰, index: 1}
+      - {element: 曰, index: 2}
+      - {element: 早, index: 1}
+      - {element: 早, index: 2}
+      - {element: 八, index: 1}
+      - {element: 八, index: 2}
+      - {element: 寸, index: 1}
+      - {element: 寸, index: 2}
+      - {element: '4', index: 1}
+      - {element: '4', index: 2}
+      - {element: 了, index: 1}
+      - {element: 了, index: 2}
+      - {element: 戈, index: 1}
+      - {element: 戈, index: 2}
+      - {element: 弋, index: 1}
+      - {element: 弋, index: 2}
+      - {element: 纟, index: 1}
+      - {element: 纟, index: 2}
+      - {element: 立, index: 1}
+      - {element: 立, index: 2}
+      - {element: 卯, index: 1}
+      - {element: 卯, index: 2}
+      - {element: 入, index: 1}
+      - {element: 入, index: 2}
+      - {element: 食, index: 1}
+      - {element: 食, index: 2}
+      - {element: 予, index: 1}
+      - {element: 予, index: 2}
+      - {element: 戊, index: 1}
+      - {element: 戊, index: 2}
+      - {element: 辛, index: 1}
+      - {element: 辛, index: 2}
+      - {element: 子, index: 1}
+      - {element: 子, index: 2}
+      - {element: 三, index: 1}
+      - {element: 三, index: 2}
+      - {element: 巛, index: 1}
+      - {element: 巛, index: 2}
+      - {element: 巜, index: 1}
+      - {element: 巜, index: 2}
+      - {element: 川, index: 1}
+      - {element: 川, index: 2}
+      - {element: 耳, index: 1}
+      - {element: 耳, index: 2}
+      - {element: 丌, index: 1}
+      - {element: 丌, index: 2}
+      - {element: 舌, index: 1}
+      - {element: 舌, index: 2}
+      - {element: "\ue0e2", index: 1}
+      - {element: "\ue0e2", index: 2}
+      - {element: 口, index: 1}
+      - {element: 口, index: 2}
+      - {element: 兀, index: 1}
+      - {element: 兀, index: 2}
+      - {element: 正, index: 1}
+      - {element: 正, index: 2}
+      - {element: 麻, index: 1}
+      - {element: 麻, index: 2}
+      - {element: 疒, index: 1}
+      - {element: 疒, index: 2}
+      - {element: 辰, index: 1}
+      - {element: 辰, index: 2}
+      - {element: 刀, index: 1}
+      - {element: 刀, index: 2}
+      - {element: 刂, index: 1}
+      - {element: 刂, index: 2}
+      - {element: 广, index: 1}
+      - {element: 广, index: 2}
+      - {element: 禾, index: 1}
+      - {element: 禾, index: 2}
+      - {element: 鹿, index: 1}
+      - {element: 鹿, index: 2}
+      - {element: 毛, index: 1}
+      - {element: 毛, index: 2}
+      - {element: 鸟, index: 1}
+      - {element: 鸟, index: 2}
+      - {element: 千, index: 1}
+      - {element: 千, index: 2}
+      - {element: 壬, index: 1}
+      - {element: 壬, index: 2}
+      - {element: 乌, index: 1}
+      - {element: 乌, index: 2}
+      - {element: 夭, index: 1}
+      - {element: 夭, index: 2}
+      - {element: 豸, index: 1}
+      - {element: 豸, index: 2}
+      - {element: 厶, index: 1}
+      - {element: 厶, index: 2}
+      - {element: 幺, index: 1}
+      - {element: 幺, index: 2}
+      - {element: 匕, index: 1}
+      - {element: 匕, index: 2}
+      - {element: 长, index: 1}
+      - {element: 长, index: 2}
+      - {element: 甫, index: 1}
+      - {element: 甫, index: 2}
+      - {element: 干, index: 1}
+      - {element: 干, index: 2}
+      - {element: 水, index: 1}
+      - {element: 水, index: 2}
+      - {element: 氵, index: 1}
+      - {element: 氵, index: 2}
+      - {element: 巴, index: 1}
+      - {element: 巴, index: 2}
+      - {element: 辶, index: 1}
+      - {element: 辶, index: 2}
+      - {element: 大, index: 1}
+      - {element: 大, index: 2}
+      - {element: "\ue064", index: 1}
+      - {element: "\ue064", index: 2}
+      - {element: 也, index: 1}
+      - {element: 也, index: 2}
+      - {element: 夫, index: 1}
+      - {element: 夫, index: 2}
+      - {element: 已, index: 1}
+      - {element: 已, index: 2}
+      - {element: 己, index: 1}
+      - {element: 己, index: 2}
+      - {element: 钅, index: 1}
+      - {element: 钅, index: 2}
+      - {element: 乜, index: 1}
+      - {element: 乜, index: 2}
+      - {element: 巳, index: 1}
+      - {element: 巳, index: 2}
+      - {element: 糸, index: 1}
+      - {element: 糸, index: 2}
+      - {element: 糹, index: 1}
+      - {element: 糹, index: 2}
+      - {element: 之, index: 1}
+      - {element: 之, index: 2}
+      - {element: 齒, index: 1}
+      - {element: 齒, index: 2}
+      - {element: 工, index: 1}
+      - {element: 工, index: 2}
+      - {element: 止, index: 1}
+      - {element: 止, index: 2}
+      - {element: 牛, index: 1}
+      - {element: 牛, index: 2}
+      - {element: 生, index: 1}
+      - {element: 生, index: 2}
+      - {element: 西, index: 1}
+      - {element: 西, index: 2}
+      - {element: 酉, index: 1}
+      - {element: 酉, index: 2}
+      - {element: 足, index: 1}
+      - {element: 足, index: 2}
+      - {element: 虫, index: 1}
+      - {element: 虫, index: 2}
+      - {element: 自, index: 1}
+      - {element: 自, index: 2}
+      - {element: 丷, index: 1}
+      - {element: 丷, index: 2}
+      - {element: 米, index: 1}
+      - {element: 米, index: 2}
+      - {element: 丬, index: 1}
+      - {element: 丬, index: 2}
+      - {element: 身, index: 1}
+      - {element: 身, index: 2}
+      - {element: 羊, index: 1}
+      - {element: 羊, index: 2}
+      - {element: 人, index: 1}
+      - {element: 人, index: 2}
+      - {element: 骨, index: 1}
+      - {element: 骨, index: 2}
+      - {element: 合, index: 1}
+      - {element: 合, index: 2}
+      - {element: 心, index: 1}
+      - {element: 心, index: 2}
+      - {element: 九, index: 1}
+      - {element: 九, index: 2}
+      - {element: 冎, index: 1}
+      - {element: 冎, index: 2}
+      - {element: 咼, index: 1}
+      - {element: 咼, index: 2}
+      - {element: 僉, index: 1}
+      - {element: 僉, index: 2}
+      - {element: 瓦, index: 1}
+      - {element: 瓦, index: 2}
+      - {element: 忄, index: 1}
+      - {element: 忄, index: 2}
+      - {element: 革, index: 1}
+      - {element: 革, index: 2}
+      - {element: 世, index: 1}
+      - {element: 世, index: 2}
+      - {element: 乂, index: 1}
+      - {element: 乂, index: 2}
+      - {element: 力, index: 1}
+      - {element: 力, index: 2}
+      - {element: 面, index: 1}
+      - {element: 面, index: 2}
+      - {element: 艹, index: 1}
+      - {element: 艹, index: 2}
+      - {element: 而, index: 1}
+      - {element: 而, index: 2}
+      - {element: 卅, index: 1}
+      - {element: 卅, index: 2}
+      - {element: 用, index: 1}
+      - {element: 用, index: 2}
+      - {element: 文, index: 1}
+      - {element: 文, index: 2}
+      - {element: 方, index: 1}
+      - {element: 方, index: 2}
+      - {element: 亥, index: 1}
+      - {element: 亥, index: 2}
+      - {element: 亦, index: 1}
+      - {element: 亦, index: 2}
+      - {element: 金, index: 1}
+      - {element: 金, index: 2}
+      - {element: 门, index: 1}
+      - {element: 门, index: 2}
+      - {element: 豕, index: 1}
+      - {element: 豕, index: 2}
+      - {element: 夊, index: 1}
+      - {element: 夊, index: 2}
+      - {element: 亡, index: 1}
+      - {element: 亡, index: 2}
+      - {element: 卜, index: 1}
+      - {element: 卜, index: 2}
+      - {element: 髟, index: 1}
+      - {element: 髟, index: 2}
+      - {element: 長, index: 1}
+      - {element: 長, index: 2}
+      - {element: 镸, index: 1}
+      - {element: 镸, index: 2}
+      - {element: 业, index: 1}
+      - {element: 业, index: 2}
+      - {element: 非, index: 1}
+      - {element: 非, index: 2}
+      - {element: 瓜, index: 1}
+      - {element: 瓜, index: 2}
+      - {element: 虎, index: 1}
+      - {element: 虎, index: 2}
+      - {element: 巾, index: 1}
+      - {element: 巾, index: 2}
+      - {element: 鹵, index: 1}
+      - {element: 鹵, index: 2}
+      - {element: 皿, index: 1}
+      - {element: 皿, index: 2}
+      - {element: 舟, index: 1}
+      - {element: 舟, index: 2}
+      - {element: 其, index: 1}
+      - {element: 其, index: 2}
+      - {element: '2', index: 1}
+      - {element: '2', index: 2}
+      - {element: 山, index: 1}
+      - {element: 山, index: 2}
+      - {element: "\ue001", index: 1}
+      - {element: "\ue001", index: 2}
+      - {element: 罒, index: 1}
+      - {element: 罒, index: 2}
+      - {element: 爪, index: 1}
+      - {element: 爪, index: 2}
+      - {element: "\ue14f", index: 1}
+      - {element: "\ue14f", index: 2}
+      - {element: 丆, index: 1}
+      - {element: 丆, index: 2}
+      - {element: 厂, index: 1}
+      - {element: 厂, index: 2}
+      - {element: 甲, index: 1}
+      - {element: 甲, index: 2}
+      - {element: 里, index: 1}
+      - {element: 里, index: 2}
+      - {element: 石, index: 1}
+      - {element: 石, index: 2}
+      - {element: 田, index: 1}
+      - {element: 田, index: 2}
+      - {element: 不, index: 1}
+      - {element: 不, index: 2}
+      - {element: 禺, index: 1}
+      - {element: 禺, index: 2}
+      - {element: 魚, index: 1}
+      - {element: 魚, index: 2}
+      - {element: 习, index: 1}
+      - {element: 习, index: 2}
+      - {element: 勹, index: 1}
+      - {element: 勹, index: 2}
+      - {element: 屮, index: 1}
+      - {element: 屮, index: 2}
+      - {element: 丩, index: 1}
+      - {element: 丩, index: 2}
+      - {element: 凵, index: 1}
+      - {element: 凵, index: 2}
+      - {element: 馬, index: 1}
+      - {element: 馬, index: 2}
+      - {element: 儿, index: 1}
+      - {element: 儿, index: 2}
+      - {element: 囗, index: 1}
+      - {element: 囗, index: 2}
+      - {element: 月, index: 1}
+      - {element: 月, index: 2}
+      - {element: 七, index: 1}
+      - {element: 七, index: 2}
+      - {element: 车, index: 1}
+      - {element: 车, index: 2}
+      - {element: 冖, index: 1}
+      - {element: 冖, index: 2}
+      - {element: 欠, index: 1}
+      - {element: 欠, index: 2}
+      - {element: 饣, index: 1}
+      - {element: 饣, index: 2}
+      - {element: 鱼, index: 1}
+      - {element: 鱼, index: 2}
+      - {element: "\ue895", index: 1}
+      - {element: "\ue895", index: 2}
+      - {element: 夕, index: 1}
+      - {element: 夕, index: 2}
+      - {element: 衤, index: 1}
+      - {element: 衤, index: 2}
+      - {element: 阝, index: 1}
+      - {element: 阝, index: 2}
+      - {element: 飛, index: 1}
+      - {element: 飛, index: 2}
+      - {element: '5', index: 1}
+      - {element: '5', index: 2}
