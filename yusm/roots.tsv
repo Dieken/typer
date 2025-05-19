@@ -1,5 +1,3 @@
-{乍下}	Bbⓤ	
-{龍右}	Bbⓤ	
 ⺊	Bbⓤ	
 卜	Bbⓤ	bǔ
 瓜	Bgⓐ	guā
@@ -11,7 +9,10 @@
 {馬上}	Bmⓐ	
 馬	Bmⓐ	mǎ
 爪	Bsⓐ	zhuǎ
+魚	Bⓔ	yú
 亦	Bⓘ	yì
+{乍下}	Bⓞ	
+{龍右}	Bⓞ	
 癶	Cbⓞ	bō
 飛	Cfⓞ	fēi
 禾	Chⓔ	hé
@@ -22,14 +23,12 @@
 女	Cnⓔ	nǚ
 乙	Cⓘ	yǐ
 乚	Cⓘ	yǐ
-{鼠下}	Cⓞ	∅
-ス	Cⓤ	
-マ	Cⓤ	
+{鼠下}	Cⓞ	
+ス	Cⓞ	
+マ	Cⓞ	
 又	Cⓤ	yòu
 电	Ddⓐ	diàn
 甲	Djⓐ	jiǎ
-{互中}	Djⓘ	
-{母框}	Djⓘ	
 己	Djⓘ	jǐ
 彑	Djⓘ	jì
 钅	Djⓞ	jīn
@@ -39,15 +38,15 @@
 末	Dmⓞ	mò
 母	Dmⓤ	mǔ
 长	Drⓔ	cháng
-{兴上}	Dxⓘ	
 ⺍	Dxⓘ	
 言	Dⓐ	yán
 已	Dⓘ	yǐ
+{互中}	Dⓞ	
+{兴上}	Dⓞ	
+{母框}	Dⓞ	
 未	Dⓞ	wèi
 {斲左}	Fdⓔ	
 匚	Ffⓔ	fāng
-{奉下}	Fkⓐ	
-㐄	Fkⓐ	kuà
 手	Fkⓔ	shǒu
 龵	Fkⓔ	shǒu
 矢	Fkⓘ	shǐ
@@ -58,9 +57,11 @@
 牙	Fⓐ	yá
 鱼	Fⓔ	yú
 一	Fⓘ	yī
-{亜下}	Fⓞ	∅
-{亞下}	Fⓞ	∅
-{亞中}	Fⓞ	∅
+{亜下}	Fⓞ	
+{亞下}	Fⓞ	
+{亞中}	Fⓞ	
+{奉下}	Fⓞ	
+㐄	Fⓞ	∅
 廴	Fⓞ	yǐn
 而	Fⓞ	ér
 疒	Gbⓘ	bìng
@@ -80,8 +81,8 @@
 牛	Gnⓤ	niú
 頁	Gⓔ	yè
 夭	Gⓘ	yāo
-{荒下}	Gⓞ	ér
-{黽中}	Gⓞ	∅
+{荒下}	Gⓞ	
+{黽中}	Gⓞ	
 儿	Gⓞ	ér
 罒	Gⓞ	wǎng
 {周框}	Hbⓘ	
@@ -90,7 +91,6 @@
 冊	Hcⓔ	cè
 鬥	Hdⓔ	dòu
 丁	Hdⓘ	dīng
-{阜上}	Hdⓞ	
 亥	Hhⓔ	hài
 {冂丶}	Hjⓘ	
 {雋下}	Hjⓘ	
@@ -112,7 +112,6 @@
 走	Hzⓔ	zǒu
 自	Hzⓘ	zì
 页	Hⓔ	yè
-魚	Hⓔ	yú
 乌	Hⓤ	wū
 巴	Jbⓐ	bā
 寸	Jcⓘ	cùn
@@ -137,8 +136,8 @@
 {曾中}	Jⓘ	
 {横日}	Jⓘ	
 日	Jⓘ	rì
-{于下}	Jⓞ	∅
-{介下}	Jⓞ	∅
+{于下}	Jⓞ	
+{介下}	Jⓞ	
 八	Kbⓐ	bā
 白	Kbⓔ	bái
 屮	Kcⓘ	cǎo
@@ -154,7 +153,6 @@
 里	Klⓘ	lǐ
 马	Kmⓐ	mǎ
 千	Kqⓐ	qiān
-{具上}	Kqⓔ	
 且	Kqⓔ	qiě
 丬	Kqⓞ	qiáng
 臣	Krⓔ	chén
@@ -168,7 +166,8 @@
 {姬右}	Kⓘ	
 {弬右}	Kⓘ	
 弋	Kⓘ	yì
-{微上}	Kⓞ	wēi
+{具上}	Kⓞ	
+{微上}	Kⓞ	
 囗	Kⓞ	wéi
 戊	Kⓤ	wù
 匕	Lbⓘ	bǐ
@@ -176,8 +175,6 @@
 方	Lfⓔ	fāng
 非	Lfⓞ	fēi
 干	Lgⓐ	gàn
-〢	Lgⓘ	
-〣	Lgⓘ	
 丨	Lgⓘ	gǔn
 高	Lgⓘ	gāo
 了	Llⓔ	le
@@ -200,9 +197,11 @@
 子	Lzⓘ	zǐ
 予	Lⓔ	yǔ
 幺	Lⓘ	yāo
-{京上}	Lⓞ	∅
-{亮上}	Lⓞ	∅
-{襄上}	Lⓞ	∅
+{京上}	Lⓞ	
+{亮上}	Lⓞ	
+{襄上}	Lⓞ	
+〢	Lⓞ	
+〣	Lⓞ	
 亡	Lⓞ	wáng
 兀	Lⓤ	wù
 不	Mbⓤ	bù
@@ -212,21 +211,22 @@
 廾	Mcⓘ	cǎo
 艹	Mcⓘ	cao
 龷	Mcⓘ	
+{阜上}	Mdⓞ	
 風	Mfⓔ	fēng
 艮	Mgⓔ	gěn
 工	Mgⓘ	gōng
-コ	Mkⓞ	
-ユ	Mkⓞ	
 乜	Mmⓔ	miē
 七	Mqⓘ	qī
 丑	Mrⓔ	chǒu
 虫	Mrⓘ	chóng
 卅	Msⓐ	sà
-卌	Msⓐ	sà
+卌	Mxⓘ	xì
 ナ	Mzⓞ	
 瓦	Mⓐ	wǎ
 也	Mⓔ	yě
-{曹上}	Mⓞ	∅
+{曹上}	Mⓞ	
+コ	Mⓞ	
+ユ	Mⓞ	
 耳	Mⓞ	ěr
 {五下}	Mⓤ	
 丶	Ndⓐ	diǎn
@@ -243,10 +243,10 @@
 厶	Nsⓘ	sī
 足	Nzⓤ	zú
 {炙上}	Nⓔ	
-{祭上}	Nⓔ	
 月	Nⓔ	yuè
-{囟框}	Nⓞ	∅
-{奐上}	Nⓞ	∅
+{囟框}	Nⓞ	
+{奐上}	Nⓞ	
+{祭上}	Nⓞ	
 壬	Nⓞ	rén
 大	Pdⓐ	dà
 𡗗	Pdⓘ	dí
@@ -261,10 +261,10 @@
 丩	Qjⓤ	jiū
 殳	Qkⓤ	shū
 卯	Qmⓘ	mǎo
-{乐上}	Qⓞ	∅
-{卬左}	Qⓞ	∅
-{卯左}	Qⓞ	∅
-{齊右}	Qⓞ	∅
+{乐上}	Qⓞ	
+{卬左}	Qⓞ	
+{卯左}	Qⓞ	
+{齊右}	Qⓞ	
 黑	Rhⓞ	hēi
 ㄗ	Rjⓔ	
 㔾	Rjⓔ	jié
@@ -298,8 +298,8 @@
 至	Ssⓘ	zhì
 肀	Sⓔ	yù
 用	Sⓘ	yòng
-{爲下}	Sⓞ	wéi
-{飞右}	Sⓞ	èr
+{爲下}	Sⓞ	
+{飞右}	Sⓞ	
 ⺀	Sⓞ	
 二	Sⓞ	èr
 冫	Sⓞ	èr
@@ -308,13 +308,13 @@
 火	Thⓞ	huǒ
 巾	Tjⓞ	jīn
 尚	Tkⓔ	shàng
-龸	Tkⓔ	
 十	Tkⓘ	shí
 皮	Tpⓘ	pí
 夊	Tpⓤ	pū
 衤	Tⓘ	yī
-{畏下}	Tⓞ	∅
-{衣下}	Tⓞ	∅
+{畏下}	Tⓞ	
+{衣下}	Tⓞ	
+龸	Tⓞ	
 由	Tⓤ	yóu
 土	Vdⓤ	dù
 戶	Vhⓤ	hù
@@ -331,30 +331,30 @@
 {鬯中}	Vⓘ	
 ⺁	Vⓘ	
 乂	Vⓘ	yì
-{穀框}	Vⓞ	∅
+{穀框}	Vⓞ	
 隹	Wcⓞ	cuī
 冎	Wgⓐ	guǎ
 咼	Wgⓐ	guǎ
 骨	Wgⓤ	gǔ
-{僉上}	Whⓔ	
-{龠上}	Whⓔ	
 合	Whⓔ	hé
 申	Wkⓔ	shēn
 水	Wkⓞ	shuǐ
 力	Wlⓘ	lì
 僉	Wqⓐ	qiān
 禺	Wⓔ	yú
+{僉上}	Wⓞ	
+{龠上}	Wⓞ	
 人	Wⓞ	rén
 亻	Wⓞ	rén
 リ	Xbⓐ	
 丷	Xbⓐ	bā
+灬	Xbⓘ	biāo
 䒑	Xcⓘ	cǎo
 金	Xjⓞ	jīn
 食	Xkⓘ	shí
 {南心}	Xⓞ	
 ⺷	Xⓞ	
 羊	Xⓞ	yáng
-灬	Ybⓘ	biāo
 刂	Ydⓘ	dāo
 阝	Yfⓤ	fù
 气	Yqⓘ	qì
@@ -362,5 +362,5 @@
 ⺮	Ysⓤ	
 竹	Ysⓤ	zhú
 西	Yxⓘ	xī
-{乞上}	Yⓞ	∅
+{乞上}	Yⓞ	
 酉	Yⓤ	yǒu
