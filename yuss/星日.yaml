@@ -621,9 +621,9 @@ form:
     "\ue066": cv
     "\ue16a": jv
     "\ue895": xv
-  mapping_type: 2
+  mapping_type: 3
 encoder:
-  max_length: 4
+  max_length: 5
   select_keys:
     - _
     - ;
@@ -653,20 +653,28 @@ encoder:
       next: c2
     s6:
       object: {type: 字根, rootIndex: 1}
-      index: 1
+      index: 2
       next: null
     s7:
       object: {type: 字根, rootIndex: -1}
       index: 0
-      next: null
+      next: s11
     s8:
       object: {type: 字根, rootIndex: 3}
       index: 1
-      next: null
+      next: s10
     s9:
-      object: {type: 字根, rootIndex: 1}
-      index: 1
+      object: {type: 字根, rootIndex: 2}
+      index: 2
       next: null
+    s10:
+      object: {type: 字根, rootIndex: 3}
+      next: null
+      index: 2
+    s11:
+      object: {type: 字根, rootIndex: -1}
+      next: null
+      index: 1
   conditions:
     c0:
       object: {type: 字根, rootIndex: 2}
