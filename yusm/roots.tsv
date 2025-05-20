@@ -31,7 +31,7 @@
 甲	Djⓐ	jiǎ
 己	Djⓘ	jǐ
 彑	Djⓘ	jì
-钅	Djⓞ	jīn
+金	Djⓞ	jīn
 口	Dkⓔ	kǒu
 〇	Dlⓘ	
 宀	Dmⓐ	mián
@@ -49,7 +49,8 @@
 匚	Ffⓔ	fāng
 手	Fkⓔ	shǒu
 龵	Fkⓔ	shǒu
-矢	Fkⓘ	shǐ
+食	Fkⓘ	shí
+水	Fkⓞ	shuǐ
 面	Fmⓐ	miàn
 乃	Fnⓔ	nǎi
 丿	Fpⓔ	piě
@@ -89,13 +90,11 @@
 勹	Hbⓘ	bāo
 贝	Hbⓞ	bèi
 冊	Hcⓔ	cè
-鬥	Hdⓔ	dòu
 丁	Hdⓘ	dīng
 亥	Hhⓔ	hài
 {冂丶}	Hjⓘ	
 {雋下}	Hjⓘ	
 冂	Hjⓘ	jiōng
-門	Hmⓔ	mén
 {鸟上}	Hnⓘ	
 鸟	Hnⓘ	niǎo
 其	Hqⓘ	qí
@@ -125,7 +124,8 @@
 {丄丶}	Jkⓔ	
 丄	Jkⓔ	shàng
 上	Jkⓔ	shàng
-饣	Jkⓘ	shí
+矢	Jkⓘ	shǐ
+门	Jmⓔ	mén
 爿	Jpⓐ	pán
 片	Jpⓐ	piàn
 巳	Jsⓘ	sì
@@ -150,6 +150,7 @@
 {二撇}	Kkⓐ	
 ㄩ	Kkⓐ	
 彡	Kkⓐ	shān
+饣	Kkⓘ	shí
 里	Klⓘ	lǐ
 马	Kmⓐ	mǎ
 千	Kqⓐ	qiān
@@ -265,6 +266,7 @@
 {卬左}	Qⓞ	
 {卯左}	Qⓞ	
 {齊右}	Qⓞ	
+鬥	Rdⓔ	dòu
 黑	Rhⓞ	hēi
 ㄗ	Rjⓔ	
 㔾	Rjⓔ	jié
@@ -273,7 +275,7 @@
 身	Rkⓔ	shēn
 石	Rkⓘ	shí
 立	Rlⓘ	lì
-门	Rmⓔ	mén
+門	Rmⓔ	mén
 毛	Rmⓘ	máo
 {鳥上}	Rnⓘ	
 鳥	Rnⓘ	niǎo
@@ -338,7 +340,6 @@
 骨	Wgⓤ	gǔ
 合	Whⓔ	hé
 申	Wkⓔ	shēn
-水	Wkⓞ	shuǐ
 力	Wlⓘ	lì
 僉	Wqⓐ	qiān
 禺	Wⓔ	yú
@@ -350,8 +351,7 @@
 丷	Xbⓐ	bā
 灬	Xbⓘ	biāo
 䒑	Xcⓘ	cǎo
-金	Xjⓞ	jīn
-食	Xkⓘ	shí
+钅	Xjⓞ	jīn
 {南心}	Xⓞ	
 ⺷	Xⓞ	
 羊	Xⓞ	yáng
