@@ -31,9 +31,11 @@ perl -CSDA -lnE 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "
     fgrep -v '～' |
     sort -u > chaifen.tsv
 
+cp -f "$1/../font/Yuniversus.ttf" .
+
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yusm.js
 
-../scripts/generate-roots-chart.pl -u ../sbfd/ -e yusm.js \
+../scripts/generate-roots-chart.pl -u ../sbfd/ -e yusm.js -r roots-mapping.tsv -f Yuniversus.ttf \
     -t "宇浩日月字根表 v3.9.0-beta.20250519" \
     roots.tsv chaifen.tsv ../top6000.txt > yusm-v3.9.0-beta.20250519.html
 
