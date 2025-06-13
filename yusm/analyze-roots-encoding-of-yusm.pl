@@ -103,6 +103,12 @@ while (<$fh>) {
     $ym = 'r' . $ym if $sm eq 'r';
     $ym =~ s/^u/ü/ if $sm =~ /^[jqxy]/;
 
+    # special case: https://shurufa.app/docs/sunmoon.html
+    $ym = '[mp]u' if $sm =~ /^[mp]$/ && $ym eq 'u';
+    if ($ym eq 'ian') {
+        $sm =~ /^[qtdbx]$/ and $ym = '[qtdbx]ian' or $ym = '[pljmn]ian';
+    }
+
     $encodings{substr($code, $len - 1)}{$ym} = 1 if $ym;
 
     if ($sm) {

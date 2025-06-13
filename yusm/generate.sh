@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# Usage: ./generate.sh path/to/宇浩日月_v3.9.0-beta.20250519/schema
+# Usage: ./generate.sh path/to/宇浩日月_v3.9.0-beta.20250608/schema
 
 set -euo pipefail
 
@@ -36,8 +36,8 @@ cp -f "$1/../font/Yuniversus.ttf" .
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yusm.js
 
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yusm.js -r roots-mapping.tsv -f Yuniversus.ttf \
-    -t "宇浩日月字根表 v3.9.0-beta.20250519" \
-    roots.tsv chaifen.tsv ../top6000.txt > yusm-v3.9.0-beta.20250519.html
+    -t "宇浩日月字根表 v3.9.0-beta.20250608" \
+    roots.tsv chaifen.tsv ../top6000.txt > yusm-v3.9.0-beta.20250608.html
 
 perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yusm_sc.short.dict.yaml |
     grep -v '^/' |
