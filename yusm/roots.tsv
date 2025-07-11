@@ -5,7 +5,7 @@
 {虍上}	Bhⓤ	
 虍	Bhⓤ	hū
 虎	Bhⓤ	hǔ
-示	Bkⓘ	shì
+示	Bkⓤ	shì
 鹵	Blⓤ	lǔ
 {馬上}	Bmⓐ	
 馬	Bmⓐ	mǎ
@@ -20,8 +20,8 @@
 飛	Cfⓞ	fēi
 禾	Chⓔ	hé
 生	Ckⓔ	shēng
-世	Ckⓘ	shì
 氵	Ckⓞ	shui
+世	Ckⓤ	shì
 來	Clⓔ	lái
 女	Cnⓔ	nǚ
 乙	Cⓘ	yǐ
@@ -30,6 +30,7 @@
 ス	Cⓞ	
 マ	Cⓞ	
 又	Cⓤ	yòu
+{互中}	Djⓘ	
 己	Djⓘ	jǐ
 彑	Djⓘ	jì
 金	Djⓞ	jīn
@@ -39,11 +40,8 @@
 母	Dmⓔ	mǔ
 皮	Dpⓘ	pí
 长	Drⓔ	cháng
-⺍	Dxⓘ	
 言	Dⓔ	yán
 已	Dⓘ	yǐ
-{互中}	Dⓞ	
-{兴上}	Dⓞ	
 {囟框}	Dⓞ	
 {母框}	Dⓞ	
 廴	Dⓞ	yǐn
@@ -54,8 +52,8 @@
 手	Fkⓔ	shǒu
 龵	Fkⓔ	shǒu
 丂	Fkⓘ	kǎo
-食	Fkⓘ	shí
 水	Fkⓞ	shuǐ
+食	Fkⓤ	shí
 面	Fmⓔ	miàn
 乃	Fnⓔ	nǎi
 丿	Fpⓔ	piě
@@ -69,19 +67,20 @@
 {奉下}	Fⓞ	
 㐄	Fⓞ	∅
 而	Fⓞ	ér
-疒	Gbⓘ	bìng
 貝	Gbⓞ	bèi
 革	Ggⓔ	gé
 广	Ggⓞ	guǎng
+見	Gjⓔ	jiàn
 九	Gjⓤ	jiǔ
 扌	Gkⓔ	shou
-{豕下}	Gkⓘ	
-豕	Gkⓘ	shǐ
+{豕下}	Gkⓤ	
+豕	Gkⓤ	shǐ
 {鹿上}	Glⓤ	
 鹿	Glⓤ	lù
 麻	Gmⓐ	má
 目	Gmⓔ	mù
 皿	Gmⓞ	mǐn
+疒	Gnⓔ	nè
 ⺧	Gnⓤ	
 牛	Gnⓤ	niú
 頁	Gⓔ	yè
@@ -119,22 +118,26 @@
 甶	Jfⓤ	fú
 冎	Jgⓐ	guǎ
 咼	Jgⓐ	guǎ
+工	Jgⓘ	gōng
 {鬼左}	Jgⓞ	
 鬼	Jgⓞ	guǐ
 骨	Jgⓤ	gǔ
-見	Jjⓔ	jiàn
 {丄丶}	Jkⓔ	
 丄	Jkⓔ	shàng
 上	Jkⓔ	shàng
-矢	Jkⓘ	shǐ
+矢	Jkⓤ	shǐ
 门	Jmⓔ	mén
 臣	Jrⓔ	chén
+巛	Jrⓘ	chuān
+巜	Jrⓘ	chuān
+川	Jrⓘ	chuān
 舟	Jsⓔ	zhōu
 巳	Jsⓘ	sì
 夕	Jxⓘ	xī
 心	Jxⓞ	xīn
 忄	Jxⓞ	xin
 早	Jzⓘ	zǎo
+瓦	Jⓐ	wǎ
 曰	Jⓔ	yuē
 {姬右}	Jⓘ	
 {弬右}	Jⓘ	
@@ -157,7 +160,7 @@
 {二撇}	Kkⓐ	
 ㄩ	Kkⓐ	
 彡	Kkⓐ	shān
-饣	Kkⓘ	shí
+饣	Kkⓤ	shí
 里	Klⓘ	lǐ
 马	Kmⓐ	mǎ
 且	Kqⓔ	qiě
@@ -197,8 +200,10 @@
 糸	Lsⓘ	sī
 亠	Ltⓔ	tóu
 穴	Lxⓔ	xué
+{兴上}	Lxⓘ	
 {步下}	Lxⓘ	
 ⺌	Lxⓘ	
+⺍	Lxⓘ	
 小	Lxⓘ	xiǎo
 {向框}	Lxⓞ	
 向	Lxⓞ	xiàng
@@ -222,7 +227,6 @@
 {阜上}	Mdⓞ	
 風	Mfⓔ	fēng
 艮	Mgⓔ	gěn
-工	Mgⓘ	gōng
 乜	Mmⓔ	miē
 七	Mqⓘ	qī
 丑	Mrⓔ	chǒu
@@ -230,7 +234,6 @@
 卅	Msⓐ	sà
 卌	Mxⓘ	xì
 ナ	Mzⓞ	
-瓦	Mⓐ	wǎ
 也	Mⓔ	yě
 {奐上}	Mⓞ	
 {曹上}	Mⓞ	
@@ -243,9 +246,6 @@
 丶	Ndⓘ	diǎn
 乀	Ndⓘ	diǎn
 缶	Nfⓔ	fǒu
-巛	Nrⓘ	chuān
-巜	Nrⓘ	chuān
-川	Nrⓘ	chuān
 亍	Nrⓤ	chù
 厶	Nsⓘ	sī
 足	Nzⓤ	zú
@@ -277,7 +277,7 @@
 卩	Rjⓔ	jié
 丌	Rjⓘ	jī
 身	Rkⓔ	shēn
-石	Rkⓘ	shí
+石	Rkⓤ	shí
 立	Rlⓘ	lì
 門	Rmⓔ	mén
 毛	Rmⓘ	máo
@@ -295,8 +295,8 @@
 {反彐}	Sjⓘ	
 彐	Sjⓘ	jì
 舌	Skⓔ	shé
-{眉上}	Skⓘ	
-尸	Skⓘ	shī
+{眉上}	Skⓤ	
+尸	Skⓤ	shī
 隶	Slⓘ	lì
 木	Smⓔ	mù
 朩	Smⓔ	mù
@@ -315,7 +315,7 @@
 火	Thⓞ	huǒ
 巾	Tjⓞ	jīn
 尚	Tkⓔ	shàng
-十	Tkⓘ	shí
+十	Tkⓤ	shí
 夊	Tpⓔ	pū
 衤	Tⓘ	yī
 {畏下}	Tⓞ	
@@ -328,7 +328,7 @@
 斤	Vjⓞ	jīn
 山	Vkⓐ	shān
 龶	Vkⓔ	
-士	Vkⓘ	shì
+士	Vkⓤ	shì
 耂	Vlⓘ	lǎo
 米	Vmⓘ	mǐ
 车	Vrⓔ	chē

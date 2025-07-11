@@ -32,7 +32,6 @@ close $fh;
 undef $fh;
 
 %pinyin = (%pinyin,
-    '疒' => 'bìng',
     '卜' => 'bǔ',
     '長' => 'cháng',
     '长' => 'cháng',
@@ -111,6 +110,7 @@ while (<$fh>) {
 
     # special case: https://shurufa.app/docs/sunmoon.html
     $ym = '[mp]u' if $sm =~ /^[mp]$/ && $ym eq 'u';
+    $ym = '(sh)i' if $sm eq 'sh' && $ym eq 'i';
     if ($ym eq 'ian') {
         $sm =~ /^[qtdbx]$/ and $ym = '[qtdbx]ian' or $ym = '[pljmn]ian';
     }
