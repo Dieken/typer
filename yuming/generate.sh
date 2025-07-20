@@ -37,9 +37,15 @@ cp -f "$1/../fonts/Yuniversus.ttf" .
 
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yuming.js
 
+    # 将韵码映射也放入字根表
+    cp roots.tsv roots2.tsv
+    perl -CSDA -lanE 'print "$F[1]\t", uc($F[0]) if $F[0] =~ /^[aeuio]$/' encoding.tsv >> roots2.tsv
+
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuming.js -r roots-mapping.tsv -f Yuniversus.ttf \
     -t "日月输入法字根表 $VER" \
-    roots.tsv chaifen.tsv ../top6000.txt > yuming-$VER.html
+    roots2.tsv chaifen.tsv ../top6000.txt > yuming-$VER.html
+
+    rm roots2.tsv
 
 perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yuming.quick.dict.yaml |
     grep -v '^/' |
