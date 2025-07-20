@@ -117,7 +117,7 @@ while (my ($k, $v) = each %$roots) {
     $pinyin = ($uh->{ord($k)}{kMandarin} // "") if $k !~ /{/ && (!$pinyin || $pinyin !~ /[^a-z]/);
     $pinyin //= "";
 
-    my @freq = @{ $roots_freq{$k} };
+    my @freq = @{ $roots_freq{$k} // [0, 1] };
     $freq[1] //= 0;
     for (my $i = 2; $i <= $max_pages; ++$i) {
         $freq[$i] = ($freq[$i] // 0) + $freq[$i - 1];
@@ -130,7 +130,7 @@ while (my ($k, $v) = each %$roots) {
         freq => \@freq,
         char_freq => sprintf("%.2f%%", $roots_char_freq{$k} / $total_char_freq * 100.0),
         traditional => $roots_is_traditional{$k} ? 1 : 0,
-        examples => $roots_examples{$k},
+        examples => $roots_examples{$k} // [],
     };
 
     $isSingleCharRoot = 0 if length($code) > 1;
@@ -696,6 +696,7 @@ function createKeyboard() {
             if (d.traditional) clz += " traditional";
             if (isHotRoot(r)) clz += " hot_root";
             keyboard +=`<span class="\${clz}" data-letter="\${l}" data-code="\${c}" data-root="\${r}" onclick="showDetail(this)">\${mr(r)}</span>`;
+            if (c.length == 1) keyboard += " ";
           }
           keyboard += '</span>';
 
@@ -730,6 +731,7 @@ function createTable() {
 
   for (let l of letters) {
     let codes = Object.keys(chart_json[l]).sort();
+    if (codes[0].length == 1) continue;
     let letter_rowspan = 0;
     for (let c of codes) {
         letter_rowspan += Object.keys(chart_json[l][c]).filter(r => chart_json[l][c][r].freq[page] > 0).length;
