@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 #
-# Usage: ./generate.sh path/to/宇浩星陳_v3.9.0/schema
+# Usage: ./generate.sh path/to/宇浩星陳_$VER/schema
 
 set -euo pipefail
+
+VER=v3.9.1-beta.20250714
 
 [ -e zigen-star.csv ] || curl -O 'https://shurufa.app/zigen-star.csv'
 [ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://shurufa.app/chaifen.csv'
@@ -40,8 +42,8 @@ perl -CSDA -lne 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "
 cp -f "$1/../font/Yuniversus.ttf" .
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yustar_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yustar_sc.js -r roots-mapping.tsv -f Yuniversus.ttf \
-    -t "宇浩星陳字根表 v3.9.0" \
-    roots.tsv chaifen_sc.tsv ../top6000.txt > yustar_sc.html
+    -t "宇浩星陳字根表 $VER" \
+    roots.tsv chaifen_sc.tsv ../top6000.txt > yustar_sc-$VER.html
 
 perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if $F[1] && length($F[0]) == 1 && length($F[1]) == 1' "$1"/yuhao/yustar_sc.quick.dict.yaml > dazhu.txt
 perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if $F[1]' "$1"/yuhao/yustar.full.dict.yaml | grep -v '^/' >> dazhu.txt
