@@ -110,7 +110,9 @@ while (<$fh>) {
 
     # special case: https://shurufa.app/docs/sunmoon.html
     $ym = '[mp]u' if $sm =~ /^[mp]$/ && $ym eq 'u';
-    $ym = '(sh)i' if $sm eq 'sh' && $ym eq 'i';
+    if ($sm eq 'sh' && $ym eq 'i') {
+        $ym = $root eq '士' ? '(sh)i/士' : '(sh)i';
+    }
     if ($ym eq 'ian') {
         $sm =~ /^[qtdbx]$/ and $ym = '[qtdbx]ian' or $ym = '[pljmn]ian';
     }

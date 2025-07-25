@@ -5,7 +5,7 @@
 {虍上}	Bhⓤ	
 虍	Bhⓤ	hū
 虎	Bhⓤ	hǔ
-示	Bkⓤ	shì
+示	Bkⓐ	shì
 鹵	Blⓤ	lǔ
 {馬上}	Bmⓐ	
 馬	Bmⓐ	mǎ
@@ -19,9 +19,9 @@
 癶	Cbⓞ	bō
 飛	Cfⓞ	fēi
 禾	Chⓔ	hé
+世	Ckⓐ	shì
 生	Ckⓔ	shēng
 氵	Ckⓞ	shui
-世	Ckⓤ	shì
 來	Clⓔ	lái
 女	Cnⓔ	nǚ
 乙	Cⓘ	yǐ
@@ -49,11 +49,11 @@
 电	Fdⓘ	diàn
 匚	Ffⓔ	fāng
 甲	Fjⓐ	jiǎ
+食	Fkⓐ	shí
 手	Fkⓔ	shǒu
 龵	Fkⓔ	shǒu
 丂	Fkⓘ	kǎo
 水	Fkⓞ	shuǐ
-食	Fkⓤ	shí
 面	Fmⓔ	miàn
 乃	Fnⓔ	nǎi
 丿	Fpⓔ	piě
@@ -72,9 +72,9 @@
 广	Ggⓞ	guǎng
 見	Gjⓔ	jiàn
 九	Gjⓤ	jiǔ
+{豕下}	Gkⓐ	
+豕	Gkⓐ	shǐ
 扌	Gkⓔ	shou
-{豕下}	Gkⓤ	
-豕	Gkⓤ	shǐ
 {鹿上}	Glⓤ	
 鹿	Glⓤ	lù
 麻	Gmⓐ	má
@@ -122,10 +122,10 @@
 {鬼左}	Jgⓞ	
 鬼	Jgⓞ	guǐ
 骨	Jgⓤ	gǔ
+矢	Jkⓐ	shǐ
 {丄丶}	Jkⓔ	
 丄	Jkⓔ	shàng
 上	Jkⓔ	shàng
-矢	Jkⓤ	shǐ
 门	Jmⓔ	mén
 臣	Jrⓔ	chén
 巛	Jrⓘ	chuān
@@ -160,7 +160,6 @@
 {二撇}	Kkⓐ	
 ㄩ	Kkⓐ	
 彡	Kkⓐ	shān
-饣	Kkⓤ	shí
 里	Klⓘ	lǐ
 马	Kmⓐ	mǎ
 且	Kqⓔ	qiě
@@ -188,6 +187,7 @@
 干	Lgⓐ	gàn
 丨	Lgⓘ	gǔn
 高	Lgⓘ	gāo
+饣	Lkⓐ	shí
 了	Llⓔ	le
 {贏框}	Llⓞ	
 曲	Lqⓔ	qū
@@ -276,8 +276,8 @@
 㔾	Rjⓔ	jié
 卩	Rjⓔ	jié
 丌	Rjⓘ	jī
+石	Rkⓐ	shí
 身	Rkⓔ	shēn
-石	Rkⓤ	shí
 立	Rlⓘ	lì
 門	Rmⓔ	mén
 毛	Rmⓘ	máo
@@ -294,9 +294,9 @@
 戸	Shⓤ	hù
 {反彐}	Sjⓘ	
 彐	Sjⓘ	jì
+{眉上}	Skⓐ	
+尸	Skⓐ	shī
 舌	Skⓔ	shé
-{眉上}	Skⓤ	
-尸	Skⓤ	shī
 隶	Slⓘ	lì
 木	Smⓔ	mù
 朩	Smⓔ	mù
@@ -314,8 +314,8 @@
 尤	Sⓤ	yóu
 火	Thⓞ	huǒ
 巾	Tjⓞ	jīn
+十	Tkⓐ	shí
 尚	Tkⓔ	shàng
-十	Tkⓤ	shí
 夊	Tpⓔ	pū
 衤	Tⓘ	yī
 {畏下}	Tⓞ	
@@ -327,8 +327,8 @@
 见	Vjⓔ	jiàn
 斤	Vjⓞ	jīn
 山	Vkⓐ	shān
+士	Vkⓔ	shì
 龶	Vkⓔ	
-士	Vkⓤ	shì
 耂	Vlⓘ	lǎo
 米	Vmⓘ	mǐ
 车	Vrⓔ	chē
