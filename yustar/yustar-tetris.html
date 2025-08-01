@@ -1,0 +1,1735 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>字根练习之俄罗斯方块</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Microsoft YaHei', Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            color: white;
+        }
+
+        .game-title {
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 50px;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        .game-instructions {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #fff;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .game-instructions h3 {
+            margin-bottom: 15px;
+            color: #ffd700;
+        }
+
+        .game-instructions .instructions-content {
+            display: inline-block;
+            text-align: left;
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+        }
+
+        .game-instructions p {
+            margin: 5px 0;
+        }
+
+        .game-container {
+            display: flex;
+            gap: 20px;
+            align-items: flex-start;
+            justify-content: center;
+        }
+
+        .game-board {
+            border: 3px solid #fff;
+            background: #000;
+            position: relative;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        }
+
+        .game-info {
+            background: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            backdrop-filter: blur(10px);
+            min-width: 200px;
+        }
+
+        .score {
+            font-size: 24px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .input-area {
+            margin-bottom: 20px;
+        }
+
+        .input-area input {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            background: rgba(255,255,255,0.9);
+            color: #333;
+        }
+
+        .input-area input:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+
+        .game-status {
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .controls {
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .controls h3 {
+            margin-bottom: 10px;
+            color: #ffd700;
+        }
+
+        .block {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            border: 2px solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 5px;
+            transition: all 0.1s ease;
+            z-index: 1;
+        }
+
+        .block.falling {
+            background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+            animation: glow 1s infinite alternate;
+        }
+
+        .block.stacked {
+            background: linear-gradient(45deg, #4834d4, #686de0);
+        }
+
+        .block.showing-code {
+            background: linear-gradient(45deg, #f39c12, #e67e22);
+            animation: pulse 0.5s ease-in-out;
+        }
+
+        .block.exploding {
+            animation: explode 0.5s ease-out;
+        }
+
+        @keyframes glow {
+            from { box-shadow: 0 0 5px #ff6b6b; }
+            to { box-shadow: 0 0 20px #ff6b6b, 0 0 30px #ff6b6b; }
+        }
+
+        @keyframes explode {
+            0% { transform: scale(1); opacity: 1; }
+            50% { transform: scale(1.5); opacity: 0.8; }
+            100% { transform: scale(0); opacity: 0; }
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        .game-over {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0,0,0,0.9);
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            display: none;
+            z-index: 1000;
+        }
+
+        .game-over h2 {
+            color: #ff6b6b;
+            margin-bottom: 20px;
+        }
+
+        .restart-btn {
+            background: #ff6b6b;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .restart-btn:hover {
+            background: #ee5a24;
+        }
+
+        .game-controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 15px;
+        }
+
+        .control-btn {
+            flex: 1;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+
+        .restart-control-btn {
+            background: #e74c3c;
+            color: white;
+        }
+
+        .restart-control-btn:hover {
+            background: #c0392b;
+        }
+
+        .memory-btn {
+            background: #9b59b6;
+            color: white;
+        }
+
+        .memory-btn:hover {
+            background: #8e44ad;
+        }
+
+        .memory-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            z-index: 2000;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .memory-content {
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 90%;
+            max-height: 80%;
+            overflow: auto;
+            position: relative;
+        }
+
+        .memory-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .memory-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .close-btn {
+            background: #e74c3c;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        .close-btn:hover {
+            background: #c0392b;
+        }
+
+        .clear-btn {
+            background: #f39c12;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-right: 10px;
+        }
+
+        .clear-btn:hover {
+            background: #e67e22;
+        }
+
+        .memory-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        .memory-table th,
+        .memory-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+            color: #333;
+            min-width: 120px;
+        }
+
+        .memory-table th:first-child,
+        .memory-table td:first-child {
+            min-width: 60px; /* 序号列 */
+        }
+
+        .memory-table th:nth-child(2),
+        .memory-table td:nth-child(2) {
+            min-width: 80px; /* 字根列可以窄一些 */
+        }
+
+        .memory-table th:nth-child(3),
+        .memory-table td:nth-child(3) {
+            min-width: 80px; /* 编码列可以窄一些 */
+        }
+
+        .memory-table th:nth-child(4),
+        .memory-table td:nth-child(4) {
+            min-width: 80px; /* 频率列可以窄一些 */
+        }
+
+        .memory-table th:nth-child(5),
+        .memory-table td:nth-child(5) {
+            min-width: 120px; /* 正确次数列 */
+        }
+
+        .memory-table th:nth-child(6),
+        .memory-table td:nth-child(6),
+        .memory-table th:nth-child(7),
+        .memory-table td:nth-child(7) {
+            min-width: 160px; /* 时间列需要更宽 */
+        }
+
+        .memory-table th {
+            background: #f8f9fa;
+            font-weight: bold;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+            color: #333;
+        }
+
+        .memory-table th:hover {
+            background: #e9ecef;
+            color: #333;
+        }
+
+        .memory-table th.sortable::after {
+            content: '↕';
+            position: absolute;
+            right: 12px;
+            color: #999;
+        }
+
+        .memory-table th.sort-asc::after {
+            content: '↑';
+            position: absolute;
+            right: 12px;
+            color: #007bff;
+        }
+
+        .memory-table th.sort-desc::after {
+            content: '↓';
+            position: absolute;
+            right: 12px;
+            color: #007bff;
+        }
+
+        .memory-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .memory-table tr:nth-child(even) td {
+            color: #333;
+        }
+
+        .memory-table tr:hover {
+            background: #e9ecef;
+        }
+
+        .memory-table tr:hover td {
+            color: #333;
+        }
+
+        .timer {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #00ff88;
+            font-family: 'Courier New', monospace;
+        }
+
+        .roots-count {
+            text-align: center;
+            font-size: 16px;
+            margin-bottom: 10px;
+            color: #ffd700;
+        }
+
+        .debug-info {
+            font-size: 12px;
+            color: #ccc;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+        <div style="display: flex; flex-direction: column; align-items: stretch; margin: 20px;">
+            <div class="game-title">宇浩·星陳字根练习之俄罗斯方块</div>
+            <div class="game-instructions">
+                <h3>游戏说明</h3>
+                <div class="instructions-content">
+                    <p>• 方块上显示字根名称，输入对应编码消除方块</p>
+                    <p>• 消除掉落中的方块得10分，消除堆叠的方块得5分</p>
+                    <p>• 点击方块时，方块显示编码，2秒后恢复显示字根</p>
+                    <p>• 编码输入框失去焦点时游戏暂停，获得焦点时继续</p>
+                </div>
+            </div>
+        </div>
+    
+    <div class="game-container">
+        <div class="game-board" id="gameBoard">
+            <div class="game-over" id="gameOver">
+                <h2>游戏结束！</h2>
+                <p>最终得分: <span id="finalScore">0</span></p>
+                <button class="restart-btn" onclick="restartGame()">重新开始</button>
+            </div>
+        </div>
+        
+        <div class="game-info">
+            <div class="score">得分: <span id="score">0</span></div>
+            <div class="timer">时间: <span id="timer">00:00:00</span></div>
+            <div class="roots-count">字根: <span id="roots">0 / 0</span></div>
+            <div class="game-status" id="gameStatus">准备开始</div>
+            <div class="debug-info" id="debugInfo">调试信息</div>
+            
+                            <div class="game-controls">
+                    <button class="control-btn restart-control-btn" onclick="restartGame()">重新开始</button>
+                    <button class="control-btn memory-btn" onclick="showMemoryStatus()">记忆统计</button>
+                </div>
+            
+            <div class="input-area">
+                <input type="text" id="codeInput" placeholder="输入编码..." autocomplete="off">
+            </div>
+        </div>
+    </div>
+
+    <!-- 记忆情况弹窗 -->
+    <div class="memory-modal" id="memoryModal">
+        <div class="memory-content">
+            <div class="memory-header">
+                <div class="memory-title">记忆统计</div>
+                <div>
+                    <button class="clear-btn" onclick="clearMemoryData()">清空</button>
+                    <button class="close-btn" onclick="closeMemoryModal()">关闭</button>
+                </div>
+            </div>
+            <table class="memory-table" id="memoryTable">
+                <thead>
+                    <tr>
+                        <th>序号</th>
+                        <th class="sortable" onclick="sortTable('root')">字根</th>
+                        <th class="sortable" onclick="sortTable('code')">编码</th>
+                        <th class="sortable" onclick="sortTable('freq')">频率</th>
+                        <th class="sortable" onclick="sortTable('count')">正确次数</th>
+                        <th class="sortable" onclick="sortTable('firstCorrectTime')">首次正确时间</th>
+                        <th class="sortable" onclick="sortTable('lastCorrectTime')">最后正确时间</th>
+                    </tr>
+                </thead>
+                <tbody id="memoryTableBody">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        // 字根数据
+        const rootsData = [
+            {root: "一", code: "fi", freq: 20882},
+            {root: "口", code: "lv", freq: 17030},
+            {root: "人", code: "re", freq: 10534},
+            {root: "乙", code: "yi", freq: 8974},
+            {root: "日", code: "jr", freq: 7728},
+            {root: "木", code: "am", freq: 7602},
+            {root: "艹", code: "so", freq: 7219},
+            {root: "丿", code: "gp", freq: 6389},
+            {root: "土", code: "ht", freq: 6049},
+            {root: "乂", code: "si", freq: 5692},
+            {root: "丨", code: "us", freq: 5209},
+            {root: "氵", code: "ns", freq: 4831},
+            {root: "八", code: "ka", freq: 4500},
+            {root: "丶", code: "kd", freq: 4335},
+            {root: "又", code: "bo", freq: 4329},
+            {root: "月", code: "wy", freq: 4273},
+            {root: "二", code: "ir", freq: 4269},
+            {root: "冂", code: "ck", freq: 3943},
+            {root: "夊", code: "tu", freq: 3920},
+            {root: "乚", code: "ei", freq: 3880},
+            {root: "丷", code: "qk", freq: 3736},
+            {root: "十", code: "gi", freq: 3708},
+            {root: "亻", code: "er", freq: 3703},
+            {root: "火", code: "ih", freq: 3607},
+            {root: "大", code: "od", freq: 3590},
+            {root: "匕", code: "nb", freq: 3567},
+            {root: "匚", code: "hf", freq: 3289},
+            {root: "ス", code: "bo", freq: 3230},
+            {root: "厶", code: "na", freq: 3227},
+            {root: "ㄩ", code: "wk", freq: 3214},
+            {root: "女", code: "cn", freq: 3141},
+            {root: "扌", code: "fs", freq: 3081},
+            {root: "宀", code: "im", freq: 2985},
+            {root: "亠", code: "at", freq: 2941},
+            {root: "山", code: "us", freq: 2923},
+            {root: "〇", code: "ll", freq: 2817},
+            {root: "心", code: "ri", freq: 2711},
+            {root: "⺊", code: "ub", freq: 2697},
+            {root: "王", code: "jw", freq: 2679},
+            {root: "田", code: "vt", freq: 2665},
+            {root: "䒑", code: "qk", freq: 2651},
+            {root: "目", code: "jm", freq: 2625},
+            {root: "糸", code: "os", freq: 2601},
+            {root: "虫", code: "qc", freq: 2599},
+            {root: "禾", code: "mh", freq: 2485},
+            {root: "⺮", code: "gz", freq: 2394},
+            {root: "阝", code: "yf", freq: 2303},
+            {root: "金", code: "tj", freq: 2299},
+            {root: "丄", code: "jv", freq: 2234},
+            {root: "勹", code: "wb", freq: 2227},
+            {root: "丅", code: "jx", freq: 2200},
+            {root: "貝", code: "jb", freq: 2196},
+            {root: "彐", code: "bj", freq: 2184},
+            {root: "辶", code: "oc", freq: 2155},
+            {root: "夕", code: "xx", freq: 2146},
+            {root: "冖", code: "xm", freq: 2111},
+            {root: "言", code: "by", freq: 2106},
+            {root: "〢", code: "us", freq: 2064},
+            {root: "米", code: "qm", freq: 2019},
+            {root: "𰀪", code: "cp", freq: 2005},
+            {root: "隹", code: "eh", freq: 1875},
+            {root: "尸", code: "bs", freq: 1873},
+            {root: "巾", code: "uj", freq: 1849},
+            {root: "儿", code: "wr", freq: 1803},
+            {root: "立", code: "kl", freq: 1792},
+            {root: "⺈", code: "xm", freq: 1790},
+            {root: "石", code: "vs", freq: 1706},
+            {root: "己", code: "oj", freq: 1705},
+            {root: "习", code: "vx", freq: 1688},
+            {root: "忄", code: "rx", freq: 1687},
+            {root: "罒", code: "uw", freq: 1649},
+            {root: "示", code: "js", freq: 1615},
+            {root: "刂", code: "md", freq: 1597},
+            {root: "广", code: "mg", freq: 1582},
+            {root: "囗", code: "ww", freq: 1562},
+            {root: "戈", code: "kg", freq: 1558},
+            {root: "寸", code: "kc", freq: 1550},
+            {root: "力", code: "sl", freq: 1547},
+            {root: "鳥", code: "dn", freq: 1503},
+            {root: "水", code: "ns", freq: 1502},
+            {root: "𬼖", code: "bj", freq: 1494},
+            {root: "足", code: "pz", freq: 1494},
+            {root: "皿", code: "um", freq: 1491},
+            {root: "几", code: "ej", freq: 1483},
+            {root: "小", code: "iv", freq: 1465},
+            {root: "厂", code: "vh", freq: 1461},
+            {root: "爪", code: "uz", freq: 1445},
+            {root: "𠂉", code: "gz", freq: 1443},
+            {root: "コ", code: "bo", freq: 1441},
+            {root: "止", code: "pi", freq: 1411},
+            {root: "弓", code: "bg", freq: 1362},
+            {root: "魚", code: "vv", freq: 1351},
+            {root: "工", code: "pg", freq: 1344},
+            {root: "廾", code: "so", freq: 1322},
+            {root: "子", code: "kz", freq: 1304},
+            {root: "白", code: "db", freq: 1294},
+            {root: "刀", code: "md", freq: 1291},
+            {root: "耳", code: "le", freq: 1281},
+            {root: "雨", code: "cv", freq: 1268},
+            {root: "車", code: "dc", freq: 1250},
+            {root: "幺", code: "na", freq: 1221},
+            {root: "ナ", code: "ez", freq: 1220},
+            {root: "彳", code: "cc", freq: 1204},
+            {root: "{乍下}", code: "ub", freq: 1185},
+            {root: "灬", code: "ib", freq: 1164},
+            {root: "{介下}", code: "ka", freq: 1141},
+            {root: "穴", code: "ix", freq: 1138},
+            {root: "犭", code: "hq", freq: 1110},
+            {root: "丰", code: "df", freq: 1106},
+            {root: "龷", code: "so", freq: 1099},
+            {root: "𰀁", code: "ak", freq: 1089},
+            {root: "疒", code: "mb", freq: 1087},
+            {root: "門", code: "dm", freq: 1038},
+            {root: "臼", code: "di", freq: 1036},
+            {root: "夫", code: "of", freq: 1024},
+            {root: "馬", code: "wm", freq: 1017},
+            {root: "七", code: "xi", freq: 1007},
+            {root: "頁", code: "je", freq: 1005},
+            {root: "欠", code: "xq", freq: 997},
+            {root: "𧘇", code: "gy", freq: 994},
+            {root: "冫", code: "ir", freq: 993},
+            {root: "屮", code: "wc", freq: 974},
+            {root: "斤", code: "dj", freq: 966},
+            {root: "牛", code: "pn", freq: 964},
+            {root: "方", code: "tf", freq: 953},
+            {root: "士", code: "hs", freq: 913},
+            {root: "衤", code: "xy", freq: 894},
+            {root: "酉", code: "py", freq: 882},
+            {root: "干", code: "ng", freq: 873},
+            {root: "彡", code: "cp", freq: 869},
+            {root: "毛", code: "mm", freq: 856},
+            {root: "丌", code: "lj", freq: 852},
+            {root: "丂", code: "hk", freq: 837},
+            {root: "羊", code: "qy", freq: 783},
+            {root: "食", code: "ks", freq: 776},
+            {root: "殳", code: "es", freq: 745},
+            {root: "兀", code: "lw", freq: 743},
+            {root: "革", code: "sg", freq: 735},
+            {root: "矢", code: "ji", freq: 730},
+            {root: "西", code: "px", freq: 728},
+            {root: "文", code: "te", freq: 708},
+            {root: "丁", code: "jd", freq: 707},
+            {root: "卄", code: "so", freq: 705},
+            {root: "虍", code: "uh", freq: 704},
+            {root: "卅", code: "ss", freq: 703},
+            {root: "巳", code: "os", freq: 686},
+            {root: "钅", code: "oj", freq: 684},
+            {root: "龶", code: "hs", freq: 683},
+            {root: "龰", code: "pi", freq: 676},
+            {root: "用", code: "sy", freq: 676},
+            {root: "⺌", code: "iv", freq: 671},
+            {root: "㐄", code: "ak", freq: 658},
+            {root: "耂", code: "ht", freq: 655},
+            {root: "巛", code: "lc", freq: 650},
+            {root: "豕", code: "ts", freq: 636},
+            {root: "自", code: "qi", freq: 611},
+            {root: "犬", code: "hq", freq: 609},
+            {root: "千", code: "mq", freq: 608},
+            {root: "舟", code: "uo", freq: 601},
+            {root: "走", code: "hz", freq: 596},
+            {root: "里", code: "vl", freq: 581},
+            {root: "巴", code: "ob", freq: 580},
+            {root: "古", code: "jg", freq: 577},
+            {root: "戊", code: "kw", freq: 577},
+            {root: "見", code: "jj", freq: 570},
+            {root: "业", code: "ue", freq: 564},
+            {root: "早", code: "jz", freq: 542},
+            {root: "⺀", code: "ir", freq: 538},
+            {root: "{京上}", code: "ag", freq: 533},
+            {root: "臣", code: "hc", freq: 524},
+            {root: "乀", code: "kd", freq: 519},
+            {root: "户", code: "hh", freq: 518},
+            {root: "𢆉", code: "qy", freq: 514},
+            {root: "マ", code: "bo", freq: 508},
+            {root: "贝", code: "cb", freq: 505},
+            {root: "予", code: "kv", freq: 490},
+            {root: "㔾", code: "aj", freq: 484},
+            {root: "⺁", code: "dj", freq: 481},
+            {root: "辛", code: "kx", freq: 478},
+            {root: "⺽", code: "di", freq: 477},
+            {root: "皮", code: "bp", freq: 475},
+            {root: "手", code: "fs", freq: 467},
+            {root: "纟", code: "kj", freq: 463},
+            {root: "黑", code: "gh", freq: 462},
+            {root: "髟", code: "ub", freq: 462},
+            {root: "鬼", code: "dg", freq: 460},
+            {root: "合", code: "rh", freq: 459},
+            {root: "{卬左}", code: "km", freq: 457},
+            {root: "而", code: "sr", freq: 457},
+            {root: "九", code: "rj", freq: 444},
+            {root: "乃", code: "gn", freq: 434},
+            {root: "丆", code: "vh", freq: 434},
+            {root: "且", code: "jq", freq: 431},
+            {root: "𫝀", code: "bw", freq: 426},
+            {root: "冊", code: "ce", freq: 423},
+            {root: "讠", code: "dy", freq: 419},
+            {root: "由", code: "do", freq: 418},
+            {root: "爿", code: "dq", freq: 415},
+            {root: "电", code: "dd", freq: 413},
+            {root: "⺷", code: "qy", freq: 408},
+            {root: "鱼", code: "xv", freq: 406},
+            {root: "朩", code: "am", freq: 405},
+            {root: "缶", code: "jf", freq: 404},
+            {root: "鸟", code: "mn", freq: 402},
+            {root: "⺧", code: "pn", freq: 402},
+            {root: "鹿", code: "ml", freq: 399},
+            {root: "瓦", code: "rw", freq: 399},
+            {root: "來", code: "al", freq: 390},
+            {root: "風", code: "ef", freq: 389},
+            {root: "卩", code: "aj", freq: 383},
+            {root: "尚", code: "is", freq: 383},
+            {root: "身", code: "qs", freq: 381},
+            {root: "生", code: "ps", freq: 378},
+            {root: "非", code: "uf", freq: 372},
+            {root: "三", code: "la", freq: 370},
+            {root: "骨", code: "rg", freq: 370},
+            {root: "艮", code: "gg", freq: 364},
+            {root: "上", code: "jv", freq: 363},
+            {root: "门", code: "tm", freq: 361},
+            {root: "其", code: "uq", freq: 358},
+            {root: "ユ", code: "bo", freq: 352},
+            {root: "片", code: "dp", freq: 352},
+            {root: "𬺰", code: "kc", freq: 349},
+            {root: "不", code: "vu", freq: 346},
+            {root: "亡", code: "tw", freq: 345},
+            {root: "齒", code: "pc", freq: 344},
+            {root: "至", code: "dz", freq: 336},
+            {root: "{囟框}", code: "dx", freq: 333},
+            {root: "𧰨", code: "ts", freq: 329},
+            {root: "夭", code: "my", freq: 321},
+            {root: "舌", code: "ls", freq: 320},
+            {root: "{飞右}", code: "ir", freq: 319},
+            {root: "甫", code: "nf", freq: 318},
+            {root: "癶", code: "bo", freq: 313},
+            {root: "车", code: "xj", freq: 313},
+            {root: "弋", code: "ki", freq: 311},
+            {root: "𡗗", code: "od", freq: 305},
+            {root: "卜", code: "ub", freq: 300},
+            {root: "壴", code: "hz", freq: 299},
+            {root: "马", code: "bm", freq: 297},
+            {root: "母", code: "em", freq: 294},
+            {root: "豸", code: "mz", freq: 293},
+            {root: "虎", code: "uh", freq: 292},
+            {root: "壬", code: "mr", freq: 287},
+            {root: "卌", code: "ss", freq: 282},
+            {root: "亅", code: "yi", freq: 282},
+            {root: "⺆", code: "wb", freq: 281},
+            {root: "辰", code: "mc", freq: 278},
+            {root: "𠂤", code: "dd", freq: 271},
+            {root: "正", code: "lz", freq: 270},
+            {root: "入", code: "kr", freq: 268},
+            {root: "也", code: "oe", freq: 267},
+            {root: "尤", code: "fo", freq: 266},
+            {root: "廴", code: "gy", freq: 263},
+            {root: "丬", code: "qq", freq: 261},
+            {root: "瓜", code: "ug", freq: 259},
+            {root: "卯", code: "km", freq: 253},
+            {root: "亍", code: "ic", freq: 252},
+            {root: "肀", code: "bj", freq: 250},
+            {root: "𠀎", code: "so", freq: 249},
+            {root: "彑", code: "em", freq: 246},
+            {root: "麻", code: "ma", freq: 243},
+            {root: "{具上}", code: "jq", freq: 241},
+            {root: "禺", code: "vv", freq: 241},
+            {root: "𠃜", code: "bs", freq: 219},
+            {root: "{鼠下}", code: "ls", freq: 219},
+            {root: "页", code: "cy", freq: 217},
+            {root: "面", code: "sm", freq: 216},
+            {root: "世", code: "si", freq: 213},
+            {root: "了", code: "ke", freq: 206},
+            {root: "牙", code: "ha", freq: 204},
+            {root: "高", code: "ag", freq: 203},
+            {root: "未", code: "fw", freq: 203},
+            {root: "曲", code: "dq", freq: 195},
+            {root: "𱼀", code: "wy", freq: 193},
+            {root: "镸", code: "uc", freq: 188},
+            {root: "饣", code: "xs", freq: 186},
+            {root: "{⺮右}", code: "gz", freq: 181},
+            {root: "𫶧", code: "wr", freq: 181},
+            {root: "气", code: "gq", freq: 179},
+            {root: "丑", code: "bc", freq: 167},
+            {root: "{亮上}", code: "ag", freq: 164},
+            {root: "⺍", code: "ns", freq: 164},
+            {root: "川", code: "lc", freq: 156},
+            {root: "尢", code: "fo", freq: 154},
+            {root: "下", code: "jx", freq: 153},
+            {root: "{龍右}", code: "ub", freq: 149},
+            {root: "甲", code: "vj", freq: 148},
+            {root: "僉", code: "rq", freq: 145},
+            {root: "{專上}", code: "dc", freq: 144},
+            {root: "亦", code: "ti", freq: 138},
+            {root: "鹵", code: "ul", freq: 137},
+            {root: "丩", code: "wj", freq: 137},
+            {root: "{卑上}", code: "dg", freq: 135},
+            {root: "{亞下}", code: "ka", freq: 134},
+            {root: "𣥂", code: "iv", freq: 132},
+            {root: "隶", code: "bd", freq: 131},
+            {root: "{黽中}", code: "jv", freq: 127},
+            {root: "咼", code: "rk", freq: 127},
+            {root: "申", code: "ds", freq: 126},
+            {root: "{穀框}", code: "hs", freq: 126},
+            {root: "见", code: "cj", freq: 120},
+            {root: "{畏下}", code: "mc", freq: 120},
+            {root: "{曾中}", code: "jr", freq: 116},
+            {root: "{纟上}", code: "kj", freq: 115},
+            {root: "之", code: "oz", freq: 115},
+            {root: "戶", code: "dh", freq: 111},
+            {root: "{祭上}", code: "wy", freq: 108},
+            {root: "{冂丶}", code: "ck", freq: 107},
+            {root: "亥", code: "th", freq: 107},
+            {root: "{𠇊右}", code: "gy", freq: 99},
+            {root: "長", code: "uc", freq: 95},
+            {root: "𰃦", code: "dx", freq: 94},
+            {root: "龵", code: "fs", freq: 88},
+            {root: "{爲下}", code: "gw", freq: 85},
+            {root: "{鹿上}", code: "ml", freq: 82},
+            {root: "{雋下}", code: "ck", freq: 81},
+            {root: "{龠上}", code: "rh", freq: 81},
+            {root: "末", code: "fm", freq: 80},
+            {root: "{奐上}", code: "xv", freq: 80},
+            {root: "{母框}", code: "em", freq: 77},
+            {root: "リ", code: "qk", freq: 77},
+            {root: "{襄上}", code: "ag", freq: 75},
+            {root: "{微上}", code: "cc", freq: 74},
+            {root: "〣", code: "us", freq: 73},
+            {root: "𣎆", code: "tw", freq: 68},
+            {root: "{兴上}", code: "ns", freq: 67},
+            {root: "𦣞", code: "hc", freq: 66},
+            {root: "𠂭", code: "si", freq: 66},
+            {root: "{曹上}", code: "cv", freq: 64},
+            {root: "{丄丶}", code: "jv", freq: 64},
+            {root: "{发左}", code: "wj", freq: 64},
+            {root: "烏", code: "dw", freq: 56},
+            {root: "{華中}", code: "so", freq: 56},
+            {root: "向", code: "dx", freq: 55},
+            {root: "{鳥上}", code: "dn", freq: 51},
+            {root: "丱", code: "wj", freq: 45},
+            {root: "飛", code: "yf", freq: 44},
+            {root: "鬥", code: "du", freq: 42},
+            {root: "𫩏", code: "jr", freq: 40},
+            {root: "龸", code: "is", freq: 36},
+            {root: "长", code: "nc", freq: 35},
+            {root: "甶", code: "dg", freq: 34},
+            {root: "{虍上}", code: "uh", freq: 32},
+            {root: "ㄗ", code: "aj", freq: 30},
+            {root: "{乐上}", code: "km", freq: 25},
+            {root: "{馬上}", code: "wm", freq: 23},
+            {root: "𠁁", code: "ka", freq: 22},
+            {root: "已", code: "oi", freq: 22},
+            {root: "𠂎", code: "km", freq: 21},
+            {root: "{亜下}", code: "ka", freq: 20},
+            {root: "巜", code: "lc", freq: 20},
+            {root: "竹", code: "gz", freq: 19},
+            {root: "{鬼左}", code: "dg", freq: 18},
+            {root: "{鸟上}", code: "mn", freq: 17},
+            {root: "乌", code: "mw", freq: 17},
+            {root: "乜", code: "om", freq: 14},
+            {root: "叀", code: "dc", freq: 13},
+            {root: "冎", code: "rk", freq: 12},
+            {root: "{互中}", code: "em", freq: 11},
+            {root: "{亞中}", code: "ka", freq: 11},
+            {root: "戸", code: "hh", freq: 9},
+            {root: "𱍸", code: "km", freq: 9},
+            {root: "{僉上}", code: "rh", freq: 6},
+            {root: "曰", code: "jy", freq: 5},
+            {root: "𦣝", code: "hc", freq: 4},
+            {root: "{烏上}", code: "dw", freq: 3},
+            {root: "⻍", code: "oc", freq: 3}
+        ];
+
+        // 游戏配置
+        const BOARD_WIDTH = 10;
+        const BOARD_HEIGHT = 20;
+        const BLOCK_SIZE = 40;
+        const BOARD_WIDTH_PX = BOARD_WIDTH * BLOCK_SIZE;
+        const BOARD_HEIGHT_PX = BOARD_HEIGHT * BLOCK_SIZE;
+
+        // 游戏状态
+        let gameBoard = [];
+        let fallingBlocks = [];
+        let stackedBlocks = [];
+        let score = 0;
+        let level = 1;
+        let appearedRoots = new Set();
+        let correctRoots = new Map(); // 记录正确编码的字根及其正确次数
+        let gameRunning = false;
+        let gamePaused = false;
+        let gameLoopInterval;
+        let blockSpawnTimer;
+        let timerInterval;
+        let startTime = 0;
+        let currentInput = "";
+        
+        // 表格排序状态
+        let sortState = {
+            column: 'lastCorrectTime',
+            direction: 'desc' // 'none', 'asc', 'desc'
+        };
+        
+        // 字根排名数据
+        let rootRankData = new Map(); // 存储每个字根的排名信息
+
+        // 格式化日期时间
+        function formatDateTime(timestamp) {
+            const date = new Date(timestamp);
+            const year = date.getFullYear();
+            const month = String(date.getMonth() + 1).padStart(2, '0');
+            const day = String(date.getDate()).padStart(2, '0');
+            const hours = String(date.getHours()).padStart(2, '0');
+            const minutes = String(date.getMinutes()).padStart(2, '0');
+            const seconds = String(date.getSeconds()).padStart(2, '0');
+            
+            return `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+        }
+
+        // DOM元素
+        const gameBoardElement = document.getElementById('gameBoard');
+        const scoreElement = document.getElementById('score');
+        const rootsElement = document.getElementById('roots');
+        const timerElement = document.getElementById('timer');
+        const gameStatusElement = document.getElementById('gameStatus');
+        const codeInputElement = document.getElementById('codeInput');
+        const gameOverElement = document.getElementById('gameOver');
+        const finalScoreElement = document.getElementById('finalScore');
+        const debugInfoElement = document.getElementById('debugInfo');
+
+        // 初始化游戏板
+        function initGameBoard() {
+            gameBoardElement.style.width = BOARD_WIDTH_PX + 'px';
+            gameBoardElement.style.height = BOARD_HEIGHT_PX + 'px';
+            
+            // 初始化游戏数组
+            gameBoard = Array(BOARD_HEIGHT).fill().map(() => Array(BOARD_WIDTH).fill(null));
+        }
+
+        // 初始化字根排名数据
+        function initializeRootRankData() {
+            // 按频率排序
+            const sortedRoots = [...rootsData].sort((a, b) => a.freq - b.freq);
+            const totalCount = rootsData.length;
+            
+            let currentRank = 1;
+            let currentFreq = sortedRoots[0].freq;
+            
+            sortedRoots.forEach((root, index) => {
+                if (root.freq !== currentFreq) {
+                    currentRank = index + 1;
+                    currentFreq = root.freq;
+                }
+                
+                const rankPercentile = currentRank / totalCount;
+                let width = BLOCK_SIZE;
+                let height = BLOCK_SIZE;
+                
+                if (rankPercentile <= 0.25) {
+                    // 前25%：默认大小
+                    width = BLOCK_SIZE;
+                    height = BLOCK_SIZE;
+                } else if (rankPercentile <= 0.50) {
+                    // 前50%：宽度增加一倍
+                    width = BLOCK_SIZE * 2;
+                    height = BLOCK_SIZE;
+                } else if (rankPercentile <= 0.75) {
+                    // 前75%：高度增加一倍
+                    width = BLOCK_SIZE;
+                    height = BLOCK_SIZE * 2;
+                } else {
+                    // 后25%：宽高都增加一倍
+                    width = BLOCK_SIZE * 2;
+                    height = BLOCK_SIZE * 2;
+                }
+                
+                rootRankData.set(root.root, {
+                    rank: currentRank,
+                    rankPercentile: rankPercentile,
+                    width: width,
+                    height: height
+                });
+            });
+        }
+
+        // 根据排名确定方块大小
+        function getBlockSize(root) {
+            const rankInfo = rootRankData.get(root);
+            if (!rankInfo) {
+                return { width: BLOCK_SIZE, height: BLOCK_SIZE };
+            }
+            return { width: rankInfo.width, height: rankInfo.height };
+        }
+
+        // 创建新方块
+        function createBlock() {
+            // 根据艾宾浩斯遗忘曲线计算权重
+            const weightedRoots = rootsData.map(root => ({
+                ...root,
+                weight: calculateRootWeight(root.root, root.freq)
+            }));
+            
+            // 计算总权重
+            const totalWeight = weightedRoots.reduce((sum, root) => sum + root.weight, 0);
+            
+            // 根据权重随机选择字根
+            let random = Math.random() * totalWeight;
+            let selectedRoot = weightedRoots[0];
+            
+            for (const root of weightedRoots) {
+                random -= root.weight;
+                if (random <= 0) {
+                    selectedRoot = root;
+                    break;
+                }
+            }
+            
+            // 计算方块大小
+            const blockSize = getBlockSize(selectedRoot.root);
+            
+            // 根据方块宽度调整x坐标，确保不超出边界
+            const blockWidth = Math.ceil(blockSize.width / BLOCK_SIZE);
+            const maxX = BOARD_WIDTH - blockWidth;
+            
+            // 尝试找到不重叠的位置
+            let attempts = 0;
+            const maxAttempts = 50; // 最大尝试次数
+            let x, y = 0;
+            
+            do {
+                x = Math.floor(Math.random() * Math.max(1, maxX + 1));
+                attempts++;
+                
+                // 如果尝试次数过多，说明可能没有合适的位置，返回null
+                if (attempts > maxAttempts) {
+                    return null;
+                }
+            } while (checkBlockCollision({
+                width: blockSize.width,
+                height: blockSize.height
+            }, x, y));
+            
+            const block = {
+                id: Date.now() + Math.random(),
+                root: selectedRoot.root,
+                code: selectedRoot.code,
+                x: x,
+                y: y,
+                width: blockSize.width,
+                height: blockSize.height,
+                element: null
+            };
+            
+            // 记录出现的字根
+            appearedRoots.add(selectedRoot.root);
+            updateRootsCount();
+            
+            return block;
+        }
+
+        // 渲染方块
+        function renderBlock(block, isFalling = true) {
+            const blockElement = document.createElement('div');
+            blockElement.className = `block ${isFalling ? 'falling' : 'stacked'}`;
+            blockElement.textContent = block.root;
+            blockElement.style.left = block.x * BLOCK_SIZE + 'px';
+            blockElement.style.top = block.y * BLOCK_SIZE + 'px';
+            blockElement.style.width = block.width + 'px';
+            blockElement.style.height = block.height + 'px';
+            
+            // 添加点击事件
+            blockElement.addEventListener('click', () => {
+                // 切换显示编码
+                blockElement.textContent = block.code;
+                blockElement.classList.add('showing-code');
+                
+                // 2秒后恢复显示字根
+                setTimeout(() => {
+                    blockElement.textContent = block.root;
+                    blockElement.classList.remove('showing-code');
+                }, 2000);
+            });
+            
+            gameBoardElement.appendChild(blockElement);
+            block.element = blockElement;
+        }
+
+        // 移除方块
+        function removeBlock(block) {
+            if (block.element) {
+                block.element.remove();
+            }
+        }
+
+        // 爆炸效果
+        function explodeBlock(block) {
+            if (block.element) {
+                block.element.classList.add('exploding');
+                setTimeout(() => {
+                    removeBlock(block);
+                }, 500);
+            }
+        }
+
+        // 检查编码匹配
+        function checkCodeMatch(inputCode) {
+            let matched = false;
+            let matchedRoot = null;
+            
+            // 检查掉落的方块
+            fallingBlocks.forEach((block, index) => {
+                if (block.code.toLowerCase() === inputCode.toLowerCase()) {
+                    explodeBlock(block);
+                    fallingBlocks.splice(index, 1);
+                    score += 10;
+                    matched = true;
+                    matchedRoot = block.root;
+                }
+            });
+            
+            // 检查堆叠的方块（从顶部开始）
+            for (let y = 0; y < BOARD_HEIGHT; y++) {
+                for (let x = 0; x < BOARD_WIDTH; x++) {
+                    const block = gameBoard[y][x];
+                    if (block && block.code.toLowerCase() === inputCode.toLowerCase()) {
+                        explodeBlock(block);
+                        gameBoard[y][x] = null;
+                        score += 5;
+                        matched = true;
+                        matchedRoot = block.root;
+                        
+                        // 应用重力效果
+                        applyGravity();
+                        break;
+                    }
+                }
+                if (matched) break;
+            }
+            
+            if (matched && matchedRoot) {
+                // 记录正确编码的字根
+                recordCorrectRoot(matchedRoot);
+                updateScore();
+                updateDebugInfo();
+            }
+            
+            return matched;
+        }
+
+        // 更新分数
+        function updateScore() {
+            scoreElement.textContent = score;
+            level = Math.floor(score / 100) + 1;
+        }
+
+        // 更新字根统计
+        function updateRootsCount() {
+            rootsElement.textContent = `${appearedRoots.size} / ${rootsData.length}`;
+        }
+
+        // 更新调试信息
+        function updateDebugInfo() {
+            const fallingCount = fallingBlocks.length;
+            const stackedCount = stackedBlocks.length;
+            const occupiedCells = gameBoard.flat().filter(cell => cell !== null).length;
+            debugInfoElement.textContent = `掉落:${fallingCount} 堆叠:${stackedCount} 占用:${occupiedCells}`;
+        }
+
+        // 记录正确编码的字根
+        function recordCorrectRoot(root) {
+            const now = Date.now();
+            if (correctRoots.has(root)) {
+                const record = correctRoots.get(root);
+                record.count++;
+                record.lastCorrectTime = now;
+            } else {
+                correctRoots.set(root, {
+                    count: 1,
+                    firstCorrectTime: now,
+                    lastCorrectTime: now
+                });
+            }
+            // 保存到localStorage
+            saveCorrectRootsToStorage();
+        }
+
+        // 根据艾宾浩斯遗忘曲线计算字根权重
+        function calculateRootWeight(root, freq) {
+            if (!correctRoots.has(root)) {
+                return freq; // 未正确过的字根保持原频率
+            }
+            
+            const record = correctRoots.get(root);
+            const timeSinceLastCorrect = (Date.now() - record.lastCorrectTime) / (1000 * 60 * 60); // 小时
+            const correctCount = record.count;
+            
+            // 艾宾浩斯遗忘曲线：记忆保持率随时间递减
+            // 根据正确次数调整遗忘速度
+            let retentionRate = 1;
+            
+            if (correctCount === 1) {
+                // 第一次正确：1小时后遗忘率约44%
+                retentionRate = Math.max(0.1, 1 - 0.44 * Math.min(timeSinceLastCorrect / 1, 1));
+            } else if (correctCount === 2) {
+                // 第二次正确：1天后遗忘率约33%
+                retentionRate = Math.max(0.1, 1 - 0.33 * Math.min(timeSinceLastCorrect / 24, 1));
+            } else if (correctCount >= 3) {
+                // 多次正确：遗忘速度更慢
+                retentionRate = Math.max(0.05, 1 - 0.2 * Math.min(timeSinceLastCorrect / (24 * 7), 1));
+            }
+            
+            return Math.floor(freq * retentionRate);
+        }
+
+        // 应用重力效果
+        function applyGravity() {
+            let moved = false;
+            
+            // 从底部向上，逐列处理
+            for (let x = 0; x < BOARD_WIDTH; x++) {
+                // 从底部向上检查每一行
+                for (let y = BOARD_HEIGHT - 1; y > 0; y--) {
+                    // 如果当前位置为空
+                    if (!gameBoard[y][x]) {
+                        // 向上查找最近的方块
+                        for (let searchY = y - 1; searchY >= 0; searchY--) {
+                            if (gameBoard[searchY][x]) {
+                                const block = gameBoard[searchY][x];
+                                const blockWidth = Math.ceil(block.width / BLOCK_SIZE);
+                                const blockHeight = Math.ceil(block.height / BLOCK_SIZE);
+                                
+                                // 检查这个方块是否可以下移到当前位置
+                                let canMove = true;
+                                for (let dx = 0; dx < blockWidth; dx++) {
+                                    for (let dy = 0; dy < blockHeight; dy++) {
+                                        const checkX = x + dx;
+                                        const checkY = y + dy;
+                                        
+                                        // 检查边界
+                                        if (checkX >= BOARD_WIDTH || checkY >= BOARD_HEIGHT) {
+                                            canMove = false;
+                                            break;
+                                        }
+                                        
+                                        // 检查是否与其他方块重叠（排除自己）
+                                        if (gameBoard[checkY][checkX] && gameBoard[checkY][checkX] !== block) {
+                                            canMove = false;
+                                            break;
+                                        }
+                                    }
+                                    if (!canMove) break;
+                                }
+                                
+                                if (canMove) {
+                                    // 清除原位置
+                                    for (let dx = 0; dx < blockWidth; dx++) {
+                                        for (let dy = 0; dy < blockHeight; dy++) {
+                                            const fromX = x + dx;
+                                            const fromY = searchY + dy;
+                                            if (fromY >= 0 && fromY < BOARD_HEIGHT && fromX >= 0 && fromX < BOARD_WIDTH) {
+                                                gameBoard[fromY][fromX] = null;
+                                            }
+                                        }
+                                    }
+                                    
+                                    // 放置到新位置
+                                    for (let dx = 0; dx < blockWidth; dx++) {
+                                        for (let dy = 0; dy < blockHeight; dy++) {
+                                            const toX = x + dx;
+                                            const toY = y + dy;
+                                            if (toY >= 0 && toY < BOARD_HEIGHT && toX >= 0 && toX < BOARD_WIDTH) {
+                                                gameBoard[toY][toX] = block;
+                                            }
+                                        }
+                                    }
+                                    
+                                    // 更新方块的y坐标
+                                    block.y = y;
+                                    
+                                    // 更新方块元素的位置
+                                    if (block.element) {
+                                        block.element.style.top = y * BLOCK_SIZE + 'px';
+                                    }
+                                    
+                                    moved = true;
+                                }
+                                
+                                break; // 找到第一个方块后就停止向上搜索
+                            }
+                        }
+                    }
+                }
+            }
+            
+            // 如果还有方块移动，继续应用重力
+            if (moved) {
+                setTimeout(applyGravity, 100);
+            }
+        }
+
+        // 更新计时器
+        function updateTimer() {
+            if (!gameRunning || gamePaused) return;
+            
+            const currentTime = Date.now();
+            const elapsedTime = currentTime - startTime;
+            
+            const hours = Math.floor(elapsedTime / (1000 * 60 * 60));
+            const minutes = Math.floor((elapsedTime % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((elapsedTime % (1000 * 60)) / 1000);
+            
+            timerElement.textContent = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+        }
+
+        // 检查方块是否与其他方块重叠
+        function checkBlockCollision(block, x, y) {
+            const blockWidth = Math.ceil(block.width / BLOCK_SIZE);
+            const blockHeight = Math.ceil(block.height / BLOCK_SIZE);
+            
+            // 检查边界
+            if (x < 0 || y < 0 || x + blockWidth > BOARD_WIDTH || y + blockHeight > BOARD_HEIGHT) {
+                return true; // 超出边界
+            }
+            
+            // 检查方块占用的所有格子
+            for (let dx = 0; dx < blockWidth; dx++) {
+                for (let dy = 0; dy < blockHeight; dy++) {
+                    const checkX = x + dx;
+                    const checkY = y + dy;
+                    
+                    // 检查是否与其他方块重叠
+                    if (gameBoard[checkY][checkX]) {
+                        return true; // 重叠
+                    }
+                }
+            }
+            
+            return false; // 没有重叠
+        }
+
+        // 移动方块
+        function moveBlocks() {
+            const blocksToStack = []; // 收集需要堆叠的方块
+            
+            fallingBlocks.forEach((block, index) => {
+                block.y++;
+                
+                // 检查是否到达底部或碰到其他方块
+                if (checkBlockCollision(block, block.x, block.y)) {
+                    // 方块停止下落，记录需要堆叠的信息
+                    const placeY = block.y - 1;
+                    blocksToStack.push({
+                        block: block,
+                        placeY: placeY,
+                        originalIndex: index
+                    });
+                } else {
+                    // 更新方块位置
+                    block.element.style.top = block.y * BLOCK_SIZE + 'px';
+                }
+            });
+            
+            // 处理需要堆叠的方块（从后往前处理，避免索引问题）
+            blocksToStack.reverse().forEach(({block, placeY, originalIndex}) => {
+                const blockWidth = Math.ceil(block.width / BLOCK_SIZE);
+                const blockHeight = Math.ceil(block.height / BLOCK_SIZE);
+                
+                // 在游戏板上标记方块占用的所有格子
+                for (let dx = 0; dx < blockWidth; dx++) {
+                    for (let dy = 0; dy < blockHeight; dy++) {
+                        const gridX = block.x + dx;
+                        const gridY = placeY + dy;
+                        if (gridY >= 0 && gridY < BOARD_HEIGHT && gridX >= 0 && gridX < BOARD_WIDTH) {
+                            gameBoard[gridY][gridX] = block;
+                        }
+                    }
+                }
+                
+                block.y = placeY;
+                block.element.classList.remove('falling');
+                block.element.classList.add('stacked');
+                stackedBlocks.push(block);
+                fallingBlocks.splice(originalIndex, 1);
+            });
+        }
+
+        // 检查游戏结束
+        function checkGameOver() {
+            // 检查第一行是否有任何方块
+            for (let x = 0; x < BOARD_WIDTH; x++) {
+                if (gameBoard[0][x]) {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        // 生成新方块
+        function spawnBlock() {
+            if (fallingBlocks.length < 3 && !gamePaused) {
+                const newBlock = createBlock();
+                if (newBlock) {
+                    fallingBlocks.push(newBlock);
+                    renderBlock(newBlock);
+                    updateDebugInfo();
+                }
+                // 如果newBlock为null，说明没有合适的位置生成新方块，跳过这次生成
+            }
+        }
+
+        // 游戏主循环
+        function gameLoop() {
+            if (!gameRunning || gamePaused) return;
+            
+            moveBlocks();
+            updateDebugInfo();
+            
+            if (checkGameOver()) {
+                endGame();
+                return;
+            }
+        }
+
+        // 开始游戏
+        function startGame() {
+            gameRunning = true;
+            gamePaused = false;
+            startTime = Date.now();
+            gameStatusElement.textContent = "游戏进行中";
+            codeInputElement.focus();
+            
+            // 开始游戏循环
+            gameLoopInterval = setInterval(() => {
+                gameLoop();
+            }, 1000 / level);
+            
+            // 开始生成方块
+            blockSpawnTimer = setInterval(() => {
+                if (gameRunning) {
+                    spawnBlock();
+                }
+            }, 2000 / level);
+            
+            // 开始计时器
+            timerInterval = setInterval(() => {
+                updateTimer();
+            }, 1000);
+        }
+
+        // 结束游戏
+        function endGame() {
+            gameRunning = false;
+            gamePaused = false;
+            clearInterval(blockSpawnTimer);
+            clearInterval(gameLoopInterval);
+            clearInterval(timerInterval);
+            gameStatusElement.textContent = "游戏结束";
+            finalScoreElement.textContent = score;
+            gameOverElement.style.display = 'block';
+        }
+
+        // 重新开始游戏
+        function restartGame() {
+            // 取消所有定时器
+            clearInterval(blockSpawnTimer);
+            clearInterval(gameLoopInterval);
+            clearInterval(timerInterval);
+            
+            // 清理所有方块
+            fallingBlocks.forEach(block => removeBlock(block));
+            stackedBlocks.forEach(block => removeBlock(block));
+            
+            fallingBlocks = [];
+            stackedBlocks = [];
+            gameBoard = Array(BOARD_HEIGHT).fill().map(() => Array(BOARD_WIDTH).fill(null));
+            
+            // 重置游戏状态
+            score = 0;
+            level = 1;
+            appearedRoots.clear();
+            // 注意：不再清空correctRoots，保留记忆数据
+            gameRunning = false;
+            gamePaused = false;
+            updateScore();
+            updateRootsCount();
+            updateDebugInfo();
+            
+            // 重置计时器
+            timerElement.textContent = "00:00:00";
+            
+
+            
+            // 隐藏游戏结束界面
+            gameOverElement.style.display = 'none';
+            
+            // 清空输入
+            codeInputElement.value = '';
+            currentInput = "";
+            
+            // 重新开始游戏
+            startGame();
+        }
+
+        // 暂停/恢复游戏
+        function togglePause() {
+            if (!gameRunning) return;
+            
+            gamePaused = !gamePaused;
+            
+            if (gamePaused) {
+                gameStatusElement.textContent = "游戏暂停";
+            } else {
+                gameStatusElement.textContent = "游戏进行中";
+            }
+        }
+
+        // 显示记忆情况
+        function showMemoryStatus() {
+            const modal = document.getElementById('memoryModal');
+            const tbody = document.getElementById('memoryTableBody');
+            
+            // 清空表格
+            tbody.innerHTML = '';
+            
+            // 准备数据
+            const tableData = [];
+            correctRoots.forEach((record, root) => {
+                // 找到对应的原始数据
+                const originalData = rootsData.find(item => item.root === root);
+                const freq = originalData ? originalData.freq : 0;
+                const code = originalData ? originalData.code : '';
+                
+                tableData.push({
+                    root: root,
+                    code: code.charAt(0).toUpperCase() + code.slice(1),
+                    freq: freq,
+                    count: record.count,
+                    firstCorrectTime: formatDateTime(record.firstCorrectTime),
+                    lastCorrectTime: formatDateTime(record.lastCorrectTime),
+                    firstCorrectTimeRaw: record.firstCorrectTime,
+                    lastCorrectTimeRaw: record.lastCorrectTime
+                });
+            });
+            
+            // 排序数据
+            if (sortState.column && sortState.direction !== 'none') {
+                tableData.sort((a, b) => {
+                    let aVal = a[sortState.column];
+                    let bVal = b[sortState.column];
+                    
+                    // 对于时间列，使用原始时间戳进行排序
+                    if (sortState.column === 'firstCorrectTime') {
+                        aVal = a.firstCorrectTimeRaw;
+                        bVal = b.firstCorrectTimeRaw;
+                    } else if (sortState.column === 'lastCorrectTime') {
+                        aVal = a.lastCorrectTimeRaw;
+                        bVal = b.lastCorrectTimeRaw;
+                    }
+                    
+                    if (sortState.direction === 'asc') {
+                        return aVal > bVal ? 1 : -1;
+                    } else {
+                        return aVal < bVal ? 1 : -1;
+                    }
+                });
+            }
+            
+            // 填充表格
+            tableData.forEach((row, index) => {
+                const tr = document.createElement('tr');
+                tr.innerHTML = `
+                    <td>${index + 1}</td>
+                    <td>${row.root}</td>
+                    <td>${row.code}</td>
+                    <td>${row.freq}</td>
+                    <td>${row.count}</td>
+                    <td>${row.firstCorrectTime}</td>
+                    <td>${row.lastCorrectTime}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+            
+            // 更新表头排序状态
+            updateTableHeaderState();
+            
+            // 显示弹窗
+            modal.style.display = 'flex';
+        }
+
+        // 关闭记忆情况弹窗
+        function closeMemoryModal() {
+            const modal = document.getElementById('memoryModal');
+            modal.style.display = 'none';
+        }
+
+        // 保存correctRoots到localStorage
+        function saveCorrectRootsToStorage() {
+            try {
+                const data = {};
+                correctRoots.forEach((value, key) => {
+                    data[key] = value;
+                });
+                localStorage.setItem('correctRoots', JSON.stringify(data));
+            } catch (error) {
+                console.error('保存记忆数据失败:', error);
+            }
+        }
+
+        // 从localStorage加载correctRoots
+        function loadCorrectRootsFromStorage() {
+            try {
+                const data = localStorage.getItem('correctRoots');
+                if (data) {
+                    const parsedData = JSON.parse(data);
+                    correctRoots.clear();
+                    Object.keys(parsedData).forEach(key => {
+                        correctRoots.set(key, parsedData[key]);
+                    });
+                }
+            } catch (error) {
+                console.error('加载记忆数据失败:', error);
+                correctRoots.clear();
+            }
+        }
+
+        // 清空记忆数据
+        function clearMemoryData() {
+            if (confirm('确定要清空所有记忆数据吗？这将重置所有字根的学习进度。')) {
+                correctRoots.clear();
+                // 清空localStorage
+                localStorage.removeItem('correctRoots');
+                // 重新显示表格（会显示空表格）
+                showMemoryStatus();
+            }
+        }
+
+        // 更新表头排序状态
+        function updateTableHeaderState() {
+            // 清除所有表头的排序状态
+            document.querySelectorAll('.memory-table th').forEach(header => {
+                header.classList.remove('sort-asc', 'sort-desc');
+                header.classList.add('sortable');
+            });
+            
+            // 根据当前排序状态更新表头
+            if (sortState.column && sortState.direction !== 'none') {
+                const targetTh = document.querySelector(`.memory-table th[onclick*="${sortState.column}"]`);
+                if (targetTh) {
+                    targetTh.classList.remove('sortable');
+                    targetTh.classList.add(sortState.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+                }
+            }
+        }
+
+        // 表格排序
+        function sortTable(column) {
+            const th = event.target;
+            
+            // 清除所有表头的排序状态
+            document.querySelectorAll('.memory-table th').forEach(header => {
+                header.classList.remove('sort-asc', 'sort-desc');
+                header.classList.add('sortable');
+            });
+            
+            // 更新排序状态
+            if (sortState.column === column) {
+                if (sortState.direction === 'none') {
+                    sortState.direction = 'asc';
+                } else if (sortState.direction === 'asc') {
+                    sortState.direction = 'desc';
+                } else {
+                    sortState.direction = 'none';
+                }
+            } else {
+                sortState.column = column;
+                sortState.direction = 'asc';
+            }
+            
+            // 更新表头样式
+            if (sortState.direction !== 'none') {
+                th.classList.remove('sortable');
+                th.classList.add(sortState.direction === 'asc' ? 'sort-asc' : 'sort-desc');
+            } else {
+                th.classList.add('sortable');
+                sortState.column = null;
+            }
+            
+            // 重新显示表格（会应用新的排序）
+            showMemoryStatus();
+        }
+
+
+
+        // 输入处理
+        codeInputElement.addEventListener('input', function(e) {
+            currentInput = e.target.value;
+            if (currentInput.trim()) {
+                const matched = checkCodeMatch(currentInput.trim());
+                if (matched) {
+                    e.target.value = '';
+                    currentInput = "";
+                }
+            }
+        });
+
+        // 键盘事件处理
+        codeInputElement.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' || e.key === ' ' || e.key === 'Backspace' || e.key === 'Enter') {
+                e.preventDefault(); // 阻止默认行为
+                e.target.value = '';
+                currentInput = "";
+            }
+        });
+
+        // 输入框焦点事件处理
+        codeInputElement.addEventListener('focus', function(e) {
+            // 输入框获得焦点时恢复游戏
+            if (gamePaused) {
+                togglePause();
+            }
+        });
+
+        codeInputElement.addEventListener('blur', function(e) {
+            // 输入框失去焦点时暂停游戏
+            if (!gamePaused && gameRunning) {
+                togglePause();
+            }
+        });
+
+        // 初始化游戏
+        initGameBoard();
+        initializeRootRankData(); // 初始化字根排名数据
+        loadCorrectRootsFromStorage(); // 从localStorage加载记忆数据
+        updateRootsCount();
+        updateDebugInfo();
+        startGame();
+    </script>
+</body>
+</html> 
