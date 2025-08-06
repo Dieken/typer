@@ -41,7 +41,7 @@ cp -f "$1/../font/Yuniversus.ttf" .
     -t "宇浩日月字根表 $VER" \
     roots.tsv chaifen.tsv ../top6000.txt > yusm_sc-$VER.html
 
-perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yusm_sc.short.dict.yaml |
+perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yusm_sc.{quick,short}.dict.yaml |
     grep -v '^/' |
     fgrep -v ' ' |      # 去掉助记简码
     fgrep -v '～' > dazhu.txt
