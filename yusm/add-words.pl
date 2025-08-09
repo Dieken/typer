@@ -18,7 +18,7 @@ use Getopt::Long;
 use Time::Piece;
 use Unicode::Normalize qw(NFKD);
 
-my $chaifen = $ENV{HOME} . '/Library/Rime/yusm_chaifen.dict.yaml';
+my $chaifen = $ENV{DICT_FILE} ? $ENV{DICT_FILE} : "$ENV{HOME}/Library/Rime/yusm_chaifen.dict.yaml";
 my $dict_name = 'yusm.words_extra';
 my $min_weight = 0;
 
@@ -32,7 +32,8 @@ print STDERR "chaifen: $chaifen\n";
 print STDERR "dict_name: $dict_name\n";
 print STDERR "min_weight: $min_weight\n";
 
-my $chars = read_chaifen($chaifen);
+my $is_yusm = $chaifen =~ /yusm.*chaifen\.dict\.yaml/;
+my $chars = $is_yusm ? read_chaifen($chaifen) : read_mabiao($chaifen);
 print STDERR "chars: ", scalar(keys %$chars), "\n\n";
 
 if ($dict_name) {
@@ -66,6 +67,14 @@ while (<>) {
 
     next unless $word =~ /^\p{Han}{2,}$/ && $weight >= $min_weight;
 
+    my $code = $is_yusm ? gen_yusm_dict($word) : gen_fixed4_dict($word);
+    next unless $code;
+
+    $code = lc(substr($code, 0, 5));
+    print "$word\t$code\t$weight\n";
+}
+
+sub gen_yusm_dict($word) {
     my $code = "";
     my $n = length($word);
 
@@ -75,13 +84,12 @@ while (<>) {
 
         if (exists $chars->{$c1} && exists $chars->{$c2}) {
             $c1 = substr($chars->{$c1}, 0, 2);
-            next if $c1 =~ /[aeuio]$/;
+            return "" if $c1 =~ /[aeuio]$/;
 
             $c2 = last_code($chars->{$c2}, 2);
             $code = "$c1$c2";
         } else {
             warn "Missing char for: $word\n";
-            next;
         }
     } elsif ($n == 3) {
         my $c1 = substr($word, 0, 1);
@@ -95,7 +103,6 @@ while (<>) {
             $code = "$c1$c2$c3";
         } else {
             warn "Missing char for: $word\n";
-            next;
         }
     } elsif ($n == 4) {
         my $c1 = substr($word, 0, 1);
@@ -111,7 +118,6 @@ while (<>) {
             $code = "$c1$c2$c3$c4";
         } else {
             warn "Missing char for: $word\n";
-            next;
         }
     } else {
         my $c1 = substr($word, 0, 1);
@@ -129,12 +135,49 @@ while (<>) {
             $code = "$c1$c2$c3$c4$c5";
         } else {
             warn "Missing char for: $word\n";
-            next;
         }
     }
 
-    $code = lc(substr($code, 0, 5));
-    print "$word\t$code\t$weight\n";
+    return $code;
+}
+
+sub gen_fixed4_dict($word) {
+    my $code = "";
+    my $n = length($word);
+
+    if ($n == 2) {
+        my $c1 = substr($word, 0, 1);
+        my $c2 = substr($word, 1, 1);
+
+        if (exists $chars->{$c1} && exists $chars->{$c2}) {
+            $code = substr($chars->{$c1}, 0, 2) . substr($chars->{$c2}, 0, 2);
+        } else {
+            #warn "Missing char for: $word\n";
+        }
+    } elsif ($n == 3) {
+        my $c1 = substr($word, 0, 1);
+        my $c2 = substr($word, 1, 1);
+        my $c3 = substr($word, 2, 1);
+
+        if (exists $chars->{$c1} && exists $chars->{$c2} && exists $chars->{$c3}) {
+            $code = substr($chars->{$c1}, 0, 1) . substr($chars->{$c2}, 0, 1) . substr($chars->{$c3}, 0, 2);
+        } else {
+            #warn "Missing char for: $word\n";
+        }
+    } else {
+        my $c1 = substr($word, 0, 1);
+        my $c2 = substr($word, 1, 1);
+        my $c3 = substr($word, 2, 1);
+        my $c4 = substr($word, $n - 1, 1);
+
+        if (exists $chars->{$c1} && exists $chars->{$c2} && exists $chars->{$c3} && exists $chars->{$c4}) {
+            $code = substr($chars->{$c1}, 0, 1) . substr($chars->{$c2}, 0, 1) . substr($chars->{$c3}, 0, 1) . substr($chars->{$c4}, 0, 1);
+        } else {
+            #warn "Missing char for: $word\n";
+        }
+    }
+
+    return $code;
 }
 
 sub read_chaifen($file) {
@@ -149,6 +192,29 @@ sub read_chaifen($file) {
         my @a = split;
         next unless $a[1] && $a[1] =~ /^\[[^,]+,([^,]+),/;
         $chars{$a[0]} = NFKD($1);
+    }
+
+    close $fh;
+
+    return \%chars;
+}
+
+sub read_mabiao($file) {
+    my %chars;
+
+    open my $fh, '<', $file;
+
+    if ($file =~ /\.dict.\.yaml/) {
+        while (<$fh>) {
+            last if /^\.\.\./;
+        }
+    }
+
+    while (<$fh>) {
+        chomp;
+        my @a = split;
+        next unless $a[1] && $a[0] =~ /^\p{Han}$/ && $a[1] =~ /^[a-z]+$/;
+        $chars{$a[0]} = $a[1] if !exists $chars{$a[0]} || length($a[1]) > length($chars{$a[0]});
     }
 
     close $fh;
