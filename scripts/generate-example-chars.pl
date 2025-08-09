@@ -18,7 +18,7 @@ use Unicode::UCD qw/charblock/;
 
 my $chaifen_file = shift // 'chaifen.tsv';
 my $mabiao_file = shift // 'mabiao.tsv';
-my $freq_file = shift // '../top6000.txt';
+my $freq_file = shift // '../简体字频表-2.5b.txt'; # '../top6000.txt';
 my $roots_file = shift // 'roots.tsv';
 
 my %roots;
@@ -77,12 +77,15 @@ my %chars;
     my $n = keys %chars;
 
     for (keys %chaifen) {
-        $chars{$_} = $n + ord($_) unless exists $chars{$_};
+        $chars{$_} = $n unless exists $chars{$_};
     }
 }
 
 {
-    for my $char (sort { $chars{$a} <=> $chars{$b} } keys %chars) {
+    for my $char (sort { $chars{$a} <=> $chars{$b} ||
+                         charblock(ord($a)) cmp charblock(ord($b)) ||
+                         ord($a) <=> ord($b)
+                       } keys %chars) {
         my $cf = $chaifen{$char};
 
         my @founds;
