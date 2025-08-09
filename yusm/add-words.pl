@@ -70,7 +70,7 @@ while (<>) {
     my $code = $is_yusm ? gen_yusm_dict($word) : gen_fixed4_dict($word);
     next unless $code;
 
-    $code = lc(substr($code, 0, 5));
+    $code = lc($code);
     print "$word\t$code\t$weight\n";
 }
 
@@ -138,7 +138,7 @@ sub gen_yusm_dict($word) {
         }
     }
 
-    return $code;
+    return substr($code, 0, 5);
 }
 
 sub gen_fixed4_dict($word) {
