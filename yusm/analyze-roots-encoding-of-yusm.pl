@@ -94,7 +94,8 @@ while (<$fh>) {
 
     say STDERR "$root\t$code\t$py\t$sm\t$ym" if $ENV{DEBUG};
 
-    next unless $code =~ /[^A-Za-z]$/;
+    # yusm-v3.9.1-beta.20250809 开始，yusm_chaifen.dict.yaml 中不再用圈字母表示韵码了
+    next unless $code =~ /[^A-Za-z]$/ || $code =~ /[aeuio]$/;
 
     $code = fc(NFKD($code));
     my $len = length($code);

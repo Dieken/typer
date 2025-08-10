@@ -4,10 +4,10 @@
 
 set -euo pipefail
 
-VER=v3.9.1-beta.20250723
+VER=v3.9.1-beta.20250809
 
 ./analyze-roots-of-yusm-input-method.pl "$1"/yusm_chaifen*.dict.yaml > roots.tsv
-perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1ⓘ/' roots.tsv
+perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1i/' roots.tsv
 
 ./analyze-roots-encoding-of-yusm.pl > encoding.tsv 2> roots2.tsv
 grep ERROR roots2.tsv && echo "ERROR found in roots2.tsv" && exit 1
