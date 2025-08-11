@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-VER=v3.9.1-beta.20250809
+VER=v3.9.1-beta.20250810
 
 ./analyze-roots-of-yusm-input-method.pl "$1"/yusm_chaifen*.dict.yaml > roots.tsv
 perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1i/' roots.tsv
@@ -23,11 +23,11 @@ sort encoding.tsv |
             }
         }' > encoding2.tsv
 
-perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) && /^\s*-\s+(.\S+)/' "$1/yusm_sc.dict.yaml" |
+perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) && /^\s*-\s+(.\S+)/' "$1/yusm.dict.yaml" |
     sed -e "s|^|$1/|" |
     xargs perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' |
     fgrep -v ' ' |      # 去掉助记简码
-    fgrep -v '～' > mabiao_sc.tsv
+    fgrep -v '～' > mabiao.tsv
 
 perl -CSDA -lnE 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "$1"/yusm_chaifen*.dict.yaml |
     fgrep -v '～' |
@@ -35,13 +35,13 @@ perl -CSDA -lnE 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "
 
 cp -f "$1/../font/Yuniversus.ttf" .
 
-../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao_sc.tsv > yusm.js
+../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yusm.js
 
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yusm.js -r roots-mapping.tsv -f Yuniversus.ttf \
     -t "宇浩日月字根表 $VER" \
-    roots.tsv chaifen.tsv ../top6000.txt > yusm_sc-$VER.html
+    roots.tsv chaifen.tsv ../top6000.txt > yusm-$VER.html
 
-perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yusm_sc.{quick,short}.dict.yaml |
+perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yusm.{quick,short}.dict.yaml |
     grep -v '^/' |
     fgrep -v ' ' |      # 去掉助记简码
     fgrep -v '～' > dazhu.txt
