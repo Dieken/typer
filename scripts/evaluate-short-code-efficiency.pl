@@ -119,6 +119,8 @@ sub read_frequency($file) {
     open my $fh, "<", $file;
     while (<$fh>) {
         chomp;
+        s/\s+$//;  # 去除行尾 \r
+
         my @a = split;
         next unless @a >= 2 && length($a[0]) == 1 && $a[1] =~ /^[0-9\.]+$/;
         die "Duplicated char found on line $.: $_\n" if exists $freq{$a[0]};
@@ -152,12 +154,18 @@ sub read_dict($file, $all_chars, $all_codes) {
     if ($file =~ /\.dict.yaml/) {
         my $done = 0;
         while (<$fh>) {
+            chomp;
+            s/\s+$//;  # 去除行尾 \r
+
             last if $done || /^\.\.\./;
 
             if (/^\s*sort\s*:\s*original/) {
                 $sort_by_weight = 0;
             } elsif (/^\s*import_tables/) {
                 while (<$fh>) {
+                    chomp;
+                    s/\s+$//;  # 去除行尾 \r
+
                     next if /^\s*#/;
 
                     if (/^\s*-\s*(\S+)/) {
@@ -180,6 +188,8 @@ sub read_dict($file, $all_chars, $all_codes) {
         next if /^\s*#/;
 
         chomp;
+        s/\s+$//;  # 去除行尾 \r
+
         my @a = split /\t/;
         next unless @a >= 2 && exists $freq->{$a[0]};
 
