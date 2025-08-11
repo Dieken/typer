@@ -15,6 +15,7 @@ use Encode   qw(decode);
 @ARGV = map { decode('UTF-8', $_, Encode::FB_CROAK) } @ARGV;
 
 use autodie;
+use File::Basename;
 use FindBin;
 use Getopt::Long;
 use List::Util qw(max uniqint uniqstr);
@@ -23,6 +24,7 @@ use Unicode::UCD qw(charblock);
 my $frequency_file = "$FindBin::Bin/../简体字频表-2.5b.txt";
 my $exclude_codes_pattern;
 my $ding_codes_pattern;
+my $page_size = 9;
 my @steps = (0, 5, 6, 10, 25, 26, 30, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000);
 
 GetOptions(
@@ -43,13 +45,15 @@ my @short_codes;
 while (my ($k, $v) = each %$chars) {
     next unless @$v > 1;
 
-    my $full_code_length = code_length($v->[-1]);
+    my $full_code_length = code_length($v->[-1], $k, $codes, undef);
 
     for (my $i = 0; $i < @$v - 1; ++$i) {
-        my $short_code_length = code_length($v->[$i]);
+        last if length($v->[$i]) == length($v->[-1]);        # 忽略兼容拆分
+
+        my $short_code_length = code_length($v->[$i], $k, $codes, undef);
 
         # 没有考虑出简码后，全码后置，导致其它字可能前移跨过翻页的情况，
-        # 也没有考虑候选字所处页面对全码长的影响。
+        # 也没有考虑候选字因简码后置而前移的情况。
         push @short_codes, {
             char    => $k,
             code    => $v->[$i],
@@ -71,6 +75,7 @@ for my $step (@steps) {
     last if $step > @short_codes;
 
     my %short_chars;
+    my %quick_codes;
     my $total_length = 0.0;
     my $total_freq = 0.0;
 
@@ -81,16 +86,26 @@ for my $step (@steps) {
         next if exists $short_chars{$char};
         $short_chars{$char} = 1;
 
-        $total_length += $short_code->{length} * $freq->{$char};
+        my $code = $short_code->{code};
+        push @{ $quick_codes{$code} }, $char;
+
+        my $short_code_length = code_length($code, $char, \%quick_codes, undef);
+
+        print "\t\t[short] $char $code $short_code_length : @{ $quick_codes{$code} }\n" if $ENV{DEBUG};
+
+        $total_length += $freq->{$char} * $short_code_length;
         $total_freq += $freq->{$char};
     }
 
     for my $char (keys %$chars) {
         next if exists $short_chars{$char};
 
-        my $full_code_length = code_length($chars->{$char}->[-1]);
+        my $code = $chars->{$char}->[-1];       # 使用全码
+        my $full_code_length = code_length($code, $char, $codes, \%short_chars);
 
-        $total_length += $full_code_length * $freq->{$char};
+        print "\t\t[full] $char $code $full_code_length : @{ $codes->{$code} }\n" if $ENV{DEBUG};
+
+        $total_length += $freq->{$char} * $full_code_length;
         $total_freq += $freq->{$char};
     }
 
@@ -135,9 +150,28 @@ sub read_dict($file, $all_chars, $all_codes) {
     open my $fh, "<", $file;
 
     if ($file =~ /\.dict.yaml/) {
+        my $done = 0;
         while (<$fh>) {
-            $sort_by_weight = 0 if /^\s*sort\s*:\s*original/;
-            last if /^\.\.\./;
+            last if $done || /^\.\.\./;
+
+            if (/^\s*sort\s*:\s*original/) {
+                $sort_by_weight = 0;
+            } elsif (/^\s*import_tables/) {
+                while (<$fh>) {
+                    next if /^\s*#/;
+
+                    if (/^\s*-\s*(\S+)/) {
+                        read_dict(dirname($file) . "/$1.dict.yaml", $all_chars, $all_codes);
+                    } else {
+                        if (/^\.\.\./) {
+                            $done = 1;
+                        } elsif (/^\s*sort\s*:\s*original/) {
+                            $sort_by_weight = 0;
+                        }
+                        last;
+                    }
+                }
+            }
         }
     }
 
@@ -165,6 +199,8 @@ sub read_dict($file, $all_chars, $all_codes) {
         }
 
         next if $exclude_codes_pattern && $code =~ $exclude_codes_pattern;
+
+        $code =~ s/_$//;        # 末尾有下划线表示空格简码
 
         warn "Duplicated char and code in $file:$.: $_\n" if exists $codes{$code}{$char};
         $codes{$code}{$char} = $weight;
@@ -197,13 +233,29 @@ sub normalize_dict($all_chars, $all_codes) {
     }
 }
 
-sub code_length($code) {
+sub code_length($code, $char, $all_codes, $short_chars) {
     my $len = length($code);
 
-    --$len if $code =~ /_$/;    # 末尾有下划线表示空格简码
+    my $index = candidate_index($char, $all_codes->{$code}, $short_chars);
 
-    ++$len unless $len == $max_code_length ||
-                  ($ding_codes_pattern && $code =~ $ding_codes_pattern);
+    if ($index == 0) {
+        ++$len unless $len == $max_code_length ||
+                      ($ding_codes_pattern && $code =~ $ding_codes_pattern);
+    } else {
+        $len += 1 + int($index / $page_size);       # 选重键 1~9 和翻页键
+    }
 
     return $len;
+}
+
+sub candidate_index($char, $chars, $short_chars) {
+    my $i = 0;
+
+    for my $c (@$chars) {
+        return $i if $c eq $char;
+
+        ++$i unless $short_chars && exists $short_chars->{$c};
+    }
+
+    die "Shouldn't reach here for $char: @$chars!\n";
 }
