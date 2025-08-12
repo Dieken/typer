@@ -16,7 +16,7 @@ use Unicode::Normalize;
 use autodie;
 
 my $chaifen_file = shift || "yusm_chaifen.dict.yaml";
-#my $chaifen_tw_file = shift || "yusm_chaifen_tw.dict.yaml";
+my $chaifen_tw_file = shift || "yusm_chaifen_tw.dict.yaml";
 
 my %roots;
 
@@ -26,9 +26,9 @@ analyze($fh);
 close $fh;
 undef $fh;
 
-#open $fh, $chaifen_tw_file;
-#analyze($fh);
-#close $fh;
+open $fh, $chaifen_tw_file;
+analyze($fh);
+close $fh;
 
 for (sort { $roots{$a} cmp $roots{$b} || $a cmp $b } keys %roots) {
     say "$_\t", $roots{$_};
