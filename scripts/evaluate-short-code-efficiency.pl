@@ -31,6 +31,7 @@ GetOptions(
     "frequency=s"       => \$frequency_file,
     "exclude-codes=s"   => \$exclude_codes_pattern,
     "ding-codes=s"      => \$ding_codes_pattern,
+    "page-size=i"       => \$page_size,
 );
 
 $exclude_codes_pattern = qr/$exclude_codes_pattern/ if $exclude_codes_pattern;;
@@ -204,13 +205,16 @@ sub read_dict($file, $all_chars, $all_codes) {
             $code = $a[2];
         } else {
             $code = $a[1];
-            die "Invalid weight in file $file:$.: $_\n" unless !defined($a[2]) || $a[2] =~ /^[0-9\.]+$/;
-            $weight = $sort_by_weight ? ($a[2] // 0) : -$.;
+            if ($sort_by_weight) {
+                die "Invalid weight in file $file:$.: $_\n" unless !defined($a[2]) || $a[2] =~ /^[0-9\.]+$/;
+                $weight = $a[2] // 0;
+            } else {
+                $weight = -$.;
+            }
+
         }
 
         next if $exclude_codes_pattern && $code =~ $exclude_codes_pattern;
-
-        $code =~ s/_$//;        # 末尾有下划线表示空格简码
 
         warn "Duplicated char and code in $file:$.: $_\n" if exists $codes{$code}{$char};
         $codes{$code}{$char} = $weight;
