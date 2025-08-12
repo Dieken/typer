@@ -26,12 +26,14 @@ my $exclude_codes_pattern;
 my $ding_codes_pattern;
 my $page_size = 9;
 my @steps = (0, 5, 6, 10, 25, 26, 30, 50, 100, 150, 200, 250, 300, 350, 400, 450, 500, 550, 600, 650, 700, 750, 800, 850, 900, 950, 1000);
+my $debug = $ENV{DEBUG} // 0;
 
 GetOptions(
     "frequency=s"       => \$frequency_file,
     "exclude-codes=s"   => \$exclude_codes_pattern,
     "ding-codes=s"      => \$ding_codes_pattern,
     "page-size=i"       => \$page_size,
+    "debug=i"           => \$debug,
 );
 
 $exclude_codes_pattern = qr/$exclude_codes_pattern/ if $exclude_codes_pattern;;
@@ -92,7 +94,7 @@ for my $step (@steps) {
 
         my $short_code_length = code_length($code, $char, \%quick_codes, undef);
 
-        print "\t\t[short] $char $code $short_code_length : @{ $quick_codes{$code} }\n" if $ENV{DEBUG};
+        print "\t\t[short] $char $code $short_code_length : @{ $quick_codes{$code} }\n" if $debug > 0;
 
         $total_length += $freq->{$char} * $short_code_length;
         $total_freq += $freq->{$char};
@@ -104,7 +106,7 @@ for my $step (@steps) {
         my $code = $chars->{$char}->[-1];       # 使用全码
         my $full_code_length = code_length($code, $char, $codes, \%short_chars);
 
-        print "\t\t[full] $char $code $full_code_length : @{ $codes->{$code} }\n" if $ENV{DEBUG};
+        print "\t\t[full] $char $code $full_code_length : @{ $codes->{$code} }\n" if $debug > 1;
 
         $total_length += $freq->{$char} * $full_code_length;
         $total_freq += $freq->{$char};
