@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-VER=v3.9.1-beta.20250811
+VER=v3.9.1-beta.20250812
 
 ./analyze-roots-of-yusm-input-method.pl "$1"/yusm_chaifen*.dict.yaml > roots.tsv
 perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1i/' roots.tsv
