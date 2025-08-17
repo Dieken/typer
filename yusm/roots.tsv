@@ -16,7 +16,6 @@
 {龍右}	Bo	
 未	Bo	wèi
 爪	Bsa	zhuǎ
-癶	Cbo	bō
 飛	Cfo	fēi
 禾	Che	hé
 乙	Ci	yǐ
@@ -28,8 +27,6 @@
 马	Cma	mǎ
 女	Cne	nǚ
 {鼠下}	Co	
-ス	Co	
-マ	Co	
 又	Cu	yòu
 言	De	yán
 已	Di	yǐ
@@ -284,12 +281,12 @@
 車	Rre	chē
 {烏上}	Ru	
 烏	Ru	wū
-肀	Se	yù
 户	Shu	hù
 戸	Shu	hù
 用	Si	yòng
 {反彐}	Sji	
 彐	Sji	jì
+肀	Sji	jì
 {眉上}	Ska	
 尸	Ska	shī
 舌	Ske	shé
@@ -330,6 +327,9 @@
 龶	Vke	
 米	Vmi	mǐ
 {穀框}	Vo	
+ス	Vo	
+マ	Vo	
+癶	Vo	∅
 耂	Vo	∅
 车	Vre	chē
 壴	Vsu	zhù

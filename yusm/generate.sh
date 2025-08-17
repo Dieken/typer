@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-VER=v3.9.1-beta.20250813
+VER=v3.9.1-beta.20250816
 
 ./analyze-roots-of-yusm-input-method.pl "$1"/yusm_chaifen*.dict.yaml > roots.tsv
 perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1i/' roots.tsv
@@ -33,7 +33,7 @@ perl -CSDA -lnE 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "
     fgrep -v '～' |
     sort -u > chaifen.tsv
 
-cp -f "$1/../font/Yuniversus.ttf" .
+cp -f "$1/../fonts/Yuniversus.ttf" .
 
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yusm.js
 
