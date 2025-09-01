@@ -18,8 +18,8 @@ use Getopt::Long;
 use Time::Piece;
 use Unicode::Normalize qw(NFKD);
 
-my $chaifen = $ENV{DICT_FILE} ? $ENV{DICT_FILE} : "$ENV{HOME}/Library/Rime/yusm_chaifen.dict.yaml";
-my $dict_name = 'yusm.words_extra';
+my $chaifen = $ENV{DICT_FILE} ? $ENV{DICT_FILE} : "$ENV{HOME}/Library/Rime/yuming_chaifen.dict.yaml";
+my $dict_name = 'yuming.words_extra';
 my $min_weight = 0;
 
 GetOptions(
@@ -32,8 +32,8 @@ print STDERR "chaifen: $chaifen\n";
 print STDERR "dict_name: $dict_name\n";
 print STDERR "min_weight: $min_weight\n";
 
-my $is_yusm = $chaifen =~ /yusm.*chaifen\.dict\.yaml/;
-my $chars = $is_yusm ? read_chaifen($chaifen) : read_mabiao($chaifen);
+my $is_yuming = $chaifen =~ /yuming.*chaifen\.dict\.yaml/;
+my $chars = $is_yuming ? read_chaifen($chaifen) : read_mabiao($chaifen);
 print STDERR "chars: ", scalar(keys %$chars), "\n\n";
 
 if ($dict_name) {
@@ -67,14 +67,14 @@ while (<>) {
 
     next unless $word =~ /^\p{Han}{2,}$/ && $weight >= $min_weight;
 
-    my $code = $is_yusm ? gen_yusm_dict($word) : gen_fixed4_dict($word);
+    my $code = $is_yuming ? gen_yuming_dict($word) : gen_fixed4_dict($word);
     next unless $code;
 
     $code = lc($code);
     print "$word\t$code\t$weight\n";
 }
 
-sub gen_yusm_dict($word) {
+sub gen_yuming_dict($word) {
     my $code = "";
     my $n = length($word);
 

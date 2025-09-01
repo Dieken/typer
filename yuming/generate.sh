@@ -4,12 +4,12 @@
 
 set -euo pipefail
 
-VER=v3.9.1-beta.20250816
+VER=v3.9.1-beta.20250828
 
-./analyze-roots-of-yusm-input-method.pl "$1"/yusm_chaifen*.dict.yaml > roots.tsv
+./analyze-roots-of-yuming-input-method.pl "$1"/yuming_chaifen*.dict.yaml > roots.tsv
 perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1i/' roots.tsv
 
-./analyze-roots-encoding-of-yusm.pl > encoding.tsv 2> roots2.tsv
+./analyze-roots-encoding-of-yuming.pl > encoding.tsv 2> roots2.tsv
 grep ERROR roots2.tsv && echo "ERROR found in roots2.tsv" && exit 1
 mv roots2.tsv roots.tsv
 
@@ -23,30 +23,30 @@ sort encoding.tsv |
             }
         }' > encoding2.tsv
 
-perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) && /^\s*-\s+(.\S+)/' "$1/yusm.dict.yaml" |
+perl -CSDA -lnE 'print "$1.dict.yaml" if (/^import_tables/ .. /^\S(?!mport)/) && /^\s*-\s+(.\S+)/' "$1/yuming.dict.yaml" |
     sed -e "s|^|$1/|" |
     xargs perl -CSDA -lnE 'print if (/^\.\.\./ .. eof) && !/^\.\.\./ && !/^\s*$/' |
     fgrep -v ' ' |      # 去掉助记简码
     fgrep -v '～' > mabiao.tsv
 
-perl -CSDA -lnE 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "$1"/yusm_chaifen*.dict.yaml |
+perl -CSDA -lnE 'print "$1\t$2" if (/^\.\.\./ .. eof) && /^(\S+)\s+\[([^,]+)/' "$1"/yuming_chaifen*.dict.yaml |
     fgrep -v '～' |
     sort -u > chaifen.tsv
 
 cp -f "$1/../fonts/Yuniversus.ttf" .
 
-../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yusm.js
+../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yuming.js
 
-../scripts/generate-roots-chart.pl -u ../sbfd/ -e yusm.js -r roots-mapping.tsv -f Yuniversus.ttf \
+../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuming.js -r roots-mapping.tsv -f Yuniversus.ttf \
     -t "宇浩日月字根表 $VER" \
-    roots.tsv chaifen.tsv ../top6000.txt > yusm-$VER.html
+    roots.tsv chaifen.tsv ../top6000.txt > yuming-$VER.html
 
-perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yusm.{quick,short}.dict.yaml |
+perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yuming.{quick,short}.dict.yaml |
     grep -v '^/' |
     fgrep -v ' ' |      # 去掉助记简码
     fgrep -v '～' > dazhu.txt
 
-perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if $F[1] =~ /^[a-z]+$/' "$1"/yuhao/yusm.full.dict.yaml |
+perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if $F[1] =~ /^[a-z]+$/' "$1"/yuhao/yuming.full.dict.yaml |
     grep -v '^/' |
     fgrep -v ' ' |      # 去掉助记简码
     fgrep -v '～' >> dazhu.txt

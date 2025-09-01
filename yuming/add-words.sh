@@ -7,7 +7,7 @@ doit() {
     repo="$1"
     dir="$2"
 
-    d=yusm_sc.words_$repo-$VER
+    d=yuming.words_$repo-$VER
     mkdir -p "$d"
     s="$ROOT/$repo/src/$dir"
     [ -d "$s"  ] || s="$ROOT/$repo/$dir"
@@ -15,8 +15,8 @@ doit() {
     for f in $s/*.dict.yaml; do
         f2=$(basename "$f" .dict.yaml)
         f2=${f2#snow_pinyin.}
-        echo ./add-words.pl --name="yusm_sc.words_$f2" "$f" \> "$d/yusm_sc.words_$f2.dict.yaml"
-        time ./add-words.pl --name="yusm_sc.words_$f2" "$f" > "$d/yusm_sc.words_$f2.dict.yaml"
+        echo ./add-words.pl --name="yuming.words_$f2" "$f" \> "$d/yuming.words_$f2.dict.yaml"
+        time ./add-words.pl --name="yuming.words_$f2" "$f" > "$d/yuming.words_$f2.dict.yaml"
         echo
     done
 }
@@ -32,7 +32,7 @@ doit rime-frost cn_dicts
 doit rime-frost cn_dicts_cell
 doit rime-LMDG dicts
 
-rm -f yusm_sc.words_*/*8105.dict.yaml
-rm -f yusm_sc.words_*/*41448.dict.yaml
-rm -f yusm_sc.words_*/yusm_sc.words_chars.dict.yaml     # rime-LMDG
-rm -f yusm_sc.words_*/yusm_sc.words_snow_pinyin.dict.yaml
+rm -f yuming.words_*/*8105.dict.yaml
+rm -f yuming.words_*/*41448.dict.yaml
+rm -f yuming.words_*/yuming.words_chars.dict.yaml     # rime-LMDG
+rm -f yuming.words_*/yuming.words_snow_pinyin.dict.yaml

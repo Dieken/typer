@@ -3,7 +3,7 @@
 # 分析宇浩日月输入法的拆分表，反推字根的编码
 #
 # Usage:
-#   analyze-roots-of-yusm-input-method.pl [yusm_chaifen*.dict.yaml]
+#   analyze-roots-of-yuming-input-method.pl [yuming_chaifen*.dict.yaml]
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
 use utf8;                               # so literals and identifiers can be in UTF-8
@@ -15,8 +15,8 @@ use Encode   qw(decode);
 use Unicode::Normalize;
 use autodie;
 
-my $chaifen_file = shift || "yusm_chaifen.dict.yaml";
-my $chaifen_tw_file = shift || "yusm_chaifen_tw.dict.yaml";
+my $chaifen_file = shift || "yuming_chaifen.dict.yaml";
+my $chaifen_tw_file = shift || "yuming_chaifen_tw.dict.yaml";
 
 my %roots;
 
