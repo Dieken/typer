@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 #
-# Usage: ./generate.sh path/to/宇浩日月_$VER/schema
+# Usage: ./generate.sh path/to/日月輸入法_$VER/schema
 
 set -euo pipefail
 
-VER=v3.9.1-beta.20250828
+VER=v3.10.0
 
 ./analyze-roots-of-yuming-input-method.pl "$1"/yuming_chaifen*.dict.yaml > roots.tsv
 perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1i/' roots.tsv
@@ -38,10 +38,10 @@ cp -f "$1/../fonts/Yuniversus.ttf" .
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen.tsv mabiao.tsv > yuming.js
 
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuming.js -r roots-mapping.tsv -f Yuniversus.ttf \
-    -t "宇浩日月字根表 $VER" \
+    -t "日月输入法字根表 $VER" \
     roots.tsv chaifen.tsv ../top6000.txt > yuming-$VER.html
 
-perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yuming.{quick,short}.dict.yaml |
+perl -CSDA -lanE '$ok=1 if /^\.\.\./; next unless $ok; print "$F[1]\t$F[0]" if length($F[0]) == 1 && length($F[1]) <= 2 && $F[1] =~ /^\S?[aeuio]$/' "$1"/yuhao/yuming.quick.dict.yaml |
     grep -v '^/' |
     fgrep -v ' ' |      # 去掉助记简码
     fgrep -v '～' > dazhu.txt
