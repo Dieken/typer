@@ -14,9 +14,10 @@ use Encode   qw(decode);
 @ARGV = map { decode('UTF-8', $_, Encode::FB_CROAK) } @ARGV;
 
 use autodie;
+use FindBin qw($Bin);
 use Getopt::Long;
 
-my $unihan_dir = "../sbfd";
+my $unihan_dir = "$Bin/../sbfd";
 
 GetOptions(
     'unihan-dir=s' => \$unihan_dir,
