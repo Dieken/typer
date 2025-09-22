@@ -1753,7 +1753,7 @@
 桦	aen
 紮	aeo
 枫	aes
-夜	aex
+夜	aet
 梧	afb
 柄	afc
 衰	afg
@@ -6647,13 +6647,30 @@
 枫	aesi
 劥	aesl
 杸	aesm
+鵺	aetd
+𭑁	aetd
+𨿤	aete
 𬂬	aetf
+𭎲	aeth
 𭏷	aeth
+夜	aetk
+㊰	aetk
+𛃢	aetk
+㖱	aetl
+𡖵	aetl
+𭐿	aetl
+𱘩	aetl
+𭐺	aetm
+𲍿	aetm
+𭐻	aetn
+𭯑	aetn
 欚	aetq
 𭬧	aetq
 椽	aets
 𩫞	aets
 𭫺	aetu
+𬂃	aetw
+𲐏	aety
 樤	aeua
 𣘀	aeuc
 𣑊	aeuh
@@ -6672,26 +6689,9 @@
 𫞎	aewl
 栯	aewy
 㮋	aewy
-鵺	aexd
-𭑁	aexd
-𨿤	aexe
 𧚤	aexg
-𭎲	aexh
-夜	aexk
-㊰	aexk
-𛃢	aexk
-㖱	aexl
-𡖵	aexl
-𭐿	aexl
-𱘩	aexl
-𭐺	aexm
-𲍿	aexm
-𭐻	aexn
-𭯑	aexn
 㰠	aexq
-𬂃	aexw
 𣔢	aexx
-𲐏	aexy
 邟	aeyf
 𘢟	aeyi
 𗭭	aeys
@@ -9037,6 +9037,7 @@
 𣘎	aqen
 𪳳	aqfn
 檥	aqgk
+𨒳	aqgo
 𬡗	aqgy
 𣕗	aqhn
 𣗬	aqhq
@@ -26257,7 +26258,6 @@
 𩿼	dvjn
 𪀋	dvjn
 𪀌	dvjn
-𲰹	dvjn
 𨏗	dvjr
 夓	dvjt
 𦥍	dvjt
@@ -27527,11 +27527,11 @@
 𠍶	efji
 𧍻	efjq
 凬	efjr
-𫽑	efjr
 便	efjs
 便	efjs
 𫢽	efjt
 𬿒	efjt
+𫽑	efjy
 俹	efka
 𩗠	efka
 𩗽	efka
@@ -32462,6 +32462,7 @@
 𢰙	fdkc
 𭠸	fdkc
 拆	fdkd
+𬻌	fdkd
 𢲾	fdkg
 𣌼	fdkj
 䭁	fdks
@@ -33384,6 +33385,7 @@
 摚	fiht
 𢭭	fiht
 一	fii
+ㄧ	fii
 𪛙	fii
 ⼀	fii
 ㇀	fii
@@ -34367,7 +34369,6 @@
 𰀌	fluj
 𬃅	fluk
 𭀩	flum
-𢘑	flur
 𢪠	flus
 𗙨	flus
 𢾇	flvb
@@ -40082,7 +40083,6 @@
 𪦵	gjkc
 鷏	gjkd
 𬔵	gjkd
-𬻌	gjkd
 𥭣	gjke
 戟	gjkg
 𬹙	gjkg
@@ -58912,6 +58912,7 @@
 𥜁	jlqo
 𰳖	jlqq
 𥏧	jlrh
+𢘑	jlri
 𢜔	jlri
 𥆽	jlry
 𧵳	jlsb
@@ -60071,7 +60072,6 @@
 日	jrr
 𫩏	jrr
 ⽇	jrr
-⽈	jrr
 ㈰	jrr
 ㊐	jrr
 𛂪	jrr
@@ -61804,6 +61804,7 @@
 𥅀	jyui
 𥊥	jyxd
 曰	jyy
+⽈	jyy
 𘬕	jyyi
 𱮵	jyyk
 早	jzz
@@ -64242,7 +64243,6 @@
 𧊯	knqc
 𭁜	knqd
 𮄪	knqk
-𨒳	knqo
 𰒨	knre
 忩	knri
 𫐜	knri
@@ -76471,6 +76471,7 @@
 𥢈	mvjk
 𲱤	mvjk
 𥡏	mvjm
+𲰹	mvjn
 貊	mvjr
 氌	mvjr
 穭	mvjr
@@ -82094,11 +82095,11 @@
 𦂠	oaji
 緗	oajm
 𡘐	oajr
-練	oajr
 𦂊	oajt
 𱺉	oajv
 𰖫	oajw
 𣣩	oajx
+練	oajy
 𦀹	oakc
 奉	oakd
 𬬸	oakd
@@ -82924,7 +82925,6 @@
 𲇹	ofxm
 릌	ofyf
 륵	ofyi
-𮈺	ofyk
 륷	ofyr
 륶	ofyy
 𧙐	ogag
@@ -85153,6 +85153,7 @@
 𡗷	ougd
 𬗢	ouge
 𨱃	ougj
+𮈺	ougk
 𰿀	ougt
 𰾫	ougu
 𢁍	ougw
@@ -89370,10 +89371,10 @@
 𰆏	qaji
 𥽾	qajj
 兯	qajk
-𲳄	qajl
 𮇄	qajm
 𧔫	qajn
 𬑵	qajq
+𲳄	qajq
 蝀	qajr
 䍶	qajr
 𬟻	qaka
@@ -95501,7 +95502,6 @@
 佱	rflz
 𱞾	rfmc
 𫦏	rfmd
-㋿	rfml
 𢗿	rfmx
 𩨤	rfna
 𱂫	rfnc
@@ -96700,6 +96700,7 @@
 瓰	rkmd
 㤋	rkmd
 𢠈	rkmj
+㋿	rkml
 𮭡	rkmn
 𭝗	rkmr
 𢞂	rkmu
@@ -113066,7 +113067,6 @@
 㼷	usrw
 山	uss
 丨	uss
-ㄧ	uss
 ⼁	uss
 ⼭	uss
 ㇑	uss
@@ -118986,11 +118986,11 @@
 䀜	wcjm
 𬨰	wcjo
 𲤧	wcjp
-曶	wcjr
+㫚	wcjr
 䐬	wcjr
 𣊸	wcju
 𣊸	wcju
-㫚	wcjy
+曶	wcjy
 匆	wckd
 匆	wckd
 	wckd
@@ -129306,6 +129306,7 @@
 ㋤	ez
 ナ	ez
 一	fi
+ㄧ	fi
 𪛙	fi
 ⼀	fi
 ㇀	fi
@@ -129512,7 +129513,6 @@
 日	jr
 𫩏	jr
 ⽇	jr
-⽈	jr
 ㈰	jr
 ㊐	jr
 𛂪	jr
@@ -129556,6 +129556,7 @@
 𘠌	jx
 𘠍	jx
 曰	jy
+⽈	jy
 早	jz
 八	ka
 𠁁	ka
@@ -130081,7 +130082,6 @@
 其	uq
 山	us
 丨	us
-ㄧ	us
 ⼁	us
 ⼭	us
 ㇑	us
@@ -130285,6 +130285,23 @@
 	yi
 	yi
 	yi
+鵺	aexd
+𭑁	aexd
+𨿤	aexe
+𭎲	aexh
+夜	aexk
+㊰	aexk
+𛃢	aexk
+㖱	aexl
+𡖵	aexl
+𭐿	aexl
+𱘩	aexl
+𭐺	aexm
+𲍿	aexm
+𭐻	aexn
+𭯑	aexn
+𬂃	aexw
+𲐏	aexy
 𣚸	ahak
 𪳾	ahdk
 𣝫	ahek
@@ -133007,8 +133024,8 @@
 쇷	rjur
 슂	rjur
 슃	rjur
+㋿	rkbl
 𢡠	rkjk
-㋿	rkml
 슞	rlfr
 슟	rlfr
 𢦈	robq
@@ -133136,6 +133153,7 @@
 𡾞	uqmk
 𫇢	uqmk
 𮱮	uraj
+ㄧ	uss
 𪛚	uyib
 𫨣	vauu
 𩽠	vhdk
@@ -133617,6 +133635,7 @@
 ㋤	ez
 ナ	ez
 一	fi
+ㄧ	fi
 𪛙	fi
 ⼀	fi
 ㇀	fi
@@ -133823,7 +133842,6 @@
 日	jr
 𫩏	jr
 ⽇	jr
-⽈	jr
 ㈰	jr
 ㊐	jr
 𛂪	jr
@@ -133867,6 +133885,7 @@
 𘠌	jx
 𘠍	jx
 曰	jy
+⽈	jy
 早	jz
 八	ka
 𠁁	ka
@@ -134392,7 +134411,6 @@
 其	uq
 山	us
 丨	us
-ㄧ	us
 ⼁	us
 ⼭	us
 ㇑	us
@@ -135994,9 +136012,9 @@ V鍵字根 = 厂甲石田不禺魚	/xcv
 W鍵字根 = 凵馬儿囗月	/xcw
 X鍵字根 = 七车冖欠饣鱼夕衤	/xcx
 Y鍵字根 = 阝飛乙	/xcy
-+ g = 高	/xca
++ g = 高	/xca
 + j = 卩㔾	/xca
-+ k = 㐄	/xca
++ k = 	/xca
 + l = 來	/xca
 + m = 朩木	/xca
 + t = 亠	/xca
@@ -136005,44 +136023,44 @@ Y鍵字根 = 阝飛乙	/xcy
 + g = 弓	/xcb
 + j = 肀彐	/xcb
 + m = 马	/xcb
-+ o = 又癶スマ	/xcb
++ o = 又癶スマ	/xcb
 + p = 皮	/xcb
 + s = 尸	/xcb
 + w = 	/xcb
 + y = 言	/xcb
 + b = 贝	/xcc
-+ c = 彳	/xcc
++ c = 彳	/xcc
 + e = 冊	/xcc
 + j = 见	/xcc
-+ k = 冂	/xcc
++ k = 冂	/xcc
 + n = 女	/xcc
-+ p = 彡	/xcc
++ p = 彡	/xcc
 + v = 雨	/xcc
 + y = 页	/xcc
 + b = 白	/xcd
 + c = 叀車	/xcd
-+ d = 电	/xcd
++ d = 电	/xcd
 + f = 丰	/xcd
-+ g = 甶鬼	/xcd
++ g = 甶鬼	/xcd
 + h = 戶	/xcd
 + i = 臼⺽	/xcd
-+ j = 斤⺁	/xcd
++ j = ⺁斤	/xcd
 + m = 門	/xcd
-+ n = 鳥	/xcd
++ n = 鳥	/xcd
 + o = 由	/xcd
 + p = 片	/xcd
-+ q = 爿曲	/xcd
++ q = 曲爿	/xcd
 + s = 申	/xcd
 + u = 鬥	/xcd
 + w = 烏	/xcd
-+ x = 向	/xcd
++ x = 向	/xcd
 + y = 讠	/xcd
 + z = 至	/xcd
 + f = 風	/xce
 + h = 隹	/xce
 + i = 乚	/xce
 + j = 几	/xce
-+ m = 母彑	/xce
++ m = 彑母	/xce
 + r = 亻	/xce
 + s = 殳	/xce
 + i = 一	/xcf
@@ -136058,23 +136076,23 @@ Y鍵字根 = 阝飛乙	/xcy
 + q = 气	/xcg
 + w = 	/xcg
 + y = 廴	/xcg
-+ z = 竹⺮	/xcg
++ z = 竹⺮	/xcg
 + a = 牙	/xch
-+ c = 臣	/xch
++ c = 臣	/xch
 + f = 匚	/xch
 + h = 戸户	/xch
 + k = 丂	/xch
-+ q = 犬犭	/xch
-+ s = 龶士	/xch
++ q = 犭犬	/xch
++ s = 龶士	/xch
 + t = 耂土	/xch
-+ z = 壴走	/xch
++ z = 走壴	/xch
 + b = 灬	/xci
 + c = 亍	/xci
 + h = 火	/xci
 + m = 宀	/xci
-+ r = 二冫⺀	/xci
-+ s = 尚龸	/xci
-+ v = 小⺌	/xci
++ r = 二冫⺀	/xci
++ s = 尚	/xci
++ v = ⺌小	/xci
 + x = 穴	/xci
 + b = 貝	/xcj
 + d = 丁	/xcj
@@ -136089,7 +136107,7 @@ Y鍵字根 = 阝飛乙	/xcy
 + s = 示	/xcj
 + v = 丄上	/xcj
 + w = 王	/xcj
-+ x = 丅下	/xcj
++ x = 下丅	/xcj
 + y = 曰	/xcj
 + z = 早	/xcj
 + a = 八	/xck
@@ -136100,7 +136118,7 @@ Y鍵字根 = 阝飛乙	/xcy
 + i = 弋	/xck
 + j = 纟	/xck
 + l = 立	/xck
-+ m = 卯	/xck
++ m = 卯	/xck
 + r = 入	/xck
 + s = 食	/xck
 + v = 予	/xck
@@ -136112,13 +136130,13 @@ Y鍵字根 = 阝飛乙	/xcy
 + e = 耳	/xcl
 + j = 丌	/xcl
 + l = 〇	/xcl
-+ s = 舌	/xcl
++ s = 舌	/xcl
 + v = 口	/xcl
 + w = 兀	/xcl
 + z = 正	/xcl
 + a = 麻	/xcm
 + b = 疒	/xcm
-+ c = 辰	/xcm
++ c = 辰	/xcm
 + d = 刀刂	/xcm
 + g = 广	/xcm
 + h = 禾	/xcm
@@ -136130,26 +136148,26 @@ Y鍵字根 = 阝飛乙	/xcy
 + w = 乌	/xcm
 + y = 夭	/xcm
 + z = 豸	/xcm
-+ a = 幺厶	/xcn
++ a = 厶幺	/xcn
 + b = 匕	/xcn
 + c = 长	/xcn
 + f = 甫	/xcn
 + g = 干	/xcn
-+ s = 水⺍氵	/xcn
++ s = 水氵⺍	/xcn
 + b = 巴	/xco
-+ c = 辶⻍	/xco
-+ d = 大	/xco
++ c = ⻍辶	/xco
++ d = 大	/xco
 + e = 也	/xco
 + f = 夫	/xco
 + i = 已	/xco
 + j = 钅己	/xco
 + m = 乜	/xco
-+ s = 糸巳	/xco
++ s = 巳糸	/xco
 + z = 之	/xco
 + c = 齒	/xcp
 + g = 工	/xcp
 + i = 龰止	/xcp
-+ n = 牛⺧	/xcp
++ n = ⺧牛	/xcp
 + s = 生	/xcp
 + x = 西	/xcp
 + y = 酉	/xcp
@@ -136160,10 +136178,10 @@ Y鍵字根 = 阝飛乙	/xcy
 + m = 米	/xcq
 + q = 丬	/xcq
 + s = 身	/xcq
-+ y = ⺷羊	/xcq
++ y = 羊⺷	/xcq
 + e = 人	/xcr
 + g = 骨	/xcr
-+ h = 合	/xcr
++ h = 合	/xcr
 + i = 心	/xcr
 + j = 九	/xcr
 + k = 咼冎	/xcr
@@ -136174,9 +136192,9 @@ Y鍵字根 = 阝飛乙	/xcy
 + i = 乂世	/xcs
 + l = 力	/xcs
 + m = 面	/xcs
-+ o = 卄龷廾艹	/xcs
++ o = 廾卄艹	/xcs
 + r = 而	/xcs
-+ s = 卌卅	/xcs
++ s = 卅卌	/xcs
 + y = 用	/xcs
 + e = 文	/xct
 + f = 方	/xct
@@ -136186,19 +136204,19 @@ Y鍵字根 = 阝飛乙	/xcy
 + m = 门	/xct
 + s = 豕	/xct
 + u = 夊	/xct
-+ w = 亡	/xct
-+ b = ⺊髟卜	/xcu
-+ c = 镸長	/xcu
++ w = 亡	/xct
++ b = 卜⺊髟	/xcu
++ c = 長镸	/xcu
 + e = 业	/xcu
 + f = 非	/xcu
 + g = 瓜	/xcu
-+ h = 虍虎	/xcu
++ h = 虎虍	/xcu
 + j = 巾	/xcu
 + l = 鹵	/xcu
 + m = 皿	/xcu
 + o = 舟	/xcu
 + q = 其	/xcu
-+ s = 〢〣山丨	/xcu
++ s = 丨〢山〣	/xcu
 + w = 罒	/xcu
 + z = 爪	/xcu
 + h = 厂丆	/xcv
@@ -136207,25 +136225,25 @@ Y鍵字根 = 阝飛乙	/xcy
 + s = 石	/xcv
 + t = 田	/xcv
 + u = 不	/xcv
-+ v = 魚禺	/xcv
++ v = 禺魚	/xcv
 + x = 习	/xcv
 + b = 勹	/xcw
 + c = 屮	/xcw
-+ j = 丩丱	/xcw
++ j = 丩丱	/xcw
 + k = ㄩ	/xcw
 + m = 馬	/xcw
-+ r = 儿	/xcw
++ r = 儿	/xcw
 + w = 囗	/xcw
 + y = 月	/xcw
 + i = 七	/xcx
 + j = 车	/xcx
-+ m = 冖⺈	/xcx
++ m = ⺈冖	/xcx
 + q = 欠	/xcx
 + s = 饣	/xcx
-+ v = 鱼	/xcx
++ v = 鱼	/xcx
 + x = 夕	/xcx
 + y = 衤	/xcx
-+ f = 飛阝	/xcy
++ f = 阝飛	/xcy
 + i = 亅乙	/xcy
 # 词码表中定义的词组，优先级在官方词库之前
 # 长度在编码规则 encoder/rules 定义范围内的词组，可省略编码。
