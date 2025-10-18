@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-VER=v3.10.0
+VER=v3.10.1
 
 ./analyze-roots-of-yuming-input-method.pl "$1"/yuming_chaifen*.dict.yaml > roots.tsv
 perl -i -CSDA -Mutf8 -pE 's/^(\{曾中\}.*)/\1i/' roots.tsv
