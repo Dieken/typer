@@ -114,7 +114,7 @@ while (<$fh>) {
     $ym = 'r' . $ym if $sm eq 'r';
     $ym =~ s/^u/ü/ if $sm =~ /^[jqxy]/;
 
-    # special case: https://shurufa.app/docs/sunmoon.html
+    # special case: https://shurufa.app/docs/ming.html
     $ym = '[mp]u' if $sm =~ /^[mp]$/ && $ym eq 'u';
     if ($sm eq 'sh' && $ym eq 'i') {
         $ym = $root eq '士' ? '(sh)i/士' : '(sh)i';
