@@ -1753,7 +1753,7 @@
 桦	aen
 紮	aeo
 枫	aes
-夜	aet
+夜	aex
 梧	afb
 柄	afc
 衰	afg
@@ -6647,30 +6647,13 @@
 枫	aesi
 劥	aesl
 杸	aesm
-鵺	aetd
-𭑁	aetd
-𨿤	aete
 𬂬	aetf
-𭎲	aeth
 𭏷	aeth
-夜	aetk
-㊰	aetk
-𛃢	aetk
-㖱	aetl
-𡖵	aetl
-𭐿	aetl
-𱘩	aetl
-𭐺	aetm
-𲍿	aetm
-𭐻	aetn
-𭯑	aetn
 欚	aetq
 𭬧	aetq
 椽	aets
 𩫞	aets
 𭫺	aetu
-𬂃	aetw
-𲐏	aety
 樤	aeua
 𣘀	aeuc
 𣑊	aeuh
@@ -6689,9 +6672,26 @@
 𫞎	aewl
 栯	aewy
 㮋	aewy
+鵺	aexd
+𭑁	aexd
+𨿤	aexe
 𧚤	aexg
+𭎲	aexh
+夜	aexk
+㊰	aexk
+𛃢	aexk
+㖱	aexl
+𡖵	aexl
+𭐿	aexl
+𱘩	aexl
+𭐺	aexm
+𲍿	aexm
+𭐻	aexn
+𭯑	aexn
 㰠	aexq
+𬂃	aexw
 𣔢	aexx
+𲐏	aexy
 邟	aeyf
 𘢟	aeyi
 𗭭	aeys
@@ -8752,7 +8752,6 @@
 𪲏	antu
 𱤤	anuj
 𬬘	anuk
-𱹟	anuq
 𭩡	anus
 𤣧	anuu
 夣	anux
@@ -8779,6 +8778,7 @@
 𨓞	anwo
 𱣮	anwo
 𧰖	anwq
+𱹟	anwq
 充	anwr
 㐬	anwr
 㭇	anwr
@@ -21515,7 +21515,6 @@
 𲀛	cuic
 𩅃	cuij
 𡬥	cuik
-𡜼	cuir
 𭁠	cuir
 𮟯	cuiy
 媜	cujb
@@ -21866,6 +21865,7 @@
 𭑯	cwsi
 𡣃	cwsw
 𢒤	cwts
+𡜼	cwui
 𩇍	cwvo
 姗	cwwf
 𳉇	cwwf
@@ -23660,7 +23660,6 @@
 𮫘	dhuc
 𳏧	dhud
 𱼱	dhuh
-𱭔	dhui
 牘	dhuj
 𨏔	dhuj
 𬌏	dhuj
@@ -23680,6 +23679,7 @@
 𫍸	dhvv
 𨍼	dhwa
 𮝝	dhwh
+𱭔	dhwi
 谮	dhwj
 𤘄	dhwj
 𤾶	dhwj
@@ -48523,7 +48523,6 @@
 닿	huil
 댷	huil
 딯	huil
-𭍥	huir
 𤞹	huiu
 𤘍	huiw
 𧸝	huja
@@ -49246,6 +49245,7 @@
 鳌	hwtx
 𣄺	hwug
 𦢳	hwug
+𭍥	hwui
 𦠰	hwuj
 𦧄	hwus
 𲊘	hwuu
@@ -76290,8 +76290,6 @@
 𲣿	muig
 㸏	muih
 𥡶	muij
-𢊸	muim
-𰏸	muir
 𤸘	mujb
 𬏽	mujb
 𬓲	mujb
@@ -76771,6 +76769,8 @@
 𤼔	mwrr
 𧲳	mwsw
 𤹁	mwts
+𰏸	mwui
+𢊸	mwum
 廫	mwvc
 乌	mww
 𤺅	mwwb
@@ -77209,16 +77209,15 @@
 𱩯	naub
 瀤	naug
 𣿱	naui
-𭳧	nauj
 𲩡	naul
 䀀	naum
-𨝣	nauy
 𣿞	navg
 𪶯	navj
 𬈠	navt
 澶	nawf
 𬈟	nawg
 𪷤	nawj
+𭳧	nawj
 澟	nawm
 𤅻	nawo
 湅	nawq
@@ -77227,6 +77226,7 @@
 𭲳	nawu
 𲫀	nawx
 𤅝	nawy
+𨝣	nawy
 𭳇	nawy
 𣽘	naxa
 𱨠	naxw
@@ -78554,7 +78554,6 @@
 𭰗	nhtu
 𱥴	nhub
 𪶬	nhuf
-𰜲	nhui
 瀆	nhuj
 𭲓	nhur
 𭰙	nhvj
@@ -78563,6 +78562,7 @@
 𪷍	nhwc
 𣶕	nhwh
 𣾤	nhwi
+𰜲	nhwi
 潛	nhwj
 㵾	nhwj
 𤂯	nhwj
@@ -81314,7 +81314,6 @@
 𣻺	nuht
 𢆽	nuig
 𱨔	nuig
-𲩶	nuig
 𣴽	nuih
 漴	nuij
 𣿼	nuij
@@ -81787,6 +81786,7 @@
 𱩒	nwsw
 𨥣	nwtj
 溷	nwts
+𲩶	nwug
 㶠	nwuq
 𣶡	nwux
 㶀	nwvc
@@ -87680,7 +87680,6 @@
 𮛸	pmsu
 釄	pmuf
 𨇻	pmuf
-𮜥	pmuj
 踮	pmul
 躔	pmvh
 踵	pmvl
@@ -87691,6 +87690,7 @@
 𥑱	pmvs
 𨇢	pmvs
 𱵀	pmvs
+𮜥	pmwj
 𳃧	pmwj
 𤛼	pmwn
 𳃑	pmwr
@@ -93485,7 +93485,6 @@
 𮕋	quik
 𘕯	quik
 𗔱	quin
-蜖	quir
 𘕮	quiu
 𨊋	qujb
 𲾽	qujb
@@ -94068,6 +94067,7 @@
 𡇷	qwtl
 𲿉	qwts
 𥸻	qwuf
+蜖	qwui
 𬠄	qwuj
 𧏈	qwvj
 蜔	qwvt
@@ -99209,7 +99209,6 @@
 𠡙	saub
 𢼢	saub
 𦾢	saue
-𫉿	sauj
 𗞍	sauk
 𦻊	sauq
 𬞹	sauq
@@ -99219,6 +99218,7 @@
 𩉊	sawf
 𩍕	sawf
 𮐀	sawg
+𫉿	sawj
 𦯪	sawk
 𱽲	sawl
 𦼹	sawm
@@ -104452,7 +104452,6 @@
 𦻹	suib
 𤋂	suih
 𗟄	suin
-𨖘	suio
 𗞁	suis
 𦿃	suiw
 蕒	sujb
@@ -105083,6 +105082,7 @@
 𦳍	swug
 𦭩	swui
 𳊠	swuj
+𨖘	swuo
 䓒	swvt
 𮒿	swvv
 䔴	swwb
@@ -110721,7 +110721,6 @@
 𡵯	uigp
 𦨖	uigp
 𭘝	uigx
-廽	uigy
 𩬊	uihb
 𩇭	uihf
 𬟩	uihh
@@ -110795,7 +110794,6 @@
 𪉼	uilb
 𡾡	uilj
 𲝵	uill
-𰈅	uiln
 𦊫	uilw
 𦨻	uilw
 𩭂	uilw
@@ -110810,7 +110808,6 @@
 𲬮	uinj
 𭗰	uinp
 𩭕	uinw
-逥	uioc
 𨑝	uioc
 𲝖	uiod
 𦪌	uiol
@@ -110838,7 +110835,6 @@
 	uirs
 𦪁	uirt
 𭗏	uiru
-囬	uirw
 𡼌	uisa
 𬴬	uisb
 𪺖	uisj
@@ -110851,7 +110847,6 @@
 𡺀	uitl
 𩭽	uitl
 幏	uits
-𣰣	uium
 𡻼	uivs
 艡	uivt
 𡽊	uivt
@@ -121504,7 +121499,12 @@
 圛	wuhq
 䐾	wuhq
 𦠠	wuid
+廽	wuig
+𣰣	wuim
+𰈅	wuin
+逥	wuio
 𨒢	wuio
+囬	wuir
 𡴅	wujc
 𦠔	wujd
 𠣿	wuje
@@ -121581,7 +121581,6 @@
 臄	wuts
 𦞬	wutu
 驉	wuue
-𠣱	wuui
 𦛎	wuuj
 𡈣	wuuk
 𦣅	wuuk
@@ -121595,6 +121594,7 @@
 驢	wuvu
 臚	wuvu
 𦢚	wuvw
+𠣱	wuwi
 𤌝	wuwi
 臅	wuwq
 䮷	wuwq
@@ -126310,7 +126310,6 @@
 𗉒	ygug
 𗘋	ygug
 𗘏	ygug
-𪜖	ygui
 𗘊	yguj
 𗘍	ygul
 𮥏	ygun
@@ -126328,6 +126327,7 @@
 𗘒	ygus
 𘡕	ygus
 𗉞	yguy
+𪜖	ygwi
 𩡵	ygwm
 𮤹	ygxi
 𗶜	ygyf
@@ -128134,7 +128134,6 @@
 갛	yuil
 걓	yuil
 깋	yuil
-𨹰	yuir
 𨺟	yujb
 𨽑	yujc
 𨺑	yujz
@@ -128367,6 +128366,7 @@
 䧞	ywmf
 陱	ywqm
 𨸤	ywre
+𨹰	ywui
 𠃨	ywwc
 𨻍	ywwj
 𨼖	ywww
@@ -130285,23 +130285,23 @@
 	yi
 	yi
 	yi
-鵺	aexd
-𭑁	aexd
-𨿤	aexe
-𭎲	aexh
-夜	aexk
-㊰	aexk
-𛃢	aexk
-㖱	aexl
-𡖵	aexl
-𭐿	aexl
-𱘩	aexl
-𭐺	aexm
-𲍿	aexm
-𭐻	aexn
-𭯑	aexn
-𬂃	aexw
-𲐏	aexy
+鵺	aetd
+𭑁	aetd
+𨿤	aete
+𭎲	aeth
+夜	aetk
+㊰	aetk
+𛃢	aetk
+㖱	aetl
+𡖵	aetl
+𭐿	aetl
+𱘩	aetl
+𭐺	aetm
+𲍿	aetm
+𭐻	aetn
+𭯑	aetn
+𬂃	aetw
+𲐏	aety
 𣚸	ahak
 𪳾	ahdk
 𣝫	ahek
@@ -136249,8 +136249,7 @@ Y鍵字根 = 阝飛乙	/xcy
 # 长度在编码规则 encoder/rules 定义范围内的词组，可省略编码。
 # 重新部署时会按规则自动编码，能以 tecc 打出「自动编码词组」。
 # 自定义编码不必遵循编码规则，词条也不必是汉字。
-# 输入法
-宇浩	ofiw
+# 宇浩	ofiw
 打字	fjik
 即使	bnef
 不要	vupc
@@ -278474,6 +278473,5 @@ zǔo	kkzu
 # 长度在编码规则 encoder/rules 定义范围内的词组，可省略编码。
 # 重新部署时会按规则自动编码，能以 tecc 打出「自动编码词组」。
 # 自定义编码不必遵循编码规则，词条也不必是汉字。
-# 输入法
-宇浩
-宇浩输入法
+# 宇浩	ofiw
+# 宇浩输入法

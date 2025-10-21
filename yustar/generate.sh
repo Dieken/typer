@@ -4,7 +4,7 @@
 
 set -euo pipefail
 
-VER=v3.10.1-beta.20250921
+VER=v3.10.1
 
 [ -e zigen-star.csv ] || curl -O 'https://shurufa.app/zigen-star.csv'
 [ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://shurufa.app/chaifen.csv'
