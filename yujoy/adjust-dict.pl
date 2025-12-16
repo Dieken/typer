@@ -4,10 +4,10 @@
 #   adjust RIME dict according to frequencies of characters and words
 #
 # Usage:
-#   export R=path/to/星陳輸入法_v3.10.1/schema
-#   a=$(grep '^\s*-\s\+yuhao/' $R/yustar_sc.dict.yaml | perl -lpE 's/\r//; s/\s*#.*//; s/^\s*\-\s*/-d $ENV{R}\//; s/$/.dict.yaml/')
-#   ./adjust-dict.pl $a -c ../简体字频表-2.5b.txt -w ../词频数据.txt -c override_weight.txt -w override_weight.txt > yustar_sc.all.dict.yaml
-#   #./adjust-dict.pl $a -c $R/yuhao.essay.txt -w $R/yuhao.essay.txt > yustar_sc.all.dict.yaml
+#   export R=path/to/卿妘輸入法_v3.10.2/schema
+#   a=$(grep '^\s*-\s\+yuhao/' $R/yujoy_sc.dict.yaml | perl -lpE 's/\r//; s/\s*#.*//; s/^\s*\-\s*/-d $ENV{R}\//; s/$/.dict.yaml/')
+#   ./adjust-dict.pl $a -c ../简体字频表-2.5b.txt -w ../词频数据.txt -c override_weight.txt -w override_weight.txt > yujoy_sc.all.dict.yaml
+#   #./adjust-dict.pl $a -c $R/yuhao.essay.txt -w $R/yuhao.essay.txt > yujoy_sc.all.dict.yaml
 #
 # 简体字频表-2.5b: 北语刑红兵，https://faculty.blcu.edu.cn/xinghb/zh_CN/article/167473/content/1437.htm
 # 词频数据： QQ 092五笔正规闲聊群㊣ 6592557 文件区 【词频】-> 【词频数据.txt】
@@ -96,7 +96,7 @@ my $version = localtime()->strftime("%Y%m%d.%H%M%S");
 print <<END;
 # encoding: utf-8
 ---
-name: "yustar_sc.all"
+name: "yujoy_sc.all"
 version: "$version"
 sort: original
 columns:
@@ -149,7 +149,7 @@ sub read_dicts($char_weights, $word_weights, @dicts) {
             my @a = split /\t/;
             next unless @a >= 2;
 
-            next if $a[1] =~ /^[a-z]{1,2}$/i;       # throw away 1-quick and 2-quick codes
+            next if $a[1] =~ /^[a-z]$/i;    # throw away 1-quick codes
             next if $a[1] =~ /^[a-z]{1,3}$/i && $a[0] =~ /^\p{Han}{2,}$/;  # throw away quick words
 
             $codes{$a[1]}{$a[0]} = 0;
