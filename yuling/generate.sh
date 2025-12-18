@@ -1,14 +1,14 @@
 #!/usr/bin/env sh
 
-[ -e zigen-ling.csv ] || curl -O 'https://88d6cb5c.yuhaoim.pages.dev/zigen-ling.csv'
-[ -e chaifen.json ] || {
-    curl -o chaifen.json.gz 'https://88d6cb5c.yuhaoim.pages.dev/chaifen.json'
-    gunzip chaifen.json.gz
-}
+set -euo pipefail
+shopt -s failglob
 
-perl -CSDA -lnE '@a = split /,/, $_, 3; print join("\t", @a)' zigen-ling.csv > roots.tsv
+[ -e zigen-ling.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/ling/src/public/zigen-ling.csv'
+[ -e mabiao-ling.txt  ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/ling/src/public/mabiao-ling.txt'
+[ -e chaifen.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/ling/src/public/chaifen.csv'
 
-jq -r 'to_entries[] | "\(.key)\t\(.value.d)"' chaifen.json > chaifen.tsv
+perl -CSDA -lnE 'next if $. == 1; @a = split /,/, $_, 3; print join("\t", @a)' zigen-ling.csv > roots.tsv
+perl -CSDA -F, -lanE 'next if $. == 1; print join("\t", $F[0], $F[1])' chaifen.csv | grep -v '～' > chaifen_sc.tsv
 
 perl -CSDA -Mautodie -lanE '
      BEGIN {
@@ -27,4 +27,10 @@ perl -CSDA -Mautodie -lanE '
     }
 
     print $F[0], "\t", substr($c, 0, 4);
-' chaifen.tsv > mabiao.tsv
+' chaifen_sc.tsv > mabiao_sc.tsv
+
+VER="v3.10.3-beta.20251218"
+../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yuling_sc.js
+../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuling_sc.js -f ../yustar/Yuniversus.ttf \
+    -t "靈明輸入法字根表 $VER" \
+    roots.tsv chaifen_sc.tsv ../top6000.txt > yuling_sc-$VER.html
