@@ -4,13 +4,18 @@
 
 set -euo pipefail
 
-VER=v3.10.1
+VER=v3.10.2
 
 [ -e zigen-star.csv ] || curl -O 'https://shurufa.app/zigen-star.csv'
 [ -e yuhao-chaifen.csv ] || curl -o yuhao-chaifen.csv 'https://shurufa.app/chaifen.csv'
 
 ./fix-yuhao-chaifen-dict.pl "$1"/yustar_chaifen{,_tw}.dict.yaml yuhao-chaifen.csv
-perl -CSDA -Mutf8 -i -pE 's/\{眉上\}/𠃜/g; s/\{乞上\}/𠂉/g; s/\{周框\}/⺆/g' "$1"/yustar_chaifen{,_tw}.dict.yaml yuhao-chaifen.csv
+perl -CSDA -Mutf8 -i -pE '
+     s/\{眉上\}/𠃜/g;
+     s/\{乞上\}/𠂉/g;
+     s/\{周框\}/⺆/g;
+     s/\{向框\}/𰃦/g;
+     s/\{冓上\}/𠀎/g' "$1"/yustar_chaifen{,_tw}.dict.yaml yuhao-chaifen.csv
 
 ./analyze-roots-of-yustar-input-method.pl "$1"/yustar_chaifen{,_tw}.dict.yaml |
     fgrep -v '～' |
