@@ -31,8 +31,11 @@ perl -CSDA -Mautodie -lanE '
 
 perl -CSDA -F'\t' -lanE 'print "$F[1]\t$F[0]"' mabiao_sc.tsv > dazhu.txt
 
-VER="v3.10.3-beta.20251218"
+VER="v3.10.3-beta.20251220"
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yuling_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuling_sc.js -f ../yustar/Yuniversus.ttf \
     -t "靈明輸入法字根表 $VER" \
     roots.tsv chaifen_sc.tsv ../top6000.txt > yuling_sc-$VER.html
+
+./stat-yuling-roots.pl --no-color > "yuling_sc-stats-$VER.txt"
+
