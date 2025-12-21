@@ -12,7 +12,7 @@ use Encode   qw(decode);
 @ARGV = map { decode('UTF-8', $_, Encode::FB_CROAK) } @ARGV;
 
 use Getopt::Long;
-use List::Util qw/min sum/;
+use List::Util qw/max min sum/;
 use Term::ANSIColor;
 use autodie;
 
@@ -139,7 +139,7 @@ my $freqs = read_csv($freq_file);
                         $dups{$a}{seq_sum} <=> $dups{$b}{seq_sum} } keys %dups) {
                     $i++;
                     my $chars = $dups{$k}{chars};
-                    printf "    前 %4d 重码组 : %3d    %s\n", $., $i,
+                    printf "    前 %4d 重码组 : %3d  %-5s  %s\n", $., $i, $k,
                            join(" ", map { colorize($chars->{$_}, $_) } sort { $a <=> $b } keys %$chars);
                 }
 
@@ -150,6 +150,106 @@ my $freqs = read_csv($freq_file);
         last if $. == 6000;
     }
     close $fh;
+}
+
+{
+    my %keys;
+
+    {
+        my $s = "qwertyuiop";
+        for (my $i = 0; $i < length($s); ++$i) {
+            $keys{substr($s, $i, 1)} = { x => $i, y => 1 };
+        }
+
+        $s = "asdfghjkl;";
+        for (my $i = 0; $i < length($s); ++$i) {
+            $keys{substr($s, $i, 1)} = { x => $i, y => 0 };
+        }
+
+        $s = "zxcvbnm,./";
+        for (my $i = 0; $i < length($s); ++$i) {
+            $keys{substr($s, $i, 1)} = { x => $i, y => -1 };
+        }
+    }
+
+    my $total_num = 0;
+    my $total_freq = 0.0;
+    my $bad_freq = 0.0;
+    my %bad_chars;
+
+    open my $fh, "<", $freq_file;
+    while (<$fh>) {
+        chomp;
+
+        my @a = split /[,\t]/;
+        my $c = $mabiao->{$a[0]}[1];
+        my $f = $a[1];
+
+        $total_num++;
+        $total_freq += $f;
+
+        my $same_hand_keys_max = 1;
+        my $same_hand_keys = 1;
+        my $cross_row_keys = 0;
+
+        for (my $i = 1; $i < length($c); ++$i) {
+            my $k1 = $keys{ substr($c, $i - 1, 1) };
+            my $k2 = $keys{ substr($c, $i, 1) };
+
+            if ($k1->{x} < 5 && $k2->{x} < 5) {
+                # left hand
+                $same_hand_keys++;
+
+                if (abs($k1->{y} - $k2->{y}) == 2) {
+                    $cross_row_keys++;
+                }
+            } elsif ($k1->{x} >=5 && $k2->{x} >= 5) {
+                # right hand
+                $same_hand_keys++;
+
+                if (abs($k1->{y} - $k2->{y}) == 2) {
+                    $cross_row_keys++;
+                }
+            } else {
+                $same_hand_keys_max = max($same_hand_keys_max, $same_hand_keys);
+                $same_hand_keys = 1;
+            }
+        }
+
+        $same_hand_keys_max = max($same_hand_keys_max, $same_hand_keys);
+
+        if ($same_hand_keys_max > 2 || $cross_row_keys > 0) {
+            $bad_freq += $f;
+            $bad_chars{$.} = { char => $a[0], code => $c, same_hand => $same_hand_keys_max, cross_row => $cross_row_keys };
+        }
+
+        last if $. == 500;
+    }
+    close $fh;
+
+    if ($bad_freq > 0) {
+        printf "差指法字符数: %d (占 top %d 字的 %.2f%% 字频)\n",
+            scalar(keys %bad_chars),
+            $total_num,
+            $bad_freq / $total_freq * 100.0;
+
+        unless ($is_simplified) {
+            my $i = 0;
+            for my $seq (sort { $a <=> $b } keys %bad_chars) {
+                ++$i;
+
+                my $c = $bad_chars{$seq};
+                printf "    %4d:  %-16s  %-5s 同手=%d 跨排=%d\n",
+                    $i,
+                    colorize($c->{char}, $seq),
+                    $c->{code},
+                    $c->{same_hand},
+                    $c->{cross_row};
+            }
+        }
+
+        print "\n";
+    }
 }
 
 ######################################################################
@@ -184,3 +284,6 @@ sub colorize($char, $seq) {
 
     return "$char/$seq";
 }
+
+# vi: ai si et ts=4 sts=4 sw=4
+
