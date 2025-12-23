@@ -29,9 +29,9 @@ perl -CSDA -Mautodie -lanE '
     print $F[0], "\t", substr($c, 0, 4);
 ' chaifen_sc.tsv > mabiao_sc.tsv
 
-perl -CSDA -F'\t' -lanE 'print "$F[1]\t$F[0]"' mabiao_sc.tsv > dazhu.txt
+grep -v '^/' mabiao-ling.txt | tac | perl -CSDA -F'\t' -lanE 'next if length($F[1]) > 1 || $h{$F[1]}; $h{$F[1]} = 1; print' | tac  > dazhu-ling-full.txt
 
-VER="v3.10.3-beta.20251221"
+VER="v3.10.3-beta.20251222"
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yuling_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuling_sc.js -f ../yustar/Yuniversus.ttf \
     -t "靈明輸入法字根表 $VER" \
