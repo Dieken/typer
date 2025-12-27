@@ -31,7 +31,7 @@ perl -CSDA -Mautodie -lanE '
 
 grep -v '^/' mabiao-ling.txt | tac | perl -CSDA -F'\t' -lanE 'next if length($F[1]) > 1 || $h{$F[1]}; $h{$F[1]} = 1; print' | tac  > dazhu-ling-full.txt
 
-VER="v3.10.3-beta.20251224"
+VER="v3.10.3-beta.20251226"
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yuling_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuling_sc.js -f ../yustar/Yuniversus.ttf \
     -t "靈明輸入法字根表 $VER" \
