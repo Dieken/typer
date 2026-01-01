@@ -39,3 +39,4 @@ VER="v3.10.3-beta.20260101"
 
 ./stat-yuling-roots.pl --no-color > "yuling_sc-stats-$VER.txt"
 
+../scripts/generate-example-chars.pl --skip-root --chaifen chaifen_sc.tsv --mabiao mabiao_sc.tsv > yuling-example-chars-$VER.txt

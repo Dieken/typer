@@ -4,7 +4,7 @@
 #   生成覆盖字根的最小字符集码表
 #
 # Usage:
-#   ./generate-example-chars.pl [chaifen.tsv] [mabiao.tsv] [char_freq.tsv] [roots.tsv]
+#   ./generate-example-chars.pl [--chaifen chaifen.tsv] [--mabiao mabiao.tsv] [--freq char_freq.tsv] [--roots roots.tsv] [--skip-root]
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
 use utf8;                               # so literals and identifiers can be in UTF-8
@@ -15,11 +15,21 @@ use Encode   qw(decode);
 
 use autodie;
 use Unicode::UCD qw/charblock/;
+use Getopt::Long;
 
-my $chaifen_file = shift // 'chaifen.tsv';
-my $mabiao_file = shift // 'mabiao.tsv';
-my $freq_file = shift // '../简体字频表-2.5b.txt'; # '../top6000.txt';
-my $roots_file = shift // 'roots.tsv';
+my $chaifen_file = 'chaifen.tsv';
+my $mabiao_file = 'mabiao.tsv';
+my $freq_file = '../简体字频表-2.5b.txt'; # '../top6000.txt';
+my $roots_file = 'roots.tsv';
+my $skip_root = 0;
+
+GetOptions(
+    'chaifen=s'  => \$chaifen_file,
+    'mabiao=s'   => \$mabiao_file,
+    'freq=s'     => \$freq_file,
+    'root=s'     => \$roots_file,
+    'skip-root!' => \$skip_root,
+) or die "Error in command line arguments\n";
 
 my %roots;
 {
@@ -27,7 +37,7 @@ my %roots;
     while (<$fh>) {
         chomp;
         my @a = split;
-        $roots{$a[0]} = 1 if $a[0] && $a[0] !~ /^#/;
+        $roots{$a[0]} = $a[1] if $a[0] && $a[0] !~ /^#/;
     }
     close $fh;
 }
@@ -82,6 +92,9 @@ my %chars;
 }
 
 {
+    my %roots_bak = %roots;
+    my $n = 0;
+
     for my $char (sort { $chars{$a} <=> $chars{$b} ||
                          charblock(ord($a)) cmp charblock(ord($b)) ||
                          ord($a) <=> ord($b)
@@ -89,7 +102,14 @@ my %chars;
         my $cf = $chaifen{$char};
 
         my @founds;
+        my $i = 0;
         for (@$cf) {
+            # 灵明输入法有跳根
+            if ($i++ == 2 && $skip_root && @$cf >= 4 && length($roots_bak{$cf->[0]}) == 3) {
+                #print STDERR "skip 3rd root for $char (@$cf): $cf->[0] ($roots_bak{$cf->[0]}) : $cf->[$i - 1]\n";
+                next;
+            }
+
             if (exists $roots{$_}) {
                 delete $roots{$_};
                 push @founds, $_;
@@ -97,8 +117,11 @@ my %chars;
         }
 
         if (@founds > 0) {
-            print "$char\t$mabiao{$char}\t", join("", @$cf), "\t# ", join("", @founds), "\t", charblock(ord($char)), "\n";
+            ++$n;
+            print "$n\t$char\t$mabiao{$char}\t", join(" ", map { "$_$roots_bak{$_}" } @$cf), "\t# ", join("", @founds), "\t", charblock(ord($char)), "\n";
         }
+
+        last if keys(%roots) == 0;
     }
 
     if (keys(%roots) > 0) {
