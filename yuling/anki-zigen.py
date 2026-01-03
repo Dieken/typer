@@ -1,6 +1,7 @@
 from genanki import Note, Model, Package, Deck, guid_for
 import random
 
+## Author: @Jigsaw
 
 # deck_id = 2123361570
 deck_id = 2123361571  # 灵明
@@ -41,7 +42,7 @@ model_id = 1857619794
 
 @font-face {
   font-family: myfont;
-  src: url("Yuniversus.woff");
+  src: url("_Yuniversus.woff");
 }
 """,
 )
@@ -100,5 +101,5 @@ with open("./zigen-ling.csv", "r") as f:
     )
 
 my_package = Package(牌组)
-my_package.media_files = ["Yuniversus.woff"]
+my_package.media_files = ["_Yuniversus.woff"]
 my_package.write_to_file("灵明字根.apkg")

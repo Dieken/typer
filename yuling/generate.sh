@@ -6,7 +6,7 @@ shopt -s failglob
 [ -e zigen-ling.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/zigen-ling.csv'
 [ -e mabiao-ling.txt  ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/mabiao-ling.txt'
 [ -e chaifen.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/chaifen.csv'
-[ -e Yuniversus.woff ] || curl -LO 'https://shurufa.app/Yuniversus.woff'
+[ -e _Yuniversus.woff ] || curl -L -o _Yuniversus.woff 'https://shurufa.app/Yuniversus.woff'
 
 perl -CSDA -lnE 'next if $. == 1; @a = split /,/, $_, 3; print join("\t", @a)' zigen-ling.csv > roots.tsv
 perl -CSDA -F, -lanE 'next if $. == 1; print join("\t", $F[0], $F[1])' chaifen.csv | grep -v '～' > chaifen_sc.tsv
