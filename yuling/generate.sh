@@ -6,6 +6,7 @@ shopt -s failglob
 [ -e zigen-ling.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/zigen-ling.csv'
 [ -e mabiao-ling.txt  ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/mabiao-ling.txt'
 [ -e chaifen.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/chaifen.csv'
+[ -e Yuniversus.woff ] || curl -LO 'https://shurufa.app/Yuniversus.woff'
 
 perl -CSDA -lnE 'next if $. == 1; @a = split /,/, $_, 3; print join("\t", @a)' zigen-ling.csv > roots.tsv
 perl -CSDA -F, -lanE 'next if $. == 1; print join("\t", $F[0], $F[1])' chaifen.csv | grep -v '～' > chaifen_sc.tsv
@@ -31,7 +32,7 @@ perl -CSDA -Mautodie -lanE '
 
 grep -v '^/' mabiao-ling.txt | tac | perl -CSDA -F'\t' -lanE 'next if length($F[1]) > 1 || $h{$F[1]}; $h{$F[1]} = 1; print' | tac  > dazhu-ling-full.txt
 
-VER="v3.10.3-beta.20260101"
+VER="v3.10.3-beta.20260102"
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yuling_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuling_sc.js -f ../yustar/Yuniversus.ttf \
     -t "靈明輸入法字根表 $VER" \
@@ -40,3 +41,8 @@ VER="v3.10.3-beta.20260101"
 ./stat-yuling-roots.pl --no-color > "yuling_sc-stats-$VER.txt"
 
 ../scripts/generate-example-chars.pl --skip-root --chaifen chaifen_sc.tsv --mabiao mabiao_sc.tsv > yuling-example-chars-$VER.txt
+
+[ -e pyproject.toml ] || uv init
+uv add genanki
+uv run anki-zigen.py
+mv 灵明字根.apkg 灵明字根-$VER.apkg
