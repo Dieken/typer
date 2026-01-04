@@ -1,7 +1,9 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 set -euo pipefail
 shopt -s failglob
+
+VER="v3.11.0-beta.20260103"
 
 [ -e zigen-ling.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/zigen-ling.csv'
 [ -e mabiao-ling.txt  ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/beta/src/public/mabiao-ling.txt'
@@ -31,8 +33,8 @@ perl -CSDA -Mautodie -lanE '
 ' chaifen_sc.tsv > mabiao_sc.tsv
 
 grep -v '^/' mabiao-ling.txt | tac | perl -CSDA -F'\t' -lanE 'next if length($F[1]) > 1 || $h{$F[1]}; $h{$F[1]} = 1; print' | tac  > dazhu-ling-full.txt
+echo -e "ver\t靈明輸入法-$VER" >> dazhu-ling-full.txt
 
-VER="v3.10.3-beta.20260102"
 ../scripts/turn-roots-chaifen-mabiao-into-js.pl roots.tsv chaifen_sc.tsv mabiao_sc.tsv > yuling_sc.js
 ../scripts/generate-roots-chart.pl -u ../sbfd/ -e yuling_sc.js -f ../yustar/Yuniversus.ttf \
     -t "靈明輸入法字根表 $VER" \
