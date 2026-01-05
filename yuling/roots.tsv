@@ -5,8 +5,8 @@
 ⺈	bi	㊟同冖歸併
 	bo	㊟同冖歸併
 彐	bji	Jì
-肀	bji	㊟同彐歸併
 	bji	
+肀	bji	㊟同彐歸併
 隶	bi	Lì 🈤不取聲母 🈑逮本字 🈕Dài Yì Dì
 立	bli	Lì
 辛	bxi	Xīn -> Xi
@@ -17,8 +17,8 @@
 虫	bo	Ĉóŋ -> Co 🈤不取聲母 🈕Huǐ
 门	bme	Mén -> Me
 丷	ca	Bā 🈤不取聲母
-	ca	
 䒑	ca	Cǎo -> Ca 🈤不取聲母
+	ca	🈤無讀音取o
 	co	🈤無讀音取o
 丌	ci	Jì 🈤不取聲母 🈕Qí
 山	csa	Ŝān -> Sa
@@ -37,8 +37,8 @@
 金	ci	Jīn -> Ji 🈤不取聲母
 門	cme	Mén -> Me
 高	cga	Gāo -> Ga
-	cga	㊟同高歸併
 	cga	㊟同高歸併
+	cga	㊟同高歸併
 	co	🈤無讀音取o
 	co	
 口	do	Kǒu -> Ko 🈤不取聲母
@@ -58,16 +58,16 @@
 丆	fa	Hǎn -> Ha 🈤不取聲母
 正	fe	Ẑèŋ -> Ve 🈤Z和Ẑ作V但不取聲母
 世	fsi	Ŝì -> Si
-	fo	🈤無讀音取o
-	fo	
-	fo	
-	fdo	Dòu -> Do
 亥	fha	Hài -> Ha
 女	fu	Nǚ 🈤不取聲母
 母	fmu	Mǔ
 	fo	🈤無讀音取o
-	fo	
+	fo	🈤無讀音取o
 彑	fji	Jì
+	fo	🈤無讀音取o
+	fo	🈤無讀音取o
+	fo	🈤無讀音取o
+	fdo	Dòu -> Do
 衤	fyi	Yī ㊟俗稱衣字旁
 	fo	🈤無讀音取o
 	fo	
@@ -130,6 +130,7 @@
 	jo	🈤無讀音取o
 	jo	🈤無讀音取o
 夊	jvi	Ẑì -> Vi 🈤Z和Ẑ作V 🈕Pū
+攵	jvi	㊟同夂歸併 🈑同攴
 寸	jcu	Cùn -> Cu
 	jo	🈤無讀音取o
 三	jsa	Sān -> Sa
@@ -248,6 +249,7 @@
 酉	nyo	Yǒu -> Yo
 石	psi	Ŝí
 儿	pe	ér -> Je 🈤零聲母小碼取J但此處跳過
+	pe	㊟同儿歸併
 	pe	㊟同儿歸併
 川	pca	Ĉuān -> Ca
 巛	pca	㊟同川歸併
@@ -320,7 +322,7 @@
 尢	so	Yóu -> Yo 🈤不取聲母 🈑尤本字 🈕Wāŋ
 廴	si	Yín -> Yi 🈤不取聲母
 豕	ssi	Ŝǐ
-	ssi	
+	ssi	㊟同豕歸併 🈕Gēng
 魚	syu	Yú
 鳥	sna	Niǎo -> Na
 	sna	
@@ -376,6 +378,7 @@
 	wo	🈤無讀音取o
 习	xi	Xí -> x
 匚	xfa	Fāŋ -> Fa
+	xfa	
 木	xu	Mù 🈤不取聲母
 朩	xu	
 甲	xja	Jiā -> Ja 🈤不取聲母
@@ -386,7 +389,7 @@
 大	yda	Dà
 夫	yfu	Fū
 	ydi	Dí
-王	ya	Wáŋ -> Wa 🈤不取聲母
+王	ya	㊟同王歸併 ㊟俗稱斜玉旁 🈕Yù
 瓦	ywa	Wǎ
 糸	yi	Sī 🈤不取聲母 🈕Mì
 糹	yi	
