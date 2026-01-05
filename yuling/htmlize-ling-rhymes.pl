@@ -1,0 +1,127 @@
+#!/usr/bin/env perl
+
+use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
+use utf8;                               # so literals and identifiers can be in UTF-8
+use warnings qw(FATAL utf8);            # fatalize encoding glitches
+use open     qw(:std :encoding(UTF-8)); # undeclared streams in UTF-8
+use Encode   qw(decode);
+@ARGV = map { decode('UTF-8', $_, Encode::FB_CROAK) } @ARGV;
+
+use autodie;
+
+my $roots_file = 'roots.tsv';
+my $rhymes_file = 'ling-rhymes.txt';
+my $title = shift // '灵明输入法字根口诀';
+
+my %roots;
+{
+    open my $fh, '<', $roots_file;
+    while (<$fh>) {
+        chomp;
+        my @a = split /\t/;
+        $roots{$a[0]} = \@a;
+    }
+    close $fh;
+}
+
+print << "HTML_HEADER";
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$title</title>
+    <style>
+        \@font-face {
+            font-family: 'Yuniversus';
+            src: url('https://shurufa.app/Yuniversus.woff') format('woff');
+        }
+        body {
+            font-family: 'Yuniversus', serif;
+            font-size: larger;
+        }
+        table {
+            border-collapse: collapse;
+            margin: auto;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th { background-color: #f2f2f2; }
+        .dama { text-align: center; }
+        .rhyme { margin-right: 1rem; }
+        .no-sheng-mu-root { color: red; }
+        .no-sound-root { color: gray; }
+        .unified-root { background-color: yellow; }
+        .two-letter-root { color: blue; }
+        .cluster { padding-bottom: 3px; border-bottom: 2px dotted gray; }
+    </style>
+</head>
+<body>
+<p>注意：从<a href="https://shurufa.app">宇浩输入法官网</a>加载 Yuniversus 字体可能较慢，请稍候！</p>
+<table>
+    <caption>$title</caption>
+    <thead>
+    <tr>
+        <th>大码</th>
+        <th>口诀</th>
+    </tr>
+    </thead>
+    <tbody>
+HTML_HEADER
+
+{
+    open my $fh, '<', $rhymes_file;
+    while (<$fh>) {
+        chomp;
+        my @a = split /\s+/, $_;
+        print "    <tr>\n";
+        print "        <td class='dama'>$a[0]</td>\n";
+        print "        <td>\n";
+        for my $rhyme (@a[1..$#a]) {
+            print "<span class='rhyme'>";
+            for my $char (split //, $rhyme) {
+                if (exists $roots{$char}) {
+                    my $info = $roots{$char};
+                    my $code = $info->[1];
+                    my $dama = uc(substr($code, 0, 1));
+                    die "Inconsistent dama($a[0]) for root $char($code) in rhyme '$rhyme'\n" if $dama ne $a[0];
+                    my $comment = $info->[2] // '<no comment>';
+                    my $class;
+                    if ($comment =~ /不取|跳過/) {
+                        $class = "class='no-sheng-mu-root'";
+                    } elsif ($comment =~ /無讀音取o/) {
+                        $class = "class='no-sound-root'";
+                    } elsif ($comment =~ /歸併|no comment/) {
+                        $class = "class='unified-root'";
+                    } elsif (length($code) == 2) {
+                        $class = "class='two-letter-root'";
+                    } else {
+                        $class = "";
+                    }
+                    print "<ruby $class title='$comment'>$char<rp>(</rp><rt>$code</rt><rp>)</rp></ruby>";
+                } else {
+                    if ($char eq '(') {
+                        print "<span class='cluster'>";
+                    } elsif ($char eq ')') {
+                        print "</span>";
+                    } else {
+                        die "Unknown character '$char' in rhyme '$rhyme'\n";
+                    }
+                }
+            }
+            print "</span>\n";
+        }
+        print "        </td>\n";
+        print "    </tr>\n";
+    }
+    close $fh;
+}
+
+print << "HTML_FOOTER";
+</tbody>
+</table>
+</body>
+</html>
+HTML_FOOTER
