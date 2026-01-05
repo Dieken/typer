@@ -122,6 +122,16 @@ HTML_HEADER
 print << "HTML_FOOTER";
 </tbody>
 </table>
+<p>
+样式说明：
+<ol>
+<li><span class='no-sheng-mu-root'>红色</span>：不取声母字根</li>
+<li><span class='no-sound-root'>灰色</span>：无读音字根（取 o）</li>
+<li><span class='unified-root'>黄色背景</span>：归并字根</li>
+<li><span class='two-letter-root'>蓝色</span>：其它双编字根</li>
+<li><span class='cluster'>下划线</span>：口诀朗读时省略的字根</li>
+</ol>
+</p>
 </body>
 </html>
 HTML_FOOTER
