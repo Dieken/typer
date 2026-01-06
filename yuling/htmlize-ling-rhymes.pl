@@ -7,11 +7,19 @@ use open     qw(:std :encoding(UTF-8)); # undeclared streams in UTF-8
 use Encode   qw(decode);
 @ARGV = map { decode('UTF-8', $_, Encode::FB_CROAK) } @ARGV;
 
+use Getopt::Long;
 use autodie;
+
 
 my $roots_file = 'roots.tsv';
 my $rhymes_file = 'ling-rhymes.txt';
-my $title = shift // '灵明输入法字根口诀';
+my $title = '灵明输入法字根口诀';
+
+GetOptions(
+    'roots=s'  => \$roots_file,
+    'rhymes=s' => \$rhymes_file,
+    'title=s'  => \$title,
+) or die "Error in command line arguments\n";
 
 my %roots;
 {
@@ -91,7 +99,7 @@ HTML_HEADER
                     my $class;
                     if ($comment =~ /不取|跳過/) {
                         $class = "class='no-sheng-mu-root'";
-                    } elsif ($comment =~ /無讀音取o/) {
+                    } elsif ($comment =~ /無讀音/) {
                         $class = "class='no-sound-root'";
                     } elsif ($comment =~ /歸併|no comment/) {
                         $class = "class='unified-root'";
@@ -126,10 +134,10 @@ print << "HTML_FOOTER";
 样式说明：
 <ol>
 <li><span class='no-sheng-mu-root'>红色</span>：不取声母字根</li>
-<li><span class='no-sound-root'>灰色</span>：无读音字根（取 o）</li>
+<li><span class='no-sound-root'>灰色</span>：无读音字根</li>
 <li><span class='unified-root'>黄色背景</span>：归并字根</li>
 <li><span class='two-letter-root'>蓝色</span>：其它双编字根</li>
-<li><span class='cluster'>下划线</span>：口诀朗读时省略的字根</li>
+<li><span class='cluster'>下划线</span>：按字根拼音朗读口诀时省略的字根</li>
 </ol>
 </p>
 </body>
