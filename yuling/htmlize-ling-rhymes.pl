@@ -101,7 +101,7 @@ HTML_HEADER
                         $class = "class='no-sheng-mu-root'";
                     } elsif ($comment =~ /無讀音/) {
                         $class = "class='no-sound-root'";
-                    } elsif ($comment =~ /歸併|no comment/) {
+                    } elsif ($comment =~ /歸併|no comment/ || ($comment =~ /(.)本字/ && exists $roots{$1} && $roots{$1}->[1] eq $code)) {
                         $class = "class='unified-root'";
                     } elsif (length($code) == 2) {
                         $class = "class='two-letter-root'";
