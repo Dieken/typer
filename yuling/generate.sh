@@ -72,3 +72,7 @@ grep -Eo '<ruby\s+class=.two-letter-root.*?rp>' 灵明输入法字根口诀-$VER
 uv add genanki
 uv run anki-zigen.py
 mv 灵明字根.apkg 灵明字根-$VER.apkg
+
+if [ -f ~/Library/Rime/yuling_chaifen.dict.yaml ]; then
+    perl -CSDA -F'/[\t\[\],]/' -lanE 'next unless /^\p{Han}\t\[/;  print "$F[0]\t", join(chr(0x3000) x 2, @F[2..4])' ~/Library/Rime/yuling_chaifen.dict.yaml > yuling-genda-mabiao-with-chaifen-$(date +%Y%m%d).txt
+fi
