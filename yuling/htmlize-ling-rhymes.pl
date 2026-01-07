@@ -32,7 +32,72 @@ my %roots;
     close $fh;
 }
 
-print << "HTML_HEADER";
+my %rhymes;
+{
+    open my $fh, '<', $rhymes_file;
+    while (<$fh>) {
+        chomp;
+        my @a = split /\s+/, $_;
+        $rhymes{$a[0]} = \@a;
+    }
+    close $fh;
+}
+
+print_html_header();
+print_root_chart();
+print_root_list();
+print_html_footer();
+
+#########################################################################
+sub htmlize_dama($dama) {
+    return "<td class='dama'>$dama</td>\n";
+}
+
+sub htmlize_rhyme($rhyme_ref) {
+    my $html = "<td>\n";
+    my @a = @$rhyme_ref;
+
+    for my $rhyme (@a[1..$#a]) {
+        $html .= "<span class='rhyme'>";
+        for my $char (split //, $rhyme) {
+            if (exists $roots{$char}) {
+                my $info = $roots{$char};
+                my $code = $info->[1];
+                my $dama = uc(substr($code, 0, 1));
+                die "Inconsistent dama($a[0]) for root $char($code) in rhyme '$rhyme'\n" if $dama ne $a[0];
+                my $comment = $info->[2] // '<no comment>';
+                my $class;
+                if ($comment =~ /不取|跳過/) {
+                    $class = "class='no-sheng-mu-root'";
+                } elsif ($comment =~ /無讀音/) {
+                    $class = "class='no-sound-root'";
+                } elsif ($comment =~ /歸併|no comment/ || ($comment =~ /(.)本字/ && exists $roots{$1} && $roots{$1}->[1] eq $code)) {
+                    $class = "class='unified-root'";
+                } elsif (length($code) == 2) {
+                    $class = "class='two-letter-root'";
+                } else {
+                    $class = "";
+                }
+                $html .= "<ruby $class title='$comment'>$char<rp>(</rp><rt>$code</rt><rp>)</rp></ruby>";
+            } else {
+                if ($char eq '(') {
+                    $html .= "<span class='cluster'>";
+                } elsif ($char eq ')') {
+                    $html .= "</span>";
+                } else {
+                    die "Unknown character '$char' in rhyme '$rhyme'\n";
+                }
+            }
+        }
+        $html .= "</span>\n";
+    }
+    $html .= "</td>\n";
+
+    return $html;
+}
+
+sub print_html_header() {
+    print << "HTML_HEADER";
 <!DOCTYPE html>
 <html lang="zh">
 <head>
@@ -49,14 +114,22 @@ print << "HTML_HEADER";
             font-size: larger;
         }
         table {
-            border-collapse: collapse;
-            margin: auto;
+            margin: 20px auto;
         }
-        th, td {
+        table, th, td {
             border: 1px solid #ddd;
-            padding: 8px;
+            border-collapse: collapse;
+            padding: 10px;
         }
         th { background-color: #f2f2f2; }
+        #root_chart td {
+            max-width: 11rem;
+            min-width: 2rem;
+            vertical-align: top;
+            line-height: 2.0;
+        }
+        caption { margin-bottom: 10px; }
+        rt { font-family: monospace; }
         .dama { text-align: center; }
         .rhyme { margin-right: 1rem; }
         .no-sheng-mu-root { color: red; }
@@ -68,68 +141,11 @@ print << "HTML_HEADER";
 </head>
 <body>
 <p>注意：从<a href="https://shurufa.app">宇浩输入法官网</a>加载 Yuniversus 字体可能较慢，请稍候！</p>
-<table>
-    <caption>$title</caption>
-    <thead>
-    <tr>
-        <th>大码</th>
-        <th>口诀</th>
-    </tr>
-    </thead>
-    <tbody>
 HTML_HEADER
-
-{
-    open my $fh, '<', $rhymes_file;
-    while (<$fh>) {
-        chomp;
-        my @a = split /\s+/, $_;
-        print "    <tr>\n";
-        print "        <td class='dama'>$a[0]</td>\n";
-        print "        <td>\n";
-        for my $rhyme (@a[1..$#a]) {
-            print "<span class='rhyme'>";
-            for my $char (split //, $rhyme) {
-                if (exists $roots{$char}) {
-                    my $info = $roots{$char};
-                    my $code = $info->[1];
-                    my $dama = uc(substr($code, 0, 1));
-                    die "Inconsistent dama($a[0]) for root $char($code) in rhyme '$rhyme'\n" if $dama ne $a[0];
-                    my $comment = $info->[2] // '<no comment>';
-                    my $class;
-                    if ($comment =~ /不取|跳過/) {
-                        $class = "class='no-sheng-mu-root'";
-                    } elsif ($comment =~ /無讀音/) {
-                        $class = "class='no-sound-root'";
-                    } elsif ($comment =~ /歸併|no comment/ || ($comment =~ /(.)本字/ && exists $roots{$1} && $roots{$1}->[1] eq $code)) {
-                        $class = "class='unified-root'";
-                    } elsif (length($code) == 2) {
-                        $class = "class='two-letter-root'";
-                    } else {
-                        $class = "";
-                    }
-                    print "<ruby $class title='$comment'>$char<rp>(</rp><rt>$code</rt><rp>)</rp></ruby>";
-                } else {
-                    if ($char eq '(') {
-                        print "<span class='cluster'>";
-                    } elsif ($char eq ')') {
-                        print "</span>";
-                    } else {
-                        die "Unknown character '$char' in rhyme '$rhyme'\n";
-                    }
-                }
-            }
-            print "</span>\n";
-        }
-        print "        </td>\n";
-        print "    </tr>\n";
-    }
-    close $fh;
 }
 
-print << "HTML_FOOTER";
-</tbody>
-</table>
+sub print_html_footer() {
+    print << "HTML_FOOTER";
 <p>
 样式说明：
 <ol>
@@ -143,3 +159,73 @@ print << "HTML_FOOTER";
 </body>
 </html>
 HTML_FOOTER
+}
+
+sub print_root_list() {
+    print << "END";
+<div id="root_list">
+<table>
+    <caption>$title</caption>
+    <thead>
+    <tr>
+        <th>大码</th>
+        <th>口诀</th>
+    </tr>
+    </thead>
+    <tbody>
+END
+
+    for my $dama (sort keys %rhymes) {
+        my $rhyme_ref = $rhymes{$dama};
+        print "    <tr>\n";
+        print "        ", htmlize_dama($dama);
+        print "        ", htmlize_rhyme($rhyme_ref);
+        print "    </tr>\n";
+    }
+
+    print << "END";
+</tbody>
+</table>
+</div>
+END
+}
+
+sub print_root_chart() {
+    my @keyboards = (
+        "QWERTYUIOP",
+        "ASDFGHJKL",
+        "ZXCVBNM"
+    );
+
+    for my $row (@keyboards) {
+        print << "END";
+<div id="root_chart">
+<table>
+    <thead>
+    <tr>
+END
+
+        for my $key (split //, $row) {
+            my $html = htmlize_dama($key);
+            $html =~ s/<td/<th/g;
+            print "        $html";
+        }
+
+        print << "END";
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+END
+        for my $key (split //, $row) {
+            print "        ", exists $rhymes{$key} ? htmlize_rhyme($rhymes{$key}) : "<td></td>\n";
+        }
+
+        print << "END";
+    </tr>
+    </tbody>
+</table>
+</div>
+END
+    }
+}
