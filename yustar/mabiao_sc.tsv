@@ -1722,7 +1722,6 @@
 棣	abd
 橙	abf
 楣	abj
-概	abn
 权	abo
 桶	abs
 棘	aca
@@ -1764,6 +1763,7 @@
 棲	agb
 楠	agc
 梅	age
+概	agh
 植	agj
 极	agk
 衣	agy
@@ -1798,7 +1798,6 @@
 榻	ajv
 枉	ajw
 六	aka
-榔	akb
 村	akc
 术	akd
 亨	ake
@@ -1988,7 +1987,6 @@
 弘	bna
 尼	bnb
 訐	bng
-既	bnh
 骏	bnk
 骀	bnl
 剥	bnm
@@ -2808,7 +2806,7 @@
 策	gac
 笨	gaf
 篙	gag
-箱	gaj
+即	gaj
 籟	gal
 朶	gam
 筆	gba
@@ -2835,6 +2833,7 @@
 鹅	gfk
 氫	gfl
 卸	gfp
+節	gga
 笈	ggk
 筵	ggp
 篇	ghc
@@ -3365,7 +3364,6 @@
 曝	jjs
 旺	jjw
 具	jka
-瑯	jkb
 玉	jkd
 賊	jke
 琅	jkg
@@ -3488,7 +3486,7 @@
 缀	kbb
 纽	kbc
 辯	kbk
-卿	kbn
+绿	kbn
 贸	kcb
 妾	kcn
 孺	kcs
@@ -3701,6 +3699,7 @@
 舔	lfo
 哑	lfu
 咧	lfx
+唧	lga
 吱	lgb
 喃	lgc
 哦	lgf
@@ -3754,10 +3753,10 @@
 吓	ljx
 郢	ljy
 叭	lka
-啷	lkb
 吋	lkc
 吼	lke
 喊	lkf
+啷	lkg
 噫	lkj
 職	lkk
 聊	lkm
@@ -3927,10 +3926,10 @@
 租	mjq
 瘟	mju
 乔	mka
-廊	mkb
 辱	mkc
 刃	mkd
 疗	mke
+廊	mkg
 麈	mkj
 稅	mkl
 忍	mkr
@@ -4078,6 +4077,7 @@
 沛	nfu
 淒	ngb
 湳	ngc
+溉	ngh
 汁	ngi
 滇	ngj
 汲	ngk
@@ -4577,7 +4577,6 @@
 蛆	qjq
 糊	qjw
 虾	qjx
-螂	qkb
 粮	qkg
 蟑	qkj
 粒	qkl
@@ -4663,7 +4662,6 @@
 悴	rar
 懷	rau
 怪	rbh
-慨	rbn
 恻	rcm
 怏	rco
 懦	rcs
@@ -4689,6 +4687,7 @@
 俞	rfw
 悽	rgb
 悔	rge
+慨	rgh
 慎	rgj
 愤	rgs
 恤	rgu
@@ -5210,9 +5209,9 @@
 舫	utf
 劇	utm
 遽	uto
-爵	uub
 觑	uuc
 罪	uuf
+爵	uug
 罩	uuj
 帖	uul
 盘	uum
@@ -6038,18 +6037,13 @@
 𣛢	abmj
 杩	abmm
 梶	abmm
-楖	abna
 𣐜	abna
 柅	abnb
-櫭	abnf
-𠅴	abnh
 𣖗	abno
 𭬱	abno
 樨	abnp
 欘	abnq
 椂	abns
-概	abnw
-槪	abnw
 𣡵	aboa
 𣡩	abob
 𬽠	abob
@@ -6882,15 +6876,14 @@
 𘊯	afyu
 𭬂	agac
 㰏	agag
+楖	agaj
 𧜊	agaj
 𲧕	agaj
 𣑻	agak
 桗	agam
 𣞮	agao
 𧛉	agat
-櫛	agba
 𬴟	agba
-櫛	agba
 𮫗	agbb
 棲	agbc
 𪂅	agbd
@@ -6928,6 +6921,7 @@
 𱈴	agdn
 𪴧	agdq
 柹	ageg
+𠅴	ageh
 𣏆	agej
 𧘊	agej
 𣘧	agek
@@ -6954,6 +6948,8 @@
 	agg
 	agg
 	agg
+櫛	agga
+櫛	agga
 𱤨	aggg
 杵	aggi
 䘚	aggi
@@ -6966,6 +6962,7 @@
 𘫞	aggs
 𬽍	aggu
 㭚	aggy
+櫭	aghf
 𣔫	aghh
 𣛖	aghh
 櫡	aghj
@@ -6980,6 +6977,8 @@
 𣟢	aghu
 𣡓	aghu
 𲧀	aghv
+概	aghw
+槪	aghw
 𪴌	agib
 𠅊	agig
 𣝎	agii
@@ -7467,6 +7466,7 @@
 ギ	airk
 ヸ	airk
 榕	airl
+㌿	airm
 ボ	airm
 𘭈	airm
 櫁	airq
@@ -7731,6 +7731,7 @@
 𪳑	ajqm
 𧓕	ajqq
 𢥦	ajqr
+直󠄆	ajqt
 𬽈	ajqt
 𱲡	ajqu
 𦏧	ajqw
@@ -7836,16 +7837,13 @@
 六	akat
 ㈥	akat
 ㊅	akat
+🀌	akat
 𩎮	akbb
 𠆄	akbj
-𣛬	akbn
 𠬨	akbo
 𫨿	akbo
 𬩋	akbo
 𡥹	akbr
-𬃌	akbs
-樃	akbw
-榔	akby
 𭩺	akci
 村	akcm
 𬂝	akcm
@@ -7907,6 +7905,7 @@
 袤	akgg
 桹	akgg
 𩫅	akgg
+𣛬	akgg
 𧞉	akgg
 𬽎	akgg
 𲁅	akgg
@@ -7938,10 +7937,13 @@
 甕	akgr
 懋	akgr
 𦡈	akgr
+𬃌	akgs
 㮘	akgt
 𬐷	akgu
 㽫	akgv
+樃	akgw
 𦡚	akgw
+榔	akgy
 𣜓	akgy
 𣜼	akgy
 𬡏	akgy
@@ -8031,7 +8033,6 @@
 棓	aklv
 柗	aklv
 𠳆	aklv
-㌔	aklv
 𲔔	aklv
 兗	aklw
 梲	aklw
@@ -8146,7 +8147,6 @@
 𪛀	akss
 效	akst
 虠	aksu
-🀌	aksv
 𬇍	aksx
 𭭉	aksx
 郊	aksy
@@ -8446,6 +8446,7 @@
 𣐄	alus
 𪳱	aluu
 ㌗	aluu
+㌔	alvk
 束	alvm
 杏	alvm
 𪱳	alvm
@@ -8536,7 +8537,6 @@
 桩	amht
 楸	amih
 𣜷	amir
-㌿	amir
 槉	amji
 𧡽	amjj
 楿	amjr
@@ -9998,14 +9998,12 @@
 𣔃	aubc
 𧛙	aubg
 㭴	aubh
-𣝣	aubk
 朴	aubm
 敲	aubo
 𣏽	aubo
 𲐌	aubo
 𣕹	aubp
 栌	aubs
-𣡨	auby
 桢	aucb
 𬃣	auch
 𱤞	aucl
@@ -10065,6 +10063,7 @@
 㯰	augj
 𬄦	augj
 㯉	augk
+𣝣	augk
 𘊷	augk
 𘊹	augk
 𘊼	augk
@@ -10077,6 +10076,7 @@
 𪳵	augw
 衷	augy
 裵	augy
+𣡨	augy
 𧙙	augy
 𘊴	augy
 𘦐	augy
@@ -10909,7 +10909,6 @@
 𮘈	bawr
 𠣂	baws
 𧩂	bawt
-🌓	bawy
 𫌹	bbaf
 𧙭	bbag
 𩨃	bbag
@@ -11561,7 +11560,6 @@
 𱄿	bbmm
 𢑻	bbmy
 𧩴	bbna
-𪠂	bbna
 䛏	bbnb
 𭛎	bbnb
 𠭺	bbng
@@ -11572,7 +11570,6 @@
 𭽅	bbnq
 𫘧	bbns
 𧨹	bbns
-𡳅	bbnw
 𧬲	bbnw
 𬣘	bboa
 𬣗	bbob
@@ -11585,6 +11582,7 @@
 双	bboo
 㕛	bboo
 𤼦	bboo
+🈁	bboo
 🈒	bboo
 ᄍ	bboo
 ㅉ	bboo
@@ -12906,6 +12904,7 @@
 튺	bfyy
 𗕎	bfyy
 𗕐	bfyy
+𪠂	bgaj
 𭽨	bgak
 𧧇	bgam
 𫌿	bgbc
@@ -12958,6 +12957,7 @@
 𰵈	bghk
 𥏰	bghn
 𡳫	bght
+𡳅	bghw
 𗈢	bgii
 𦘒	bgij
 𗇿	bgik
@@ -14249,7 +14249,6 @@
 𧥶	bjwy
 𱎐	bjwy
 䚾	bjwy
-🌒	bjwy
 𳁯	bjwy
 𫵇	bjxi
 투	bjxj
@@ -15117,24 +15116,12 @@
 訞	bmyy
 𡳭	bnaa
 𢾂	bnab
-䳭	bnad
-𪃹	bnad
-䳭	bnad
 弘	bnag
 𮖎	bnag
-堲	bnah
-即	bnaj
-	bnaj
-𠨠	bnak
 𣐉	bnam
-𱉼	bnam
 𠬟	bnao
 遲	bnao
-𨂢	bnap
-𮔕	bnaq
 𘃲	bnas
-𡷦	bnau
-𣣝	bnax
 𣙰	bnba
 𦘞	bnba
 𰎂	bnbm
@@ -15149,14 +15136,12 @@
 䚰	bnby
 𮘆	bnby
 张	bncg
-𪞋	bnck
 𱙜	bnck
 𡝼	bncn
 𗇰	bncn
 𨖔	bnco
 𢏟	bncr
 𘃯	bncs
-鵖	bndn
 䲿	bndn
 𮥻	bneh
 𰐗	bnfg
@@ -15170,42 +15155,13 @@
 𲜼	bngo
 皯	bngp
 訐	bngy
-㮣	bnha
-槩	bnha
 㣄	bnha
-𧫜	bnhb
-𪄵	bnhd
-暨	bnhf
-塈	bnhh
-𰟅	bnhi
-䇒	bnhk
-𬚢	bnhl
-𣯦	bnhm
-𨙐	bnho
-𭥊	bnho
-䊠	bnhq
-𧐆	bnhq
-䊠	bnhq
-𢟪	bnhr
-𦟡	bnhr
-𰅓	bnhs
-𰭯	bnhs
 𡊴	bnht
 𰍻	bnht
-䀈	bnhu
 𩱮	bnhu
-䀈	bnhu
-鱀	bnhv
-鱀	bnhv
-既	bnhw
-䐴	bnhw
-既	bnhw
-旣	bnhw
-𬶨	bnhx
 𡱳	bnig
 𧨗	bnih
 㢱	bniv
-䫀	bnje
 𩓪	bnje
 弾	bnjg
 誒	bnji
@@ -15220,7 +15176,6 @@
 誻	bnjr
 㞓	bnjr
 ㍅	bnka
-𡬠	bnkc
 𘤾	bnkd
 𘤿	bnkd
 𱫞	bnki
@@ -15239,7 +15194,6 @@
 𬸼	bnml
 𡱤	bnmm
 𣭼	bnmm
-𱉝	bnmn
 𠬾	bnna
 屁	bnnb
 䚹	bnnb
@@ -15290,13 +15244,11 @@
 𫢩	bnry
 录	bnsj
 詏	bnsl
-𪟙	bnsl
 𤼪	bnso
 𬢢	bnso
 尿	bnss
 尿	bnss
 𧦋	bnsy
-𪬒	bntr
 𠭽	bntu
 𢽷	bntu
 𫾰	bntu
@@ -15321,7 +15273,6 @@
 𡲬	bnww
 𡱑	bnwy
 𣢞	bnxq
-𣢣	bnxq
 𰍴	bnyi
 𧪉	boag
 𧧳	boak
@@ -15330,7 +15281,6 @@
 𡱐	bobg
 𢐁	bobg
 𫸹	bobh
-🈁	bobo
 㿬	bobp
 㞎	bobs
 逮	bocd
@@ -17406,12 +17356,10 @@
 妈	cbmn
 𪏷	cbmn
 䨎	cbna
-𮱍	cbna
 妮	cbnb
 𢓚	cbnb
 𲪣	cbne
 𡌰	cbnh
-𲊁	cbnk
 徲	cbnp
 㜨	cbnp
 孎	cbnq
@@ -17420,9 +17368,7 @@
 𲃃	cbns
 𢕲	cbnt
 𡝛	cbnw
-𡠣	cbnw
 𦌄	cbnw
-𩄹	cbnw
 𡤶	cbob
 𬰊	cboc
 𭒵	cboc
@@ -18234,6 +18180,7 @@
 𡛃	cfxx
 𨚿	cfyf
 𩄔	cfyf
+𮱍	cgaj
 姩	cgak
 㛆	cgam
 𬱧	cgba
@@ -18278,6 +18225,7 @@
 𡜅	cggy
 嫼	cghn
 𡣫	cght
+𡠣	cghw
 𡛋	cgie
 𠚆	cgik
 𘮯	cgik
@@ -18300,6 +18248,7 @@
 復	cgjt
 𡡲	cgjw
 𳉭	cgjw
+𲊁	cgkc
 彶	cgkd
 雭	cgkd
 㚫	cgkd
@@ -18355,6 +18304,7 @@
 德	cgur
 徳	cgur
 𡠴	cgwr
+𩄹	cgwy
 奼	cgxi
 䨋	cgxi
 𲟠	cgxi
@@ -19024,9 +18974,6 @@
 𡟳	ckan
 𘮒	ckan
 𡟧	ckba
-𲛤	ckbn
-𩅜	ckbw
-嫏	ckby
 霎	ckcn
 𡞘	ckcn
 𭁮	ckcr
@@ -19060,6 +19007,7 @@
 𢔟	ckga
 𡤪	ckgf
 娘	ckgg
+𲛤	ckgg
 霿	ckgj
 𩄯	ckgj
 霱	ckgl
@@ -19075,6 +19023,8 @@
 𬰇	ckgt
 𩂅	ckgv
 媯	ckgw
+𩅜	ckgw
+嫏	ckgy
 𰠣	ckha
 𢓀	ckic
 𧗶	ckic
@@ -24121,7 +24071,6 @@
 耪	dkat
 𦔞	dkat
 耜	dkbb
-𦔀	dkbb
 𦔢	dkbj
 𫅿	dkbj
 𦔘	dkbk
@@ -24130,8 +24079,6 @@
 㿭	dkbp
 𨩁	dkbt
 兜	dkbw
-𦔙	dkbw
-𱱽	dkbw
 𱚞	dkcb
 專	dkcc
 𨊭	dkcc
@@ -24188,6 +24135,7 @@
 𦔆	dkfv
 輮	dkga
 𨎸	dkga
+𦔀	dkgb
 𳈈	dkgb
 谚	dkgc
 𫏳	dkgc
@@ -24214,6 +24162,8 @@
 戕	dkgq
 𭨜	dkgq
 𩰎	dkgu
+𦔙	dkgw
+𱱽	dkgw
 䎢	dkgy
 䦳	dkgy
 耟	dkhb
@@ -26978,13 +26928,11 @@
 𲎂	ebmn
 㐷	ebmr
 𠎴	ebmu
-㑡	ebna
 𪜴	ebna
 伲	ebnb
 𩖹	ebnb
 𠌬	ebnp
 𭀔	ebnq
-𠌰	ebnw
 隻	eboh
 凤	eboj
 𠘫	eboj
@@ -27594,7 +27542,6 @@
 侀	efsm
 𠆻	efso
 㐿	efsr
-🀋	efsv
 넕	efub
 넞	efub
 넟	efub
@@ -27721,10 +27668,10 @@
 늓	efyr
 늒	efyy
 𱏈	egaf
+㑡	egaj
 𠇪	egak
 𠈠	egak
 𪜷	egam
-𠐉	egba
 𰂯	egba
 𠉯	egbc
 𮨳	egbf
@@ -27770,6 +27717,7 @@
 𱎩	egfe
 俄	egfk
 𠉳	egfm
+𠐉	egga
 仵	eggi
 倂	eggn
 佷	eggr
@@ -27777,6 +27725,7 @@
 𠑥	eghk
 𠎁	eghr
 𱖌	eght
+𠌰	eghw
 隼	egih
 𭂩	egij
 𘯰	egij
@@ -27856,6 +27805,7 @@
 𘠾	egpj
 𘯨	egpj
 𲐦	egps
+㌨	egpz
 𩗝	egqc
 𬾓	egqc
 𠇼	egqk
@@ -28243,7 +28193,6 @@
 凨	eina
 𨾜	eina
 𨿈	eina
-㍕	eina
 佗	einb
 䬁	einb
 𫗀	eine
@@ -28412,6 +28361,7 @@
 𫣨	ejdd
 仃	ejdr
 顀	ejeh
+直󠄇	ejei
 논	ejei
 눈	ejei
 𩑏	ejej
@@ -28761,8 +28711,6 @@
 仈	ekar
 𠍄	ekar
 𫩇	ekbo
-𱏃	ekbw
-𠌇	ekby
 𫌸	ekby
 贷	ekcb
 倿	ekcn
@@ -28818,6 +28766,8 @@
 𠍢	ekgs
 𠊮	ekgt
 偽	ekgw
+𱏃	ekgw
+𠌇	ekgy
 䵾	ekhb
 𬛤	ekhc
 𠆵	ekhk
@@ -29291,6 +29241,7 @@
 𠆿	emwr
 仸	emyr
 𠉠	emzr
+㍕	enai
 𠘯	enaj
 𠫗	enaj
 𠍀	enaj
@@ -31059,7 +31010,6 @@
 𗌛	eyys
 𗌥	eyys
 𗌏	eyyy
-㌨	ezgp
 𠂇	ezz
 ㋤	ezz
 ナ	ezz
@@ -31766,25 +31716,20 @@
 捤	fbmm
 𢭶	fbmm
 𫼗	fbms
-揤	fbna
 𢫠	fbna
-𢷽	fbna
 抳	fbnb
 𢳲	fbnb
 𢹆	fbnd
 𫑯	fbng
 𭎵	fbnh
-𫅞	fbnl
 𲐋	fbnm
 𢹌	fbno
 摨	fbnp
 𢺡	fbnq
 𢮑	fbns
 𭱷	fbns
-摡	fbnw
 𢶵	fbnw
 𫑱	fbnw
-𭡰	fbnw
 𱡖	fboa
 𢺥	fbob
 𢺯	fbob
@@ -32012,6 +31957,7 @@
 五	fbwi
 ㈤	fbwi
 ㊄	fbwi
+🀋	fbwi
 𢰕	fbwk
 𢸛	fbwl
 掘	fbww
@@ -32879,11 +32825,11 @@
 㩍	fgac
 𱠬	fgaf
 袭	fgag
+揤	fgaj
 𢬧	fgak
 挅	fgam
 尮	fgam
 𬺜	fgam
-擳	fgba
 𢴩	fgba
 捿	fgbc
 𪮣	fgbd
@@ -32921,6 +32867,7 @@
 𢭉	fgfp
 㩶	fgfs
 𢭡	fgfv
+擳	fgga
 𗸭	fgge
 𗸫	fggf
 𢷩	fggg
@@ -32944,6 +32891,7 @@
 𗸯	fggu
 𲢜	fggu
 𢬜	fggy
+𢷽	fgha
 𢷷	fghj
 𢹽	fghj
 𢺮	fghj
@@ -32956,6 +32904,8 @@
 𱡅	fght
 𢸿	fghu
 𢺙	fghu
+摡	fghw
+𭡰	fghw
 𲣋	fgib
 𢷙	fgip
 𢶠	fgiw
@@ -33036,6 +32986,7 @@
 𭡀	fgqc
 𰲴	fgqc
 𫼞	fgqk
+𫅞	fgql
 擶	fgqm
 𭡾	fgqm
 𭣏	fgqn
@@ -33397,6 +33348,7 @@
 ㈠	fii
 ㊀	fii
 🈩	fii
+🀇	fii
 ㆪ	fii
 ー	fii
 ᅳ	fii
@@ -33476,7 +33428,6 @@
 攓	fisp
 𢮐	fiss
 𢱇	fiss
-🀇	fisv
 㩷	fisw
 𢹷	fitj
 揢	fitl
@@ -33730,8 +33681,6 @@
 𭣋	fkaj
 扒	fkas
 𤲾	fkav
-𪮡	fkbw
-𢲲	fkby
 𬢝	fkby
 于	fkci
 𛄢	fkci
@@ -33784,7 +33733,9 @@
 找	fkgs
 𢶛	fkgs
 𰓂	fkgs
+𪮡	fkgw
 𰔐	fkgw
+𢲲	fkgy
 𪪬	fkgy
 𡐜	fkhd
 𠀩	fkhj
@@ -37769,7 +37720,6 @@
 㤪	fxar
 𣨧	fxaw
 肂	fxba
-𣩃	fxba
 𱥓	fxba
 𢬆	fxbc
 𣧊	fxbc
@@ -37861,6 +37811,7 @@
 𰤽	fxfu
 𣧒	fxfw
 㱛	fxfx
+𣩃	fxga
 𬆔	fxga
 𭮂	fxgb
 殇	fxgc
@@ -38266,6 +38217,7 @@
 𭡇	fyay
 ㆱ	fyck
 扬	fycp
+𠀀	fyei
 撱	fyew
 𰒺	fyfi
 𢭫	fyfl
@@ -38302,7 +38254,6 @@
 𘣬	fygs
 ㄛ	fyii
 ㄜ	fyii
-𠀀	fyii
 𠀂	fyii
 ㋶	fyii
 ㆦ	fyii
@@ -38427,6 +38378,9 @@
 𭙅	gadg
 𥮥	gadj
 鵇	gadn
+䳭	gadn
+𪃹	gadn
+䳭	gadn
 𥯻	gadp
 𮅧	gads
 𥴛	gaeh
@@ -38465,6 +38419,7 @@
 䉩	gahl
 𥮹	gahr
 𱸂	gahs
+堲	gaht
 𥮊	gaht
 篐	gahu
 𥳛	gaif
@@ -38485,6 +38440,7 @@
 𩒜	gaje
 𮅤	gajf
 𰪈	gajf
+即	gajg
 𲶂	gajg
 𡍺	gajh
 𥴀	gajh
@@ -38536,6 +38492,7 @@
 𣐻	gamg
 𱸡	gamm
 朶	gamn
+𱉼	gamn
 𥝌	gamp
 𬇏	gamq
 𘰄	gamz
@@ -38554,7 +38511,9 @@
 𢆫	gapi
 𥱛	gapx
 𫂘	gapy
+𨂢	gapz
 𮆲	gaqc
+𮔕	gaqc
 篣	gaqt
 𥰆	gaqu
 𱸖	gaqy
@@ -38587,6 +38546,7 @@
 簯	gauq
 𲶭	gauq
 𫷞	gaur
+𡷦	gaus
 𥲴	gavj
 𲶜	gawa
 䉡	gawf
@@ -38597,7 +38557,9 @@
 𣱨	gawq
 𥵅	gawr
 𥭫	gaxi
+𠨠	gaxk
 𢆘	gaxq
+𣣝	gaxq
 𨚶	gayf
 𫁳	gayi
 𲶰	gbad
@@ -38693,23 +38655,14 @@
 䇻	gbmm
 𫛛	gbmn
 笃	gbmz
-節	gbna
-節	gbna
-節	gbna
 𥬩	gbnb
 𲨙	gbnb
-𲶬	gbnf
-𠠑	gbnm
-𨙌	gbno
-蠞	gbnq
 𬕱	gbnq
 氯	gbns
 箓	gbns
 𥭼	gbns
 𪑔	gbns
-𥰐	gbnu
 𥵁	gbnu
-𫂉	gbny
 𥳅	gboc
 𨑤	gboc
 𪒡	gboc
@@ -38769,7 +38722,6 @@
 𥶏	gbwl
 𭣘	gbwo
 𥮝	gbww
-🌔	gbwy
 𲥘	gbwy
 𮅏	gbxg
 𥮜	gbxi
@@ -38811,6 +38763,7 @@
 𥬕	gcht
 𥱰	gchz
 筕	gcic
+直󠄈	gcif
 𥭝	gcig
 𥅉	gcij
 䉙	gcin
@@ -38829,6 +38782,7 @@
 𥯂	gckj
 𥱁	gcko
 𥫚	gckz
+直󠄅	gclf
 𥰪	gclf
 𪧡	gclk
 䉹	gclr
@@ -38897,6 +38851,7 @@
 𥴘	gcsa
 𗂕	gcsa
 𥮏	gcsk
+𪞋	gcsk
 𥵶	gcsl
 𥶚	gcsl
 𥳫	gcsw
@@ -38987,6 +38942,7 @@
 𠟅	gdmd
 𮅳	gdmo
 𮅘	gdmz
+鵖	gdng
 𪆤	gdnh
 𥳐	gdnn
 𩾑	gdnp
@@ -39441,8 +39397,14 @@
 𠂏	gfyi
 𮆔	gfyk
 𢆏	ggag
+節	ggaj
 𰆍	ggaj
+節	ggaj
+節	ggaj
+𠠑	ggam
 𥬸	ggam
+𨙌	ggao
+蠞	ggaq
 𱸀	ggbc
 𫧬	ggbj
 𰆰	ggbo
@@ -39465,9 +39427,11 @@
 ㌜	ggfb
 𬕆	ggfk
 啎	ggfl
+𥰐	ggfu
 艮	ggg
 ⾉	ggg
 ☶	ggg
+	ggg
 𠦔	gggf
 𥷹	gggg
 𭅦	gggg
@@ -39478,6 +39442,7 @@
 𪑄	gggy
 𥴒	gggz
 𮅐	gggz
+𲶬	gghf
 𱑒	gghj
 𱋺	gghk
 𥷫	gghl
@@ -39665,6 +39630,7 @@
 𫂀	ggxk
 𥰼	ggxo
 𪟳	ggxu
+𫂉	ggyf
 𢌗	ggyi
 𪐜	ggyi
 黩	ggyo
@@ -39813,19 +39779,47 @@
 𫁹	ghuj
 筪	ghvj
 𥰢	ghvv
+㮣	ghwa
+槩	ghwa
 𥮟	ghwa
+𧫜	ghwb
+𪄵	ghwd
+暨	ghwf
+塈	ghwh
 筠	ghwi
+𰟅	ghwi
 簪	ghwj
 𮆪	ghwj
+䇒	ghwk
 𥭀	ghwk
+𬚢	ghwl
 𰩿	ghwl
+𣯦	ghwm
+𨙐	ghwo
+𭥊	ghwo
+䊠	ghwq
 𥸢	ghwq
+𧐆	ghwq
+䊠	ghwq
+既	ghwr
 黖	ghwr
+𢟪	ghwr
 𥬗	ghwr
+𦟡	ghwr
 𰩰	ghwr
+既	ghwr
+旣	ghwr
 𲓚	ghwr
+𰅓	ghws
+𰭯	ghws
 𪵧	ghwt
 𮅻	ghwt
+䀈	ghwu
+䀈	ghwu
+鱀	ghwv
+鱀	ghwv
+䐴	ghww
+𬶨	ghwx
 箐	ghwy
 氰	ghwy
 𥶹	ghwy
@@ -40007,10 +40001,13 @@
 𪂂	gjdn
 𲓌	gjds
 𥫙	gjdz
+䫀	gjeg
 䉜	gjeh
 𪑸	gjeh
 𨿨	gjeh
 乹	gjei
+直󠄁	gjei
+直󠄂	gjei
 𮅍	gjei
 𥬶	gjej
 𲑣	gjej
@@ -40077,6 +40074,7 @@
 䥅	gjjt
 𥷍	gjjt
 𫧩	gjju
+直󠄃	gjjv
 𰥑	gjjv
 𥬷	gjjx
 𠄊	gjjy
@@ -40166,6 +40164,7 @@
 篂	gjps
 𪐵	gjqh
 直	gjqi
+直󠄄	gjqi
 直	gjqi
 直	gjqi
 𨢈	gjqp
@@ -40281,9 +40280,8 @@
 䉸	gkbk
 𗏀	gkbn
 𥵪	gkbs
-𬕨	gkbw
-𥱳	gkby
 𧧬	gkby
+𡬠	gkcg
 𗎾	gkck
 䈉	gkcn
 𪑗	gkcn
@@ -40343,7 +40341,9 @@
 𱷯	gkgp
 籂	gkgu
 䈧	gkgw
+𬕨	gkgw
 䈧	gkgw
+𥱳	gkgy
 䇝	gkgz
 𫲬	gkhj
 𠂞	gkhk
@@ -40729,6 +40729,7 @@
 𲨗	gmmq
 𥵾	gmmv
 笔	gmmz
+𱉝	gmng
 𮵮	gmnz
 簾	gmqk
 簾	gmqk
@@ -41698,6 +41699,7 @@
 𗬘	gsky
 𮅭	gsla
 𥷬	gsle
+𪟙	gslg
 㔹	gsli
 𡮃	gsli
 𮆓	gslj
@@ -41946,6 +41948,7 @@
 𥰁	gtps
 𫂯	gtqc
 箊	gtri
+𪬒	gtri
 𬕊	gtri
 𲶲	gtsb
 𬕸	gtsi
@@ -42414,6 +42417,7 @@
 𡘻	gwso
 𱞜	gwsr
 䇱	gwtu
+直󠄉	gwuj
 𥳙	gwus
 𥵖	gwvr
 	gww
@@ -42540,6 +42544,7 @@
 𫦎	gxom
 索	gxos
 索	gxos
+𣢣	gxqg
 㱄	gxqh
 㰟	gxqq
 䇜	gxqz
@@ -43080,7 +43085,6 @@
 𲃉	hbmz
 𡒛	hbna
 𫮵	hbna
-𲯍	hbna
 坭	hbnb
 狔	hbnb
 𲃋	hbnb
@@ -43093,9 +43097,7 @@
 趢	hbns
 𡍖	hbns
 𤟘	hbns
-𡏲	hbnw
 𡒈	hbnw
-𤡚	hbnw
 𱘞	hboa
 壪	hbob
 臤	hboc
@@ -43270,12 +43272,10 @@
 𡉱	hcir
 𣪗	hcje
 𧡤	hcjj
-𫕻	hcjj
 𡐙	hcjk
 𰚞	hcjm
 𡐋	hcjr
 𤡐	hcjr
-𪬿	hcjr
 𥛱	hcjs
 𰉚	hcjt
 靑	hcjv
@@ -44191,6 +44191,7 @@
 狠	hggq
 垠	hggt
 𧻠	hggz
+𲯍	hgha
 𡒺	hghc
 𫮨	hghk
 𢨾	hghq
@@ -44198,6 +44199,8 @@
 𡍭	hght
 𱗻	hght
 𲙀	hght
+𡏲	hghw
+𤡚	hghw
 𲚘	hgib
 𢱯	hgif
 𢨦	hgih
@@ -46123,10 +46126,6 @@
 𡎭	hkaw
 𧺍	hkaz
 肈	hkba
-㙟	hkbw
-鿾	hkby
-𤠸	hkby
-𧽗	hkby
 𡌾	hkcp
 𤜮	hkcq
 寺	hkct
@@ -46189,6 +46188,10 @@
 𢦖	hkgq
 𭟯	hkgt
 𲮠	hkgt
+㙟	hkgw
+鿾	hkgy
+𤠸	hkgy
+𧽗	hkgy
 𧺱	hkgz
 槷	hkha
 𡎐	hkha
@@ -47343,10 +47346,6 @@
 𡉏	hoit
 𭘍	hojc
 𩔥	hoje
-🌍	hojf
-🌎	hojf
-🌏	hojf
-🌐	hojf
 𭸡	hoji
 猗	hojl
 埼	hojl
@@ -49055,6 +49054,7 @@
 蠶	hwhq
 𧌩	hwhq
 𧕽	hwhq
+𪬿	hwhr
 𡉙	hwht
 𪤀	hwht
 𪯘	hwht
@@ -49065,6 +49065,7 @@
 𠚛	hwhw
 𡋰	hwhw
 𩇗	hwhw
+𫕻	hwhw
 䣟	hwhy
 炁	hwib
 𩇢	hwif
@@ -49912,7 +49913,6 @@
 𤈦	ibmm
 冯	ibmr
 宖	ibna
-𤊵	ibna
 𥥈	ibna
 𪸡	ibna
 𥥕	ibnb
@@ -50940,9 +50940,9 @@
 𥧛	ifxr
 𡧒	ifxx
 𥧻	ifyk
+𤊵	igaj
 𥅷	igaj
 𪸨	igam
-㸅	igba
 𤏫	igba
 凄	igbc
 𬊯	igbm
@@ -50978,6 +50978,7 @@
 𥥲	igfp
 𱶽	igfw
 𲜭	igfw
+㸅	igga
 𮳨	iggh
 𠖴	iggi
 𭓠	iggi
@@ -51247,7 +51248,6 @@
 𤍡	igxr
 𤊹	igxs
 𤍗	igxt
-⚎	igyc
 䣣	igyf
 𨙹	igyf
 𤆟	igyh
@@ -51256,7 +51256,6 @@
 𠖯	igyi
 𪸏	igyi
 𲏍	igyi
-⚍	igyn
 窦	igyo
 𰃿	igyo
 𫵅	igys
@@ -52127,10 +52126,6 @@
 𛄎	ikar
 𭓙	ikbj
 𢦬	ikbo
-𤎜	ikbw
-𠗷	ikby
-𤍎	ikby
-𥧫	ikby
 𧥽	ikby
 𡌒	ikch
 𬉴	ikch
@@ -52185,7 +52180,11 @@
 𲜉	ikgp
 㦮	ikgr
 𫻹	ikgs
+𤎜	ikgw
 𲐊	ikgw
+𠗷	ikgy
+𤍎	ikgy
+𥧫	ikgy
 𠜚	ikhm
 坓	ikht
 𤌊	ikib
@@ -54073,6 +54072,7 @@
 ㋥	irr
 🈔	irr
 🉂	irr
+🀈	irr
 こ	irr
 ゛	irr
 ニ	irr
@@ -54104,7 +54104,6 @@
 𥧶	irsj
 𩕋	irsj
 𡫍	irsm
-🀈	irsv
 甯	irsy
 𠘅	irtn
 𤒦	irtu
@@ -55696,7 +55695,6 @@
 𮴞	jbmm
 祃	jbms
 玛	jbmw
-𣌸	jbna
 𬍝	jbna
 昵	jbnb
 眤	jbnb
@@ -55713,7 +55711,6 @@
 㫽	jbns
 𭦧	jbns
 𬓗	jbnu
-𤧨	jbny
 𠭁	jbob
 曃	jboc
 𥊵	jboc
@@ -56935,6 +56932,7 @@
 𭹷	jfxq
 𱯊	jfyu
 𲯽	jgac
+𣌸	jgaj
 𪰟	jgak
 𭾮	jgak
 𮁳	jgam
@@ -57171,6 +57169,7 @@
 𤣯	jgxi
 㫲	jgxk
 𪻏	jgyb
+𤧨	jgyf
 盵	jgyi
 㫓	jgyi
 𤣮	jgyi
@@ -58368,15 +58367,8 @@
 𱯉	jkbi
 𱵇	jkbj
 𱭆	jkbk
-𬁋	jkbn
 𣅝	jkbo
 𣊜	jkbr
-𤫈	jkbr
-𤨡	jkbw
-𱢞	jkbw
-瑯	jkby
-𬁈	jkby
-𬓌	jkby
 𧴫	jkcb
 𮙮	jkcb
 䙷	jkcj
@@ -58427,6 +58419,7 @@
 㫰	jkgg
 䀶	jkgg
 𢦮	jkgg
+𬁋	jkgg
 𱵒	jkgg
 𥄖	jkgi
 𣍑	jkgk
@@ -58444,13 +58437,19 @@
 ㈶	jkgp
 ㊖	jkgp
 🉥	jkgp
+𤫈	jkgr
 𮲜	jkgr
 䄀	jkgs
 𥊦	jkgs
 𬁒	jkgs
+𤨡	jkgw
 𰡯	jkgw
+𱢞	jkgw
+瑯	jkgy
 曏	jkgy
 𤩬	jkgy
+𬁈	jkgy
+𬓌	jkgy
 𧷢	jkhc
 盻	jkhk
 𲤐	jkhk
@@ -61819,6 +61818,7 @@
 ㈧	kaa
 ㊇	kaa
 ㋩	kaa
+🀎	kaa
 ㆿ	kaa
 ハ	kaa
 𛂞	kaa
@@ -61932,7 +61932,6 @@
 饟	kasg
 𲵲	kasj
 𮄾	kaso
-🀎	kasv
 𣫚	kate
 𱺮	kats
 𢾉	katu
@@ -61949,7 +61948,6 @@
 𬙉	kawf
 𨐤	kawq
 𱺧	kawq
-🌑	kawy
 𮟵	kayf
 纬	kayi
 𫐚	kayi
@@ -62011,47 +62009,17 @@
 𩝽	kblq
 𫄶	kblq
 䬿	kbmm
-卿	kbna
-㮾	kbna
 𬘸	kbna
-𭅺	kbna
 𰬋	kbna
-	kbna
 𥩥	kbnb
 𩚯	kbnb
 𱺙	kbnb
-𣂞	kbnd
-𪁜	kbnd
-𮎘	kbng
-塱	kbnh
 𡎿	kbnh
-𡏅	kbnh
 𗄷	kbnk
-𠻡	kbnl
-剆	kbnm
-㓪	kbnm
-剆	kbnm
 𗅏	kbnn
-郒	kbno
-𨖅	kbno
-𫵉	kbno
-𤭒	kbnr
 绿	kbns
-勆	kbns
-鿥	kbns
 𥪋	kbns
-𦫍	kbns
-𦫏	kbns
 𩛼	kbns
-𬂆	kbnu
-朗	kbnw
-𩞊	kbnw
-朗	kbnw
-朗	kbnw
-朗	kbnw
-欴	kbnx
-郎	kbny
-𨜊	kbny
 𘭍	kboc
 𭆧	kbog
 𭚡	kboi
@@ -62211,7 +62179,9 @@
 ㋬	kdd
 へ	kdd
 ヘ	kdd
+・	kdd
 ㆍ	kdd
+·	kdd
 𫏽	kddc
 𡦫	kddj
 𨐿	kddj
@@ -62657,6 +62627,7 @@
 𥎢	kgai
 𥎥	kgai
 𬑯	kgaj
+𭅺	kgaj
 𥎁	kgal
 柔	kgam
 𣮪	kgam
@@ -62665,7 +62636,6 @@
 𠢢	kgas
 𣟮	kgat
 𨜙	kgay
-𭅼	kgba
 𥍯	kgbb
 䂇	kgbc
 𰬢	kgbc
@@ -62680,7 +62650,6 @@
 𭐟	kgbo
 𱍷	kgbo
 𫄮	kgbu
-郷	kgby
 𧧑	kgby
 𲆘	kgby
 颜	kgcc
@@ -62719,11 +62688,14 @@
 𥍡	kgdb
 𥎤	kgdi
 𲳀	kgdi
+𣂞	kgdj
 𥍿	kgdj
 𪿆	kgdj
 𥎗	kgdk
+𠻡	kgdl
 𰈛	kgdl
 𮞀	kgdm
+𪁜	kgdn
 𭿼	kgdn
 𨝅	kgdo
 𬙀	kgdo
@@ -62746,15 +62718,19 @@
 ㌊	kgfn
 𢎇	kgfs
 𥎖	kgfs
+𦫍	kgfs
 戈	kgg
 ⼽	kgg
 	kgg
+𭅼	kgga
 良	kggd
 良	kggd
 𛃮	kggd
 𛃯	kggd
 𛃰	kggd
+	kggd
 𢦩	kggi
+卿	kggm
 𥍢	kggo
 𢦔	kggp
 𥎃	kggq
@@ -62762,6 +62738,7 @@
 䬶	kggs
 𥍦	kggu
 𰥆	kggu
+郷	kggy
 𥩷	kggy
 𥍻	kghc
 𥎍	kghj
@@ -62774,6 +62751,7 @@
 𬙊	kght
 𩛹	kght
 𥃍	kghu
+𩞊	kghw
 𰅭	kgia
 𢾬	kgib
 ㌉	kgib
@@ -62846,12 +62824,16 @@
 𥍣	kglh
 竬	kglj
 𡥶	kglj
+郒	kglo
 𫗘	kglu
 𠱫	kglv
 𪿇	kglw
 𥍧	kglx
 鄊	kgly
+剆	kgmd
+㓪	kgmd
 𱐙	kgmd
+剆	kgmd
 𥍞	kgmk
 𣭅	kgmm
 𬸏	kgmn
@@ -62911,10 +62893,12 @@
 𧎆	kgqq
 𧕑	kgqq
 𩚤	kgqs
+𦫏	kgqs
 𣀊	kgqt
 𬙆	kgqv
 㮗	kgra
 矝	kgrb
+𮎘	kgrg
 𩞰	kgrh
 𭿹	kgrh
 𢘅	kgri
@@ -62923,6 +62907,7 @@
 𥎄	kgrl
 㥤	kgrr
 𥍵	kgrr
+𤭒	kgrw
 矜	kgry
 𩝀	kgsa
 𮨾	kgsb
@@ -62939,6 +62924,7 @@
 𥍰	kgsk
 𗆍	kgsk
 飭	kgsl
+勆	kgsl
 𠠸	kgsl
 𥎂	kgsl
 𨐟	kgsl
@@ -63035,14 +63021,21 @@
 𬑭	kgus
 𥎙	kgvj
 𲹚	kgvv
+㮾	kgwa
 為	kgwd
+塱	kgwh
 䂆	kgwk
 𩟵	kgwm
 𥍷	kgwr
 𩞝	kgwt
 𥂂	kgwu
+𬂆	kgwu
 𣱏	kgwx
+朗	kgwy
 𰃗	kgwy
+朗	kgwy
+朗	kgwy
+朗	kgwy
 𥍨	kgxa
 飥	kgxi
 𩚊	kgxi
@@ -63053,12 +63046,16 @@
 𰬘	kgxk
 𰬱	kgxo
 𥎎	kgxp
+欴	kgxq
 𥎠	kgxq
 䂊	kgxt
+郎	kgyf
 郞	kgyf
 郎	kgyf
 𨙴	kgyf
 𨙵	kgyf
+𨜊	kgyf
+𡏅	kgyh
 纥	kgyi
 䇄	kgyi
 䬣	kgyi
@@ -63066,6 +63063,9 @@
 𘭐	kgyk
 𘭒	kgyk
 续	kgyo
+𨖅	kgyo
+𫵉	kgyo
+鿥	kgys
 𢎉	kgzi
 𠂵	khak
 𨐣	khba
@@ -63626,8 +63626,6 @@
 𮩇	kkam
 𡥀	kkaz
 𧨺	kkby
-𨜮	kkby
-𩝢	kkby
 纣	kkcj
 𮄧	kkcl
 𰺪	kkcr
@@ -63668,6 +63666,8 @@
 𰦎	kkgp
 𩚧	kkgs
 𱐷	kkgs
+𨜮	kkgy
+𩝢	kkgy
 𪦷	kkgz
 𡋊	kkht
 𮍒	kkih
@@ -64718,7 +64718,6 @@
 𫄬	ksam
 𰃜	ksam
 𲭂	ksam
-𪺜	ksba
 𡦮	ksbq
 㸗	kscl
 𬲗	kscn
@@ -64751,6 +64750,7 @@
 𤕑	ksfs
 𗅮	ksfu
 𥪽	ksfv
+𪺜	ksga
 缂	ksgj
 𩝳	ksgs
 𗅆	ksgs
@@ -65582,6 +65582,7 @@
 ㋯	laa
 🈪	laa
 🉁	laa
+🀉	laa
 ミ	laa
 𛃉	laa
 𠾣	laaa
@@ -65727,7 +65728,6 @@
 𡄶	laqj
 𦗑	laqj
 𱕝	laqj
-㍉	laqk
 𠼬	laql
 𠽜	laql
 𱕇	laqn
@@ -65753,7 +65753,6 @@
 𡃎	laso
 𡃗	laso
 𪢃	last
-🀉	lasv
 𲖂	latd
 𱓯	lath
 𬫈	latj
@@ -65930,13 +65929,11 @@
 𠾓	lbml
 𠳿	lbmm
 吗	lbmv
-唧	lbna
 𠰈	lbna
 呢	lbnb
 𮋯	lbnb
 𱒻	lbnc
 𠷍	lbne
-𡃢	lbnf
 𲗓	lbnj
 𠺣	lbnm
 𠸽	lbno
@@ -65947,8 +65944,6 @@
 䎼	lbns
 𣷗	lbns
 𲔸	lbns
-𡄊	lbnu
-嘅	lbnw
 𲘘	lbob
 𨓭	lboc
 𲖑	lboc
@@ -67669,9 +67664,9 @@
 믂	lfyy
 윾	lfyy
 𠼒	lgaf
+唧	lgaj
 哖	lgak
 𫩴	lgam
-㘉	lgba
 𠽩	lgba
 啛	lgbc
 𡅣	lgbf
@@ -67701,6 +67696,7 @@
 𠷢	lgfi
 哦	lgfk
 𬚚	lgfk
+㘉	lgga
 𦕨	lgge
 𭈍	lggg
 吘	lggi
@@ -67708,13 +67704,16 @@
 哏	lggv
 𠚋	lggw
 𦗣	lghe
+𡃢	lghf
 𱻺	lghh
 𡅎	lghj
 𭋂	lghj
 𠾡	lghk
 𠺑	lghq
 嚜	lght
+𡄊	lghu
 嘿	lghv
+嘅	lghw
 𫩰	lgig
 𠵰	lgil
 叶	lgiv
@@ -69197,14 +69196,9 @@
 𲹰	lkao
 只	lkav
 叭	lkav
-𪡙	lkba
 𡅼	lkbk
 𰍵	lkbk
 𲘈	lkbu
-𠻴	lkbw
-𫆍	lkbw
-啷	lkby
-𦗏	lkby
 𫪑	lkcb
 唼	lkcn
 𮋵	lkcn
@@ -69233,6 +69227,7 @@
 𦧩	lkfl
 𠿑	lkfr
 㖻	lkga
+𪡙	lkga
 喭	lkgc
 𰉁	lkgc
 聀	lkge
@@ -69245,7 +69240,11 @@
 𠿰	lkgs
 𭊞	lkgs
 𠯫	lkgv
+𠻴	lkgw
 𦖯	lkgw
+𫆍	lkgw
+啷	lkgy
+𦗏	lkgy
 𰇡	lkgy
 𠯋	lkhk
 𦕎	lkhk
@@ -69388,7 +69387,6 @@
 𭩸	llam
 𮞮	llao
 𭆻	llav
-𪡰	llba
 嗫	llbb
 㖐	llbg
 𮋼	llbi
@@ -69473,6 +69471,7 @@
 뮵	llfw
 윱	llfw
 鄂	llfy
+𪡰	llga
 嘍	llgc
 𠶭	llgc
 𲻗	llgc
@@ -70513,6 +70512,7 @@
 噌	lqjj
 𱔩	lqjk
 𠹡	lqjw
+㍉	lqka
 𠯁	lqkd
 嗌	lqku
 𫆌	lqku
@@ -70603,7 +70603,6 @@
 𲕔	lrbn
 𫪎	lrbr
 𢟛	lrbu
-𡁙	lrbw
 聄	lrcp
 𠱉	lrcp
 𲗛	lrcu
@@ -70639,6 +70638,7 @@
 𦗃	lrgu
 嗗	lrgv
 𡰅	lrgw
+𡁙	lrgw
 𦕲	lrhe
 𠵐	lrhn
 𭌸	lrho
@@ -72486,16 +72486,11 @@
 𰏲	mbmg
 䅏	mbmm
 𲍬	mbmn
-𤻿	mbna
-𥠈	mbna
 𥣡	mbna
-𪪗	mbna
 痆	mbnb
 秜	mbnb
 䝚	mbnb
 𣭙	mbnb
-廄	mbne
-𲵜	mbnf
 𥡖	mbng
 𥢘	mbnn
 𪋵	mbnn
@@ -72504,9 +72499,6 @@
 𤺳	mbnp
 𤷚	mbns
 𥞾	mbns
-穊	mbnw
-廐	mbnw
-穊	mbnw
 𤴨	mbob
 𠬛	mbod
 𪠤	mbod
@@ -73349,11 +73341,11 @@
 𠜭	mfxw
 𪽨	mfxx
 𲵛	mgag
+𥠈	mgaj
 𥠗	mgaj
+𪪗	mgaj
 𮃄	mgam
-癤	mgba
 𤺭	mgba
-𥣮	mgba
 䅩	mgbk
 庋	mgbo
 秓	mgbo
@@ -73371,6 +73363,7 @@
 𤵎	mgej
 痗	mgem
 𭙝	mgem
+廄	mges
 𤷺	mgfb
 𢉓	mgfe
 𬓬	mgfk
@@ -73381,6 +73374,8 @@
 ㄬ	mgg
 ⼴	mgg
 𘡈	mgg
+癤	mgga
+𥣮	mgga
 痕	mggb
 㡾	mggg
 𦫌	mggh
@@ -73389,7 +73384,9 @@
 𫀩	mggi
 𲅝	mggo
 貇	mggz
+𤻿	mgha
 𬏼	mghb
+𲵜	mghf
 䆀	mghh
 𥢜	mghk
 熏	mghq
@@ -73397,6 +73394,9 @@
 墾	mght
 癦	mght
 𢋨	mght
+穊	mghw
+廐	mghw
+穊	mghw
 𢌅	mghy
 𮠔	mghy
 𧴔	mghz
@@ -74273,12 +74273,7 @@
 𣏉	mkam
 𲨅	mkam
 乔	mkay
-𰐁	mkbw
-廊	mkby
-㾿	mkby
 𢉲	mkby
-廊	mkby
-廊	mkby
 疛	mkcb
 辱	mkcc
 𫷦	mkcg
@@ -74332,8 +74327,13 @@
 𣰇	mkgl
 豺	mkgp
 𬏛	mkgp
+𰐁	mkgw
+廊	mkgy
+㾿	mkgy
 𢉊	mkgy
 𱶞	mkgy
+廊	mkgy
+廊	mkgy
 𮙦	mkgz
 𢇱	mkhk
 𤵕	mkhk
@@ -75821,7 +75821,6 @@
 𢋏	msam
 𥠓	msam
 𭃛	msam
-𲱪	msba
 𪽴	mscb
 𥠾	msch
 𥤜	mscl
@@ -75929,6 +75928,7 @@
 𰐂	msfx
 郵	msfy
 𲏨	msfy
+𲱪	msga
 𢊑	msgs
 𤸶	msgs
 𥡘	msgs
@@ -77252,6 +77252,7 @@
 ヒ	nbb
 𘠢	nbb
 	nbb
+	nbb
 𪶽	nbba
 涰	nbbb
 𣴫	nbbb
@@ -77361,9 +77362,7 @@
 𰛊	nbms
 𣽶	nbmw
 泓	nbna
-𣹜	nbna
 𤀛	nbna
-𰝧	nbna
 泥	nbnb
 𧬾	nbnb
 泥	nbnb
@@ -77373,7 +77372,6 @@
 𢏘	nbng
 𭅩	nbng
 埿	nbnh
-𡒖	nbnh
 𣿉	nbnj
 𲩒	nbnk
 𣺳	nbnm
@@ -77393,7 +77391,6 @@
 𭤛	nbnt
 𣿍	nbnu
 𩸧	nbnv
-溉	nbnw
 𣿲	nbnw
 𱨣	nbnw
 灤	nboa
@@ -78166,10 +78163,10 @@
 𣲠	nfxx
 𱨪	nfyf
 𣽤	ngac
+𣹜	ngaj
 𲩅	ngak
 𭲱	ngal
 潷	ngba
-瀄	ngba
 淒	ngbc
 𤄙	ngbf
 𣺱	ngbg
@@ -78215,16 +78212,20 @@
 𘠨	ngg
 𘬃	ngg
 	ngg
+瀄	ngga
 𲞻	nggg
 汻	nggi
 泿	nggs
 𤃾	nggu
 𱨙	nggu
+𰝧	ngha
 𭰝	nghc
+𡒖	nghh
 𤅕	nghk
 潶	nghs
 濹	nght
 𲫄	nghu
+溉	nghw
 𠫘	ngia
 𭲺	ngia
 𠤏	ngib
@@ -79196,9 +79197,7 @@
 汃	nkas
 𣱺	nkas
 𣶔	nkbk
-𣼽	nkbw
 誉	nkby
-𱧧	nkby
 尃	nkcf
 淁	nkcn
 𰛇	nkcs
@@ -79259,6 +79258,8 @@
 𱩁	nkgq
 㳀	nkgs
 溈	nkgw
+𣼽	nkgw
+𱧧	nkgy
 𣻟	nkhc
 𱦑	nkhk
 𤃼	nkhr
@@ -79997,6 +79998,7 @@
 𣛁	nnna
 𣳯	nnna
 沘	nnnb
+㐂󠄁	nnnb
 𢿈	nnnb
 參	nnnc
 滲	nnnc
@@ -80362,6 +80364,7 @@
 𬇧	nplu
 𬻶	nplu
 浩	nplv
+浩󠄁	nplv
 浩	nplv
 𭊼	nplx
 𣭰	npmm
@@ -80751,7 +80754,6 @@
 𤀐	nsau
 𭳀	nsav
 㵁	nsaw
-𭲝	nsba
 𣿯	nsbb
 瀟	nsbf
 潇	nsbk
@@ -80831,6 +80833,7 @@
 𤃐	nsfv
 𫥭	nsfw
 𤁤	nsfx
+𭲝	nsga
 𣺏	nsgc
 㴀	nsgo
 𣼒	nsgo
@@ -81061,7 +81064,6 @@
 𱩗	nswt
 𣳸	nsww
 𣷎	nswy
-🌕	nswy
 溁	nsxa
 𣸱	nsxa
 𣸨	nsxi
@@ -82485,7 +82487,6 @@
 𨜀	odlo
 𬘍	odlo
 𦄞	odlv
-㍽	odlz
 繷	odmc
 剦	odmd
 𦦱	odmd
@@ -83810,22 +83811,18 @@
 夰	okad
 𡗕	okad
 𘭊	okaf
-☯	okaf
 𣈌	okaj
 𫓥	okaj
 𲇳	okaj
 𫶼	okal
 𪥆	okbo
 𬗷	okbq
-𦄺	okbw
-𦂧	okby
-𨱍	okby
-𱘸	okby
 夺	okcd
 𦁉	okcn
 导	okcs
 紂	okcs
 太	okdd
+☯	okdd
 𘭷	okdd
 钺	okei
 䋐	okei
@@ -83863,7 +83860,11 @@
 䋒	okgp
 𲇭	okgp
 𥾮	okgs
+𦄺	okgw
 𲞪	okgw
+𦂧	okgy
+𨱍	okgy
+𱘸	okgy
 𦄤	okhc
 𫓫	okhk
 𦈂	okhl
@@ -83967,11 +83968,9 @@
 𦀦	okxu
 𫷏	okxu
 𫘖	okxw
-⚌	okyc
 𰾔	okyh
 铖	okyi
 絾	okyi
-⚏	okyn
 𫓦	okzj
 𥾌	okzs
 𰫙	okzs
@@ -84126,6 +84125,7 @@
 륛	olyr
 륚	olyy
 𰋞	olzd
+㍽	olzd
 钲	olzj
 䋊	olzs
 𦀾	omam
@@ -85940,7 +85940,6 @@
 𤙌	pbnb
 𲰪	pbnb
 𬦵	pbnc
-𳁑	pbnk
 𨘭	pbno
 䠱	pbnq
 𪚌	pbnq
@@ -86535,7 +86534,6 @@
 跥	pgam
 𬹵	pgam
 𨅗	pgba
-𰸲	pgba
 𨆆	pgbj
 歧	pgbo
 跂	pgbo
@@ -86568,6 +86566,7 @@
 ェ	pgg
 エ	pgg
 𘠫	pgg
+𰸲	pgga
 𱥀	pggb
 齦	pggc
 𣥦	pggi
@@ -86595,6 +86594,7 @@
 𮠸	pgjt
 𨅹	pgjw
 𨃭	pgka
+𳁑	pgkc
 趿	pgkd
 䶪	pgke
 𨣲	pgkf
@@ -87245,8 +87245,6 @@
 𬌙	pkan
 𭁆	pkan
 趴	pkaz
-𨅉	pkbw
-𨄂	pkby
 𮮿	pkcc
 踥	pkcn
 酎	pkcy
@@ -87306,7 +87304,9 @@
 𨄉	pkgp
 𪙞	pkgp
 𰸎	pkgp
+𨅉	pkgw
 䣬	pkgy
+𨄂	pkgy
 𠭱	pkhb
 𪴼	pkhc
 𣠶	pkhj
@@ -87983,7 +87983,6 @@
 𮛰	poxx
 𨃙	ppam
 𰐤	ppbj
-𰼕	ppbk
 𳃓	ppcb
 𪙹	ppcc
 𬆀	ppcf
@@ -87994,6 +87993,7 @@
 𨌾	ppdc
 𨅅	ppfb
 𬆋	ppgg
+𰼕	ppgk
 𤚕	ppht
 𬪭	ppht
 𲃰	ppht
@@ -89680,7 +89680,6 @@
 䊊	qbmm
 𧋦	qbmm
 𰪪	qbmm
-蝍	qbna
 蚭	qbnb
 𥹆	qbnb
 𥼙	qbni
@@ -89691,8 +89690,6 @@
 𫋙	qbnq
 粶	qbns
 𧌍	qbns
-𧑂	qbnw
-𧎟	qbny
 䘎	qbob
 𧑔	qboc
 𰫎	qboc
@@ -90650,6 +90647,7 @@
 𦎄	qfxn
 𥼒	qfxq
 𲀊	qfxr
+㍒	qfyi
 𗑃	qfyn
 𗔤	qfyn
 𗑕	qfys
@@ -90657,14 +90655,13 @@
 𗓕	qfys
 𗔶	qfys
 𗑄	qfyu
+蝍	qgaj
 𮜵	qgak
 𰪹	qgak
 躱	qgam
 𣕼	qgam
 𧊱	qgam
 𗒧	qgas
-䗻	qgba
-𫃖	qgba
 𠭶	qgbb
 𫋂	qgbc
 𱹊	qgbc
@@ -90703,6 +90700,8 @@
 䗗	qgfs
 䗗	qgfs
 䣡	qgfy
+䗻	qgga
+𫃖	qgga
 𠬵	qggb
 𱿝	qggb
 蛝	qggc
@@ -90718,6 +90717,7 @@
 𨊂	qghs
 䘃	qght
 𥽞	qght
+𧑂	qghw
 𦏉	qghy
 𲾊	qgic
 𘢢	qgik
@@ -90880,6 +90880,7 @@
 𲷎	qgxs
 𫊩	qgyb
 𧈰	qgyc
+𧎟	qgyf
 虼	qgyi
 籺	qgyi
 𘱶	qgyi
@@ -91529,9 +91530,6 @@
 𗮉	qkbs
 𗮓	qkbs
 𘁎	qkbs
-𲿒	qkbw
-螂	qkby
-𨉰	qkby
 𗭻	qkby
 䖞	qkcc
 籿	qkcm
@@ -91567,7 +91565,6 @@
 𗭿	qkfu
 𨉙	qkfx
 𨉧	qkfx
-㍒	qkfy
 𗮋	qkfy
 糅	qkga
 蝚	qkga
@@ -91587,6 +91584,9 @@
 𨈟	qkgs
 𧐙	qkgs
 𧎄	qkgt
+𲿒	qkgw
+螂	qkgy
+𨉰	qkgy
 𣊅	qkhj
 𧏃	qkho
 𧈺	qkic
@@ -94939,8 +94939,6 @@
 𢦇	rbnr
 𱞩	rbns
 𲌏	rbns
-慨	rbnw
-慨	rbnw
 𢠻	rboc
 𘰺	rboe
 𠬚	rboj
@@ -95698,8 +95696,6 @@
 𠨘	rgaj
 𰑖	rgak
 𲌎	rgam
-㦢	rgba
-𩪶	rgba
 悽	rgbc
 𭞟	rgbg
 忮	rgbo
@@ -95731,6 +95727,8 @@
 骨	rgg
 ⻣	rgg
 ⾻	rgg
+㦢	rgga
+𩪶	rgga
 忤	rggi
 𬩕	rggo
 恨	rggx
@@ -95741,6 +95739,8 @@
 𭏂	rght
 𭟓	rght
 𢥸	rghu
+慨	rghw
+慨	rghw
 𢡀	rghx
 𣣑	rghx
 仐	rgie
@@ -95850,7 +95850,6 @@
 惼	rhce
 𠋅	rhce
 𩩯	rhce
-𫻛	rhcj
 憉	rhcp
 𤮟	rhdg
 𢞄	rhdl
@@ -95956,6 +95955,7 @@
 慠	rhwt
 𩪕	rhwt
 慠	rhwt
+𫻛	rhww
 情	rhwy
 𭟝	rhwy
 𪫨	rhxk
@@ -96291,6 +96291,7 @@
 九	rjj
 ㈨	rjj
 ㊈	rjj
+🀏	rjj
 𛀭	rjj
 𘯼	rjj
 戄	rjjb
@@ -96393,7 +96394,6 @@
 𱵺	rjsn
 𢙱	rjso
 𩩖	rjso
-🀏	rjsv
 㥗	rjte
 慢	rjub
 𱞊	rjub
@@ -96600,13 +96600,11 @@
 𧆺	rkbu
 𪚙	rkbu
 翎	rkbv
-𢠯	rkbw
 𱢸	rkbw
 𣢝	rkbx
 邻	rkby
 𨜾	rkby
 𩙳	rkby
-𮲈	rkby
 𫕣	rkcb
 奿	rkcn
 𢜡	rkcn
@@ -96645,6 +96643,8 @@
 𢘕	rkgp
 𢨔	rkgq
 𢝽	rkgt
+𢠯	rkgw
+𮲈	rkgy
 𰷔	rkhj
 𢗴	rkhk
 𩨦	rkhk
@@ -98153,7 +98153,6 @@
 𢟌	rsae
 惵	rsam
 𢘹	rsam
-𭞖	rsba
 𢞡	rsch
 𭟈	rsck
 𢝶	rscn
@@ -98184,6 +98183,7 @@
 𰒆	rsfr
 髒	rsfs
 㦅	rsfu
+𭞖	rsga
 𩩸	rsgg
 𢗛	rsgi
 𢞎	rsgs
@@ -99405,8 +99405,6 @@
 𲻰	sbmo
 鞃	sbna
 苰	sbna
-莭	sbna
-莭	sbna
 苨	sbnb
 𩉹	sbnb
 𦼘	sbnf
@@ -99417,7 +99415,6 @@
 䩮	sbns
 䩮	sbns
 𦾞	sbnu
-蔇	sbnw
 虊	sboa
 𧆅	sbob
 𳄱	sboc
@@ -100814,6 +100811,8 @@
 𗛁	sfys
 𗛂	sfys
 𗞀	sfys
+莭	sgaj
+莭	sgaj
 𦮴	sgak
 䒳	sgam
 𦲔	sgbb
@@ -100870,6 +100869,7 @@
 𬼑	sghk
 䕸	sghl
 𦸽	sgho
+蔇	sghw
 𰅲	sgii
 𲓞	sgii
 𠦒	sgio
@@ -100987,7 +100987,6 @@
 𩍮	sguq
 𱽓	sgur
 𦭾	sguw
-𦸻	sgvb
 𮑊	sgvm
 𦬃	sgxi
 荸	sgxk
@@ -101051,6 +101050,7 @@
 𦳻	shfy
 薣	shgb
 𢐱	shgb
+𦸻	shgb
 𪈭	shgd
 𦴭	shgg
 𦏡	shgh
@@ -101546,7 +101546,6 @@
 𤐂	sisi
 𦺦	sisi
 𩍎	sisi
-㍋	sisi
 𬞸	sisj
 𲽶	sisj
 勤	sisl
@@ -102006,12 +102005,8 @@
 䒔	skao
 𢛖	skar
 𬜺	skbc
-𦺄	skbn
 𦰑	skbo
-𮑛	skbo
 𮐺	skbu
-蓢	skbw
-蓈	skby
 蒇	skcb
 𠮂	skcb
 𗞲	skce
@@ -102064,6 +102059,7 @@
 䔨	skge
 莨	skgg
 𦭚	skgg
+𦺄	skgg
 𫦭	skgg
 𦺖	skgl
 𫻧	skgl
@@ -102071,6 +102067,7 @@
 蓀	skgo
 䕖	skgo
 𦬗	skgo
+𮑛	skgo
 茅	skgp
 芗	skgp
 𦬁	skgp
@@ -102084,8 +102081,10 @@
 𢦫	skgs
 䓮	skgt
 𦶻	skgu
+蓢	skgw
 蒍	skgw
 薌	skgy
+蓈	skgy
 𦼅	skgy
 𦽰	skgy
 蔵	skhc
@@ -104086,6 +104085,7 @@
 苷	ssir
 蓳	ssir
 蓳	ssir
+㍋	ssir
 𤉧	ssit
 𮋢	ssiw
 𰱡	ssix
@@ -105677,7 +105677,6 @@
 𧱎	tbmm
 𨪅	tbmm
 𳌘	tbmw
-𣁚	tbna
 𨥺	tbna
 鈮	tbnb
 𨬯	tbnp
@@ -106185,6 +106184,7 @@
 旜	tgaf
 𲤅	tgaf
 𣄆	tgag
+𣁚	tgaj
 𨦧	tgak
 𨦃	tgam
 𬀞	tgaq
@@ -106964,9 +106964,7 @@
 𨪐	tkaj
 𨯦	tkaj
 𡕓	tkau
-𨬅	tkbd
 𧱧	tkbm
-鎯	tkby
 𬹳	tkcb
 対	tkce
 𨥇	tkcj
@@ -107000,6 +106998,7 @@
 𧱰	tkgb
 𧱱	tkgc
 𨩱	tkgc
+𨬅	tkgd
 鋃	tkgg
 阆	tkgg
 斏	tkgg
@@ -107014,6 +107013,7 @@
 𨥨	tkgp
 𨷿	tkgp
 𨩺	tkgt
+鎯	tkgy
 𨥟	tkhk
 𱌗	tkih
 釴	tkij
@@ -109031,7 +109031,6 @@
 𱛰	ubih
 嵶	ubii
 𦩸	ubii
-㌧	ubir
 𰎰	ubiw
 䝨	ubjb
 𧶑	ubjb
@@ -109099,11 +109098,9 @@
 𲞱	ubmm
 鸬	ubmn
 𬹔	ubmn
-𡸎	ubna
 𪨭	ubna
 𪨮	ubna
 㞾	ubnb
-𲬽	ubnk
 𗎹	ubnn
 𡼧	ubnp
 㟤	ubns
@@ -109114,7 +109111,6 @@
 𨲒	ubns
 𗲿	ubns
 𡽈	ubnw
-𩯂	ubnw
 郞	ubny
 攴	ubob
 䯭	ubob
@@ -110169,11 +110165,11 @@
 𗁩	ufyk
 𗁈	ufyn
 𗁓	ufyn
+𡸎	ugaj
 䑮	ugam
 𡶲	ugam
 𮫄	ugam
 𰗘	ugam
-幯	ugba
 𡼸	ugba
 𤔯	ugba
 𭖻	ugba
@@ -110229,6 +110225,7 @@
 𪨦	ugfy
 瓜	ugg
 ⽠	ugg
+幯	ugga
 𲓬	uggb
 𦋪	uggg
 𗁭	uggg
@@ -110242,6 +110239,7 @@
 𭁈	ughk
 𡼡	ughs
 𦪷	ught
+𩯂	ughw
 𤏜	ugih
 𫵱	ugis
 𦉴	ugiw
@@ -110271,6 +110269,7 @@
 𲞲	ugjt
 𫕾	ugju
 𡼼	ugjw
+𲬽	ugkc
 岌	ugkd
 岋	ugkd
 㠷	ugkd
@@ -110411,7 +110410,6 @@
 𨲜	uhce
 𪉱	uhce
 𱜯	uhce
-𫶠	uhcj
 𡹫	uhcl
 𦪟	uhcp
 𦣟	uhcs
@@ -110615,6 +110613,7 @@
 䦋	uhwt
 𩮯	uhwt
 𫿑	uhwt
+𫶠	uhww
 𳌭	uhww
 崝	uhwy
 䑶	uhwy
@@ -110822,6 +110821,7 @@
 𫷉	uipw
 𡾈	uiqb
 𪨺	uirb
+㌧	uirb
 ド	uirb
 鬡	uirj
 𨲸	uirj
@@ -111274,7 +111274,6 @@
 𘮡	ukas
 𲝃	ukas
 𦉵	ukaw
-𲻢	ukby
 𢁜	ukcj
 帹	ukcn
 𡬫	ukco
@@ -111373,6 +111372,7 @@
 𩭾	ukgt
 𤔡	ukgw
 𫻬	ukgw
+𲻢	ukgy
 𭗉	ukhc
 𩰈	ukhl
 𡹥	ukht
@@ -113278,14 +113278,8 @@
 䰂	uuam
 𡸯	uuam
 𩏣	uuba
-𫨀	uuba
-𬋺	uubc
-𳏾	uubd
 𫶽	uubj
-爵	uubk
 𬋷	uubk
-爵	uubk
-爵	uubk
 𡵨	uubo
 𢁵	uubo
 𦨗	uubo
@@ -113293,12 +113287,9 @@
 𭆲	uubo
 𰭈	uubo
 舻	uubs
-𫸤	uubs
 𰎐	uubs
 㡪	uubt
 崢	uuby
-𨟧	uuby
-𫑲	uuby
 帧	uucb
 𩭨	uucb
 𰷮	uucb
@@ -113361,9 +113352,16 @@
 𲞗	uufu
 罪	uufw
 𮫉	uufw
+𫨀	uuga
+𬋺	uugc
+𳏾	uugd
 㼌	uugg
+爵	uugk
 𡻍	uugk
 𡻻	uugk
+爵	uugk
+爵	uugk
+𫸤	uugs
 𱛘	uugs
 𲝋	uugs
 𭗷	uugt
@@ -113374,6 +113372,8 @@
 罛	uugw
 𪩼	uugw
 𭗛	uugw
+𨟧	uugy
+𫑲	uugy
 𫧰	uuhb
 𩯴	uuhg
 虤	uuhh
@@ -114766,10 +114766,8 @@
 𥒮	vbmm
 𩷳	vbmm
 码	vbms
-鯽	vbna
 𪿗	vbnb
 𫙖	vbnb
-𩽙	vbnf
 𩺎	vbnk
 䃗	vbnm
 𫚇	vbnq
@@ -114778,7 +114776,6 @@
 䱚	vbns
 碌	vbns
 碌	vbns
-厩	vbnw
 𱇋	vbob
 𲴡	vbob
 𩻸	vboc
@@ -115421,10 +115418,10 @@
 𠪶	vfxq
 邳	vfyf
 𲴔	vgag
+鯽	vgaj
 𥔝	vgaj
 𩶹	vgam
 𭻐	vgam
-䲙	vgba
 𰧤	vgba
 䃀	vgbc
 𩸸	vgbc
@@ -115449,12 +115446,14 @@
 硪	vgfk
 𠩙	vgfk
 𩷦	vgfk
+䲙	vgga
 𠨺	vggi
 𥐭	vggi
 𩵱	vggi
 𬵾	vggn
 硍	vggs
 𮫷	vggv
+𩽙	vghf
 𠪩	vghh
 𥗁	vghj
 𤴆	vghk
@@ -115462,6 +115461,7 @@
 㕓	vght
 𱇅	vght
 𩻤	vghv
+厩	vghw
 䲘	vgib
 𲴕	vgib
 𬵚	vgir
@@ -116005,7 +116005,6 @@
 𱍤	vjfp
 鿩	vjfs
 𥒋	vjfs
-🀪	vjfs
 𱇁	vjfv
 𭆴	vjgb
 㕆	vjgh
@@ -116124,6 +116123,7 @@
 𥑷	vjre
 百	vjrh
 𠷡	vjrh
+🀪	vjrh
 𢙯	vjri
 𢚧	vjri
 𤾋	vjrm
@@ -116230,8 +116230,6 @@
 𣕥	vkam
 𥐙	vkas
 𩵒	vkav
-𮬐	vkbn
-䱶	vkby
 鯜	vkcn
 𮀨	vkcn
 𬑺	vkcs
@@ -116261,6 +116259,7 @@
 硠	vkgg
 𩷕	vkgg
 𬏊	vkgg
+𮬐	vkgg
 𰣑	vkgj
 𩼖	vkgk
 鱊	vkgl
@@ -116275,6 +116274,7 @@
 䃣	vkgw
 䃣	vkgw
 鱜	vkgy
+䱶	vkgy
 𬫀	vkhh
 𩽸	vkhl
 墅	vkht
@@ -117319,7 +117319,6 @@
 𩶼	vsam
 𩺕	vsat
 𩹩	vsau
-𩼚	vsba
 𩹋	vsbg
 䃓	vsch
 碤	vsco
@@ -117364,6 +117363,7 @@
 𥕧	vsfu
 𮁆	vsfu
 𨞋	vsfy
+𩼚	vsga
 𭻮	vsgl
 𥓹	vsgo
 𪿾	vsgv
@@ -118857,15 +118857,11 @@
 𡲡	wbme
 𩤗	wbmm
 𬁳	wbmy
-䐚	wbna
-𠨞	wbna
 胒	wbnb
-匓	wbne
 脲	wbns
 騄	wbns
 䐂	wbns
 𱖂	wbns
-𠣹	wbnw
 圞	wboa
 𭅄	wbob
 𘯃	wbob
@@ -119465,6 +119461,8 @@
 𣧚	wfxx
 𰗌	wfyk
 ㍔	wfyw
+䐚	wgaj
+𠨞	wgaj
 脌	wgak
 𬚹	wgam
 肢	wgbo
@@ -119479,6 +119477,7 @@
 𡴕	wgem
 𩣛	wgen
 𫧅	wgeo
+匓	wges
 𱼣	wget
 騀	wgfk
 𬚾	wgfk
@@ -119491,6 +119490,7 @@
 𡴦	wghc
 𠤄	wghq
 𦢓	wght
+𠣹	wghw
 𣎚	wghy
 𧡠	wgij
 䭴	wgim
@@ -120093,7 +120093,6 @@
 𡬰	wkbk
 𤿈	wkbp
 𦛫	wkbw
-𬛋	wkby
 𡜸	wkcc
 𪆌	wkcd
 𡮧	wkci
@@ -120156,6 +120155,7 @@
 𩥎	wkgs
 𩤝	wkgt
 膷	wkgy
+𬛋	wkgy
 𱼔	wkhc
 肹	wkhk
 𡆽	wkhk
@@ -121898,6 +121898,7 @@
 ㆕	wwrw
 ㈣	wwrw
 ㊃	wwrw
+🀊	wwrw
 𛁇	wwrw
 𭂽	wwsa
 𢽅	wwsb
@@ -121910,7 +121911,6 @@
 𥝄	wwsn
 𦬧	wwso
 𪞷	wwso
-🀊	wwsv
 胸	wwsw
 𦱹	wwsw
 𢾍	wwtb
@@ -122364,8 +122364,6 @@
 𧚟	xbmm
 𬸅	xbmn
 䘞	xbmy
-鲫	xbna
-𡖖	xbna
 䘦	xbnb
 𲨃	xbnn
 𧞽	xbno
@@ -122375,8 +122373,6 @@
 䘵	xbns
 𮬠	xbns
 䘵	xbns
-𧜳	xbnw
-𡖥	xbny
 䢣	xboc
 𲁁	xboc
 𧟗	xbog
@@ -122812,6 +122808,8 @@
 ㌙	xfyi
 ㌘	xfyn
 𳎣	xgaf
+鲫	xgaj
+𡖖	xgaj
 𧙤	xgam
 褄	xgbc
 𢎯	xgbg
@@ -122840,6 +122838,7 @@
 𮖴	xghk
 𧞾	xghq
 𬡶	xght
+𧜳	xghw
 鳤	xgib
 𘲀	xgim
 袮	xgiv
@@ -122926,6 +122925,7 @@
 𧛻	xgxo
 𬨕	xgxp
 𬲰	xgyc
+𡖥	xgyf
 䢀	xgyi
 𱃱	xgyi
 农	xgym
@@ -123062,6 +123062,7 @@
 𫠠	xii
 ㈦	xii
 ㊆	xii
+🀍	xii
 	xii
 	xii
 	xii
@@ -123108,7 +123109,6 @@
 𧞼	xisg
 䙭	xisp
 𲋧	xiss
-🀍	xisv
 𧟑	xisw
 𮷯	xitj
 𮖫	xiuj
@@ -123283,9 +123283,6 @@
 𭵈	xkbi
 𬻑	xkbk
 𬻵	xkbu
-𬡨	xkbw
-𧜛	xkby
-𪤼	xkby
 𡚮	xkcn
 𡚰	xkcn
 𧚪	xkcn
@@ -123323,6 +123320,9 @@
 𧝃	xkgl
 𫚪	xkgl
 𲀦	xkgp
+𬡨	xkgw
+𧜛	xkgy
+𪤼	xkgy
 𭁹	xkhh
 𢆩	xkhn
 𦊅	xkhq
@@ -124857,7 +124857,6 @@
 𲚺	xxaj
 𡖯	xxal
 𭐽	xxal
-𭅽	xxba
 𮯛	xxbe
 𢏃	xxbg
 𡌪	xxbh
@@ -124889,6 +124888,7 @@
 𲚷	xxew
 𭐹	xxfx
 𡖭	xxga
+𭅽	xxga
 㩼	xxgb
 𡖽	xxge
 𫯚	xxgg
@@ -126482,6 +126482,7 @@
 𘠄	yii
 𘠅	yii
 𘲶	yii
+	yii
 	yii
 	yii
 	yii
@@ -126622,6 +126623,8 @@
 궽	yjfb
 陽	yjfc
 ⚊	yjfc
+⚌	yjfc
+⚎	yjfc
 권	yjfe
 궨	yjfe
 궖	yjff
@@ -126930,7 +126933,6 @@
 𗘣	ykbk
 𨸽	ykbo
 𗗘	ykbs
-𱎋	ykby
 𗗖	ykcf
 𗗡	ykcf
 𘧕	ykcs
@@ -126973,6 +126975,7 @@
 𘥖	ykgs
 𮢳	ykgt
 𘇼	ykgu
+𱎋	ykgy
 𗘠	ykil
 隌	ykjr
 障	ykjz
@@ -127459,6 +127462,8 @@
 𲉝	yrkl
 陰	yrkn
 ⚋	yrkn
+⚍	yrkn
+⚏	yrkn
 𬯖	yrkp
 䧔	yrkr
 𱀛	yrls
@@ -129316,6 +129321,7 @@
 ㈠	fi
 ㊀	fi
 🈩	fi
+🀇	fi
 ㆪ	fi
 ー	fi
 ᅳ	fi
@@ -129343,6 +129349,7 @@
 艮	gg
 ⾉	gg
 ☶	gg
+	gg
 黑	gh
 ⿊	gh
 十	gi
@@ -129457,6 +129464,7 @@
 ㋥	ir
 🈔	ir
 🉂	ir
+🀈	ir
 こ	ir
 ゛	ir
 ニ	ir
@@ -129566,6 +129574,7 @@
 ㈧	ka
 ㊇	ka
 ㋩	ka
+🀎	ka
 ㆿ	ka
 ハ	ka
 𛂞	ka
@@ -129594,7 +129603,9 @@
 ㋬	kd
 へ	kd
 ヘ	kd
+・	kd
 ㆍ	kd
+·	kd
 了	ke
 𠄏	ke
 了	ke
@@ -129646,6 +129657,7 @@
 ㋯	la
 🈪	la
 🉁	la
+🀉	la
 ミ	la
 𛃉	la
 川	lc
@@ -129756,6 +129768,7 @@
 ヒ	nb
 𘠢	nb
 	nb
+	nb
 长	nc
 ⻓	nc
 𘬷	nc
@@ -129920,6 +129933,7 @@
 九	rj
 ㈨	rj
 ㊈	rj
+🀏	rj
 𛀭	rj
 𘯼	rj
 咼	rk
@@ -130199,6 +130213,7 @@
 𫠠	xi
 ㈦	xi
 ㊆	xi
+🀍	xi
 	xi
 	xi
 	xi
@@ -130283,6 +130298,7 @@
 𘠄	yi
 𘠅	yi
 𘲶	yi
+	yi
 	yi
 	yi
 	yi
@@ -130311,8 +130327,8 @@
 㰇	ahuk
 𭬿	aibi
 㮿	ajsa
-🀌	akat
 樴	akjk
+🀌	aksv
 𣡵	aoba
 𣡩	aobb
 𬽠	aobb
@@ -131087,7 +131103,6 @@
 𰔈	fhlk
 㩥	fhuk
 𫾠	fibi
-🀇	fii
 𢹊	fikk
 𢳂	fjsa
 𢴠	fkjk
@@ -132283,6 +132298,7 @@
 직	fruy
 짂	fruy
 짉	fruy
+🀇	fsvv
 벚	fwfr
 벛	fwfr
 벶	fwfr
@@ -132544,7 +132560,9 @@
 𤮶	ibir
 夑	ibit
 𭔡	ighk
+⚎	igyc
 ⚎	igyj
+⚍	igyn
 ⚍	igyw
 㦱	ihkg
 𰄂	ihlk
@@ -132599,7 +132617,7 @@
 𫴥	iobo
 𤓩	iobt
 爔	iqmk
-🀈	irr
+🀈	isvv
 𲵤	iwal
 ㈾	ixcb
 ㊮	ixcb
@@ -132640,7 +132658,6 @@
 𬥭	jskk
 㬇	jxco
 𪛜	jyix
-🀎	kaa
 𩟙	khek
 𬘹	khxk
 戠	kjkg
@@ -132653,8 +132670,8 @@
 鸶	kkmn
 ☱	klwr
 𬔣	kraj
+🀎	ksvv
 🈡	ktir
-🀉	laa
 𱅸	laul
 𲘐	lbkk
 믖	lffr
@@ -132777,6 +132794,7 @@
 ㊜	locs
 𭌺	lonj
 𠵴	lraj
+🀉	lsvv
 𫬾	lthk
 맞	lufr
 맟	lufr
@@ -132935,8 +132953,11 @@
 룇	ojur
 륒	ojur
 륓	ojur
+☯	okaf
 織	okjk
+⚌	okyc
 ⚌	okyj
+⚏	okyn
 ⚏	okyw
 륮	olfr
 륯	olfr
@@ -133019,7 +133040,6 @@
 쉋	rjfr
 쉦	rjfr
 쉧	rjfr
-🀏	rjj
 𩪖	rjsa
 솾	rjur
 솿	rjur
@@ -133077,6 +133097,7 @@
 쑟	rrur
 씾	rrur
 씿	rrur
+🀏	rsvv
 샂	rufr
 샃	rufr
 샺	rufr
@@ -133092,6 +133113,7 @@
 𰱪	sasg
 𧆂	sbhk
 𧄹	sbkk
+𦸻	sgvb
 𮐅	shak
 𬞛	shbk
 䕙	shek
@@ -133168,7 +133190,7 @@
 𩻅	vhuk
 𩽅	vhuk
 𲴝	vibi
-🀪	vjrh
+🀪	vjfr
 𲴀	vjsa
 𩺷	vjsa
 𲴡	vobb
@@ -133198,7 +133220,7 @@
 🉇	wpsy
 𣎮	wqmk
 𡇳	wraj
-🀊	wwrw
+🀊	wwsv
 𧟖	xghk
 𧞛	xhek
 𧛷	xhlk
@@ -133206,13 +133228,13 @@
 𧞬	xhuk
 𬶸	xhuk
 襶	xhvk
-🀍	xii
 🩤	xjj
 🩫	xjj
 襅	xjsa
 𧝊	xkjk
 𧟗	xobg
 𳎛	xraj
+🀍	xsvv
 𨼛	yauj
 긎	yffr
 긏	yffr
@@ -133649,6 +133671,7 @@
 ㈠	fi
 ㊀	fi
 🈩	fi
+🀇	fi
 ㆪ	fi
 ー	fi
 ᅳ	fi
@@ -133676,6 +133699,7 @@
 艮	gg
 ⾉	gg
 ☶	gg
+	gg
 黑	gh
 ⿊	gh
 十	gi
@@ -133790,6 +133814,7 @@
 ㋥	ir
 🈔	ir
 🉂	ir
+🀈	ir
 こ	ir
 ゛	ir
 ニ	ir
@@ -133899,6 +133924,7 @@
 ㈧	ka
 ㊇	ka
 ㋩	ka
+🀎	ka
 ㆿ	ka
 ハ	ka
 𛂞	ka
@@ -133927,7 +133953,9 @@
 ㋬	kd
 へ	kd
 ヘ	kd
+・	kd
 ㆍ	kd
+·	kd
 了	ke
 𠄏	ke
 了	ke
@@ -133979,6 +134007,7 @@
 ㋯	la
 🈪	la
 🉁	la
+🀉	la
 ミ	la
 𛃉	la
 川	lc
@@ -134089,6 +134118,7 @@
 ヒ	nb
 𘠢	nb
 	nb
+	nb
 长	nc
 ⻓	nc
 𘬷	nc
@@ -134253,6 +134283,7 @@
 九	rj
 ㈨	rj
 ㊈	rj
+🀏	rj
 𛀭	rj
 𘯼	rj
 咼	rk
@@ -134532,6 +134563,7 @@
 𫠠	xi
 ㈦	xi
 ㊆	xi
+🀍	xi
 	xi
 	xi
 	xi
@@ -134616,6 +134648,7 @@
 𘠄	yi
 𘠅	yi
 𘲶	yi
+	yi
 	yi
 	yi
 	yi
@@ -134688,7 +134721,6 @@
 来	fqm
 年	gak
 每	gem
-午	ggi
 及	gkd
 笑	gmy
 么	gna
@@ -135093,10 +135125,12 @@
 万	fwb
 歹	fxx
 篙	gag
+即	gaj
 朶	gam
 笃	gbm
 支	gbo
 笛	gdo
+午	ggi
 默	ghq
 垦	ght
 竺	gir
@@ -135917,6 +135951,7 @@
 助	jsl
 祺	juq
 良	kgg
+卿	kgg
 乡	kgp
 矛	kgp
 父	ksi
@@ -136018,36 +136053,36 @@ V鍵字根 = 厂甲石田不禺魚	/xcv
 W鍵字根 = 凵馬儿囗月	/xcw
 X鍵字根 = 七车冖欠饣鱼夕衤	/xcx
 Y鍵字根 = 阝飛乙	/xcy
-+ g = 高	/xca
-+ j = 卩㔾	/xca
-+ k = 	/xca
++ g = 高	/xca
++ j = 㔾卩	/xca
++ k = 	/xca
 + l = 來	/xca
 + m = 朩木	/xca
 + t = 亠	/xca
 + c = 丑	/xcb
 + d = 隶	/xcb
 + g = 弓	/xcb
-+ j = 肀彐	/xcb
++ j = 彐肀	/xcb
 + m = 马	/xcb
-+ o = 又癶スマ	/xcb
++ o = 癶又	/xcb
 + p = 皮	/xcb
-+ s = 尸	/xcb
++ s = 尸	/xcb
 + w = 	/xcb
 + y = 言	/xcb
 + b = 贝	/xcc
 + c = 彳	/xcc
 + e = 冊	/xcc
 + j = 见	/xcc
-+ k = 冂	/xcc
++ k = 冂	/xcc
 + n = 女	/xcc
-+ p = 彡	/xcc
-+ v = 雨	/xcc
++ p = 彡	/xcc
++ v = 雨	/xcc
 + y = 页	/xcc
 + b = 白	/xcd
-+ c = 叀車	/xcd
-+ d = 电	/xcd
++ c = 車叀	/xcd
++ d = 电	/xcd
 + f = 丰	/xcd
-+ g = 甶鬼	/xcd
++ g = 鬼甶	/xcd
 + h = 戶	/xcd
 + i = 臼⺽	/xcd
 + j = ⺁斤	/xcd
@@ -136055,50 +136090,50 @@ Y鍵字根 = 阝飛乙	/xcy
 + n = 鳥	/xcd
 + o = 由	/xcd
 + p = 片	/xcd
-+ q = 曲爿	/xcd
++ q = 爿曲	/xcd
 + s = 申	/xcd
 + u = 鬥	/xcd
 + w = 烏	/xcd
-+ x = 向	/xcd
++ x = 向	/xcd
 + y = 讠	/xcd
 + z = 至	/xcd
 + f = 風	/xce
 + h = 隹	/xce
 + i = 乚	/xce
 + j = 几	/xce
-+ m = 彑母	/xce
++ m = 母彑	/xce
 + r = 亻	/xce
 + s = 殳	/xce
 + i = 一	/xcf
 + m = 末	/xcf
-+ o = 尤尢	/xcf
-+ s = 龵手扌	/xcf
++ o = 尢尤	/xcf
++ s = 手龵扌	/xcf
 + w = 未	/xcf
-+ g = 艮	/xcg
++ g = 艮	/xcg
 + h = 黑	/xcg
 + i = 十	/xcg
 + n = 乃	/xcg
 + p = 丿	/xcg
 + q = 气	/xcg
 + w = 	/xcg
-+ y = 廴	/xcg
-+ z = 竹⺮	/xcg
++ y = 廴	/xcg
++ z = 竹⺮	/xcg
 + a = 牙	/xch
-+ c = 臣	/xch
++ c = 臣	/xch
 + f = 匚	/xch
 + h = 戸户	/xch
-+ k = 丂	/xch
++ k = 丂	/xch
 + q = 犭犬	/xch
-+ s = 龶士	/xch
++ s = 士龶	/xch
 + t = 耂土	/xch
 + z = 走壴	/xch
 + b = 灬	/xci
 + c = 亍	/xci
 + h = 火	/xci
 + m = 宀	/xci
-+ r = 二冫⺀	/xci
-+ s = 尚	/xci
-+ v = ⺌小	/xci
++ r = ⺀冫二	/xci
++ s = 尚	/xci
++ v = 小⺌	/xci
 + x = 穴	/xci
 + b = 貝	/xcj
 + d = 丁	/xcj
@@ -136109,66 +136144,66 @@ Y鍵字根 = 阝飛乙	/xcy
 + j = 見	/xcj
 + m = 目	/xcj
 + q = 且	/xcj
-+ r = 日	/xcj
-+ s = 示	/xcj
-+ v = 丄上	/xcj
++ r = 日	/xcj
++ s = 示礻	/xcj
++ v = 丄上	/xcj
 + w = 王	/xcj
 + x = 下丅	/xcj
 + y = 曰	/xcj
 + z = 早	/xcj
-+ a = 八	/xck
-+ c = 寸	/xck
-+ d = 乀丶	/xck
++ a = 八	/xck
++ c = 寸	/xck
++ d = 丶乀	/xck
 + e = 了	/xck
 + g = 戈	/xck
 + i = 弋	/xck
 + j = 纟	/xck
 + l = 立	/xck
-+ m = 卯	/xck
++ m = 卯	/xck
 + r = 入	/xck
-+ s = 食	/xck
++ s = 食飠	/xck
 + v = 予	/xck
 + w = 戊	/xck
 + x = 辛	/xck
 + z = 子	/xck
 + a = 三	/xcl
-+ c = 巛川巜	/xcl
++ c = 川巜巛	/xcl
 + e = 耳	/xcl
 + j = 丌	/xcl
 + l = 〇	/xcl
-+ s = 舌	/xcl
++ s = 舌	/xcl
 + v = 口	/xcl
 + w = 兀	/xcl
 + z = 正	/xcl
 + a = 麻	/xcm
 + b = 疒	/xcm
 + c = 辰	/xcm
-+ d = 刀刂	/xcm
++ d = 刂刀	/xcm
 + g = 广	/xcm
 + h = 禾	/xcm
-+ l = 鹿	/xcm
++ l = 鹿	/xcm
 + m = 毛	/xcm
 + n = 鸟	/xcm
-+ q = 千	/xcm
++ q = 千	/xcm
 + r = 壬	/xcm
 + w = 乌	/xcm
 + y = 夭	/xcm
 + z = 豸	/xcm
-+ a = 幺厶	/xcn
-+ b = 匕	/xcn
++ a = 幺厶	/xcn
++ b = 匕	/xcn
 + c = 长	/xcn
 + f = 甫	/xcn
 + g = 干	/xcn
-+ s = ⺍水氵	/xcn
++ s = 水⺍氺氵	/xcn
 + b = 巴	/xco
-+ c = 辶⻍	/xco
++ c = ⻍辶	/xco
 + d = 大	/xco
 + e = 也	/xco
 + f = 夫	/xco
 + i = 已	/xco
-+ j = 己钅	/xco
++ j = 钅己	/xco
 + m = 乜	/xco
-+ s = 巳糸	/xco
++ s = 糸糹巳	/xco
 + z = 之	/xco
 + c = 齒	/xcp
 + g = 工	/xcp
@@ -136177,17 +136212,17 @@ Y鍵字根 = 阝飛乙	/xcy
 + s = 生	/xcp
 + x = 西	/xcp
 + y = 酉	/xcp
-+ z = 足	/xcp
++ z = 足𧾷	/xcp
 + c = 虫	/xcq
 + i = 自	/xcq
-+ k = 丷䒑	/xcq
++ k = 䒑丷	/xcq
 + m = 米	/xcq
 + q = 丬	/xcq
 + s = 身	/xcq
-+ y = 羊⺷	/xcq
++ y = ⺷羊⺶	/xcq
 + e = 人	/xcr
 + g = 骨	/xcr
-+ h = 合	/xcr
++ h = 合	/xcr
 + i = 心	/xcr
 + j = 九	/xcr
 + k = 咼冎	/xcr
@@ -136198,66 +136233,66 @@ Y鍵字根 = 阝飛乙	/xcy
 + i = 乂世	/xcs
 + l = 力	/xcs
 + m = 面	/xcs
-+ o = 廾艹卄	/xcs
++ o = 艹廾卄	/xcs
 + r = 而	/xcs
-+ s = 卌卅	/xcs
++ s = 卅卌	/xcs
 + y = 用	/xcs
 + e = 文	/xct
 + f = 方	/xct
 + h = 亥	/xct
-+ i = 亦	/xct
++ i = 亦	/xct
 + j = 金	/xct
 + m = 门	/xct
-+ s = 豕	/xct
++ s = 豕	/xct
 + u = 夊	/xct
-+ w = 亡	/xct
-+ b = ⺊卜髟	/xcu
++ w = 亡	/xct
++ b = ⺊髟卜	/xcu
 + c = 镸長	/xcu
 + e = 业	/xcu
 + f = 非	/xcu
 + g = 瓜	/xcu
-+ h = 虍虎	/xcu
++ h = 虍虎	/xcu
 + j = 巾	/xcu
 + l = 鹵	/xcu
 + m = 皿	/xcu
 + o = 舟	/xcu
 + q = 其	/xcu
-+ s = 〣〢丨山	/xcu
++ s = 丨〣〢山	/xcu
 + w = 罒	/xcu
 + z = 爪	/xcu
-+ h = 丆厂	/xcv
++ h = 厂丆	/xcv
 + j = 甲	/xcv
 + l = 里	/xcv
 + s = 石	/xcv
 + t = 田	/xcv
 + u = 不	/xcv
-+ v = 魚禺	/xcv
++ v = 禺魚	/xcv
 + x = 习	/xcv
-+ b = 勹	/xcw
++ b = 勹	/xcw
 + c = 屮	/xcw
-+ j = 丱丩	/xcw
-+ k = ㄩ	/xcw
++ j = 丩丱	/xcw
++ k = 凵	/xcw
 + m = 馬	/xcw
-+ r = 儿	/xcw
++ r = 儿	/xcw
 + w = 囗	/xcw
-+ y = 月	/xcw
-+ i = 七	/xcx
++ y = 月⺝	/xcw
++ i = 七	/xcx
 + j = 车	/xcx
 + m = ⺈冖	/xcx
 + q = 欠	/xcx
 + s = 饣	/xcx
-+ v = 鱼	/xcx
++ v = 鱼	/xcx
 + x = 夕	/xcx
 + y = 衤	/xcx
-+ f = 阝飛	/xcy
-+ i = 乙亅	/xcy
++ f = 飛阝	/xcy
++ i = 乛乙亅	/xcy
 # 词码表中定义的词组，优先级在官方词库之前
 # 长度在编码规则 encoder/rules 定义范围内的词组，可省略编码。
 # 重新部署时会按规则自动编码，能以 tecc 打出「自动编码词组」。
 # 自定义编码不必遵循编码规则，词条也不必是汉字。
 # 宇浩	ofiw
 打字	fjik
-即使	bnef
+即使	gaef
 不要	vupc
 张开	bnfs
 字根	ikag
@@ -136473,7 +136508,7 @@ Y鍵字根 = 阝飛乙	/xcy
 展开	bsfs
 操作	fleg
 努力	cbsl
-即将	bnqx
+即将	gaqx
 方向	tfdx
 处理	tujv
 给予	krkv
@@ -136529,7 +136564,7 @@ Y鍵字根 = 阝飛乙	/xcy
 知道	jlqq
 突然	ihwh
 喜欢	hlbx
-立即	klbn
+立即	klga
 于是	fkjf
 事情	klrh
 经历	kbvs
@@ -136683,7 +136718,7 @@ Y鍵字根 = 阝飛乙	/xcy
 立刻	kltm
 回来	wlfq
 爱情	uxrh
-大概	odab
+大概	odag
 熟悉	akgq
 必要	rgpc
 人生	reps
@@ -136692,7 +136727,7 @@ Y鍵字根 = 阝飛乙	/xcy
 秘密	mrir
 家族	ittg
 以为	ekks
-既然	bnwh
+既然	ghwh
 考试	hhdk
 印象	kfxl
 知识	jldl
@@ -137314,7 +137349,7 @@ Y鍵字根 = 阝飛乙	/xcy
 时代	jkek
 有所	ewdd
 房地产	hhkg
-概念	abrk
+概念	agrk
 出席	wwms
 高达	agoo
 合同	rhcf
@@ -137912,7 +137947,7 @@ Y鍵字根 = 阝飛乙	/xcy
 周边	whso
 监测	ugnc
 天气	fogq
-即便	bnef
+即便	gaef
 白银	dbog
 英镑	scoa
 财政	cklt
@@ -137999,7 +138034,7 @@ Y鍵字根 = 阝飛乙	/xcy
 平时	nqjk
 留下	kvjx
 整理	aljv
-概率	aban
+概率	agan
 高层	agbi
 军事	xxkl
 个别	ruls
@@ -138168,7 +138203,7 @@ Y鍵字根 = 阝飛乙	/xcy
 替补	ooxu
 额度	itms
 东部	xikl
-伊朗	ebkb
+伊朗	ebkg
 传真	eigj
 服务业	wtue
 有助于	ejfk
@@ -138405,7 +138440,7 @@ Y鍵字根 = 阝飛乙	/xcy
 新建	kaba
 贵州	ljnl
 就此	aipn
-随即	yebn
+随即	yega
 租赁	mjem
 考察	hhiw
 军队	xxyr
@@ -139743,7 +139778,7 @@ Y鍵字根 = 阝飛乙	/xcy
 表述	hgak
 实质	iidg
 倾斜	enrf
-感慨	kfrb
+感慨	kfrg
 强力	blsl
 高中	aglu
 外地	xuho
@@ -139923,7 +139958,7 @@ Y鍵字根 = 阝飛乙	/xcy
 乳房	ukht
 印证	kfdl
 诊断	drqe
-既是	bnjf
+既是	ghjf
 海关	ngqo
 行列	cifx
 模仿	aset
@@ -140361,7 +140396,7 @@ Y鍵字根 = 阝飛乙	/xcy
 水电	nsdd
 遗体	ljea
 无力	ffsl
-明朗	jwkb
+明朗	jwkg
 领土	rkht
 呼声	lghb
 耕地	dkho
@@ -141533,7 +141568,7 @@ Y鍵字根 = 阝飛乙	/xcy
 大手笔	ofgm
 往日	ckjr
 瘫痪	mbmx
-概括	abfl
+概括	agfl
 打动	fjin
 江南	npgc
 否定	vlif
@@ -141588,7 +141623,7 @@ Y鍵字根 = 阝飛乙	/xcy
 挽回	fxwl
 大叔	odji
 转战	xiul
-概述	abak
+概述	agak
 只得	lkcj
 讲座	dimr
 屡次	bqix
@@ -141795,7 +141830,7 @@ Y鍵字根 = 阝飛乙	/xcy
 普查	quaj
 忽略	wcvt
 赞赏	pwic
-概况	abil
+概况	agil
 急速	xbal
 大肆	odub
 投标	feaj
@@ -141804,7 +141839,7 @@ Y鍵字根 = 阝飛乙	/xcy
 生产能力	pkns
 高昂	agjk
 定性	ifrp
-当即	ibbn
+当即	ibga
 摇滚	funa
 帽子	uckz
 驾驭	slbb
@@ -142255,7 +142290,7 @@ Y鍵字根 = 阝飛乙	/xcy
 是非	jfuf
 晋升	fugs
 核定	atif
-硬朗	vfkb
+硬朗	vfkg
 脑袋	wtek
 本部	afkl
 通告	bspl
@@ -142312,7 +142347,7 @@ Y鍵字根 = 阝飛乙	/xcy
 气味	gqlf
 恋人	trre
 手势	fsfr
-一如既往	fcbc
+一如既往	fcgc
 剖析	klad
 卷土重来	qhmf
 切断	xmqe
@@ -143103,7 +143138,7 @@ Y鍵字根 = 阝飛乙	/xcy
 紧锣密鼓	uoih
 乐园	kiwf
 夏威夷	vkob
-既定	bnif
+既定	ghif
 自然资源	qwin
 神情	jdrh
 看上	fjjv
@@ -143377,7 +143412,7 @@ Y鍵字根 = 阝飛乙	/xcy
 对流	bkna
 火势	ihfr
 列出	fxww
-一触即发	fxbw
+一触即发	fxgw
 烟花	iwse
 绵阳	kdyj
 击穿	awih
@@ -143541,7 +143576,7 @@ Y鍵字根 = 阝飛乙	/xcy
 门神	tmjd
 一早	fijz
 序列	mkfx
-即刻	bntm
+即刻	gatm
 丧生	gqps
 之类	ozqo
 索取	gxlb
@@ -144178,7 +144213,7 @@ Y鍵字根 = 阝飛乙	/xcy
 停业	eaue
 南极	gcag
 担负	fjxc
-女郎	cnkb
+女郎	cnkg
 长白山	ndus
 赶回	hnwl
 篡改	gjot
@@ -144734,7 +144769,7 @@ Y鍵字根 = 阝飛乙	/xcy
 一席之地	fmoh
 低廉	ekmq
 辞退	lkgo
-新郎	kakb
+新郎	kakg
 路灯	ptij
 能手	nwfs
 迫近	dodo
@@ -144817,7 +144852,7 @@ Y鍵字根 = 阝飛乙	/xcy
 敲诈勒索	adsg
 闹事	takl
 握住	fbek
-国务卿	wtkb
+国务卿	wtkg
 太平	oknq
 分段	kmel
 肢体	wgea
@@ -145730,7 +145765,7 @@ Y鍵字根 = 阝飛乙	/xcy
 人品	rell
 群岛	bgmu
 论调	drdw
-慷慨	rmrb
+慷慨	rmrg
 不得而知	vcsj
 渐进	nxik
 笼子	gfkz
@@ -146494,7 +146529,7 @@ Y鍵字根 = 阝飛乙	/xcy
 木头	amio
 谋生	dsps
 奶油	cgnd
-开朗	fskb
+开朗	fskg
 逃亡	witw
 瞬息万变	jqft
 逃犯	wiha
@@ -146522,7 +146557,7 @@ Y鍵字根 = 阝飛乙	/xcy
 不知所措	vjdf
 义无反顾	kfdv
 化验	enbr
-灌溉	nsnb
+灌溉	nsng
 湿润	njnt
 乖乖	mqmq
 粉红	qkkp
@@ -146987,7 +147022,7 @@ Y鍵字根 = 阝飛乙	/xcy
 床单	maqj
 泪流满面	nnns
 盾牌	dgdd
-愤慨	rgrb
+愤慨	rgrg
 波浪	nbnk
 双管齐下	bgtj
 能干	nwng
@@ -147092,7 +147127,7 @@ Y鍵字根 = 阝飛乙	/xcy
 听话	lddl
 嫂子	cdkz
 长治久安	nnxi
-一拍即合	ffbr
+一拍即合	ffgr
 师弟	qfqb
 天壤之别	fhol
 重工业	mpue
@@ -147545,7 +147580,7 @@ Y鍵字根 = 阝飛乙	/xcy
 迟疑	bknj
 燃眉之急	ibox
 离别	twls
-一概	fiab
+一概	fiag
 威信	kfeb
 痴情	mjrh
 拜托	fffg
@@ -148762,7 +148797,7 @@ Y鍵字根 = 阝飛乙	/xcy
 摇摇欲坠	ffky
 千差万别	mqfl
 繁衍	gecn
-即日	bnjr
+即日	gajr
 产房	kght
 应接不暇	mfvj
 电磁波	dvnb
@@ -149145,7 +149180,7 @@ Y鍵字根 = 阝飛乙	/xcy
 落叶	snlg
 天文	fote
 眨眼	jgjg
-朗诵	kbdb
+朗诵	kgdb
 不顾一切	vvfx
 写意	xhkj
 爱国主义	uwkk
@@ -149471,7 +149506,7 @@ Y鍵字根 = 阝飛乙	/xcy
 体魄	eadd
 赤道	hkqq
 省略	igvt
-慨叹	rblb
+慨叹	rglb
 狭隘	hoyq
 装运	qhin
 扫地出门	fhwt
@@ -150426,7 +150461,7 @@ Y鍵字根 = 阝飛乙	/xcy
 晴天霹雳	jfcc
 操练	flkx
 泼冷水	nins
-朗读	kbdg
+朗读	kgdg
 痛哭流涕	mlnn
 载歌载舞	gjgg
 另起炉灶	lhii
@@ -150459,7 +150494,7 @@ Y鍵字根 = 阝飛乙	/xcy
 满心	nsri
 清早	nhjz
 不攻自破	vpqv
-爽朗	oskb
+爽朗	oskg
 光阴	ilyw
 尽善尽美	bqbq
 深入浅出	nknw
@@ -150502,7 +150537,7 @@ Y鍵字根 = 阝飛乙	/xcy
 书桌	yyuj
 肉片	crdp
 孟子	kukz
-稍纵即逝	mkbf
+稍纵即逝	mkgf
 狡辩	hakd
 艰险	bgyr
 同感	cfkf
@@ -150723,7 +150758,7 @@ Y鍵字根 = 阝飛乙	/xcy
 浩劫	nphn
 失传	goei
 估量	ejjf
-气概	gqab
+气概	gqag
 产假	kgeb
 绝症	kxml
 牢房	ipht
@@ -151089,7 +151124,7 @@ Y鍵字根 = 阝飛乙	/xcy
 地牢	hoip
 勤俭	sier
 旅社	tgjh
-晴朗	jhkb
+晴朗	jhkg
 暖流	juna
 成群结队	kbky
 恣意	ixkj
@@ -151760,7 +151795,7 @@ Y鍵字根 = 阝飛乙	/xcy
 革命家	srit
 三番五次	lgfi
 冻死	ixfx
-朗朗	kbkb
+朗朗	kgkg
 韵律	kjcb
 弱智	bijl
 老兄	hnlw
@@ -152479,7 +152514,7 @@ Y鍵字根 = 阝飛乙	/xcy
 游手好闲	nfct
 灵车	bixj
 入木三分	kalk
-若即若离	sbst
+若即若离	sgst
 批改	fnot
 战无不胜	ufvw
 山峦	ustu
@@ -154091,7 +154126,7 @@ Y鍵字根 = 阝飛乙	/xcy
 丧尽天良	gbfk
 凌驾	ihsl
 一笔勾销	fgwo
-既往不咎	bcvt
+既往不咎	gcvt
 触景生情	xjpr
 一刀两断	fmfq
 倾巢出动	elwi
@@ -154232,7 +154267,7 @@ Y鍵字根 = 阝飛乙	/xcy
 五花大绑	fsok
 群魔乱舞	bmlg
 狼狈为奸	hhkc
-概论	abdr
+概论	agdr
 高风亮节	aeas
 灰心丧气	ergg
 逐字逐句	titw
@@ -155173,7 +155208,7 @@ Y鍵字根 = 阝飛乙	/xcy
 老成持重	hkfm
 凶相毕露	sanc
 遥遥相对	uuab
-慨然	rbwh
+慨然	rgwh
 不求甚解	vfux
 愚昧无知	vjfj
 闭关自守	tqqi
@@ -155777,7 +155812,7 @@ Y鍵字根 = 阝飛乙	/xcy
 已有	oiew
 较高	xaag
 楼市	aqau
-即可	bnjl
+即可	gajl
 发布会	weri
 搜狐	fdhu
 米兰	qmqi
@@ -156135,7 +156170,7 @@ Y鍵字根 = 阝飛乙	/xcy
 会不会	rvri
 有权	ewab
 快递	rbqb
-既有	bnew
+既有	ghew
 核电	atdd
 同业	cfue
 涉案	npic
@@ -156282,7 +156317,7 @@ Y鍵字根 = 阝飛乙	/xcy
 奢侈品	oell
 期权	uwab
 缴费	kdbk
-在即	eubn
+在即	euga
 彰显	kjju
 召回	mlwl
 快讯	rbdy
@@ -156488,7 +156523,7 @@ Y鍵字根 = 阝飛乙	/xcy
 预售	kcel
 不算	vugj
 同级	cfkg
-布朗	eukb
+布朗	eukg
 松绑	akkd
 大大	odod
 做客	ejit
@@ -156737,7 +156772,7 @@ Y鍵字根 = 阝飛乙	/xcy
 对冲	bkil
 博客	gnit
 落马	snbm
-既要	bnpc
+既要	ghpc
 权证	abdl
 户型	hhfs
 拍戏	fdbk
@@ -156778,7 +156813,7 @@ Y鍵字根 = 阝飛乙	/xcy
 正值	lzeg
 不像	vuex
 互联	felq
-即时	bnjk
+即时	gajk
 参会	nori
 崩盘	uwuu
 报案	faic
@@ -157323,7 +157358,7 @@ Y鍵字根 = 阝飛乙	/xcy
 卖方	gytf
 出访	wwdt
 本应	afmn
-既能	bnnw
+既能	ghnw
 副总	flql
 前端	qwku
 中天	lufo
@@ -159893,7 +159928,7 @@ Y鍵字根 = 阝飛乙	/xcy
 夺走	okhz
 冷库	irmx
 受惠	uxdr
-既往	bnck
+既往	ghck
 世家	siit
 前夜	qwae
 铁定	ogif
@@ -160543,7 +160578,7 @@ Y鍵字根 = 阝飛乙	/xcy
 坐等	rrgh
 广岛	mgmu
 原则性	vcrp
-既得利益	bcmq
+既得利益	gcmq
 工作站	peku
 拍片	fddp
 糖类	qmqo
@@ -161266,7 +161301,7 @@ Y鍵字根 = 阝飛乙	/xcy
 润泽	ntnb
 行骗	cibh
 冰封	inhh
-概要	abpc
+概要	agpc
 走来	hzfq
 隔断	yfqe
 先驱	pwbh
@@ -161659,7 +161694,7 @@ Y鍵字根 = 阝飛乙	/xcy
 综合国力	krws
 太阳镜	oyok
 建安	baic
-旋即	tgbn
+旋即	tgga
 竞逐	klto
 重提	mvfj
 己方	ojtf
@@ -162350,7 +162385,7 @@ Y鍵字根 = 阝飛乙	/xcy
 追杀	dosa
 痛风	mbes
 炫目	iajm
-鲫鱼	xbxv
+鲫鱼	xgxv
 要挟	pcfo
 毕加索	nsgx
 拒收	fhwt
@@ -162873,7 +162908,7 @@ Y鍵字根 = 阝飛乙	/xcy
 踏进	pnik
 叫声	lwhb
 梦中	aalu
-亦即	tibn
+亦即	tiga
 润肤	ntwo
 里根	vlag
 配搭	pofs
@@ -163061,7 +163096,7 @@ Y鍵字根 = 阝飛乙	/xcy
 展览馆	buxi
 遮遮掩掩	mmff
 淋浴	nank
-即兴	bnnk
+即兴	gank
 免遭	xlcj
 绷紧	kwub
 巡洋舰	lnuc
@@ -163540,7 +163575,7 @@ Y鍵字根 = 阝飛乙	/xcy
 尼克松	bjak
 人治	renn
 勘测	uenc
-概算	abgj
+概算	aggj
 硬着头皮	vqib
 爱沙尼亚	unbf
 桔子	ahkz
@@ -164188,7 +164223,7 @@ Y鍵字根 = 阝飛乙	/xcy
 大帝	odaq
 天大	food
 磷肥	vqwo
-伴郎	eqkb
+伴郎	eqkg
 决斗	ibig
 上品	jvll
 落榜	snaa
@@ -164470,7 +164505,7 @@ Y鍵字根 = 阝飛乙	/xcy
 一晃	fiji
 百灵	vjbi
 虾仁	qjei
-迅即	ygbn
+迅即	ygga
 抢注	frnk
 那晚	yajx
 病重	mfmv
@@ -165301,7 +165336,7 @@ Y鍵字根 = 阝飛乙	/xcy
 新派	kand
 昂扬	jkfy
 秘闻	mrtl
-概览	abug
+概览	agug
 臆想	wkaj
 申辩	dskd
 乳酪	ukpt
@@ -166594,7 +166629,7 @@ Y鍵字根 = 阝飛乙	/xcy
 门缝	tmkt
 采煤	uais
 变坏	tbhv
-既成事实	bkki
+既成事实	gkki
 领子	rkkz
 原稿	vdma
 旅费	tgbk
@@ -166641,7 +166676,7 @@ Y鍵字根 = 阝飛乙	/xcy
 水渠	nsnh
 断气	qegq
 脑门	wttm
-郎君	kbbg
+郎君	kgbg
 朗朗上口	kkjl
 水母	nsem
 仿造	etpl
@@ -166756,7 +166791,7 @@ Y鍵字根 = 阝飛乙	/xcy
 本职	afll
 拍手	fdfs
 级差	kgqp
-克朗	jwkb
+克朗	jwkg
 包干	wong
 吃奶	lgcg
 花茶	sesr
@@ -168051,7 +168086,7 @@ Y鍵字根 = 阝飛乙	/xcy
 豹子	mwkz
 结肠	khwy
 报数	faqc
-即位	bnek
+即位	gaek
 胞弟	wwqb
 威名	kfxl
 骑墙	bohg
@@ -170207,7 +170242,7 @@ Y鍵字根 = 阝飛乙	/xcy
 带状	sxqh
 双拐	bbfl
 万箭穿心	fgir
-清朗	nhkb
+清朗	nhkg
 骨气	rggq
 秦淮河	onnj
 切菜	xmsu
@@ -170874,7 +170909,7 @@ Y鍵字根 = 阝飛乙	/xcy
 书稿	yyma
 料子	qikz
 代课	ekdj
-梗概	afab
+梗概	afag
 和稀泥	mmnb
 茶汤	srny
 颜面扫地	ksfh
@@ -171086,7 +171121,7 @@ Y鍵字根 = 阝飛乙	/xcy
 晕船	jxue
 水彩	nsua
 响动	ldin
-牛郎	pnkb
+牛郎	pnkg
 煤灰	isei
 加料	slqi
 果盘	jauu
@@ -171099,7 +171134,7 @@ Y鍵字根 = 阝飛乙	/xcy
 问讯	tldy
 狼狗	hkhw
 炒鱿鱼	ixxv
-非此即彼	upbc
+非此即彼	upgc
 猝然	hawh
 电话亭	ddaj
 卤菜	uwsu
@@ -172452,7 +172487,7 @@ Y鍵字根 = 阝飛乙	/xcy
 修士	euhs
 招财进宝	fcii
 唱词	ljdy
-马厩	bmvb
+马厩	bmvg
 声威	hbkf
 验尸	brbs
 明日黄花	jjss
@@ -174415,7 +174450,7 @@ Y鍵字根 = 阝飛乙	/xcy
 通信员	belc
 幕府	sjme
 小市民	iaox
-郎中	kblu
+郎中	kglu
 微雕	cfwh
 义愤	ksrg
 治罪	nnuu
@@ -174565,7 +174600,7 @@ Y鍵字根 = 阝飛乙	/xcy
 晚育	jxan
 充任	anem
 说白	dqdb
-概貌	abmd
+概貌	agmd
 蟊贼	kgck
 哈哈镜	llok
 四声	wwhb
@@ -174644,7 +174679,7 @@ Y鍵字根 = 阝飛乙	/xcy
 换牙	fxha
 机修	aeeu
 嫉恶如仇	cfce
-即席	bnms
+即席	gams
 胆小怕事	wirk
 轻风	xbes
 隘口	yqlv
@@ -174681,7 +174716,7 @@ Y鍵字根 = 阝飛乙	/xcy
 华里	envl
 蚜虫	qhqc
 眉梢	bjai
-法郎	nhkb
+法郎	nhkg
 寒冬腊月	itww
 商团	aqwk
 南来北往	gfqc
@@ -174801,7 +174836,7 @@ Y鍵字根 = 阝飛乙	/xcy
 似水流年	enng
 语系	dfgo
 事假	kleb
-屎壳郎	bhkb
+屎壳郎	bhkg
 拍案而起	fish
 瑶池	juno
 练习题	kvjf
@@ -175243,7 +175278,7 @@ Y鍵字根 = 阝飛乙	/xcy
 输精管	xqgi
 邯郸学步	sqnp
 破鞋	vbsh
-即令	bnrk
+即令	gark
 邀功	dtps
 唇齿	mlpr
 生辰	psmc
@@ -176167,7 +176202,7 @@ Y鍵字根 = 阝飛乙	/xcy
 笔调	gmdw
 糖块	qmhb
 割地	idho
-概略	abvt
+概略	agvt
 粉饰太平	qxon
 雷电交加	cdas
 珠穆朗玛	jmkj
@@ -177305,7 +177340,7 @@ Y鍵字根 = 阝飛乙	/xcy
 敲边鼓	ashg
 子叶	kzlg
 苦行	sjci
-既而	bnsr
+既而	ghsr
 橘黄	aksd
 无援	fffu
 贞节	ucsa
@@ -177709,7 +177744,7 @@ Y鍵字根 = 阝飛乙	/xcy
 舐犊情深	lprn
 离愁	twmi
 八股文	kwte
-侍郎	ehkb
+侍郎	ehkg
 接风洗尘	feni
 行止	cipi
 绿肥	kbwo
@@ -178123,7 +178158,7 @@ Y鍵字根 = 阝飛乙	/xcy
 热烘烘	fiis
 急风暴雨	xejc
 等高线	gakf
-俯拾即是	efbj
+俯拾即是	efgj
 青蒿	hwsa
 巴望	obtw
 说穿	dqih
@@ -178463,7 +178498,7 @@ Y鍵字根 = 阝飛乙	/xcy
 诨号	dxlh
 方步	tfpi
 切齿	xmpr
-一触即溃	fxbn
+一触即溃	fxgn
 冲口而出	ilsw
 刀兵	mddf
 面有难色	sebx
@@ -178491,7 +178526,7 @@ Y鍵字根 = 阝飛乙	/xcy
 冤仇	xxer
 李代桃僵	aeae
 惘然	rcwh
-令郎	rkkb
+令郎	rkkg
 钦慕	oxsj
 络绎	ktkb
 竹雕	gzwh
@@ -178562,7 +178597,7 @@ Y鍵字根 = 阝飛乙	/xcy
 三纲五常	lkfi
 毒饵	hexl
 慢腾腾	rwwq
-货郎	enkb
+货郎	enkg
 章则	kjcm
 难色	bexo
 纺车	ktxj
@@ -178744,7 +178779,7 @@ Y鍵字根 = 阝飛乙	/xcy
 一无所得	ffdc
 春去秋来	ohmf
 细弱	kvbi
-儿郎	wrkb
+儿郎	wrkg
 鸟雀	mnie
 力透纸背	smkq
 无牵无挂	foff
@@ -178953,7 +178988,7 @@ Y鍵字根 = 阝飛乙	/xcy
 平辈	nqux
 何足道哉	epqg
 犯禁	haaa
-挥之即去	fobh
+挥之即去	fogh
 青灰	hwei
 隐语	yxdf
 刀鞘	mdsi
@@ -179231,7 +179266,7 @@ Y鍵字根 = 阝飛乙	/xcy
 九曲回肠	rdww
 以文会友	etre
 故知	jtjl
-一言既出	fbbw
+一言既出	fbgw
 聘约	ldkw
 沙弥	nibx
 颅腔	ubwi
@@ -179479,7 +179514,7 @@ Y鍵字根 = 阝飛乙	/xcy
 怆然	rrwh
 瘠薄	misn
 沁人肺腑	nrww
-呼之即来	lobf
+呼之即来	logf
 蝴蝶花	qqse
 吃闲饭	ltxd
 两重性	fmrp
@@ -179938,7 +179973,7 @@ Y鍵字根 = 阝飛乙	/xcy
 妙策	ciga
 寒苦	issj
 孽种	sdml
-概观	abbc
+概观	agbc
 寻章摘句	bkfw
 上天无路	jffp
 绪论	khdr
@@ -180225,7 +180260,7 @@ Y鍵字根 = 阝飛乙	/xcy
 刁顽	yffl
 穷寇勿追	iiwd
 心无二用	rfis
-即景生情	bjpr
+即景生情	gjpr
 民贼	oxck
 木雕泥塑	awnq
 春兰秋菊	oqms
@@ -181632,12 +181667,12 @@ Y鍵字根 = 阝飛乙	/xcy
 也做	oeej
 触底	xsmk
 广电	mgdd
-既不	bnvu
+既不	ghvu
 并同	qscf
 虽不	lqvu
 不足以	vpek
 这辆	toxf
-即是	bnjf
+即是	gajf
 耗时	dkjk
 阿尔及利亚	yxgf
 国产化	wken
@@ -181804,7 +181839,7 @@ Y鍵字根 = 阝飛乙	/xcy
 兼具	qbjk
 触摸屏	xfbq
 结合起来	krhf
-即在	bneu
+即在	gaeu
 以期	ekuw
 发挥作用	wfes
 却很	hncg
@@ -182026,7 +182061,7 @@ Y鍵字根 = 阝飛乙	/xcy
 死了	fxke
 一楼	fiaq
 曾向	qjdx
-即为	bnks
+即为	gaks
 所用	ddsy
 恒生	rfps
 不动	vuin
@@ -182765,7 +182800,7 @@ Y鍵字根 = 阝飛乙	/xcy
 从重	rrmv
 并不一定	qvfi
 并请	qsdh
-即成	bnky
+即成	gaky
 每份	geek
 绝不能	kvnw
 小白	ivdb
@@ -183440,7 +183475,7 @@ Y鍵字根 = 阝飛乙	/xcy
 两极分化	fake
 分账	kmcn
 头奖	ioqx
-即以	bnek
+即以	gaek
 反倾销	deoi
 猫咪	hslq
 基础建设	uvbd
@@ -184874,7 +184909,7 @@ Y鍵字根 = 阝飛乙	/xcy
 撇清	fqnh
 永续	knkg
 挤掉	ftfu
-即用	bnsy
+即用	gasy
 点钱	ulof
 盖板	quad
 转职	xill
@@ -184971,7 +185006,7 @@ Y鍵字根 = 阝飛乙	/xcy
 据估计	fedg
 增开	hqfs
 办完	skif
-既无	bnff
+既无	ghff
 仍由	egdo
 自我批评	qgfd
 创世	rasi
@@ -185320,7 +185355,7 @@ Y鍵字根 = 阝飛乙	/xcy
 分一杯羹	kfaq
 未尽	fwbk
 赌债	cheh
-俊朗	enkb
+俊朗	enkg
 煲汤	elny
 指甲油	fvnd
 无痛	ffmb
@@ -185682,7 +185717,7 @@ Y鍵字根 = 阝飛乙	/xcy
 农委	xgmc
 光电子	idkz
 一大步	fopi
-既然如此	bwcp
+既然如此	gwcp
 经验教训	kbhd
 帅印	qukf
 汉江	nbnp
@@ -185788,7 +185823,7 @@ Y鍵字根 = 阝飛乙	/xcy
 浮冰	nuin
 乙级	yikg
 驻马店	bbmu
-诸暨	dhbn
+诸暨	dhgh
 色变	xotb
 泊车	ndxj
 估测	ejnc
@@ -187309,7 +187344,7 @@ Y鍵字根 = 阝飛乙	/xcy
 投档	feai
 多方位	xtek
 色诱	xodm
-即会	bnri
+即会	gari
 兴华	nken
 生活区	pnhs
 毛绒	mmkk
@@ -187542,7 +187577,7 @@ Y鍵字根 = 阝飛乙	/xcy
 面糊	smqj
 病后	mfdf
 公信	kneb
-即把	bnfo
+即把	gafo
 它用	insy
 摇身	fuqs
 也够	oewl
@@ -188714,7 +188749,7 @@ Y鍵字根 = 阝飛乙	/xcy
 小灵通	ibbs
 半空中	qilu
 必争	rgxb
-即墨	bngh
+即墨	gagh
 录播	bnfg
 警械	swak
 抱抱	fwfw
@@ -188779,7 +188814,7 @@ Y鍵字根 = 阝飛乙	/xcy
 嗜血	lhgu
 欺骗性	ubrp
 桃源	awnv
-即行	bnci
+即行	gaci
 但见	ejcj
 淡水鱼	nnxv
 免了	xlke
@@ -188958,7 +188993,7 @@ Y鍵字根 = 阝飛乙	/xcy
 用掉	syfu
 蓝鲸	suxa
 查缉	ajkl
-自即日起	qbjh
+自即日起	qgjh
 蛮好	tqck
 裤袜	xmxf
 买书	yiyy
@@ -189025,7 +189060,7 @@ Y鍵字根 = 阝飛乙	/xcy
 色温	xonj
 援藏	fusk
 老本行	haci
-既非	bnuf
+既非	ghuf
 鸡西	bmpx
 持久性	fxrp
 不前	vuqw
@@ -189481,7 +189516,7 @@ Y鍵字根 = 阝飛乙	/xcy
 城主	hkkj
 界外	vrxu
 业余爱好	uruc
-概不	abvu
+概不	agvu
 河东	njxi
 竟会	kjri
 观光客	biit
@@ -189608,7 +189643,7 @@ Y鍵字根 = 阝飛乙	/xcy
 锦衣卫	oaaf
 你猜	exhh
 秋香	mimj
-意即	kjbn
+意即	kjga
 台东	nlxi
 长脸	ncwr
 熨平	bjnq
@@ -189727,7 +189762,7 @@ Y鍵字根 = 阝飛乙	/xcy
 切糕	xmqq
 站直	kugj
 贫困线	kwkf
-暨南大学	bgon
+暨南大学	ggon
 北山	qnus
 多汁	xxng
 桌前	ujqw
@@ -190844,7 +190879,7 @@ Y鍵字根 = 阝飛乙	/xcy
 烤熟	ihak
 乙类	yiqo
 占压	ulvh
-转瞬即逝	xjbf
+转瞬即逝	xjgf
 原职	vdll
 凡属	ekbg
 鼠标垫	dafr
@@ -190867,7 +190902,7 @@ Y鍵字根 = 阝飛乙	/xcy
 红绿	kpkb
 摸出	fsww
 伤病员	emlc
-即插即用	bfbs
+即插即用	gfgs
 心地善良	rhqk
 日货	jren
 初露	xmcp
@@ -190927,12 +190962,12 @@ Y鍵字根 = 阝飛乙	/xcy
 关西	qopx
 潜龙	nofg
 春江	ojnp
-二郎	irkb
+二郎	irkg
 步幅	piuf
 长刀	ncmd
 叩开	lafs
 增塑剂	hqtk
-太郎	okkb
+太郎	okkg
 占线	ulkf
 完小	ifiv
 初识	xmdl
@@ -191909,7 +191944,7 @@ Y鍵字根 = 阝飛乙	/xcy
 玉门	jktm
 横刀夺爱	amou
 想不起来	avhf
-既得	bncj
+既得	ghcj
 银装素裹	oqha
 睡去	jmhn
 净白	ixdb
@@ -192276,7 +192311,7 @@ Y鍵字根 = 阝飛乙	/xcy
 中央集权	lcea
 伏尔加河	exsn
 抛却	frhn
-既已	bnoi
+既已	ghoi
 中音	lukj
 原液	vdna
 生起	psho
@@ -192585,7 +192620,7 @@ Y鍵字根 = 阝飛乙	/xcy
 烧煮	ixhj
 擦脸	fiwr
 角斗士	xihs
-朗科	kbmi
+朗科	kgmi
 东坡	xihb
 阻击战	yaul
 南岭	gcur
@@ -192837,7 +192872,7 @@ Y鍵字根 = 阝飛乙	/xcy
 包产到户	wkdh
 办不成	svky
 网膜	csws
-召之即来	mobf
+召之即来	mogf
 方差	tfqp
 遮风挡雨	mefc
 总合	qlrh
@@ -192969,7 +193004,7 @@ Y鍵字根 = 阝飛乙	/xcy
 上甘岭	jsur
 纪念邮票	krdp
 胚芽	wvsh
-次郎	ixkb
+次郎	ixkg
 林冲	aail
 小窗	ivid
 明查暗访	jajd
@@ -193343,7 +193378,7 @@ Y鍵字根 = 阝飛乙	/xcy
 教出	hkww
 溺死	nbfx
 爱火	uxih
-武大郎	fokb
+武大郎	fokg
 爱国心	uwri
 思来想去	vfah
 外部设备	xkdt
@@ -193848,7 +193883,7 @@ Y鍵字根 = 阝飛乙	/xcy
 张之洞	bonc
 列兵	fxdf
 口称	lvmx
-情郎	rhkb
+情郎	rhkg
 吵吵	lili
 几何图形	eewf
 败火	ctih
@@ -195032,7 +195067,7 @@ Y鍵字根 = 阝飛乙	/xcy
 土狼	hthk
 此心	pnri
 神道	jdqq
-可望而不可即	jtsb
+可望而不可即	jtsg
 核素	atho
 排戏	fubk
 捕快	fnrb
@@ -195726,7 +195761,7 @@ Y鍵字根 = 阝飛乙	/xcy
 莞尔一笑	sxfg
 过氧化氢	kgeg
 寝宫	iqil
-密特朗	ipkb
+密特朗	ipkg
 硬功夫	vpof
 大学士	onhs
 难于登天	bfbf
@@ -196361,7 +196396,7 @@ Y鍵字根 = 阝飛乙	/xcy
 吐纳	lhkc
 陪都	ykhj
 官家	ibit
-瞬即	jubn
+瞬即	juga
 岔子	kmkz
 拓印	fvkf
 断片	qedp
@@ -196665,7 +196700,7 @@ Y鍵字根 = 阝飛乙	/xcy
 惊厥	ravq
 惨况	rnil
 正方体	ltea
-唧唧	lblb
+唧唧	lglg
 岩溶	uvni
 投合	ferh
 查票	ajpj
@@ -197748,7 +197783,7 @@ Y鍵字根 = 阝飛乙	/xcy
 贪钱	rkof
 酒神	npjd
 流芳	nast
-吧唧	lolb
+吧唧	lolg
 情状	rhqh
 翰林院	gayi
 力攻	slpt
@@ -197811,7 +197846,7 @@ Y鍵字根 = 阝飛乙	/xcy
 惨象	rnxl
 细听	kvld
 雪狼	cbhk
-色即是空	xbji
+色即是空	xgji
 举起手来	nhff
 成荫	kysy
 吸顶灯	ljij
@@ -198197,7 +198232,7 @@ Y鍵字根 = 阝飛乙	/xcy
 全选	rjpw
 打气筒	fggc
 多党合作	xire
-即或	bnkl
+即或	gakl
 漆工	napg
 流风	naes
 嫩嫩	caca
@@ -199013,7 +199048,7 @@ Y鍵字根 = 阝飛乙	/xcy
 瘴气	mkgq
 赔不是	cvjf
 作鸟兽散	emqs
-即景	bnja
+即景	gaja
 打柴	fjpn
 雕版	whdd
 迷藏	qosk
@@ -199513,7 +199548,7 @@ Y鍵字根 = 阝飛乙	/xcy
 帽徽	uccf
 剑鞘	rfsi
 怪力乱神	rslj
-朗声	kbhb
+朗声	kghb
 围桌	wauj
 宁日	ijjr
 家燕	itsf
@@ -199618,7 +199653,7 @@ Y鍵字根 = 阝飛乙	/xcy
 畜牲	anpp
 敕令	alrk
 无敌于天下	flfj
-夜郎	aekb
+夜郎	aekg
 保皇派	ednd
 斥骂	dkll
 丁丑	jdbc
@@ -199631,7 +199666,7 @@ Y鍵字根 = 阝飛乙	/xcy
 滴下	najx
 靡费	mubk
 泪汪汪	nnnj
-疏朗	ypkb
+疏朗	ypkg
 鬼佬	dgeh
 阿叔	yjji
 良人	kgre
@@ -199782,7 +199817,7 @@ Y鍵字根 = 阝飛乙	/xcy
 惊惶失措	rrgf
 渔火	nxih
 蛞蝓	qlqr
-即逝	bnfd
+即逝	gafd
 溃于蚁穴	nfqi
 著作等身	segq
 最妙	jlci
@@ -200131,7 +200166,7 @@ Y鍵字根 = 阝飛乙	/xcy
 孔方兄	ktlw
 恒等	rfgh
 皮笑肉不笑	bgcg
-关汉卿	qnkb
+关汉卿	qnkg
 渔产	nxkg
 孟尝君	kibg
 底土	mkht
@@ -200153,7 +200188,7 @@ Y鍵字根 = 阝飛乙	/xcy
 发春	wboj
 石径	vscb
 查检	ajar
-公卿	knkb
+公卿	knkg
 金瓜	tjug
 藏经	skkb
 鬼不觉	dvnx
@@ -200541,7 +200576,7 @@ Y鍵字根 = 阝飛乙	/xcy
 绒球	kkjf
 雕漆	whna
 卫道	afqq
-概数	abqc
+概数	agqc
 渔舟	nxuo
 柔婉	kgci
 追慕	dosj
@@ -201412,7 +201447,7 @@ Y鍵字根 = 阝飛乙	/xcy
 刨根	woag
 平邮	nqdy
 荒谬绝伦	sdke
-既来之	bfoz
+既来之	gfoz
 思古	vrjg
 感奋	kfov
 戌时	kfjk
@@ -201439,7 +201474,7 @@ Y鍵字根 = 阝飛乙	/xcy
 梭镖	anop
 体癣	eamx
 瞎吹	jilx
-爱卿	uxkb
+爱卿	uxkg
 皇亲	djka
 遵纪	qpko
 蕨类	svqo
@@ -201560,7 +201595,7 @@ Y鍵字根 = 阝飛乙	/xcy
 职掌	llif
 斜睨	rfjd
 转注	xink
-概说	abdq
+概说	agdq
 叠字	bbik
 简繁	gtge
 显达	juoo
@@ -201569,7 +201604,7 @@ Y鍵字根 = 阝飛乙	/xcy
 抻面	fdsm
 承印	ynkf
 独幕剧	hsbj
-哼唧	lalb
+哼唧	lalg
 哄劝	lsbs
 杂症	raml
 有完没完	eini
@@ -201858,7 +201893,7 @@ Y鍵字根 = 阝飛乙	/xcy
 不登大雅之堂	vboi
 另存为	leks
 齿形	prfs
-即兴之作	bnoe
+即兴之作	gnoe
 切盼	xmjk
 色胆	xowj
 邪术	hyak
@@ -203248,7 +203283,7 @@ Y鍵字根 = 阝飛乙	/xcy
 凄艳	igdx
 苛政猛于虎	slhu
 灯心绒	irkk
-不即不离	vbvt
+不即不离	vgvt
 叠韵	bbkj
 途程	rfml
 公比	knnn
@@ -203413,7 +203448,7 @@ Y鍵字根 = 阝飛乙	/xcy
 蒙昧无知	sjfj
 广结良缘	mkkk
 忧戚	rfkj
-郎舅	kbdv
+郎舅	kgdv
 雨意	cvkj
 温标	njaj
 威迫利诱	kdmd
@@ -203768,7 +203803,7 @@ Y鍵字根 = 阝飛乙	/xcy
 虫豸	qcmz
 以古非今	ejur
 倾耳	enle
-唧筒	lbgc
+唧筒	lggc
 喟然	lvwh
 军邮	xxdy
 卖儿鬻女	gwbc
@@ -204169,7 +204204,7 @@ Y鍵字根 = 阝飛乙	/xcy
 碍口	vjlv
 乞哀告怜	gapr
 助桀为虐	jxku
-咕唧	ljlb
+咕唧	ljlg
 马仰人翻	berg
 三贞九烈	lurf
 恩同父母	wcke
@@ -204958,7 +204993,7 @@ Y鍵字根 = 阝飛乙	/xcy
 其中有	ulew
 医疗机构	hmaa
 比较大	nxod
-即便是	bejf
+即便是	gejf
 有分	ewkm
 般的	uedw
 环球时报	jjjf
@@ -205035,7 +205070,7 @@ Y鍵字根 = 阝飛乙	/xcy
 我相信	gaeb
 被打	xbfj
 会被	rixb
-即使是	bejf
+即使是	gejf
 起了	hoke
 主要包括	kpwf
 中出	luww
@@ -205378,7 +205413,7 @@ Y鍵字根 = 阝飛乙	/xcy
 就是这样	ajta
 而无	srff
 今年年初	rggx
-郎平	kbnq
+郎平	kgnq
 只是一个	ljfr
 各项工作	tppe
 紧随其后	uyud
@@ -205728,7 +205763,7 @@ Y鍵字根 = 阝飛乙	/xcy
 很清楚	cnaa
 或以	klek
 股改	weot
-即便如此	becp
+即便如此	gecp
 德国人	cwre
 李小璐	aijp
 或被	klxb
@@ -205909,7 +205944,7 @@ Y鍵字根 = 阝飛乙	/xcy
 寄予厚望	ikvt
 翻了	gqke
 又开始	bfcn
-即日起	bjho
+即日起	gjho
 企事业单位	rkue
 龙虎榜	fuaa
 双汇	bbnh
@@ -206471,7 +206506,7 @@ Y鍵字根 = 阝飛乙	/xcy
 据我	fbgf
 印象中	kxlu
 中国台湾	lwnn
-既没有	bnew
+既没有	gnew
 小沈阳	inyj
 就因为	awks
 更轻	fjxb
@@ -206530,7 +206565,7 @@ Y鍵字根 = 阝飛乙	/xcy
 回了	wlke
 却还	hnvo
 机组人员	akrl
-即期	bnuw
+即期	gauw
 送医	qohj
 完成任务	iket
 告诉她	pdco
@@ -206580,7 +206615,7 @@ Y鍵字根 = 阝飛乙	/xcy
 没有过	neko
 经济总量	knqj
 是这样的	jtad
-即有	bnew
+即有	gaew
 更全	fjrj
 多少人	xire
 就应	aimn
@@ -206661,7 +206696,7 @@ Y鍵字根 = 阝飛乙	/xcy
 可查	jlaj
 选人	pwre
 储能	ednw
-既可	bnjl
+既可	ghjl
 解决办法	xisn
 传说中的	edld
 一国	fiwj
@@ -206949,7 +206984,7 @@ Y鍵字根 = 阝飛乙	/xcy
 各一	tlfi
 再往	fcck
 持人	fhre
-即被	bnxb
+即被	gaxb
 争取到	xldm
 生产厂家	pkvi
 专利技术	imfa
@@ -207258,7 +207293,7 @@ Y鍵字根 = 阝飛乙	/xcy
 爆燃	ijiw
 销售部	oekl
 将我	qxgf
-也即	oebn
+也即	oega
 坐下来	rjfq
 该村	dtak
 上一代	jfek
@@ -207309,7 +207344,7 @@ Y鍵字根 = 阝飛乙	/xcy
 关键问题	qotj
 最后一刻	jdft
 萧亚轩	sfxn
-郎朗	kbkb
+郎朗	kgkg
 某种意义	smkk
 李静	akhw
 标准差	aiqp
@@ -207603,7 +207638,7 @@ Y鍵字根 = 阝飛乙	/xcy
 省道	igqq
 质监局	duby
 天翼	fovv
-即时通讯	bjbd
+即时通讯	gjbd
 又不是	bvjf
 小广告	impl
 又想	boaj
@@ -208496,7 +208531,7 @@ Y鍵字根 = 阝飛乙	/xcy
 强烈要求	bfpf
 想从	ajrr
 之位	ozek
-既不是	bvjf
+既不是	gvjf
 垮塌	hohj
 小苹果	isja
 至大	dzod
@@ -208560,7 +208595,7 @@ Y鍵字根 = 阝飛乙	/xcy
 我倒	gfed
 亏钱	fhof
 斗智斗勇	ijib
-既不能	bvnw
+既不能	gvnw
 小周	ivwh
 久坐	xkrr
 三峡工程	lupm
@@ -208620,7 +208655,7 @@ Y鍵字根 = 阝飛乙	/xcy
 我正	gflz
 村主任	akem
 这番话	tgdl
-即到	bndm
+即到	gadm
 无法想象	fnax
 马凯	bmuo
 上班时间	jjjt
@@ -209320,7 +209355,7 @@ Y鍵字根 = 阝飛乙	/xcy
 寄递	ioqb
 党的领导	idro
 减幅	ikuf
-即能	bnnw
+即能	ganw
 所起	ddho
 精心策划	qrgk
 换证	fxdl
@@ -209772,7 +209807,7 @@ Y鍵字根 = 阝飛乙	/xcy
 时计	jkdg
 油费	ndbk
 谭咏麟	dlmq
-既定目标	bija
+既定目标	gija
 开衫	fsxc
 鼓浪屿	hnuh
 含糖	rkqm
@@ -210361,7 +210396,7 @@ Y鍵字根 = 阝飛乙	/xcy
 看那	fjya
 其美	uqqo
 台湾问题	nntj
-即与	bnhf
+即与	gahf
 得去	cjhn
 白冰	dbin
 犹在	hfeu
@@ -210991,7 +211026,7 @@ Y鍵字根 = 阝飛乙	/xcy
 已去	oihn
 抵触情绪	fxrk
 它把	info
-即达	bnoo
+即达	gaoo
 工作表	pehg
 和平共处五项原则	mnsc
 基层组织	ubkk
@@ -211466,7 +211501,7 @@ Y鍵字根 = 阝飛乙	/xcy
 交学费	anbk
 产油国	knwj
 学生宿舍	npir
-即告	bnpl
+即告	gapl
 退居二线	gbik
 娜拉	cyfk
 合在	rheu
@@ -212320,7 +212355,7 @@ Y鍵字根 = 阝飛乙	/xcy
 播客	fgit
 多年以后	xged
 稍慢	mirj
-即食	bnks
+即食	gaks
 进网	ikcs
 垫高	frag
 伊万诺夫	efdo
@@ -212526,7 +212561,7 @@ Y鍵字根 = 阝飛乙	/xcy
 哭成	llky
 幕前	sjqw
 将养	qxqo
-既当	bnib
+既当	ghib
 玛格丽特	jafp
 相互联系	aflg
 丢进	mnik
@@ -212891,7 +212926,7 @@ Y鍵字根 = 阝飛乙	/xcy
 变红	tbkp
 脱离群众	wtbr
 修成	euky
-即今	bnrk
+即今	gark
 螨虫	qsqc
 忘带	trsx
 不精	vuqh
@@ -213645,7 +213680,7 @@ Y鍵字根 = 阝飛乙	/xcy
 老毛病	hmmf
 公路网	kpcs
 对啊	bkly
-即止	bnpi
+即止	gapi
 新平	kanq
 烤漆	ihna
 爽利	osmm
@@ -213795,7 +213830,7 @@ Y鍵字根 = 阝飛乙	/xcy
 死死地	ffho
 走钢丝	hokk
 中央文件	lcte
-即应	bnmn
+即应	gamn
 电耗	dddk
 防护服	yfwa
 相关系数	aqgq
@@ -213967,7 +214002,7 @@ Y鍵字根 = 阝飛乙	/xcy
 干儿子	nwkz
 南昌大学	gjon
 简洁明了	gnjk
-兔女郎	xckb
+兔女郎	xckg
 调蓄	dwsa
 口苦	lvsj
 自弹自唱	qbql
@@ -215318,7 +215353,7 @@ Y鍵字根 = 阝飛乙	/xcy
 倒霉蛋	ecyp
 大老	odhn
 肌群	webg
-元朗	flkb
+元朗	flkg
 翻入	gqkr
 储水	edns
 喜结良缘	hkkk
@@ -216572,7 +216607,7 @@ Y鍵字根 = 阝飛乙	/xcy
 拆弹	fdbq
 南村	gcak
 悲喜交加	uhas
-暨大	bnod
+暨大	ghod
 印机	kfae
 世界之窗	svoi
 成方	kytf
@@ -217247,7 +217282,7 @@ Y鍵字根 = 阝飛乙	/xcy
 图新	wtka
 最浅	jlnf
 送修	qoeu
-既成	bnky
+既成	ghky
 自乐	qiki
 难以言表	bebh
 合浦	rhnn
@@ -217439,7 +217474,7 @@ Y鍵字根 = 阝飛乙	/xcy
 余光中	rilu
 张角	bnxs
 志远	hrfl
-小富即安	iibi
+小富即安	iigi
 过一会儿	kfrw
 残次品	fill
 之远	ozfl
@@ -217729,7 +217764,7 @@ Y鍵字根 = 阝飛乙	/xcy
 红衣主教	kakh
 里程表	vmhg
 抢运	frin
-朗讯	kbdy
+朗讯	kgdy
 心伤	rieg
 家务劳动	itsi
 锁具	oijk
@@ -218294,7 +218329,7 @@ Y鍵字根 = 阝飛乙	/xcy
 踏勘	pnue
 脏污	wmnf
 狙杀	hjsa
-所见即所得	dcbc
+所见即所得	dcgc
 黄书	sdyy
 倒灶	edih
 河间	njtj
@@ -218490,7 +218525,7 @@ Y鍵字根 = 阝飛乙	/xcy
 汤阴	nyyw
 面店	smmu
 巴黎圣母院	omby
-此即	pnbn
+此即	pnga
 堪为	huks
 工笔画	pgfv
 插满	fmns
@@ -219758,7 +219793,7 @@ Y鍵字根 = 阝飛乙	/xcy
 多量	xxjf
 鲱鱼	xuxv
 大老爷们	ohke
-刀郎	mdkb
+刀郎	mdkg
 雪村	cbak
 跳来跳去	pfph
 人大常委	roim
@@ -219855,7 +219890,7 @@ Y鍵字根 = 阝飛乙	/xcy
 种牛	mlpn
 干燥机	niae
 民勤	oxsi
-点到即止	udbp
+点到即止	udgp
 民主派	oknd
 各院校	tyaa
 塑料纸	qqkk
@@ -221017,7 +221052,7 @@ Y鍵字根 = 阝飛乙	/xcy
 每句	gewl
 巨蜥	hbqa
 无骨	ffrg
-即若	bnse
+即若	gase
 变亮	tbae
 收队	wtyr
 莽夫	shof
@@ -221425,7 +221460,7 @@ Y鍵字根 = 阝飛乙	/xcy
 胸毛	wwmm
 口惠而实不至	ldsd
 高坡	aghb
-暨南	bngc
+暨南	ghgc
 瞎想	jiaj
 路规	ptoc
 电离层	dtbi
@@ -221461,7 +221496,7 @@ Y鍵字根 = 阝飛乙	/xcy
 龙里	fgvl
 尽义务	bkts
 雄县	enjn
-伦勃朗	egkb
+伦勃朗	egkg
 拆零	fdcr
 博美	gnqo
 权倾	aben
@@ -221553,7 +221588,7 @@ Y鍵字根 = 阝飛乙	/xcy
 渗到	nndm
 金屋	tjbd
 丧夫	gqof
-爱郎	uxkb
+爱郎	uxkg
 润唇	ntml
 瓶体	qsea
 林口	aalv
@@ -221808,7 +221843,7 @@ Y鍵字根 = 阝飛乙	/xcy
 本世纪末	askf
 天真活泼	fgnn
 马恩	bmwo
-可望不可即	jtvb
+可望不可即	jtvg
 友情岁月	eruw
 本门	aftm
 皮包骨头	bwri
@@ -221914,7 +221949,7 @@ Y鍵字根 = 阝飛乙	/xcy
 棉纺厂	akvh
 勇毅	bskt
 避雷器	bcll
-喜之郎	hokb
+喜之郎	hokg
 鞋印	shkf
 轻笑	xbgm
 争办	xbsk
@@ -222991,7 +223026,7 @@ Y鍵字根 = 阝飛乙	/xcy
 拉力器	fsll
 蒙恬	sxrl
 可亲可敬	jkjs
-颜真卿	kgkb
+颜真卿	kgkg
 守贞	ikuc
 术业	akue
 操劳过度	fskm
@@ -223141,7 +223176,7 @@ Y鍵字根 = 阝飛乙	/xcy
 腰系	wpgo
 陌路人	ypre
 争春	xboj
-招之即来	fobf
+招之即来	fogf
 受难日	ubjr
 针线包	okwo
 烧麦	ixht
@@ -224570,7 +224605,7 @@ Y鍵字根 = 阝飛乙	/xcy
 别体	lsea
 俄而	egsr
 勾上	wnjv
-周郎	whkb
+周郎	whkg
 儒道	ecqq
 载频	gkpi
 依凭	eaem
@@ -224627,7 +224662,7 @@ Y鍵字根 = 阝飛乙	/xcy
 坪坝	hnhc
 零打碎敲	cfva
 刀劈	mdbl
-朗星	kbjp
+朗星	kgjp
 全尸	rjbs
 规格化	oaen
 撬棒	fmao
@@ -226738,7 +226773,7 @@ Y鍵字根 = 阝飛乙	/xcy
 地动仪	hiek
 啼鸣	lalm
 奏捷	offf
-郎当	kbib
+郎当	kgib
 堡子	elkz
 倦乏	eqgo
 冤有头	xeio
@@ -227364,7 +227399,7 @@ Y鍵字根 = 阝飛乙	/xcy
 剃头刀	qimd
 班务	jqts
 座子	mrkz
-空即是色	ibjx
+空即是色	igjx
 链结	oxkh
 侧枝	ecag
 孤鸿	kunp
@@ -227404,7 +227439,7 @@ Y鍵字根 = 阝飛乙	/xcy
 保皇党	ediw
 劫道	hnqq
 黑牢	ghip
-中郎	lukb
+中郎	lukg
 专擅	iefa
 遁世	dgsi
 一望无边	ftfs
@@ -227630,7 +227665,7 @@ Y鍵字根 = 阝飛乙	/xcy
 平列	nqfx
 循环小数	cjiq
 古本	jgaf
-江郎	npkb
+江郎	npkg
 加官晋爵	sifu
 错金	ostj
 翎子	rkkz
@@ -227894,7 +227929,7 @@ Y鍵字根 = 阝飛乙	/xcy
 标准语	aidf
 露水夫妻	cnog
 虫胶	qcwa
-毛概	mmab
+毛概	mmag
 纵波	krnb
 退格	goat
 杀绝	sakx
@@ -228049,7 +228084,7 @@ Y鍵字根 = 阝飛乙	/xcy
 青纱	hwki
 锐眼	oqjg
 丝虫	kkqc
-朗照	kbjm
+朗照	kgjm
 戏照	bkjm
 蜀葵	uwsb
 双球菌	bjsw
@@ -229395,7 +229430,7 @@ Y鍵字根 = 阝飛乙	/xcy
 肝胆照人	wwjr
 纺绸	ktkw
 敕书	alyy
-呱唧	lulb
+呱唧	lulg
 雕虫	whqc
 厚脸	vjwr
 炼石补天	ivxf
@@ -229478,7 +229513,7 @@ Y鍵字根 = 阝飛乙	/xcy
 经互会	kfri
 毡靴	muse
 啼饥号寒	lxli
-豁朗	idkb
+豁朗	idkg
 灵怪	birb
 凝想	inaj
 有损无益	effq
@@ -229640,7 +229675,7 @@ Y鍵字根 = 阝飛乙	/xcy
 征辟	clbl
 谦顺	dqlc
 狗胆包天	hwwf
-厩肥	vbwo
+厩肥	vgwo
 锻模	oeas
 电石气	dvgq
 叔婆	jinb
@@ -231605,7 +231640,7 @@ Y鍵字根 = 阝飛乙	/xcy
 主持会议	kfrd
 联交所	ladd
 他个	eoru
-朗逸	kbxl
+朗逸	kgxl
 香河	mjnj
 可我	jlgf
 腰线	wpkf
@@ -232905,7 +232940,7 @@ Y鍵字根 = 阝飛乙	/xcy
 内华达	ceoo
 助选	jspw
 房卡	htju
-博朗	gnkb
+博朗	gnkg
 绿线	kbkf
 地籍	hogd
 凌源	ihnv
@@ -233748,7 +233783,7 @@ Y鍵字根 = 阝飛乙	/xcy
 重邮	mvdy
 怪叔叔	rjji
 笋岗	gbuc
-便即	efbn
+便即	efga
 流播	nafg
 中不中	lvlu
 渗出物	nwpw
@@ -233775,7 +233810,7 @@ Y鍵字根 = 阝飛乙	/xcy
 细度	kvms
 松下幸之助	ajhj
 车钩	xjow
-既来之则安之	bfoo
+既来之则安之	gfoo
 瀛寰	ntiu
 做脸	ejwr
 雪狐	cbhu
@@ -234767,7 +234802,7 @@ Y鍵字根 = 阝飛乙	/xcy
 苛待	sjch
 怡情养性	rrqr
 巡官	loib
-瞬间即逝	jtbf
+瞬间即逝	jtgf
 倒坍	edhw
 音韵学	kknx
 打禅	fjjq
@@ -234984,7 +235019,7 @@ Y鍵字根 = 阝飛乙	/xcy
 撂地	fvho
 旧指	ujfn
 兽疫	qvme
-客卿	itkb
+客卿	itkg
 扶苗	fosv
 毛白杨	mday
 猴脸	hewr
@@ -235054,7 +235089,7 @@ Y鍵字根 = 阝飛乙	/xcy
 私有权	meab
 挽幛	fxuk
 私设公堂	mdki
-俊郎	enkb
+俊郎	enkg
 拱火	fsih
 冰屑	inbi
 蛋筒	ypgc
@@ -235219,7 +235254,7 @@ Y鍵字根 = 阝飛乙	/xcy
 纸衣	kkag
 匀和	wiml
 赶趟儿	hhwr
-概称	abmx
+概称	agmx
 淡眉	nibj
 嘟嚷	lhla
 乌孜别克族	mklt
@@ -235435,7 +235470,7 @@ Y鍵字根 = 阝飛乙	/xcy
 囚歌	wrjl
 桅顶	axjc
 山隘	usyq
-非奸即盗	ucbi
+非奸即盗	ucgi
 旷职	jmll
 腾让	wqdj
 帆樯	ueag
@@ -236141,7 +236176,7 @@ Y鍵字根 = 阝飛乙	/xcy
 酒母	npem
 不知者不罪	vjhu
 暗鬼	jkdg
-既望	bntw
+既望	ghtw
 晓雾	jxct
 壅蔽	aksq
 銮舆	ttdx
@@ -237848,7 +237883,7 @@ Y鍵字根 = 阝飛乙	/xcy
 明枪易躲暗箭难防	jajy
 克尔凯郭尔	jxux
 得道多助失道寡助	cqxj
-一瞬即逝	fjbf
+一瞬即逝	fjgf
 虎视耽耽	ujll
 捏握	fjfb
 金无足赤人无完人	tfpr
@@ -237938,7 +237973,7 @@ Y鍵字根 = 阝飛乙	/xcy
 脑袋瓜儿	weuw
 寓庄于谐	imfd
 谦诚	dqdk
-一言既出驷马难追	fbbd
+一言既出驷马难追	fbgd
 精切	qhxm
 父类	ksqo
 素纱	hoki
@@ -237959,7 +237994,7 @@ Y鍵字根 = 阝飛乙	/xcy
 安厝	icvs
 刀把儿	mfwr
 忖思	rkvr
-呼之即来挥之即去	lobh
+呼之即来挥之即去	logh
 内测号	cnlh
 俯首就擒	eqaf
 旱魔	jnmd
@@ -238141,7 +238176,7 @@ Y鍵字根 = 阝飛乙	/xcy
 昼伏夜动	beai
 深恶痛嫉	nfmc
 趋权附势	hayf
-郎猫	kbhs
+郎猫	kghs
 识时达变	djot
 炊沙成饭	inkx
 贻臭万年	cqfg
@@ -238291,7 +238326,7 @@ Y鍵字根 = 阝飛乙	/xcy
 月亮石	wavs
 视而不见听而不闻	jsvt
 自由作家	qdei
-召之即来挥之即去	mobh
+召之即来挥之即去	mogh
 崭露头脚	uciw
 仙踪林	epaa
 舍不得孩子套不着狼	rvch
@@ -238393,7 +238428,7 @@ Y鍵字根 = 阝飛乙	/xcy
 心烦气躁	rigp
 差以毫厘失之千里	qeav
 无面目见江东父老	fsjh
-既有今日何必当初	berx
+既有今日何必当初	gerx
 汤里来水里去	nvfh
 关门养虎虎大伤人	qtqr
 十目所视十手所指	gjdf
@@ -239055,7 +239090,7 @@ Y鍵字根 = 阝飛乙	/xcy
 红伞	kprq
 哨塔	lihs
 弱风	bies
-卿云	kbin
+卿云	kgin
 笋衣	gbag
 奥城	dqhk
 合卺	rhyn
@@ -239248,7 +239283,7 @@ Y鍵字根 = 阝飛乙	/xcy
 算度	gjms
 灶坑	ihha
 毛邓	mmby
-概查	abaj
+概查	agaj
 沽酒	njnp
 达见	oocj
 倡办	ejsk
@@ -239317,7 +239352,7 @@ Y鍵字根 = 阝飛乙	/xcy
 校编	aakh
 快邮	rbdy
 管箍	gigf
-磨唧	mvlb
+磨唧	mvlg
 揖客	flit
 速描	alfs
 孤楼	kuaq
@@ -239588,7 +239623,7 @@ Y鍵字根 = 阝飛乙	/xcy
 轱轳	xjxu
 灭寂	fiij
 姻弟	cwqb
-唧歪	lbvl
+唧歪	lgvl
 舶位	udek
 兽窟	qvib
 锄暴	ojjs
@@ -240538,7 +240573,7 @@ Y鍵字根 = 阝飛乙	/xcy
 养痈成患	qmkl
 出师无名	wqfx
 表里山河	hvun
-不咎既往	vtbc
+不咎既往	vtgc
 杜鹃啼血	allg
 天不假年	fveg
 前不见古人	qvcr
@@ -243005,7 +243040,7 @@ Y鍵字根 = 阝飛乙	/xcy
 但使主人能醉客	eeki
 坐断东南战未休	rqxe
 越鸟巢南枝	hmla
-即从巴峡穿巫峡	brou
+即从巴峡穿巫峡	grou
 玉容寂寞泪阑干	jiin
 若非群玉山头见	subc
 苍苍横翠微	ssac
@@ -243220,7 +243255,7 @@ Y鍵字根 = 阝飛乙	/xcy
 梅子金黄杏子肥	aktw
 应知故乡事	mjjk
 愿同尘与灰	vcie
-月既不解饮	wbvx
+月既不解饮	wgvx
 明月楼高休独倚	jwae
 鱼戏莲叶南	xbsg
 云霓明灭或可睹	icjj
@@ -243789,7 +243824,7 @@ Y鍵字根 = 阝飛乙	/xcy
 远慰风雨夕	fbex
 中军置酒饮归客	lxui
 不觉碧山暮	vnjs
-须行即骑访名山	ccbu
+须行即骑访名山	ccgu
 洞在清溪何处边	nens
 落月满屋梁	swnn
 世间行乐亦如此	stcp
@@ -244475,7 +244510,7 @@ Y鍵字根 = 阝飛乙	/xcy
 杂树晚相迷	rajq
 少年心事当拿云	igri
 吴刚捧出桂花酒	lcfn
-蟹螯即金液	xhbn
+蟹螯即金液	xhgn
 依楼似月悬	eaej
 在德不在险	ecvy
 天下之本在国	fjow
@@ -244620,7 +244655,7 @@ Y鍵字根 = 阝飛乙	/xcy
 人以食为天	rekf
 钱塘湖春行	ohnc
 下学而上达	jnso
-便即下阶拜	ebjf
+便即下阶拜	egjf
 家祭毋忘告乃翁	iwek
 不可一日无此君	vjfb
 柳絮飞时花满城	acyh
@@ -245022,7 +245057,7 @@ Y鍵字根 = 阝飛乙	/xcy
 映日帆多宝舶来	jjuf
 放在匣中何不鸣	tehl
 则塞于天地之间	cift
-天地既爱酒	fhbn
+天地既爱酒	fhgn
 上善若水任方圆	jqsw
 人家帘幕垂	riim
 悲莫悲兮生别离	usut
@@ -245108,7 +245143,7 @@ Y鍵字根 = 阝飛乙	/xcy
 洒去犹能化碧涛	nhhn
 驿骑如星流	bbcn
 俄顷风定云墨色	enex
-即此爱汝一念	bpur
+即此爱汝一念	gpur
 被薜荔兮带女萝	xsss
 西蜀子云亭	puka
 民到于今受其赐	odfc
@@ -245916,7 +245951,7 @@ Y鍵字根 = 阝飛乙	/xcy
 忽然一夜春风来	wwff
 海岳尚可倾	ndie
 半匹红绡一丈绫	qhkk
-身既死兮神以灵	qbfb
+身既死兮神以灵	qgfb
 袈裟忆上泛湖船	snru
 又不道流年	bvqg
 如上九天游	cjrn
@@ -246056,7 +246091,7 @@ Y鍵字根 = 阝飛乙	/xcy
 息我以衰老	qgeh
 拈断数茎须	fqqc
 春深杏花乱	onal
-纷吾既有此内美兮	kfbk
+纷吾既有此内美兮	kfgk
 白云山头云欲立	diuk
 本性能耐寒	arni
 兰筋权奇走灭没	qgan
@@ -246196,7 +246231,7 @@ Y鍵字根 = 阝飛乙	/xcy
 花动一山春色	sifx
 苟余情其信芳	srrs
 山林迹如扫	uatf
-诚既勇兮又以武	dbbf
+诚既勇兮又以武	dgbf
 更多还肯失林峦	fxvt
 平平仄仄仄平平	nnvn
 倚天万里须长剑	effr
@@ -246432,7 +246467,7 @@ Y鍵字根 = 阝飛乙	/xcy
 不恨此花飞尽	vrpb
 何况落红无数	eisq
 千里澄江似练	mvnk
-即公孙可知矣	bkkn
+即公孙可知矣	gkkn
 次第岂无风雨	iguc
 自此草书长进	qpsi
 解鞍少驻初程	xsim
@@ -246448,7 +246483,7 @@ Y鍵字根 = 阝飛乙	/xcy
 卫青不败由天幸	ahvh
 君歌且休听我歌	bjjj
 嗣皇继圣登夔皋	ldkd
-圣代即今多雨露	bebc
+圣代即今多雨露	begc
 坎轲只得移荆蛮	hxlt
 寄扬州韩绰判官	ifni
 寒声一夜传刁斗	ihfi
@@ -247307,6 +247342,7 @@ Y鍵字根 = 阝飛乙	/xcy
 〒	/yj
 〓	/fk
 〔	/ljz
+〔〕	/lj
 〕	/ljy
 〖	/ftz
 〗	/fty
@@ -258994,19 +259030,33 @@ Y鍵字根 = 阝飛乙	/xcy
 🙌	/jz
 🙏	/hs
 🌍	/dq
+🌍	/diqiu
 🌎	/dq
+🌎	/diqiu
 🌏	/dq
+🌏	/diqiu
 🌐	/dq
+🌐	/diqiu
 🌑	/yq
 🌑	/xy
+🌑	/xinyue
+🌑	/yue
 🌒	/yq
 🌒	/my
+🌒	/meiyue
+🌒	/yue
 🌓	/yq
 🌓	/xy
+🌓	/xianyue
+🌓	/yue
 🌔	/yq
 🌔	/yy
+🌔	/yingyue
+🌔	/yue
 🌕	/yq
 🌕	/my
+🌕	/manyue
+🌕	/yue
 🔥	/huo
 🔥	/fire
 🔥	/mojo
@@ -259067,6 +259117,1586 @@ $	/my
 ?	/wh
 [	/fkz
 ]	/fky
+biàn	/bian
+biào	/biao
+bián	/bian
+biáo	/biao
+biè	/bie
+bié	/bie
+biān	/bian
+biāo	/biao
+biē	/bie
+biě	/bie
+biǎn	/bian
+biǎo	/biao
+bà	/ba
+bài	/bai
+bàn	/ban
+bàng	/bang
+bào	/bao
+bá	/ba
+bái	/bai
+bán	/ban
+báng	/bang
+báo	/bao
+bèi	/bei
+bèn	/ben
+bèng	/beng
+béi	/bei
+bén	/ben
+béng	/beng
+bì	/bi
+bìn	/bin
+bìng	/bing
+bí	/bi
+bín	/bin
+bíng	/bing
+bò	/bo
+bó	/bo
+bù	/bu
+bú	/bu
+bā	/ba
+bāi	/bai
+bān	/ban
+bāng	/bang
+bāo	/bao
+bēi	/bei
+bēn	/ben
+bēng	/beng
+běi	/bei
+běn	/ben
+běng	/beng
+bī	/bi
+bīn	/bin
+bīng	/bing
+bō	/bo
+bū	/bu
+bǎ	/ba
+bǎi	/bai
+bǎn	/ban
+bǎng	/bang
+bǎo	/bao
+bǐ	/bi
+bǐn	/bin
+bǐng	/bing
+bǒ	/bo
+bǔ	/bu
+chuà	/chua
+chuài	/chuai
+chuàn	/chuan
+chuàng	/chuang
+chuá	/chua
+chuái	/chuai
+chuán	/chuan
+chuáng	/chuang
+chuì	/chui
+chuí	/chui
+chuā	/chua
+chuāi	/chuai
+chuān	/chuan
+chuāng	/chuang
+chuī	/chui
+chuǎ	/chua
+chuǎi	/chuai
+chuǎn	/chuan
+chuǎng	/chuang
+chuǐ	/chui
+chà	/cha
+chài	/chai
+chàn	/chan
+chàng	/chang
+chào	/chao
+chá	/cha
+chái	/chai
+chán	/chan
+cháng	/chang
+cháo	/chao
+chè	/che
+chèn	/chen
+chèng	/cheng
+ché	/che
+chén	/chen
+chéng	/cheng
+chì	/chi
+chí	/chi
+chòng	/chong
+chòu	/chou
+chóng	/chong
+chóu	/chou
+chù	/chu
+chùn	/chun
+chùo	/chuo
+chú	/chu
+chún	/chun
+chúo	/chuo
+chā	/cha
+chāi	/chai
+chān	/chan
+chāng	/chang
+chāo	/chao
+chē	/che
+chēn	/chen
+chēng	/cheng
+chě	/che
+chěn	/chen
+chěng	/cheng
+chī	/chi
+chōng	/chong
+chōu	/chou
+chū	/chu
+chūn	/chun
+chūo	/chuo
+chǎ	/cha
+chǎi	/chai
+chǎn	/chan
+chǎng	/chang
+chǎo	/chao
+chǐ	/chi
+chǒng	/chong
+chǒu	/chou
+chǔ	/chu
+chǔn	/chun
+chǔo	/chuo
+cuàn	/cuan
+cuán	/cuan
+cuì	/cui
+cuí	/cui
+cuān	/cuan
+cuī	/cui
+cuǎn	/cuan
+cuǐ	/cui
+cà	/ca
+cài	/cai
+càn	/can
+càng	/cang
+cào	/cao
+cá	/ca
+cái	/cai
+cán	/can
+cáng	/cang
+cáo	/cao
+cè	/ce
+cèn	/cen
+cèng	/ceng
+cé	/ce
+cén	/cen
+céng	/ceng
+cì	/ci
+cí	/ci
+còng	/cong
+còu	/cou
+cóng	/cong
+cóu	/cou
+cù	/cu
+cùn	/cun
+cùo	/cuo
+cú	/cu
+cún	/cun
+cúo	/cuo
+cā	/ca
+cāi	/cai
+cān	/can
+cāng	/cang
+cāo	/cao
+cē	/ce
+cēn	/cen
+cēng	/ceng
+cě	/ce
+cěn	/cen
+cěng	/ceng
+cī	/ci
+cōng	/cong
+cōu	/cou
+cū	/cu
+cūn	/cun
+cūo	/cuo
+cǎ	/ca
+cǎi	/cai
+cǎn	/can
+cǎng	/cang
+cǎo	/cao
+cǐ	/ci
+cǒng	/cong
+cǒu	/cou
+cǔ	/cu
+cǔn	/cun
+cǔo	/cuo
+diàn	/dian
+diào	/diao
+dián	/dian
+diáo	/diao
+diè	/die
+dié	/die
+diù	/diu
+diú	/diu
+diān	/dian
+diāo	/diao
+diē	/die
+diě	/die
+diū	/diu
+diǎn	/dian
+diǎo	/diao
+diǔ	/diu
+duàn	/duan
+duán	/duan
+duì	/dui
+duí	/dui
+duān	/duan
+duī	/dui
+duǎn	/duan
+duǐ	/dui
+dà	/da
+dài	/dai
+dàn	/dan
+dàng	/dang
+dào	/dao
+dá	/da
+dái	/dai
+dán	/dan
+dáng	/dang
+dáo	/dao
+dè	/de
+dèi	/dei
+dèn	/den
+dèng	/deng
+dé	/de
+déi	/dei
+dén	/den
+déng	/deng
+dì	/di
+dìng	/ding
+dí	/di
+díng	/ding
+dòng	/dong
+dòu	/dou
+dóng	/dong
+dóu	/dou
+dù	/du
+dùn	/dun
+dùo	/duo
+dú	/du
+dún	/dun
+dúo	/duo
+dā	/da
+dāi	/dai
+dān	/dan
+dāng	/dang
+dāo	/dao
+dē	/de
+dēi	/dei
+dēn	/den
+dēng	/deng
+dě	/de
+děi	/dei
+děn	/den
+děng	/deng
+dī	/di
+dīng	/ding
+dōng	/dong
+dōu	/dou
+dū	/du
+dūn	/dun
+dūo	/duo
+dǎ	/da
+dǎi	/dai
+dǎn	/dan
+dǎng	/dang
+dǎo	/dao
+dǐ	/di
+dǐng	/ding
+dǒng	/dong
+dǒu	/dou
+dǔ	/du
+dǔn	/dun
+dǔo	/duo
+fà	/fa
+fàn	/fan
+fàng	/fang
+fá	/fa
+fán	/fan
+fáng	/fang
+fèi	/fei
+fèn	/fen
+fèng	/feng
+féi	/fei
+fén	/fen
+féng	/feng
+fò	/fo
+fòu	/fou
+fó	/fo
+fóu	/fou
+fù	/fu
+fú	/fu
+fā	/fa
+fān	/fan
+fāng	/fang
+fēi	/fei
+fēn	/fen
+fēng	/feng
+fěi	/fei
+fěn	/fen
+fěng	/feng
+fō	/fo
+fōu	/fou
+fū	/fu
+fǎ	/fa
+fǎn	/fan
+fǎng	/fang
+fǒ	/fo
+fǒu	/fou
+fǔ	/fu
+guà	/gua
+guài	/guai
+guàn	/guan
+guàng	/guang
+guá	/gua
+guái	/guai
+guán	/guan
+guáng	/guang
+guì	/gui
+guí	/gui
+guā	/gua
+guāi	/guai
+guān	/guan
+guāng	/guang
+guī	/gui
+guǎ	/gua
+guǎi	/guai
+guǎn	/guan
+guǎng	/guang
+guǐ	/gui
+gà	/ga
+gài	/gai
+gàn	/gan
+gàng	/gang
+gào	/gao
+gá	/ga
+gái	/gai
+gán	/gan
+gáng	/gang
+gáo	/gao
+gè	/ge
+gèi	/gei
+gèn	/gen
+gèng	/geng
+gé	/ge
+géi	/gei
+gén	/gen
+géng	/geng
+gòng	/gong
+gòu	/gou
+góng	/gong
+góu	/gou
+gù	/gu
+gùn	/gun
+gùo	/guo
+gú	/gu
+gún	/gun
+gúo	/guo
+gā	/ga
+gāi	/gai
+gān	/gan
+gāng	/gang
+gāo	/gao
+gē	/ge
+gēi	/gei
+gēn	/gen
+gēng	/geng
+gě	/ge
+gěi	/gei
+gěn	/gen
+gěng	/geng
+gōng	/gong
+gōu	/gou
+gū	/gu
+gūn	/gun
+gūo	/guo
+gǎ	/ga
+gǎi	/gai
+gǎn	/gan
+gǎng	/gang
+gǎo	/gao
+gǒng	/gong
+gǒu	/gou
+gǔ	/gu
+gǔn	/gun
+gǔo	/guo
+huà	/hua
+huài	/huai
+huàn	/huan
+huàng	/huang
+huá	/hua
+huái	/huai
+huán	/huan
+huáng	/huang
+huì	/hui
+huí	/hui
+huā	/hua
+huāi	/huai
+huān	/huan
+huāng	/huang
+huī	/hui
+huǎ	/hua
+huǎi	/huai
+huǎn	/huan
+huǎng	/huang
+huǐ	/hui
+hà	/ha
+hài	/hai
+hàn	/han
+hàng	/hang
+hào	/hao
+há	/ha
+hái	/hai
+hán	/han
+háng	/hang
+háo	/hao
+hè	/he
+hèi	/hei
+hèn	/hen
+hèng	/heng
+hé	/he
+héi	/hei
+hén	/hen
+héng	/heng
+hòng	/hong
+hòu	/hou
+hóng	/hong
+hóu	/hou
+hù	/hu
+hùn	/hun
+hùo	/huo
+hú	/hu
+hún	/hun
+húo	/huo
+hā	/ha
+hāi	/hai
+hān	/han
+hāng	/hang
+hāo	/hao
+hē	/he
+hēi	/hei
+hēn	/hen
+hēng	/heng
+hě	/he
+hěi	/hei
+hěn	/hen
+hěng	/heng
+hōng	/hong
+hōu	/hou
+hū	/hu
+hūn	/hun
+hūo	/huo
+hǎ	/ha
+hǎi	/hai
+hǎn	/han
+hǎng	/hang
+hǎo	/hao
+hǒng	/hong
+hǒu	/hou
+hǔ	/hu
+hǔn	/hun
+hǔo	/huo
+jià	/jia
+jiàn	/jian
+jiàng	/jiang
+jiào	/jiao
+jiá	/jia
+jián	/jian
+jiáng	/jiang
+jiáo	/jiao
+jiè	/jie
+jié	/jie
+jiù	/jiu
+jiú	/jiu
+jiā	/jia
+jiān	/jian
+jiāng	/jiang
+jiāo	/jiao
+jiē	/jie
+jiě	/jie
+jiū	/jiu
+jiǎ	/jia
+jiǎn	/jian
+jiǎng	/jiang
+jiǎo	/jiao
+jiǔ	/jiu
+juàn	/juan
+juán	/juan
+juè	/jue
+jué	/jue
+juān	/juan
+juē	/jue
+juě	/jue
+juǎn	/juan
+jì	/ji
+jìn	/jin
+jìng	/jing
+jìong	/jiong
+jí	/ji
+jín	/jin
+jíng	/jing
+jíong	/jiong
+jù	/ju
+jùn	/jun
+jú	/ju
+jún	/jun
+jī	/ji
+jīn	/jin
+jīng	/jing
+jīong	/jiong
+jū	/ju
+jūn	/jun
+jǐ	/ji
+jǐn	/jin
+jǐng	/jing
+jǐong	/jiong
+jǔ	/ju
+jǔn	/jun
+kuà	/kua
+kuài	/kuai
+kuàn	/kuan
+kuàng	/kuang
+kuá	/kua
+kuái	/kuai
+kuán	/kuan
+kuáng	/kuang
+kuì	/kui
+kuí	/kui
+kuā	/kua
+kuāi	/kuai
+kuān	/kuan
+kuāng	/kuang
+kuī	/kui
+kuǎ	/kua
+kuǎi	/kuai
+kuǎn	/kuan
+kuǎng	/kuang
+kuǐ	/kui
+kà	/ka
+kài	/kai
+kàn	/kan
+kàng	/kang
+kào	/kao
+ká	/ka
+kái	/kai
+kán	/kan
+káng	/kang
+káo	/kao
+kè	/ke
+kèi	/kei
+kèn	/ken
+kèng	/keng
+ké	/ke
+kéi	/kei
+kén	/ken
+kéng	/keng
+kòng	/kong
+kòu	/kou
+kóng	/kong
+kóu	/kou
+kù	/ku
+kùn	/kun
+kùo	/kuo
+kú	/ku
+kún	/kun
+kúo	/kuo
+kā	/ka
+kāi	/kai
+kān	/kan
+kāng	/kang
+kāo	/kao
+kē	/ke
+kēi	/kei
+kēn	/ken
+kēng	/keng
+kě	/ke
+kěi	/kei
+kěn	/ken
+kěng	/keng
+kōng	/kong
+kōu	/kou
+kū	/ku
+kūn	/kun
+kūo	/kuo
+kǎ	/ka
+kǎi	/kai
+kǎn	/kan
+kǎng	/kang
+kǎo	/kao
+kǒng	/kong
+kǒu	/kou
+kǔ	/ku
+kǔn	/kun
+kǔo	/kuo
+lià	/lia
+liàn	/lian
+liàng	/liang
+liào	/liao
+liá	/lia
+lián	/lian
+liáng	/liang
+liáo	/liao
+liè	/lie
+lié	/lie
+liù	/liu
+liú	/liu
+liā	/lia
+liān	/lian
+liāng	/liang
+liāo	/liao
+liē	/lie
+liě	/lie
+liū	/liu
+liǎ	/lia
+liǎn	/lian
+liǎng	/liang
+liǎo	/liao
+liǔ	/liu
+luàn	/luan
+luán	/luan
+luè	/lue
+lué	/lue
+luò	/luo
+luó	/luo
+luān	/luan
+luē	/lue
+luě	/lue
+luō	/luo
+luǎn	/luan
+luǒ	/luo
+là	/la
+lài	/lai
+làn	/lan
+làng	/lang
+lào	/lao
+lá	/la
+lái	/lai
+lán	/lan
+láng	/lang
+láo	/lao
+lè	/le
+lèi	/lei
+lèng	/leng
+lé	/le
+léi	/lei
+léng	/leng
+lì	/li
+lìn	/lin
+lìng	/ling
+lí	/li
+lín	/lin
+líng	/ling
+lòng	/long
+lòu	/lou
+lóng	/long
+lóu	/lou
+lù	/lu
+lùn	/lun
+lú	/lu
+lún	/lun
+lā	/la
+lāi	/lai
+lān	/lan
+lāng	/lang
+lāo	/lao
+lē	/le
+lēi	/lei
+lēng	/leng
+lě	/le
+lěi	/lei
+lěng	/leng
+lī	/li
+līn	/lin
+līng	/ling
+lōng	/long
+lōu	/lou
+lū	/lu
+lūn	/lun
+lǎ	/la
+lǎi	/lai
+lǎn	/lan
+lǎng	/lang
+lǎo	/lao
+lǐ	/li
+lǐn	/lin
+lǐng	/ling
+lǒng	/long
+lǒu	/lou
+lǔ	/lu
+lǔn	/lun
+lǖ	/lv
+lǘ	/lv
+lǚ	/lv
+lǜ	/lv
+miàn	/mian
+miào	/miao
+mián	/mian
+miáo	/miao
+miè	/mie
+mié	/mie
+miù	/miu
+miú	/miu
+miān	/mian
+miāo	/miao
+miē	/mie
+miě	/mie
+miū	/miu
+miǎn	/mian
+miǎo	/miao
+miǔ	/miu
+mà	/ma
+mài	/mai
+màn	/man
+màng	/mang
+mào	/mao
+má	/ma
+mái	/mai
+mán	/man
+máng	/mang
+máo	/mao
+mè	/me
+mèi	/mei
+mèn	/men
+mèng	/meng
+mé	/me
+méi	/mei
+mén	/men
+méng	/meng
+mì	/mi
+mìn	/min
+mìng	/ming
+mí	/mi
+mín	/min
+míng	/ming
+mò	/mo
+mòu	/mou
+mó	/mo
+móu	/mou
+mù	/mu
+mú	/mu
+mā	/ma
+māi	/mai
+mān	/man
+māng	/mang
+māo	/mao
+mē	/me
+mēi	/mei
+mēn	/men
+mēng	/meng
+mě	/me
+měi	/mei
+měn	/men
+měng	/meng
+mī	/mi
+mīn	/min
+mīng	/ming
+mō	/mo
+mōu	/mou
+mū	/mu
+mǎ	/ma
+mǎi	/mai
+mǎn	/man
+mǎng	/mang
+mǎo	/mao
+mǐ	/mi
+mǐn	/min
+mǐng	/ming
+mǒ	/mo
+mǒu	/mou
+mǔ	/mu
+niàn	/nian
+niàng	/niang
+niào	/niao
+nián	/nian
+niáng	/niang
+niáo	/niao
+niè	/nie
+nié	/nie
+niù	/niu
+niú	/niu
+niān	/nian
+niāng	/niang
+niāo	/niao
+niē	/nie
+niě	/nie
+niū	/niu
+niǎn	/nian
+niǎng	/niang
+niǎo	/niao
+niǔ	/niu
+nuàn	/nuan
+nuán	/nuan
+nuè	/nue
+nué	/nue
+nuān	/nuan
+nuē	/nue
+nuě	/nue
+nuǎn	/nuan
+nà	/na
+nài	/nai
+nàn	/nan
+nàng	/nang
+nào	/nao
+ná	/na
+nái	/nai
+nán	/nan
+náng	/nang
+náo	/nao
+nè	/ne
+nèi	/nei
+nèn	/nen
+nèng	/neng
+né	/ne
+néi	/nei
+nén	/nen
+néng	/neng
+nì	/ni
+nìn	/nin
+nìng	/ning
+ní	/ni
+nín	/nin
+níng	/ning
+nòng	/nong
+nòu	/nou
+nóng	/nong
+nóu	/nou
+nù	/nu
+nùo	/nuo
+nú	/nu
+núo	/nuo
+nā	/na
+nāi	/nai
+nān	/nan
+nāng	/nang
+nāo	/nao
+nē	/ne
+nēi	/nei
+nēn	/nen
+nēng	/neng
+ně	/ne
+něi	/nei
+něn	/nen
+něng	/neng
+nī	/ni
+nīn	/nin
+nīng	/ning
+nōng	/nong
+nōu	/nou
+nū	/nu
+nūo	/nuo
+nǎ	/na
+nǎi	/nai
+nǎn	/nan
+nǎng	/nang
+nǎo	/nao
+nǐ	/ni
+nǐn	/nin
+nǐng	/ning
+nǒng	/nong
+nǒu	/nou
+nǔ	/nu
+nǔo	/nuo
+nǖ	/nv
+nǘ	/nv
+nǚ	/nv
+nǜ	/nv
+piàn	/pian
+piào	/piao
+pián	/pian
+piáo	/piao
+piè	/pie
+pié	/pie
+piān	/pian
+piāo	/piao
+piē	/pie
+piě	/pie
+piǎn	/pian
+piǎo	/piao
+pà	/pa
+pài	/pai
+pàn	/pan
+pàng	/pang
+pào	/pao
+pá	/pa
+pái	/pai
+pán	/pan
+páng	/pang
+páo	/pao
+pèi	/pei
+pèn	/pen
+pèng	/peng
+péi	/pei
+pén	/pen
+péng	/peng
+pì	/pi
+pìn	/pin
+pìng	/ping
+pí	/pi
+pín	/pin
+píng	/ping
+pò	/po
+pòu	/pou
+pó	/po
+póu	/pou
+pù	/pu
+pú	/pu
+pā	/pa
+pāi	/pai
+pān	/pan
+pāng	/pang
+pāo	/pao
+pēi	/pei
+pēn	/pen
+pēng	/peng
+pěi	/pei
+pěn	/pen
+pěng	/peng
+pī	/pi
+pīn	/pin
+pīng	/ping
+pō	/po
+pōu	/pou
+pū	/pu
+pǎ	/pa
+pǎi	/pai
+pǎn	/pan
+pǎng	/pang
+pǎo	/pao
+pǐ	/pi
+pǐn	/pin
+pǐng	/ping
+pǒ	/po
+pǒu	/pou
+pǔ	/pu
+qià	/qia
+qiàn	/qian
+qiàng	/qiang
+qiào	/qiao
+qiá	/qia
+qián	/qian
+qiáng	/qiang
+qiáo	/qiao
+qiè	/qie
+qié	/qie
+qiù	/qiu
+qiú	/qiu
+qiā	/qia
+qiān	/qian
+qiāng	/qiang
+qiāo	/qiao
+qiē	/qie
+qiě	/qie
+qiū	/qiu
+qiǎ	/qia
+qiǎn	/qian
+qiǎng	/qiang
+qiǎo	/qiao
+qiǔ	/qiu
+quàn	/quan
+quán	/quan
+què	/que
+qué	/que
+quān	/quan
+quē	/que
+quě	/que
+quǎn	/quan
+qì	/qi
+qìn	/qin
+qìng	/qing
+qìong	/qiong
+qí	/qi
+qín	/qin
+qíng	/qing
+qíong	/qiong
+qù	/qu
+qùn	/qun
+qú	/qu
+qún	/qun
+qī	/qi
+qīn	/qin
+qīng	/qing
+qīong	/qiong
+qū	/qu
+qūn	/qun
+qǐ	/qi
+qǐn	/qin
+qǐng	/qing
+qǐong	/qiong
+qǔ	/qu
+qǔn	/qun
+ruàn	/ruan
+ruán	/ruan
+ruì	/rui
+ruí	/rui
+ruān	/ruan
+ruī	/rui
+ruǎn	/ruan
+ruǐ	/rui
+ràn	/ran
+ràng	/rang
+rào	/rao
+rán	/ran
+ráng	/rang
+ráo	/rao
+rè	/re
+rèn	/ren
+rèng	/reng
+ré	/re
+rén	/ren
+réng	/reng
+rì	/ri
+rí	/ri
+ròng	/rong
+ròu	/rou
+róng	/rong
+róu	/rou
+rù	/ru
+rùn	/run
+rùo	/ruo
+rú	/ru
+rún	/run
+rúo	/ruo
+rān	/ran
+rāng	/rang
+rāo	/rao
+rē	/re
+rēn	/ren
+rēng	/reng
+rě	/re
+rěn	/ren
+rěng	/reng
+rī	/ri
+rōng	/rong
+rōu	/rou
+rū	/ru
+rūn	/run
+rūo	/ruo
+rǎn	/ran
+rǎng	/rang
+rǎo	/rao
+rǐ	/ri
+rǒng	/rong
+rǒu	/rou
+rǔ	/ru
+rǔn	/run
+rǔo	/ruo
+shuà	/shua
+shuài	/shuai
+shuàn	/shuan
+shuàng	/shuang
+shuá	/shua
+shuái	/shuai
+shuán	/shuan
+shuáng	/shuang
+shuì	/shui
+shuí	/shui
+shuā	/shua
+shuāi	/shuai
+shuān	/shuan
+shuāng	/shuang
+shuī	/shui
+shuǎ	/shua
+shuǎi	/shuai
+shuǎn	/shuan
+shuǎng	/shuang
+shuǐ	/shui
+shà	/sha
+shài	/shai
+shàn	/shan
+shàng	/shang
+shào	/shao
+shá	/sha
+shái	/shai
+shán	/shan
+sháng	/shang
+sháo	/shao
+shè	/she
+shèi	/shei
+shèn	/shen
+shèng	/sheng
+shé	/she
+shéi	/shei
+shén	/shen
+shéng	/sheng
+shì	/shi
+shí	/shi
+shòu	/shou
+shóu	/shou
+shù	/shu
+shùn	/shun
+shùo	/shuo
+shú	/shu
+shún	/shun
+shúo	/shuo
+shā	/sha
+shāi	/shai
+shān	/shan
+shāng	/shang
+shāo	/shao
+shē	/she
+shēi	/shei
+shēn	/shen
+shēng	/sheng
+shě	/she
+shěi	/shei
+shěn	/shen
+shěng	/sheng
+shī	/shi
+shōu	/shou
+shū	/shu
+shūn	/shun
+shūo	/shuo
+shǎ	/sha
+shǎi	/shai
+shǎn	/shan
+shǎng	/shang
+shǎo	/shao
+shǐ	/shi
+shǒu	/shou
+shǔ	/shu
+shǔn	/shun
+shǔo	/shuo
+suàn	/suan
+suán	/suan
+suì	/sui
+suí	/sui
+suān	/suan
+suī	/sui
+suǎn	/suan
+suǐ	/sui
+sà	/sa
+sài	/sai
+sàn	/san
+sàng	/sang
+sào	/sao
+sá	/sa
+sái	/sai
+sán	/san
+sáng	/sang
+sáo	/sao
+sè	/se
+sèn	/sen
+sèng	/seng
+sé	/se
+sén	/sen
+séng	/seng
+sì	/si
+sí	/si
+sòng	/song
+sòu	/sou
+sóng	/song
+sóu	/sou
+sù	/su
+sùn	/sun
+sùo	/suo
+sú	/su
+sún	/sun
+súo	/suo
+sā	/sa
+sāi	/sai
+sān	/san
+sāng	/sang
+sāo	/sao
+sē	/se
+sēn	/sen
+sēng	/seng
+sě	/se
+sěn	/sen
+sěng	/seng
+sī	/si
+sōng	/song
+sōu	/sou
+sū	/su
+sūn	/sun
+sūo	/suo
+sǎ	/sa
+sǎi	/sai
+sǎn	/san
+sǎng	/sang
+sǎo	/sao
+sǐ	/si
+sǒng	/song
+sǒu	/sou
+sǔ	/su
+sǔn	/sun
+sǔo	/suo
+tiàn	/tian
+tiào	/tiao
+tián	/tian
+tiáo	/tiao
+tiè	/tie
+tié	/tie
+tiān	/tian
+tiāo	/tiao
+tiē	/tie
+tiě	/tie
+tiǎn	/tian
+tiǎo	/tiao
+tuàn	/tuan
+tuán	/tuan
+tuì	/tui
+tuí	/tui
+tuān	/tuan
+tuī	/tui
+tuǎn	/tuan
+tuǐ	/tui
+tà	/ta
+tài	/tai
+tàn	/tan
+tàng	/tang
+tào	/tao
+tá	/ta
+tái	/tai
+tán	/tan
+táng	/tang
+táo	/tao
+tè	/te
+tèng	/teng
+té	/te
+téng	/teng
+tì	/ti
+tìng	/ting
+tí	/ti
+tíng	/ting
+tòng	/tong
+tòu	/tou
+tóng	/tong
+tóu	/tou
+tù	/tu
+tùn	/tun
+tùo	/tuo
+tú	/tu
+tún	/tun
+túo	/tuo
+tā	/ta
+tāi	/tai
+tān	/tan
+tāng	/tang
+tāo	/tao
+tē	/te
+tēng	/teng
+tě	/te
+těng	/teng
+tī	/ti
+tīng	/ting
+tōng	/tong
+tōu	/tou
+tū	/tu
+tūn	/tun
+tūo	/tuo
+tǎ	/ta
+tǎi	/tai
+tǎn	/tan
+tǎng	/tang
+tǎo	/tao
+tǐ	/ti
+tǐng	/ting
+tǒng	/tong
+tǒu	/tou
+tǔ	/tu
+tǔn	/tun
+tǔo	/tuo
+wà	/wa
+wài	/wai
+wàn	/wan
+wàng	/wang
+wá	/wa
+wái	/wai
+wán	/wan
+wáng	/wang
+wèi	/wei
+wèn	/wen
+wèng	/weng
+wéi	/wei
+wén	/wen
+wéng	/weng
+wò	/wo
+wó	/wo
+wù	/wu
+wú	/wu
+wā	/wa
+wāi	/wai
+wān	/wan
+wāng	/wang
+wēi	/wei
+wēn	/wen
+wēng	/weng
+wěi	/wei
+wěn	/wen
+wěng	/weng
+wō	/wo
+wū	/wu
+wǎ	/wa
+wǎi	/wai
+wǎn	/wan
+wǎng	/wang
+wǒ	/wo
+wǔ	/wu
+xià	/xia
+xiàn	/xian
+xiàng	/xiang
+xiào	/xiao
+xiá	/xia
+xián	/xian
+xiáng	/xiang
+xiáo	/xiao
+xiè	/xie
+xié	/xie
+xiù	/xiu
+xiú	/xiu
+xiā	/xia
+xiān	/xian
+xiāng	/xiang
+xiāo	/xiao
+xiē	/xie
+xiě	/xie
+xiū	/xiu
+xiǎ	/xia
+xiǎn	/xian
+xiǎng	/xiang
+xiǎo	/xiao
+xiǔ	/xiu
+xuàn	/xuan
+xuán	/xuan
+xuè	/xue
+xué	/xue
+xuān	/xuan
+xuē	/xue
+xuě	/xue
+xuǎn	/xuan
+xì	/xi
+xìn	/xin
+xìng	/xing
+xìong	/xiong
+xí	/xi
+xín	/xin
+xíng	/xing
+xíong	/xiong
+xù	/xu
+xùn	/xun
+xú	/xu
+xún	/xun
+xī	/xi
+xīn	/xin
+xīng	/xing
+xīong	/xiong
+xū	/xu
+xūn	/xun
+xǐ	/xi
+xǐn	/xin
+xǐng	/xing
+xǐong	/xiong
+xǔ	/xu
+xǔn	/xun
+yuàn	/yuan
+yuán	/yuan
+yuè	/yue
+yué	/yue
+yuān	/yuan
+yuē	/yue
+yuě	/yue
+yuǎn	/yuan
+yà	/ya
+yàn	/yan
+yàng	/yang
+yào	/yao
+yá	/ya
+yán	/yan
+yáng	/yang
+yáo	/yao
+yè	/ye
+yé	/ye
+yì	/yi
+yìn	/yin
+yìng	/ying
+yí	/yi
+yín	/yin
+yíng	/ying
+yò	/yo
+yòng	/yong
+yòu	/you
+yó	/yo
+yóng	/yong
+yóu	/you
+yù	/yu
+yùn	/yun
+yú	/yu
+yún	/yun
+yā	/ya
+yān	/yan
+yāng	/yang
+yāo	/yao
+yē	/ye
+yě	/ye
+yī	/yi
+yīn	/yin
+yīng	/ying
+yō	/yo
+yōng	/yong
+yōu	/you
+yū	/yu
+yūn	/yun
+yǎ	/ya
+yǎn	/yan
+yǎng	/yang
+yǎo	/yao
+yǐ	/yi
+yǐn	/yin
+yǐng	/ying
+yǒ	/yo
+yǒng	/yong
+yǒu	/you
+yǔ	/yu
+yǔn	/yun
+zhuà	/zhua
+zhuài	/zhuai
+zhuàn	/zhuan
+zhuàng	/zhuang
+zhuá	/zhua
+zhuái	/zhuai
+zhuán	/zhuan
+zhuáng	/zhuang
+zhuì	/zhui
+zhuí	/zhui
+zhuā	/zhua
+zhuāi	/zhuai
+zhuān	/zhuan
+zhuāng	/zhuang
+zhuī	/zhui
+zhuǎ	/zhua
+zhuǎi	/zhuai
+zhuǎn	/zhuan
+zhuǎng	/zhuang
+zhuǐ	/zhui
+zhà	/zha
+zhài	/zhai
+zhàn	/zhan
+zhàng	/zhang
+zhào	/zhao
+zhá	/zha
+zhái	/zhai
+zhán	/zhan
+zháng	/zhang
+zháo	/zhao
+zhè	/zhe
+zhèi	/zhei
+zhèn	/zhen
+zhèng	/zheng
+zhé	/zhe
+zhéi	/zhei
+zhén	/zhen
+zhéng	/zheng
+zhì	/zhi
+zhí	/zhi
+zhòng	/zhong
+zhòu	/zhou
+zhóng	/zhong
+zhóu	/zhou
+zhù	/zhu
+zhùn	/zhun
+zhùo	/zhuo
+zhú	/zhu
+zhún	/zhun
+zhúo	/zhuo
+zhā	/zha
+zhāi	/zhai
+zhān	/zhan
+zhāng	/zhang
+zhāo	/zhao
+zhē	/zhe
+zhēi	/zhei
+zhēn	/zhen
+zhēng	/zheng
+zhě	/zhe
+zhěi	/zhei
+zhěn	/zhen
+zhěng	/zheng
+zhī	/zhi
+zhōng	/zhong
+zhōu	/zhou
+zhū	/zhu
+zhūn	/zhun
+zhūo	/zhuo
+zhǎ	/zha
+zhǎi	/zhai
+zhǎn	/zhan
+zhǎng	/zhang
+zhǎo	/zhao
+zhǐ	/zhi
+zhǒng	/zhong
+zhǒu	/zhou
+zhǔ	/zhu
+zhǔn	/zhun
+zhǔo	/zhuo
+zuàn	/zuan
+zuán	/zuan
+zuì	/zui
+zuí	/zui
+zuān	/zuan
+zuī	/zui
+zuǎn	/zuan
+zuǐ	/zui
+zà	/za
+zài	/zai
+zàn	/zan
+zàng	/zang
+zào	/zao
+zá	/za
+zái	/zai
+zán	/zan
+záng	/zang
+záo	/zao
+zè	/ze
+zèi	/zei
+zèn	/zen
+zèng	/zeng
+zé	/ze
+zéi	/zei
+zén	/zen
+zéng	/zeng
+zì	/zi
+zí	/zi
+zòng	/zong
+zòu	/zou
+zóng	/zong
+zóu	/zou
+zù	/zu
+zùn	/zun
+zùo	/zuo
+zú	/zu
+zún	/zun
+zúo	/zuo
+zā	/za
+zāi	/zai
+zān	/zan
+zāng	/zang
+zāo	/zao
+zē	/ze
+zēi	/zei
+zēn	/zen
+zēng	/zeng
+zě	/ze
+zěi	/zei
+zěn	/zen
+zěng	/zeng
+zī	/zi
+zōng	/zong
+zōu	/zou
+zū	/zu
+zūn	/zun
+zūo	/zuo
+zǎ	/za
+zǎi	/zai
+zǎn	/zan
+zǎng	/zang
+zǎo	/zao
+zǐ	/zi
+zǒng	/zong
+zǒu	/zou
+zǔ	/zu
+zǔn	/zun
+zǔo	/zuo
 ~	/bl
 Ä	/a
 Ö	/o
@@ -259074,6 +260704,7 @@ $	/my
 ä	/a
 ö	/o
 ü	/u
+ 	/nbsp
 ¡	/th
 ¢	/my
 £	/yb
@@ -259127,14 +260758,30 @@ $	/my
 Þ	/t
 ß	/ss
 à	/a
+ài	/ai
+àn	/an
+àng	/ang
+ào	/ao
 á	/a
+ái	/ai
+án	/an
+áng	/ang
+áo	/ao
 â	/a
 ã	/a
 å	/a
 æ	/ae
 ç	/c
 è	/e
+èi	/ei
+èn	/en
+èng	/eng
+èr	/er
 é	/e
+éi	/ei
+én	/en
+éng	/eng
+ér	/er
 ê	/e
 ë	/e
 ì	/i
@@ -259144,7 +260791,9 @@ $	/my
 ð	/d
 ñ	/n
 ò	/o
+òu	/ou
 ó	/o
+óu	/ou
 ô	/o
 õ	/o
 ÷	/ch
@@ -259157,22 +260806,37 @@ $	/my
 ÿ	/y
 Ā	/a
 ā	/a
+āi	/ai
+ān	/an
+āng	/ang
+āo	/ao
 Ă	/a
 ă	/a
 Ą	/a
 ć	/c
 Ĉ	/ch
+Ĉ	/c
+ĉ	/ch
+ĉ	/c
 ċ	/c
 č	/c
 Ď	/d
 đ	/d
 Ē	/e
 ē	/e
+ēi	/ei
+ēn	/en
+ēng	/eng
+ēr	/er
 Ĕ	/e
 ė	/e
 Ę	/e
 Ě	/e
 ě	/e
+ěi	/ei
+ěn	/en
+ěng	/eng
+ěr	/er
 Ĝ	/g
 Ğ	/g
 ġ	/g
@@ -259205,6 +260869,7 @@ $	/my
 ŋ	/ng
 Ō	/o
 ō	/o
+ōu	/ou
 Ŏ	/o
 ő	/o
 Œ	/ce
@@ -259213,7 +260878,10 @@ $	/my
 Ŗ	/r
 Ř	/r
 Ś	/s
+Ŝ	/sh
+Ŝ	/s
 ŝ	/sh
+ŝ	/s
 Ş	/s
 Š	/s
 ţ	/t
@@ -259279,10 +260947,15 @@ $	/my
 ƺ	/z
 Ǎ	/a
 ǎ	/a
+ǎi	/ai
+ǎn	/an
+ǎng	/ang
+ǎo	/ao
 Ǐ	/i
 ǐ	/i
 Ǒ	/o
 ǒ	/o
+ǒu	/ou
 Ǔ	/u
 ǔ	/u
 Ǖ	/u
@@ -259423,7 +261096,11 @@ $	/my
 Ϝ	/digamma
 ϝ	/digamma
 Ẑ	/zh
+Ẑ	/z
 ẑ	/zh
+ẑ	/z
+——	/pz
+……	/sl
  	/en
  	/em
 ‐	/hx
@@ -259439,6 +261116,7 @@ $	/my
 ‡	/jb
 ․	/jh
 ‥	/mh
+…	/sl
 …	/dd
 ‰	/qf
 ‱	/wf
@@ -259456,6 +261134,7 @@ $	/my
 ⁇	/wh
 ⁈	/wh
 ⁉	/th
+℃	/ssd
 ≠	/bd
 ⎷	/yes
 ①	/yi
@@ -259572,1632 +261251,13 @@ $	/my
 ⓽	/jiu
 ⓾	/shi
 ⓿	/ling
+─│┌┐└┘├┤┬┴┼	/bg
 ✅	/yes
 ✓	/yes
 ✗	/no
 ✘	/no
 ❌	/no
 ❓	/wh
-——	/pz
-……	/sl
-biàn	/bian
-biào	/biao
-bián	/bian
-biáo	/biao
-biè	/bie
-bié	/bie
-biān	/bian
-biāo	/biao
-biē	/bie
-biě	/bie
-biǎn	/bian
-biǎo	/biao
-bà	/ba
-bài	/bai
-bàn	/ban
-bàng	/bang
-bào	/bao
-bá	/ba
-bái	/bai
-bán	/ban
-báng	/bang
-báo	/bao
-bèi	/bei
-bèn	/ben
-bèng	/beng
-béi	/bei
-bén	/ben
-béng	/beng
-bì	/bi
-bìn	/bin
-bìng	/bing
-bí	/bi
-bín	/bin
-bíng	/bing
-bò	/bo
-bó	/bo
-bù	/bu
-bú	/bu
-bā	/ba
-bāi	/bai
-bān	/ban
-bāng	/bang
-bāo	/bao
-bēi	/bei
-bēn	/ben
-bēng	/beng
-běi	/bei
-běn	/ben
-běng	/beng
-bī	/bi
-bīn	/bin
-bīng	/bing
-bō	/bo
-bū	/bu
-bǎ	/ba
-bǎi	/bai
-bǎn	/ban
-bǎng	/bang
-bǎo	/bao
-bǐ	/bi
-bǐn	/bin
-bǐng	/bing
-bǒ	/bo
-bǔ	/bu
-chuà	/chua
-chuài	/chuai
-chuàn	/chuan
-chuàng	/chuang
-chuá	/chua
-chuái	/chuai
-chuán	/chuan
-chuáng	/chuang
-chuā	/chua
-chuāi	/chuai
-chuān	/chuan
-chuāng	/chuang
-chuǎ	/chua
-chuǎi	/chuai
-chuǎn	/chuan
-chuǎng	/chuang
-chà	/cha
-chài	/chai
-chàn	/chan
-chàng	/chang
-chào	/chao
-chá	/cha
-chái	/chai
-chán	/chan
-cháng	/chang
-cháo	/chao
-chè	/che
-chèn	/chen
-chèng	/cheng
-ché	/che
-chén	/chen
-chéng	/cheng
-chì	/chi
-chí	/chi
-chòng	/chong
-chòu	/chou
-chóng	/chong
-chóu	/chou
-chù	/chu
-chùi	/chui
-chùn	/chun
-chùo	/chuo
-chú	/chu
-chúi	/chui
-chún	/chun
-chúo	/chuo
-chā	/cha
-chāi	/chai
-chān	/chan
-chāng	/chang
-chāo	/chao
-chē	/che
-chēn	/chen
-chēng	/cheng
-chě	/che
-chěn	/chen
-chěng	/cheng
-chī	/chi
-chōng	/chong
-chōu	/chou
-chū	/chu
-chūi	/chui
-chūn	/chun
-chūo	/chuo
-chǎ	/cha
-chǎi	/chai
-chǎn	/chan
-chǎng	/chang
-chǎo	/chao
-chǐ	/chi
-chǒng	/chong
-chǒu	/chou
-chǔ	/chu
-chǔi	/chui
-chǔn	/chun
-chǔo	/chuo
-cuàn	/cuan
-cuán	/cuan
-cuān	/cuan
-cuǎn	/cuan
-cà	/ca
-cài	/cai
-càn	/can
-càng	/cang
-cào	/cao
-cá	/ca
-cái	/cai
-cán	/can
-cáng	/cang
-cáo	/cao
-cè	/ce
-cèn	/cen
-cèng	/ceng
-cé	/ce
-cén	/cen
-céng	/ceng
-cì	/ci
-cí	/ci
-còng	/cong
-còu	/cou
-cóng	/cong
-cóu	/cou
-cù	/cu
-cùi	/cui
-cùn	/cun
-cùo	/cuo
-cú	/cu
-cúi	/cui
-cún	/cun
-cúo	/cuo
-cā	/ca
-cāi	/cai
-cān	/can
-cāng	/cang
-cāo	/cao
-cē	/ce
-cēn	/cen
-cēng	/ceng
-cě	/ce
-cěn	/cen
-cěng	/ceng
-cī	/ci
-cōng	/cong
-cōu	/cou
-cū	/cu
-cūi	/cui
-cūn	/cun
-cūo	/cuo
-cǎ	/ca
-cǎi	/cai
-cǎn	/can
-cǎng	/cang
-cǎo	/cao
-cǐ	/ci
-cǒng	/cong
-cǒu	/cou
-cǔ	/cu
-cǔi	/cui
-cǔn	/cun
-cǔo	/cuo
-diàn	/dian
-diào	/diao
-dián	/dian
-diáo	/diao
-diè	/die
-dié	/die
-diān	/dian
-diāo	/diao
-diē	/die
-diě	/die
-diǎn	/dian
-diǎo	/diao
-duàn	/duan
-duán	/duan
-duān	/duan
-duǎn	/duan
-dà	/da
-dài	/dai
-dàn	/dan
-dàng	/dang
-dào	/dao
-dá	/da
-dái	/dai
-dán	/dan
-dáng	/dang
-dáo	/dao
-dè	/de
-dèi	/dei
-dèn	/den
-dèng	/deng
-dé	/de
-déi	/dei
-dén	/den
-déng	/deng
-dì	/di
-dìng	/ding
-dìu	/diu
-dí	/di
-díng	/ding
-díu	/diu
-dòng	/dong
-dòu	/dou
-dóng	/dong
-dóu	/dou
-dù	/du
-dùi	/dui
-dùn	/dun
-dùo	/duo
-dú	/du
-dúi	/dui
-dún	/dun
-dúo	/duo
-dā	/da
-dāi	/dai
-dān	/dan
-dāng	/dang
-dāo	/dao
-dē	/de
-dēi	/dei
-dēn	/den
-dēng	/deng
-dě	/de
-děi	/dei
-děn	/den
-děng	/deng
-dī	/di
-dīng	/ding
-dīu	/diu
-dōng	/dong
-dōu	/dou
-dū	/du
-dūi	/dui
-dūn	/dun
-dūo	/duo
-dǎ	/da
-dǎi	/dai
-dǎn	/dan
-dǎng	/dang
-dǎo	/dao
-dǐ	/di
-dǐng	/ding
-dǐu	/diu
-dǒng	/dong
-dǒu	/dou
-dǔ	/du
-dǔi	/dui
-dǔn	/dun
-dǔo	/duo
-fà	/fa
-fàn	/fan
-fàng	/fang
-fá	/fa
-fán	/fan
-fáng	/fang
-fèi	/fei
-fèn	/fen
-fèng	/feng
-féi	/fei
-fén	/fen
-féng	/feng
-fò	/fo
-fòu	/fou
-fó	/fo
-fóu	/fou
-fù	/fu
-fú	/fu
-fā	/fa
-fān	/fan
-fāng	/fang
-fēi	/fei
-fēn	/fen
-fēng	/feng
-fěi	/fei
-fěn	/fen
-fěng	/feng
-fō	/fo
-fōu	/fou
-fū	/fu
-fǎ	/fa
-fǎn	/fan
-fǎng	/fang
-fǒ	/fo
-fǒu	/fou
-fǔ	/fu
-guà	/gua
-guài	/guai
-guàn	/guan
-guàng	/guang
-guá	/gua
-guái	/guai
-guán	/guan
-guáng	/guang
-guā	/gua
-guāi	/guai
-guān	/guan
-guāng	/guang
-guǎ	/gua
-guǎi	/guai
-guǎn	/guan
-guǎng	/guang
-gà	/ga
-gài	/gai
-gàn	/gan
-gàng	/gang
-gào	/gao
-gá	/ga
-gái	/gai
-gán	/gan
-gáng	/gang
-gáo	/gao
-gè	/ge
-gèi	/gei
-gèn	/gen
-gèng	/geng
-gé	/ge
-géi	/gei
-gén	/gen
-géng	/geng
-gòng	/gong
-gòu	/gou
-góng	/gong
-góu	/gou
-gù	/gu
-gùi	/gui
-gùn	/gun
-gùo	/guo
-gú	/gu
-gúi	/gui
-gún	/gun
-gúo	/guo
-gā	/ga
-gāi	/gai
-gān	/gan
-gāng	/gang
-gāo	/gao
-gē	/ge
-gēi	/gei
-gēn	/gen
-gēng	/geng
-gě	/ge
-gěi	/gei
-gěn	/gen
-gěng	/geng
-gōng	/gong
-gōu	/gou
-gū	/gu
-gūi	/gui
-gūn	/gun
-gūo	/guo
-gǎ	/ga
-gǎi	/gai
-gǎn	/gan
-gǎng	/gang
-gǎo	/gao
-gǒng	/gong
-gǒu	/gou
-gǔ	/gu
-gǔi	/gui
-gǔn	/gun
-gǔo	/guo
-huà	/hua
-huài	/huai
-huàn	/huan
-huàng	/huang
-huá	/hua
-huái	/huai
-huán	/huan
-huáng	/huang
-huā	/hua
-huāi	/huai
-huān	/huan
-huāng	/huang
-huǎ	/hua
-huǎi	/huai
-huǎn	/huan
-huǎng	/huang
-hà	/ha
-hài	/hai
-hàn	/han
-hàng	/hang
-hào	/hao
-há	/ha
-hái	/hai
-hán	/han
-háng	/hang
-háo	/hao
-hè	/he
-hèi	/hei
-hèn	/hen
-hèng	/heng
-hé	/he
-héi	/hei
-hén	/hen
-héng	/heng
-hòng	/hong
-hòu	/hou
-hóng	/hong
-hóu	/hou
-hù	/hu
-hùi	/hui
-hùn	/hun
-hùo	/huo
-hú	/hu
-húi	/hui
-hún	/hun
-húo	/huo
-hā	/ha
-hāi	/hai
-hān	/han
-hāng	/hang
-hāo	/hao
-hē	/he
-hēi	/hei
-hēn	/hen
-hēng	/heng
-hě	/he
-hěi	/hei
-hěn	/hen
-hěng	/heng
-hōng	/hong
-hōu	/hou
-hū	/hu
-hūi	/hui
-hūn	/hun
-hūo	/huo
-hǎ	/ha
-hǎi	/hai
-hǎn	/han
-hǎng	/hang
-hǎo	/hao
-hǒng	/hong
-hǒu	/hou
-hǔ	/hu
-hǔi	/hui
-hǔn	/hun
-hǔo	/huo
-jià	/jia
-jiàn	/jian
-jiàng	/jiang
-jiào	/jiao
-jiá	/jia
-jián	/jian
-jiáng	/jiang
-jiáo	/jiao
-jiè	/jie
-jié	/jie
-jiā	/jia
-jiān	/jian
-jiāng	/jiang
-jiāo	/jiao
-jiē	/jie
-jiě	/jie
-jiǎ	/jia
-jiǎn	/jian
-jiǎng	/jiang
-jiǎo	/jiao
-juàn	/juan
-juán	/juan
-juè	/jue
-jué	/jue
-juān	/juan
-juē	/jue
-juě	/jue
-juǎn	/juan
-jì	/ji
-jìn	/jin
-jìng	/jing
-jìong	/jiong
-jìu	/jiu
-jí	/ji
-jín	/jin
-jíng	/jing
-jíong	/jiong
-jíu	/jiu
-jù	/ju
-jùn	/jun
-jú	/ju
-jún	/jun
-jī	/ji
-jīn	/jin
-jīng	/jing
-jīong	/jiong
-jīu	/jiu
-jū	/ju
-jūn	/jun
-jǐ	/ji
-jǐn	/jin
-jǐng	/jing
-jǐong	/jiong
-jǐu	/jiu
-jǔ	/ju
-jǔn	/jun
-kuà	/kua
-kuài	/kuai
-kuàn	/kuan
-kuàng	/kuang
-kuá	/kua
-kuái	/kuai
-kuán	/kuan
-kuáng	/kuang
-kuā	/kua
-kuāi	/kuai
-kuān	/kuan
-kuāng	/kuang
-kuǎ	/kua
-kuǎi	/kuai
-kuǎn	/kuan
-kuǎng	/kuang
-kà	/ka
-kài	/kai
-kàn	/kan
-kàng	/kang
-kào	/kao
-ká	/ka
-kái	/kai
-kán	/kan
-káng	/kang
-káo	/kao
-kè	/ke
-kèi	/kei
-kèn	/ken
-kèng	/keng
-ké	/ke
-kéi	/kei
-kén	/ken
-kéng	/keng
-kòng	/kong
-kòu	/kou
-kóng	/kong
-kóu	/kou
-kù	/ku
-kùi	/kui
-kùn	/kun
-kùo	/kuo
-kú	/ku
-kúi	/kui
-kún	/kun
-kúo	/kuo
-kā	/ka
-kāi	/kai
-kān	/kan
-kāng	/kang
-kāo	/kao
-kē	/ke
-kēi	/kei
-kēn	/ken
-kēng	/keng
-kě	/ke
-kěi	/kei
-kěn	/ken
-kěng	/keng
-kōng	/kong
-kōu	/kou
-kū	/ku
-kūi	/kui
-kūn	/kun
-kūo	/kuo
-kǎ	/ka
-kǎi	/kai
-kǎn	/kan
-kǎng	/kang
-kǎo	/kao
-kǒng	/kong
-kǒu	/kou
-kǔ	/ku
-kǔi	/kui
-kǔn	/kun
-kǔo	/kuo
-lià	/lia
-liàn	/lian
-liàng	/liang
-liào	/liao
-liá	/lia
-lián	/lian
-liáng	/liang
-liáo	/liao
-liè	/lie
-lié	/lie
-liā	/lia
-liān	/lian
-liāng	/liang
-liāo	/liao
-liē	/lie
-liě	/lie
-liǎ	/lia
-liǎn	/lian
-liǎng	/liang
-liǎo	/liao
-luàn	/luan
-luán	/luan
-luè	/lue
-lué	/lue
-luò	/luo
-luó	/luo
-luān	/luan
-luē	/lue
-luě	/lue
-luō	/luo
-luǎn	/luan
-luǒ	/luo
-là	/la
-lài	/lai
-làn	/lan
-làng	/lang
-lào	/lao
-lá	/la
-lái	/lai
-lán	/lan
-láng	/lang
-láo	/lao
-lè	/le
-lèi	/lei
-lèng	/leng
-lé	/le
-léi	/lei
-léng	/leng
-lì	/li
-lìn	/lin
-lìng	/ling
-lìu	/liu
-lí	/li
-lín	/lin
-líng	/ling
-líu	/liu
-lòng	/long
-lòu	/lou
-lóng	/long
-lóu	/lou
-lù	/lu
-lùn	/lun
-lú	/lu
-lún	/lun
-lā	/la
-lāi	/lai
-lān	/lan
-lāng	/lang
-lāo	/lao
-lē	/le
-lēi	/lei
-lēng	/leng
-lě	/le
-lěi	/lei
-lěng	/leng
-lī	/li
-līn	/lin
-līng	/ling
-līu	/liu
-lōng	/long
-lōu	/lou
-lū	/lu
-lūn	/lun
-lǎ	/la
-lǎi	/lai
-lǎn	/lan
-lǎng	/lang
-lǎo	/lao
-lǐ	/li
-lǐn	/lin
-lǐng	/ling
-lǐu	/liu
-lǒng	/long
-lǒu	/lou
-lǔ	/lu
-lǔn	/lun
-lǖ	/lv
-lǘ	/lv
-lǚ	/lv
-lǜ	/lv
-miàn	/mian
-miào	/miao
-mián	/mian
-miáo	/miao
-miè	/mie
-mié	/mie
-miān	/mian
-miāo	/miao
-miē	/mie
-miě	/mie
-miǎn	/mian
-miǎo	/miao
-mà	/ma
-mài	/mai
-màn	/man
-màng	/mang
-mào	/mao
-má	/ma
-mái	/mai
-mán	/man
-máng	/mang
-máo	/mao
-mè	/me
-mèi	/mei
-mèn	/men
-mèng	/meng
-mé	/me
-méi	/mei
-mén	/men
-méng	/meng
-mì	/mi
-mìn	/min
-mìng	/ming
-mìu	/miu
-mí	/mi
-mín	/min
-míng	/ming
-míu	/miu
-mò	/mo
-mòu	/mou
-mó	/mo
-móu	/mou
-mù	/mu
-mú	/mu
-mā	/ma
-māi	/mai
-mān	/man
-māng	/mang
-māo	/mao
-mē	/me
-mēi	/mei
-mēn	/men
-mēng	/meng
-mě	/me
-měi	/mei
-měn	/men
-měng	/meng
-mī	/mi
-mīn	/min
-mīng	/ming
-mīu	/miu
-mō	/mo
-mōu	/mou
-mū	/mu
-mǎ	/ma
-mǎi	/mai
-mǎn	/man
-mǎng	/mang
-mǎo	/mao
-mǐ	/mi
-mǐn	/min
-mǐng	/ming
-mǐu	/miu
-mǒ	/mo
-mǒu	/mou
-mǔ	/mu
-niàn	/nian
-niàng	/niang
-niào	/niao
-nián	/nian
-niáng	/niang
-niáo	/niao
-niè	/nie
-nié	/nie
-niān	/nian
-niāng	/niang
-niāo	/niao
-niē	/nie
-niě	/nie
-niǎn	/nian
-niǎng	/niang
-niǎo	/niao
-nuàn	/nuan
-nuán	/nuan
-nuè	/nue
-nué	/nue
-nuān	/nuan
-nuē	/nue
-nuě	/nue
-nuǎn	/nuan
-nà	/na
-nài	/nai
-nàn	/nan
-nàng	/nang
-nào	/nao
-ná	/na
-nái	/nai
-nán	/nan
-náng	/nang
-náo	/nao
-nè	/ne
-nèi	/nei
-nèn	/nen
-nèng	/neng
-né	/ne
-néi	/nei
-nén	/nen
-néng	/neng
-nì	/ni
-nìn	/nin
-nìng	/ning
-nìu	/niu
-ní	/ni
-nín	/nin
-níng	/ning
-níu	/niu
-nòng	/nong
-nòu	/nou
-nóng	/nong
-nóu	/nou
-nù	/nu
-nùo	/nuo
-nú	/nu
-núo	/nuo
-nā	/na
-nāi	/nai
-nān	/nan
-nāng	/nang
-nāo	/nao
-nē	/ne
-nēi	/nei
-nēn	/nen
-nēng	/neng
-ně	/ne
-něi	/nei
-něn	/nen
-něng	/neng
-nī	/ni
-nīn	/nin
-nīng	/ning
-nīu	/niu
-nōng	/nong
-nōu	/nou
-nū	/nu
-nūo	/nuo
-nǎ	/na
-nǎi	/nai
-nǎn	/nan
-nǎng	/nang
-nǎo	/nao
-nǐ	/ni
-nǐn	/nin
-nǐng	/ning
-nǐu	/niu
-nǒng	/nong
-nǒu	/nou
-nǔ	/nu
-nǔo	/nuo
-nǖ	/nv
-nǘ	/nv
-nǚ	/nv
-nǜ	/nv
-piàn	/pian
-piào	/piao
-pián	/pian
-piáo	/piao
-piè	/pie
-pié	/pie
-piān	/pian
-piāo	/piao
-piē	/pie
-piě	/pie
-piǎn	/pian
-piǎo	/piao
-pà	/pa
-pài	/pai
-pàn	/pan
-pàng	/pang
-pào	/pao
-pá	/pa
-pái	/pai
-pán	/pan
-páng	/pang
-páo	/pao
-pèi	/pei
-pèn	/pen
-pèng	/peng
-péi	/pei
-pén	/pen
-péng	/peng
-pì	/pi
-pìn	/pin
-pìng	/ping
-pí	/pi
-pín	/pin
-píng	/ping
-pò	/po
-pòu	/pou
-pó	/po
-póu	/pou
-pù	/pu
-pú	/pu
-pā	/pa
-pāi	/pai
-pān	/pan
-pāng	/pang
-pāo	/pao
-pēi	/pei
-pēn	/pen
-pēng	/peng
-pěi	/pei
-pěn	/pen
-pěng	/peng
-pī	/pi
-pīn	/pin
-pīng	/ping
-pō	/po
-pōu	/pou
-pū	/pu
-pǎ	/pa
-pǎi	/pai
-pǎn	/pan
-pǎng	/pang
-pǎo	/pao
-pǐ	/pi
-pǐn	/pin
-pǐng	/ping
-pǒ	/po
-pǒu	/pou
-pǔ	/pu
-qià	/qia
-qiàn	/qian
-qiàng	/qiang
-qiào	/qiao
-qiá	/qia
-qián	/qian
-qiáng	/qiang
-qiáo	/qiao
-qiè	/qie
-qié	/qie
-qiā	/qia
-qiān	/qian
-qiāng	/qiang
-qiāo	/qiao
-qiē	/qie
-qiě	/qie
-qiǎ	/qia
-qiǎn	/qian
-qiǎng	/qiang
-qiǎo	/qiao
-quàn	/quan
-quán	/quan
-què	/que
-qué	/que
-quān	/quan
-quē	/que
-quě	/que
-quǎn	/quan
-qì	/qi
-qìn	/qin
-qìng	/qing
-qìong	/qiong
-qìu	/qiu
-qí	/qi
-qín	/qin
-qíng	/qing
-qíong	/qiong
-qíu	/qiu
-qù	/qu
-qùn	/qun
-qú	/qu
-qún	/qun
-qī	/qi
-qīn	/qin
-qīng	/qing
-qīong	/qiong
-qīu	/qiu
-qū	/qu
-qūn	/qun
-qǐ	/qi
-qǐn	/qin
-qǐng	/qing
-qǐong	/qiong
-qǐu	/qiu
-qǔ	/qu
-qǔn	/qun
-ruàn	/ruan
-ruán	/ruan
-ruì	/rui
-ruí	/rui
-ruān	/ruan
-ruī	/rui
-ruǎn	/ruan
-ruǐ	/rui
-ràn	/ran
-ràng	/rang
-rào	/rao
-rán	/ran
-ráng	/rang
-ráo	/rao
-rè	/re
-rèn	/ren
-rèng	/reng
-ré	/re
-rén	/ren
-réng	/reng
-rì	/ri
-rí	/ri
-ròng	/rong
-ròu	/rou
-róng	/rong
-róu	/rou
-rù	/ru
-rùn	/run
-rùo	/ruo
-rú	/ru
-rún	/run
-rúo	/ruo
-rān	/ran
-rāng	/rang
-rāo	/rao
-rē	/re
-rēn	/ren
-rēng	/reng
-rě	/re
-rěn	/ren
-rěng	/reng
-rī	/ri
-rōng	/rong
-rōu	/rou
-rū	/ru
-rūn	/run
-rūo	/ruo
-rǎn	/ran
-rǎng	/rang
-rǎo	/rao
-rǐ	/ri
-rǒng	/rong
-rǒu	/rou
-rǔ	/ru
-rǔn	/run
-rǔo	/ruo
-shuà	/shua
-shuài	/shuai
-shuàn	/shuan
-shuàng	/shuang
-shuá	/shua
-shuái	/shuai
-shuán	/shuan
-shuáng	/shuang
-shuā	/shua
-shuāi	/shuai
-shuān	/shuan
-shuāng	/shuang
-shuǎ	/shua
-shuǎi	/shuai
-shuǎn	/shuan
-shuǎng	/shuang
-shà	/sha
-shài	/shai
-shàn	/shan
-shàng	/shang
-shào	/shao
-shá	/sha
-shái	/shai
-shán	/shan
-sháng	/shang
-sháo	/shao
-shè	/she
-shèi	/shei
-shèn	/shen
-shèng	/sheng
-shé	/she
-shéi	/shei
-shén	/shen
-shéng	/sheng
-shì	/shi
-shí	/shi
-shòu	/shou
-shóu	/shou
-shù	/shu
-shùi	/shui
-shùn	/shun
-shùo	/shuo
-shú	/shu
-shúi	/shui
-shún	/shun
-shúo	/shuo
-shā	/sha
-shāi	/shai
-shān	/shan
-shāng	/shang
-shāo	/shao
-shē	/she
-shēi	/shei
-shēn	/shen
-shēng	/sheng
-shě	/she
-shěi	/shei
-shěn	/shen
-shěng	/sheng
-shī	/shi
-shōu	/shou
-shū	/shu
-shūi	/shui
-shūn	/shun
-shūo	/shuo
-shǎ	/sha
-shǎi	/shai
-shǎn	/shan
-shǎng	/shang
-shǎo	/shao
-shǐ	/shi
-shǒu	/shou
-shǔ	/shu
-shǔi	/shui
-shǔn	/shun
-shǔo	/shuo
-suàn	/suan
-suán	/suan
-suān	/suan
-suǎn	/suan
-sà	/sa
-sài	/sai
-sàn	/san
-sàng	/sang
-sào	/sao
-sá	/sa
-sái	/sai
-sán	/san
-sáng	/sang
-sáo	/sao
-sè	/se
-sèn	/sen
-sèng	/seng
-sé	/se
-sén	/sen
-séng	/seng
-sì	/si
-sí	/si
-sòng	/song
-sòu	/sou
-sóng	/song
-sóu	/sou
-sù	/su
-sùi	/sui
-sùn	/sun
-sùo	/suo
-sú	/su
-súi	/sui
-sún	/sun
-súo	/suo
-sā	/sa
-sāi	/sai
-sān	/san
-sāng	/sang
-sāo	/sao
-sē	/se
-sēn	/sen
-sēng	/seng
-sě	/se
-sěn	/sen
-sěng	/seng
-sī	/si
-sōng	/song
-sōu	/sou
-sū	/su
-sūi	/sui
-sūn	/sun
-sūo	/suo
-sǎ	/sa
-sǎi	/sai
-sǎn	/san
-sǎng	/sang
-sǎo	/sao
-sǐ	/si
-sǒng	/song
-sǒu	/sou
-sǔ	/su
-sǔi	/sui
-sǔn	/sun
-sǔo	/suo
-tiàn	/tian
-tiào	/tiao
-tián	/tian
-tiáo	/tiao
-tiè	/tie
-tié	/tie
-tiān	/tian
-tiāo	/tiao
-tiē	/tie
-tiě	/tie
-tiǎn	/tian
-tiǎo	/tiao
-tuàn	/tuan
-tuán	/tuan
-tuān	/tuan
-tuǎn	/tuan
-tà	/ta
-tài	/tai
-tàn	/tan
-tàng	/tang
-tào	/tao
-tá	/ta
-tái	/tai
-tán	/tan
-táng	/tang
-táo	/tao
-tè	/te
-tèng	/teng
-té	/te
-téng	/teng
-tì	/ti
-tìng	/ting
-tí	/ti
-tíng	/ting
-tòng	/tong
-tòu	/tou
-tóng	/tong
-tóu	/tou
-tù	/tu
-tùi	/tui
-tùn	/tun
-tùo	/tuo
-tú	/tu
-túi	/tui
-tún	/tun
-túo	/tuo
-tā	/ta
-tāi	/tai
-tān	/tan
-tāng	/tang
-tāo	/tao
-tē	/te
-tēng	/teng
-tě	/te
-těng	/teng
-tī	/ti
-tīng	/ting
-tōng	/tong
-tōu	/tou
-tū	/tu
-tūi	/tui
-tūn	/tun
-tūo	/tuo
-tǎ	/ta
-tǎi	/tai
-tǎn	/tan
-tǎng	/tang
-tǎo	/tao
-tǐ	/ti
-tǐng	/ting
-tǒng	/tong
-tǒu	/tou
-tǔ	/tu
-tǔi	/tui
-tǔn	/tun
-tǔo	/tuo
-wà	/wa
-wài	/wai
-wàn	/wan
-wàng	/wang
-wá	/wa
-wái	/wai
-wán	/wan
-wáng	/wang
-wèi	/wei
-wèn	/wen
-wèng	/weng
-wéi	/wei
-wén	/wen
-wéng	/weng
-wò	/wo
-wó	/wo
-wù	/wu
-wú	/wu
-wā	/wa
-wāi	/wai
-wān	/wan
-wāng	/wang
-wēi	/wei
-wēn	/wen
-wēng	/weng
-wěi	/wei
-wěn	/wen
-wěng	/weng
-wō	/wo
-wū	/wu
-wǎ	/wa
-wǎi	/wai
-wǎn	/wan
-wǎng	/wang
-wǒ	/wo
-wǔ	/wu
-xià	/xia
-xiàn	/xian
-xiàng	/xiang
-xiào	/xiao
-xiá	/xia
-xián	/xian
-xiáng	/xiang
-xiáo	/xiao
-xiè	/xie
-xié	/xie
-xiā	/xia
-xiān	/xian
-xiāng	/xiang
-xiāo	/xiao
-xiē	/xie
-xiě	/xie
-xiǎ	/xia
-xiǎn	/xian
-xiǎng	/xiang
-xiǎo	/xiao
-xuàn	/xuan
-xuán	/xuan
-xuè	/xue
-xué	/xue
-xuān	/xuan
-xuē	/xue
-xuě	/xue
-xuǎn	/xuan
-xì	/xi
-xìn	/xin
-xìng	/xing
-xìong	/xiong
-xìu	/xiu
-xí	/xi
-xín	/xin
-xíng	/xing
-xíong	/xiong
-xíu	/xiu
-xù	/xu
-xùn	/xun
-xú	/xu
-xún	/xun
-xī	/xi
-xīn	/xin
-xīng	/xing
-xīong	/xiong
-xīu	/xiu
-xū	/xu
-xūn	/xun
-xǐ	/xi
-xǐn	/xin
-xǐng	/xing
-xǐong	/xiong
-xǐu	/xiu
-xǔ	/xu
-xǔn	/xun
-yuàn	/yuan
-yuán	/yuan
-yuè	/yue
-yué	/yue
-yuān	/yuan
-yuē	/yue
-yuě	/yue
-yuǎn	/yuan
-yà	/ya
-yàn	/yan
-yàng	/yang
-yào	/yao
-yá	/ya
-yán	/yan
-yáng	/yang
-yáo	/yao
-yè	/ye
-yé	/ye
-yì	/yi
-yìn	/yin
-yìng	/ying
-yí	/yi
-yín	/yin
-yíng	/ying
-yò	/yo
-yòng	/yong
-yòu	/you
-yó	/yo
-yóng	/yong
-yóu	/you
-yù	/yu
-yùn	/yun
-yú	/yu
-yún	/yun
-yā	/ya
-yān	/yan
-yāng	/yang
-yāo	/yao
-yē	/ye
-yě	/ye
-yī	/yi
-yīn	/yin
-yīng	/ying
-yō	/yo
-yōng	/yong
-yōu	/you
-yū	/yu
-yūn	/yun
-yǎ	/ya
-yǎn	/yan
-yǎng	/yang
-yǎo	/yao
-yǐ	/yi
-yǐn	/yin
-yǐng	/ying
-yǒ	/yo
-yǒng	/yong
-yǒu	/you
-yǔ	/yu
-yǔn	/yun
-zhuà	/zhua
-zhuài	/zhuai
-zhuàn	/zhuan
-zhuàng	/zhuang
-zhuá	/zhua
-zhuái	/zhuai
-zhuán	/zhuan
-zhuáng	/zhuang
-zhuā	/zhua
-zhuāi	/zhuai
-zhuān	/zhuan
-zhuāng	/zhuang
-zhuǎ	/zhua
-zhuǎi	/zhuai
-zhuǎn	/zhuan
-zhuǎng	/zhuang
-zhà	/zha
-zhài	/zhai
-zhàn	/zhan
-zhàng	/zhang
-zhào	/zhao
-zhá	/zha
-zhái	/zhai
-zhán	/zhan
-zháng	/zhang
-zháo	/zhao
-zhè	/zhe
-zhèi	/zhei
-zhèn	/zhen
-zhèng	/zheng
-zhé	/zhe
-zhéi	/zhei
-zhén	/zhen
-zhéng	/zheng
-zhì	/zhi
-zhí	/zhi
-zhòng	/zhong
-zhòu	/zhou
-zhóng	/zhong
-zhóu	/zhou
-zhù	/zhu
-zhùi	/zhui
-zhùn	/zhun
-zhùo	/zhuo
-zhú	/zhu
-zhúi	/zhui
-zhún	/zhun
-zhúo	/zhuo
-zhā	/zha
-zhāi	/zhai
-zhān	/zhan
-zhāng	/zhang
-zhāo	/zhao
-zhē	/zhe
-zhēi	/zhei
-zhēn	/zhen
-zhēng	/zheng
-zhě	/zhe
-zhěi	/zhei
-zhěn	/zhen
-zhěng	/zheng
-zhī	/zhi
-zhōng	/zhong
-zhōu	/zhou
-zhū	/zhu
-zhūi	/zhui
-zhūn	/zhun
-zhūo	/zhuo
-zhǎ	/zha
-zhǎi	/zhai
-zhǎn	/zhan
-zhǎng	/zhang
-zhǎo	/zhao
-zhǐ	/zhi
-zhǒng	/zhong
-zhǒu	/zhou
-zhǔ	/zhu
-zhǔi	/zhui
-zhǔn	/zhun
-zhǔo	/zhuo
-zuàn	/zuan
-zuán	/zuan
-zuān	/zuan
-zuǎn	/zuan
-zà	/za
-zài	/zai
-zàn	/zan
-zàng	/zang
-zào	/zao
-zá	/za
-zái	/zai
-zán	/zan
-záng	/zang
-záo	/zao
-zè	/ze
-zèi	/zei
-zèn	/zen
-zèng	/zeng
-zé	/ze
-zéi	/zei
-zén	/zen
-zéng	/zeng
-zì	/zi
-zí	/zi
-zòng	/zong
-zòu	/zou
-zóng	/zong
-zóu	/zou
-zù	/zu
-zùi	/zui
-zùn	/zun
-zùo	/zuo
-zú	/zu
-zúi	/zui
-zún	/zun
-zúo	/zuo
-zā	/za
-zāi	/zai
-zān	/zan
-zāng	/zang
-zāo	/zao
-zē	/ze
-zēi	/zei
-zēn	/zen
-zēng	/zeng
-zě	/ze
-zěi	/zei
-zěn	/zen
-zěng	/zeng
-zī	/zi
-zōng	/zong
-zōu	/zou
-zū	/zu
-zūi	/zui
-zūn	/zun
-zūo	/zuo
-zǎ	/za
-zǎi	/zai
-zǎn	/zan
-zǎng	/zang
-zǎo	/zao
-zǐ	/zi
-zǒng	/zong
-zǒu	/zou
-zǔ	/zu
-zǔi	/zui
-zǔn	/zun
-zǔo	/zuo
-ài	/ai
-àn	/an
-àng	/ang
-ào	/ao
-ái	/ai
-án	/an
-áng	/ang
-áo	/ao
-èi	/ei
-èn	/en
-èng	/eng
-èr	/er
-éi	/ei
-én	/en
-éng	/eng
-ér	/er
-òu	/ou
-óu	/ou
-āi	/ai
-ān	/an
-āng	/ang
-āo	/ao
-ēi	/ei
-ēn	/en
-ēng	/eng
-ēr	/er
-ěi	/ei
-ěn	/en
-ěng	/eng
-ěr	/er
-ōu	/ou
-ǎi	/ai
-ǎn	/an
-ǎng	/ang
-ǎo	/ao
-ǒu	/ou
-─│┌┐└┘├┤┬┴┼	/bg
-〔〕	/lj
 🇦🇦	/aa
 🇦🇧	/ab
 🇦🇨	/ac
@@ -262043,12 +262103,15 @@ zǔo	/zuo
 ù	/pyu
 ú	/pyu
 ā	/pya
+ĉ	/pych
+ĉ	/pyc
 ē	/pye
 ě	/pye
 ī	/pyi
 ŋ	/pyng
 ō	/pyo
 ŝ	/pysh
+ŝ	/pys
 ū	/pyu
 ǎ	/pya
 ǐ	/pyi
@@ -262064,6 +262127,7 @@ zǔo	/zuo
 ˊ	/pyyp
 ˋ	/pyqs
 ẑ	/pyzh
+ẑ	/pyz
 《	/bdsmz
 》	/bdsmy
 　	/bdkg
@@ -262092,12 +262156,12 @@ zǔo	/zuo
 ？	/bdwh
 ·	/bdjg
 ·	/bdjgh
+——	/bdpz
+……	/bdsl
 ‘	/bddyz
 ’	/bddyy
 “	/bdsyz
 ”	/bdsyy
-——	/bdpz
-……	/bdsl
 あ	/rya
 い	/ryi
 う	/ryu
@@ -262987,6 +263051,7 @@ zǔo	/zuo
 〒	kkyj
 〓	kkfk
 〔	kklj
+〔〕	kklj
 〕	kklj
 〖	kkft
 〗	kkft
@@ -274670,19 +274735,33 @@ zǔo	/zuo
 🙌	kkjz
 🙏	kkhs
 🌍	kkdq
+🌍	kkdi
 🌎	kkdq
+🌎	kkdi
 🌏	kkdq
+🌏	kkdi
 🌐	kkdq
+🌐	kkdi
 🌑	kkyq
 🌑	kkxy
+🌑	kkxi
+🌑	kkyu
 🌒	kkyq
 🌒	kkmy
+🌒	kkme
+🌒	kkyu
 🌓	kkyq
 🌓	kkxy
+🌓	kkxi
+🌓	kkyu
 🌔	kkyq
 🌔	kkyy
+🌔	kkyi
+🌔	kkyu
 🌕	kkyq
 🌕	kkmy
+🌕	kkma
+🌕	kkyu
 🔥	kkhu
 🔥	kkfi
 🔥	kkmo
@@ -274742,6 +274821,1586 @@ $	kkmy
 ?	kkwh
 [	kkfk
 ]	kkfk
+biàn	kkbi
+biào	kkbi
+bián	kkbi
+biáo	kkbi
+biè	kkbi
+bié	kkbi
+biān	kkbi
+biāo	kkbi
+biē	kkbi
+biě	kkbi
+biǎn	kkbi
+biǎo	kkbi
+bà	kkba
+bài	kkba
+bàn	kkba
+bàng	kkba
+bào	kkba
+bá	kkba
+bái	kkba
+bán	kkba
+báng	kkba
+báo	kkba
+bèi	kkbe
+bèn	kkbe
+bèng	kkbe
+béi	kkbe
+bén	kkbe
+béng	kkbe
+bì	kkbi
+bìn	kkbi
+bìng	kkbi
+bí	kkbi
+bín	kkbi
+bíng	kkbi
+bò	kkbo
+bó	kkbo
+bù	kkbu
+bú	kkbu
+bā	kkba
+bāi	kkba
+bān	kkba
+bāng	kkba
+bāo	kkba
+bēi	kkbe
+bēn	kkbe
+bēng	kkbe
+běi	kkbe
+běn	kkbe
+běng	kkbe
+bī	kkbi
+bīn	kkbi
+bīng	kkbi
+bō	kkbo
+bū	kkbu
+bǎ	kkba
+bǎi	kkba
+bǎn	kkba
+bǎng	kkba
+bǎo	kkba
+bǐ	kkbi
+bǐn	kkbi
+bǐng	kkbi
+bǒ	kkbo
+bǔ	kkbu
+chuà	kkch
+chuài	kkch
+chuàn	kkch
+chuàng	kkch
+chuá	kkch
+chuái	kkch
+chuán	kkch
+chuáng	kkch
+chuì	kkch
+chuí	kkch
+chuā	kkch
+chuāi	kkch
+chuān	kkch
+chuāng	kkch
+chuī	kkch
+chuǎ	kkch
+chuǎi	kkch
+chuǎn	kkch
+chuǎng	kkch
+chuǐ	kkch
+chà	kkch
+chài	kkch
+chàn	kkch
+chàng	kkch
+chào	kkch
+chá	kkch
+chái	kkch
+chán	kkch
+cháng	kkch
+cháo	kkch
+chè	kkch
+chèn	kkch
+chèng	kkch
+ché	kkch
+chén	kkch
+chéng	kkch
+chì	kkch
+chí	kkch
+chòng	kkch
+chòu	kkch
+chóng	kkch
+chóu	kkch
+chù	kkch
+chùn	kkch
+chùo	kkch
+chú	kkch
+chún	kkch
+chúo	kkch
+chā	kkch
+chāi	kkch
+chān	kkch
+chāng	kkch
+chāo	kkch
+chē	kkch
+chēn	kkch
+chēng	kkch
+chě	kkch
+chěn	kkch
+chěng	kkch
+chī	kkch
+chōng	kkch
+chōu	kkch
+chū	kkch
+chūn	kkch
+chūo	kkch
+chǎ	kkch
+chǎi	kkch
+chǎn	kkch
+chǎng	kkch
+chǎo	kkch
+chǐ	kkch
+chǒng	kkch
+chǒu	kkch
+chǔ	kkch
+chǔn	kkch
+chǔo	kkch
+cuàn	kkcu
+cuán	kkcu
+cuì	kkcu
+cuí	kkcu
+cuān	kkcu
+cuī	kkcu
+cuǎn	kkcu
+cuǐ	kkcu
+cà	kkca
+cài	kkca
+càn	kkca
+càng	kkca
+cào	kkca
+cá	kkca
+cái	kkca
+cán	kkca
+cáng	kkca
+cáo	kkca
+cè	kkce
+cèn	kkce
+cèng	kkce
+cé	kkce
+cén	kkce
+céng	kkce
+cì	kkci
+cí	kkci
+còng	kkco
+còu	kkco
+cóng	kkco
+cóu	kkco
+cù	kkcu
+cùn	kkcu
+cùo	kkcu
+cú	kkcu
+cún	kkcu
+cúo	kkcu
+cā	kkca
+cāi	kkca
+cān	kkca
+cāng	kkca
+cāo	kkca
+cē	kkce
+cēn	kkce
+cēng	kkce
+cě	kkce
+cěn	kkce
+cěng	kkce
+cī	kkci
+cōng	kkco
+cōu	kkco
+cū	kkcu
+cūn	kkcu
+cūo	kkcu
+cǎ	kkca
+cǎi	kkca
+cǎn	kkca
+cǎng	kkca
+cǎo	kkca
+cǐ	kkci
+cǒng	kkco
+cǒu	kkco
+cǔ	kkcu
+cǔn	kkcu
+cǔo	kkcu
+diàn	kkdi
+diào	kkdi
+dián	kkdi
+diáo	kkdi
+diè	kkdi
+dié	kkdi
+diù	kkdi
+diú	kkdi
+diān	kkdi
+diāo	kkdi
+diē	kkdi
+diě	kkdi
+diū	kkdi
+diǎn	kkdi
+diǎo	kkdi
+diǔ	kkdi
+duàn	kkdu
+duán	kkdu
+duì	kkdu
+duí	kkdu
+duān	kkdu
+duī	kkdu
+duǎn	kkdu
+duǐ	kkdu
+dà	kkda
+dài	kkda
+dàn	kkda
+dàng	kkda
+dào	kkda
+dá	kkda
+dái	kkda
+dán	kkda
+dáng	kkda
+dáo	kkda
+dè	kkde
+dèi	kkde
+dèn	kkde
+dèng	kkde
+dé	kkde
+déi	kkde
+dén	kkde
+déng	kkde
+dì	kkdi
+dìng	kkdi
+dí	kkdi
+díng	kkdi
+dòng	kkdo
+dòu	kkdo
+dóng	kkdo
+dóu	kkdo
+dù	kkdu
+dùn	kkdu
+dùo	kkdu
+dú	kkdu
+dún	kkdu
+dúo	kkdu
+dā	kkda
+dāi	kkda
+dān	kkda
+dāng	kkda
+dāo	kkda
+dē	kkde
+dēi	kkde
+dēn	kkde
+dēng	kkde
+dě	kkde
+děi	kkde
+děn	kkde
+děng	kkde
+dī	kkdi
+dīng	kkdi
+dōng	kkdo
+dōu	kkdo
+dū	kkdu
+dūn	kkdu
+dūo	kkdu
+dǎ	kkda
+dǎi	kkda
+dǎn	kkda
+dǎng	kkda
+dǎo	kkda
+dǐ	kkdi
+dǐng	kkdi
+dǒng	kkdo
+dǒu	kkdo
+dǔ	kkdu
+dǔn	kkdu
+dǔo	kkdu
+fà	kkfa
+fàn	kkfa
+fàng	kkfa
+fá	kkfa
+fán	kkfa
+fáng	kkfa
+fèi	kkfe
+fèn	kkfe
+fèng	kkfe
+féi	kkfe
+fén	kkfe
+féng	kkfe
+fò	kkfo
+fòu	kkfo
+fó	kkfo
+fóu	kkfo
+fù	kkfu
+fú	kkfu
+fā	kkfa
+fān	kkfa
+fāng	kkfa
+fēi	kkfe
+fēn	kkfe
+fēng	kkfe
+fěi	kkfe
+fěn	kkfe
+fěng	kkfe
+fō	kkfo
+fōu	kkfo
+fū	kkfu
+fǎ	kkfa
+fǎn	kkfa
+fǎng	kkfa
+fǒ	kkfo
+fǒu	kkfo
+fǔ	kkfu
+guà	kkgu
+guài	kkgu
+guàn	kkgu
+guàng	kkgu
+guá	kkgu
+guái	kkgu
+guán	kkgu
+guáng	kkgu
+guì	kkgu
+guí	kkgu
+guā	kkgu
+guāi	kkgu
+guān	kkgu
+guāng	kkgu
+guī	kkgu
+guǎ	kkgu
+guǎi	kkgu
+guǎn	kkgu
+guǎng	kkgu
+guǐ	kkgu
+gà	kkga
+gài	kkga
+gàn	kkga
+gàng	kkga
+gào	kkga
+gá	kkga
+gái	kkga
+gán	kkga
+gáng	kkga
+gáo	kkga
+gè	kkge
+gèi	kkge
+gèn	kkge
+gèng	kkge
+gé	kkge
+géi	kkge
+gén	kkge
+géng	kkge
+gòng	kkgo
+gòu	kkgo
+góng	kkgo
+góu	kkgo
+gù	kkgu
+gùn	kkgu
+gùo	kkgu
+gú	kkgu
+gún	kkgu
+gúo	kkgu
+gā	kkga
+gāi	kkga
+gān	kkga
+gāng	kkga
+gāo	kkga
+gē	kkge
+gēi	kkge
+gēn	kkge
+gēng	kkge
+gě	kkge
+gěi	kkge
+gěn	kkge
+gěng	kkge
+gōng	kkgo
+gōu	kkgo
+gū	kkgu
+gūn	kkgu
+gūo	kkgu
+gǎ	kkga
+gǎi	kkga
+gǎn	kkga
+gǎng	kkga
+gǎo	kkga
+gǒng	kkgo
+gǒu	kkgo
+gǔ	kkgu
+gǔn	kkgu
+gǔo	kkgu
+huà	kkhu
+huài	kkhu
+huàn	kkhu
+huàng	kkhu
+huá	kkhu
+huái	kkhu
+huán	kkhu
+huáng	kkhu
+huì	kkhu
+huí	kkhu
+huā	kkhu
+huāi	kkhu
+huān	kkhu
+huāng	kkhu
+huī	kkhu
+huǎ	kkhu
+huǎi	kkhu
+huǎn	kkhu
+huǎng	kkhu
+huǐ	kkhu
+hà	kkha
+hài	kkha
+hàn	kkha
+hàng	kkha
+hào	kkha
+há	kkha
+hái	kkha
+hán	kkha
+háng	kkha
+háo	kkha
+hè	kkhe
+hèi	kkhe
+hèn	kkhe
+hèng	kkhe
+hé	kkhe
+héi	kkhe
+hén	kkhe
+héng	kkhe
+hòng	kkho
+hòu	kkho
+hóng	kkho
+hóu	kkho
+hù	kkhu
+hùn	kkhu
+hùo	kkhu
+hú	kkhu
+hún	kkhu
+húo	kkhu
+hā	kkha
+hāi	kkha
+hān	kkha
+hāng	kkha
+hāo	kkha
+hē	kkhe
+hēi	kkhe
+hēn	kkhe
+hēng	kkhe
+hě	kkhe
+hěi	kkhe
+hěn	kkhe
+hěng	kkhe
+hōng	kkho
+hōu	kkho
+hū	kkhu
+hūn	kkhu
+hūo	kkhu
+hǎ	kkha
+hǎi	kkha
+hǎn	kkha
+hǎng	kkha
+hǎo	kkha
+hǒng	kkho
+hǒu	kkho
+hǔ	kkhu
+hǔn	kkhu
+hǔo	kkhu
+jià	kkji
+jiàn	kkji
+jiàng	kkji
+jiào	kkji
+jiá	kkji
+jián	kkji
+jiáng	kkji
+jiáo	kkji
+jiè	kkji
+jié	kkji
+jiù	kkji
+jiú	kkji
+jiā	kkji
+jiān	kkji
+jiāng	kkji
+jiāo	kkji
+jiē	kkji
+jiě	kkji
+jiū	kkji
+jiǎ	kkji
+jiǎn	kkji
+jiǎng	kkji
+jiǎo	kkji
+jiǔ	kkji
+juàn	kkju
+juán	kkju
+juè	kkju
+jué	kkju
+juān	kkju
+juē	kkju
+juě	kkju
+juǎn	kkju
+jì	kkji
+jìn	kkji
+jìng	kkji
+jìong	kkji
+jí	kkji
+jín	kkji
+jíng	kkji
+jíong	kkji
+jù	kkju
+jùn	kkju
+jú	kkju
+jún	kkju
+jī	kkji
+jīn	kkji
+jīng	kkji
+jīong	kkji
+jū	kkju
+jūn	kkju
+jǐ	kkji
+jǐn	kkji
+jǐng	kkji
+jǐong	kkji
+jǔ	kkju
+jǔn	kkju
+kuà	kkku
+kuài	kkku
+kuàn	kkku
+kuàng	kkku
+kuá	kkku
+kuái	kkku
+kuán	kkku
+kuáng	kkku
+kuì	kkku
+kuí	kkku
+kuā	kkku
+kuāi	kkku
+kuān	kkku
+kuāng	kkku
+kuī	kkku
+kuǎ	kkku
+kuǎi	kkku
+kuǎn	kkku
+kuǎng	kkku
+kuǐ	kkku
+kà	kkka
+kài	kkka
+kàn	kkka
+kàng	kkka
+kào	kkka
+ká	kkka
+kái	kkka
+kán	kkka
+káng	kkka
+káo	kkka
+kè	kkke
+kèi	kkke
+kèn	kkke
+kèng	kkke
+ké	kkke
+kéi	kkke
+kén	kkke
+kéng	kkke
+kòng	kkko
+kòu	kkko
+kóng	kkko
+kóu	kkko
+kù	kkku
+kùn	kkku
+kùo	kkku
+kú	kkku
+kún	kkku
+kúo	kkku
+kā	kkka
+kāi	kkka
+kān	kkka
+kāng	kkka
+kāo	kkka
+kē	kkke
+kēi	kkke
+kēn	kkke
+kēng	kkke
+kě	kkke
+kěi	kkke
+kěn	kkke
+kěng	kkke
+kōng	kkko
+kōu	kkko
+kū	kkku
+kūn	kkku
+kūo	kkku
+kǎ	kkka
+kǎi	kkka
+kǎn	kkka
+kǎng	kkka
+kǎo	kkka
+kǒng	kkko
+kǒu	kkko
+kǔ	kkku
+kǔn	kkku
+kǔo	kkku
+lià	kkli
+liàn	kkli
+liàng	kkli
+liào	kkli
+liá	kkli
+lián	kkli
+liáng	kkli
+liáo	kkli
+liè	kkli
+lié	kkli
+liù	kkli
+liú	kkli
+liā	kkli
+liān	kkli
+liāng	kkli
+liāo	kkli
+liē	kkli
+liě	kkli
+liū	kkli
+liǎ	kkli
+liǎn	kkli
+liǎng	kkli
+liǎo	kkli
+liǔ	kkli
+luàn	kklu
+luán	kklu
+luè	kklu
+lué	kklu
+luò	kklu
+luó	kklu
+luān	kklu
+luē	kklu
+luě	kklu
+luō	kklu
+luǎn	kklu
+luǒ	kklu
+là	kkla
+lài	kkla
+làn	kkla
+làng	kkla
+lào	kkla
+lá	kkla
+lái	kkla
+lán	kkla
+láng	kkla
+láo	kkla
+lè	kkle
+lèi	kkle
+lèng	kkle
+lé	kkle
+léi	kkle
+léng	kkle
+lì	kkli
+lìn	kkli
+lìng	kkli
+lí	kkli
+lín	kkli
+líng	kkli
+lòng	kklo
+lòu	kklo
+lóng	kklo
+lóu	kklo
+lù	kklu
+lùn	kklu
+lú	kklu
+lún	kklu
+lā	kkla
+lāi	kkla
+lān	kkla
+lāng	kkla
+lāo	kkla
+lē	kkle
+lēi	kkle
+lēng	kkle
+lě	kkle
+lěi	kkle
+lěng	kkle
+lī	kkli
+līn	kkli
+līng	kkli
+lōng	kklo
+lōu	kklo
+lū	kklu
+lūn	kklu
+lǎ	kkla
+lǎi	kkla
+lǎn	kkla
+lǎng	kkla
+lǎo	kkla
+lǐ	kkli
+lǐn	kkli
+lǐng	kkli
+lǒng	kklo
+lǒu	kklo
+lǔ	kklu
+lǔn	kklu
+lǖ	kklv
+lǘ	kklv
+lǚ	kklv
+lǜ	kklv
+miàn	kkmi
+miào	kkmi
+mián	kkmi
+miáo	kkmi
+miè	kkmi
+mié	kkmi
+miù	kkmi
+miú	kkmi
+miān	kkmi
+miāo	kkmi
+miē	kkmi
+miě	kkmi
+miū	kkmi
+miǎn	kkmi
+miǎo	kkmi
+miǔ	kkmi
+mà	kkma
+mài	kkma
+màn	kkma
+màng	kkma
+mào	kkma
+má	kkma
+mái	kkma
+mán	kkma
+máng	kkma
+máo	kkma
+mè	kkme
+mèi	kkme
+mèn	kkme
+mèng	kkme
+mé	kkme
+méi	kkme
+mén	kkme
+méng	kkme
+mì	kkmi
+mìn	kkmi
+mìng	kkmi
+mí	kkmi
+mín	kkmi
+míng	kkmi
+mò	kkmo
+mòu	kkmo
+mó	kkmo
+móu	kkmo
+mù	kkmu
+mú	kkmu
+mā	kkma
+māi	kkma
+mān	kkma
+māng	kkma
+māo	kkma
+mē	kkme
+mēi	kkme
+mēn	kkme
+mēng	kkme
+mě	kkme
+měi	kkme
+měn	kkme
+měng	kkme
+mī	kkmi
+mīn	kkmi
+mīng	kkmi
+mō	kkmo
+mōu	kkmo
+mū	kkmu
+mǎ	kkma
+mǎi	kkma
+mǎn	kkma
+mǎng	kkma
+mǎo	kkma
+mǐ	kkmi
+mǐn	kkmi
+mǐng	kkmi
+mǒ	kkmo
+mǒu	kkmo
+mǔ	kkmu
+niàn	kkni
+niàng	kkni
+niào	kkni
+nián	kkni
+niáng	kkni
+niáo	kkni
+niè	kkni
+nié	kkni
+niù	kkni
+niú	kkni
+niān	kkni
+niāng	kkni
+niāo	kkni
+niē	kkni
+niě	kkni
+niū	kkni
+niǎn	kkni
+niǎng	kkni
+niǎo	kkni
+niǔ	kkni
+nuàn	kknu
+nuán	kknu
+nuè	kknu
+nué	kknu
+nuān	kknu
+nuē	kknu
+nuě	kknu
+nuǎn	kknu
+nà	kkna
+nài	kkna
+nàn	kkna
+nàng	kkna
+nào	kkna
+ná	kkna
+nái	kkna
+nán	kkna
+náng	kkna
+náo	kkna
+nè	kkne
+nèi	kkne
+nèn	kkne
+nèng	kkne
+né	kkne
+néi	kkne
+nén	kkne
+néng	kkne
+nì	kkni
+nìn	kkni
+nìng	kkni
+ní	kkni
+nín	kkni
+níng	kkni
+nòng	kkno
+nòu	kkno
+nóng	kkno
+nóu	kkno
+nù	kknu
+nùo	kknu
+nú	kknu
+núo	kknu
+nā	kkna
+nāi	kkna
+nān	kkna
+nāng	kkna
+nāo	kkna
+nē	kkne
+nēi	kkne
+nēn	kkne
+nēng	kkne
+ně	kkne
+něi	kkne
+něn	kkne
+něng	kkne
+nī	kkni
+nīn	kkni
+nīng	kkni
+nōng	kkno
+nōu	kkno
+nū	kknu
+nūo	kknu
+nǎ	kkna
+nǎi	kkna
+nǎn	kkna
+nǎng	kkna
+nǎo	kkna
+nǐ	kkni
+nǐn	kkni
+nǐng	kkni
+nǒng	kkno
+nǒu	kkno
+nǔ	kknu
+nǔo	kknu
+nǖ	kknv
+nǘ	kknv
+nǚ	kknv
+nǜ	kknv
+piàn	kkpi
+piào	kkpi
+pián	kkpi
+piáo	kkpi
+piè	kkpi
+pié	kkpi
+piān	kkpi
+piāo	kkpi
+piē	kkpi
+piě	kkpi
+piǎn	kkpi
+piǎo	kkpi
+pà	kkpa
+pài	kkpa
+pàn	kkpa
+pàng	kkpa
+pào	kkpa
+pá	kkpa
+pái	kkpa
+pán	kkpa
+páng	kkpa
+páo	kkpa
+pèi	kkpe
+pèn	kkpe
+pèng	kkpe
+péi	kkpe
+pén	kkpe
+péng	kkpe
+pì	kkpi
+pìn	kkpi
+pìng	kkpi
+pí	kkpi
+pín	kkpi
+píng	kkpi
+pò	kkpo
+pòu	kkpo
+pó	kkpo
+póu	kkpo
+pù	kkpu
+pú	kkpu
+pā	kkpa
+pāi	kkpa
+pān	kkpa
+pāng	kkpa
+pāo	kkpa
+pēi	kkpe
+pēn	kkpe
+pēng	kkpe
+pěi	kkpe
+pěn	kkpe
+pěng	kkpe
+pī	kkpi
+pīn	kkpi
+pīng	kkpi
+pō	kkpo
+pōu	kkpo
+pū	kkpu
+pǎ	kkpa
+pǎi	kkpa
+pǎn	kkpa
+pǎng	kkpa
+pǎo	kkpa
+pǐ	kkpi
+pǐn	kkpi
+pǐng	kkpi
+pǒ	kkpo
+pǒu	kkpo
+pǔ	kkpu
+qià	kkqi
+qiàn	kkqi
+qiàng	kkqi
+qiào	kkqi
+qiá	kkqi
+qián	kkqi
+qiáng	kkqi
+qiáo	kkqi
+qiè	kkqi
+qié	kkqi
+qiù	kkqi
+qiú	kkqi
+qiā	kkqi
+qiān	kkqi
+qiāng	kkqi
+qiāo	kkqi
+qiē	kkqi
+qiě	kkqi
+qiū	kkqi
+qiǎ	kkqi
+qiǎn	kkqi
+qiǎng	kkqi
+qiǎo	kkqi
+qiǔ	kkqi
+quàn	kkqu
+quán	kkqu
+què	kkqu
+qué	kkqu
+quān	kkqu
+quē	kkqu
+quě	kkqu
+quǎn	kkqu
+qì	kkqi
+qìn	kkqi
+qìng	kkqi
+qìong	kkqi
+qí	kkqi
+qín	kkqi
+qíng	kkqi
+qíong	kkqi
+qù	kkqu
+qùn	kkqu
+qú	kkqu
+qún	kkqu
+qī	kkqi
+qīn	kkqi
+qīng	kkqi
+qīong	kkqi
+qū	kkqu
+qūn	kkqu
+qǐ	kkqi
+qǐn	kkqi
+qǐng	kkqi
+qǐong	kkqi
+qǔ	kkqu
+qǔn	kkqu
+ruàn	kkru
+ruán	kkru
+ruì	kkru
+ruí	kkru
+ruān	kkru
+ruī	kkru
+ruǎn	kkru
+ruǐ	kkru
+ràn	kkra
+ràng	kkra
+rào	kkra
+rán	kkra
+ráng	kkra
+ráo	kkra
+rè	kkre
+rèn	kkre
+rèng	kkre
+ré	kkre
+rén	kkre
+réng	kkre
+rì	kkri
+rí	kkri
+ròng	kkro
+ròu	kkro
+róng	kkro
+róu	kkro
+rù	kkru
+rùn	kkru
+rùo	kkru
+rú	kkru
+rún	kkru
+rúo	kkru
+rān	kkra
+rāng	kkra
+rāo	kkra
+rē	kkre
+rēn	kkre
+rēng	kkre
+rě	kkre
+rěn	kkre
+rěng	kkre
+rī	kkri
+rōng	kkro
+rōu	kkro
+rū	kkru
+rūn	kkru
+rūo	kkru
+rǎn	kkra
+rǎng	kkra
+rǎo	kkra
+rǐ	kkri
+rǒng	kkro
+rǒu	kkro
+rǔ	kkru
+rǔn	kkru
+rǔo	kkru
+shuà	kksh
+shuài	kksh
+shuàn	kksh
+shuàng	kksh
+shuá	kksh
+shuái	kksh
+shuán	kksh
+shuáng	kksh
+shuì	kksh
+shuí	kksh
+shuā	kksh
+shuāi	kksh
+shuān	kksh
+shuāng	kksh
+shuī	kksh
+shuǎ	kksh
+shuǎi	kksh
+shuǎn	kksh
+shuǎng	kksh
+shuǐ	kksh
+shà	kksh
+shài	kksh
+shàn	kksh
+shàng	kksh
+shào	kksh
+shá	kksh
+shái	kksh
+shán	kksh
+sháng	kksh
+sháo	kksh
+shè	kksh
+shèi	kksh
+shèn	kksh
+shèng	kksh
+shé	kksh
+shéi	kksh
+shén	kksh
+shéng	kksh
+shì	kksh
+shí	kksh
+shòu	kksh
+shóu	kksh
+shù	kksh
+shùn	kksh
+shùo	kksh
+shú	kksh
+shún	kksh
+shúo	kksh
+shā	kksh
+shāi	kksh
+shān	kksh
+shāng	kksh
+shāo	kksh
+shē	kksh
+shēi	kksh
+shēn	kksh
+shēng	kksh
+shě	kksh
+shěi	kksh
+shěn	kksh
+shěng	kksh
+shī	kksh
+shōu	kksh
+shū	kksh
+shūn	kksh
+shūo	kksh
+shǎ	kksh
+shǎi	kksh
+shǎn	kksh
+shǎng	kksh
+shǎo	kksh
+shǐ	kksh
+shǒu	kksh
+shǔ	kksh
+shǔn	kksh
+shǔo	kksh
+suàn	kksu
+suán	kksu
+suì	kksu
+suí	kksu
+suān	kksu
+suī	kksu
+suǎn	kksu
+suǐ	kksu
+sà	kksa
+sài	kksa
+sàn	kksa
+sàng	kksa
+sào	kksa
+sá	kksa
+sái	kksa
+sán	kksa
+sáng	kksa
+sáo	kksa
+sè	kkse
+sèn	kkse
+sèng	kkse
+sé	kkse
+sén	kkse
+séng	kkse
+sì	kksi
+sí	kksi
+sòng	kkso
+sòu	kkso
+sóng	kkso
+sóu	kkso
+sù	kksu
+sùn	kksu
+sùo	kksu
+sú	kksu
+sún	kksu
+súo	kksu
+sā	kksa
+sāi	kksa
+sān	kksa
+sāng	kksa
+sāo	kksa
+sē	kkse
+sēn	kkse
+sēng	kkse
+sě	kkse
+sěn	kkse
+sěng	kkse
+sī	kksi
+sōng	kkso
+sōu	kkso
+sū	kksu
+sūn	kksu
+sūo	kksu
+sǎ	kksa
+sǎi	kksa
+sǎn	kksa
+sǎng	kksa
+sǎo	kksa
+sǐ	kksi
+sǒng	kkso
+sǒu	kkso
+sǔ	kksu
+sǔn	kksu
+sǔo	kksu
+tiàn	kkti
+tiào	kkti
+tián	kkti
+tiáo	kkti
+tiè	kkti
+tié	kkti
+tiān	kkti
+tiāo	kkti
+tiē	kkti
+tiě	kkti
+tiǎn	kkti
+tiǎo	kkti
+tuàn	kktu
+tuán	kktu
+tuì	kktu
+tuí	kktu
+tuān	kktu
+tuī	kktu
+tuǎn	kktu
+tuǐ	kktu
+tà	kkta
+tài	kkta
+tàn	kkta
+tàng	kkta
+tào	kkta
+tá	kkta
+tái	kkta
+tán	kkta
+táng	kkta
+táo	kkta
+tè	kkte
+tèng	kkte
+té	kkte
+téng	kkte
+tì	kkti
+tìng	kkti
+tí	kkti
+tíng	kkti
+tòng	kkto
+tòu	kkto
+tóng	kkto
+tóu	kkto
+tù	kktu
+tùn	kktu
+tùo	kktu
+tú	kktu
+tún	kktu
+túo	kktu
+tā	kkta
+tāi	kkta
+tān	kkta
+tāng	kkta
+tāo	kkta
+tē	kkte
+tēng	kkte
+tě	kkte
+těng	kkte
+tī	kkti
+tīng	kkti
+tōng	kkto
+tōu	kkto
+tū	kktu
+tūn	kktu
+tūo	kktu
+tǎ	kkta
+tǎi	kkta
+tǎn	kkta
+tǎng	kkta
+tǎo	kkta
+tǐ	kkti
+tǐng	kkti
+tǒng	kkto
+tǒu	kkto
+tǔ	kktu
+tǔn	kktu
+tǔo	kktu
+wà	kkwa
+wài	kkwa
+wàn	kkwa
+wàng	kkwa
+wá	kkwa
+wái	kkwa
+wán	kkwa
+wáng	kkwa
+wèi	kkwe
+wèn	kkwe
+wèng	kkwe
+wéi	kkwe
+wén	kkwe
+wéng	kkwe
+wò	kkwo
+wó	kkwo
+wù	kkwu
+wú	kkwu
+wā	kkwa
+wāi	kkwa
+wān	kkwa
+wāng	kkwa
+wēi	kkwe
+wēn	kkwe
+wēng	kkwe
+wěi	kkwe
+wěn	kkwe
+wěng	kkwe
+wō	kkwo
+wū	kkwu
+wǎ	kkwa
+wǎi	kkwa
+wǎn	kkwa
+wǎng	kkwa
+wǒ	kkwo
+wǔ	kkwu
+xià	kkxi
+xiàn	kkxi
+xiàng	kkxi
+xiào	kkxi
+xiá	kkxi
+xián	kkxi
+xiáng	kkxi
+xiáo	kkxi
+xiè	kkxi
+xié	kkxi
+xiù	kkxi
+xiú	kkxi
+xiā	kkxi
+xiān	kkxi
+xiāng	kkxi
+xiāo	kkxi
+xiē	kkxi
+xiě	kkxi
+xiū	kkxi
+xiǎ	kkxi
+xiǎn	kkxi
+xiǎng	kkxi
+xiǎo	kkxi
+xiǔ	kkxi
+xuàn	kkxu
+xuán	kkxu
+xuè	kkxu
+xué	kkxu
+xuān	kkxu
+xuē	kkxu
+xuě	kkxu
+xuǎn	kkxu
+xì	kkxi
+xìn	kkxi
+xìng	kkxi
+xìong	kkxi
+xí	kkxi
+xín	kkxi
+xíng	kkxi
+xíong	kkxi
+xù	kkxu
+xùn	kkxu
+xú	kkxu
+xún	kkxu
+xī	kkxi
+xīn	kkxi
+xīng	kkxi
+xīong	kkxi
+xū	kkxu
+xūn	kkxu
+xǐ	kkxi
+xǐn	kkxi
+xǐng	kkxi
+xǐong	kkxi
+xǔ	kkxu
+xǔn	kkxu
+yuàn	kkyu
+yuán	kkyu
+yuè	kkyu
+yué	kkyu
+yuān	kkyu
+yuē	kkyu
+yuě	kkyu
+yuǎn	kkyu
+yà	kkya
+yàn	kkya
+yàng	kkya
+yào	kkya
+yá	kkya
+yán	kkya
+yáng	kkya
+yáo	kkya
+yè	kkye
+yé	kkye
+yì	kkyi
+yìn	kkyi
+yìng	kkyi
+yí	kkyi
+yín	kkyi
+yíng	kkyi
+yò	kkyo
+yòng	kkyo
+yòu	kkyo
+yó	kkyo
+yóng	kkyo
+yóu	kkyo
+yù	kkyu
+yùn	kkyu
+yú	kkyu
+yún	kkyu
+yā	kkya
+yān	kkya
+yāng	kkya
+yāo	kkya
+yē	kkye
+yě	kkye
+yī	kkyi
+yīn	kkyi
+yīng	kkyi
+yō	kkyo
+yōng	kkyo
+yōu	kkyo
+yū	kkyu
+yūn	kkyu
+yǎ	kkya
+yǎn	kkya
+yǎng	kkya
+yǎo	kkya
+yǐ	kkyi
+yǐn	kkyi
+yǐng	kkyi
+yǒ	kkyo
+yǒng	kkyo
+yǒu	kkyo
+yǔ	kkyu
+yǔn	kkyu
+zhuà	kkzh
+zhuài	kkzh
+zhuàn	kkzh
+zhuàng	kkzh
+zhuá	kkzh
+zhuái	kkzh
+zhuán	kkzh
+zhuáng	kkzh
+zhuì	kkzh
+zhuí	kkzh
+zhuā	kkzh
+zhuāi	kkzh
+zhuān	kkzh
+zhuāng	kkzh
+zhuī	kkzh
+zhuǎ	kkzh
+zhuǎi	kkzh
+zhuǎn	kkzh
+zhuǎng	kkzh
+zhuǐ	kkzh
+zhà	kkzh
+zhài	kkzh
+zhàn	kkzh
+zhàng	kkzh
+zhào	kkzh
+zhá	kkzh
+zhái	kkzh
+zhán	kkzh
+zháng	kkzh
+zháo	kkzh
+zhè	kkzh
+zhèi	kkzh
+zhèn	kkzh
+zhèng	kkzh
+zhé	kkzh
+zhéi	kkzh
+zhén	kkzh
+zhéng	kkzh
+zhì	kkzh
+zhí	kkzh
+zhòng	kkzh
+zhòu	kkzh
+zhóng	kkzh
+zhóu	kkzh
+zhù	kkzh
+zhùn	kkzh
+zhùo	kkzh
+zhú	kkzh
+zhún	kkzh
+zhúo	kkzh
+zhā	kkzh
+zhāi	kkzh
+zhān	kkzh
+zhāng	kkzh
+zhāo	kkzh
+zhē	kkzh
+zhēi	kkzh
+zhēn	kkzh
+zhēng	kkzh
+zhě	kkzh
+zhěi	kkzh
+zhěn	kkzh
+zhěng	kkzh
+zhī	kkzh
+zhōng	kkzh
+zhōu	kkzh
+zhū	kkzh
+zhūn	kkzh
+zhūo	kkzh
+zhǎ	kkzh
+zhǎi	kkzh
+zhǎn	kkzh
+zhǎng	kkzh
+zhǎo	kkzh
+zhǐ	kkzh
+zhǒng	kkzh
+zhǒu	kkzh
+zhǔ	kkzh
+zhǔn	kkzh
+zhǔo	kkzh
+zuàn	kkzu
+zuán	kkzu
+zuì	kkzu
+zuí	kkzu
+zuān	kkzu
+zuī	kkzu
+zuǎn	kkzu
+zuǐ	kkzu
+zà	kkza
+zài	kkza
+zàn	kkza
+zàng	kkza
+zào	kkza
+zá	kkza
+zái	kkza
+zán	kkza
+záng	kkza
+záo	kkza
+zè	kkze
+zèi	kkze
+zèn	kkze
+zèng	kkze
+zé	kkze
+zéi	kkze
+zén	kkze
+zéng	kkze
+zì	kkzi
+zí	kkzi
+zòng	kkzo
+zòu	kkzo
+zóng	kkzo
+zóu	kkzo
+zù	kkzu
+zùn	kkzu
+zùo	kkzu
+zú	kkzu
+zún	kkzu
+zúo	kkzu
+zā	kkza
+zāi	kkza
+zān	kkza
+zāng	kkza
+zāo	kkza
+zē	kkze
+zēi	kkze
+zēn	kkze
+zēng	kkze
+zě	kkze
+zěi	kkze
+zěn	kkze
+zěng	kkze
+zī	kkzi
+zōng	kkzo
+zōu	kkzo
+zū	kkzu
+zūn	kkzu
+zūo	kkzu
+zǎ	kkza
+zǎi	kkza
+zǎn	kkza
+zǎng	kkza
+zǎo	kkza
+zǐ	kkzi
+zǒng	kkzo
+zǒu	kkzo
+zǔ	kkzu
+zǔn	kkzu
+zǔo	kkzu
 ~	kkbl
 Ä	kka
 Ö	kko
@@ -274749,6 +276408,7 @@ $	kkmy
 ä	kka
 ö	kko
 ü	kku
+ 	kknb
 ¡	kkth
 ¢	kkmy
 £	kkyb
@@ -274801,14 +276461,30 @@ $	kkmy
 Þ	kkt
 ß	kkss
 à	kka
+ài	kkai
+àn	kkan
+àng	kkan
+ào	kkao
 á	kka
+ái	kkai
+án	kkan
+áng	kkan
+áo	kkao
 â	kka
 ã	kka
 å	kka
 æ	kkae
 ç	kkc
 è	kke
+èi	kkei
+èn	kken
+èng	kken
+èr	kker
 é	kke
+éi	kkei
+én	kken
+éng	kken
+ér	kker
 ê	kke
 ë	kke
 ì	kki
@@ -274818,7 +276494,9 @@ $	kkmy
 ð	kkd
 ñ	kkn
 ò	kko
+òu	kkou
 ó	kko
+óu	kkou
 ô	kko
 õ	kko
 ÷	kkch
@@ -274831,22 +276509,37 @@ $	kkmy
 ÿ	kky
 Ā	kka
 ā	kka
+āi	kkai
+ān	kkan
+āng	kkan
+āo	kkao
 Ă	kka
 ă	kka
 Ą	kka
 ć	kkc
 Ĉ	kkch
+Ĉ	kkc
+ĉ	kkch
+ĉ	kkc
 ċ	kkc
 č	kkc
 Ď	kkd
 đ	kkd
 Ē	kke
 ē	kke
+ēi	kkei
+ēn	kken
+ēng	kken
+ēr	kker
 Ĕ	kke
 ė	kke
 Ę	kke
 Ě	kke
 ě	kke
+ěi	kkei
+ěn	kken
+ěng	kken
+ěr	kker
 Ĝ	kkg
 Ğ	kkg
 ġ	kkg
@@ -274879,6 +276572,7 @@ $	kkmy
 ŋ	kkng
 Ō	kko
 ō	kko
+ōu	kkou
 Ŏ	kko
 ő	kko
 Œ	kkce
@@ -274887,7 +276581,10 @@ $	kkmy
 Ŗ	kkr
 Ř	kkr
 Ś	kks
+Ŝ	kksh
+Ŝ	kks
 ŝ	kksh
+ŝ	kks
 Ş	kks
 Š	kks
 ţ	kkt
@@ -274953,10 +276650,15 @@ $	kkmy
 ƺ	kkz
 Ǎ	kka
 ǎ	kka
+ǎi	kkai
+ǎn	kkan
+ǎng	kkan
+ǎo	kkao
 Ǐ	kki
 ǐ	kki
 Ǒ	kko
 ǒ	kko
+ǒu	kkou
 Ǔ	kku
 ǔ	kku
 Ǖ	kku
@@ -275097,7 +276799,11 @@ $	kkmy
 Ϝ	kkdi
 ϝ	kkdi
 Ẑ	kkzh
+Ẑ	kkz
 ẑ	kkzh
+ẑ	kkz
+——	kkpz
+……	kksl
  	kken
  	kkem
 ‐	kkhx
@@ -275113,6 +276819,7 @@ $	kkmy
 ‡	kkjb
 ․	kkjh
 ‥	kkmh
+…	kksl
 …	kkdd
 ‰	kkqf
 ‱	kkwf
@@ -275130,6 +276837,7 @@ $	kkmy
 ⁇	kkwh
 ⁈	kkwh
 ⁉	kkth
+℃	kkss
 ≠	kkbd
 ⎷	kkye
 ①	kkyi
@@ -275246,1632 +276954,13 @@ $	kkmy
 ⓽	kkji
 ⓾	kksh
 ⓿	kkli
+─│┌┐└┘├┤┬┴┼	kkbg
 ✅	kkye
 ✓	kkye
 ✗	kkno
 ✘	kkno
 ❌	kkno
 ❓	kkwh
-——	kkpz
-……	kksl
-biàn	kkbi
-biào	kkbi
-bián	kkbi
-biáo	kkbi
-biè	kkbi
-bié	kkbi
-biān	kkbi
-biāo	kkbi
-biē	kkbi
-biě	kkbi
-biǎn	kkbi
-biǎo	kkbi
-bà	kkba
-bài	kkba
-bàn	kkba
-bàng	kkba
-bào	kkba
-bá	kkba
-bái	kkba
-bán	kkba
-báng	kkba
-báo	kkba
-bèi	kkbe
-bèn	kkbe
-bèng	kkbe
-béi	kkbe
-bén	kkbe
-béng	kkbe
-bì	kkbi
-bìn	kkbi
-bìng	kkbi
-bí	kkbi
-bín	kkbi
-bíng	kkbi
-bò	kkbo
-bó	kkbo
-bù	kkbu
-bú	kkbu
-bā	kkba
-bāi	kkba
-bān	kkba
-bāng	kkba
-bāo	kkba
-bēi	kkbe
-bēn	kkbe
-bēng	kkbe
-běi	kkbe
-běn	kkbe
-běng	kkbe
-bī	kkbi
-bīn	kkbi
-bīng	kkbi
-bō	kkbo
-bū	kkbu
-bǎ	kkba
-bǎi	kkba
-bǎn	kkba
-bǎng	kkba
-bǎo	kkba
-bǐ	kkbi
-bǐn	kkbi
-bǐng	kkbi
-bǒ	kkbo
-bǔ	kkbu
-chuà	kkch
-chuài	kkch
-chuàn	kkch
-chuàng	kkch
-chuá	kkch
-chuái	kkch
-chuán	kkch
-chuáng	kkch
-chuā	kkch
-chuāi	kkch
-chuān	kkch
-chuāng	kkch
-chuǎ	kkch
-chuǎi	kkch
-chuǎn	kkch
-chuǎng	kkch
-chà	kkch
-chài	kkch
-chàn	kkch
-chàng	kkch
-chào	kkch
-chá	kkch
-chái	kkch
-chán	kkch
-cháng	kkch
-cháo	kkch
-chè	kkch
-chèn	kkch
-chèng	kkch
-ché	kkch
-chén	kkch
-chéng	kkch
-chì	kkch
-chí	kkch
-chòng	kkch
-chòu	kkch
-chóng	kkch
-chóu	kkch
-chù	kkch
-chùi	kkch
-chùn	kkch
-chùo	kkch
-chú	kkch
-chúi	kkch
-chún	kkch
-chúo	kkch
-chā	kkch
-chāi	kkch
-chān	kkch
-chāng	kkch
-chāo	kkch
-chē	kkch
-chēn	kkch
-chēng	kkch
-chě	kkch
-chěn	kkch
-chěng	kkch
-chī	kkch
-chōng	kkch
-chōu	kkch
-chū	kkch
-chūi	kkch
-chūn	kkch
-chūo	kkch
-chǎ	kkch
-chǎi	kkch
-chǎn	kkch
-chǎng	kkch
-chǎo	kkch
-chǐ	kkch
-chǒng	kkch
-chǒu	kkch
-chǔ	kkch
-chǔi	kkch
-chǔn	kkch
-chǔo	kkch
-cuàn	kkcu
-cuán	kkcu
-cuān	kkcu
-cuǎn	kkcu
-cà	kkca
-cài	kkca
-càn	kkca
-càng	kkca
-cào	kkca
-cá	kkca
-cái	kkca
-cán	kkca
-cáng	kkca
-cáo	kkca
-cè	kkce
-cèn	kkce
-cèng	kkce
-cé	kkce
-cén	kkce
-céng	kkce
-cì	kkci
-cí	kkci
-còng	kkco
-còu	kkco
-cóng	kkco
-cóu	kkco
-cù	kkcu
-cùi	kkcu
-cùn	kkcu
-cùo	kkcu
-cú	kkcu
-cúi	kkcu
-cún	kkcu
-cúo	kkcu
-cā	kkca
-cāi	kkca
-cān	kkca
-cāng	kkca
-cāo	kkca
-cē	kkce
-cēn	kkce
-cēng	kkce
-cě	kkce
-cěn	kkce
-cěng	kkce
-cī	kkci
-cōng	kkco
-cōu	kkco
-cū	kkcu
-cūi	kkcu
-cūn	kkcu
-cūo	kkcu
-cǎ	kkca
-cǎi	kkca
-cǎn	kkca
-cǎng	kkca
-cǎo	kkca
-cǐ	kkci
-cǒng	kkco
-cǒu	kkco
-cǔ	kkcu
-cǔi	kkcu
-cǔn	kkcu
-cǔo	kkcu
-diàn	kkdi
-diào	kkdi
-dián	kkdi
-diáo	kkdi
-diè	kkdi
-dié	kkdi
-diān	kkdi
-diāo	kkdi
-diē	kkdi
-diě	kkdi
-diǎn	kkdi
-diǎo	kkdi
-duàn	kkdu
-duán	kkdu
-duān	kkdu
-duǎn	kkdu
-dà	kkda
-dài	kkda
-dàn	kkda
-dàng	kkda
-dào	kkda
-dá	kkda
-dái	kkda
-dán	kkda
-dáng	kkda
-dáo	kkda
-dè	kkde
-dèi	kkde
-dèn	kkde
-dèng	kkde
-dé	kkde
-déi	kkde
-dén	kkde
-déng	kkde
-dì	kkdi
-dìng	kkdi
-dìu	kkdi
-dí	kkdi
-díng	kkdi
-díu	kkdi
-dòng	kkdo
-dòu	kkdo
-dóng	kkdo
-dóu	kkdo
-dù	kkdu
-dùi	kkdu
-dùn	kkdu
-dùo	kkdu
-dú	kkdu
-dúi	kkdu
-dún	kkdu
-dúo	kkdu
-dā	kkda
-dāi	kkda
-dān	kkda
-dāng	kkda
-dāo	kkda
-dē	kkde
-dēi	kkde
-dēn	kkde
-dēng	kkde
-dě	kkde
-děi	kkde
-děn	kkde
-děng	kkde
-dī	kkdi
-dīng	kkdi
-dīu	kkdi
-dōng	kkdo
-dōu	kkdo
-dū	kkdu
-dūi	kkdu
-dūn	kkdu
-dūo	kkdu
-dǎ	kkda
-dǎi	kkda
-dǎn	kkda
-dǎng	kkda
-dǎo	kkda
-dǐ	kkdi
-dǐng	kkdi
-dǐu	kkdi
-dǒng	kkdo
-dǒu	kkdo
-dǔ	kkdu
-dǔi	kkdu
-dǔn	kkdu
-dǔo	kkdu
-fà	kkfa
-fàn	kkfa
-fàng	kkfa
-fá	kkfa
-fán	kkfa
-fáng	kkfa
-fèi	kkfe
-fèn	kkfe
-fèng	kkfe
-féi	kkfe
-fén	kkfe
-féng	kkfe
-fò	kkfo
-fòu	kkfo
-fó	kkfo
-fóu	kkfo
-fù	kkfu
-fú	kkfu
-fā	kkfa
-fān	kkfa
-fāng	kkfa
-fēi	kkfe
-fēn	kkfe
-fēng	kkfe
-fěi	kkfe
-fěn	kkfe
-fěng	kkfe
-fō	kkfo
-fōu	kkfo
-fū	kkfu
-fǎ	kkfa
-fǎn	kkfa
-fǎng	kkfa
-fǒ	kkfo
-fǒu	kkfo
-fǔ	kkfu
-guà	kkgu
-guài	kkgu
-guàn	kkgu
-guàng	kkgu
-guá	kkgu
-guái	kkgu
-guán	kkgu
-guáng	kkgu
-guā	kkgu
-guāi	kkgu
-guān	kkgu
-guāng	kkgu
-guǎ	kkgu
-guǎi	kkgu
-guǎn	kkgu
-guǎng	kkgu
-gà	kkga
-gài	kkga
-gàn	kkga
-gàng	kkga
-gào	kkga
-gá	kkga
-gái	kkga
-gán	kkga
-gáng	kkga
-gáo	kkga
-gè	kkge
-gèi	kkge
-gèn	kkge
-gèng	kkge
-gé	kkge
-géi	kkge
-gén	kkge
-géng	kkge
-gòng	kkgo
-gòu	kkgo
-góng	kkgo
-góu	kkgo
-gù	kkgu
-gùi	kkgu
-gùn	kkgu
-gùo	kkgu
-gú	kkgu
-gúi	kkgu
-gún	kkgu
-gúo	kkgu
-gā	kkga
-gāi	kkga
-gān	kkga
-gāng	kkga
-gāo	kkga
-gē	kkge
-gēi	kkge
-gēn	kkge
-gēng	kkge
-gě	kkge
-gěi	kkge
-gěn	kkge
-gěng	kkge
-gōng	kkgo
-gōu	kkgo
-gū	kkgu
-gūi	kkgu
-gūn	kkgu
-gūo	kkgu
-gǎ	kkga
-gǎi	kkga
-gǎn	kkga
-gǎng	kkga
-gǎo	kkga
-gǒng	kkgo
-gǒu	kkgo
-gǔ	kkgu
-gǔi	kkgu
-gǔn	kkgu
-gǔo	kkgu
-huà	kkhu
-huài	kkhu
-huàn	kkhu
-huàng	kkhu
-huá	kkhu
-huái	kkhu
-huán	kkhu
-huáng	kkhu
-huā	kkhu
-huāi	kkhu
-huān	kkhu
-huāng	kkhu
-huǎ	kkhu
-huǎi	kkhu
-huǎn	kkhu
-huǎng	kkhu
-hà	kkha
-hài	kkha
-hàn	kkha
-hàng	kkha
-hào	kkha
-há	kkha
-hái	kkha
-hán	kkha
-háng	kkha
-háo	kkha
-hè	kkhe
-hèi	kkhe
-hèn	kkhe
-hèng	kkhe
-hé	kkhe
-héi	kkhe
-hén	kkhe
-héng	kkhe
-hòng	kkho
-hòu	kkho
-hóng	kkho
-hóu	kkho
-hù	kkhu
-hùi	kkhu
-hùn	kkhu
-hùo	kkhu
-hú	kkhu
-húi	kkhu
-hún	kkhu
-húo	kkhu
-hā	kkha
-hāi	kkha
-hān	kkha
-hāng	kkha
-hāo	kkha
-hē	kkhe
-hēi	kkhe
-hēn	kkhe
-hēng	kkhe
-hě	kkhe
-hěi	kkhe
-hěn	kkhe
-hěng	kkhe
-hōng	kkho
-hōu	kkho
-hū	kkhu
-hūi	kkhu
-hūn	kkhu
-hūo	kkhu
-hǎ	kkha
-hǎi	kkha
-hǎn	kkha
-hǎng	kkha
-hǎo	kkha
-hǒng	kkho
-hǒu	kkho
-hǔ	kkhu
-hǔi	kkhu
-hǔn	kkhu
-hǔo	kkhu
-jià	kkji
-jiàn	kkji
-jiàng	kkji
-jiào	kkji
-jiá	kkji
-jián	kkji
-jiáng	kkji
-jiáo	kkji
-jiè	kkji
-jié	kkji
-jiā	kkji
-jiān	kkji
-jiāng	kkji
-jiāo	kkji
-jiē	kkji
-jiě	kkji
-jiǎ	kkji
-jiǎn	kkji
-jiǎng	kkji
-jiǎo	kkji
-juàn	kkju
-juán	kkju
-juè	kkju
-jué	kkju
-juān	kkju
-juē	kkju
-juě	kkju
-juǎn	kkju
-jì	kkji
-jìn	kkji
-jìng	kkji
-jìong	kkji
-jìu	kkji
-jí	kkji
-jín	kkji
-jíng	kkji
-jíong	kkji
-jíu	kkji
-jù	kkju
-jùn	kkju
-jú	kkju
-jún	kkju
-jī	kkji
-jīn	kkji
-jīng	kkji
-jīong	kkji
-jīu	kkji
-jū	kkju
-jūn	kkju
-jǐ	kkji
-jǐn	kkji
-jǐng	kkji
-jǐong	kkji
-jǐu	kkji
-jǔ	kkju
-jǔn	kkju
-kuà	kkku
-kuài	kkku
-kuàn	kkku
-kuàng	kkku
-kuá	kkku
-kuái	kkku
-kuán	kkku
-kuáng	kkku
-kuā	kkku
-kuāi	kkku
-kuān	kkku
-kuāng	kkku
-kuǎ	kkku
-kuǎi	kkku
-kuǎn	kkku
-kuǎng	kkku
-kà	kkka
-kài	kkka
-kàn	kkka
-kàng	kkka
-kào	kkka
-ká	kkka
-kái	kkka
-kán	kkka
-káng	kkka
-káo	kkka
-kè	kkke
-kèi	kkke
-kèn	kkke
-kèng	kkke
-ké	kkke
-kéi	kkke
-kén	kkke
-kéng	kkke
-kòng	kkko
-kòu	kkko
-kóng	kkko
-kóu	kkko
-kù	kkku
-kùi	kkku
-kùn	kkku
-kùo	kkku
-kú	kkku
-kúi	kkku
-kún	kkku
-kúo	kkku
-kā	kkka
-kāi	kkka
-kān	kkka
-kāng	kkka
-kāo	kkka
-kē	kkke
-kēi	kkke
-kēn	kkke
-kēng	kkke
-kě	kkke
-kěi	kkke
-kěn	kkke
-kěng	kkke
-kōng	kkko
-kōu	kkko
-kū	kkku
-kūi	kkku
-kūn	kkku
-kūo	kkku
-kǎ	kkka
-kǎi	kkka
-kǎn	kkka
-kǎng	kkka
-kǎo	kkka
-kǒng	kkko
-kǒu	kkko
-kǔ	kkku
-kǔi	kkku
-kǔn	kkku
-kǔo	kkku
-lià	kkli
-liàn	kkli
-liàng	kkli
-liào	kkli
-liá	kkli
-lián	kkli
-liáng	kkli
-liáo	kkli
-liè	kkli
-lié	kkli
-liā	kkli
-liān	kkli
-liāng	kkli
-liāo	kkli
-liē	kkli
-liě	kkli
-liǎ	kkli
-liǎn	kkli
-liǎng	kkli
-liǎo	kkli
-luàn	kklu
-luán	kklu
-luè	kklu
-lué	kklu
-luò	kklu
-luó	kklu
-luān	kklu
-luē	kklu
-luě	kklu
-luō	kklu
-luǎn	kklu
-luǒ	kklu
-là	kkla
-lài	kkla
-làn	kkla
-làng	kkla
-lào	kkla
-lá	kkla
-lái	kkla
-lán	kkla
-láng	kkla
-láo	kkla
-lè	kkle
-lèi	kkle
-lèng	kkle
-lé	kkle
-léi	kkle
-léng	kkle
-lì	kkli
-lìn	kkli
-lìng	kkli
-lìu	kkli
-lí	kkli
-lín	kkli
-líng	kkli
-líu	kkli
-lòng	kklo
-lòu	kklo
-lóng	kklo
-lóu	kklo
-lù	kklu
-lùn	kklu
-lú	kklu
-lún	kklu
-lā	kkla
-lāi	kkla
-lān	kkla
-lāng	kkla
-lāo	kkla
-lē	kkle
-lēi	kkle
-lēng	kkle
-lě	kkle
-lěi	kkle
-lěng	kkle
-lī	kkli
-līn	kkli
-līng	kkli
-līu	kkli
-lōng	kklo
-lōu	kklo
-lū	kklu
-lūn	kklu
-lǎ	kkla
-lǎi	kkla
-lǎn	kkla
-lǎng	kkla
-lǎo	kkla
-lǐ	kkli
-lǐn	kkli
-lǐng	kkli
-lǐu	kkli
-lǒng	kklo
-lǒu	kklo
-lǔ	kklu
-lǔn	kklu
-lǖ	kklv
-lǘ	kklv
-lǚ	kklv
-lǜ	kklv
-miàn	kkmi
-miào	kkmi
-mián	kkmi
-miáo	kkmi
-miè	kkmi
-mié	kkmi
-miān	kkmi
-miāo	kkmi
-miē	kkmi
-miě	kkmi
-miǎn	kkmi
-miǎo	kkmi
-mà	kkma
-mài	kkma
-màn	kkma
-màng	kkma
-mào	kkma
-má	kkma
-mái	kkma
-mán	kkma
-máng	kkma
-máo	kkma
-mè	kkme
-mèi	kkme
-mèn	kkme
-mèng	kkme
-mé	kkme
-méi	kkme
-mén	kkme
-méng	kkme
-mì	kkmi
-mìn	kkmi
-mìng	kkmi
-mìu	kkmi
-mí	kkmi
-mín	kkmi
-míng	kkmi
-míu	kkmi
-mò	kkmo
-mòu	kkmo
-mó	kkmo
-móu	kkmo
-mù	kkmu
-mú	kkmu
-mā	kkma
-māi	kkma
-mān	kkma
-māng	kkma
-māo	kkma
-mē	kkme
-mēi	kkme
-mēn	kkme
-mēng	kkme
-mě	kkme
-měi	kkme
-měn	kkme
-měng	kkme
-mī	kkmi
-mīn	kkmi
-mīng	kkmi
-mīu	kkmi
-mō	kkmo
-mōu	kkmo
-mū	kkmu
-mǎ	kkma
-mǎi	kkma
-mǎn	kkma
-mǎng	kkma
-mǎo	kkma
-mǐ	kkmi
-mǐn	kkmi
-mǐng	kkmi
-mǐu	kkmi
-mǒ	kkmo
-mǒu	kkmo
-mǔ	kkmu
-niàn	kkni
-niàng	kkni
-niào	kkni
-nián	kkni
-niáng	kkni
-niáo	kkni
-niè	kkni
-nié	kkni
-niān	kkni
-niāng	kkni
-niāo	kkni
-niē	kkni
-niě	kkni
-niǎn	kkni
-niǎng	kkni
-niǎo	kkni
-nuàn	kknu
-nuán	kknu
-nuè	kknu
-nué	kknu
-nuān	kknu
-nuē	kknu
-nuě	kknu
-nuǎn	kknu
-nà	kkna
-nài	kkna
-nàn	kkna
-nàng	kkna
-nào	kkna
-ná	kkna
-nái	kkna
-nán	kkna
-náng	kkna
-náo	kkna
-nè	kkne
-nèi	kkne
-nèn	kkne
-nèng	kkne
-né	kkne
-néi	kkne
-nén	kkne
-néng	kkne
-nì	kkni
-nìn	kkni
-nìng	kkni
-nìu	kkni
-ní	kkni
-nín	kkni
-níng	kkni
-níu	kkni
-nòng	kkno
-nòu	kkno
-nóng	kkno
-nóu	kkno
-nù	kknu
-nùo	kknu
-nú	kknu
-núo	kknu
-nā	kkna
-nāi	kkna
-nān	kkna
-nāng	kkna
-nāo	kkna
-nē	kkne
-nēi	kkne
-nēn	kkne
-nēng	kkne
-ně	kkne
-něi	kkne
-něn	kkne
-něng	kkne
-nī	kkni
-nīn	kkni
-nīng	kkni
-nīu	kkni
-nōng	kkno
-nōu	kkno
-nū	kknu
-nūo	kknu
-nǎ	kkna
-nǎi	kkna
-nǎn	kkna
-nǎng	kkna
-nǎo	kkna
-nǐ	kkni
-nǐn	kkni
-nǐng	kkni
-nǐu	kkni
-nǒng	kkno
-nǒu	kkno
-nǔ	kknu
-nǔo	kknu
-nǖ	kknv
-nǘ	kknv
-nǚ	kknv
-nǜ	kknv
-piàn	kkpi
-piào	kkpi
-pián	kkpi
-piáo	kkpi
-piè	kkpi
-pié	kkpi
-piān	kkpi
-piāo	kkpi
-piē	kkpi
-piě	kkpi
-piǎn	kkpi
-piǎo	kkpi
-pà	kkpa
-pài	kkpa
-pàn	kkpa
-pàng	kkpa
-pào	kkpa
-pá	kkpa
-pái	kkpa
-pán	kkpa
-páng	kkpa
-páo	kkpa
-pèi	kkpe
-pèn	kkpe
-pèng	kkpe
-péi	kkpe
-pén	kkpe
-péng	kkpe
-pì	kkpi
-pìn	kkpi
-pìng	kkpi
-pí	kkpi
-pín	kkpi
-píng	kkpi
-pò	kkpo
-pòu	kkpo
-pó	kkpo
-póu	kkpo
-pù	kkpu
-pú	kkpu
-pā	kkpa
-pāi	kkpa
-pān	kkpa
-pāng	kkpa
-pāo	kkpa
-pēi	kkpe
-pēn	kkpe
-pēng	kkpe
-pěi	kkpe
-pěn	kkpe
-pěng	kkpe
-pī	kkpi
-pīn	kkpi
-pīng	kkpi
-pō	kkpo
-pōu	kkpo
-pū	kkpu
-pǎ	kkpa
-pǎi	kkpa
-pǎn	kkpa
-pǎng	kkpa
-pǎo	kkpa
-pǐ	kkpi
-pǐn	kkpi
-pǐng	kkpi
-pǒ	kkpo
-pǒu	kkpo
-pǔ	kkpu
-qià	kkqi
-qiàn	kkqi
-qiàng	kkqi
-qiào	kkqi
-qiá	kkqi
-qián	kkqi
-qiáng	kkqi
-qiáo	kkqi
-qiè	kkqi
-qié	kkqi
-qiā	kkqi
-qiān	kkqi
-qiāng	kkqi
-qiāo	kkqi
-qiē	kkqi
-qiě	kkqi
-qiǎ	kkqi
-qiǎn	kkqi
-qiǎng	kkqi
-qiǎo	kkqi
-quàn	kkqu
-quán	kkqu
-què	kkqu
-qué	kkqu
-quān	kkqu
-quē	kkqu
-quě	kkqu
-quǎn	kkqu
-qì	kkqi
-qìn	kkqi
-qìng	kkqi
-qìong	kkqi
-qìu	kkqi
-qí	kkqi
-qín	kkqi
-qíng	kkqi
-qíong	kkqi
-qíu	kkqi
-qù	kkqu
-qùn	kkqu
-qú	kkqu
-qún	kkqu
-qī	kkqi
-qīn	kkqi
-qīng	kkqi
-qīong	kkqi
-qīu	kkqi
-qū	kkqu
-qūn	kkqu
-qǐ	kkqi
-qǐn	kkqi
-qǐng	kkqi
-qǐong	kkqi
-qǐu	kkqi
-qǔ	kkqu
-qǔn	kkqu
-ruàn	kkru
-ruán	kkru
-ruì	kkru
-ruí	kkru
-ruān	kkru
-ruī	kkru
-ruǎn	kkru
-ruǐ	kkru
-ràn	kkra
-ràng	kkra
-rào	kkra
-rán	kkra
-ráng	kkra
-ráo	kkra
-rè	kkre
-rèn	kkre
-rèng	kkre
-ré	kkre
-rén	kkre
-réng	kkre
-rì	kkri
-rí	kkri
-ròng	kkro
-ròu	kkro
-róng	kkro
-róu	kkro
-rù	kkru
-rùn	kkru
-rùo	kkru
-rú	kkru
-rún	kkru
-rúo	kkru
-rān	kkra
-rāng	kkra
-rāo	kkra
-rē	kkre
-rēn	kkre
-rēng	kkre
-rě	kkre
-rěn	kkre
-rěng	kkre
-rī	kkri
-rōng	kkro
-rōu	kkro
-rū	kkru
-rūn	kkru
-rūo	kkru
-rǎn	kkra
-rǎng	kkra
-rǎo	kkra
-rǐ	kkri
-rǒng	kkro
-rǒu	kkro
-rǔ	kkru
-rǔn	kkru
-rǔo	kkru
-shuà	kksh
-shuài	kksh
-shuàn	kksh
-shuàng	kksh
-shuá	kksh
-shuái	kksh
-shuán	kksh
-shuáng	kksh
-shuā	kksh
-shuāi	kksh
-shuān	kksh
-shuāng	kksh
-shuǎ	kksh
-shuǎi	kksh
-shuǎn	kksh
-shuǎng	kksh
-shà	kksh
-shài	kksh
-shàn	kksh
-shàng	kksh
-shào	kksh
-shá	kksh
-shái	kksh
-shán	kksh
-sháng	kksh
-sháo	kksh
-shè	kksh
-shèi	kksh
-shèn	kksh
-shèng	kksh
-shé	kksh
-shéi	kksh
-shén	kksh
-shéng	kksh
-shì	kksh
-shí	kksh
-shòu	kksh
-shóu	kksh
-shù	kksh
-shùi	kksh
-shùn	kksh
-shùo	kksh
-shú	kksh
-shúi	kksh
-shún	kksh
-shúo	kksh
-shā	kksh
-shāi	kksh
-shān	kksh
-shāng	kksh
-shāo	kksh
-shē	kksh
-shēi	kksh
-shēn	kksh
-shēng	kksh
-shě	kksh
-shěi	kksh
-shěn	kksh
-shěng	kksh
-shī	kksh
-shōu	kksh
-shū	kksh
-shūi	kksh
-shūn	kksh
-shūo	kksh
-shǎ	kksh
-shǎi	kksh
-shǎn	kksh
-shǎng	kksh
-shǎo	kksh
-shǐ	kksh
-shǒu	kksh
-shǔ	kksh
-shǔi	kksh
-shǔn	kksh
-shǔo	kksh
-suàn	kksu
-suán	kksu
-suān	kksu
-suǎn	kksu
-sà	kksa
-sài	kksa
-sàn	kksa
-sàng	kksa
-sào	kksa
-sá	kksa
-sái	kksa
-sán	kksa
-sáng	kksa
-sáo	kksa
-sè	kkse
-sèn	kkse
-sèng	kkse
-sé	kkse
-sén	kkse
-séng	kkse
-sì	kksi
-sí	kksi
-sòng	kkso
-sòu	kkso
-sóng	kkso
-sóu	kkso
-sù	kksu
-sùi	kksu
-sùn	kksu
-sùo	kksu
-sú	kksu
-súi	kksu
-sún	kksu
-súo	kksu
-sā	kksa
-sāi	kksa
-sān	kksa
-sāng	kksa
-sāo	kksa
-sē	kkse
-sēn	kkse
-sēng	kkse
-sě	kkse
-sěn	kkse
-sěng	kkse
-sī	kksi
-sōng	kkso
-sōu	kkso
-sū	kksu
-sūi	kksu
-sūn	kksu
-sūo	kksu
-sǎ	kksa
-sǎi	kksa
-sǎn	kksa
-sǎng	kksa
-sǎo	kksa
-sǐ	kksi
-sǒng	kkso
-sǒu	kkso
-sǔ	kksu
-sǔi	kksu
-sǔn	kksu
-sǔo	kksu
-tiàn	kkti
-tiào	kkti
-tián	kkti
-tiáo	kkti
-tiè	kkti
-tié	kkti
-tiān	kkti
-tiāo	kkti
-tiē	kkti
-tiě	kkti
-tiǎn	kkti
-tiǎo	kkti
-tuàn	kktu
-tuán	kktu
-tuān	kktu
-tuǎn	kktu
-tà	kkta
-tài	kkta
-tàn	kkta
-tàng	kkta
-tào	kkta
-tá	kkta
-tái	kkta
-tán	kkta
-táng	kkta
-táo	kkta
-tè	kkte
-tèng	kkte
-té	kkte
-téng	kkte
-tì	kkti
-tìng	kkti
-tí	kkti
-tíng	kkti
-tòng	kkto
-tòu	kkto
-tóng	kkto
-tóu	kkto
-tù	kktu
-tùi	kktu
-tùn	kktu
-tùo	kktu
-tú	kktu
-túi	kktu
-tún	kktu
-túo	kktu
-tā	kkta
-tāi	kkta
-tān	kkta
-tāng	kkta
-tāo	kkta
-tē	kkte
-tēng	kkte
-tě	kkte
-těng	kkte
-tī	kkti
-tīng	kkti
-tōng	kkto
-tōu	kkto
-tū	kktu
-tūi	kktu
-tūn	kktu
-tūo	kktu
-tǎ	kkta
-tǎi	kkta
-tǎn	kkta
-tǎng	kkta
-tǎo	kkta
-tǐ	kkti
-tǐng	kkti
-tǒng	kkto
-tǒu	kkto
-tǔ	kktu
-tǔi	kktu
-tǔn	kktu
-tǔo	kktu
-wà	kkwa
-wài	kkwa
-wàn	kkwa
-wàng	kkwa
-wá	kkwa
-wái	kkwa
-wán	kkwa
-wáng	kkwa
-wèi	kkwe
-wèn	kkwe
-wèng	kkwe
-wéi	kkwe
-wén	kkwe
-wéng	kkwe
-wò	kkwo
-wó	kkwo
-wù	kkwu
-wú	kkwu
-wā	kkwa
-wāi	kkwa
-wān	kkwa
-wāng	kkwa
-wēi	kkwe
-wēn	kkwe
-wēng	kkwe
-wěi	kkwe
-wěn	kkwe
-wěng	kkwe
-wō	kkwo
-wū	kkwu
-wǎ	kkwa
-wǎi	kkwa
-wǎn	kkwa
-wǎng	kkwa
-wǒ	kkwo
-wǔ	kkwu
-xià	kkxi
-xiàn	kkxi
-xiàng	kkxi
-xiào	kkxi
-xiá	kkxi
-xián	kkxi
-xiáng	kkxi
-xiáo	kkxi
-xiè	kkxi
-xié	kkxi
-xiā	kkxi
-xiān	kkxi
-xiāng	kkxi
-xiāo	kkxi
-xiē	kkxi
-xiě	kkxi
-xiǎ	kkxi
-xiǎn	kkxi
-xiǎng	kkxi
-xiǎo	kkxi
-xuàn	kkxu
-xuán	kkxu
-xuè	kkxu
-xué	kkxu
-xuān	kkxu
-xuē	kkxu
-xuě	kkxu
-xuǎn	kkxu
-xì	kkxi
-xìn	kkxi
-xìng	kkxi
-xìong	kkxi
-xìu	kkxi
-xí	kkxi
-xín	kkxi
-xíng	kkxi
-xíong	kkxi
-xíu	kkxi
-xù	kkxu
-xùn	kkxu
-xú	kkxu
-xún	kkxu
-xī	kkxi
-xīn	kkxi
-xīng	kkxi
-xīong	kkxi
-xīu	kkxi
-xū	kkxu
-xūn	kkxu
-xǐ	kkxi
-xǐn	kkxi
-xǐng	kkxi
-xǐong	kkxi
-xǐu	kkxi
-xǔ	kkxu
-xǔn	kkxu
-yuàn	kkyu
-yuán	kkyu
-yuè	kkyu
-yué	kkyu
-yuān	kkyu
-yuē	kkyu
-yuě	kkyu
-yuǎn	kkyu
-yà	kkya
-yàn	kkya
-yàng	kkya
-yào	kkya
-yá	kkya
-yán	kkya
-yáng	kkya
-yáo	kkya
-yè	kkye
-yé	kkye
-yì	kkyi
-yìn	kkyi
-yìng	kkyi
-yí	kkyi
-yín	kkyi
-yíng	kkyi
-yò	kkyo
-yòng	kkyo
-yòu	kkyo
-yó	kkyo
-yóng	kkyo
-yóu	kkyo
-yù	kkyu
-yùn	kkyu
-yú	kkyu
-yún	kkyu
-yā	kkya
-yān	kkya
-yāng	kkya
-yāo	kkya
-yē	kkye
-yě	kkye
-yī	kkyi
-yīn	kkyi
-yīng	kkyi
-yō	kkyo
-yōng	kkyo
-yōu	kkyo
-yū	kkyu
-yūn	kkyu
-yǎ	kkya
-yǎn	kkya
-yǎng	kkya
-yǎo	kkya
-yǐ	kkyi
-yǐn	kkyi
-yǐng	kkyi
-yǒ	kkyo
-yǒng	kkyo
-yǒu	kkyo
-yǔ	kkyu
-yǔn	kkyu
-zhuà	kkzh
-zhuài	kkzh
-zhuàn	kkzh
-zhuàng	kkzh
-zhuá	kkzh
-zhuái	kkzh
-zhuán	kkzh
-zhuáng	kkzh
-zhuā	kkzh
-zhuāi	kkzh
-zhuān	kkzh
-zhuāng	kkzh
-zhuǎ	kkzh
-zhuǎi	kkzh
-zhuǎn	kkzh
-zhuǎng	kkzh
-zhà	kkzh
-zhài	kkzh
-zhàn	kkzh
-zhàng	kkzh
-zhào	kkzh
-zhá	kkzh
-zhái	kkzh
-zhán	kkzh
-zháng	kkzh
-zháo	kkzh
-zhè	kkzh
-zhèi	kkzh
-zhèn	kkzh
-zhèng	kkzh
-zhé	kkzh
-zhéi	kkzh
-zhén	kkzh
-zhéng	kkzh
-zhì	kkzh
-zhí	kkzh
-zhòng	kkzh
-zhòu	kkzh
-zhóng	kkzh
-zhóu	kkzh
-zhù	kkzh
-zhùi	kkzh
-zhùn	kkzh
-zhùo	kkzh
-zhú	kkzh
-zhúi	kkzh
-zhún	kkzh
-zhúo	kkzh
-zhā	kkzh
-zhāi	kkzh
-zhān	kkzh
-zhāng	kkzh
-zhāo	kkzh
-zhē	kkzh
-zhēi	kkzh
-zhēn	kkzh
-zhēng	kkzh
-zhě	kkzh
-zhěi	kkzh
-zhěn	kkzh
-zhěng	kkzh
-zhī	kkzh
-zhōng	kkzh
-zhōu	kkzh
-zhū	kkzh
-zhūi	kkzh
-zhūn	kkzh
-zhūo	kkzh
-zhǎ	kkzh
-zhǎi	kkzh
-zhǎn	kkzh
-zhǎng	kkzh
-zhǎo	kkzh
-zhǐ	kkzh
-zhǒng	kkzh
-zhǒu	kkzh
-zhǔ	kkzh
-zhǔi	kkzh
-zhǔn	kkzh
-zhǔo	kkzh
-zuàn	kkzu
-zuán	kkzu
-zuān	kkzu
-zuǎn	kkzu
-zà	kkza
-zài	kkza
-zàn	kkza
-zàng	kkza
-zào	kkza
-zá	kkza
-zái	kkza
-zán	kkza
-záng	kkza
-záo	kkza
-zè	kkze
-zèi	kkze
-zèn	kkze
-zèng	kkze
-zé	kkze
-zéi	kkze
-zén	kkze
-zéng	kkze
-zì	kkzi
-zí	kkzi
-zòng	kkzo
-zòu	kkzo
-zóng	kkzo
-zóu	kkzo
-zù	kkzu
-zùi	kkzu
-zùn	kkzu
-zùo	kkzu
-zú	kkzu
-zúi	kkzu
-zún	kkzu
-zúo	kkzu
-zā	kkza
-zāi	kkza
-zān	kkza
-zāng	kkza
-zāo	kkza
-zē	kkze
-zēi	kkze
-zēn	kkze
-zēng	kkze
-zě	kkze
-zěi	kkze
-zěn	kkze
-zěng	kkze
-zī	kkzi
-zōng	kkzo
-zōu	kkzo
-zū	kkzu
-zūi	kkzu
-zūn	kkzu
-zūo	kkzu
-zǎ	kkza
-zǎi	kkza
-zǎn	kkza
-zǎng	kkza
-zǎo	kkza
-zǐ	kkzi
-zǒng	kkzo
-zǒu	kkzo
-zǔ	kkzu
-zǔi	kkzu
-zǔn	kkzu
-zǔo	kkzu
-ài	kkai
-àn	kkan
-àng	kkan
-ào	kkao
-ái	kkai
-án	kkan
-áng	kkan
-áo	kkao
-èi	kkei
-èn	kken
-èng	kken
-èr	kker
-éi	kkei
-én	kken
-éng	kken
-ér	kker
-òu	kkou
-óu	kkou
-āi	kkai
-ān	kkan
-āng	kkan
-āo	kkao
-ēi	kkei
-ēn	kken
-ēng	kken
-ēr	kker
-ěi	kkei
-ěn	kken
-ěng	kken
-ěr	kker
-ōu	kkou
-ǎi	kkai
-ǎn	kkan
-ǎng	kkan
-ǎo	kkao
-ǒu	kkou
-─│┌┐└┘├┤┬┴┼	kkbg
-〔〕	kklj
 🇦🇦	kkaa
 🇦🇧	kkab
 🇦🇨	kkac
@@ -277671,12 +277760,15 @@ zǔo	kkzu
 ù	pyu
 ú	pyu
 ā	pya
+ĉ	pych
+ĉ	pyc
 ē	pye
 ě	pye
 ī	pyi
 ŋ	pyng
 ō	pyo
 ŝ	pysh
+ŝ	pys
 ū	pyu
 ǎ	pya
 ǐ	pyi
@@ -277692,6 +277784,7 @@ zǔo	kkzu
 ˊ	pyyp
 ˋ	pyqs
 ẑ	pyzh
+ẑ	pyz
 《	bdsm
 》	bdsm
 　	bdkg
@@ -277714,12 +277807,12 @@ zǔo	kkzu
 ；	bdfh
 ？	bdwh
 ·	bdjg
+——	bdpz
+……	bdsl
 ‘	bddy
 ’	bddy
 “	bdsy
 ”	bdsy
-——	bdpz
-……	bdsl
 あ	rya
 い	ryi
 う	ryu

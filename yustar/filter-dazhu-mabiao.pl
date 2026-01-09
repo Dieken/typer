@@ -4,7 +4,7 @@
 #   remove phrases and adjust char order according to frequency
 #
 # Usage:
-#   ./filter-dazhu-mabiao.pl path/to/星陳輸入法_v3.10.2/
+#   ./filter-dazhu-mabiao.pl path/to/星陳輸入法_v3.11.0-beta.20260103.232700/
 
 use v5.36;                              # or later to get "unicode_strings" feature, plus strict and warnings
 use utf8;                               # so literals and identifiers can be in UTF-8
