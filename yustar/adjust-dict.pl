@@ -4,7 +4,7 @@
 #   adjust RIME dict according to frequencies of characters and words
 #
 # Usage:
-#   export R=path/to/星陳輸入法_v3.11.0-beta.20260103.232700/schema
+#   export R=path/to/星陳輸入法_v3.11.0-beta.20260109.185222/schema
 #   a=$(grep '^\s*-\s\+yuhao/' $R/yustar_sc.dict.yaml | perl -lpE 's/\r//; s/\s*#.*//; s/^\s*\-\s*/-d $ENV{R}\//; s/$/.dict.yaml/')
 #   ./adjust-dict.pl $a -c ../简体字频表-2.5b.txt -w ../词频数据.txt -c override_weight.txt -w override_weight.txt > yustar_sc.all.dict.yaml
 #   #./adjust-dict.pl $a -c $R/yuhao.essay.txt -w $R/yuhao.essay.txt > yustar_sc.all.dict.yaml
