@@ -223,7 +223,7 @@ my $freqs = read_csv($freq_file);
             $bad_chars{$.} = { char => $a[0], code => $c, same_hand => $same_hand_keys_max, cross_row => $cross_row_keys };
         }
 
-        last if $. == 500;
+        last if $. == 3000;
     }
     close $fh;
 
