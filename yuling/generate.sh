@@ -3,7 +3,7 @@
 set -euo pipefail
 shopt -s failglob
 
-VER="v3.11.0-beta.20260109"
+VER="v3.11.0-beta.20260112"
 
 [ -e zigen-ling.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/main/src/public/zigen-ling.csv'
 [ -e mabiao-ling.txt  ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/main/src/public/mabiao-ling.txt'
@@ -52,6 +52,25 @@ perl -CSDA -Mautodie -lanE '
 
     print $F[0], "\t", substr($c, 0, 4);
 ' chaifen_sc.tsv > mabiao_sc.tsv
+
+# 五码灵明，日月规则：不跳第三根，最长五码
+perl -CSDA -Mautodie -lanE '
+     BEGIN {
+        open $fh, "roots.tsv";
+        while (<$fh>) {
+            @a = split;
+            $h{$a[0]} = $a[1];
+        }
+    }
+
+    @r = map { $h{$_} } split //, $F[1];
+    $c = @r == 1 ? $r[0] : length($r[0]) == 3 ? substr($r[0], 0, 2) : substr($r[0], 0, 1);
+    for ($i = 1; $i < @r; ++$i) {
+        $c .= $i < $#r ? substr($r[$i], 0, 1) : $r[$i];
+    }
+
+    print $F[0], "\t", substr($c, 0, 5);
+' chaifen_sc.tsv > mabiao5_sc.tsv
 
 grep -v '^/' mabiao-ling.txt | tac | perl -CSDA -F'\t' -lanE 'next if length($F[1]) > 1 || $h{$F[1]}; $h{$F[1]} = 1; print' | tac  > dazhu-ling-full.txt
 echo -e "ver\t靈明輸入法-$VER" >> dazhu-ling-full.txt
