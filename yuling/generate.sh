@@ -3,7 +3,7 @@
 set -euo pipefail
 shopt -s failglob
 
-VER="v3.11.0-beta.20260112"
+VER="v3.11.0-beta.20260114"
 
 [ -e zigen-ling.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/main/src/public/zigen-ling.csv'
 [ -e mabiao-ling.txt  ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/main/src/public/mabiao-ling.txt'
