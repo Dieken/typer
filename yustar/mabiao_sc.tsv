@@ -136150,7 +136150,7 @@ Y鍵字根 = 阝飛乙	/xcy
 + i = 弋	/xck
 + j = 纟	/xck
 + l = 立	/xck
-+ m = 卯	/xck
++ m = 卯	/xck
 + r = 入	/xck
 + s = 食飠	/xck
 + v = 予	/xck
@@ -136158,21 +136158,21 @@ Y鍵字根 = 阝飛乙	/xcy
 + x = 辛	/xck
 + z = 子	/xck
 + a = 三	/xcl
-+ c = 巛川巜	/xcl
++ c = 巜巛川	/xcl
 + e = 耳	/xcl
-+ j = 丌	/xcl
++ j = 丌	/xcl
 + l = 〇	/xcl
-+ s = 舌	/xcl
++ s = 舌	/xcl
 + v = 口	/xcl
 + w = 兀	/xcl
 + z = 正	/xcl
 + a = 麻	/xcm
 + b = 疒	/xcm
-+ c = 辰	/xcm
++ c = 辰	/xcm
 + d = 刀刂	/xcm
 + g = 广	/xcm
 + h = 禾	/xcm
-+ l = 鹿	/xcm
++ l = 鹿	/xcm
 + m = 毛	/xcm
 + n = 鸟	/xcm
 + q = 千	/xcm
@@ -136181,7 +136181,7 @@ Y鍵字根 = 阝飛乙	/xcy
 + y = 夭	/xcm
 + z = 豸	/xcm
 + a = 厶幺	/xcn
-+ b = 匕	/xcn
++ b = 匕	/xcn
 + c = 长	/xcn
 + f = 甫	/xcn
 + g = 干	/xcn
@@ -136199,21 +136199,21 @@ Y鍵字根 = 阝飛乙	/xcy
 + c = 齒	/xcp
 + g = 工	/xcp
 + i = 龰止	/xcp
-+ n = ⺧牛	/xcp
++ n = 牛⺧	/xcp
 + s = 生	/xcp
 + x = 西	/xcp
 + y = 酉	/xcp
-+ z = 𧾷足	/xcp
++ z = 足𧾷	/xcp
 + c = 虫	/xcq
 + i = 自	/xcq
 + k = 䒑丷	/xcq
 + m = 米	/xcq
 + q = 丬	/xcq
 + s = 身	/xcq
-+ y = 羊⺷⺶	/xcq
++ y = ⺷羊⺶	/xcq
 + e = 人	/xcr
 + g = 骨	/xcr
-+ h = 合	/xcr
++ h = 合	/xcr
 + i = 心	/xcr
 + j = 九	/xcr
 + k = 咼	/xcr
@@ -136221,34 +136221,34 @@ Y鍵字根 = 阝飛乙	/xcy
 + w = 瓦	/xcr
 + x = 忄	/xcr
 + g = 革	/xcs
-+ i = 乂世	/xcs
++ i = 世乂	/xcs
 + l = 力	/xcs
 + m = 面	/xcs
-+ o = 廾艹	/xcs
++ o = 廾艹	/xcs
 + r = 而	/xcs
-+ s = 卌卅	/xcs
++ s = 卅卌	/xcs
 + y = 用	/xcs
 + e = 文	/xct
 + f = 方	/xct
 + h = 亥	/xct
-+ i = 亦	/xct
++ i = 亦	/xct
 + j = 金	/xct
 + m = 门	/xct
 + s = 豕	/xct
-+ u = 夊攵	/xct
++ u = 攵夊	/xct
 + w = 亡	/xct
-+ b = ⺊卜髟	/xcu
-+ c = 長镸	/xcu
++ b = ⺊髟卜	/xcu
++ c = 镸長	/xcu
 + e = 业	/xcu
 + f = 非	/xcu
 + g = 瓜	/xcu
-+ h = 虍虎	/xcu
++ h = 虎虍	/xcu
 + j = 巾	/xcu
 + l = 鹵	/xcu
 + m = 皿	/xcu
 + o = 舟	/xcu
 + q = 其	/xcu
-+ s = 〢丨山〣	/xcu
++ s = 〣〢丨山	/xcu
 + w = 罒	/xcu
 + z = 爪	/xcu
 + h = 厂丆	/xcv
@@ -136261,10 +136261,10 @@ Y鍵字根 = 阝飛乙	/xcy
 + x = 习	/xcv
 + b = 勹	/xcw
 + c = 屮	/xcw
-+ j = 丱丩	/xcw
++ j = 丩丱	/xcw
 + k = 凵	/xcw
-+ m = 馬	/xcw
-+ r = 儿	/xcw
++ m = 馬	/xcw
++ r = 儿	/xcw
 + w = 囗	/xcw
 + y = ⺝月	/xcw
 + i = 七	/xcx
@@ -188088,7 +188088,6 @@ Y鍵字根 = 阝飛乙	/xcy
 精神病院	qjmy
 西餐厅	puvj
 蔡琴	swjj
-三洋	lanq
 人人平等	rrng
 变软	tbxx
 饱和度	xmms
@@ -191763,7 +191762,6 @@ Y鍵字根 = 阝飛乙	/xcy
 买给	yikr
 鸡皮	bmbp
 下脚	jxwh
-万有	fwew
 剪发	qwwb
 附属物	ybpw
 庐江	mhnp
@@ -210091,11 +210089,9 @@ Y鍵字根 = 阝飛乙	/xcy
 发射器	wqll
 角色扮演	xxfn
 贝拉	cbfk
-看个	fjru
 房奴	htcb
 三级片	lkdp
 所感	ddkf
-有血	ewgu
 千里之外	mvox
 无袖	ffxd
 仪表板	ehad
@@ -236647,32 +236643,17 @@ Y鍵字根 = 阝飛乙	/xcy
 政由己出	ldow
 经文纬武	ktkf
 优游卒岁	enau
-白翳	dbhj
-暗约	jkkw
-魏阙	mctq
-应卯	mnkm
 秀而不实	msvi
-宽饶	isxx
 黄口孺子	slkk
-洗垢	nphd
 思如涌泉	vcnd
-嚅嗫	lcll
 急惊风撞着慢郎中	xrel
-霜晨	cajm
 父严子孝	kfkh
-贤劳	ubsx
-嫌憎	cqrq
-闲弃	taan
 挥毫落纸	fask
 上下交困	jjaw
-蟹青	xshw
 贯朽粟陈	eapy
 穷当益坚	iiqu
 异口同音	olck
 作福作威	ejek
-绸条	kwta
-画供	fves
-鹄立	plkl
 怪谲	rbdk
 归马放牛	qbtp
 稂莠	mksm
@@ -236681,16 +236662,12 @@ Y鍵字根 = 阝飛乙	/xcy
 视民如子	jock
 抵掌而谈	fisd
 高足弟子	apqk
-步韵	pikj
 三街六巷	lcas
 芟除	seyr
-吆呼	lnlg
 居之不疑	bovn
-上闩	jvtf
 大旱望云霓	ojtc
 声罪致讨	hudd
 心如古井	rcji
-嫠妇	ftcb
 歧黄	pgsd
 愚陋	vryf
 广开才路	mfkp
@@ -236704,12 +236681,8 @@ Y鍵字根 = 阝飛乙	/xcy
 恚恨	hhrg
 废然	mwwh
 多义字	xkik
-巡风	loes
 畜肥	anwo
 斋果	tsja
-马蹄表	bphg
-险乎	yrgq
-阑入	takr
 耍笔杆	sgan
 贻患	cnll
 涓埃	nlhn
