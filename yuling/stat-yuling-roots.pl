@@ -191,19 +191,30 @@ my $freqs = read_csv($freq_file);
         my $same_hand_keys_max = 1;
         my $same_hand_keys = 1;
         my $cross_row_keys = 0;
+        my $same_finger_keys_max = 1;
+        my $same_finger_keys = 1;
 
         for (my $i = 1; $i < length($c); ++$i) {
             my $k1 = $keys{ substr($c, $i - 1, 1) };
             my $k2 = $keys{ substr($c, $i, 1) };
+            my $x1 = $k1->{x};
+            my $x2 = $k2->{x};
 
-            if ($k1->{x} < 5 && $k2->{x} < 5) {
+            if (($x1 == 4 || $x1 == 6 ? $x1 - 1 : $x1) == ($x2 == 4 || $x2 == 6 ? $x2 - 1 : $x2)) {
+                $same_finger_keys++;
+            } else {
+                $same_finger_keys_max = max($same_finger_keys_max, $same_finger_keys);
+                $same_finger_keys = 1;
+            }
+
+            if ($x1 < 5 && $x2 < 5) {
                 # left hand
                 $same_hand_keys++;
 
                 if (abs($k1->{y} - $k2->{y}) == 2) {
                     $cross_row_keys++;
                 }
-            } elsif ($k1->{x} >=5 && $k2->{x} >= 5) {
+            } elsif ($x1 >=5 && $x2 >= 5) {
                 # right hand
                 $same_hand_keys++;
 
@@ -218,9 +229,9 @@ my $freqs = read_csv($freq_file);
 
         $same_hand_keys_max = max($same_hand_keys_max, $same_hand_keys);
 
-        if ($same_hand_keys_max > 2 || $cross_row_keys > 0) {
+        if ($same_hand_keys_max > 2 || $cross_row_keys > 0 || $same_finger_keys_max > 2) {
             $bad_freq += $f;
-            $bad_chars{$.} = { char => $a[0], code => $c, same_hand => $same_hand_keys_max, cross_row => $cross_row_keys };
+            $bad_chars{$.} = { char => $a[0], code => $c, same_hand => $same_hand_keys_max, same_finger => $same_finger_keys_max, cross_row => $cross_row_keys };
         }
 
         last if $. == 3000;
@@ -239,11 +250,12 @@ my $freqs = read_csv($freq_file);
                 ++$i;
 
                 my $c = $bad_chars{$seq};
-                printf "    %4d:  %-16s  %-5s 同手=%d 跨排=%d\n",
+                printf "    %4d:  %-16s  %-5s 同手=%d 同指=%d 跨排=%d\n",
                     $i,
                     colorize($c->{char}, $seq),
                     $c->{code},
                     $c->{same_hand},
+                    $c->{same_finger},
                     $c->{cross_row};
             }
         }
