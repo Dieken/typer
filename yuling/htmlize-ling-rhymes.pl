@@ -67,7 +67,7 @@ sub htmlize_rhyme($rhyme_ref) {
                 die "Inconsistent dama($a[0]) for root $char($code) in rhyme '$rhyme'\n" if $dama ne $a[0];
                 my $comment = $info->[2] // '<no comment>';
                 my $class;
-                if ($comment =~ /不取|跳過/) {
+                if ($comment =~ /不取/ || $char eq '儿') {  # '儿' 省略了零声母的特殊辅音 J
                     $class = "class='no-sheng-mu-root'";
                 } elsif ($comment =~ /無讀音/) {
                     $class = "class='no-sound-root'";
