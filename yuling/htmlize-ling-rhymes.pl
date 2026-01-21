@@ -8,17 +8,20 @@ use Encode   qw(decode);
 @ARGV = map { decode('UTF-8', $_, Encode::FB_CROAK) } @ARGV;
 
 use Getopt::Long;
+use MIME::Base64;
 use autodie;
 
 
 my $roots_file = 'roots.tsv';
 my $rhymes_file = 'ling-rhymes.txt';
 my $title = '灵明输入法字根口诀';
+my $font = '_Yuniversus.woff';
 
 GetOptions(
     'roots=s'  => \$roots_file,
     'rhymes=s' => \$rhymes_file,
     'title=s'  => \$title,
+    'font=s'   => \$font,
 ) or die "Error in command line arguments\n";
 
 my %roots;
@@ -97,6 +100,9 @@ sub htmlize_rhyme($rhyme_ref) {
 }
 
 sub print_html_header() {
+    my $font_src = font_src($font);
+    my $font_note = -f $font ? '' : '<p>注意：从<a href="https://shurufa.app">宇浩输入法官网</a>加载 Yuniversus 字体可能较慢，请稍候！</p>';
+
     print << "HTML_HEADER";
 <!DOCTYPE html>
 <html lang="zh">
@@ -107,7 +113,7 @@ sub print_html_header() {
     <style>
         \@font-face {
             font-family: 'Yuniversus';
-            src: url('https://shurufa.app/Yuniversus.woff') format('woff');
+            src: $font_src;
         }
         body {
             font-family: 'Yuniversus', serif;
@@ -140,7 +146,7 @@ sub print_html_header() {
     </style>
 </head>
 <body>
-<p>注意：从<a href="https://shurufa.app">宇浩输入法官网</a>加载 Yuniversus 字体可能较慢，请稍候！</p>
+$font_note
 HTML_HEADER
 }
 
@@ -227,5 +233,23 @@ END
 </table>
 </div>
 END
+    }
+}
+
+sub font_src($file) {
+    if (-f $file) {
+        my ($mime_type) = $file =~ /\.([^\.]+)/i;
+        die "Unknown font type: $file\n" unless $mime_type;
+        $mime_type = "font/" . lc($mime_type);
+
+        open my $fh, "<", $file;
+        binmode $fh;
+        my $data = do { local $/; <$fh> };
+        close $fh;
+
+        return "url('data:$mime_type;base64," . encode_base64($data, "") . "')";
+    } else {
+        warn "Font file '$file' not found, using online URL instead.\n";
+        return "url('https://shurufa.app/Yuniversus.woff') format('woff')";
     }
 }
