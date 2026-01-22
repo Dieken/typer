@@ -5,10 +5,11 @@ shopt -s failglob
 
 VER="v3.11.0-beta.20260121"
 
-[ -e zigen-ling.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/main/src/public/zigen-ling.csv'
-[ -e mabiao-ling.txt  ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/main/src/public/mabiao-ling.txt'
-[ -e chaifen.csv ] || curl -LO 'https://github.com/forfudan/yu/raw/refs/heads/main/src/public/chaifen.csv'
+[ -e zigen-ling.csv ] || curl -LO 'https://shurufa.app/zigen-ling.csv'
+[ -e mabiao-ling.txt  ] || curl -LO 'https://shurufa.app/mabiao-ling.txt'
+[ -e chaifen.csv ] || curl -LO 'https://shurufa.app/chaifen.csv'
 [ -e _Yuniversus.woff ] || curl -L -o _Yuniversus.woff 'https://shurufa.app/Yuniversus.woff'
+[ -e charsets.json ] || curl -LO 'https://ceping.shurufa.app/data/charsets.json'
 
 perl -CSDA -F, -lanE 'use autodie; use sort "stable";
     BEGIN {
@@ -71,6 +72,10 @@ perl -CSDA -Mautodie -lanE '
 
     print $F[0], "\t", substr($c, 0, 5);
 ' chaifen_sc.tsv > mabiao5_sc.tsv
+
+if [ -f old/mabiao_sc.tsv ]; then
+    ../scripts/diff-duplicated-codes-by-charset.pl
+fi
 
 grep -v '^/' mabiao-ling.txt | tac | perl -CSDA -F'\t' -lanE 'next if length($F[1]) > 1 || $h{$F[1]}; $h{$F[1]} = 1; print' | tac  > dazhu-ling-full.txt
 echo -e "ver\t靈明輸入法-$VER" >> dazhu-ling-full.txt
