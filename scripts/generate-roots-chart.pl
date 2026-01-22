@@ -19,7 +19,7 @@ use Getopt::Long;
 use HTTP::Tiny;
 use IO::Uncompress::Unzip qw/unzip $UnzipError/;
 use JSON::PP;
-use List::Util qw/max uniqstr/;
+use List::Util qw/max sum uniqstr/;
 use MIME::Base64;
 use Unicode::UCD qw/charblock/;
 
@@ -32,6 +32,7 @@ my $title = "字根图";
 my @extra_js;
 my $roots_mapping;
 my $roots_font;
+my $char_freq_file = "../简体字频表-2.5b.txt";
 
 GetOptions(
     "max-examples=i"    => \$max_examples,
@@ -43,6 +44,7 @@ GetOptions(
     "extra-js=s"        => \@extra_js,
     "roots-mapping=s"   => \$roots_mapping,
     "font=s"            => \$roots_font,
+    "char-freq=s"       => \$char_freq_file,
 );
 
 my $uh = load_unihan($unihan_dir);
@@ -54,11 +56,14 @@ my $topchars_file = $ARGV[2] || "top6000.txt";
 my $roots = read_tsv($roots_file);
 my $chaifen = read_tsv($chaifen_file);
 my $topchars = read_tsv($topchars_file);
+my $char_freqs = read_tsv($char_freq_file);
+my $total_char_freq = sum map { $_->[2] } values %$char_freqs;
 $roots_mapping = read_roots_mapping($roots_mapping) if $roots_mapping;
 
 my $max_pages = int((keys(%$topchars) - 1) / $page_size) + 1;
 
 my %roots_freq;
+my %roots_char_freq;
 my %roots_is_traditional;
 my %roots_examples;
 my %pua_cache;
@@ -87,6 +92,7 @@ for my $k (sort {
             next if exists $root_to_chars{$_}{$k};
 
             $roots_freq{$_}[$page]++;
+            $roots_char_freq{$_} += exists $char_freqs->{$k} ? $char_freqs->{$k}[2] : 0;
             $root_to_chars{$_}{$k} = 1;
 
             if ($is_traditional) {
@@ -122,6 +128,7 @@ while (my ($k, $v) = each %$roots) {
         pinyin => $pinyin,
         comment => $comment,
         freq => \@freq,
+        char_freq => sprintf("%.2f%%", $roots_char_freq{$k} / $total_char_freq * 100.0),
         traditional => $roots_is_traditional{$k} ? 1 : 0,
         examples => $roots_examples{$k},
     };
@@ -636,7 +643,7 @@ function showDetail(tag) {
     <td>\${mr(r)} \${type}</td>
     <td>\${d.pinyin}</td>
     <td>\${rootsRank.get(r)} \${hot}</td>
-    <td>\${d.freq[page]}</td>
+    <td>\${d.freq[page]} (\${d.char_freq})</td>
     <td>\${d.examples.join("")}</td>
     <td>\${d.comment}</td>
     </tr></tbody></table>`;
@@ -751,7 +758,7 @@ function createTable() {
       \${td_c}
       <td class="root \${clz} \${clz2}"><ruby>\${mr(r)}<rp>(</rp><rt>\${d.pinyin}</rt><rp>)</rp></ruby></td>
       <td class="rank \${clz} \${clz2}">\${rootsRank.get(r)}</td>
-      <td class="freq \${clz} \${clz2}">\${d.freq[page]}</td>
+      <td class="freq \${clz} \${clz2}">\${d.freq[page]} (\${d.char_freq})</td>
       <td class="examples \${clz}">\${d.examples.join("")}</td>
       <td class="comment \${clz}">\${d.comment}</td>
     </tr>`;
