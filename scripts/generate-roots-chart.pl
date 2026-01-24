@@ -247,7 +247,7 @@ sub template($charinfo_js, $chart_js) {
     my $font_face = "";
     if ($roots_font) {
         if (-f $roots_font) {
-            $extra_font = "\"rootfont\",";
+            $extra_font = "rootfont,";
 
             my ($mime_type) = $roots_font =~ /\.([^\.]+)/i;
             die "Unknown font type: $roots_font\n" unless $mime_type;
@@ -258,8 +258,8 @@ sub template($charinfo_js, $chart_js) {
             my $data = do { local $/; <$fh> };
             close $fh;
 
-            $font_face = "  \@font-face {\n    font-family: rootfont;\n    src: url(data:$mime_type;base64," .
-                encode_base64($data, "") . ")\n  }\n";
+            $font_face = "  \@font-face {\n    font-family: 'rootfont';\n    src: url('data:$mime_type;base64," .
+                encode_base64($data, "") . "');\n  }\n";
         } else {
             $extra_font = "\"$roots_font\",";
         }
