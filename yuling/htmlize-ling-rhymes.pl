@@ -112,11 +112,11 @@ sub print_html_header() {
     <title>$title</title>
     <style>
         \@font-face {
-            font-family: 'Yuniversus';
+            font-family: rootfont;
             src: $font_src;
         }
         body {
-            font-family: 'Yuniversus', serif;
+            font-family: rootfont, serif;
             font-size: larger;
         }
         table {
@@ -250,6 +250,6 @@ sub font_src($file) {
         return "url('data:$mime_type;base64," . encode_base64($data, "") . "')";
     } else {
         warn "Font file '$file' not found, using online URL instead.\n";
-        return "url('https://shurufa.app/Yuniversus.woff') format('woff')";
+        return "url('https://shurufa.app/fonts/Yuniversus.woff') format('woff')";
     }
 }

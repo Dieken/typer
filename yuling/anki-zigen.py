@@ -29,11 +29,11 @@ model_id = 1857619794
 }
 
 .lizi {
-    font-family: SourceHansSerifCN;
+    font-family: SourceHansSerifCN, serif;
 }
 
 .card {
-    font-family: myfont;
+    font-family: myfont, serif;
     font-size: 20px;
     text-align: center;
     color: black;
