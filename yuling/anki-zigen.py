@@ -1,5 +1,6 @@
 from genanki import Note, Model, Package, Deck, guid_for
 import random
+import sys
 
 ## Author: @Jigsaw
 
@@ -8,6 +9,7 @@ deck_id = 2123361571  # 灵明
 牌组 = Deck(deck_id, "灵明字根")
 
 model_id = 1857619794
+font_file =  sys.argv[1] if len(sys.argv) > 1 else "_Yuniversus.woff"
 模版 = Model(
     model_id,
     "字根",
@@ -20,12 +22,18 @@ model_id = 1857619794
         }
     ],
     css="""
-.flex-col { flex: 1; justipy-content:center;}
-.flex-container { display: flex; gap: 8px;
+.flex-col {
+    flex: 1;
+    justipy-content:center;
 }
 
-.zigen{
-    font-size: 50pt;
+.flex-container {
+    display: flex;
+    gap: 8px;
+}
+
+.zigen {
+    font-size: 50px;
 }
 
 .lizi {
@@ -42,9 +50,9 @@ model_id = 1857619794
 
 @font-face {
   font-family: myfont;
-  src: url("_Yuniversus.woff");
+  src: url("{font_file}");
 }
-""",
+""".replace("{font_file}", font_file),
 )
 
 拆分表 = []
@@ -101,5 +109,5 @@ with open("./zigen-ling.csv", "r") as f:
     )
 
 my_package = Package(牌组)
-my_package.media_files = ["_Yuniversus.woff"]
+my_package.media_files = [font_file]
 my_package.write_to_file("灵明字根.apkg")

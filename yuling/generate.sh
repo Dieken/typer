@@ -92,9 +92,11 @@ grep -Eo '<ruby\s+class=.two-letter-root.*?rp>' 灵明输入法字根口诀-$VER
 
 ../scripts/generate-example-chars.pl --skip-root --chaifen chaifen_sc.tsv --mabiao mabiao_sc.tsv > yuling-example-chars-$VER.txt
 
+font_file=_Yuniversus_$(cksum _Yuniversus.woff | awk '{print $1}').woff
+cp -f _Yuniversus.woff $font_file
 [ -e pyproject.toml ] || uv init
 uv add genanki
-uv run anki-zigen.py
+uv run anki-zigen.py $font_file
 mv 灵明字根.apkg 灵明字根-$VER.apkg
 
 if [ -f ~/Library/Rime/yuling_chaifen.dict.yaml ]; then
