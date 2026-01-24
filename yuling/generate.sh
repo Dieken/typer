@@ -11,27 +11,6 @@ VER="v3.11.0-beta.20260124"
 [ -e _Yuniversus.woff ] || curl -L -o _Yuniversus.woff 'https://shurufa.app/fonts/Yuniversus.woff'
 [ -e charsets.json ] || curl -LO 'https://ceping.shurufa.app/data/charsets.json'
 
-perl -CSDA -F, -lanE 'use autodie; use sort "stable";
-    BEGIN {
-        open $fh, "ling-rhymes.txt";
-        our %h = ();
-        while (<$fh>) {
-            chomp;
-            my @a = split /[\s\(\)A-Z]*/;
-            for (@a) { $h{$_} = - (1 + scalar keys %h) if length($_) > 0 }
-        }
-    }
-    if ($. == 1) { print; next }
-    die "Unknown root: $F[0]\n" unless exists $h{$F[0]};
-    $h{$F[0]} = - $h{$F[0]};
-    push @a, [$_, @F];
-    END {
-        for (keys %h) { die "Unknown old root: $_\n" if $h{$_} < 0 }
-        @a = sort { substr($a->[2], 0, 1) cmp substr($b->[2], 0, 1) || $h{$a->[1]} <=> $h{$b->[1]} } @a;
-        for (@a) { print $_->[0] }
-    }
-' zigen-ling.csv > zigen-ling-reordered.csv
-
 perl -CSDA -lnE 'next if $. == 1; @a = split /,/, $_, 3; print join("\t", @a)' zigen-ling.csv > roots.tsv
 perl -CSDA -F, -lanE 'next if $. == 1; print join("\t", $F[0], $F[1])' chaifen.csv | grep -v '～' > chaifen_sc.tsv
 
@@ -89,6 +68,27 @@ echo -e "ver\t靈明輸入法-$VER" >> dazhu-ling-full.txt
 
 ./htmlize-ling-rhymes.pl --title 灵明输入法字根口诀-$VER > 灵明输入法字根口诀-$VER.html
 grep -Eo '<ruby\s+class=.two-letter-root.*?rp>' 灵明输入法字根口诀-$VER.html | sed -E 's/^/WARN: /' >&2 || true
+
+perl -CSDA -F, -lanE 'use autodie; use sort "stable";
+    BEGIN {
+        open $fh, "ling-rhymes.txt";
+        our %h = ();
+        while (<$fh>) {
+            chomp;
+            my @a = split /[\s\(\)A-Z]*/;
+            for (@a) { $h{$_} = - (1 + scalar keys %h) if length($_) > 0 }
+        }
+    }
+    if ($. == 1) { print; next }
+    die "Unknown root: $F[0]\n" unless exists $h{$F[0]};
+    $h{$F[0]} = - $h{$F[0]};
+    push @a, [$_, @F];
+    END {
+        for (keys %h) { die "Unknown old root: $_\n" if $h{$_} < 0 }
+        @a = sort { substr($a->[2], 0, 1) cmp substr($b->[2], 0, 1) || $h{$a->[1]} <=> $h{$b->[1]} } @a;
+        for (@a) { print $_->[0] }
+    }
+' zigen-ling.csv > zigen-ling-reordered.csv
 
 ../scripts/generate-example-chars.pl --skip-root --chaifen chaifen_sc.tsv --mabiao mabiao_sc.tsv > yuling-example-chars-$VER.txt
 
