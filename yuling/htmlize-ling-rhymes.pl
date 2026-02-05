@@ -137,7 +137,7 @@ sub print_html_header() {
         caption { margin-bottom: 10px; }
         rt { font-family: monospace; }
         .dama { text-align: center; }
-        .rhyme { margin-right: 1rem; }
+        .rhyme { line-break: anywhere; margin-right: 1rem; }
         .no-sheng-mu-root { color: red; }
         .no-sound-root { color: gray; }
         .unified-root { background-color: yellow; }
