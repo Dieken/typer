@@ -135,7 +135,7 @@ sub print_html_header() {
             line-height: 2.0;
         }
         caption { margin-bottom: 10px; }
-        rt { font-family: monospace; }
+        rt { font-family: monospace; text-transform: capitalize; }
         .dama { text-align: center; }
         .rhyme { line-break: anywhere; margin-right: 1rem; }
         .no-sheng-mu-root { color: red; }
