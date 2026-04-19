@@ -196,7 +196,7 @@ sub load_unihan($dir) {
         my $zip = File::Spec->catfile($dir, "Unihan.zip");
 
         my $response = HTTP::Tiny->new->mirror($url, $zip);
-        die "Failed to download $url\n" unless $response->{success};
+        die "Failed to download $url: $response->{status} $response->{reason}\n$response->{content}\n" unless $response->{success};
 
         unzip $zip, $unihan_readings, Name => "Unihan_Readings.txt" or die "unzip failed: $UnzipError\n";
         unzip $zip, $unihan_variants, Name => "Unihan_Variants.txt" or die "unzip failed: $UnzipError\n";
