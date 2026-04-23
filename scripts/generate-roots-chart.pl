@@ -459,12 +459,8 @@ Please enable JavaScript to experience the full functionality of our site.
     <li>需要本地安装以下任意一款大字集字体：</li>
     <ul>
       <li><a href="http://cheonhyeong.com/Simplified/download.html">天珩全字库(TH-Tshyn)</a></li>
-      <li><a href="https://www.guoxuedashi.net/zidian/bujian/KaiXinSong.php">开心宋体</a></li>
       <li><a href="http://soongsky.com/sky/download.php">超集宋体</a></li>
       <li><a href="https://github.com/takushun-wu/WenJinMincho">文津宋体</a></li>
-      <li><a href="https://github.com/takushun-wu/SuperHan">SuperHan 字库</a></li>
-      <li><a href="https://fgwang.blogspot.com/2023/10/unicode-151.html">全宋体</a></li>
-      <li><a href="https://kamichikoichi.github.io/jigmo/">Jigmo(字云)</a></li>
     </ul>
   </ol>
   <button style="margin-left: 20px" onclick="hideHelp()">隐藏</button>
