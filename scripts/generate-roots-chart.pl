@@ -195,6 +195,7 @@ sub load_unihan($dir) {
         my $url = "https://www.unicode.org/Public/UCD/latest/ucd/Unihan.zip";
         my $zip = File::Spec->catfile($dir, "Unihan.zip");
 
+        warn "Downloading $url to $zip, it may take ten minutes ...\n";
         my $response = HTTP::Tiny->new->mirror($url, $zip);
         die "Failed to download $url: $response->{status} $response->{reason}\n$response->{content}\n" unless $response->{success};
 
